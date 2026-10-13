@@ -1,0 +1,40 @@
+{
+  "time_utc": "2026-09-30T04:20:48.981465+00:00",
+  "posthoc_sensitivity_not_original_primary": true,
+  "observations_reused_no_new_samples": true,
+  "original_t_primary_decisions_unchanged": true,
+  "conditional_on_qualified_reference": true,
+  "simultaneous_confidence_for_two_fixed_profile_bounds": 0.95,
+  "joint_coverage_with_original_t_families_not_claimed": true,
+  "method": "zero-disagreement exact binomial bound times finite candidate risk range",
+  "rows": [
+    {
+      "profile": "null",
+      "N": 65536,
+      "paired_units": 16,
+      "observed_different_selections": 0,
+      "alpha_one_sided": 0.025,
+      "disagreement_probability_upper": 0.20590721420782274,
+      "candidate_risk_range_plus_numerical_allowance": 0.09029573451015105,
+      "mean_risk_difference_absolute_bound": 0.018592543147834362,
+      "strict_001_equivalence_certified": false
+    },
+    {
+      "profile": "contrast",
+      "N": 65536,
+      "paired_units": 16,
+      "observed_different_selections": 0,
+      "alpha_one_sided": 0.025,
+      "disagreement_probability_upper": 0.20590721420782274,
+      "candidate_risk_range_plus_numerical_allowance": 0.06799406713609757,
+      "mean_risk_difference_absolute_bound": 0.014000468946653523,
+      "strict_001_equivalence_certified": false
+    }
+  ],
+  "sources": {
+    "script/scale_learning_pair_sensitivity.py": "a0bab2ad18a48ca0294bb6b1bb781f8a1255aaa10b6dfd8dd4a1b1052567a27b",
+    "artifacts/scale_learning_v2/FINITE_FITS.csv": "20bc15023de8faa6f28ed81a2ab418653c9ed398bf6623b1ded53cbedc3381c8",
+    "artifacts/scale_learning_v2/REFERENCE_CURVES.csv": "2abbe062c1a46c58cfdf417f0455fbdced2aa51796a8add0d74cc769ffaf07a3",
+    "artifacts/scale_learning_v2/RESULTS_FREEZE.json": "e5b8c6b8192269bee34231aec40954e52102ae066c3aeba4f51280aab1bf1ef5"
+  }
+}

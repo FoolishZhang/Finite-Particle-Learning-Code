@@ -1,0 +1,102 @@
+{
+  "finished_utc": "2026-10-06T01:46:18.983920+00:00",
+  "freeze_sha256": "3d8c7728e01e7976b24987a9fb28412bda43f201b321e926bdd0d92635f95944",
+  "statistics": {
+    "alpha": 0.01,
+    "point_alpha": 0.0033333333333333335,
+    "banks": 262144,
+    "estimator": "mean of three correlated pair kernels per bank",
+    "results": [
+      {
+        "contrast": "h0",
+        "mean": 0.02820071377464458,
+        "variance": 1.8821389998111142e-05,
+        "range_length": 8.3125,
+        "numerical_allowance": 1e-09,
+        "halfwidth": 0.0005565001065401483,
+        "interval": [
+          0.02764421366810443,
+          0.02875721388118473
+        ],
+        "observed_min": 0.011906914026946056,
+        "observed_max": 0.05198014846547224
+      },
+      {
+        "contrast": "h256",
+        "mean": -0.0042654101617777464,
+        "variance": 0.00027836738293350556,
+        "range_length": 8.3125,
+        "numerical_allowance": 1e-09,
+        "halfwidth": 0.0006473022660078182,
+        "interval": [
+          -0.004912712427785564,
+          -0.0036181078957699285
+        ],
+        "observed_min": -0.06563711186364889,
+        "observed_max": 0.16557456717785338
+      },
+      {
+        "contrast": "interaction",
+        "mean": -0.03246612393642233,
+        "variance": 0.0002955395312373527,
+        "range_length": 16.625,
+        "numerical_allowance": 2e-09,
+        "halfwidth": 0.0011756228855597064,
+        "interval": [
+          -0.03364174682198203,
+          -0.031290501050862625
+        ],
+        "observed_min": -0.10476479631621338,
+        "observed_max": 0.13191686093147723
+      }
+    ],
+    "pair_means": [
+      [
+        0.0282029350610221,
+        0.028197259420549826,
+        0.028201946842361957
+      ],
+      [
+        -0.004280235531368545,
+        -0.004252957846934782,
+        -0.004263037107030079
+      ]
+    ],
+    "new_family_only": true,
+    "combined_with_prior_99_family_lower_coverage": 0.98
+  },
+  "gates": {
+    "n0_positive": true,
+    "n256_negative": true,
+    "interaction_negative": true,
+    "numerical_qualification": true
+  },
+  "all_primary_gates_passed": true,
+  "analytic_certificates_sha256": "b8295bb723f4b28ed18f04564c416e481cf86882288e3158599366f9a687c1bc",
+  "arithmetic_audit_sha256": "d9f2e2715e21f70326ac82de960007cf5110017282eaa79130aff50cc04da24a",
+  "wall_seconds": 283.81299999996554,
+  "array": {
+    "path": "artifacts/local_geometry_v1_20261006/BANKS.npz",
+    "sha256": "2252a8131740e4a6323f4fbdf1f30d8eba3df2fe0ec90c67ffbeb9f5aafefdea",
+    "bytes": 807979069
+  },
+  "resources": {
+    "new_observations": 0,
+    "prior_vectors": 26214400,
+    "Gaussian_scalars": 6789529600,
+    "bank_condition_direction_evaluations": 1572864,
+    "score_calls": 0,
+    "optimizer_updates": 0,
+    "quadrature_nodes": 0,
+    "statistical_contrasts": 3,
+    "additional_interval_direction_checks": 192
+  },
+  "claims": {
+    "qualified_population_curvature_only": true,
+    "no_nuisance_global_optimum_proved": false,
+    "general_optimizer_guarantee": false,
+    "quantitative_neighborhood_proved": false,
+    "manuscript_modified": false,
+    "original_nuisance_contrast_failed_gate_preserved": true
+  }
+}

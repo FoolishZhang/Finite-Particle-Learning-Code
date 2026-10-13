@@ -1,0 +1,22 @@
+{
+  "source_sha256": "43194e6bd817610950afebac883c2b8e56f58455a9e3095318420056b2787202",
+  "inputs": {
+    "artifacts/finite_calibration/CAL/MODEL.json": "ea73bb0b2ded95a15bbc27c020a3d8f26aa2041df8bc1276c0689f103255fe3c",
+    "artifacts/finite_calibration/CAL/VALIDATION.json": "e053010d4d3a219e89f95df2a9a4ac3bc573a76a6ef6ed01037d6410d8d74420",
+    "artifacts/finite_calibration/TRAIN/RESULTS.json": "c748756e4ea6870d880c4333db5440a208b2c7444a2683e4f3bcd7487f0d1ea1"
+  },
+  "posthoc": true,
+  "rule": "pooled independent-validation derivative spline Uprime+t_N Vprime, with/without frozen finite gprime",
+  "scope": "conditional-bank-expectation numerical proxy; not actual empirical objective or strict population certificate",
+  "candidates": "all real derivative roots plus endpoints",
+  "tie_tolerance": 1e-12,
+  "tie_rule": "smallest abs rho then rho",
+  "methods": [
+    "raw",
+    "finitecal"
+  ],
+  "target_assignments": 192,
+  "new_random_draws": 0,
+  "new_Gaussian_integrals": 0,
+  "no_causal_percentage_decomposition": true
+}

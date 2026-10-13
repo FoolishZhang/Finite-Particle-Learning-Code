@@ -1,0 +1,266 @@
+{
+  "finished_utc": "2026-10-06T05:30:03.306745+00:00",
+  "wall_seconds": 17.06200000003446,
+  "development_only": true,
+  "post_hoc": true,
+  "source_array": {
+    "path": "artifacts/nuisance_contrast_v1_20261006/EVALUATION_BANKS.npz",
+    "sha256": "2fc7f9e258b80332123c29c3600c476ef80348f67fdde0889f7bab8883bfc8d8",
+    "bytes": 843055846
+  },
+  "output_array": {
+    "path": "artifacts/failure_probability_v1_20261006/DEVELOPMENT_POINT_DIFFERENCES.npz",
+    "sha256": "0d1f3ee40d4e275a606c0767aebd876e6c59433efdd22ae75173fadab2d4099b",
+    "bytes": 25167450
+  },
+  "inputs_sha256": "8977541c24d8e3d5fe8a95e42bedbfbe335b4b9e741628825c37c65eac39b755",
+  "code_sha256": "782883cce803b835aa2a004dd8bc38109cc50af77fb87fc5b790c32b0a7805dd",
+  "contract_sha256": "dacda2ceb98b21281b77d794b0c6f53d4ca80856d323df07ee81a3d0d5f20ec9",
+  "statistics": {
+    "banks": 262144,
+    "label_order": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "point_difference_mean": 0.005905979917317515,
+    "label_means": [
+      0.1852006554229043,
+      -0.05453491812586271,
+      -0.051969797124576014,
+      -0.05353782251947634,
+      -0.05438286234793364,
+      -0.05503942253990175,
+      -0.053002551608781444,
+      0.184514558182168
+    ],
+    "same_label_indices": [
+      0,
+      7
+    ],
+    "split_label_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "same_mean": 0.18485760680253616,
+    "split_mean": -0.053744562377755316,
+    "bank_mean_sample_variance": 0.04100248931962899,
+    "empirical_E_y_d_squared": 0.2476094585837591,
+    "empirical_ANOVA": {
+      "data": 0.010675397491997087,
+      "bank": 0.041002332907545104,
+      "interaction": 0.1958968475854333,
+      "total": 0.24757457798497534,
+      "decomposition_error": 1.3877787807814457e-16,
+      "denominator": "empirical product measure: 1/B and 1/8"
+    },
+    "symmetry_projection": {
+      "data_variance": 0.010674561588288832,
+      "within_label_class_asymmetry": 8.359037082551757e-07,
+      "modifies_bank_inputs": false
+    },
+    "Cantelli_illustration": {
+      "N": 65536,
+      "B": 16384,
+      "tolerance": 1e-12,
+      "variance_parts": {
+        "data": 1.6289363848872508e-07,
+        "bank": 2.5025933422625118e-06,
+        "interaction": 1.8244315645232172e-10
+      },
+      "empirical_variance_sum": 2.6656694239076893e-06,
+      "old_g_lower": 0.0023423274756846618,
+      "sample_mean": 0.005905979917317515,
+      "with_old_g_lower": 0.6730109569968542,
+      "with_sample_mean": 0.9290030793472552,
+      "bank_only_with_old_g_lower": 0.6867486882466021,
+      "bank_only_with_sample_mean": 0.9330556541395152,
+      "valid_probability_bound": false,
+      "audit_confidence": null,
+      "qualification": "All variance inputs are empirical estimates, not certified true upper bounds; numerical illustration only"
+    }
+  },
+  "truncation_diagnostics": [
+    {
+      "T": 5.5,
+      "banks": 262144,
+      "truncated_banks": 1,
+      "summaries": {
+        "X": {
+          "mean": 0.005905696711404232,
+          "sample_variance": 0.04100247163928421,
+          "observed_min": -2.177513272377891,
+          "observed_max": 1.6819269986611791
+        },
+        "D_T": {
+          "mean": 0.23860161726820084,
+          "sample_variance": 0.05040950815708801,
+          "observed_min": -0.00016896578400993345,
+          "observed_max": 1.6328422104023674
+        },
+        "X_squared": {
+          "mean": 0.04103719248091485,
+          "sample_variance": 0.01112731714523462,
+          "observed_min": 0.0,
+          "observed_max": 4.741564051381872
+        }
+      },
+      "new_confidence_statement": false,
+      "data_role": "post-hoc descriptive threshold comparison; not an independent audit"
+    },
+    {
+      "T": 6.0,
+      "banks": 262144,
+      "truncated_banks": 0,
+      "summaries": {
+        "X": {
+          "mean": 0.005905979917317515,
+          "sample_variance": 0.04100248931962899,
+          "observed_min": -2.177513272377891,
+          "observed_max": 1.6819269986611791
+        },
+        "D_T": {
+          "mean": 0.2386021691802901,
+          "sample_variance": 0.05040932463273457,
+          "observed_min": -0.00016896578400993345,
+          "observed_max": 1.6328422104023674
+        },
+        "X_squared": {
+          "mean": 0.04103721350632886,
+          "sample_variance": 0.011127315535465598,
+          "observed_min": 3.881963208503674e-13,
+          "observed_max": 4.741564051381872
+        }
+      },
+      "new_confidence_statement": false,
+      "data_role": "post-hoc descriptive threshold comparison; not an independent audit"
+    },
+    {
+      "T": 6.5,
+      "banks": 262144,
+      "truncated_banks": 0,
+      "summaries": {
+        "X": {
+          "mean": 0.005905979917317515,
+          "sample_variance": 0.04100248931962899,
+          "observed_min": -2.177513272377891,
+          "observed_max": 1.6819269986611791
+        },
+        "D_T": {
+          "mean": 0.2386021691802901,
+          "sample_variance": 0.05040932463273457,
+          "observed_min": -0.00016896578400993345,
+          "observed_max": 1.6328422104023674
+        },
+        "X_squared": {
+          "mean": 0.04103721350632886,
+          "sample_variance": 0.011127315535465598,
+          "observed_min": 3.881963208503674e-13,
+          "observed_max": 4.741564051381872
+        }
+      },
+      "new_confidence_statement": false,
+      "data_role": "post-hoc descriptive threshold comparison; not an independent audit"
+    },
+    {
+      "T": 8.0,
+      "banks": 262144,
+      "truncated_banks": 0,
+      "summaries": {
+        "X": {
+          "mean": 0.005905979917317515,
+          "sample_variance": 0.04100248931962899,
+          "observed_min": -2.177513272377891,
+          "observed_max": 1.6819269986611791
+        },
+        "D_T": {
+          "mean": 0.2386021691802901,
+          "sample_variance": 0.05040932463273457,
+          "observed_min": -0.00016896578400993345,
+          "observed_max": 1.6328422104023674
+        },
+        "X_squared": {
+          "mean": 0.04103721350632886,
+          "sample_variance": 0.011127315535465598,
+          "observed_min": 3.881963208503674e-13,
+          "observed_max": 4.741564051381872
+        }
+      },
+      "new_confidence_statement": false,
+      "data_role": "post-hoc descriptive threshold comparison; not an independent audit"
+    }
+  ],
+  "verification": {
+    "max_original_bank_difference_error": 1.7763568394002505e-15,
+    "old_population_mean_error": 8.673617379884035e-19,
+    "old_sample_variance_error": 6.938893903907228e-18,
+    "tolerance": 1e-11,
+    "original_source_unchanged": true
+  },
+  "resources": {
+    "new_rng": 0,
+    "new_observations": 0,
+    "new_prior_vectors": 0,
+    "new_Gaussians": 0,
+    "old_banks_processed": 262144,
+    "K": 100,
+    "reused_prior_vectors": 26214400,
+    "reused_active_Gaussian_values": 78643200,
+    "reused_nuisance_log_sums": 26214400,
+    "coupled_kernel_block_calls": 1024,
+    "candidate_bank_label_logscore_evaluations": 4194304,
+    "candidate_particle_logit_transformations": 52428800,
+    "scientific_Arb_banks": 0,
+    "optimizer_updates": 0,
+    "new_statistical_contrasts": 0
+  },
+  "claims": {
+    "new_confidence_family": false,
+    "true_variance_upper_bound": false,
+    "algorithm_failure_probability_lower_bound": false,
+    "whole_pipeline_numerical_certification": false,
+    "scientific_all_node_Arb_replay": false,
+    "original_learner_modified": false
+  }
+}

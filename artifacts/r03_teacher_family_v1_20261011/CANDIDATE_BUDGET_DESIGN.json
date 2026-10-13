@@ -1,0 +1,2268 @@
+{
+  "schema": "r03_analytic_grid_design_v1",
+  "new_grid_nodes": 0,
+  "configurations": [
+    {
+      "schema": "r03_candidate_analytic_bounds_v1",
+      "config": {
+        "K": 8,
+        "precision_bits": 192,
+        "hz": "1/40",
+        "L": "11",
+        "dz": "1/8",
+        "hv": "1/8",
+        "vmin": "-32",
+        "vmax": "64",
+        "dv": "1/2",
+        "T": "4",
+        "saturation_threshold": 128,
+        "label_mode": "complement"
+      },
+      "m": 8,
+      "Hba_dimension": 16,
+      "Hperp_dimension": 8,
+      "a_upper_exact": [
+        "4236614515730759/9007199254740992",
+        "1274451243427741/2251799813685248",
+        "181129089615167/281474976710656",
+        "775431105319425/1125899906842624",
+        "775431105319425/1125899906842624",
+        "181129089615167/281474976710656",
+        "1274451243427741/2251799813685248",
+        "4236614515730759/9007199254740992"
+      ],
+      "full_l1_asum": {
+        "arb_display_only": "4.73709942376442749711884516727877780795097351074218750000",
+        "lower_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -52
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -52
+        }
+      },
+      "inner_CR_squared": {
+        "arb_display_only": "[8.0111829425809508196854081594792063381387160720129018935 +/- 2.38e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "785734536740235345432224952110349070553589513754187500875",
+          "exponent_of_two": -186
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "392867268370117672716112476055174535276794756877093750439",
+          "exponent_of_two": -185
+        }
+      },
+      "inner_phase_theta": {
+        "arb_display_only": "0.592137427970553437139855645909847225993871688842773437500",
+        "lower_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -55
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -55
+        }
+      },
+      "upper_U_eta": {
+        "arb_display_only": "[143688601085646812.447241282483391620296296980569173431943 +/- 4.09e-40]",
+        "lower_exact_dyadic": {
+          "mantissa": "6258521251453750461558127323240454002599498367699984760795",
+          "exponent_of_two": -135
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "6258521251453750461558127323240454002599498367699984760803",
+          "exponent_of_two": -135
+        }
+      },
+      "teacher_error_L1_upper": "0",
+      "teacher_mass_upper": "1",
+      "bounds": {
+        "inner_gradient_L2": {
+          "arb_display_only": "[2.4910567293508049693479618659277224803044695795731653616e-10 +/- 5.91e-66]",
+          "lower_exact_dyadic": {
+            "mantissa": "104935557137725637158363926728088624355318479208736277999",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "839484457101805097266911413824708994842547833669890224027",
+            "exponent_of_two": -221
+          }
+        },
+        "outer_alias_gradient_L2": {
+          "arb_display_only": "[5.0038723471277952434821666139386287718231805551475954220e-10 +/- 6.15e-66]",
+          "lower_exact_dyadic": {
+            "mantissa": "421575411274360164689021178730000980782124668217432948873",
+            "exponent_of_two": -219
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1686301645097440658756084714920003923128498672869731795509",
+            "exponent_of_two": -221
+          }
+        },
+        "outer_lower_gradient_L2": {
+          "arb_display_only": "[2.14647339043053322026214281617426448552718847740809044157e-13 +/- 5.03e-70]",
+          "lower_exact_dyadic": {
+            "mantissa": "5925765952354835261177016454564776461266960980851144330391",
+            "exponent_of_two": -234
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5925765952354835261177016454564776461266960980851144330413",
+            "exponent_of_two": -234
+          }
+        },
+        "outer_upper_good_gradient_L2": {
+          "arb_display_only": "[2.504762335063883999372698530851534980285e-62403166563894010 +/- 2.27e-62403166563894050]",
+          "lower_exact_dyadic": {
+            "mantissa": "1648067998201104218688128966339038101952213763819799838719",
+            "exponent_of_two": -207298832218535367
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1648067998201104218688128966339038101952505411340114853887",
+            "exponent_of_two": -207298832218535367
+          }
+        },
+        "outer_upper_bad_gradient_L2": {
+          "arb_display_only": "[3.9728241548475908994009946773953566314407142156663674495e-32 +/- 6.73e-88]",
+          "lower_exact_dyadic": {
+            "mantissa": "5057991081921994913748586956053863380355195476233655246301",
+            "exponent_of_two": -296
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5057991081921994913748586956053863380355195476233655246383",
+            "exponent_of_two": -296
+          }
+        },
+        "uniform_gradient_L2": {
+          "arb_display_only": "[7.497075549869030746050787905098010275703117422665908410e-10 +/- 4.08e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "5053018924601703141748695820340610211734272566668942578079",
+            "exponent_of_two": -222
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5053018924601703141748695820340610211734272566668942578187",
+            "exponent_of_two": -222
+          }
+        },
+        "inner_Hba_operator": {
+          "arb_display_only": "[9.040574089464207687012739367571300901259938950116526477e-9 +/- 5.67e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "3808334301443421813621620422322340374760393520784984420767",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3808334301443421813621620422322340374760393520784984420927",
+            "exponent_of_two": -218
+          }
+        },
+        "inner_Hperp_operator": {
+          "arb_display_only": "[2.2709025113709792772926226396637278462765287370578367113e-9 +/- 7.24e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "3826463162053753165962065233127231417509856289787280093189",
+            "exponent_of_two": -220
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3826463162053753165962065233127231417509856289787280093349",
+            "exponent_of_two": -220
+          }
+        },
+        "outer_alias_Hba_operator": {
+          "arb_display_only": "[2.3362837603284575470939661553412808570793853909039035591e-9 +/- 3.76e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "3936630348611585198622920569902124095874082437141347810605",
+            "exponent_of_two": -220
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3936630348611585198622920569902124095874082437141347810643",
+            "exponent_of_two": -220
+          }
+        },
+        "outer_alias_Hperp_operator": {
+          "arb_display_only": "[2.5958708448093972745488512837125342856437615454487817323e-10 +/- 1.58e-66]",
+          "lower_exact_dyadic": {
+            "mantissa": "3499226976543631287664818284357443640776962166347864720539",
+            "exponent_of_two": -223
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3499226976543631287664818284357443640776962166347864720571",
+            "exponent_of_two": -223
+          }
+        },
+        "outer_lower_Hba_operator": {
+          "arb_display_only": "[2.14004532754158753278654281127951792582723488341366614952e-13 +/- 2.51e-70]",
+          "lower_exact_dyadic": {
+            "mantissa": "5908020008530546902748802854927983452214214422380472416833",
+            "exponent_of_two": -234
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5908020008530546902748802854927983452214214422380472416847",
+            "exponent_of_two": -234
+          }
+        },
+        "outer_lower_Hperp_operator": {
+          "arb_display_only": "[2.37782814171287503642949201253279769536359431490407349947e-14 +/- 4.80e-71]",
+          "lower_exact_dyadic": {
+            "mantissa": "656446667614505211416533650547553716912690491375608046315",
+            "exponent_of_two": -234
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2625786670458020845666134602190214867650761965502432185265",
+            "exponent_of_two": -236
+          }
+        },
+        "outer_upper_good_Hba_operator": {
+          "arb_display_only": "[3.239152163796128850137832187154315028838e-62403166563893992 +/- 7.47e-62403166563894032]",
+          "lower_exact_dyadic": {
+            "mantissa": "1848588353919748153190527323443362902042450352227476058303",
+            "exponent_of_two": -207298832218535307
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1848588353919748153190527323443362902042777484489491493055",
+            "exponent_of_two": -207298832218535307
+          }
+        },
+        "outer_upper_good_Hperp_operator": {
+          "arb_display_only": "[3.599057959773476500153146874615905587597e-62403166563893993 +/- 5.86e-62403166563894033]",
+          "lower_exact_dyadic": {
+            "mantissa": "1643189647928665025058246509727433690704400313091865309809",
+            "exponent_of_two": -207298832218535310
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1643189647928665025058246509727433690704691097323216958065",
+            "exponent_of_two": -207298832218535310
+          }
+        },
+        "outer_upper_bad_Hba_operator": {
+          "arb_display_only": "[5.1521607037922525419855729883331658610661688469086734418e-31 +/- 6.57e-87]",
+          "lower_exact_dyadic": {
+            "mantissa": "2049831388570629712449143337309775317844700293837135831855",
+            "exponent_of_two": -291
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2049831388570629712449143337309775317844700293837135831889",
+            "exponent_of_two": -291
+          }
+        },
+        "outer_upper_bad_Hperp_operator": {
+          "arb_display_only": "[3.7607012436439799576537029111920918693913641218311484976e-33 +/- 7.72e-89]",
+          "lower_exact_dyadic": {
+            "mantissa": "3830341864774315375087450323732134900498126096513188123763",
+            "exponent_of_two": -299
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3830341864774315375087450323732134900498126096513188123821",
+            "exponent_of_two": -299
+          }
+        },
+        "uniform_Hba_operator": {
+          "arb_display_only": "[1.1377071854325419392860499393264088935386105621807604719e-8 +/- 3.13e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "1198145509456851327585836101455590890511138988139701185955",
+            "exponent_of_two": -216
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1198145509456851327585836101455590890511138988139701185999",
+            "exponent_of_two": -216
+          }
+        },
+        "uniform_Hperp_operator": {
+          "arb_display_only": "[2.5305133741333361334978758236563502467978161812487751174e-9 +/- 6.96e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "2131953300223317360030259551428083204247561082058329786587",
+            "exponent_of_two": -219
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2131953300223317360030259551428083204247561082058329786673",
+            "exponent_of_two": -219
+          }
+        },
+        "teacher_global_gradient_L2": {
+          "arb_display_only": "8.00000000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "1",
+            "exponent_of_two": 3
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1",
+            "exponent_of_two": 3
+          }
+        },
+        "teacher_global_Hba_operator": {
+          "arb_display_only": "146.250000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "585",
+            "exponent_of_two": -2
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "585",
+            "exponent_of_two": -2
+          }
+        },
+        "teacher_global_Hperp_operator": {
+          "arb_display_only": "8.25000000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "33",
+            "exponent_of_two": -2
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "33",
+            "exponent_of_two": -2
+          }
+        },
+        "teacher_transfer_gradient_L2": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "teacher_transfer_Hba_operator": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "teacher_transfer_Hperp_operator": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "total_gradient_L2": {
+          "arb_display_only": "[7.497075549869030746050787905098010275703117422665908410e-10 +/- 4.08e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "5053018924601703141748695820340610211734272566668942578079",
+            "exponent_of_two": -222
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5053018924601703141748695820340610211734272566668942578187",
+            "exponent_of_two": -222
+          }
+        },
+        "total_Hba_operator": {
+          "arb_display_only": "[1.1377071854325419392860499393264088935386105621807604719e-8 +/- 3.13e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "1198145509456851327585836101455590890511138988139701185955",
+            "exponent_of_two": -216
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1198145509456851327585836101455590890511138988139701185999",
+            "exponent_of_two": -216
+          }
+        },
+        "total_Hperp_operator": {
+          "arb_display_only": "[2.5305133741333361334978758236563502467978161812487751174e-9 +/- 6.96e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "2131953300223317360030259551428083204247561082058329786587",
+            "exponent_of_two": -219
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2131953300223317360030259551428083204247561082058329786673",
+            "exponent_of_two": -219
+          }
+        }
+      },
+      "inner_moments": {
+        "Psi": {
+          "boundary": {
+            "arb_display_only": "[1.00784309720644797769345355976012357919339214988403723154 +/- 2.27e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "790791706809010224077654463943064342063581470065136778897",
+              "exponent_of_two": -189
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "395395853404505112038827231971532171031790735032568389449",
+              "exponent_of_two": -188
+            }
+          },
+          "alias": {
+            "arb_display_only": "[4.577827069537359080651662733402856768575693471506045380e-14 +/- 3.18e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "631900025068368405033846733136763577406763124653542478249",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2527600100273473620135386932547054309627052498614169913075",
+              "exponent_of_two": -235
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[3.85239864274427917903976045827552052457246396101162689165e-28 +/- 7.46e-85]",
+            "lower_exact_dyadic": {
+              "mantissa": "2993574001484772415408761304892206972897291460604397192657",
+              "exponent_of_two": -282
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2993574001484772415408761304892206972897291460604397192663",
+              "exponent_of_two": -282
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[4.5778270695373976046380901761946471661802762267112911049e-14 +/- 8.68e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "5055200200546989781515988171102265512017058191492196247611",
+              "exponent_of_two": -236
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5055200200546989781515988171102265512017058191492196247771",
+              "exponent_of_two": -236
+            }
+          }
+        },
+        "T0": {
+          "boundary": {
+            "arb_display_only": "[0.44683932991947628946088787251382241849978506857124797675 +/- 5.12e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "1402427966638283100135718442593008871248320317885471278797",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2804855933276566200271436885186017742496640635770942557601",
+              "exponent_of_two": -192
+            }
+          },
+          "alias": {
+            "arb_display_only": "[2.0296345590987357524557103379258440043140479343338858335e-14 +/- 3.96e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "4482567329145464357401704549707526792793609228017886018715",
+              "exponent_of_two": -237
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4482567329145464357401704549707526792793609228017886018865",
+              "exponent_of_two": -237
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.41721825986238829735660998998282130805334360183949188926e-28 +/- 5.75e-85]",
+            "lower_exact_dyadic": {
+              "mantissa": "4405097323086306091501384800088688759002628909701782548227",
+              "exponent_of_two": -284
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4405097323086306091501384800088688759002628909701782548241",
+              "exponent_of_two": -284
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[2.0296345590987499246383089618088175704139477625469663669e-14 +/- 7.59e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "2241283664572747828750368451043090200633916829969589485025",
+              "exponent_of_two": -236
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2241283664572747828750368451043090200633916829969589485101",
+              "exponent_of_two": -236
+            }
+          }
+        },
+        "R": {
+          "boundary": {
+            "arb_display_only": "[1.79557927780705976128981932618723483243580392543053153625 +/- 9.38e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "2817758450186764447377789933612642149845557131972438937395",
+              "exponent_of_two": -190
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2817758450186764447377789933612642149845557131972438937411",
+              "exponent_of_two": -190
+            }
+          },
+          "alias": {
+            "arb_display_only": "[8.155884032176621833574555025452668182726243313886763388e-14 +/- 2.07e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4503187425913799418948256293612147521559942619139807802297",
+              "exponent_of_two": -235
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4503187425913799418948256293612147521559942619139807802461",
+              "exponent_of_two": -235
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[6.23576034339450850836908395592441375543471184809376431276e-27 +/- 8.13e-84]",
+            "lower_exact_dyadic": {
+              "mantissa": "6057008819243670875814404100121947043628614750839951003815",
+              "exponent_of_two": -279
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "6057008819243670875814404100121947043628614750839951003829",
+              "exponent_of_two": -279
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[8.155884032177245409608894476303505091121835755262306859e-14 +/- 3.92e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4503187425914143720037612169777337214776411370274030266995",
+              "exponent_of_two": -235
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4503187425914143720037612169777337214776411370274030267161",
+              "exponent_of_two": -235
+            }
+          }
+        },
+        "Q": {
+          "boundary": {
+            "arb_display_only": "[7.2153562298805021292283182422972285129799594399607599024 +/- 3.76e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "5661440639001999777045973129202360198294422391664338514935",
+              "exponent_of_two": -189
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5661440639001999777045973129202360198294422391664338514975",
+              "exponent_of_two": -189
+            }
+          },
+          "alias": {
+            "arb_display_only": "[3.2773606484041773113821192648300265840605799109649787049e-13 +/- 7.54e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4523902376447736827391935904474463609118610747004838777091",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4523902376447736827391935904474463609118610747004838777261",
+              "exponent_of_two": -233
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.39454276770459008459890423014309616712449010421006001904e-25 +/- 6.88e-82]",
+            "lower_exact_dyadic": {
+              "mantissa": "1058255802225811814950527989083806088588522179479139166859",
+              "exponent_of_two": -272
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2116511604451623629901055978167612177177044358958278333725",
+              "exponent_of_two": -273
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[3.2773606484055718541498238549146254882907230071321031950e-13 +/- 7.97e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4523902376449661783482425575761660530283413310164355284273",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4523902376449661783482425575761660530283413310164355284445",
+              "exponent_of_two": -233
+            }
+          }
+        },
+        "B": {
+          "boundary": {
+            "arb_display_only": "[0.225582850579918900642680957618225240808091034463480584658 +/- 6.98e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "5664026011394732945415852190668751220894690370530844856071",
+              "exponent_of_two": -194
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5664026011394732945415852190668751220894690370530844856099",
+              "exponent_of_two": -194
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.0246429058953197638512580881088845928430520724741039418e-14 +/- 3.66e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "4525968276817849993673447376174843761884948508809999564757",
+              "exponent_of_two": -238
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4525968276817849993673447376174843761884948508809999564919",
+              "exponent_of_two": -238
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[4.3579461490768440143715757191971755222640315756564375595e-27 +/- 2.15e-83]",
+            "lower_exact_dyadic": {
+              "mantissa": "1058255802225811814950527989083806088588522179479139166859",
+              "exponent_of_two": -277
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2116511604451623629901055978167612177177044358958278333725",
+              "exponent_of_two": -278
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.0246429058957555584661657725103217504149717900263303450e-14 +/- 4.26e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "4525968276819774949763937047462040683049751071969516071939",
+              "exponent_of_two": -238
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4525968276819774949763937047462040683049751071969516072103",
+              "exponent_of_two": -238
+            }
+          }
+        },
+        "Qp": {
+          "boundary": {
+            "arb_display_only": "[3.5797116179252103586869175775738187971373442182751056880 +/- 3.09e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "1404388375566387541592799535926166870894740438242316530837",
+              "exponent_of_two": -188
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2808776751132775083185599071852333741789480876484633061693",
+              "exponent_of_two": -189
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.6259773759524600614608963794505558246502101883857258691e-13 +/- 3.50e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4488833365777599332605951905214971643156450973772243127657",
+              "exponent_of_two": -234
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4488833365777599332605951905214971643156450973772243127825",
+              "exponent_of_two": -234
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.13377460788991063788528799198625704644267488147159351141e-27 +/- 2.60e-84]",
+            "lower_exact_dyadic": {
+              "mantissa": "4405097323086306091501384800088688759002628909701782548227",
+              "exponent_of_two": -281
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4405097323086306091501384800088688759002628909701782548241",
+              "exponent_of_two": -281
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.6259773759524713992069752785569346775301300509561902959e-13 +/- 7.71e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "280552085361101914544061516099601578226917212855846004937",
+              "exponent_of_two": -230
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2244416682888815316352492128796812625815337702846768039581",
+              "exponent_of_two": -233
+            }
+          }
+        },
+        "Bp": {
+          "boundary": {
+            "arb_display_only": "[0.111917073155928756907996754167181514819518032602036879210 +/- 4.98e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "702514854126478504857780116672093174684612759135608664319",
+              "exponent_of_two": -192
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2810059416505914019431120466688372698738451036542434657289",
+              "exponent_of_two": -194
+            }
+          },
+          "alias": {
+            "arb_display_only": "[5.0834996881628267353860866386797375148802583440575699439e-15 +/- 9.46e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "4490883251416161234032567939150232569932352008741704994489",
+              "exponent_of_two": -239
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4490883251416161234032567939150232569932352008741704994647",
+              "exponent_of_two": -239
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[3.54304564965597074339152497495705327013335900459872972316e-29 +/- 5.35e-86]",
+            "lower_exact_dyadic": {
+              "mantissa": "4405097323086306091501384800088688759002628909701782548227",
+              "exponent_of_two": -286
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4405097323086306091501384800088688759002628909701782548241",
+              "exponent_of_two": -286
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[5.083499688162862165842583198387171430130007914590271277e-15 +/- 5.86e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "140340101606756016691612509110277693075205513770718685807",
+              "exponent_of_two": -234
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "35085025401689004172903127277569423268801378442679671453",
+              "exponent_of_two": -232
+            }
+          }
+        }
+      },
+      "gradient_inner_moments": {
+        "Psi_boundary": {
+          "arb_display_only": "[1.00784309720644797769345355976012357919339214988403723154 +/- 2.27e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "790791706809010224077654463943064342063581470065136778897",
+            "exponent_of_two": -189
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "395395853404505112038827231971532171031790735032568389449",
+            "exponent_of_two": -188
+          }
+        },
+        "D_boundary_L2": {
+          "arb_display_only": "[1.27457797024405571292256819339388152268158256148616610701 +/- 5.93e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "2000163897226148818031289068319858601489271504965712537483",
+            "exponent_of_two": -190
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2000163897226148818031289068319858601489271504965712537495",
+            "exponent_of_two": -190
+          }
+        },
+        "Psi_error": {
+          "arb_display_only": "[4.5778270695373976046380901761946471661802762267112911049e-14 +/- 8.68e-70]",
+          "lower_exact_dyadic": {
+            "mantissa": "5055200200546989781515988171102265512017058191492196247611",
+            "exponent_of_two": -236
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5055200200546989781515988171102265512017058191492196247771",
+            "exponent_of_two": -236
+          }
+        },
+        "D_error_L2": {
+          "arb_display_only": "[5.789390779767832452443077781908362310058406192949504768e-14 +/- 3.95e-69]",
+          "lower_exact_dyadic": {
+            "mantissa": "1598276266576224442351293721567253848456227425397582684763",
+            "exponent_of_two": -234
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1598276266576224442351293721567253848456227425397582684823",
+            "exponent_of_two": -234
+          }
+        }
+      },
+      "uniform_all_labels_and_input_box": true,
+      "paired_dimension_doubling_used": false,
+      "compute_arithmetic_included": false,
+      "interval_dependency_inflation_already_in_finite_balls": true,
+      "Hessian_errors_are_operator_not_entrywise": true,
+      "teacher_decomposition": "qfinite*(true-grid)+(ptrue-qfinite)*true",
+      "scientific_grid_evaluations": 0,
+      "random_draws": 0,
+      "old_npz_reads": 0
+    },
+    {
+      "schema": "r03_candidate_analytic_bounds_v1",
+      "config": {
+        "K": 8,
+        "precision_bits": 192,
+        "hz": "1/32",
+        "L": "10",
+        "dz": "3/20",
+        "hv": "1/5",
+        "vmin": "-28",
+        "vmax": "56",
+        "dv": "4/5",
+        "T": "4",
+        "saturation_threshold": 128,
+        "label_mode": "complement"
+      },
+      "m": 8,
+      "Hba_dimension": 16,
+      "Hperp_dimension": 8,
+      "a_upper_exact": [
+        "4236614515730759/9007199254740992",
+        "1274451243427741/2251799813685248",
+        "181129089615167/281474976710656",
+        "775431105319425/1125899906842624",
+        "775431105319425/1125899906842624",
+        "181129089615167/281474976710656",
+        "1274451243427741/2251799813685248",
+        "4236614515730759/9007199254740992"
+      ],
+      "full_l1_asum": {
+        "arb_display_only": "4.73709942376442749711884516727877780795097351074218750000",
+        "lower_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -52
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -52
+        }
+      },
+      "inner_CR_squared": {
+        "arb_display_only": "[8.0161105170750633399672384530100320511839883739230813427 +/- 5.45e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "3144871327361456434642371108909682756229158118347210951725",
+          "exponent_of_two": -188
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3144871327361456434642371108909682756229158118347210951737",
+          "exponent_of_two": -188
+        }
+      },
+      "inner_phase_theta": {
+        "arb_display_only": "[0.710564913564664124567826775091816671192646026611328125000 +/- 4.76e-58]",
+        "lower_exact_dyadic": {
+          "mantissa": "4460288252041639994549057587894727484559013793614894255305",
+          "exponent_of_two": -192
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "4460288252041639994549057587894727484559013793614894255311",
+          "exponent_of_two": -192
+        }
+      },
+      "upper_U_eta": {
+        "arb_display_only": "[48202155719826.7952812080140757429575401193863974907684642 +/- 5.19e-44]",
+        "lower_exact_dyadic": {
+          "mantissa": "2149887985455505635111954130453945385059468347984771768557",
+          "exponent_of_two": -145
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "134367999090969102194497133153371586566216771749048235535",
+          "exponent_of_two": -141
+        }
+      },
+      "teacher_error_L1_upper": "0",
+      "teacher_mass_upper": "1",
+      "bounds": {
+        "inner_gradient_L2": {
+          "arb_display_only": "[7.828833043075544465135010782768119508096264220715073608e-10 +/- 5.73e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "329788939542723947240809647743833432934490987945294788859",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "164894469771361973620404823871916716467245493972647394437",
+            "exponent_of_two": -217
+          }
+        },
+        "outer_alias_gradient_L2": {
+          "arb_display_only": "[6.302955109876277785499603181574927676194480766056483758e-10 +/- 5.90e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "4248183340192726248227333593177823871649559420035404923363",
+            "exponent_of_two": -222
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4248183340192726248227333593177823871649559420035404923587",
+            "exponent_of_two": -222
+          }
+        },
+        "outer_lower_gradient_L2": {
+          "arb_display_only": "[1.12765569476637447120055282258691322792892641934089742665e-11 +/- 3.29e-68]",
+          "lower_exact_dyadic": {
+            "mantissa": "304015373898101565908319284477007791605027240682610616227",
+            "exponent_of_two": -224
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "608030747796203131816638568954015583210054481365221232457",
+            "exponent_of_two": -225
+          }
+        },
+        "outer_upper_good_gradient_L2": {
+          "arb_display_only": "[7.217267190889136428927568924849270230551216e-20933930244962 +/- 5.06e-20933930245005]",
+          "lower_exact_dyadic": {
+            "mantissa": "1932269741965920626120413716055669946631182617088680329215",
+            "exponent_of_two": -69541011017339
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1932269741965920626120413716055669946631182732474270023679",
+            "exponent_of_two": -69541011017339
+          }
+        },
+        "outer_upper_bad_gradient_L2": {
+          "arb_display_only": "[4.1735879831045952596069421776947599278370390766614988423e-32 +/- 8.01e-88]",
+          "lower_exact_dyadic": {
+            "mantissa": "664199130623542798820630682154508744614784341035757235853",
+            "exponent_of_two": -293
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2656796522494171195282522728618034978459137364143028943453",
+            "exponent_of_two": -295
+          }
+        },
+        "uniform_gradient_L2": {
+          "arb_display_only": "[1.4244553722428459697755086605400048966609598322923416585e-9 +/- 8.28e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "2400202554087708698889412269367999662059242024194165861493",
+            "exponent_of_two": -220
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2400202554087708698889412269367999662059242024194165861613",
+            "exponent_of_two": -220
+          }
+        },
+        "inner_Hba_operator": {
+          "arb_display_only": "[2.869552944172202139439289103807620998278208353266431134e-8 +/- 2.08e-63]",
+          "lower_exact_dyadic": {
+            "mantissa": "3021991966150299492559482838305610989772853735837320510609",
+            "exponent_of_two": -216
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3021991966150299492559482838305610989772853735837320510749",
+            "exponent_of_two": -216
+          }
+        },
+        "inner_Hperp_operator": {
+          "arb_display_only": "[7.203187402441153890105698347888839619183670529430359373e-9 +/- 2.12e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "1517168345338319227769070090961397991488236061565055296525",
+            "exponent_of_two": -217
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3034336690676638455538140181922795982976472123130110593189",
+            "exponent_of_two": -218
+          }
+        },
+        "outer_alias_Hba_operator": {
+          "arb_display_only": "[3.686427600691856070898951526791897920320885925198014991e-9 +/- 1.47e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "6211618219185283416843683886962043980425593909946175358997",
+            "exponent_of_two": -220
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "6211618219185283416843683886962043980425593909946175359327",
+            "exponent_of_two": -220
+          }
+        },
+        "outer_alias_Hperp_operator": {
+          "arb_display_only": "[4.096030667435395634332168363102108800356539916886683323e-10 +/- 3.89e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "5521438417053585259416607899521816871489416808841044763555",
+            "exponent_of_two": -223
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5521438417053585259416607899521816871489416808841044763847",
+            "exponent_of_two": -223
+          }
+        },
+        "outer_lower_Hba_operator": {
+          "arb_display_only": "[1.12427869434944622391754622147336169638380622848751451469e-11 +/- 6.74e-68]",
+          "lower_exact_dyadic": {
+            "mantissa": "2424839491093986045557350906460802492885635253175830956719",
+            "exponent_of_two": -227
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "303104936386748255694668863307600311610704406646978869591",
+            "exponent_of_two": -224
+          }
+        },
+        "outer_lower_Hperp_operator": {
+          "arb_display_only": "[1.24919854927716247101949580163706855153756247609723834965e-12 +/- 2.24e-69]",
+          "lower_exact_dyadic": {
+            "mantissa": "4310825761944864080990846055930315542907796005645921700835",
+            "exponent_of_two": -231
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4310825761944864080990846055930315542907796005645921700849",
+            "exponent_of_two": -231
+          }
+        },
+        "outer_upper_good_Hba_operator": {
+          "arb_display_only": "[3.130990533061582477284336737406037904191815e-20933930244947 +/- 2.61e-20933930244990]",
+          "lower_exact_dyadic": {
+            "mantissa": "2978083923304721573983400587137294075117291353594604892527",
+            "exponent_of_two": -69541011017291
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2978083923304721573983400587137294075117291531431044788591",
+            "exponent_of_two": -69541011017291
+          }
+        },
+        "outer_upper_good_Hperp_operator": {
+          "arb_display_only": "[3.478878370068424974760374152673375449102016e-20933930244948 +/- 5.86e-20933930244991]",
+          "lower_exact_dyadic": {
+            "mantissa": "5294371419208393909303823266021856133541851295279298373147",
+            "exponent_of_two": -69541011017295
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5294371419208393909303823266021856133541851611432967726619",
+            "exponent_of_two": -69541011017295
+          }
+        },
+        "outer_upper_bad_Hba_operator": {
+          "arb_display_only": "[5.5174970839383866679709186954128584211585088877096722419e-31 +/- 7.50e-87]",
+          "lower_exact_dyadic": {
+            "mantissa": "2195183605332638948371023638485494082357486774753049128327",
+            "exponent_of_two": -291
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2195183605332638948371023638485494082357486774753049128365",
+            "exponent_of_two": -291
+          }
+        },
+        "outer_upper_bad_Hperp_operator": {
+          "arb_display_only": "[4.0273701342615961080079698506663200154441670713209286437e-33 +/- 7.63e-89]",
+          "lower_exact_dyadic": {
+            "mantissa": "4101948926752960370678701105491142226886982586399858225201",
+            "exponent_of_two": -299
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4101948926752960370678701105491142226886982586399858225265",
+            "exponent_of_two": -299
+          }
+        },
+        "uniform_Hba_operator": {
+          "arb_display_only": "[3.239319982935737192753156977679123535873360461201674276e-8 +/- 4.15e-63]",
+          "lower_exact_dyadic": {
+            "mantissa": "1705701054253570220743039243757126232789886319050704610619",
+            "exponent_of_two": -215
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1705701054253570220743039243757126232789886319050704610703",
+            "exponent_of_two": -215
+          }
+        },
+        "uniform_Hperp_operator": {
+          "arb_display_only": "[7.614039667733970616009938707370821829366970091564975610e-9 +/- 2.28e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "3207407865057456655061047453196852512681167576830904399055",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3207407865057456655061047453196852512681167576830904399211",
+            "exponent_of_two": -218
+          }
+        },
+        "teacher_global_gradient_L2": {
+          "arb_display_only": "8.00000000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "1",
+            "exponent_of_two": 3
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1",
+            "exponent_of_two": 3
+          }
+        },
+        "teacher_global_Hba_operator": {
+          "arb_display_only": "146.250000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "585",
+            "exponent_of_two": -2
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "585",
+            "exponent_of_two": -2
+          }
+        },
+        "teacher_global_Hperp_operator": {
+          "arb_display_only": "8.25000000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "33",
+            "exponent_of_two": -2
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "33",
+            "exponent_of_two": -2
+          }
+        },
+        "teacher_transfer_gradient_L2": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "teacher_transfer_Hba_operator": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "teacher_transfer_Hperp_operator": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "total_gradient_L2": {
+          "arb_display_only": "[1.4244553722428459697755086605400048966609598322923416585e-9 +/- 8.28e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "2400202554087708698889412269367999662059242024194165861493",
+            "exponent_of_two": -220
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2400202554087708698889412269367999662059242024194165861613",
+            "exponent_of_two": -220
+          }
+        },
+        "total_Hba_operator": {
+          "arb_display_only": "[3.239319982935737192753156977679123535873360461201674276e-8 +/- 4.15e-63]",
+          "lower_exact_dyadic": {
+            "mantissa": "1705701054253570220743039243757126232789886319050704610619",
+            "exponent_of_two": -215
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1705701054253570220743039243757126232789886319050704610703",
+            "exponent_of_two": -215
+          }
+        },
+        "total_Hperp_operator": {
+          "arb_display_only": "[7.614039667733970616009938707370821829366970091564975610e-9 +/- 2.28e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "3207407865057456655061047453196852512681167576830904399055",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3207407865057456655061047453196852512681167576830904399211",
+            "exponent_of_two": -218
+          }
+        }
+      },
+      "inner_moments": {
+        "Psi": {
+          "boundary": {
+            "arb_display_only": "[1.01131351922361144752663607369068680830115730255746386679 +/- 4.83e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "1587029461634635688581538785484137397831088946304318865551",
+              "exponent_of_two": -190
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1587029461634635688581538785484137397831088946304318865553",
+              "exponent_of_two": -190
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.6139973291111847534590278410581730832818702964833957447e-13 +/- 4.15e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "2227880033984569328265694925203458882404965985669166291097",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2227880033984569328265694925203458882404965985669166291175",
+              "exponent_of_two": -233
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.53891972534128386926780671600837544707189252257662571739e-23 +/- 1.77e-80]",
+            "lower_exact_dyadic": {
+              "mantissa": "1824714036897628891594778094350949609359742618141116151401",
+              "exponent_of_two": -266
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1824714036897628891594778094350949609359742618141116151405",
+              "exponent_of_two": -266
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.6139973292650767259931562279849537548827078411905849970e-13 +/- 5.74e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4455760068393988000226515600578585217327584298849732244813",
+              "exponent_of_two": -234
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4455760068393988000226515600578585217327584298849732244971",
+              "exponent_of_two": -234
+            }
+          }
+        },
+        "T0": {
+          "boundary": {
+            "arb_display_only": "[0.49082405047135424116893770167299562760681036392672661037 +/- 3.53e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3080952498983257493786386592936867809833920605972907579483",
+              "exponent_of_two": -192
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3080952498983257493786386592936867809833920605972907579493",
+              "exponent_of_two": -192
+            }
+          },
+          "alias": {
+            "arb_display_only": "[7.833265268049267605588532444238799842619685530738059785e-14 +/- 2.35e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "33789506217000274439460612545895945243439253634988573327",
+              "exponent_of_two": -228
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2162528397888017564125479202937340495580112232639268693009",
+              "exponent_of_two": -234
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[5.6613692856626101451021331445942148500842115299820395179e-24 +/- 1.46e-80]",
+            "lower_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771767",
+              "exponent_of_two": -269
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771783",
+              "exponent_of_two": -269
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[7.833265268615404534154793458749013157079107015746480938e-14 +/- 2.34e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4325056796088621806532192192293252259908881181898806065353",
+              "exponent_of_two": -235
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4325056796088621806532192192293252259908881181898806065517",
+              "exponent_of_two": -235
+            }
+          }
+        },
+        "R": {
+          "boundary": {
+            "arb_display_only": "[1.9762958027568402544033838651668512886661795654988757391 +/- 2.02e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "193834528330037114290762529250398975990401355395920066567",
+              "exponent_of_two": -186
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3101352453280593828652200468006383615846421686334721065093",
+              "exponent_of_two": -190
+            }
+          },
+          "alias": {
+            "arb_display_only": "[3.1540527112027093117016108728275204518956584872837401356e-13 +/- 8.78e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4353694355425634422894808397619264539130773542674069595683",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4353694355425634422894808397619264539130773542674069595861",
+              "exponent_of_two": -233
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[2.26454771426504405804085325783768594003368461199281580716e-22 +/- 5.05e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "3356373900957931507995031415801768604536984072948089232355",
+              "exponent_of_two": -263
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3356373900957931507995031415801768604536984072948089232365",
+              "exponent_of_two": -263
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[3.1540527134672570259666549308683737097333444273174247476e-13 +/- 8.12e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4353694358551501205707146261804977226617340708876756390667",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4353694358551501205707146261804977226617340708876756390847",
+              "exponent_of_two": -233
+            }
+          }
+        },
+        "Q": {
+          "boundary": {
+            "arb_display_only": "[7.9575259122764869645927171485742226311595442432699882482 +/- 5.63e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "6243774964166902040393998427561174506178719755823727532333",
+              "exponent_of_two": -189
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "6243774964166902040393998427561174506178719755823727532385",
+              "exponent_of_two": -189
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.2699746739870769071892600533973089489808003733696573825e-12 +/- 6.95e-68]",
+            "lower_exact_dyadic": {
+              "mantissa": "2191260766676711320906974886811416696177754630817307947919",
+              "exponent_of_two": -230
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "547815191669177830226743721702854174044438657704326987003",
+              "exponent_of_two": -228
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[4.61967733710068987840334064598887931766871660846534424660e-21 +/- 8.10e-78]",
+            "lower_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771251",
+              "exponent_of_two": -259
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771265",
+              "exponent_of_two": -259
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.2699746786067542442899499318006495949696796910383739910e-12 +/- 3.50e-68]",
+            "lower_exact_dyadic": {
+              "mantissa": "4382521549295343234156872880969968098537001809268318550261",
+              "exponent_of_two": -231
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4382521549295343234156872880969968098537001809268318550449",
+              "exponent_of_two": -231
+            }
+          }
+        },
+        "B": {
+          "boundary": {
+            "arb_display_only": "[0.248836251394155699885763160486707807803721039171379032218 +/- 8.43e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "3123940930906742208744379766577404414080255442775138976661",
+              "exponent_of_two": -193
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "390492616363342776093047470822175551760031930346892372085",
+              "exponent_of_two": -190
+            }
+          },
+          "alias": {
+            "arb_display_only": "[3.9712812842107792236375133705558041307324515350858263879e-14 +/- 8.86e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "548175521907589683471347189641622558789949291825910113841",
+              "exponent_of_two": -233
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "548175521907589683471347189641622558789949291825910113863",
+              "exponent_of_two": -233
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.44364916784396558700104395187152478677147394014542007706e-22 +/- 5.03e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771251",
+              "exponent_of_two": -264
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771265",
+              "exponent_of_two": -264
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[3.971281298647270902077169240566243649447699402800565789e-14 +/- 4.44e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "4385404191202638060113700624480115176501086882240983565151",
+              "exponent_of_two": -236
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4385404191202638060113700624480115176501086882240983565329",
+              "exponent_of_two": -236
+            }
+          }
+        },
+        "Qp": {
+          "boundary": {
+            "arb_display_only": "[3.9344998330168044324315041525706910413644223699728001227 +/- 2.16e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "6174313932427097196928552215140840055553740178812091502929",
+              "exponent_of_two": -190
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "6174313932427097196928552215140840055553740178812091502973",
+              "exponent_of_two": -190
+            }
+          },
+          "alias": {
+            "arb_display_only": "[6.279232009824854918117478632372355742797529658193608814e-13 +/- 5.69e-68]",
+            "lower_exact_dyadic": {
+              "mantissa": "2166883329222953098548306439368520836764157854949130232801",
+              "exponent_of_two": -231
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2166883329222953098548306439368520836764157854949130232891",
+              "exponent_of_two": -231
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[4.5290954285300881160817065156753718800673692239856316143e-23 +/- 2.10e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771767",
+              "exponent_of_two": -266
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771783",
+              "exponent_of_two": -266
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[6.279232010277764460970487443980526394365066846200345736e-13 +/- 1.72e-68]",
+            "lower_exact_dyadic": {
+              "mantissa": "4333766658758492875377846665155612942276972426518529145099",
+              "exponent_of_two": -232
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4333766658758492875377846665155612942276972426518529145281",
+              "exponent_of_two": -232
+            }
+          }
+        },
+        "Bp": {
+          "boundary": {
+            "arb_display_only": "[0.123033993272759307730908855617655281979590130616256629032 +/- 7.61e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "6178375141471925258332518697804508111901617686576294638641",
+              "exponent_of_two": -195
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "6178375141471925258332518697804508111901617686576294638673",
+              "exponent_of_two": -195
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.9635506967667635221940733599781479014746361112908906739e-14 +/- 6.47e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "4336617231407384393345639077510981923678214422355778403689",
+              "exponent_of_two": -237
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4336617231407384393345639077510981923678214422355778403859",
+              "exponent_of_two": -237
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.41534232141565253627553328614855371252105288249550987947e-24 +/- 5.31e-81]",
+            "lower_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771767",
+              "exponent_of_two": -271
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771783",
+              "exponent_of_two": -271
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.9635506969082977543356386136057012300894914825429959621e-14 +/- 6.19e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "2168308615859985535813436431964776596213435569488023541593",
+              "exponent_of_two": -236
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2168308615859985535813436431964776596213435569488023541679",
+              "exponent_of_two": -236
+            }
+          }
+        }
+      },
+      "gradient_inner_moments": {
+        "Psi_boundary": {
+          "arb_display_only": "[1.01131351922361144752663607369068680830115730255746386679 +/- 4.83e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "1587029461634635688581538785484137397831088946304318865551",
+            "exponent_of_two": -190
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1587029461634635688581538785484137397831088946304318865553",
+            "exponent_of_two": -190
+          }
+        },
+        "D_boundary_L2": {
+          "arb_display_only": "[1.40520388391653998692439940739480902215855292365368312250 +/- 4.83e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "2205151934576154264574472622020660479861827023179400320415",
+            "exponent_of_two": -190
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1102575967288077132287236311010330239930913511589700160215",
+            "exponent_of_two": -189
+          }
+        },
+        "Psi_error": {
+          "arb_display_only": "[1.6139973292650767259931562279849537548827078411905849970e-13 +/- 5.74e-69]",
+          "lower_exact_dyadic": {
+            "mantissa": "4455760068393988000226515600578585217327584298849732244813",
+            "exponent_of_two": -234
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4455760068393988000226515600578585217327584298849732244971",
+            "exponent_of_two": -234
+          }
+        },
+        "D_error_L2": {
+          "arb_display_only": "[2.2426233546828278029990969181079445870554423026169402094e-13 +/- 5.42e-69]",
+          "lower_exact_dyadic": {
+            "mantissa": "6191207018163762236545567671194780836815478452057129725963",
+            "exponent_of_two": -234
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "6191207018163762236545567671194780836815478452057129726215",
+            "exponent_of_two": -234
+          }
+        }
+      },
+      "uniform_all_labels_and_input_box": true,
+      "paired_dimension_doubling_used": false,
+      "compute_arithmetic_included": false,
+      "interval_dependency_inflation_already_in_finite_balls": true,
+      "Hessian_errors_are_operator_not_entrywise": true,
+      "teacher_decomposition": "qfinite*(true-grid)+(ptrue-qfinite)*true",
+      "scientific_grid_evaluations": 0,
+      "random_draws": 0,
+      "old_npz_reads": 0
+    },
+    {
+      "schema": "r03_candidate_analytic_bounds_v1",
+      "config": {
+        "K": 8,
+        "precision_bits": 192,
+        "hz": "1/32",
+        "L": "10",
+        "dz": "1/6",
+        "hv": "1/4",
+        "vmin": "-28",
+        "vmax": "56",
+        "dv": "1",
+        "T": "4",
+        "saturation_threshold": 128,
+        "label_mode": "complement"
+      },
+      "m": 8,
+      "Hba_dimension": 16,
+      "Hperp_dimension": 8,
+      "a_upper_exact": [
+        "4236614515730759/9007199254740992",
+        "1274451243427741/2251799813685248",
+        "181129089615167/281474976710656",
+        "775431105319425/1125899906842624",
+        "775431105319425/1125899906842624",
+        "181129089615167/281474976710656",
+        "1274451243427741/2251799813685248",
+        "4236614515730759/9007199254740992"
+      ],
+      "full_l1_asum": {
+        "arb_display_only": "4.73709942376442749711884516727877780795097351074218750000",
+        "lower_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -52
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "21333999199682467",
+          "exponent_of_two": -52
+        }
+      },
+      "inner_CR_squared": {
+        "arb_display_only": "[8.0198962417620227523061556464977280364076954626533540576 +/- 2.43e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "3146356538549094505016172546011478263461230668265938181895",
+          "exponent_of_two": -188
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3146356538549094505016172546011478263461230668265938181907",
+          "exponent_of_two": -188
+        }
+      },
+      "inner_phase_theta": {
+        "arb_display_only": "[0.789516570627404582853140861213129634658495585123697916666 +/- 7.50e-58]",
+        "lower_exact_dyadic": {
+          "mantissa": "2477937917800911108082809771052626380310563218674941252947",
+          "exponent_of_two": -191
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "1238968958900455554041404885526313190155281609337470626475",
+          "exponent_of_two": -190
+        }
+      },
+      "upper_U_eta": {
+        "arb_display_only": "[48202155719826.7952812080140757429575401193863974907684642 +/- 5.19e-44]",
+        "lower_exact_dyadic": {
+          "mantissa": "2149887985455505635111954130453945385059468347984771768557",
+          "exponent_of_two": -145
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "134367999090969102194497133153371586566216771749048235535",
+          "exponent_of_two": -141
+        }
+      },
+      "teacher_error_L1_upper": "0",
+      "teacher_mass_upper": "1",
+      "bounds": {
+        "inner_gradient_L2": {
+          "arb_display_only": "[2.794939451005109918397434857501205012981044032914701782e-11 +/- 3.14e-66]",
+          "lower_exact_dyadic": {
+            "mantissa": "6028113482961044163957897240001660048730166361280225233369",
+            "exponent_of_two": -227
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "6028113482961044163957897240001660048730166361280225233705",
+            "exponent_of_two": -227
+          }
+        },
+        "outer_alias_gradient_L2": {
+          "arb_display_only": "[8.1275076305828285875661657396587129268587819528149444495e-10 +/- 5.24e-66]",
+          "lower_exact_dyadic": {
+            "mantissa": "2738964653217161536592654541033946289739864813207179858577",
+            "exponent_of_two": -221
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "684741163304290384148163635258486572434966203301794964651",
+            "exponent_of_two": -219
+          }
+        },
+        "outer_lower_gradient_L2": {
+          "arb_display_only": "[1.09878406300685777888548116002533703445124133970208168409e-11 +/- 5.83e-68]",
+          "lower_exact_dyadic": {
+            "mantissa": "2369852778990397918371311391897383027468881205927305157479",
+            "exponent_of_two": -227
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "148115798686899869898206961993586439216805075370456572343",
+            "exponent_of_two": -223
+          }
+        },
+        "outer_upper_good_gradient_L2": {
+          "arb_display_only": "[7.217267190889136428927568924849270230551216e-20933930244962 +/- 5.06e-20933930245005]",
+          "lower_exact_dyadic": {
+            "mantissa": "1932269741965920626120413716055669946631182617088680329215",
+            "exponent_of_two": -69541011017339
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1932269741965920626120413716055669946631182732474270023679",
+            "exponent_of_two": -69541011017339
+          }
+        },
+        "outer_upper_bad_gradient_L2": {
+          "arb_display_only": "[4.3074305352759314997442405112276954587679223173249197709e-32 +/- 4.56e-88]",
+          "lower_exact_dyadic": {
+            "mantissa": "5483994353699240708442684458024207674626994229654326313835",
+            "exponent_of_two": -296
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5483994353699240708442684458024207674626994229654326313923",
+            "exponent_of_two": -296
+          }
+        },
+        "uniform_gradient_L2": {
+          "arb_display_only": "[8.516879981984025357294888084464894724751984914127745566e-10 +/- 4.09e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "5740365752120305638258387172058496413725482929003421834757",
+            "exponent_of_two": -222
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5740365752120305638258387172058496413725482929003421834829",
+            "exponent_of_two": -222
+          }
+        },
+        "inner_Hba_operator": {
+          "arb_display_only": "[1.0330872288550819690554375241274811790531573061935911492e-9 +/- 6.08e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "435187134256991521963684143568010709183497380310260034527",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "870374268513983043927368287136021418366994760620520069103",
+            "exponent_of_two": -219
+          }
+        },
+        "inner_Hperp_operator": {
+          "arb_display_only": "[2.591778367388817265458872673438235522746489417834770615e-10 +/- 2.28e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "3493710327893863524503292579093517668662317902760435407085",
+            "exponent_of_two": -223
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3493710327893863524503292579093517668662317902760435407281",
+            "exponent_of_two": -223
+          }
+        },
+        "outer_alias_Hba_operator": {
+          "arb_display_only": "[6.1002779628479958513171334343100781396521946426242222697e-9 +/- 4.48e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "2569737008330880003110661223076726773143237472738258471111",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "80304281510340000097208163221147711660726171023070577223",
+            "exponent_of_two": -213
+          }
+        },
+        "outer_alias_Hperp_operator": {
+          "arb_display_only": "[6.7780866253866620570190371492334201551691051584713580775e-10 +/- 6.75e-66]",
+          "lower_exact_dyadic": {
+            "mantissa": "4568421348143786672196731063247514263365755507090237281977",
+            "exponent_of_two": -222
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4568421348143786672196731063247514263365755507090237282019",
+            "exponent_of_two": -222
+          }
+        },
+        "outer_lower_Hba_operator": {
+          "arb_display_only": "[1.09549352471683840462048759388767279713107927349392172401e-11 +/- 6.13e-68]",
+          "lower_exact_dyadic": {
+            "mantissa": "2362755760045986766803848084885486127472127960542517247405",
+            "exponent_of_two": -227
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2362755760045986766803848084885486127472127960542517247411",
+            "exponent_of_two": -227
+          }
+        },
+        "outer_lower_Hperp_operator": {
+          "arb_display_only": "[1.21721502746315378291165288209741421903453252610435747113e-12 +/- 3.40e-69]",
+          "lower_exact_dyadic": {
+            "mantissa": "4200454684526198696540174373129753115506005263186697328721",
+            "exponent_of_two": -231
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4200454684526198696540174373129753115506005263186697328731",
+            "exponent_of_two": -231
+          }
+        },
+        "outer_upper_good_Hba_operator": {
+          "arb_display_only": "[3.130990533061582477284336737406037904191815e-20933930244947 +/- 2.61e-20933930244990]",
+          "lower_exact_dyadic": {
+            "mantissa": "2978083923304721573983400587137294075117291353594604892527",
+            "exponent_of_two": -69541011017291
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2978083923304721573983400587137294075117291531431044788591",
+            "exponent_of_two": -69541011017291
+          }
+        },
+        "outer_upper_good_Hperp_operator": {
+          "arb_display_only": "[3.478878370068424974760374152673375449102016e-20933930244948 +/- 5.86e-20933930244991]",
+          "lower_exact_dyadic": {
+            "mantissa": "5294371419208393909303823266021856133541851295279298373147",
+            "exponent_of_two": -69541011017295
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5294371419208393909303823266021856133541851611432967726619",
+            "exponent_of_two": -69541011017295
+          }
+        },
+        "outer_upper_bad_Hba_operator": {
+          "arb_display_only": "[5.7610546707024760852944825001326534612200689149103381087e-31 +/- 4.88e-87]",
+          "lower_exact_dyadic": {
+            "mantissa": "4584170166347956877971221011871946517398688857393982651955",
+            "exponent_of_two": -292
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4584170166347956877971221011871946517398688857393982652033",
+            "exponent_of_two": -292
+          }
+        },
+        "outer_upper_bad_Hperp_operator": {
+          "arb_display_only": "[4.2051493946733402082441478103158054461460357043141154078e-33 +/- 4.25e-89]",
+          "lower_exact_dyadic": {
+            "mantissa": "4283020301405390367739534959997147111146220246324304959497",
+            "exponent_of_two": -299
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4283020301405390367739534959997147111146220246324304959561",
+            "exponent_of_two": -299
+          }
+        },
+        "uniform_Hba_operator": {
+          "arb_display_only": "[7.144320126950246204419351939843506294285192189802765901e-9 +/- 5.31e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "3009538899931711342978501816383449256555042981503340958551",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "752384724982927835744625454095862314138760745375835239651",
+            "exponent_of_two": -216
+          }
+        },
+        "uniform_Hperp_operator": {
+          "arb_display_only": "[9.382037143050110860307068402986576553508022343045275425e-10 +/- 1.87e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "3161740262573216833138792861758822047631411358326737834283",
+            "exponent_of_two": -221
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3161740262573216833138792861758822047631411358326737834361",
+            "exponent_of_two": -221
+          }
+        },
+        "teacher_global_gradient_L2": {
+          "arb_display_only": "8.00000000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "1",
+            "exponent_of_two": 3
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1",
+            "exponent_of_two": 3
+          }
+        },
+        "teacher_global_Hba_operator": {
+          "arb_display_only": "146.250000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "585",
+            "exponent_of_two": -2
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "585",
+            "exponent_of_two": -2
+          }
+        },
+        "teacher_global_Hperp_operator": {
+          "arb_display_only": "8.25000000000000000000000000000000000000000000000000000000",
+          "lower_exact_dyadic": {
+            "mantissa": "33",
+            "exponent_of_two": -2
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "33",
+            "exponent_of_two": -2
+          }
+        },
+        "teacher_transfer_gradient_L2": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "teacher_transfer_Hba_operator": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "teacher_transfer_Hperp_operator": {
+          "arb_display_only": "0",
+          "lower_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "0",
+            "exponent_of_two": 0
+          }
+        },
+        "total_gradient_L2": {
+          "arb_display_only": "[8.516879981984025357294888084464894724751984914127745566e-10 +/- 4.09e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "5740365752120305638258387172058496413725482929003421834757",
+            "exponent_of_two": -222
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5740365752120305638258387172058496413725482929003421834829",
+            "exponent_of_two": -222
+          }
+        },
+        "total_Hba_operator": {
+          "arb_display_only": "[7.144320126950246204419351939843506294285192189802765901e-9 +/- 5.31e-64]",
+          "lower_exact_dyadic": {
+            "mantissa": "3009538899931711342978501816383449256555042981503340958551",
+            "exponent_of_two": -218
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "752384724982927835744625454095862314138760745375835239651",
+            "exponent_of_two": -216
+          }
+        },
+        "total_Hperp_operator": {
+          "arb_display_only": "[9.382037143050110860307068402986576553508022343045275425e-10 +/- 1.87e-65]",
+          "lower_exact_dyadic": {
+            "mantissa": "3161740262573216833138792861758822047631411358326737834283",
+            "exponent_of_two": -221
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3161740262573216833138792861758822047631411358326737834361",
+            "exponent_of_two": -221
+          }
+        }
+      },
+      "inner_moments": {
+        "Psi": {
+          "boundary": {
+            "arb_display_only": "[1.01398578759157881393340639023619851751340602452520682851 +/- 3.57e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3182445973474264821597586825655035199648865666319218870185",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3182445973474264821597586825655035199648865666319218870189",
+              "exponent_of_two": -191
+            }
+          },
+          "alias": {
+            "arb_display_only": "[5.671710944314016069283195303392217498327814355777216535e-15 +/- 1.79e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "5010522917116328853520975394237985039850903471905735059863",
+              "exponent_of_two": -239
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5010522917116328853520975394237985039850903471905735060091",
+              "exponent_of_two": -239
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.53891972534128386926780671600837544707189252257662571739e-23 +/- 1.77e-80]",
+            "lower_exact_dyadic": {
+              "mantissa": "1824714036897628891594778094350949609359742618141116151401",
+              "exponent_of_two": -266
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1824714036897628891594778094350949609359742618141116151405",
+              "exponent_of_two": -266
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[5.671710959703213322696033996070284658411568826496141761e-15 +/- 4.14e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "2505261465355753925882499699865671760207888976135262131861",
+              "exponent_of_two": -238
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "313157683169469240735312462483208970025986122016907766497",
+              "exponent_of_two": -235
+            }
+          }
+        },
+        "T0": {
+          "boundary": {
+            "arb_display_only": "[0.52972244114706576570978135285932895457737184803876365135 +/- 1.51e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "103910051706172355820614951110820049910868998926191730293",
+              "exponent_of_two": -187
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "831280413649378846564919608886560399286951991409533842347",
+              "exponent_of_two": -190
+            }
+          },
+          "alias": {
+            "arb_display_only": "[2.9629927792564871736197295217363318374402617832281856177e-15 +/- 7.88e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "5235155094988871613705389528348684779176512626535992737225",
+              "exponent_of_two": -240
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5235155094988871613705389528348684779176512626535992737477",
+              "exponent_of_two": -240
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[5.6613692856626101451021331445942148500842115299820395179e-24 +/- 1.46e-80]",
+            "lower_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771767",
+              "exponent_of_two": -269
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771783",
+              "exponent_of_two": -269
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[2.9629927849178564592823396668384649820344766333123971477e-15 +/- 8.21e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "654394388123955664838108836717870672391690944798073810147",
+              "exponent_of_two": -237
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2617577552495822659352435346871482689566763779192295240715",
+              "exponent_of_two": -239
+            }
+          }
+        },
+        "R": {
+          "boundary": {
+            "arb_display_only": "[2.1362049950619011127542967355136106004854462532328613200 +/- 3.96e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "209518376275699301351074865037247248833356643525179626913",
+              "exponent_of_two": -186
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "419036752551398602702149730074494497666713287050359253829",
+              "exponent_of_two": -187
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.1948823541766451146172749319463072480447669469120494859e-14 +/- 5.63e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "2638967975290614072897719803844600356822745399506733292261",
+              "exponent_of_two": -237
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2638967975290614072897719803844600356822745399506733292397",
+              "exponent_of_two": -237
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[2.26454771426504405804085325783768594003368461199281580716e-22 +/- 5.05e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "3356373900957931507995031415801768604536984072948089232355",
+              "exponent_of_two": -263
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3356373900957931507995031415801768604536984072948089232365",
+              "exponent_of_two": -263
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.1948823768221222572677155123548398264216263472488956059e-14 +/- 7.75e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "2638968025304482597895125630816003356607820058749722012023",
+              "exponent_of_two": -237
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5154234424422817574013917247687506555874648552245550805",
+              "exponent_of_two": -228
+            }
+          }
+        },
+        "Q": {
+          "boundary": {
+            "arb_display_only": "[8.6146468913906128362903496860320025284505190536031715935 +/- 5.80e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "3379688434480718164845622252313475728685918490807758247633",
+              "exponent_of_two": -188
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3379688434480718164845622252313475728685918490807758247663",
+              "exponent_of_two": -188
+            }
+          },
+          "alias": {
+            "arb_display_only": "[4.818586971652997745844891723906158549765678523389014723e-14 +/- 4.91e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "5321066404527789302195997219185665851115869690280502445841",
+              "exponent_of_two": -236
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5321066404527789302195997219185665851115869690280502446125",
+              "exponent_of_two": -236
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[4.61967733710068987840334064598887931766871660846534424660e-21 +/- 8.10e-78]",
+            "lower_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771251",
+              "exponent_of_two": -259
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771265",
+              "exponent_of_two": -259
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[4.818587433620731455913879564240223148653610290260675570e-14 +/- 2.34e-69]",
+            "lower_exact_dyadic": {
+              "mantissa": "5321066914669248257169536654293976448923631214558987387419",
+              "exponent_of_two": -236
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5321066914669248257169536654293976448923631214558987387705",
+              "exponent_of_two": -236
+            }
+          }
+        },
+        "B": {
+          "boundary": {
+            "arb_display_only": "[0.269426366648585816121750545553589435617784747418547206038 +/- 9.77e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "1691216713648766154927407944558727774632168644860178432101",
+              "exponent_of_two": -192
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1691216713648766154927407944558727774632168644860178432113",
+              "exponent_of_two": -192
+            }
+          },
+          "alias": {
+            "arb_display_only": "[1.5070314506449951905531383786050845504683054075246250771e-15 +/- 5.24e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "5325388190201640648188363915066492919843082076361724811471",
+              "exponent_of_two": -241
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5325388190201640648188363915066492919843082076361724811745",
+              "exponent_of_two": -241
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.44364916784396558700104395187152478677147394014542007706e-22 +/- 5.03e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771251",
+              "exponent_of_two": -264
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4279376723721362672693665055147254970784654693008813771265",
+              "exponent_of_two": -264
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[1.5070315950099119749496970787094797376207840846720190916e-15 +/- 6.73e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "5325388700343099603161903350174803517650843600640209753049",
+              "exponent_of_two": -241
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5325388700343099603161903350174803517650843600640209753325",
+              "exponent_of_two": -241
+            }
+          }
+        },
+        "Qp": {
+          "boundary": {
+            "arb_display_only": "[4.2483190149323570151568847766733163154002559716399202379 +/- 1.75e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "3333391332638516546149106878994113047471042895043268408627",
+              "exponent_of_two": -189
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3333391332638516546149106878994113047471042895043268408653",
+              "exponent_of_two": -189
+            }
+          },
+          "alias": {
+            "arb_display_only": "[2.3762894654727112171289876994605713396104716005754045211e-14 +/- 7.23e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "1312043770979454896431889725278657333151858279795192383907",
+              "exponent_of_two": -235
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2624087541958909792863779450557314666303716559590384767951",
+              "exponent_of_two": -236
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[4.5290954285300881160817065156753718800673692239856316143e-23 +/- 2.10e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771767",
+              "exponent_of_two": -266
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771783",
+              "exponent_of_two": -266
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[2.3762894700018066456590758155422778552858434806427737451e-14 +/- 6.65e-70]",
+            "lower_exact_dyadic": {
+              "mantissa": "5248175093920593290727040066508909932564448051029367279579",
+              "exponent_of_two": -237
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5248175093920593290727040066508909932564448051029367279855",
+              "exponent_of_two": -237
+            }
+          }
+        },
+        "Bp": {
+          "boundary": {
+            "arb_display_only": "[0.132867797251357388772370132053824927153976039822845197498 +/- 5.67e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "417012340351750558749223876740508218402452542568263175039",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "834024680703501117498447753481016436804905085136526350083",
+              "exponent_of_two": -192
+            }
+          },
+          "alias": {
+            "arb_display_only": "[7.431935920989017378070271456134663536556026667244726408e-16 +/- 6.36e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "5252437667048193516021400025819006715461669993123892964743",
+              "exponent_of_two": -242
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5252437667048193516021400025819006715461669993123892965007",
+              "exponent_of_two": -242
+            }
+          },
+          "grid_tail": {
+            "arb_display_only": "[1.41534232141565253627553328614855371252105288249550987947e-24 +/- 5.31e-81]",
+            "lower_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771767",
+              "exponent_of_two": -271
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5370198241532690412792050265282829767259174516716942771783",
+              "exponent_of_two": -271
+            }
+          },
+          "total_error": {
+            "arb_display_only": "[7.431935935142440592226796818889996398041563792455255233e-16 +/- 6.83e-71]",
+            "lower_exact_dyadic": {
+              "mantissa": "2626218838525483610510440595606643657709342462486245354347",
+              "exponent_of_two": -241
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "164138677407842725656902537225415228606833903905390334655",
+              "exponent_of_two": -237
+            }
+          }
+        }
+      },
+      "gradient_inner_moments": {
+        "Psi_boundary": {
+          "arb_display_only": "[1.01398578759157881393340639023619851751340602452520682851 +/- 3.57e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3182445973474264821597586825655035199648865666319218870185",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3182445973474264821597586825655035199648865666319218870189",
+            "exponent_of_two": -191
+          }
+        },
+        "D_boundary_L2": {
+          "arb_display_only": "[1.52083590882315474760180099264021988425658266242325936242 +/- 8.35e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "4773220861256102232618693288462597476229832434925986411315",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4773220861256102232618693288462597476229832434925986411347",
+            "exponent_of_two": -191
+          }
+        },
+        "Psi_error": {
+          "arb_display_only": "[5.671710959703213322696033996070284658411568826496141761e-15 +/- 4.14e-70]",
+          "lower_exact_dyadic": {
+            "mantissa": "2505261465355753925882499699865671760207888976135262131861",
+            "exponent_of_two": -238
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "313157683169469240735312462483208970025986122016907766497",
+            "exponent_of_two": -235
+          }
+        },
+        "D_error_L2": {
+          "arb_display_only": "[8.506767980873910133676377107258672390661397130672611742e-15 +/- 3.85e-70]",
+          "lower_exact_dyadic": {
+            "mantissa": "3757539509439452791399788573442105134700039272452132715421",
+            "exponent_of_two": -238
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3757539509439452791399788573442105134700039272452132715617",
+            "exponent_of_two": -238
+          }
+        }
+      },
+      "uniform_all_labels_and_input_box": true,
+      "paired_dimension_doubling_used": false,
+      "compute_arithmetic_included": false,
+      "interval_dependency_inflation_already_in_finite_balls": true,
+      "Hessian_errors_are_operator_not_entrywise": true,
+      "teacher_decomposition": "qfinite*(true-grid)+(ptrue-qfinite)*true",
+      "scientific_grid_evaluations": 0,
+      "random_draws": 0,
+      "old_npz_reads": 0
+    }
+  ]
+}

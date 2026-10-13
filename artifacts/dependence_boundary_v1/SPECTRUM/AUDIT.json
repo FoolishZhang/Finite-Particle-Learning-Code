@@ -1,0 +1,18 @@
+{
+  "status": "pass_independent_loop_matrices_and_finite_K_algebra",
+  "combinations": 42,
+  "derivatives": 210,
+  "max_errors": {
+    "D_loop_max_abs": 0.0,
+    "M_loop_max_abs": 4.718447854656915e-16,
+    "R_loop_max_abs": 1.2434497875801753e-14,
+    "eigen_residual_max_abs": 6.217248937900877e-15,
+    "S_trace_error": 4.440892098500626e-16,
+    "derivative_max_abs_error": 2.220446049250313e-16
+  },
+  "new_fits": 0,
+  "population_inference": false,
+  "global_optimality_certificate": false,
+  "finite_MC_formula_is_expectation_over_iid_normal_draws": true,
+  "no_C_T_prediction_values_decoded": true
+}

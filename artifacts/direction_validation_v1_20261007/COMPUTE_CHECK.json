@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-07T14:59:37.719514+00:00",
+  "command": [
+    "[author-local path omitted]",
+    "script/direction_validation_compute.py",
+    "--check"
+  ],
+  "passed": true,
+  "exit_code": 0,
+  "stdout": "{\"passed\": true, \"mode\": \"check\", \"units\": 12, \"new_quadrature_calls\": 0, \"new_random_draws\": 0, \"saved_PMF_and_scalar_derivation_repeated\": true, \"numerically_qualified_units\": 12, \"seconds\": 2.306445899885148}\n",
+  "stderr": "",
+  "source_sha256": "4b61754ebfb6b6cd5b8eb615f1797e9e54d36231a3d9526d3b3ea215bba38c1e",
+  "new_PMF_calls": 0
+}

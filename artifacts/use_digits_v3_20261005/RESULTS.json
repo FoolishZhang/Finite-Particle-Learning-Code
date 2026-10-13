@@ -1,0 +1,3484 @@
+{
+  "config": {
+    "seed": 202610052710,
+    "reps": 32,
+    "dimension": 64,
+    "latent": 2,
+    "fit_rows": 3058,
+    "val_rows": 765,
+    "test_rows": 1797,
+    "threshold": 8,
+    "train_order": 24,
+    "lambdas": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "starts": 2,
+    "bias_bounds": [
+      -10.0,
+      10.0
+    ],
+    "loading_bounds": [
+      -3.0,
+      3.0
+    ],
+    "optimizer": {
+      "maxiter": 120,
+      "maxfun": 260,
+      "maxls": 20,
+      "ftol": 1e-10,
+      "gtol": 1e-06
+    },
+    "hard_calls": 300,
+    "reference_orders": [
+      12,
+      20,
+      32,
+      48,
+      64
+    ],
+    "base_reference": 32,
+    "mode_tol": 1e-08,
+    "mode_maxiter": 60,
+    "mode_maxbacktrack": 20,
+    "reference_tolerance": 1e-05,
+    "coarse_reference_tolerance": 0.0001,
+    "audit_reps": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "audit_orders": [
+      64,
+      80
+    ],
+    "audit_profiles": 64,
+    "audit_tolerance": 0.0001,
+    "K": 100,
+    "total_prior": 1600,
+    "alpha": 0.05,
+    "family": 5,
+    "df": 31,
+    "SE_limit": 0.025,
+    "practical_epsilon": 0.05,
+    "workers": 4,
+    "threads": 1
+  },
+  "freeze_sha256": "5222c510a568b8a05687f66e554d0c6b8cbf04fba613815349a8d612ab0d65a7",
+  "records": [
+    {
+      "rep": 0,
+      "folder": "artifacts/use_digits_v3_20261005/rep_00",
+      "trained_sha256": "c0ce6fe825dd60c4494a0b3e09e484ea8bb56b0221849357ecbee6c2dab3c62f",
+      "selection_sha256": "ec179299cbfecf642bcafa897e8ebe1ef98eb6bcfaf51ab59f0e50ea66ef9823",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_00/EVALUATION.npz",
+      "evaluation_sha256": "4ce53e44525e453208389bc92e392f21783939842806249d9ebef2fad1998248",
+      "candidate_test_NLL": [
+        25.17039713972039,
+        22.651600817544626,
+        22.73254003271617,
+        23.365395761714808
+      ],
+      "selected_test_NLL": [
+        22.651600817544626,
+        22.651600817544626,
+        22.651600817544626,
+        22.651600817544626,
+        22.651600817544626
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.446877320177009e-07,
+            "adjacent": 3.3090330475715746e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.991785510088391e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.2086243944841044e-08,
+            "adjacent": 7.212008767965017e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.941972578531022e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.439027172040369e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.966219186724468e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11778816,
+      "training_calls": 739,
+      "converged_fits": 2,
+      "seconds": 74.66926690004766
+    },
+    {
+      "rep": 1,
+      "folder": "artifacts/use_digits_v3_20261005/rep_01",
+      "trained_sha256": "8847c893643daff5c1077a6dcfd0fec2b77d60e6f80600226da5323b1b46a00b",
+      "selection_sha256": "ef96355a3cf420687ee377287a1647ad8bda3a79e3747bb1c1b0792f10794428",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_01/EVALUATION.npz",
+      "evaluation_sha256": "53f9f4f533c7e869b2e3996e7b04fe5493feee0aec0377b02f9af713d9a9f544",
+      "candidate_test_NLL": [
+        25.18122538745965,
+        22.671037303010877,
+        22.756444887869133,
+        23.388949521285817
+      ],
+      "selected_test_NLL": [
+        22.671037303010877,
+        22.671037303010877,
+        22.671037303010877,
+        22.671037303010877,
+        22.671037303010877
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.9873915607936397e-07,
+            "adjacent": 1.6048140594193683e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.899389530332314e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.9586106958513483e-08,
+            "adjacent": 5.343281372915953e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.933515787707847e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.782218982451013e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.958396995912722e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 691,
+      "converged_fits": 3,
+      "seconds": 71.35415539995302
+    },
+    {
+      "rep": 2,
+      "folder": "artifacts/use_digits_v3_20261005/rep_02",
+      "trained_sha256": "f015dcbf2b487ca82b75ceb1d091e1ab39977d70c82081007772e446e4e3d916",
+      "selection_sha256": "34cf37d2f4fa6b90bf20907262f3d01ce247716a7b400aff0c5423614fd19ccb",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_02/EVALUATION.npz",
+      "evaluation_sha256": "4159eaf43e0b3a1a2654a22852b1a32bb27c27664903dedb897b6643b4bad378",
+      "candidate_test_NLL": [
+        25.179500362127047,
+        22.664465358239084,
+        22.746939352257566,
+        23.37260774431989
+      ],
+      "selected_test_NLL": [
+        22.664465358239084,
+        22.664465358239084,
+        22.664465358239084,
+        22.664465358239084,
+        22.664465358239084
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.332739808101451e-07,
+            "adjacent": 2.1998509680543066e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.810506074181546e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.6799102553477496e-08,
+            "adjacent": 3.9825920339353615e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.971073966497102e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.178808410415513e-10,
+            "adjacent": 1.4210854715202004e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.837683223601346e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 744,
+      "converged_fits": 1,
+      "seconds": 76.48978219996206
+    },
+    {
+      "rep": 3,
+      "folder": "artifacts/use_digits_v3_20261005/rep_03",
+      "trained_sha256": "880c2fa77714083508ca0d98e1ee69f8b8b1c511e149ef6134997131a3113ed8",
+      "selection_sha256": "5ca374a34f81117d6e623a11a7b86ea008ceb93bd8390fea33067ccb09e8316c",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_03/EVALUATION.npz",
+      "evaluation_sha256": "05026f9726052f2bc918d24ad4dd693fc2bdaad397c7db8499546230fd6a62a7",
+      "candidate_test_NLL": [
+        25.175276947471637,
+        22.671382919341504,
+        22.75277712688282,
+        23.378456461117548
+      ],
+      "selected_test_NLL": [
+        22.671382919341504,
+        22.671382919341504,
+        22.671382919341504,
+        22.671382919341504,
+        22.671382919341504
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.441750344838738e-06,
+            "adjacent": 7.828507619933589e-08
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.950898993693613e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.462863252754687e-08,
+            "adjacent": 4.11404244005098e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.89487181080051e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 5.435474292880826e-10,
+            "adjacent": 4.973799150320701e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.868015071745617e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11788224,
+      "training_calls": 742,
+      "converged_fits": 2,
+      "seconds": 76.0191424000077
+    },
+    {
+      "rep": 4,
+      "folder": "artifacts/use_digits_v3_20261005/rep_04",
+      "trained_sha256": "16591e1bbba180e2ef3c311d219697311371dd9e4d6902a46c40c63b3af9f5cf",
+      "selection_sha256": "4b330f63c2889c11b668af963dfac014a696b69df9b645123728fd7d9c460598",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_04/EVALUATION.npz",
+      "evaluation_sha256": "69a554a0d6dadb94c144b1f6179519c9c9f384e16a125dc4c681b7cc3609e0e3",
+      "candidate_test_NLL": [
+        25.16990202637471,
+        22.643865194635897,
+        22.728809793358824,
+        23.3638906635188
+      ],
+      "selected_test_NLL": [
+        22.643865194635897,
+        22.643865194635897,
+        22.643865194635897,
+        22.643865194635897,
+        22.643865194635897
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.9071110080612925e-07,
+            "adjacent": 7.14607040208648e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.960028357625106e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.889391043619071e-08,
+            "adjacent": 3.7481129311345285e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.923661448141274e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.054268280626275e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.9294965583141e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11816448,
+      "training_calls": 751,
+      "converged_fits": 1,
+      "seconds": 74.58819809998386
+    },
+    {
+      "rep": 5,
+      "folder": "artifacts/use_digits_v3_20261005/rep_05",
+      "trained_sha256": "10908d677e5b65a3482237078e19b90832c3edb9b81ff56be1f69dc05d5dcd33",
+      "selection_sha256": "83eeb5bd9760e71626cc8536b4ec8d6a82a77caaa9868974d88af7b05c8381ec",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_05/EVALUATION.npz",
+      "evaluation_sha256": "c2b7f538018a196106448e03b070708802bf7c11188a53112ef3b489ceb139e5",
+      "candidate_test_NLL": [
+        25.174750690834443,
+        22.65755753026502,
+        22.74283963950167,
+        23.378862088084315
+      ],
+      "selected_test_NLL": [
+        22.65755753026502,
+        22.65755753026502,
+        22.65755753026502,
+        22.65755753026502,
+        22.65755753026502
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.3390573272431538e-07,
+            "adjacent": 6.179980971410259e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.5488086326867e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.6232235111601767e-08,
+            "adjacent": 8.277822871605167e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.953065926993077e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.199218667759851e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.796720545907078e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 732,
+      "converged_fits": 3,
+      "seconds": 73.84191089996602
+    },
+    {
+      "rep": 6,
+      "folder": "artifacts/use_digits_v3_20261005/rep_06",
+      "trained_sha256": "71ea5bcfd3da93d1c18a36aed163b93caa416c5563ebffa98d1d50ebf80c95fd",
+      "selection_sha256": "08296ab7a474406c41430576985a087bbee0766eebe3fd3807712a8af7a936bd",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_06/EVALUATION.npz",
+      "evaluation_sha256": "b00009b3b3095ec52100dfec7ae032403b365586986fa8da7c2d38c1e5b9f375",
+      "candidate_test_NLL": [
+        25.17254616605356,
+        22.649541039602997,
+        22.731625175172788,
+        23.369273131468063
+      ],
+      "selected_test_NLL": [
+        22.649541039602997,
+        22.649541039602997,
+        22.649541039602997,
+        22.649541039602997,
+        22.649541039602997
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.8654504785331483e-07,
+            "adjacent": 1.1319087889205548e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.961653280043947e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.7105428185004712e-08,
+            "adjacent": 3.6983749396313215e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.999684219552663e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.925446717152226e-10,
+            "adjacent": 5.3290705182007514e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.934966849201032e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11774112,
+      "training_calls": 697,
+      "converged_fits": 3,
+      "seconds": 72.74378010001965
+    },
+    {
+      "rep": 7,
+      "folder": "artifacts/use_digits_v3_20261005/rep_07",
+      "trained_sha256": "38fe36017c3c6399477c42ce9ab4e9fe85422f79a2c9eef012c5ff1375bf2d99",
+      "selection_sha256": "46942226b8179af64483add42665d17b844f7d01303e5be9a0e057ec7dd41b6c",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_07/EVALUATION.npz",
+      "evaluation_sha256": "a6bd0209620a04a0cea4252d8584e7e2caf701997fbacb2280b84449082cf1f2",
+      "candidate_test_NLL": [
+        25.168954989034138,
+        22.644617569950327,
+        22.730770735917748,
+        23.36859628881898
+      ],
+      "selected_test_NLL": [
+        22.644617569950327,
+        22.644617569950327,
+        22.644617569950327,
+        22.644617569950327,
+        22.644617569950327
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.383586933911829e-07,
+            "adjacent": 3.0747315804546815e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.664739453185689e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.8426870695975595e-08,
+            "adjacent": 5.25091081726714e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.963072478136326e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.161826604511589e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.938872863601844e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11792928,
+      "training_calls": 729,
+      "converged_fits": 4,
+      "seconds": 75.01984240009915
+    },
+    {
+      "rep": 8,
+      "folder": "artifacts/use_digits_v3_20261005/rep_08",
+      "trained_sha256": "b0eca529b7271196324b1e957ce24ac4d44a18b5699d01777b22ab93b200d3a5",
+      "selection_sha256": "008e92b62e2283af3d53fba0d124915c251fb30f88cee856550aa3611ad3a818",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_08/EVALUATION.npz",
+      "evaluation_sha256": "a238e0b91fc49364a6362fb690fcc44bd07d842df703154822e06c97f80b351a",
+      "candidate_test_NLL": [
+        25.172887713752832,
+        22.64060701175772,
+        22.724781926250312,
+        23.362557860095958
+      ],
+      "selected_test_NLL": [
+        22.64060701175772,
+        22.64060701175772,
+        22.64060701175772,
+        22.64060701175772,
+        22.64060701175772
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.0425790953358955e-07,
+            "adjacent": 1.4057910391329642e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.932168865134372e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.9976205578586814e-08,
+            "adjacent": 4.057199021190172e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.920992118106486e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.935340942007315e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.82981163133445e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 733,
+      "converged_fits": 2,
+      "seconds": 74.28066160005983
+    },
+    {
+      "rep": 9,
+      "folder": "artifacts/use_digits_v3_20261005/rep_09",
+      "trained_sha256": "e80d805056487a8e998c48844bba1c836ed9eb2fd636b4008f3d9513997a1662",
+      "selection_sha256": "f3640872bc9792d0f19b121c25b3e54ca2e703313ceacaeb3aeae8a5728355a4",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_09/EVALUATION.npz",
+      "evaluation_sha256": "3e07196e3c551f3a98a601532472f5e5b7dc9058f0dbba65f085cfe0eb19c4f4",
+      "candidate_test_NLL": [
+        25.171595583552033,
+        22.649680417623813,
+        22.73057866878083,
+        23.363668805830333
+      ],
+      "selected_test_NLL": [
+        22.649680417623813,
+        22.649680417623813,
+        22.649680417623813,
+        22.649680417623813,
+        22.649680417623813
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.3207620714060795e-07,
+            "adjacent": 7.565716941826395e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.969870262693803e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.230534855764745e-08,
+            "adjacent": 2.6901147975877393e-11
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.881945484124799e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.3232262214587536e-10,
+            "adjacent": 2.1316282072803006e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.904499442825454e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11816448,
+      "training_calls": 684,
+      "converged_fits": 4,
+      "seconds": 70.46335950004868
+    },
+    {
+      "rep": 10,
+      "folder": "artifacts/use_digits_v3_20261005/rep_10",
+      "trained_sha256": "73b7754cee822a7a37b1095c262a15b7274b57b78c4469c6524f29edf3a9aa47",
+      "selection_sha256": "76f57c0045bfb75057616f7742a360bdd70b1add4885378fbfc6984f31148afd",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_10/EVALUATION.npz",
+      "evaluation_sha256": "aba703c3db14824670161b2d59694771743cd85d7d6cab7932500d8ab7026f60",
+      "candidate_test_NLL": [
+        25.170021371529295,
+        22.654123045254853,
+        22.73255580977597,
+        23.358345675786325
+      ],
+      "selected_test_NLL": [
+        22.654123045254853,
+        22.654123045254853,
+        22.654123045254853,
+        22.654123045254853,
+        22.654123045254853
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.6510139744241314e-07,
+            "adjacent": 4.1454129018347885e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.989842564284146e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.095966517539182e-07,
+            "adjacent": 1.9563373143682838e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.913182719145652e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.89173146434041e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.819723034709682e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11802336,
+      "training_calls": 694,
+      "converged_fits": 3,
+      "seconds": 72.9379445000086
+    },
+    {
+      "rep": 11,
+      "folder": "artifacts/use_digits_v3_20261005/rep_11",
+      "trained_sha256": "2d09354144a865d85c12e563009f648cd4be72a2124c30ba45e9b2b90df9af73",
+      "selection_sha256": "8c7bafb900d28b9bd98dd43cc6e50a385e4d58682c8b7ea4c4171d4d38e3a1d8",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_11/EVALUATION.npz",
+      "evaluation_sha256": "90991259a8174716fc18448ed305108c4ebdb4857432e4da29d3f756a0270dec",
+      "candidate_test_NLL": [
+        25.172444407746553,
+        22.656612042977642,
+        22.739969893311503,
+        23.36837846247491
+      ],
+      "selected_test_NLL": [
+        22.656612042977642,
+        22.656612042977642,
+        22.656612042977642,
+        22.656612042977642,
+        22.656612042977642
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.087893543669452e-07,
+            "adjacent": 2.2325785664634168e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.94900661854814e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.9203195478212365e-08,
+            "adjacent": 7.535305712735862e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.89116633043352e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.168310058754287e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.996809602341727e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11792928,
+      "training_calls": 722,
+      "converged_fits": 1,
+      "seconds": 74.10179240000434
+    },
+    {
+      "rep": 12,
+      "folder": "artifacts/use_digits_v3_20261005/rep_12",
+      "trained_sha256": "785068ef318cdaac788e12ec146554b46866889b7e3e738b9615f2d63e95870c",
+      "selection_sha256": "d758e5784d7c93c44aafd514641860b9dad062b7d2583ae135c85b1367231299",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_12/EVALUATION.npz",
+      "evaluation_sha256": "a6fe906332ffe9e1467956ee64252948bb2aa593f16ce818784d7633ecea9934",
+      "candidate_test_NLL": [
+        25.179209367441,
+        22.66358131444121,
+        22.751881258124506,
+        23.386384806854636
+      ],
+      "selected_test_NLL": [
+        22.66358131444121,
+        22.66358131444121,
+        22.66358131444121,
+        22.66358131444121,
+        22.66358131444121
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.385505020185974e-07,
+            "adjacent": 8.013394392492046e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.892166197289498e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.4437500084341082e-08,
+            "adjacent": 7.897682507973514e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.867876404889842e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.390301621195249e-10,
+            "adjacent": 4.618527782440651e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.970569980755073e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11807040,
+      "training_calls": 729,
+      "converged_fits": 2,
+      "seconds": 63.81588940008078
+    },
+    {
+      "rep": 13,
+      "folder": "artifacts/use_digits_v3_20261005/rep_13",
+      "trained_sha256": "92eb49531b97b5a37c41ccfa1d2e4c6206cc20103d538fdeeff45287c0a63cbe",
+      "selection_sha256": "4cc4c5e0ac7defc76b64559d18108130ff27127f3eeec95910152730d1823b2b",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_13/EVALUATION.npz",
+      "evaluation_sha256": "0fac9abd3b6e5a9c7d433fa6fd1675d85963202727a6befc741e7e19e8d0700c",
+      "candidate_test_NLL": [
+        25.171136700188683,
+        22.656705638772713,
+        22.737972940406486,
+        23.36941986888857
+      ],
+      "selected_test_NLL": [
+        22.656705638772713,
+        22.656705638772713,
+        22.656705638772713,
+        22.656705638772713,
+        22.656705638772713
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.207253461174787e-07,
+            "adjacent": 2.0450805493510416e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.95078885956957e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.9406289908374674e-08,
+            "adjacent": 5.154987547939527e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.825722457890151e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.751932346560352e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.913951104500995e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11802336,
+      "training_calls": 744,
+      "converged_fits": 2,
+      "seconds": 64.09833060007077
+    },
+    {
+      "rep": 14,
+      "folder": "artifacts/use_digits_v3_20261005/rep_14",
+      "trained_sha256": "c4b6310455ea3af411ad579226dffc69c5b1504c05d798168dd57fadd150b6d0",
+      "selection_sha256": "364c9a64dd86ec0d15a474818017ceb10765efcbde71dcabafbcf057f92030cf",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_14/EVALUATION.npz",
+      "evaluation_sha256": "f97b38f42a8fd12912bb40666d87333e9ce92f507e602f08f3c694d7a23a2578",
+      "candidate_test_NLL": [
+        25.173084462955853,
+        22.658131632251145,
+        22.74073430484633,
+        23.371179252470867
+      ],
+      "selected_test_NLL": [
+        22.658131632251145,
+        22.658131632251145,
+        22.658131632251145,
+        22.658131632251145,
+        22.658131632251145
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.8533000911702402e-07,
+            "adjacent": 4.482423321405804e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.964604141821098e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.6593894969219036e-07,
+            "adjacent": 3.7472602798516164e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.979403969850864e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.967546374246012e-10,
+            "adjacent": 4.973799150320701e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.999783667780093e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11792928,
+      "training_calls": 718,
+      "converged_fits": 2,
+      "seconds": 62.85273429995868
+    },
+    {
+      "rep": 15,
+      "folder": "artifacts/use_digits_v3_20261005/rep_15",
+      "trained_sha256": "e2c809ca989516f6bad27705603814c39d55963e52ba6f537d1d858c54470568",
+      "selection_sha256": "f0817360cc022cdd2146755f651467e347d003adc8cd439975543ef30b956e5a",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_15/EVALUATION.npz",
+      "evaluation_sha256": "7e64a4289a356c135665a0b5649a9af9cb7b5c532991d832c3ca3d82fe7f7bc1",
+      "candidate_test_NLL": [
+        25.17317036630748,
+        22.650316631623,
+        22.73728013171617,
+        23.371880188556318
+      ],
+      "selected_test_NLL": [
+        22.650316631623,
+        22.650316631623,
+        22.650316631623,
+        22.650316631623,
+        22.650316631623
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 9.272472460963854e-07,
+            "adjacent": 5.226819865811194e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.915823051542816e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.0847366499765485e-08,
+            "adjacent": 4.0323300254385686e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.709621995313e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.007017188698228e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.971884873394288e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11816448,
+      "training_calls": 746,
+      "converged_fits": 1,
+      "seconds": 64.73765439994168
+    },
+    {
+      "rep": 16,
+      "folder": "artifacts/use_digits_v3_20261005/rep_16",
+      "trained_sha256": "b4dbd8e5af9bfb274365294443722e26c1ff3ed6b59b5c0bfe4f79455d7b1724",
+      "selection_sha256": "08ce948f285fa783b67e8389357ef168fa25ba14eae4806efebda0d992796716",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_16/EVALUATION.npz",
+      "evaluation_sha256": "49ca34c9476695369121bfa10e7512469802d2e7d221a5bdaf6ea05af72ee87f",
+      "candidate_test_NLL": [
+        25.171280051999517,
+        22.64824201472928,
+        22.73070273441699,
+        23.362383446332295
+      ],
+      "selected_test_NLL": [
+        22.64824201472928,
+        22.64824201472928,
+        22.64824201472928,
+        22.64824201472928,
+        22.64824201472928
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.8936057816508765e-07,
+            "adjacent": 2.5150725946332386e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.925514105058042e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.1136326466830724e-08,
+            "adjacent": 6.718181566611747e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.852351712247298e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.958700282666541e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.961762303944965e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 726,
+      "converged_fits": 2,
+      "seconds": 62.34006940003019
+    },
+    {
+      "rep": 17,
+      "folder": "artifacts/use_digits_v3_20261005/rep_17",
+      "trained_sha256": "35db73cd2782c72a92c8cae20bc5f7247683dbe5a725c4841f1c365443fec307",
+      "selection_sha256": "c5bd2bde1ebe7dff2116bd6ee5c2f48772f40b7d4f94b89044c56847b797aa38",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_17/EVALUATION.npz",
+      "evaluation_sha256": "d1cb7b6be91a0341284b7ee684b5da115ede93fd74a112066a1b9532d726ed46",
+      "candidate_test_NLL": [
+        25.177368685552498,
+        22.660917251779193,
+        22.7419425023809,
+        23.372799310447103
+      ],
+      "selected_test_NLL": [
+        22.660917251779193,
+        22.660917251779193,
+        22.660917251779193,
+        22.660917251779193,
+        22.660917251779193
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.977094236911171e-06,
+            "adjacent": 2.280464528325865e-08
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.934276734568925e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.868160381945927e-08,
+            "adjacent": 4.9666937229631e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.992422736471163e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 5.559250837450236e-10,
+            "adjacent": 2.842170943040401e-14
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.986767413039388e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11816448,
+      "training_calls": 742,
+      "converged_fits": 3,
+      "seconds": 63.13385720003862
+    },
+    {
+      "rep": 18,
+      "folder": "artifacts/use_digits_v3_20261005/rep_18",
+      "trained_sha256": "71c5643e0b1f505973fdb79e16eef15060c00b14b290d7a10f3f3e2412643c4c",
+      "selection_sha256": "3f286f7db8b87aee7d3df6180650f85ffb772bc1cb9b68bba81ac09ea3bb0e16",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_18/EVALUATION.npz",
+      "evaluation_sha256": "985c91cb0ac6637bcc90d7c2e1af8495be383e21caf3bd2b7e1d45bf7eb399a7",
+      "candidate_test_NLL": [
+        25.171086827211127,
+        22.65320604126238,
+        22.736376552807894,
+        23.366398854127137
+      ],
+      "selected_test_NLL": [
+        22.65320604126238,
+        22.65320604126238,
+        22.65320604126238,
+        22.65320604126238,
+        22.65320604126238
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.4800224680871e-07,
+            "adjacent": 4.753466953388852e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.995560490416722e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.07092405446474e-08,
+            "adjacent": 3.7765346405649325e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.987662363819538e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.094680315982259e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.831876424115649e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 732,
+      "converged_fits": 4,
+      "seconds": 63.62847660004627
+    },
+    {
+      "rep": 19,
+      "folder": "artifacts/use_digits_v3_20261005/rep_19",
+      "trained_sha256": "6ff617422c414b4db3315051effec8205982c058614e02e744427f8b13b8fec0",
+      "selection_sha256": "dd438155ebec7a8db4883c91cb5e70a3040add84e334875b07a51ec92d26f7ba",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_19/EVALUATION.npz",
+      "evaluation_sha256": "23134c5c5b2ae3b50d3ab832dabeeef0ba86b29983c8503212b4b552c19bc4fe",
+      "candidate_test_NLL": [
+        25.17448757470371,
+        22.650107260589895,
+        22.73583976790394,
+        23.373777857706436
+      ],
+      "selected_test_NLL": [
+        22.650107260589895,
+        22.650107260589895,
+        22.650107260589895,
+        22.650107260589895,
+        22.650107260589895
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.653934189884467e-06,
+            "adjacent": 4.5625956346384555e-08
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.971412251452705e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.8396097090089825e-08,
+            "adjacent": 3.5136338283336954e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.87377657413191e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 5.573497219302226e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.872145989575642e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11774112,
+      "training_calls": 683,
+      "converged_fits": 4,
+      "seconds": 60.82959979993757
+    },
+    {
+      "rep": 20,
+      "folder": "artifacts/use_digits_v3_20261005/rep_20",
+      "trained_sha256": "4063bee72a8b99d56d1461796a5c03bbf7e0f7e119d2beb7643c267c2bc4eb86",
+      "selection_sha256": "d5207f7f4c721ecb5ab4cac73df576b2f33e056e743726289ff782ee9fdcbe6d",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_20/EVALUATION.npz",
+      "evaluation_sha256": "cce221f97767bc7f8f3b527ab5690d321ea0c8858ede48f04988818442e7b141",
+      "candidate_test_NLL": [
+        25.172334080345127,
+        22.655856982878888,
+        22.739070932109744,
+        23.373041647041358
+      ],
+      "selected_test_NLL": [
+        22.655856982878888,
+        22.655856982878888,
+        22.655856982878888,
+        22.655856982878888,
+        22.655856982878888
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 5.703469447837506e-07,
+            "adjacent": 1.2433289953150961e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.97991733697745e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.616922856191195e-08,
+            "adjacent": 1.1535661315065227e-11
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.857215960140664e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.178221964437398e-10,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.944889356461317e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11792928,
+      "training_calls": 737,
+      "converged_fits": 3,
+      "seconds": 62.90325890004169
+    },
+    {
+      "rep": 21,
+      "folder": "artifacts/use_digits_v3_20261005/rep_21",
+      "trained_sha256": "a1e98dd24dea54142f0c1f5c6c6fa45d3bc1b2891aa177a11f26136a2e0079cc",
+      "selection_sha256": "1a7d2a8f20d2f65e3f883af8bf8ec3bd08f0a5b3e23865648acb2d1bccf45e82",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_21/EVALUATION.npz",
+      "evaluation_sha256": "edfddb7218474864de9558a4f27441dd76727546e1ae34e9a13a32d1165773df",
+      "candidate_test_NLL": [
+        25.17522909130453,
+        22.65245393143454,
+        22.732802302245872,
+        23.36005463813103
+      ],
+      "selected_test_NLL": [
+        22.65245393143454,
+        22.65245393143454,
+        22.65245393143454,
+        22.65245393143454,
+        22.65245393143454
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.900579710920283e-07,
+            "adjacent": 1.9394761352486967e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.973721182277018e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.2916680109119625e-08,
+            "adjacent": 8.661515948915621e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.98870525181772e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.2854607095723622e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.938326418768018e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11769408,
+      "training_calls": 734,
+      "converged_fits": 2,
+      "seconds": 62.7208651000401
+    },
+    {
+      "rep": 22,
+      "folder": "artifacts/use_digits_v3_20261005/rep_22",
+      "trained_sha256": "2691390ca082b47d14bfac7716d96ac1c53711304239ba8e367ac74c126052c0",
+      "selection_sha256": "1f11354cbc57f6fb702fc368c4f6f1668dee9a852971fc382e7945ac54684b9c",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_22/EVALUATION.npz",
+      "evaluation_sha256": "ccefabc2f61ef3970e3cc892538e3bf96cb5b64fa22f44693c275c1dd45f2e4c",
+      "candidate_test_NLL": [
+        25.176588519859504,
+        22.66774399911663,
+        22.750302892052563,
+        23.37892780536758
+      ],
+      "selected_test_NLL": [
+        22.66774399911663,
+        22.66774399911663,
+        22.66774399911663,
+        22.66774399911663,
+        22.66774399911663
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.1222463075787346e-07,
+            "adjacent": 7.330349660605862e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.871564898844554e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.0036925835474904e-08,
+            "adjacent": 1.383426706524915e-11
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.661003691485703e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 5.03348474012455e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.84323067498849e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 729,
+      "converged_fits": 4,
+      "seconds": 63.44874129991513
+    },
+    {
+      "rep": 23,
+      "folder": "artifacts/use_digits_v3_20261005/rep_23",
+      "trained_sha256": "8f14fce382a3982d8faf13544c07d96be4eb671e39fbe0943f9ee53a6c4bafb2",
+      "selection_sha256": "b05c8e73b8caece1419fa8d49c8ebeded7c8f8155866b832a77ffd434d0218d0",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_23/EVALUATION.npz",
+      "evaluation_sha256": "d413ad44965ae44a2038bee80e3afdb22f39f9442354d103abeb879d2f4eb852",
+      "candidate_test_NLL": [
+        25.16879488638137,
+        22.66301967489728,
+        22.744075863662875,
+        23.371494779146197
+      ],
+      "selected_test_NLL": [
+        22.66301967489728,
+        22.66301967489728,
+        22.66301967489728,
+        22.66301967489728,
+        22.66301967489728
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.2610044680959618e-07,
+            "adjacent": 7.003890800660884e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.940219314330534e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.710166941393254e-08,
+            "adjacent": 4.1033842990145786e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.979343490451598e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 5.969624794488482e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.971450110057845e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11807040,
+      "training_calls": 747,
+      "converged_fits": 2,
+      "seconds": 64.500681500067
+    },
+    {
+      "rep": 24,
+      "folder": "artifacts/use_digits_v3_20261005/rep_24",
+      "trained_sha256": "55f2533b86d455a4241b37c451b463972c94b8994ee0bd2a20986e4c1d4ea81e",
+      "selection_sha256": "51958ee15e118efdf4cdcdaea03259db36f7bebd8663db42e128c03f4422b5dd",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_24/EVALUATION.npz",
+      "evaluation_sha256": "935fd6a974845a9bff885693dc191c5de4ecd97e60dde0ec80f8b5376e60842a",
+      "candidate_test_NLL": [
+        25.17425820536233,
+        22.644285369691026,
+        22.72342732753314,
+        23.357603380131092
+      ],
+      "selected_test_NLL": [
+        22.644285369691026,
+        22.644285369691026,
+        22.644285369691026,
+        22.644285369691026,
+        22.644285369691026
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.939656080196528e-07,
+            "adjacent": 4.845333023695275e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.94129756293205e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.4313905438712027e-07,
+            "adjacent": 2.424549450097402e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.988909241420707e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.3455192515721137e-10,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.894318031555827e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11811744,
+      "training_calls": 719,
+      "converged_fits": 4,
+      "seconds": 61.820759600028396
+    },
+    {
+      "rep": 25,
+      "folder": "artifacts/use_digits_v3_20261005/rep_25",
+      "trained_sha256": "c1cab55a349b8dd40a87359f995ff53954717e57c569fc2fcac9873f1295bf76",
+      "selection_sha256": "e69efeb8f7f0de2df2f62ca9303560edcb944caa89a48efbc8381cf2dfc967fb",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_25/EVALUATION.npz",
+      "evaluation_sha256": "772308d8581aaf4a431bbc78197785d0b9cc90658e9d28d063544c61b626c4a5",
+      "candidate_test_NLL": [
+        25.171601300553327,
+        22.656414240106468,
+        22.73924204756853,
+        23.37290692033669
+      ],
+      "selected_test_NLL": [
+        22.656414240106468,
+        22.656414240106468,
+        22.656414240106468,
+        22.656414240106468,
+        22.656414240106468
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 3.909388404110814e-07,
+            "adjacent": 1.0308411901860381e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.79887229690668e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.857826331137403e-08,
+            "adjacent": 1.077538058780192e-11
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.96443422218718e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 9.691802915767767e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.896444552737194e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11802336,
+      "training_calls": 671,
+      "converged_fits": 4,
+      "seconds": 58.697145600104704
+    },
+    {
+      "rep": 26,
+      "folder": "artifacts/use_digits_v3_20261005/rep_26",
+      "trained_sha256": "a05c50fcc0e89a4d2a465c159efb23bbba8c95ace24dec1912b43e7a30ef0b3a",
+      "selection_sha256": "ac9a756c1c65fda998d792452ba24d0867b048bf9c08252c2afa12b3c7f6c4d6",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_26/EVALUATION.npz",
+      "evaluation_sha256": "aacb1c991eabd3294963df38e6b54dcf164a69f5ec542e424436c4a149e4e06e",
+      "candidate_test_NLL": [
+        25.17411890313575,
+        22.668850134138676,
+        22.746692303324544,
+        23.36949372946523
+      ],
+      "selected_test_NLL": [
+        22.668850134138676,
+        22.668850134138676,
+        22.668850134138676,
+        22.668850134138676,
+        22.668850134138676
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.5066555647536006e-07,
+            "adjacent": 2.651319164215238e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.990625077227477e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 8.837320564225593e-08,
+            "adjacent": 3.511928525767871e-10
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.987413784884325e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.494715876215196e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.973914139038698e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11802336,
+      "training_calls": 697,
+      "converged_fits": 4,
+      "seconds": 61.19698280002922
+    },
+    {
+      "rep": 27,
+      "folder": "artifacts/use_digits_v3_20261005/rep_27",
+      "trained_sha256": "04937d501c01c65cb8c6f7870c9cc7b9c2065d4308dd08b4aa5b4ce28f3a115a",
+      "selection_sha256": "b4976c0ac1218018dd270911371394db4e8fa35bdf420145d3867028261084f4",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_27/EVALUATION.npz",
+      "evaluation_sha256": "8fd942638c44bc425075b262af72a6deeb5c5b1e9fdc30cd416cf18f65e38263",
+      "candidate_test_NLL": [
+        25.170488798850602,
+        22.651344038493225,
+        22.73436994156029,
+        23.37011030424902
+      ],
+      "selected_test_NLL": [
+        22.651344038493225,
+        22.651344038493225,
+        22.651344038493225,
+        22.651344038493225,
+        22.651344038493225
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.11418131515984e-07,
+            "adjacent": 4.416857990463541e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.919188914686572e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 4.7444700612686574e-08,
+            "adjacent": 3.1313618364947615e-11
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.779540954824029e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.2796164128303644e-10,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.99689264702397e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11802336,
+      "training_calls": 673,
+      "converged_fits": 2,
+      "seconds": 59.60108950000722
+    },
+    {
+      "rep": 28,
+      "folder": "artifacts/use_digits_v3_20261005/rep_28",
+      "trained_sha256": "eacc44b4ae8e9be447bde29a3855d61e82126dc6aa1b260b76bfee93e3a6972f",
+      "selection_sha256": "125327ee3cbd4b6eeee6bd0fe8d8435fac30a4c22787b674810c2ff385f7ca80",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_28/EVALUATION.npz",
+      "evaluation_sha256": "af2f07cafc6abedd6f9dd690944c6589fa1626a8ffcf9cd1c2277997de10e889",
+      "candidate_test_NLL": [
+        25.1711721209863,
+        22.66188890662041,
+        22.74357823229891,
+        23.37096746832726
+      ],
+      "selected_test_NLL": [
+        22.66188890662041,
+        22.66188890662041,
+        22.66188890662041,
+        22.66188890662041,
+        22.66188890662041
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.5832352079646625e-07,
+            "adjacent": 1.0539302763845626e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.688976509991676e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.4319461999766645e-08,
+            "adjacent": 1.050182163453428e-11
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.917503485112888e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.1962342227889167e-10,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.927968891432215e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11811744,
+      "training_calls": 713,
+      "converged_fits": 5,
+      "seconds": 61.436721200007014
+    },
+    {
+      "rep": 29,
+      "folder": "artifacts/use_digits_v3_20261005/rep_29",
+      "trained_sha256": "7905cc267f9db9db8925e79856048411a527204077d1b9834685fce29d5f9189",
+      "selection_sha256": "2bc6e9c75352bd7ec568871cdbc15ff0c027567c5f599f5a9cda6bd79a83897e",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_29/EVALUATION.npz",
+      "evaluation_sha256": "17883213ea0958f9eafe5979d33191eb92d434052fd7dc09001f784c8ed1c110",
+      "candidate_test_NLL": [
+        25.17227722963225,
+        22.661903056886654,
+        22.742586646174754,
+        23.3674605799051
+      ],
+      "selected_test_NLL": [
+        22.661903056886654,
+        22.661903056886654,
+        22.661903056886654,
+        22.661903056886654,
+        22.661903056886654
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.704255532952175e-07,
+            "adjacent": 2.6973800970608863e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.819266511001956e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.9641205994958e-08,
+            "adjacent": 5.901057420487632e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.854894900129807e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.2602364424528787e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.981082182974887e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11797632,
+      "training_calls": 757,
+      "converged_fits": 1,
+      "seconds": 64.15611539990641
+    },
+    {
+      "rep": 30,
+      "folder": "artifacts/use_digits_v3_20261005/rep_30",
+      "trained_sha256": "e5ab785e78f15d775113178e6628f728a31e7e5803dd1ca4559ab5df53644c4c",
+      "selection_sha256": "bab0f16ec092cade9efde1640a6779f3676c7367c09eb55772f814fcb6fbacff",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_30/EVALUATION.npz",
+      "evaluation_sha256": "322fa2ab48bbaca6bb0faee5cb3dacadfb986eaea401bc25b6ac7c5b16a8fdd1",
+      "candidate_test_NLL": [
+        25.17063759255486,
+        22.646607796753884,
+        22.731435827613872,
+        23.364159093886563
+      ],
+      "selected_test_NLL": [
+        22.646607796753884,
+        22.646607796753884,
+        22.646607796753884,
+        22.646607796753884,
+        22.646607796753884
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.3235759688257076e-06,
+            "adjacent": 1.6192753804489257e-08
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.925665844789933e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.7659822049154172e-08,
+            "adjacent": 5.9259264162392356e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.959589597485774e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 7.687006586820644e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.990729910036578e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11816448,
+      "training_calls": 745,
+      "converged_fits": 2,
+      "seconds": 63.833101799944416
+    },
+    {
+      "rep": 31,
+      "folder": "artifacts/use_digits_v3_20261005/rep_31",
+      "trained_sha256": "15e86338eb9e438be6048771652f581835a4d8ab541db9f3768cf53c2f4502dc",
+      "selection_sha256": "57cb40266759a1194d3a17926c36b47932a99049c43aa18c3eaf1cb81c49f266",
+      "evaluation_file": "artifacts/use_digits_v3_20261005/rep_31/EVALUATION.npz",
+      "evaluation_sha256": "962aa6db87708bdee3c86a371acfb401d291ce92b7af1f8abf0444d71e7968f5",
+      "candidate_test_NLL": [
+        25.17002275142224,
+        22.641795772658455,
+        22.72653790727605,
+        23.362507329549853
+      ],
+      "selected_test_NLL": [
+        22.641795772658455,
+        22.641795772658455,
+        22.641795772658455,
+        22.641795772658455,
+        22.641795772658455
+      ],
+      "choices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "test_best_candidate": 1,
+      "test_relative_best": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "test_reference": [
+        {
+          "name": "IND",
+          "qualified": true,
+          "main_order": 0,
+          "nodes": 0
+        },
+        {
+          "name": "L001",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 2.3462020948272766e-07,
+            "adjacent": 1.173397379261587e-09
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.911149234653749e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L010",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 1.7290915366174886e-08,
+            "adjacent": 4.529709940470639e-12
+          },
+          "mode": {
+            "iterations": 6,
+            "max_gradient": 9.656321520168376e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        },
+        {
+          "name": "L100",
+          "main_order": 32,
+          "qualified": true,
+          "errors": {
+            "coarse": 6.855671585981327e-11,
+            "adjacent": 7.105427357601002e-15
+          },
+          "mode": {
+            "iterations": 5,
+            "max_gradient": 9.969108982765817e-09,
+            "backtracks": 0
+          },
+          "profiles": 1750,
+          "nodes": 2744000
+        }
+      ],
+      "numerically_qualified": true,
+      "reference_nodes": 11792928,
+      "training_calls": 702,
+      "converged_fits": 3,
+      "seconds": 60.97452649998013
+    }
+  ],
+  "family": [
+    {
+      "contrast": "RAW100-AGH",
+      "paired_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "SE": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "precision_passed": true,
+      "material_excess": false,
+      "below_practical_excess": true,
+      "useful_joint_gain": false
+    },
+    {
+      "contrast": "OUT16-INNER1600",
+      "paired_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "SE": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "precision_passed": true,
+      "material_excess": false,
+      "below_practical_excess": true,
+      "useful_joint_gain": false
+    },
+    {
+      "contrast": "INNER1600-AGH",
+      "paired_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "SE": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "precision_passed": true,
+      "material_excess": false,
+      "below_practical_excess": true,
+      "useful_joint_gain": false
+    },
+    {
+      "contrast": "JVI100-AGH",
+      "paired_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "SE": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "precision_passed": true,
+      "material_excess": false,
+      "below_practical_excess": true,
+      "useful_joint_gain": false
+    },
+    {
+      "contrast": "AGH-IND",
+      "paired_values": [
+        -2.5187963221757634,
+        -2.5101880844487745,
+        -2.515035003887963,
+        -2.5038940281301336,
+        -2.526036831738814,
+        -2.5171931605694233,
+        -2.5230051264505633,
+        -2.5243374190838104,
+        -2.532280701995113,
+        -2.5219151659282204,
+        -2.515898326274442,
+        -2.5158323647689116,
+        -2.5156280529997908,
+        -2.5144310614159693,
+        -2.5149528307047078,
+        -2.5228537346844817,
+        -2.5230380372702363,
+        -2.5164514337733053,
+        -2.5178807859487478,
+        -2.5243803141138166,
+        -2.5164770974662396,
+        -2.5227751598699903,
+        -2.5088445207428727,
+        -2.5057752114840888,
+        -2.5299728356713054,
+        -2.515187060446859,
+        -2.505268768997073,
+        -2.5191447603573778,
+        -2.5092832143658903,
+        -2.510374172745596,
+        -2.5240297958009776,
+        -2.5282269787637865
+      ],
+      "mean": -2.517793386346095,
+      "SE": 0.0012679132021143223,
+      "interval": [
+        -2.521272593322723,
+        -2.5143141793694666
+      ],
+      "precision_passed": true,
+      "material_excess": false,
+      "below_practical_excess": true,
+      "useful_joint_gain": true
+    }
+  ],
+  "methods": [
+    "RAW100",
+    "OUT16",
+    "INNER1600",
+    "JVI100",
+    "AGH"
+  ],
+  "candidates": [
+    "IND",
+    "L001",
+    "L010",
+    "L100"
+  ],
+  "mean_test_NLL": [
+    22.655264435604046,
+    22.655264435604046,
+    22.655264435604046,
+    22.655264435604046,
+    22.655264435604046
+  ],
+  "mean_candidate_test_NLL": [
+    25.17305782195014,
+    22.655264435604046,
+    22.738046420556863,
+    23.369747928919885
+  ],
+  "mean_test_relative_best": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "choice_counts": {
+    "RAW100": [
+      0,
+      32,
+      0,
+      0
+    ],
+    "OUT16": [
+      0,
+      32,
+      0,
+      0
+    ],
+    "INNER1600": [
+      0,
+      32,
+      0,
+      0
+    ],
+    "JVI100": [
+      0,
+      32,
+      0,
+      0
+    ],
+    "AGH": [
+      0,
+      32,
+      0,
+      0
+    ]
+  },
+  "numerical_qualification": true,
+  "training_calls": 23102,
+  "converged_fits": 85,
+  "reference_nodes": 377561856,
+  "scope": "Conditional on the fixed UCI official datasets; independent randomized workflow runs, not 32 independent natural data sets or population confidence coverage",
+  "seconds": 537.8849117000354
+}

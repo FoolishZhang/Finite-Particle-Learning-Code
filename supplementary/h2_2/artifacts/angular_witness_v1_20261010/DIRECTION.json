@@ -1,0 +1,44 @@
+{
+  "schema": "angular_direction_v1",
+  "selected_utc": "2026-10-10T08:03:21.897969+00:00",
+  "source": "artifacts/rankone_stationary_v1_20261007/evaluation/P_D.json",
+  "numpy_version": "2.3.5",
+  "source_eigenvalues": [
+    -0.0045112985312487286,
+    0.007923932198380727,
+    0.008225623302086354,
+    0.00918375752672599,
+    0.009249180687922916,
+    0.009332609803577334,
+    0.009386429811156382
+  ],
+  "saved_eigenvector_column": 0,
+  "canonical_lifted_float64": [
+    -0.5030760074419534,
+    -0.40282597230240147,
+    -0.27330168889877177,
+    -0.09975947884646821,
+    0.09975947884607578,
+    0.27330168889826884,
+    0.40282597230265066,
+    0.5030760074425994
+  ],
+  "rounding": "first seven nearest-even at 2^24; eighth = negative sum",
+  "u_integer": [
+    -8440215,
+    -6758298,
+    -4585241,
+    -1673686,
+    1673686,
+    4585241,
+    6758298,
+    8440215
+  ],
+  "S_integer": 281474961915412,
+  "sum_u": 0,
+  "direction": "d=u/sqrt(S)",
+  "center_saved_matrix_rayleigh_motivation_only": -0.0045112985312486704,
+  "new_integrals": 0,
+  "candidate_selection_is_exploratory": true,
+  "scientific_sign_certificate": false
+}

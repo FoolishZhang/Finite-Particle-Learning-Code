@@ -1,0 +1,58 @@
+{
+  "dimensions": [
+    16,
+    64,
+    128,
+    512
+  ],
+  "profiles": [
+    {
+      "name": "null",
+      "scales": [
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "mild",
+      "scales": [
+        4.5,
+        3.5
+      ]
+    },
+    {
+      "name": "contrast",
+      "scales": [
+        6.0,
+        2.0
+      ]
+    }
+  ],
+  "c": 0.9,
+  "streams": 8,
+  "observations_per_stream": 65536,
+  "batch": 2048,
+  "seed_base": 20273001,
+  "alpha": 0.05,
+  "family_size": 12,
+  "quad_upper": 12.0,
+  "quad_epsabs": 1e-12,
+  "quad_epsrel": 1e-12,
+  "quad_limit": 300,
+  "quad_gate": 1e-10,
+  "primary_dimensions": [
+    128
+  ],
+  "primary_profiles": [
+    "mild",
+    "contrast"
+  ],
+  "seed_formula": "base+100000*profile_index+100*d+stream_index",
+  "observation_unit": "independent randomized Bernoulli sign-agreement event",
+  "tie_rule": "two independent fair signs; consume both uniforms every observation",
+  "dtype": "float64",
+  "threads": 2,
+  "fits": 0,
+  "no_material_size_threshold": true,
+  "no_failed_gate_sample_extension": true
+}

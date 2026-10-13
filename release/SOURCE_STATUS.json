@@ -1,0 +1,3182 @@
+{
+  "schema": "public_source_status_v1",
+  "files": [
+    {
+      "path": "script/__init__.py",
+      "category": "scientific_source",
+      "status": "support_module",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/activevar_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/activevar_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/activevar_figure.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/activevar_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/activevar_tables.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/angular_witness_fraction_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/angular_witness_integrals.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/angular_witness_math_check.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/angular_witness_path_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/angular_witness_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/angular_witness_setup.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_audit_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_core.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_core_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_prepare.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_report.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_statistics.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/asymptotic_bridge_statistics_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_analysis.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_audit_local.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_audit_stats.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_audit_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_local.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/bankvar_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v13_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v141_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v151_corollary.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v16_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v18_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v18_risk_range.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v18_risk_range_check.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v18_risk_range_check_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/candidate_v18_risk_range_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_audit_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_bounds.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_bounds_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_compute_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_finalize.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_finalize_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_prepare.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_symmetry.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_gradient_symmetry_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_audit_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_bounds.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_bounds_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_compute_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_finalize.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_finalize_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_moments.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_moments_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_f8_hessian_prepare.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_audit_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_bounds.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_bounds_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_compute_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_corollary.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_finalize.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_finalize_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_prepare.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_risk.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/certified_teacher_risk_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/compensation_learning_core.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/compensation_learning_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/compensation_learning_ref_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/compensation_learning_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/compensation_learning_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/compensation_learning_run_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/constraint_boundary_cardinality.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/constraint_boundary_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/constraint_boundary_moments.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/constraint_boundary_moments_v2.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/constraint_boundary_objective.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_highk.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_highk_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_numeric.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_numeric_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_profile.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/covariance_boundary_profile_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_analysis.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_audit_cal.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_audit_stats.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_audit_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_calibrate.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_null_curvature.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/curvcal_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_dynamics.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_evaluate.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_evaluate_queue.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_event_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_go_eval.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_go_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_goemotions.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_joint.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_natural.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_spectrum.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_synthetic.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/dependence_boundary_theory_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; known_missing_CBM_GoEmotions_stack",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_audit_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_compute_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_statistics.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/direction_validation_statistics_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/failure_probability_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/failure_probability_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/failure_probability_interval.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_cal_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_calibrate.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_conditional_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_endpoint_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_endpoint_diagnostic.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_finalize.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "REVIEW_BRIEF",
+        "AGENTS.md"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_posthoc.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_statistics.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_stats_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/fincal_train_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_learning_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_learning_col.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_learning_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_learning_mean_display.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_learning_ref_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_learning_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_selection_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/finite_selection_finalize.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_angular.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_angular_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_kernel_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_path_records.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_plot.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_profile.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_profile_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_dependence_training_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/joint_risk_refinement_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_figure.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_posthoc.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_reference_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/jointscale_tables.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_geometry_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_geometry_kernel.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_bounds.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_bounds_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_certificate.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_certificate_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_compute_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_prepare.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_saved_check.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_saved_check_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_tail_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/local_witness_feasibility_tail_run_test.py",
+      "category": "scientific_test",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/mean_robustness_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/mean_robustness_kernel.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_compute_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_kernel_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/noncollinear_probe_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_contrast_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_fourier.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_fourier_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_mc.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_mc_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/nuisance_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/numerical_sign_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/numerical_sign_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_bank_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_bank_experiment.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_bank_risk_sensitivity.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_event.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_event_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_raw.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_raw_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/objective_strengthening_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_active_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_active_target.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_gradient_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_gradient_check.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_gradient_source.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/outer_learning_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/paper_delivery_v1/__init__.py",
+      "category": "scientific_source",
+      "status": "support_module",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/positive_control_experiment.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": [
+        "positive_control_delivery"
+      ]
+    },
+    {
+      "path": "script/prospective_diagnostic_analyze.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_diagnostic_analyze_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_diagnostic_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_diagnostic_audit_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_diagnostic_core.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_diagnostic_core_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_diagnostic_dev.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_explanation_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_explanation_compute_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_explanation_independent.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_explanation_independent_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_explanation_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/prospective_explanation_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_finite_scale_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_finite_scale_constants.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_finite_scale_fixture.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_finite_scale_fraction.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_finite_scale_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_remainder_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_remainder_noise.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_remainder_propagate.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_remainder_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r02_remainder_validate.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_audit_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_candidate_interval.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_certificate_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_continuous_compose.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_development_compute.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_development_run.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_independent_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_public_projection.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_quantitative_consequences.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_risk_interval.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_saved_arithmetic_audit.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_spectral_refinement.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/r03_teacher_derivative.py",
+      "category": "scientific_source",
+      "status": "current_result_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_continuation_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_continuation_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_continuation_compute_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_continuation_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_continuation_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_analysis.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_compute_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_kernel_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stability_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_compute_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_kernel_test.py",
+      "category": "scientific_test",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rankone_stationary_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_gaussian_bridge.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_multiblock_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_multiblock_core.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_multiblock_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_quant_certificate.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_quant_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_quant_independent.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rc_quant_query.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rec0_verify.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rec1_diagnostics.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rec1_independent_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/rec1_verify.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reccross_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reccross_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reccross_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reck_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reck_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reclearn_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reclearn_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/recreadout_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/recreadout_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/recreadout_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/recscale_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/recscale_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_finalize.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "REVIEW_BRIEF",
+        "AGENTS.md"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_growth.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_growth_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_growth_stats_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_growth_summary.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_numeric.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_numeric_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/reglearn_reference_independent.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scale_learning_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scale_learning_core.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scale_learning_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scale_learning_pair_sensitivity.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scale_learning_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_direction.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_refaudit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_mc.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbm6eval_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_audit_v2.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_eval.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmalloc_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_eval.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmavg_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_readout.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_refaudit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmeval_summary.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_refaudit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbminv_summary.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_refaudit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "git "
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmopt_summary.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_eval.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_kernel.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_prepare.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "REVIEW_BRIEF",
+        "AGENTS.md"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_run.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/scbmseq_tables.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_a.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_b.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_b_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_c.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_c_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_d.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_mapping.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/structure_learning_validation_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/udigits_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/udigits_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/uselect_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/uselect_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/uselect_continue.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/uselect_reproduce.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/usemargin_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/usemargin_compute.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF",
+        "DELIVERY_MANIFEST"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/usemargin_report.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_allocation_diagnostic.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_block_budget.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_budget_crossover.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_symmetry_events.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_symmetry_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_symmetry_reference_r2.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_synthesis_decomposition.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_synthesis_paper.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v2_tradeoff_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_core.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_experiments.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_inference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_optimality.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_query_tables.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_budget.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_budget_pool.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_core.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_experiment.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_synthesis.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; legacy_checks_need_missing_git_objects",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/v3_select_theory.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported; legacy_checks_need_missing_git_objects",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/weak_emission_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/weak_emission_numeric.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed; management_inputs_not_exported",
+      "management_couplings": [
+        "HANDOFF"
+      ],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/weak_emission_numeric_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/weak_emission_replay.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/weak_emission_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/wstructure_audit.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/wstructure_figures.py",
+      "category": "scientific_plot",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/wstructure_reference.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/wstructure_results.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/wstructure_score.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    },
+    {
+      "path": "script/wstructure_train.py",
+      "category": "scientific_source",
+      "status": "archival_source_not_replayed",
+      "management_couplings": [],
+      "excluded_local_imports": []
+    }
+  ],
+  "interpretation": "The source-readable archive is broader than the bounded tested interface. Historical management wrappers are not restored."
+}

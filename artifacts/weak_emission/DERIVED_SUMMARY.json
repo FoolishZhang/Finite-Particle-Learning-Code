@@ -1,0 +1,83 @@
+{
+  "source_sha256": "4596bb760371692c503295fcab9632a06a3747b41887d432a59319c954fd1819",
+  "results_sha256": "4093c95fbb33fc739028c2a38b7bab5c127d23bed88974c9055f8fa1e6f785da",
+  "corrections_sha256": "7f81b3d3ac708c5179a66bcbf2710a19e94b18896d44ee5fa778c64500b3845b",
+  "numerical_qualification_count": 4950,
+  "numerical_qualification_pass": 4950,
+  "primary_prediction_tests_total": 8,
+  "primary_prediction_tests_passed": 8,
+  "K_joint_passed": 4,
+  "groups": {
+    "K1_flat_integral": {
+      "count": 450,
+      "max_error": 1.5765166949677223e-13,
+      "max_fraction_of_gate": 0.0031530333899354446
+    },
+    "K1_numeric_gradient": {
+      "count": 450,
+      "max_error": 1.0607470320680855e-13,
+      "max_fraction_of_gate": 0.010607470320680856
+    },
+    "Price_path": {
+      "count": 2250,
+      "max_error": 4.2869319205607326e-12,
+      "max_fraction_of_gate": 4.286931920560733e-06
+    },
+    "corrected_joint_KL": {
+      "count": 15,
+      "max_error": 4.094557267027288e-18,
+      "max_fraction_of_gate": 4.094557267027288e-11
+    },
+    "corrected_pair_moment": {
+      "count": 15,
+      "max_error": 5.856426454897701e-15,
+      "max_fraction_of_gate": 0.005856426454897701
+    },
+    "located_candidate_vs_grid": {
+      "count": 60,
+      "max_error": 9.513957112493802e-17,
+      "max_fraction_of_gate": 0.0001522233137999008
+    },
+    "primary_FD_path": {
+      "count": 40,
+      "max_error": 8.394505056352752e-11,
+      "max_fraction_of_gate": 0.00842989912883872
+    },
+    "variant_joint_KL": {
+      "count": 150,
+      "max_error": 6.560377241449089e-14,
+      "max_fraction_of_gate": 6.560377241449089e-07
+    },
+    "variant_location": {
+      "count": 20,
+      "max_error": 7.949918501282127e-10,
+      "max_fraction_of_gate": 7.949918501282127e-05
+    },
+    "variant_path_gradient": {
+      "count": 750,
+      "max_error": 1.4540868509271831e-12,
+      "max_fraction_of_gate": 0.00016652478007639357
+    },
+    "variant_score_minus_rho0": {
+      "count": 750,
+      "max_error": 1.403994108473139e-13,
+      "max_fraction_of_gate": 0.0004875501050907222
+    }
+  },
+  "primary_locations": 20,
+  "variant_location_executions": 60,
+  "correction_primary_points": 15,
+  "grid_parameter_variant_rows": 315,
+  "grid_K_scores": 1575,
+  "production_native_laplace_evaluations": 1018,
+  "production_laplace_exponential_terms": 1047920640,
+  "production_seconds": 34.88926349999383,
+  "max_value_truncation_bound": 9.357625998242819e-14,
+  "max_gradient_truncation_bound": 5.848587877100674e-15,
+  "descriptive_correction_improved": 15,
+  "correction_has_no_new_prediction_gate": true,
+  "new_random_draws": 0,
+  "new_labels": 0,
+  "new_data_fits": 0,
+  "new_calculations_in_this_summary": "saved arithmetic only; no Gaussian/Laplace integration or root solving"
+}

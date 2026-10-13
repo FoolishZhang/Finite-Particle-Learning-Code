@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-09-29T10:29:27.674885+00:00",
+  "status": "pass_GoEmotions_frozen_empirical_boundary_diagnostic",
+  "combinations": 36,
+  "derivative_rows": 216,
+  "primary_combinations": 12,
+  "sensitivity_combinations": 24,
+  "max_errors": {
+    "D_loop_max_abs": 0.0,
+    "M_loop_max_abs": 7.632783294297951e-16,
+    "R_loop_max_abs": 7.958078640513122e-13,
+    "eigen_residual": 1.4210854715202004e-13,
+    "S_trace_error": 3.3306690738754696e-16,
+    "derivative_max_error": 1.3877787807814457e-16
+  },
+  "new_mean_fits": 0,
+  "new_covariance_fits": 0,
+  "test_evaluation": false,
+  "clinical_data": false,
+  "population_inference": false,
+  "global_optimality_certificate": false
+}

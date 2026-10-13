@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_sha256": "4fd312ab706452eec1477ffd684e71fa49c216aedbc547ef5e48393d2751a833",
+  "result_sha256": "e1e9c6a3b903bfb6b9dd4b5ce98f3870a7dfd6350cc3898d0b46a41e41f05a90",
+  "updates_checked": 65536,
+  "models": 128,
+  "primary_cells": 6,
+  "max_update_error": 2.220446049250313e-16,
+  "max_risk_error": 1.3986208025063007e-16,
+  "scope": "All saved Adam/projection/TAIL arithmetic and statistics, not full gradient replay"
+}

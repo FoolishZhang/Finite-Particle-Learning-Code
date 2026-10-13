@@ -1,0 +1,47 @@
+{
+  "d": 16,
+  "c": 0.9,
+  "profiles": {
+    "null": [
+      4.0,
+      4.0
+    ],
+    "mild": [
+      4.5,
+      3.5
+    ],
+    "contrast": [
+      6.0,
+      2.0
+    ]
+  },
+  "K": [
+    1000,
+    100000
+  ],
+  "streams": 8,
+  "banks": 32,
+  "chunk": 4096,
+  "seedbase": 20301101,
+  "alpha": 0.05,
+  "contrasts": 18,
+  "SE_gate": 0.0001,
+  "mass_gate": 1e-12,
+  "identity_gate": 1e-10,
+  "propagated_reference_gate": 1e-08,
+  "primary_K": 100000,
+  "primary_profiles": [
+    "mild",
+    "contrast"
+  ],
+  "primary_direction_threshold": 0.0,
+  "joint_sensitivity_alpha_each": 0.025,
+  "primary_reference": "adaptive",
+  "reference_names": [
+    "GH256",
+    "GH512",
+    "adaptive"
+  ],
+  "new_observed_labels": 0,
+  "new_fits": 0
+}

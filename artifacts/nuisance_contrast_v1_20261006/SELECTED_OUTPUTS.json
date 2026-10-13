@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-05T22:58:18.828284+00:00",
+  "selected": [
+    {
+      "n": 0,
+      "index": 71,
+      "candidate": [
+        0,
+        0,
+        0
+      ],
+      "score": 2.082515284347818
+    },
+    {
+      "n": 256,
+      "index": 142,
+      "candidate": [
+        9,
+        9,
+        9
+      ],
+      "score": 2.2914873963600306
+    }
+  ],
+  "risk_used": false,
+  "fallback_rule": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "local_witness_compute_manufactured_check_v1",
+  "tests_run": 6,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "manufactured_kernel_calls": 2,
+  "manufactured_dimension": 2,
+  "manufactured_K": 1,
+  "real_P_kernel_calls": 0,
+  "scientific_NPZ_reads": 0,
+  "new_optimizer_updates": 0,
+  "new_random_draws": 0,
+  "check_reconstruction_kernel_calls": 0,
+  "sources": {
+    "script/local_witness_feasibility_compute.py": "af38f27744d93452e2a9d9fc1b252b0003f98cff051572650333f62cf6b66ec3",
+    "script/local_witness_feasibility_compute_test.py": "0089b5f86366caaa9d655b42ec71915669012c6f59b9c7735ac0260498079dd7"
+  }
+}

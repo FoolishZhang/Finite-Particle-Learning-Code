@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_sha256": "50fddffb42e058b23c964895e9cc88a68cb2d63847b82c788540fe94d52c0585",
+  "result_sha256": "58824decd7086c15e324a87726a281bd123fbaeeba6322ce27c181c6b691902c",
+  "workflow_runs": 32,
+  "candidates": 128,
+  "choices": 160,
+  "primary_cells": 5,
+  "max_direct_score_error": 2.2737367544323206e-12,
+  "scope": "All splits, candidate locks, stored reference/MC choices, test losses and conditional statistics; no retraining"
+}

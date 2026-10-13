@@ -1,0 +1,23 @@
+{
+  "schema": "asymptotic_bridge_statistics_manufactured_check_v1",
+  "passed": true,
+  "test_groups": [
+    "pure_input_preservation_fixed_26_target_order_and_single_look",
+    "unbiased_variance_two_sided_log_all_20_raw_support_and_allowances",
+    "affine_confidence_event_reuse_negative_scale_and_residual_covariance_identity",
+    "six_next_minus_previous_bankwise_contrasts_supports_and_covariance_not_independence",
+    "zero_observed_variance_retains_positive_global_range_penalty",
+    "multiaffine_cube_and_label_specific_supports_old_K_general_tail",
+    "explicit_shape_real_support_identity_and_reference_domain_rejections"
+  ],
+  "test_group_count": 7,
+  "manufactured_banks": 32,
+  "manufactured_only": true,
+  "source_sha256": "f1ec925a05fa0a48f1201b2f26d11cf3d59df32ceb7ba089a5b9cf4bafe63e7e",
+  "test_sha256": "23f0e8374650cd831b294c608957c7eb7bd45d5d813c18b3f0f8d38e423c7408",
+  "new_random_samples": 0,
+  "new_reference_integrals": 0,
+  "scientific_array_reads": 0,
+  "illustrative_family_target_count": 26,
+  "max_paired_covariance_reconstruction_error": 6.661338147750939e-16
+}

@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "finished_utc": "2026-10-06T05:44:17.774690+00:00",
+  "freeze_sha256": "ac4524bd19114954a582e5da4143e658784f6da49bf62f9e446baaec9daf7b6d",
+  "input_sha256": "2252a8131740e4a6323f4fbdf1f30d8eba3df2fe0ec90c67ffbeb9f5aafefdea",
+  "completed_banks": 262144,
+  "total_banks": 262144,
+  "pair_components": 786432,
+  "random_draws": 0,
+  "new_scientific_banks": 0,
+  "new_statistical_comparisons": 0,
+  "wall_seconds": 126.43799999996554,
+  "maximum_saved_kernel_error_enclosed": 4.3818074169088566e-13,
+  "error_limit": 0.0001,
+  "maximum_pair_interval_width": 1.2101431103939478e-12,
+  "all_saved_inputs_enclosed": true,
+  "saved_nuisance_transform_certified": false,
+  "Gaussian_generation_certified": false,
+  "PRNG_certified": false,
+  "deterministic_population_sign_proved": false,
+  "summary": {
+    "N": 262144,
+    "alpha_family": 0.01,
+    "alpha_component": 0.0033333333333333335,
+    "range_length": 8.3125,
+    "original_family_reused": true,
+    "new_statistical_comparisons": 0,
+    "reference_mean_enclosure": [
+      -0.004265410161777763,
+      -0.004265410161777729
+    ],
+    "reference_variance_enclosure": [
+      0.00027836738293350415,
+      0.0002783673829335071
+    ],
+    "mean_error_enclosure": [
+      2.267460422718462e-14,
+      2.2674604227184747e-14
+    ],
+    "sample_sd_upper_arb": "[0.0166843454451622726574881290930304087311786504783367406757 +/- 4.66e-59]",
+    "sample_sd_perturbation_upper_arb": "[3.62995796302268395622069150377228525330098123153898115218e-14 +/- 2.76e-71]",
+    "range_term_arb": "[0.000524591343759857958606670120121482863943903862533883407157 +/- 6.57e-61]",
+    "candidate_interval_under_input_and_sampling_assumptions": [
+      -0.004912711427808524,
+      -0.0036181088957469684
+    ],
+    "upper_arb": "[-0.00361810889574696901753054784173099781407824030963361534850 +/- 4.15e-60]",
+    "lower_arb": "[-0.00491271142780852299960074863655182250288465746792375769837 +/- 3.41e-60]",
+    "uniform_error_multiplier_arb": "[1.00735480793673048484043971902287226130556282431782352938 +/- 2.24e-57]",
+    "epsilon_threshold_illustration_arb": "[0.00359169268589739351781489379835428839649453742471565916530 +/- 6.77e-60]",
+    "numerical_qualification_remaining": [
+      "saved S versus exact nuisance transformations",
+      "Gaussian generation and ideal iid sampling model"
+    ],
+    "saved_input_only": true
+  },
+  "gates": {
+    "error_budget": true,
+    "conditional_negative_upper": true,
+    "deadline": true
+  },
+  "output": {
+    "path": "artifacts/numerical_sign_budget_v1_20261006/INTERVALS.npz",
+    "sha256": "090cbe0205be9257d36697d04a18e8b6c5a0aec16846f3dc84e540de343e0204",
+    "bytes": 19228574
+  }
+}

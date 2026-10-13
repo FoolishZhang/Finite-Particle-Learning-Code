@@ -1,0 +1,334 @@
+{
+  "schema": "local_scientific_asset_summary_v1",
+  "inventory_date": "2026-10-13",
+  "files_hashed": 5016,
+  "bytes_hashed": 22777449421,
+  "all_stable_during_hash": true,
+  "packages": [
+    {
+      "package": "active_scale_boundary",
+      "files": 16,
+      "bytes": 22731856,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "asymptotic_bridge_v1_20261008",
+      "files": 2049,
+      "bytes": 787017716,
+      "status": "selected-for-release-download"
+    },
+    {
+      "package": "bank_precision",
+      "files": 24,
+      "bytes": 592582684,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "calibration_precision",
+      "files": 104,
+      "bytes": 2688746254,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "compensation_learning",
+      "files": 50,
+      "bytes": 161591234,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "constraint_boundary_v2",
+      "files": 32,
+      "bytes": 9695522,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "covariance_boundary",
+      "files": 35,
+      "bytes": 36170070,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "direction_validation_v1_20261007",
+      "files": 25,
+      "bytes": 4691796,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "failure_probability_v1_20261006",
+      "files": 4,
+      "bytes": 923063387,
+      "status": "selected-for-release-download"
+    },
+    {
+      "package": "finite_calibration",
+      "files": 36,
+      "bytes": 450835542,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "finite_learning",
+      "files": 34,
+      "bytes": 79865481,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "finite_selection_v1_20261006",
+      "files": 4,
+      "bytes": 172043972,
+      "status": "selected-for-release-download"
+    },
+    {
+      "package": "joint_dependence_v1_20261007",
+      "files": 76,
+      "bytes": 125969883,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "joint_scale_learning",
+      "files": 32,
+      "bytes": 225848350,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "local_geometry_v1_20261006",
+      "files": 1,
+      "bytes": 807979069,
+      "status": "selected-for-release-download"
+    },
+    {
+      "package": "local_witness_feasibility_v1_20261008",
+      "files": 2,
+      "bytes": 2621287,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "mean_robustness_v1_20261006",
+      "files": 1,
+      "bytes": 832191544,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "noncollinear_probe_v1_20261007",
+      "files": 42,
+      "bytes": 194402808,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "nuisance_contrast_v1_20261006",
+      "files": 3,
+      "bytes": 895491682,
+      "status": "selected-for-release-download"
+    },
+    {
+      "package": "nuisance_dimensions",
+      "files": 17,
+      "bytes": 36182490,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "nuisance_learning",
+      "files": 48,
+      "bytes": 1172456259,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "nuisance_structure",
+      "files": 48,
+      "bytes": 665070968,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "numerical_sign_budget_v1_20261006",
+      "files": 1,
+      "bytes": 19228574,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "objective_strengthening",
+      "files": 94,
+      "bytes": 147283639,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "positive_control_v1",
+      "files": 16,
+      "bytes": 61043365,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "prospective_diagnostic_dev_v1_20261007",
+      "files": 99,
+      "bytes": 346182537,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "prospective_explanation_v1_20261007",
+      "files": 13,
+      "bytes": 1232144,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "r03_teacher_family_v1_20261011",
+      "files": 1,
+      "bytes": 401838514,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rankone_continuation_v1_20261007",
+      "files": 89,
+      "bytes": 59480468,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rankone_stability_v1_20261007",
+      "files": 112,
+      "bytes": 47930220,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rankone_stationary_v1_20261007",
+      "files": 55,
+      "bytes": 98050684,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rc_quant",
+      "files": 64,
+      "bytes": 30055388,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rec_cross_v5_20261005",
+      "files": 64,
+      "bytes": 136945942,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rec_k_v3_20261005",
+      "files": 16,
+      "bytes": 2488470,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rec_learning_v4_20261005",
+      "files": 64,
+      "bytes": 45408369,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rec_readout_v6_20261005",
+      "files": 64,
+      "bytes": 273890031,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rec_scale_v2_20261005",
+      "files": 16,
+      "bytes": 5163303,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "rec_v1_20261004",
+      "files": 16,
+      "bytes": 5291274,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "regularization_learning",
+      "files": 16,
+      "bytes": 57280666,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scale_learning_v2",
+      "files": 32,
+      "bytes": 4618310,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_bank_averaging",
+      "files": 160,
+      "bytes": 3315079226,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_budget_allocation",
+      "files": 160,
+      "bytes": 3327992021,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_frozen_evaluation",
+      "files": 65,
+      "bytes": 173402659,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_invariance",
+      "files": 32,
+      "bytes": 825609581,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_multicorrelation",
+      "files": 64,
+      "bytes": 267213538,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_scale_optimization",
+      "files": 32,
+      "bytes": 233385606,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_sequential_generalization",
+      "files": 208,
+      "bytes": 1855863984,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "scbm_six_frozen_targets",
+      "files": 32,
+      "bytes": 30536643,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "structure_learning_v2",
+      "files": 64,
+      "bytes": 9544619,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "structure_tradeoff_v2",
+      "files": 72,
+      "bytes": 2904566,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "use_digits_v3_20261005",
+      "files": 64,
+      "bytes": 73197286,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "use_selection_v2_20261005",
+      "files": 288,
+      "bytes": 16140497,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "v3_query",
+      "files": 194,
+      "bytes": 10598832,
+      "status": "not-distributed-in-v1"
+    },
+    {
+      "package": "v3_select",
+      "files": 66,
+      "bytes": 5318611,
+      "status": "not-distributed-in-v1"
+    }
+  ],
+  "note": "An inventory or hash is not data. Only available entries in ASSETS.json have verified public downloads. Historical arrays and the large R03 development JSON outside these packages are not distributed in v1."
+}

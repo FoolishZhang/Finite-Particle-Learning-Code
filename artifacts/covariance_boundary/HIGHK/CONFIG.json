@@ -1,0 +1,22 @@
+{
+  "dimensions": [
+    16,
+    64
+  ],
+  "Ks": [
+    256,
+    4096
+  ],
+  "streams": 8,
+  "banks": 64,
+  "seed": 10616100100,
+  "names": [
+    "comp",
+    "over"
+  ],
+  "alpha": 0.05,
+  "family": 4,
+  "SE_gate": 0.003,
+  "score_margin": 0.001,
+  "risk_margin": 0.001
+}

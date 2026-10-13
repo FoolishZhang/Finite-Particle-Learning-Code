@@ -1,0 +1,302 @@
+{
+  "schema": "prospective_dev_config1",
+  "stage": "independent_development_not_formal",
+  "seed": 202610071601,
+  "core_default_configuration": {
+    "schema": "prospective_diagnostic_core_v1",
+    "rules": {
+      "O": {
+        "normal_rule": "legendre",
+        "normal_order": 128,
+        "normal_limit": 10.0,
+        "logu_min": -24.0,
+        "logu_max": 48.0,
+        "logu_step": 0.25,
+        "outer_rule": "trapezoid"
+      },
+      "C": {
+        "normal_rule": "legendre",
+        "normal_order": 256,
+        "normal_limit": 10.0,
+        "logu_min": -28.0,
+        "logu_max": 56.0,
+        "logu_step": 0.25,
+        "outer_rule": "trapezoid"
+      },
+      "D": {
+        "normal_rule": "legendre",
+        "normal_order": 384,
+        "normal_limit": 11.0,
+        "logu_min": -32.0,
+        "logu_max": 64.0,
+        "logu_step": 0.125,
+        "outer_rule": "trapezoid"
+      }
+    },
+    "stages": [
+      {
+        "name": "O",
+        "max_accepted_steps": 12,
+        "max_calls": 80,
+        "gradient_tolerance": 1e-09
+      },
+      {
+        "name": "C",
+        "max_accepted_steps": 4,
+        "max_calls": 40,
+        "gradient_tolerance": 1e-10
+      }
+    ],
+    "arm_updates": 600,
+    "arm_switch_step": 400,
+    "checkpoint_every": 100,
+    "reference_order": 32,
+    "reference_options": {
+      "maxiter": 120,
+      "maxfun": 180,
+      "maxls": 25,
+      "gtol": 1e-07,
+      "ftol": 1e-12
+    },
+    "manufactured_only": false,
+    "low_K": 8,
+    "high_K": 64,
+    "sign_variance_floor": 1e-08,
+    "sign_gap_floor": 1e-08,
+    "sign_component_floor": 1e-06,
+    "curvature_floor": 0.0005,
+    "disagreement_multiplier": 10.0,
+    "direction_rule": "D",
+    "reference_objective_hard_call_cap": 180,
+    "neutral_kick_amplitude": 0.15,
+    "no_RNG_or_application_file_IO": true
+  },
+  "legacy_qualification_gates": {
+    "loss": 1e-07,
+    "gradient": 2e-07,
+    "matrix": 2e-07,
+    "eigenvalue": 2e-06,
+    "normal_mass": 2e-12,
+    "d_relative_mass": 2e-07,
+    "c_raw_mass": 2e-07,
+    "Ward": 2e-07,
+    "fit_gradient": 1e-08,
+    "box_margin": 0.001,
+    "positive_eigenvalue": 1e-05,
+    "Cartesian_Ward": 2e-07,
+    "rotation_residual": 2e-07,
+    "PMF_difference": 2e-07,
+    "PMF_mass": 2e-12,
+    "KL_difference": 1e-07,
+    "probe_gradient_norm_floor": 1e-10
+  },
+  "teachers": [
+    {
+      "name": "D1_one_factor",
+      "b": [
+        -0.35,
+        0.4,
+        -0.15,
+        0.6,
+        -0.5,
+        0.2,
+        0.1,
+        -0.25
+      ],
+      "a": [
+        0.4,
+        0.65,
+        0.8,
+        0.5,
+        0.95,
+        0.7,
+        0.6,
+        0.85
+      ],
+      "phi": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "D2_weak_second_direction",
+      "b": [
+        -0.35,
+        0.4,
+        -0.15,
+        0.6,
+        -0.5,
+        0.2,
+        0.1,
+        -0.25
+      ],
+      "a": [
+        0.4,
+        0.65,
+        0.8,
+        0.5,
+        0.95,
+        0.7,
+        0.6,
+        0.85
+      ],
+      "phi": [
+        -0.06,
+        -0.02,
+        0,
+        0.01,
+        0.03,
+        0.045,
+        0.07,
+        0.09
+      ]
+    },
+    {
+      "name": "D3_asymmetric_two_factor",
+      "b": [
+        -0.6,
+        0.1,
+        0.35,
+        -0.45,
+        0.65,
+        -0.2,
+        0.5,
+        -0.05
+      ],
+      "a": [
+        0.7,
+        0.55,
+        0.9,
+        0.6,
+        0.8,
+        1.05,
+        0.45,
+        0.75
+      ],
+      "phi": [
+        -0.65,
+        -0.43,
+        -0.11,
+        0.15,
+        0.28,
+        0.49,
+        0.75,
+        0.93
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "D1_N1024_r0",
+      "teacher": 0,
+      "N": 1024,
+      "rep": 0
+    },
+    {
+      "id": "D1_N1024_r1",
+      "teacher": 0,
+      "N": 1024,
+      "rep": 1
+    },
+    {
+      "id": "D1_N4096_r0",
+      "teacher": 0,
+      "N": 4096,
+      "rep": 0
+    },
+    {
+      "id": "D1_N4096_r1",
+      "teacher": 0,
+      "N": 4096,
+      "rep": 1
+    },
+    {
+      "id": "D2_N1024_r0",
+      "teacher": 1,
+      "N": 1024,
+      "rep": 0
+    },
+    {
+      "id": "D2_N1024_r1",
+      "teacher": 1,
+      "N": 1024,
+      "rep": 1
+    },
+    {
+      "id": "D2_N4096_r0",
+      "teacher": 1,
+      "N": 4096,
+      "rep": 0
+    },
+    {
+      "id": "D2_N4096_r1",
+      "teacher": 1,
+      "N": 4096,
+      "rep": 1
+    },
+    {
+      "id": "D3_N1024_r0",
+      "teacher": 2,
+      "N": 1024,
+      "rep": 0
+    },
+    {
+      "id": "D3_N1024_r1",
+      "teacher": 2,
+      "N": 1024,
+      "rep": 1
+    },
+    {
+      "id": "D3_N4096_r0",
+      "teacher": 2,
+      "N": 4096,
+      "rep": 0
+    },
+    {
+      "id": "D3_N4096_r1",
+      "teacher": 2,
+      "N": 4096,
+      "rep": 1
+    }
+  ],
+  "configuration_number": 1,
+  "maximum_independent_units": 12,
+  "maximum_development_configurations": 2,
+  "formal_units_generated": 0,
+  "training": {
+    "steps": 600,
+    "banks": 4,
+    "low_K": 8,
+    "high_K": 64,
+    "kick": 0.15,
+    "learning_rates": [
+      0.01,
+      0.002
+    ],
+    "switch_step": 400
+  },
+  "risk_orders": [
+    40,
+    60,
+    80
+  ],
+  "rotated_order": 72,
+  "rotation": 0.4487989505128276,
+  "main_order": 60,
+  "mass_tolerance": 2e-12,
+  "PMF_tolerance": 2e-08,
+  "paired_risk_tolerance": 2e-06,
+  "real_teacher_parameters_are_only_used_by_generator_and_post_lock_evaluation": true,
+  "global_locks": [
+    "INPUTS_LOCK",
+    "DIAGNOSIS_LOCK",
+    "ENDPOINTS_LOCK",
+    "EVALUATION_LOCK"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "d": 2,
+  "theta": 0.15,
+  "emissions": [
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    1.0
+  ],
+  "ks": [
+    1,
+    2,
+    3,
+    4,
+    8
+  ],
+  "rho_box": [
+    -0.75,
+    0.75
+  ],
+  "rho_grid": [
+    -0.75,
+    -0.675,
+    -0.6,
+    -0.525,
+    -0.45,
+    -0.375,
+    -0.3,
+    -0.225,
+    -0.15,
+    -0.075,
+    0.0,
+    0.075,
+    0.15,
+    0.225,
+    0.3,
+    0.375,
+    0.45,
+    0.525,
+    0.6,
+    0.675,
+    0.75
+  ],
+  "variants": {
+    "low": [
+      32,
+      256
+    ],
+    "primary": [
+      48,
+      384
+    ],
+    "high": [
+      64,
+      512
+    ]
+  },
+  "primary": "primary",
+  "integration_variable": "log_u; t=K*u",
+  "log_u_bounds": [
+    -32.079441541679834,
+    24.0
+  ],
+  "node_chunk": 32,
+  "brent_xtol": 1e-10,
+  "brent_rtol": 1e-12,
+  "brent_maxiter": 100,
+  "correction": {
+    "Ks": [
+      3,
+      4,
+      8
+    ],
+    "formula": "rho_corrected=(K-2)*rho_raw/K",
+    "moment_tolerance": 1e-12,
+    "new_prediction_gate": false
+  },
+  "fd_steps": [
+    0.01,
+    0.005
+  ],
+  "gates": {
+    "position": 1e-05,
+    "value_scaled": 1e-07,
+    "value_floor": 5e-13,
+    "gradient_scaled": 1e-06,
+    "gradient_floor": 1e-13,
+    "risk_scaled": 1e-07,
+    "risk_floor": 0.0,
+    "K1_value": 5e-11,
+    "K1_gradient": 1e-11,
+    "prediction_position": 0.005,
+    "prediction_risk_relative": 0.05
+  },
+  "new_random_draws": 0,
+  "new_observed_labels": 0,
+  "optimizer_fits": 0
+}

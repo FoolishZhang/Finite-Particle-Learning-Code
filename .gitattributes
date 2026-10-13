@@ -1,0 +1,9 @@
+# Preserve exact scientific/source bytes, including original CRLF endings.
+* -text whitespace=cr-at-eol
+# Frozen scientific evidence retains its original formatting as well as values.
+artifacts/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+script/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+supplementary/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+reproducibility_snapshots/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+docs/07_papers_论文工作/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+docs/08_research_研究工作/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

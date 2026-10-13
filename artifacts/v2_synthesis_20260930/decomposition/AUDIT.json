@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T07:52:47.290759+00:00",
+  "rows": 16,
+  "merged": 10,
+  "unmerged": 6,
+  "replay_error": 0.0,
+  "check_does_not_repeat_scalar_integrals": true,
+  "source_and_two_chain_expressions_verified": true,
+  "no_new_samples_or_fits": true,
+  "scope": "small derived-arithmetic self-check; not an old full-experiment rerun"
+}

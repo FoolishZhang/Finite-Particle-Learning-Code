@@ -1,0 +1,9 @@
+# Finite-dimension calibration restores correlation in full-observation training
+
+In the known two-coordinate Gaussian-logistic model with a=1 and R=.75, one teacher-independent calibration function was estimated from a separate prior pool and shared across all data-generating correlations and training repetitions. Training retained every nuisance observation and reused complete prior banks, with n=254,K=256,B=128. At N=4096 and theta=.6, the mean fitted correlation was approximately .302 under the asymptotic quadratic correction, .581 under finite calibration, and .590 under the active-likelihood reference. Their mean reference joint KL values were .001397,.000242,.000162. At theta=.3, finite calibration reduced mean raw KL from .003902 to .000346.
+
+Two of four prespecified paired-t development gates passed. Noninferiority to the likelihood reference was not established for the two positive teachers; the upper bounds .000321423 and .000201322 did not fall below .0002. Intervals are conditional on the single frozen calibration pool and are not distribution-free guarantees.
+
+An explicitly exploratory reuse of stored curves used the local quadratic coefficient ghat''(0)/2=.008344, rather than the asymptotic .014532. At N=4096, its mean risks differed from the full finite-calibration curve by less than 9.22e-6 across all three teachers. This does not establish population equivalence or a cheaper implemented calibration procedure, but gives no evidence that a complicated penalty shape is needed here.
+
+All 480 grid-based outputs have outward real-arithmetic discretization bounds below 1.85e-5 for the full implemented objectives. These bounds exclude unverified point-evaluation error, calibration uncertainty, and bank error. The results separate correcting the mean objective from controlling its realized stochastic fluctuations; no general algorithmic advantage over marginalization or the cheap known-block likelihood is claimed.

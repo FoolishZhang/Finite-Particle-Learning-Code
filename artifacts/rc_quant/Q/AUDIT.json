@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T16:21:38.220340+00:00",
+  "exact_dual_and_primal_certificates_replayed": 1890,
+  "summary_certificates_replayed": 1890,
+  "fits_reoptimized": 0,
+  "new_samples": 0,
+  "new_RNG_draws": 0,
+  "strict_integer_constraints_and_log_bounds": true,
+  "scope": "stored exact witnesses and log bounds; objective arithmetic replay; producer verifier and shared library reused",
+  "timing_not_replayed": true
+}

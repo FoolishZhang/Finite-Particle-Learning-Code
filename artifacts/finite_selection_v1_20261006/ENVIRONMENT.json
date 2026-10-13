@@ -1,0 +1,9 @@
+{
+  "python": "3.11.15",
+  "numpy": "2.3.5",
+  "scipy": "1.17.1",
+  "python_flint": "0.8.0",
+  "arb_bits": 128,
+  "private_dependency_install": ".venv/Scripts/python.exe -m pip install --target .cache/finite_selection_tools python-flint==0.8.0",
+  "global_environment_changed": false
+}

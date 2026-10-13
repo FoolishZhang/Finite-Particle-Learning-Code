@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "max_inversion_error": 2.220446049250313e-16,
+  "empirical_unbalanced_margins_checked": true,
+  "t_endpoints_included": true,
+  "Gaussian_integrals": 0,
+  "new_labels": 0,
+  "new_banks": 0,
+  "scientific_count_state_argmins": 0,
+  "source_sha256": "195134360afba3c1a3c039e472133cf7635e168b35774b4e352e10046c5e8b7a",
+  "reviewer": "root",
+  "utc": "2026-10-01T17:01:27.705141+00:00",
+  "production_QA_function_reexecution": true
+}

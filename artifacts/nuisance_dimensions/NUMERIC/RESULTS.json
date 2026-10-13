@@ -1,0 +1,166 @@
+{
+  "numerically_qualified": true,
+  "prediction_readouts": [
+    {
+      "name": "near_tie_gradient",
+      "theta": 0.0,
+      "rho": 0.3,
+      "actual": -0.01384613029435639,
+      "expected": -0.013886573972330401,
+      "relative_error": 0.002912430240504041,
+      "passed": true
+    },
+    {
+      "name": "near_tie_gradient",
+      "theta": 0.0,
+      "rho": 0.75,
+      "actual": -0.03487381944622611,
+      "expected": -0.03497451994817628,
+      "relative_error": 0.002879253299241411,
+      "passed": true
+    },
+    {
+      "name": "near_tie_gradient",
+      "theta": 0.15,
+      "rho": 0.3,
+      "actual": -0.020775185918427218,
+      "expected": -0.020822704357418634,
+      "relative_error": 0.0022820493522728385,
+      "passed": true
+    },
+    {
+      "name": "near_tie_gradient",
+      "theta": 0.15,
+      "rho": 0.75,
+      "actual": -0.04180254980647096,
+      "expected": -0.041910650333264514,
+      "relative_error": 0.0025793092193502334,
+      "passed": true
+    },
+    {
+      "name": "large_n_endpoint_preference",
+      "theta": 0.0,
+      "reference_rho": 0.0,
+      "difference": -0.00020348197878896067,
+      "passed": true
+    },
+    {
+      "name": "large_n_endpoint_preference",
+      "theta": 0.15,
+      "reference_rho": 0.15,
+      "difference": -0.0002603516713021799,
+      "passed": true
+    },
+    {
+      "name": "null_sixth_order",
+      "n": 0,
+      "a": 0.05,
+      "rho": 0.75,
+      "actual": 0.004358684865077247,
+      "expected": 0.00439453125,
+      "relative_error": 0.008157044035755432,
+      "passed": true
+    },
+    {
+      "name": "null_sixth_order",
+      "n": 1,
+      "a": 0.05,
+      "rho": 0.75,
+      "actual": 0.001077875081972435,
+      "expected": 0.0010986328125,
+      "relative_error": 0.0188941476090903,
+      "passed": true
+    },
+    {
+      "name": "null_sixth_order",
+      "n": 2,
+      "a": 0.05,
+      "rho": 0.75,
+      "actual": -0.002192752788248144,
+      "expected": -0.002197265625,
+      "relative_error": 0.002053842148400283,
+      "passed": true
+    },
+    {
+      "name": "fixed_noise_null_no_padding",
+      "difference": 0.000509403576718054,
+      "passed": true
+    }
+  ],
+  "prediction_total": 10,
+  "prediction_passed": 10,
+  "prediction_interpretable": true,
+  "tail_bounds": {
+    "1.0": {
+      "frequency_cutoff": 14.0,
+      "uniform_in_n": true,
+      "value": 3.60149763153143e-21,
+      "Price_gradient": 1.4438860559934718e-18,
+      "path_gradient": 1.2164442157596596e-19,
+      "bounds_cover_truncation_only": true
+    },
+    "0.05": {
+      "frequency_cutoff": 14.0,
+      "uniform_in_n": true,
+      "value": 3.60149763153143e-21,
+      "Price_gradient": 3.60971513998368e-21,
+      "path_gradient": 6.0822210787982976e-21,
+      "bounds_cover_truncation_only": true
+    }
+  },
+  "ledger": {
+    "fixed_grid_rows": 1197,
+    "primary_grid_rows": 399,
+    "FD_stencils": 152,
+    "all_evaluate_rows": 1653,
+    "engines": {
+      "low": {
+        "evaluate_requests": 399,
+        "unique_evaluate_rows": 399,
+        "native_requests": 1365,
+        "native_evaluations": 42,
+        "native_Gaussian_nodes": 172032,
+        "native_phase_node_terms": 55050240,
+        "nuisance_requests": 441,
+        "nuisance_evaluations": 2,
+        "nuisance_Gaussian_nodes": 128,
+        "nuisance_phase_node_terms": 40960
+      },
+      "primary": {
+        "evaluate_requests": 1083,
+        "unique_evaluate_rows": 855,
+        "native_requests": 2925,
+        "native_evaluations": 102,
+        "native_Gaussian_nodes": 940032,
+        "native_phase_node_terms": 451215360,
+        "nuisance_requests": 957,
+        "nuisance_evaluations": 2,
+        "nuisance_Gaussian_nodes": 192,
+        "nuisance_phase_node_terms": 92160
+      },
+      "high": {
+        "evaluate_requests": 399,
+        "unique_evaluate_rows": 399,
+        "native_requests": 1365,
+        "native_evaluations": 42,
+        "native_Gaussian_nodes": 688128,
+        "native_phase_node_terms": 440401920,
+        "nuisance_requests": 441,
+        "nuisance_evaluations": 2,
+        "nuisance_Gaussian_nodes": 256,
+        "nuisance_phase_node_terms": 163840
+      }
+    },
+    "new_labels": 0,
+    "random_draws": 0,
+    "fits": 0,
+    "locators": 0,
+    "wall_seconds": 22.619765699957497,
+    "Python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1"
+  },
+  "statistical_CI": false,
+  "continuous_global_certificate": false,
+  "strict_full_quadrature_certificate": false
+}

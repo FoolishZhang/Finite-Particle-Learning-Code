@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "producer_sha256": "4d1bcabf9e576807887c82680e5b374e10f58593db3593b5a3cc73e80dd31727",
+  "audit_sha256": "4fd312ab706452eec1477ffd684e71fa49c216aedbc547ef5e48393d2751a833",
+  "max_gradient_error": 4.192439451156105e-11,
+  "same_state_Jensen_gap": 5.34250518011703e-05,
+  "Adam_and_projection_passed": true,
+  "initial_observation_marginals_passed": true,
+  "seconds": 2.7111976000014693,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "torch": "2.5.1+cpu"
+  },
+  "scope": "Manufactured arrays only; no scientific data/prior or training pilot"
+}

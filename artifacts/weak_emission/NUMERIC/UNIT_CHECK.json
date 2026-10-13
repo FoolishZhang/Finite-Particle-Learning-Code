@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "finite_node_path_fd_error": 3.873679155219634e-12,
+  "finite_node_K2_laplace_direct_error": 2.220446049250313e-14,
+  "constant_W_scores": [
+    1.3862943611198484,
+    1.3862943611199183,
+    1.386294361119999,
+    1.3862943611199585,
+    1.3862943611199523
+  ],
+  "constant_W_truth": 1.3862943611198906,
+  "finite_node_count": 4,
+  "synthetic_GL_order": 256,
+  "Gaussian_integrals": 0,
+  "scientific_parameter_evaluations": 0,
+  "random_draws": 0,
+  "optimizer_fits": 0,
+  "Price_identity_not_asserted_for_artificial_nodes": true,
+  "source_sha256": "60f073e49824637500f725ee9a2b95d97aa2e9813845dc9d09c92f17f300205e",
+  "created": "2026-10-01T11:15:05.392957+00:00",
+  "completed_QA_execution_index": 2
+}

@@ -1,0 +1,808 @@
+{
+  "schema": "r02_remainder_fraction_check_v1",
+  "passed": true,
+  "method": "Independent Python Fraction arithmetic; no production imports",
+  "rows": [
+    {
+      "n": 64,
+      "weights": {
+        "W1_q_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.15942614835647788696929704394196332",
+            "upper_decimal_outward": "0.16111243346796231664459382809766996",
+            "lower_exact_fraction_sha256": "2aca132622be4e069c56cb9cdc905a9ecc9b31f7262e1c37227a02ab5c7133ad",
+            "upper_exact_fraction_sha256": "6c9d5253b5468b85eb4a3d1a4bf5e2bd703697889a92dc493a2740cd539776e7"
+          }
+        },
+        "W1_q_minus1_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.15955916401925396321673805553024361",
+            "upper_decimal_outward": "0.16124599604057142678881315632801009",
+            "lower_exact_fraction_sha256": "225634e55e349e7068edae62cf1f775be41ad72545bc8711bf3e7871ea4a2f54",
+            "upper_exact_fraction_sha256": "45db164715bd2e83d1cc0a1c9a7cee5fbde9ee7d8bfa0d065a3db1a8f41e6db2"
+          }
+        },
+        "W2_q_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.19698052331834942809883435648808019",
+            "upper_decimal_outward": "0.19820377448820472128247411652112653",
+            "lower_exact_fraction_sha256": "a7dea7c7868f9533cdebbcd2454d40aedc6d589e0704128518d08b2a0fa83e6f",
+            "upper_exact_fraction_sha256": "0baa302ae6432c90ad751566751d0b697408140230906a8a08a4c37d414df546"
+          }
+        },
+        "W1plus_q_minus1_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 1536,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.13385524427279692934484404420114507",
+            "upper_decimal_outward": "0.13539973822731338927091543836649623",
+            "lower_exact_fraction_sha256": "f5b3c0aae6b3269fc7d2bd8ee746810d2f4b840014c6e5b55f52122a98dea127",
+            "upper_exact_fraction_sha256": "cd143c0177ff4b8dc7c2ca3b5a64dffb8039bcbb18434a19afc777bce7c88e46"
+          }
+        }
+      },
+      "budgets": {
+        "E1": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.13526469913427268239185755025710862",
+            "upper_decimal_outward": "0.13526469913427268239341759087969630",
+            "lower_exact_fraction_sha256": "3f4f0c791d9ff1cf110cfcbf758f3092ea7a782130cd9797094a9ff2939c23c0",
+            "upper_exact_fraction_sha256": "e59059b83fd6afccf6c2aae60f8178f3ee985b5113f7a90da20c821732e75b97"
+          }
+        },
+        "E2": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "12.73115267137771062769202186261576367",
+            "upper_decimal_outward": "12.73115267137771062780914130744276255",
+            "lower_exact_fraction_sha256": "1f4ecd41f424add4e62e91485b7fe02638671ed19b817cbc78df64b6463210b3",
+            "upper_exact_fraction_sha256": "c8720e1e3153b2352cfeea52f8a4c34b3504282f080442778cc5ffb37c52fa93"
+          }
+        },
+        "E3": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "82.83045475594047524526144227764534543",
+            "upper_decimal_outward": "82.83045475594047524616325125606137445",
+            "lower_exact_fraction_sha256": "1c6074ada572936ef9fddf5047d60805f5e8a8aa275cff37cecaee78aaad0387",
+            "upper_exact_fraction_sha256": "a55faeb99472c3663e160ace06ad712d155140fe58d4e5caae4084afa7149be5"
+          }
+        },
+        "E4": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.44554232167267443876254671621934363",
+            "upper_decimal_outward": "0.44554232167267443876483122944377924",
+            "lower_exact_fraction_sha256": "6698c177449dc660a5f71c35ddf77f6adf4d340adce54b464144ad50f66c3464",
+            "upper_exact_fraction_sha256": "b10b20fe3b359544b39df1e75ebe32903d71911de45e1279308acff454aa2b71"
+          }
+        },
+        "E5": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "3.56242253197100876022660408982621951",
+            "upper_decimal_outward": "3.56242253197100889460071174693196536",
+            "lower_exact_fraction_sha256": "0464f485b6ee8dbac1bd41085872032d10a84715670cacc2759b80d62f378078",
+            "upper_exact_fraction_sha256": "f597f5411bb3f0fe1b5ef1970aafae5f3d66f90ef9f5b390392a0cbc4761c657"
+          }
+        }
+      },
+      "total_budget": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "99.70483698009614175433447249656378088",
+          "upper_decimal_outward": "99.70483698009614188973135313075957787",
+          "lower_exact_fraction_sha256": "afca5207f9ff9644aa4759f7634ee94b31c2b797d7f04410a1a96d1ef0fc7e6b",
+          "upper_exact_fraction_sha256": "b279ae6a1d2805f22beedddeb24a67ad9aa98419a69c90622be2e7e8ebe88236"
+        }
+      },
+      "saved_total_upper_covers_fraction_total_upper": true,
+      "D_second_order": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "0.00443369615458793125461418530728214",
+          "upper_decimal_outward": "0.00443369615458797976264368553747095",
+          "lower_exact_fraction_sha256": "f5b27b79f15f531b31e75ae5eb766f919f0a398d58548ae4b11b50f6db45ebe8",
+          "upper_exact_fraction_sha256": "4c6ade4735e4937c448a5e7826eff75401557bd253378225a9bf42bfbc8d6ecd"
+        }
+      },
+      "fraction_D_n_enclosure": {
+        "lower_decimal_outward": "-99.70040328394155395847673894545229573",
+        "upper_decimal_outward": "99.70927067625072986949399681629704882",
+        "lower_exact_fraction_sha256": "5325c9f506b92ddab0530c76c857f65e8e0b05eed06ea2111fb469b3ebe04b05",
+        "upper_exact_fraction_sha256": "85bfea1f41573c4b3ac2112d722714cc1036fab1b1c2000115a0356fc3db7c21"
+      },
+      "final_enclosure_contains_fraction_reconstruction": true,
+      "final_enclosure_contains_saved_D2_plus_saved_cap": true,
+      "negative_sign_certified": false,
+      "sign_gate_is_not_validation_gate": true
+    },
+    {
+      "n": 256,
+      "weights": {
+        "W1_q_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.05325968603384264181627885572742176",
+            "upper_decimal_outward": "0.05408468144013983612130251303932629",
+            "lower_exact_fraction_sha256": "dbd261a5fa882d364ffd5540c158810ef602644dbe002bc04c8d557ca7f18775",
+            "upper_exact_fraction_sha256": "fe4414ae46f6d9768bdeaccbd2549f436f65495a036dbf9bffacfa779ce3439d"
+          }
+        },
+        "W1_q_minus1_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.05345134740355078349459840812874413",
+            "upper_decimal_outward": "0.05427837646356879040413794066669563",
+            "lower_exact_fraction_sha256": "3f2fa021f6273d9fc8650299e608f7e3d68b78f3b19bc35ed185d4b09553ba95",
+            "upper_exact_fraction_sha256": "2d33ef8fc16b6f176888468feeddd3cef5444e000d710c0fbde5b579f2e1fee3"
+          }
+        },
+        "W2_q_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.09541805660086143054367513324652890",
+            "upper_decimal_outward": "0.09657351069671767097941985136890872",
+            "lower_exact_fraction_sha256": "4079331111ee413f464dcd9cfd819d46eb91797ba5653226dfee70d1691d6cb4",
+            "upper_exact_fraction_sha256": "817aed798f887552b29dc0222646fa0243360e8fde6533e63546f4bd23d0b542"
+          }
+        },
+        "W1plus_q_minus1_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 1536,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.04741776478137780692891435148728720",
+            "upper_decimal_outward": "0.04816991163039934633929088212549523",
+            "lower_exact_fraction_sha256": "b47d1fc471c1eab8f31a58abbfa51938cd34a4c32b21632c832877297ac81b0c",
+            "upper_exact_fraction_sha256": "2b44f611f95c01f8eaf2cc6d8b715849145a54ac5304dcd98835cccbb201793c"
+          }
+        }
+      },
+      "budgets": {
+        "E1": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.01140495169506863475427127548973992",
+            "upper_decimal_outward": "0.01140495169506863475440281156720013",
+            "lower_exact_fraction_sha256": "ed79e70f1b3b51a6bd85e487ff0fce066cfdf19dfd13520ac4289d04119f9af3",
+            "upper_exact_fraction_sha256": "254424bee663ec58a668dedb3f83047ee0b613b787813aeaf896263048b8564b"
+          }
+        },
+        "E2": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.07901741163618010505151747552871924",
+            "upper_decimal_outward": "0.07901741163618010505224439127793509",
+            "lower_exact_fraction_sha256": "31e299d1304a2209a7472414398fffd0bb0fc70ce04bd59ab2eb0216c3aed9db",
+            "upper_exact_fraction_sha256": "f2bb825299524486a4ab102bb17affc43607f4a08cfdcb72e73e1cd34ffaddd1"
+          }
+        },
+        "E3": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.22370454793074699708531688760599581",
+            "upper_decimal_outward": "0.22370454793074699708775245035197939",
+            "lower_exact_fraction_sha256": "57ad5f0a80312c68ce6918cdb3b00ec0d4eb4ea8d9f2d2a7fb10d5ea9cfc655c",
+            "upper_exact_fraction_sha256": "a6f8224f881bab34b906a56bb4d043f7bba8cbcc00a91fb6ed5fe389d9124cef"
+          }
+        },
+        "E4": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00979174301177071700916691413933422",
+            "upper_decimal_outward": "0.00979174301177071700921712119108340",
+            "lower_exact_fraction_sha256": "e19c5b5ec3f89f4efe27b2fea8ec1c9caeb531cd8a911070580d31feee9792b4",
+            "upper_exact_fraction_sha256": "cd7752a60eab5d36d98256fa365cdc39459a6a3be9e14b5c1a047fb18bad570f"
+          }
+        },
+        "E5": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.02635144192844863887762147252014745",
+            "upper_decimal_outward": "0.02635144192844864572080078300389540",
+            "lower_exact_fraction_sha256": "4b569bb7846a04a126513161501a987c1f0b8a7ab36ff776066ebed86b1bee14",
+            "upper_exact_fraction_sha256": "cfc5debd53fc16b783501e7b0a517a206e7119440cca05dfd1672eee2c864972"
+          }
+        }
+      },
+      "total_budget": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "0.35027009620221509277789402528393664",
+          "upper_decimal_outward": "0.35027009620221509962441755739209340",
+          "lower_exact_fraction_sha256": "8344ac42c2dc44a94155356f21e2f78bf5638194118e570dacf78854fb1b2f33",
+          "upper_exact_fraction_sha256": "b8bb1917c2f0761de9fab78ed2c535ac751ba6136d59088944422d684b33b9a3"
+        }
+      },
+      "saved_total_upper_covers_fraction_total_upper": true,
+      "D_second_order": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "-0.00178972824049426006277267727519233",
+          "upper_decimal_outward": "-0.00178972824049424131810555916422026",
+          "lower_exact_fraction_sha256": "0f017e56a7f660b823038c0a3e24dfd30a2181da5581972ea2c36f5617af2ca1",
+          "upper_exact_fraction_sha256": "07af10508f95861e69a479b661fbad66c0d00292c201ebc22cae9b7af8992dc0"
+        }
+      },
+      "fraction_D_n_enclosure": {
+        "lower_decimal_outward": "-0.35205982444270935968719023466728572",
+        "upper_decimal_outward": "0.34848036796172085830631199822787313",
+        "lower_exact_fraction_sha256": "0b031df7613ef929fc7a38790c9537ed452f51a72c84ed718e442d6c6544c451",
+        "upper_exact_fraction_sha256": "e73bbeef50416523d7929c23232a1ced75c470100f9b0c737caee638ffcbba37"
+      },
+      "final_enclosure_contains_fraction_reconstruction": true,
+      "final_enclosure_contains_saved_D2_plus_saved_cap": true,
+      "negative_sign_certified": false,
+      "sign_gate_is_not_validation_gate": true
+    },
+    {
+      "n": 1024,
+      "weights": {
+        "W1_q_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.03515233294274456932398480725704109",
+            "upper_decimal_outward": "0.03573887628560880805919188122400854",
+            "lower_exact_fraction_sha256": "0269fe393bc08618828d60f378a92f115c2a362c4d379ae1519cd8586ffe03fc",
+            "upper_exact_fraction_sha256": "c634b321dfcbca31f9ee7c7d903d3f506e00d91b7fc87e07c767619e17b6b389"
+          }
+        },
+        "W1_q_minus1_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.03535996048510291307264067513539572",
+            "upper_decimal_outward": "0.03594905122255483373905347502085815",
+            "lower_exact_fraction_sha256": "6d3cda5901c6dc636b9f785813c7c81c90ed56726639424b6db136c8072057bf",
+            "upper_exact_fraction_sha256": "33e12cd803ca73180a68f6ba8d7a06a135a6fe3a5fbd374635a4a9b1935886f1"
+          }
+        },
+        "W2_q_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.07171952144480645291028419218510737",
+            "upper_decimal_outward": "0.07267509388917310258277155416505429",
+            "lower_exact_fraction_sha256": "46550abe4186622e77c687d26b6470ddbb7239babc5ffe91574b446e47b9bfb2",
+            "upper_exact_fraction_sha256": "3ecf17f9a97df10f107d0674649117e8c6d21e95465190d3f940c0280941692f"
+          }
+        },
+        "W1plus_q_minus1_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 1536,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.03381511065012327443889736661849643",
+            "upper_decimal_outward": "0.03438174954829508887948922442774483",
+            "lower_exact_fraction_sha256": "c1ca5d9f94344b29eb492178e0216c1e79b47cd946039b78c750c1819459af47",
+            "upper_exact_fraction_sha256": "81b6470ff6f1c4f3425b8ba537e9ca49d64f3275c6b024c7e41f519aa6c26566"
+          }
+        }
+      },
+      "budgets": {
+        "E1": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00140485780114853976433920906879126",
+            "upper_decimal_outward": "0.00140485780114853976435541163496543",
+            "lower_exact_fraction_sha256": "a90ce4e2dc5ea5a763449a6c7029baf3fa08583b64edc5bc167228dbed16123f",
+            "upper_exact_fraction_sha256": "95c2c675aa84d80d591840e6e469b7602d12eef9b3f351d5828826a74343a686"
+          }
+        },
+        "E2": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00341057177170652397118501946345890",
+            "upper_decimal_outward": "0.00341057177170652397121639480572017",
+            "lower_exact_fraction_sha256": "2aa4ed1e78f783b3a57efa3acaac46aa48ae9f5b8861605b5d2b009366d66625",
+            "upper_exact_fraction_sha256": "8fd7cf6ffc8ac7fb04b49f8e99fc9e7fb4ca40cefef444b50052cc5a9e517949"
+          }
+        },
+        "E3": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00422225077807436186414495421092676",
+            "upper_decimal_outward": "0.00422225077807436186419092357898120",
+            "lower_exact_fraction_sha256": "9240b4014b94202b0c34f269c82af2b6b2eea5c2592dde965a5d9913d8998510",
+            "upper_exact_fraction_sha256": "67a7ee8105f146061dd524195e9baebcc5723a4922246a74adc4feffec3fc35d"
+          }
+        },
+        "E4": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00071844313786358339917087197380363",
+            "upper_decimal_outward": "0.00071844313786358339917455578288219",
+            "lower_exact_fraction_sha256": "8a35565942b3acfc42517511a5d608bbc2db5878924069c0ab6646fdf03b1877",
+            "upper_exact_fraction_sha256": "05c82f6598731e5d0a0969fdd4ab954126bcf1d907a02684079bd8f10786e25b"
+          }
+        },
+        "E5": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00193928491607676996069011285754866",
+            "upper_decimal_outward": "0.00193928491607677078591799913508401",
+            "lower_exact_fraction_sha256": "4542dc6fd1a9d60bbf88adb2af51ec563262f7bf2a36ee683be60446a075204a",
+            "upper_exact_fraction_sha256": "cdb515d1ba56119353adbded4c0e68b0a8190141f5b6fb203fa543f61aa0d008"
+          }
+        }
+      },
+      "total_budget": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "0.01169540840486977895953016757452923",
+          "upper_decimal_outward": "0.01169540840486977978485528493763299",
+          "lower_exact_fraction_sha256": "69cc04dca9b9e599719af97a082d72f6d697727293f0820e080cc5a5e1e34b96",
+          "upper_exact_fraction_sha256": "e8a0ea001dc659ba42d5d42d678dd6f7dd9accd1b89dafbc967f2e530c14e61c"
+        }
+      },
+      "saved_total_upper_covers_fraction_total_upper": true,
+      "D_second_order": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "-0.00189650819969418645390628111980452",
+          "upper_decimal_outward": "-0.00189650819969417845890963006534906",
+          "lower_exact_fraction_sha256": "6ccf8262458b0a07e0d04847c5ec41d24f9ff5fa40b3a63ff0700ce9f8943896",
+          "upper_exact_fraction_sha256": "bdd921405da539d8068f6fed8f0d7fddabfff677b1f2247b42801bbc8b950b21"
+        }
+      },
+      "fraction_D_n_enclosure": {
+        "lower_decimal_outward": "-0.01359191660456396623876156605743750",
+        "upper_decimal_outward": "0.00979890020517560132594565487228392",
+        "lower_exact_fraction_sha256": "1993f718d811527dda1758ad8e3183d2b3352dbe1d0d52ab3c67965cea8b0c5d",
+        "upper_exact_fraction_sha256": "326acaf901ee59b697193a52faaf3056c4bcbc688bd6dc1f59adb07a557b0f53"
+      },
+      "final_enclosure_contains_fraction_reconstruction": true,
+      "final_enclosure_contains_saved_D2_plus_saved_cap": true,
+      "negative_sign_certified": false,
+      "sign_gate_is_not_validation_gate": true
+    },
+    {
+      "n": 4096,
+      "weights": {
+        "W1_q_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.02908966455774299081455000462113250",
+            "upper_decimal_outward": "0.02958532621778986338072360075901893",
+            "lower_exact_fraction_sha256": "81023b6b921fd527e12f1bb1efc7f6d8dba71714431097db2b7eaf0cd45fb52f",
+            "upper_exact_fraction_sha256": "88056109a65a3d007916302a6d9f646b9f14d0d9043c4575ded164427202e40e"
+          }
+        },
+        "W1_q_minus1_Delta": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.02930397014809340026955274085679482",
+            "upper_decimal_outward": "0.02980241241554293900759107707146427",
+            "lower_exact_fraction_sha256": "a74ff321eae4db2971b86a3deea6479cc0bf05ebf8a03f46a27e57e5820b26f7",
+            "upper_exact_fraction_sha256": "08edb8fafc64392f973876408e2ca93be8d9a67c7651017472be1ecfa71a31b8"
+          }
+        },
+        "W2_q_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 3072,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.06222446891246639646409099972356297",
+            "upper_decimal_outward": "0.06307800771271489229817702067651263",
+            "lower_exact_fraction_sha256": "b223e9c3fd18450c087a471b50261ab0184ee9fd0e6db84dbb32cd2180e6ffff",
+            "upper_exact_fraction_sha256": "65c38fbdaabb0b4a37ef4f3a560d8277175adf91ddff478ae7a86cf26d717d20"
+          }
+        },
+        "W1plus_q_minus1_deltaG": {
+          "checks": {
+            "lower_sum_contains_exact_fraction": true,
+            "upper_sum_contains_exact_fraction": true,
+            "tail_contains_exact_fraction": true,
+            "enclosure_contains_fraction_riemann_bounds": true,
+            "upper_cap_covers_fraction_upper": true,
+            "propagation_weight_covers_saved_upper_cap": true,
+            "cell_count_matches": true,
+            "no_new_grid_evaluations": true
+          },
+          "cells_used": 1536,
+          "fraction_riemann_enclosure": {
+            "lower_decimal_outward": "0.02890904213959884238547367573352377",
+            "upper_decimal_outward": "0.02940129783902879328070391062874930",
+            "lower_exact_fraction_sha256": "c3a508c079861f406d387b22004f97e8fbfb26c61500a5fd54b1a0ba8265cd3f",
+            "upper_exact_fraction_sha256": "3e7c89ea48f6f1b7e96f257591a2b89bd98c4edf1a88e03cd514461f8ae54949"
+          }
+        }
+      },
+      "budgets": {
+        "E1": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00017560722486527433837311891926007",
+            "upper_decimal_outward": "0.00017560722486527433837514424002864",
+            "lower_exact_fraction_sha256": "b0f4b358884a9c7cec23d6a1ad61a060eb31addd74767724b879fa909286d7fd",
+            "upper_exact_fraction_sha256": "fedd169861d4b6840f38000a2d77a50d4c72d38df066d26268f119a4ddc582db"
+          }
+        },
+        "E2": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00026772948328644143427556894129410",
+            "upper_decimal_outward": "0.00026772948328644143427803190197455",
+            "lower_exact_fraction_sha256": "3a28c8aac0362ba2b1e607cf3965fcb55e92d6f7922718395b1660182d05a784",
+            "upper_exact_fraction_sha256": "2e96e4c5d137149651c7a39cc1ab863de3fcf1f089f3ae4567c47d7b4c0eaa2d"
+          }
+        },
+        "E3": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00014413378873703041044902781105407",
+            "upper_decimal_outward": "0.00014413378873703041045059705445808",
+            "lower_exact_fraction_sha256": "3726554d6f541cf141f848955b2428b18207e7741745d60742ab707f06ee8ebc",
+            "upper_exact_fraction_sha256": "ef6ee869169bc1cfc1721670fb25764e49c786436812156a5506e2a78d70ffb0"
+          }
+        },
+        "E4": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00006758913783839499656534648564927",
+            "upper_decimal_outward": "0.00006758913783839499656569304819050",
+            "lower_exact_fraction_sha256": "ec898aa1b1ed659da3f7c7932fc84d196453772126fdfb103907c45bebb05eec",
+            "upper_exact_fraction_sha256": "beca214fc4d2054969c8591d9390c943bebd9ee1e5191acea06a39aa33ed952e"
+          }
+        },
+        "E5": {
+          "overlap": true,
+          "saved_contains_fraction_interval": true,
+          "fraction_contains_saved_interval": false,
+          "saved_upper_ge_fraction_upper": true,
+          "fraction_reconstruction": {
+            "lower_decimal_outward": "0.00019166814230285094837328179453015",
+            "upper_decimal_outward": "0.00019166814230285105065289072303817",
+            "lower_exact_fraction_sha256": "e7a6be4256138f19aac65d65e452c3b71702fa129e450a3d683904b7096c475a",
+            "upper_exact_fraction_sha256": "87af1a5974712778706b32d7215acd178c6f5e50d618aa8740efe1fa51bda448"
+          }
+        }
+      },
+      "total_budget": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "0.00084672777702999212803634395178767",
+          "upper_decimal_outward": "0.00084672777702999223032235696768991",
+          "lower_exact_fraction_sha256": "fb76a6cbd34456e284a43db789456ae5bd4368f3467ae5a9e274c187b634dbaf",
+          "upper_exact_fraction_sha256": "790109ccd01bf33c6c43b92231dc78f6c661a4848db8dad073fb786e68baf8ef"
+        }
+      },
+      "saved_total_upper_covers_fraction_total_upper": true,
+      "D_second_order": {
+        "overlap": true,
+        "saved_contains_fraction_interval": true,
+        "fraction_contains_saved_interval": false,
+        "saved_upper_ge_fraction_upper": true,
+        "fraction_reconstruction": {
+          "lower_decimal_outward": "-0.00119866511970885733258312618045435",
+          "upper_decimal_outward": "-0.00119866511970885367941902765348426",
+          "lower_exact_fraction_sha256": "2dfbfb139aae9f1da81e8af3203d44a05bb8200509c3d701669e3818440cd824",
+          "upper_exact_fraction_sha256": "dca2bcbf113e5b36d4de450a75e7003ba379c5e0186e97d8c018e9ff8fede679"
+        }
+      },
+      "fraction_D_n_enclosure": {
+        "lower_decimal_outward": "-0.00204539289673884956290548314814425",
+        "upper_decimal_outward": "-0.00035193734267886144909667068579435",
+        "lower_exact_fraction_sha256": "bc699a4994f2d7878ba287d9a386e91e682e7cd469335b76b11004ce4a7c7b07",
+        "upper_exact_fraction_sha256": "0e32556a524628a94cf7d6a0b30a9e0cc9afcf29e43f3b2434d7fcd438fe3fa7"
+      },
+      "final_enclosure_contains_fraction_reconstruction": true,
+      "final_enclosure_contains_saved_D2_plus_saved_cap": true,
+      "negative_sign_certified": true,
+      "sign_gate_is_not_validation_gate": true
+    }
+  ],
+  "negative_certified_n": [
+    4096
+  ],
+  "unresolved_n": [
+    64,
+    256,
+    1024
+  ],
+  "fixtures": {
+    "saved_nodes_in_fixture": 5,
+    "new_manufactured_nodes": 0,
+    "mass_identity_checks": [
+      {
+        "kind": "W1",
+        "exponent": 0,
+        "delta_exact": "0",
+        "contains_closed_mass_interval": true
+      },
+      {
+        "kind": "W1",
+        "exponent": 98,
+        "delta_exact": "1",
+        "contains_closed_mass_interval": true
+      },
+      {
+        "kind": "W1plus",
+        "exponent": 0,
+        "delta_exact": "0",
+        "contains_closed_mass_interval": true
+      },
+      {
+        "kind": "W1plus",
+        "exponent": 98,
+        "delta_exact": "1",
+        "contains_closed_mass_interval": true
+      },
+      {
+        "kind": "W2",
+        "exponent": 0,
+        "delta_exact": "0",
+        "contains_closed_mass_interval": true
+      },
+      {
+        "kind": "W2",
+        "exponent": 98,
+        "delta_exact": "1",
+        "contains_closed_mass_interval": true
+      }
+    ],
+    "invalid_inputs_rejected": [
+      "float_rational",
+      "bool_rational",
+      "inverted_interval",
+      "zero_denominator",
+      "negative_weight_shift",
+      "bool_weight_exponent",
+      "node_sequence",
+      "grid_turning_points",
+      "negative_norm_budget"
+    ],
+    "all_zero_budget_fixture_passed": true,
+    "zero_noise_E4_E5_fixture_passed": true
+  },
+  "counts": {
+    "saved_Gaussian_nodes_checked": 3073,
+    "saved_cells_checked": 3072,
+    "comparison_integrals_reconstructed": 16,
+    "weighted_cell_terms_reconstructed": 43008,
+    "budget_formulas_reconstructed": 20,
+    "D2_rows_reconstructed": 4,
+    "final_conservative_enclosures_checked": 4,
+    "unit_weight_mass_identity_fixtures": 6,
+    "invalid_input_rejection_fixtures": 9,
+    "zero_residual_fixtures": 2,
+    "new_production_nodes": 0,
+    "new_manufactured_nodes": 0,
+    "new_Gaussian_function_evaluations": 0,
+    "new_CF_evaluations": 0,
+    "new_D_n_evaluations": 0,
+    "new_MC_draws": 0,
+    "new_NPZ_reads": 0
+  },
+  "limits": [
+    "Noise certificate and old active constants are supplied certified inputs, not re-proved here.",
+    "Arb/Fraction overlap is recorded separately from interval containment.",
+    "The final saved enclosure must contain the independent rational reconstruction.",
+    "Budget-expression lower endpoints are not lower bounds on actual errors.",
+    "No direct finite-n D_n or production integral is evaluated."
+  ]
+}

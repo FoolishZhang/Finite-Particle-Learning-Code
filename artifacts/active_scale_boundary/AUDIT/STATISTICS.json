@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "maximum_arithmetic_error": 1.3877787807814457e-17,
+  "primary_direction_passed": 6,
+  "primary_direction_total": 6,
+  "primary_precision_passed": 8,
+  "primary_precision_total": 8,
+  "collision_intervals": 4,
+  "analytic_collision_baselines": 1,
+  "primary_interval_count": 8,
+  "descriptive_rows": 72,
+  "independent_streams": 16,
+  "independent_collision_banks": 32768,
+  "scope": "All saved arrays and statistical arithmetic; not all bottom-level raw scores."
+}

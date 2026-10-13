@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "original_source_sha256": "a3f353836b84efca067bd792d71c52ccefe61064f67e20d86b8c95fc260e7102",
+  "revision_source_sha256": "ce07634d209c57168759e8d352a6e58b7c7e500cae29afa55f997a3dcf0bf4d6",
+  "unchanged_functions": [
+    "sha",
+    "ah",
+    "rel",
+    "read",
+    "save",
+    "near",
+    "cov",
+    "seqmean",
+    "moments",
+    "data_check",
+    "numerical_rows",
+    "training_totals",
+    "check_candidates",
+    "eval_scores",
+    "eval_native",
+    "audit_eval",
+    "independent_pmf",
+    "reference_arithmetic",
+    "train_stats_vectors",
+    "eval_stats_vectors",
+    "verify_summary",
+    "parameter_units",
+    "statistics"
+  ],
+  "changed_functions": [
+    "verify_freeze",
+    "training_pair",
+    "check",
+    "run"
+  ],
+  "training_pair_changes_only_result_job_id": true,
+  "all_scientific_kernels_statistics_tolerances_and_scope_unchanged": true,
+  "new_RNG": 0,
+  "new_model_integrals": 0,
+  "selftest_sha256": "3d0ef8ced8c514ef1179a1de851472cd45775d131b3e656ccedcd0e1a5b3c84a",
+  "note": "Original attempt and production files unchanged. Pre-freeze draft check corrected a metadata load-list typo found by diff inspection before any run."
+}

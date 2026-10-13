@@ -1,0 +1,57 @@
+% Humanlike h2.2 authoring snapshot, 2026-10-13; not submitted.
+\documentclass{article}
+% Tectonic/XeTeX defaults to TU; official times.sty provides T1 Times fonts.
+% Select its supported encoding so the unchanged official package does not
+% silently fall back to Latin Modern. No font-size or geometry change.
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{graphicx,booktabs,array,longtable}
+\usepackage{hyperref}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\usepackage{icml2026}
+% Author-preview notice only. The official style comments explicitly identify
+% this macro as the editable notice string; no style file is modified.
+\makeatletter
+\renewcommand{\Notice@String}{Format preview using ICML 2026 style. Submission candidate; not submitted.}
+\makeatother
+\usepackage{amsmath,amssymb,mathtools,amsthm}
+% Preserve the mathematical minus in plain-text numeric table cells with T1.
+\usepackage{newunicodechar}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{×}{\ensuremath{\times}}
+\usepackage{placeins,needspace,xurl}
+\setcounter{secnumdepth}{3}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newcommand{\real}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Pp}{\mathbb P}
+\newcommand*\pandocbounded[1]{#1}
+\icmltitlerunning{Finite Prior-Particle Objectives Can Reward Risk-Increasing Dependence}
+\begin{document}
+\twocolumn[
+\icmltitle{Finite Prior-Particle Likelihood Objectives Can Reward Risk-Increasing Dependence}
+\begin{icmlauthorlist}
+\icmlauthor{Anonymous Authors}{anon}
+\end{icmlauthorlist}
+\icmlaffiliation{anon}{Anonymous Institution}
+\icmlcorrespondingauthor{Anonymous Author}{anon@example.invalid}
+\icmlkeywords{Monte Carlo likelihood, latent-variable models, dependence learning, local geometry}
+\vskip 0.3in
+]
+\printAffiliationsAndNotice{}
+\begin{abstract}
+% CANDIDATE_ABSTRACT
+\end{abstract}
+% CANDIDATE_MAIN
+\FloatBarrier
+\label{candidateMainEnd}
+% CANDIDATE_IMPACT
+\bibliographystyle{icml2026}
+\bibliography{references}
+\clearpage
+\onecolumn
+\setcounter{secnumdepth}{0}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+% CANDIDATE_APPENDICES
+\end{document}

@@ -1,0 +1,102 @@
+{
+  "schema": "bankvar-local-v1",
+  "created_utc": "2026-10-02T06:35:09.659897+00:00",
+  "source_sha256": "e1a059d6b7339821e04a780c09a858a981c5821e3658ab23356653b466706d08",
+  "inputs": {
+    "docs/08_research_研究工作/粒子精度与局部校准_20261002/PLAN.md": "4bd7ca159cf6820ad6ae08d74e8471180f62dab57fa56631e226ac03f866e76f",
+    "artifacts/finite_calibration/CAL/REFERENCE.json": "3ab4124d02ad49d225effe3abd325a3d6254f7bef48a9606f498740b9075f481",
+    "artifacts/bank_precision/LOCAL/SELFTEST.json": "f1fe3bedae9bd8901096afa88d52ca9112ce3ec32aabeab9b30dfedc6236d02a"
+  },
+  "base_commit": "6b7e950d535a049e70a646dac3fa53e0fd36756b",
+  "report": "docs/08_research_研究工作/粒子精度与局部校准_20261002/LOCAL_REPORT.md",
+  "a": 1.0,
+  "R": 0.75,
+  "n": 254,
+  "K": 256,
+  "rho": [
+    -0.12,
+    -0.06,
+    -0.03,
+    0.03,
+    0.06,
+    0.12
+  ],
+  "h": [
+    0.03,
+    0.06,
+    0.12
+  ],
+  "h_main": 0.06,
+  "reference_indices": [
+    336,
+    368,
+    384,
+    416,
+    432,
+    464
+  ],
+  "reference_order": 64,
+  "reference_r": [
+    -0.020496755503168797,
+    -0.010246694223223923,
+    -0.00512313682189107,
+    0.00512313682189107,
+    0.010246694223223923,
+    0.020496755503168797
+  ],
+  "active_signs": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "streams": 8,
+  "banks_per_stream": 1024,
+  "block": 64,
+  "seed_base": 202610021700,
+  "max_prior_shape_per_block": [
+    64,
+    256,
+    256
+  ],
+  "rng": "numpy Generator(PCG64(seed_base+stream)); 16 sequential standard_normal((64,256,256)) blocks per stream",
+  "G_bank": "-sum_y (1+r(rho)*y1*y2) D_y(rho)/4; D_y=-y1*y2 sum pi_k(1-pi_k) sigmoid(-y1 X1) sigmoid(-y2 X2)",
+  "coefficient": "c_h=(G(h)-G(-h))/(4h); main h=.06 always; no clipping or h selection",
+  "quadratic_penalty": "coefficient*rho^2; derivative 2*coefficient*rho",
+  "teacher_specific_tuning": false,
+  "reads_old_fitted_g": false,
+  "qualification": {
+    "main_across_8_streams_SE_max": 0.0002,
+    "pooled_c06_minus_c03_abs_max": 5e-05,
+    "h012": "descriptive only, never replace h_main",
+    "failure_policy": "retain all results; no budget extension or main coefficient replacement"
+  },
+  "subpools": "Four adjacent pairs of streams, each 2048 banks; descriptive calibration stability, not independent complete training confirmations",
+  "prior_reuse": "All six rho and four active signs reuse each bank; no sign-averaged doubling of independent samples",
+  "calibration_scope": "canonical nuisance population calibration, not complete-observation finite-data training",
+  "accounting": {
+    "new_observations": 0,
+    "new_data_fits": 0,
+    "new_integrals": 0,
+    "banks": 8192,
+    "prior_vectors": 2097152,
+    "Gaussian_scalars": 536870912,
+    "bank_rho_mode_evaluations": 196608,
+    "old_full_CAL_training_banks_for_comparison": 32768,
+    "bank_reduction_ratio": 4.0
+  },
+  "compute_scope": "Four times fewer prior banks than old full-CAL training pool; report wall clock and mode terms separately, not a measured speedup",
+  "automatic_budget_extension": false
+}

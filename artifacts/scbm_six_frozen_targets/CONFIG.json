@@ -1,0 +1,111 @@
+{
+  "schema": "scbm6eval-config-v1",
+  "groups": 32,
+  "banks_per_group": 1024,
+  "K": 100,
+  "nuisance": 256,
+  "chunk": 64,
+  "seed_base": 202610032100,
+  "roles": {
+    "active": 0,
+    "noise": 1
+  },
+  "profiles": [
+    "raw",
+    "FACT"
+  ],
+  "saved_prefix_banks": 4,
+  "numerical_tolerance": 0.0001,
+  "native_control_candidate_indices": [
+    0,
+    1,
+    2,
+    18,
+    17,
+    33
+  ],
+  "dtype": "float64",
+  "workers": 2,
+  "canonical_nuisance_label": 0,
+  "inner_particle_reduction": "negative log arithmetic mean of 100 likelihood products, separately per bank",
+  "outer_reduction": "arithmetic bank mean, then independent-group statistics",
+  "family_alpha": 0.05,
+  "family_size": 11,
+  "df": 31,
+  "SE_threshold": 0.0002,
+  "primary_order": [
+    "raw_P_FIXED_minus_truth",
+    "raw_P_FIXED_minus_FACT",
+    "raw_D_FIXED_minus_truth",
+    "raw_D_FIXED_minus_FACT",
+    "FACT_P_FIXED_minus_truth",
+    "FACT_P_FIXED_minus_FACT",
+    "FACT_D_FIXED_minus_truth",
+    "FACT_D_FIXED_minus_FACT",
+    "raw_P_high_minus_truth",
+    "raw_P_FIXED_mean_minus_MEAN_FIXED",
+    "FACT_P_FIXED_mean_minus_MEAN_FIXED"
+  ],
+  "primary_expected_sign": [
+    "negative",
+    "negative",
+    "negative",
+    "negative",
+    "positive",
+    "positive",
+    "positive",
+    "positive",
+    "negative",
+    "negative",
+    "positive"
+  ],
+  "reference": {
+    "pmf_orders": [
+      24,
+      32,
+      40
+    ],
+    "pmf_main_order": 32,
+    "pmf_maximum_change": 5e-08,
+    "normalization_tolerance": 2e-12,
+    "V_orders": [
+      [
+        16,
+        24
+      ],
+      [
+        24,
+        32
+      ],
+      [
+        32,
+        40
+      ]
+    ],
+    "V_main_orders": [
+      24,
+      32
+    ],
+    "V_maximum_change": 1e-08,
+    "V_center": "fixed old truth PMF spin marginal means and true spin covariances; candidate pair moment by GH"
+  },
+  "independent_reference": {
+    "V_candidate_indices": [
+      0,
+      1,
+      2,
+      17,
+      34
+    ],
+    "V_GL": 40,
+    "V_GH": 48,
+    "root": "symmetric",
+    "mean_pmf_order": 36,
+    "maximum_difference": 1e-08,
+    "pmf_maximum_difference": 5e-08
+  },
+  "new_observations": 0,
+  "new_training": 0,
+  "new_scientific_selection": 0,
+  "conditional_scope": "Intervals condition on frozen old 16 data sets, all candidates, and qualified reference P weights; development t approximation, not new training-population inference."
+}

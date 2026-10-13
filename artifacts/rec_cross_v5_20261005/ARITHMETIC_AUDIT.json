@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "public_only": false,
+  "streams": 64,
+  "models": 128,
+  "full_bank_count": 262144,
+  "primary_cells": 12,
+  "max_score_stat_error": 1.7763568394002505e-15,
+  "max_reference_loss_error": 8.881784197001252e-16,
+  "result_sha256": "021e6590b310781895a32d1ea52129cddd449c93c05ed0b9eda51f1bc5a5500e",
+  "source_sha256": "34971b152a2f69ef6ae240d510148c4cebe750c93473727427af72a04d80a7fa",
+  "scope": "All saved label/score/Jensen/statistic arithmetic, not fresh integration or training"
+}

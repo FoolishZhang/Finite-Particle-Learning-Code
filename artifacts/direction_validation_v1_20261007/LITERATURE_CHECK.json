@@ -1,0 +1,19 @@
+{
+  "source": "https://arxiv.org/pdf/0907.3740",
+  "title": "Empirical Bernstein Bounds and Sample Variance Penalization",
+  "authors": [
+    "Andreas Maurer",
+    "Massimiliano Pontil"
+  ],
+  "read_scope": "Official PDF text pages 1-2, specifically Theorem 1, Theorem 4 and Corollary 5; no claim of complete paper review.",
+  "checked": [
+    "iid and fixed-score conditioning",
+    "one-sided error budget",
+    "unbiased sample variance",
+    "sqrt(2 variance log(2/delta)/n) + 7 range log(2/delta)/(3(n-1))",
+    "finite union bound"
+  ],
+  "formula_is_preexisting": true,
+  "source_pdf_not_redistributed": true,
+  "simulation_or_new_validation_performed": false
+}

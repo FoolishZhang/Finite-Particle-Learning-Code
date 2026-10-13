@@ -1,0 +1,271 @@
+{
+  "created_utc": "2026-09-30T05:07:51.870289+00:00",
+  "passed": true,
+  "auditor_source_sha256": "176711cfb8683db0a747ef792657b511a6a1f9cee0b7c254067ea5ca0c1930e3",
+  "input_seals": {
+    "FREEZE.json": "e7b15cb4fcbea38dd481757f3088de84ceeb3f36b4c4f48224bac9e19f66968a",
+    "RESULTS_FREEZE.json": "81e0b59af5438b978130b6169a00187b6672fe9662c0c5a54279e75293706b8b"
+  },
+  "public_streams": 32,
+  "reference_candidates": 361,
+  "finite_fits": 576,
+  "independently_replayed_argmins": 576,
+  "global_pair_exhaustive_searches": 96,
+  "candidate_representations_per_global_search": 2445300,
+  "risk_intervals": 36,
+  "unknown_group_count_only_Bayes_bounds": {
+    "null": 0.0,
+    "contrast": 0.0019208994428301903
+  },
+  "statistics": {
+    "family": 36,
+    "streams_per_interval": 16,
+    "df": 15,
+    "precision_pass": 35,
+    "primary_checks": [
+      {
+        "kind": "finite_particle_bias_after_learned_group",
+        "profile": "null",
+        "passed": true,
+        "mean": 0.028276360069393602,
+        "lower": 0.025391663617292934,
+        "upper": 0.03116105652149427
+      },
+      {
+        "kind": "finite_particle_bias_after_learned_group",
+        "profile": "contrast",
+        "passed": true,
+        "mean": 0.019569164942312756,
+        "lower": 0.015344037199921248,
+        "upper": 0.023794292684704264
+      },
+      {
+        "kind": "labelled_pair_below_count_only_bound",
+        "profile": "contrast",
+        "passed": true,
+        "mean": -0.0019140311020174302,
+        "lower": -0.0019222851890837644,
+        "upper": -0.001905777014951096
+      }
+    ],
+    "summary_rows": 36
+  },
+  "ROW": {
+    "lambdas": 7,
+    "support_rows": 324,
+    "probability_variants": 3,
+    "union_pairs": 64,
+    "budgets": [
+      256,
+      4096,
+      65536
+    ],
+    "chosen_lambda": 0.003
+  },
+  "deterministic_smoke": {
+    "enumerated_patterns": 16,
+    "affine_max_error": 1.734723475976807e-16,
+    "exact_mapping_rows": 729,
+    "scientific_samples": 0
+  },
+  "local_histograms_verified": 32,
+  "old_B_panels_verified": 16,
+  "local_array_receipts": [
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s00.npz",
+      "sha256": "0d44d8ffe2786c50e2e7651aa99f021aac83c625689db6421c7d185b20502db6"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s01.npz",
+      "sha256": "a4e3220b25b9647df6715199c936b8fd76b4c3ac767d8b948405a638f842ed33"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s02.npz",
+      "sha256": "d9a31a2d5a1cb9cac62bb3b710e9c2055975f3eea29b9e5e0f02192a3f2e97fd"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s03.npz",
+      "sha256": "43a2fb3f74f5fa13e80bcd5d35849c059cbc9a275a17db482d36d2804629d386"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s04.npz",
+      "sha256": "6054614f12b31aeaaf8b45f9bb2073d2a7c7cda73f807f858b9502098c1df08b"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s05.npz",
+      "sha256": "30f2e85c7a2b758e79af15314ac2dfb90c064702464c71fc0a9cf71e75168063"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s06.npz",
+      "sha256": "0d9ee32779a50ef2847fa86b2f9ae092454fc530087e7f97e8e52d621c2881f1"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s07.npz",
+      "sha256": "3adee930dbeec1fa62830434a135189c0e97f6684c3c0d62777204aa3eaf3461"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s08.npz",
+      "sha256": "8c622a271c3de92ef30ee9e9ddf96d6efdc7ae297fc64c4731e743bd1f014652"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s09.npz",
+      "sha256": "932f64f492ff0dbc877fd470625bc07ebad040f4ebcebdb3a5268b00e902d10b"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s10.npz",
+      "sha256": "6d9670b774d7989ce2ef10c63a6b27f63cfb88280665dd6d136403a530f123a2"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s11.npz",
+      "sha256": "bbc164e1b6a3de4fd98a08e6c8de59abca97eda68635a07097ca34ebb9c8ae91"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s12.npz",
+      "sha256": "ad7ddb12f597cb9f02cd21aa82931b75f0598c191584fb4be2dcaba315b92e74"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s13.npz",
+      "sha256": "97b52b5f8a9e2b00ff31e5b8930f7019e2a0a5740f66e1f5cb0046361df3e668"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s14.npz",
+      "sha256": "2abf0666cbb32eef772d42b2ed4514d8df98639f0692cdf75dfdf05d2753da30"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/null_s15.npz",
+      "sha256": "6e159cbcad47ece54b2c01847ecc01f99ca49750c8f369fbd8efcfa88e055d25"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s00.npz",
+      "sha256": "a6a68fed369667edd28ae7203705cb53b77bd06307f71acbf44bea9d5e7aff78"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s01.npz",
+      "sha256": "8bebdc2cde32439e59b74ba72d714d1f8af34c1d8b0e4f06c2bfc266e3678a86"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s02.npz",
+      "sha256": "25a030723c4b97391d554ba0045a949f692622912b30c1b518030040c0473362"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s03.npz",
+      "sha256": "ef4c508520a68bfd7c3ade7bfc071cb59f2d49760cd2e46a70ca7eb79de9520e"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s04.npz",
+      "sha256": "1dbd85c415ee38f1b65d18c48f6ace979699118a7314a66fd8921e80c11d936a"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s05.npz",
+      "sha256": "7c02eaec9bbd1815c2e284e49812c09dd9fec9f522cd8d03af030da4df76f65e"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s06.npz",
+      "sha256": "cdc8f4ce556b26574ca2d3131500522a29c6695f9f35d10169ec1579b84995c5"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s07.npz",
+      "sha256": "5234c7efd1a18b7b622055b01a6cb967e05632b642e2e36bb9f1e2a255afc1dd"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s08.npz",
+      "sha256": "b4cfaf63525f60078bf9a7bd202f3d5d84925fbc1edca45e68783f4a3b578762"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s09.npz",
+      "sha256": "692add888ace32dc2becc4ba60236b24818e0dcc2cd1a4b960d3baed8724b877"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s10.npz",
+      "sha256": "550cde98c6f8835255e1e9818f7c2f78fcfb96a42168a90bd8deb5f407a67edc"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s11.npz",
+      "sha256": "baf4c226723c22546c60583ffd469a6f27e3e720ab10047b33b037566042c31f"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s12.npz",
+      "sha256": "62d0a9fc8fae7587da1357371c7afdfc69403666f0c7dedabb976b9e412613bc"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s13.npz",
+      "sha256": "d67da7d08180c20b2a15856defb838940fdc1cd4a993d3336a8448dd5303ab86"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s14.npz",
+      "sha256": "581c0e178672ae459f5385bb7263add757526d777ec2c7c0a1335b94dd809a98"
+    },
+    {
+      "path": "artifacts/structure_learning_v2/C/local/contrast_s15.npz",
+      "sha256": "6cf21c35df0598bf38b6eecc867df0c8ff5bcbdf56dde265f6ebaca9a237634f"
+    }
+  ],
+  "hash_checks": 442,
+  "numerical_maxima": {
+    "reference_scales": 0.0,
+    "reference_mass": 3.3306690738754696e-16,
+    "ROW_probability_mass": 6.661338147750939e-16,
+    "ROW_mgf": 2.220446049250313e-16,
+    "ROW_mean": 1.5265566588595902e-16,
+    "ROW_second_moment": 1.0658141036401503e-14,
+    "ROW_primary_union_failure_upper": 0.0,
+    "ROW_numerical_allowance_union_failure_upper": 1.2971936892702818e-15,
+    "risk_library_H": 0.0,
+    "risk_library_teacher_count_p": 0.0,
+    "risk_library_mapped_teacher_p": 2.7755575615628914e-17,
+    "risk_library_candidate_joint_KL_by_swap": 7.105427357601002e-15,
+    "risk_library_candidate_total_count_KL": 0.0,
+    "risk_library_reference_sensitivity": 1.7763568394002505e-15,
+    "risk_library_count_only_bound": 1.1340754724198376e-16,
+    "risk_library_count_bound_variants": 1.7807169802556284e-16,
+    "local_saved_M": 0.0,
+    "M_symmetric": 0.0,
+    "M_unit_diagonal": 0.0,
+    "histogram_to_uncentered_M": 0.0,
+    "ROW_scores": 0.0,
+    "selected_training_loss": 5.329070518200751e-15,
+    "numeric_grid_minimum": 5.329070518200751e-15,
+    "numeric_grid_gap": 0.0,
+    "selected_scales": 0.0,
+    "deployed_KL": 5.329070518200751e-15,
+    "assumed_group_best_grid_KL": 3.552713678800501e-15,
+    "excess_above_assumed_group_grid_best": 3.552713678800501e-15,
+    "total_count_KL": 0.0,
+    "GLOBAL_affine_direct_value": 2.220446049250313e-16,
+    "B_panel_to_public_G_objectives": 0.0,
+    "FITS_csv_u": 0.0,
+    "FITS_csv_v": 0.0,
+    "FITS_csv_training_objective": 0.0,
+    "FITS_csv_minimum_numerical_objective": 0.0,
+    "FITS_csv_grid_gap": 0.0,
+    "FITS_csv_deployed_KL": 0.0,
+    "FITS_csv_assumed_group_best_grid_KL": 0.0,
+    "FITS_csv_excess_above_assumed_group_grid_best": 0.0,
+    "FITS_csv_total_count_KL": 0.0,
+    "CI_mean": 1.1340754724198376e-16,
+    "CI_SE": 4.336808689942018e-19,
+    "CI_lower": 1.6653345369377348e-16,
+    "CI_upper": 1.1340754724198376e-16,
+    "summary_mean_KL": 0.0,
+    "summary_mean_u": 0.0,
+    "summary_mean_v": 0.0,
+    "summary_swaps": 0.0,
+    "primary_mean": 1.1340754724198376e-16,
+    "primary_lower": 1.1340754724198376e-16,
+    "primary_upper": 1.1340754724198376e-16
+  },
+  "numerical_tolerance": 2e-10,
+  "tie_tolerance": 1e-12,
+  "independent_of_runner_selection_and_statistics": true,
+  "new_scientific_samples": 0,
+  "new_reference_integrations": 0,
+  "new_fits": 0,
+  "limitations": [
+    "All public M-based pair searches are replayed; only workspace links M and grouped counts to the saved integer histograms.",
+    "Public G selections use saved conditional objective vectors; only workspace verifies their multiplication from frozen old B panels.",
+    "Old B panels are reused development evidence, not fresh independent computational confirmation.",
+    "Reference PMFs and numerical qualifications are frozen premises; no reference integrals or scientific draws are regenerated.",
+    "The 36 risk intervals remain t approximations (paired where both endpoints are fitted); degenerate intervals do not certify population equivalence.",
+    "ROW bounds are conditional on the fixed numerical teacher; the numerical allowance is not a rigorous Gaussian integration certificate."
+  ]
+}

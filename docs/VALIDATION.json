@@ -1,0 +1,221 @@
+{
+  "schema": "open_source_core_validation_v1",
+  "python": "3.11.15",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "new_venv": true,
+  "system_site_packages_enabled": false,
+  "user_site_enabled": false,
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "python-flint": "0.8.0",
+    "matplotlib": "3.11.2"
+  },
+  "final_entry_sha256": "51b7b6afcd86465197dd1e615bc79bd3dfd484fe60545f900db7ce80754d43db",
+  "scientific_modules_byte_identical_to_frozen_source": [
+    "script/candidate_v18_risk_range_test.py",
+    "script/candidate_v18_risk_range.py",
+    "script/candidate_v18_figures.py",
+    "script/rankone_stationary_kernel.py",
+    "script/rankone_stationary_compute.py",
+    "script/rankone_stationary_compute_test.py",
+    "script/local_witness_feasibility_tail_run_test.py",
+    "script/local_witness_feasibility_tail_run.py",
+    "script/local_witness_feasibility_bounds.py",
+    "script/local_witness_feasibility_prepare.py",
+    "script/local_witness_feasibility_compute.py",
+    "script/local_witness_feasibility_compute_test.py",
+    "script/local_witness_feasibility_certificate_test.py",
+    "script/local_witness_feasibility_certificate.py",
+    "script/local_witness_feasibility_bounds_test.py",
+    "script/certified_teacher_compute.py",
+    "script/certified_f8_hessian_prepare.py",
+    "script/certified_f8_hessian_finalize.py",
+    "script/certified_f8_hessian_compute.py",
+    "script/certified_f8_hessian_moments.py",
+    "script/certified_f8_gradient_symmetry.py",
+    "script/certified_f8_gradient_compute.py",
+    "script/certified_f8_hessian_bounds.py",
+    "script/certified_f8_hessian_moments_test.py",
+    "script/certified_f8_hessian_finalize_test.py",
+    "script/certified_f8_hessian_compute_test.py",
+    "script/certified_f8_hessian_bounds_test.py",
+    "script/certified_f8_hessian_audit_test.py",
+    "script/certified_f8_hessian_audit.py",
+    "script/certified_f8_gradient_symmetry_test.py",
+    "script/certified_f8_gradient_prepare.py",
+    "script/certified_f8_gradient_bounds.py",
+    "script/certified_f8_gradient_finalize_test.py",
+    "script/certified_f8_gradient_finalize.py",
+    "script/certified_f8_gradient_compute_test.py",
+    "script/certified_f8_gradient_bounds_test.py",
+    "script/certified_f8_gradient_audit_test.py",
+    "script/certified_f8_gradient_audit.py",
+    "script/certified_teacher_risk_test.py",
+    "script/certified_teacher_risk.py",
+    "script/certified_teacher_bounds.py",
+    "script/certified_teacher_prepare.py",
+    "script/certified_teacher_finalize_test.py",
+    "script/certified_teacher_finalize.py",
+    "script/certified_teacher_compute_test.py",
+    "script/certified_teacher_bounds_test.py",
+    "script/certified_teacher_audit_test.py",
+    "script/certified_teacher_audit.py",
+    "script/certified_teacher_corollary.py",
+    "script/angular_witness_setup.py",
+    "script/angular_witness_math_check.py",
+    "script/angular_witness_path_audit.py",
+    "script/angular_witness_integrals.py",
+    "script/angular_witness_run.py",
+    "script/angular_witness_fraction_audit.py",
+    "script/r02_remainder_propagate.py",
+    "script/r02_remainder_audit.py",
+    "script/r02_remainder_noise.py",
+    "script/r02_remainder_run.py",
+    "script/r02_finite_scale_fraction.py",
+    "script/r02_finite_scale_fixture.py",
+    "script/r02_finite_scale_audit.py",
+    "script/r02_finite_scale_constants.py",
+    "script/r02_finite_scale_run.py",
+    "script/r02_remainder_validate.py",
+    "script/joint_dependence_kernel.py",
+    "script/r03_development_compute.py",
+    "script/r03_development_run.py",
+    "script/r03_continuous_compose.py",
+    "script/r03_risk_interval.py",
+    "script/r03_candidate_interval.py",
+    "script/r03_teacher_derivative.py",
+    "script/r03_certificate_run.py",
+    "script/r03_independent_audit.py",
+    "script/r03_audit_run.py",
+    "script/r03_quantitative_consequences.py",
+    "script/r03_saved_arithmetic_audit.py",
+    "script/r03_spectral_refinement.py",
+    "script/finite_selection_compute.py",
+    "script/nuisance_contrast_compute.py",
+    "script/failure_probability_compute.py",
+    "script/failure_probability_audit.py",
+    "script/local_geometry_kernel.py",
+    "script/local_geometry_compute.py",
+    "script/finite_selection_finalize.py",
+    "script/candidate_v141_figures.py",
+    "script/failure_probability_interval.py",
+    "script/numerical_sign_kernel.py",
+    "script/direction_validation_statistics.py",
+    "script/candidate_v171_calibration.py",
+    "script/asymptotic_bridge_statistics_test.py",
+    "script/asymptotic_bridge_statistics.py",
+    "script/asymptotic_bridge_run.py",
+    "script/asymptotic_bridge_core.py",
+    "script/asymptotic_bridge_prepare.py",
+    "script/asymptotic_bridge_core_test.py",
+    "script/asymptotic_bridge_audit_test.py",
+    "script/asymptotic_bridge_audit.py",
+    "script/asymptotic_bridge_report.py"
+  ],
+  "small_production": {
+    "passed": true,
+    "targets": {
+      "teacher": {
+        "passed": true,
+        "wall_seconds": 0.093,
+        "output": "teacher/result.json"
+      },
+      "candidate_probability": {
+        "passed": true,
+        "wall_seconds": 0.047,
+        "output": "candidate_probability/result.json"
+      },
+      "gradient": {
+        "passed": true,
+        "wall_seconds": 0.0,
+        "output": "gradient/result.json"
+      },
+      "hessian": {
+        "passed": true,
+        "wall_seconds": 3.61,
+        "output": "hessian/result.json"
+      },
+      "root_kl_saved": {
+        "passed": true,
+        "wall_seconds": 0.203,
+        "output": "root_kl_saved/result.json"
+      },
+      "angular_pair": {
+        "passed": true,
+        "wall_seconds": 0.015,
+        "output": "angular_pair/result.json"
+      },
+      "angular_audit": {
+        "passed": true,
+        "wall_seconds": 0.016,
+        "output": "angular_audit/result.json"
+      },
+      "r02_active": {
+        "passed": true,
+        "wall_seconds": 0.016,
+        "output": "r02_active/result.json"
+      },
+      "r02_noise": {
+        "passed": true,
+        "wall_seconds": 0.0,
+        "output": "r02_noise/result.json"
+      },
+      "r02_weights": {
+        "passed": true,
+        "wall_seconds": 0.015,
+        "output": "r02_weights/result.json"
+      },
+      "r03_teacher": {
+        "passed": true,
+        "wall_seconds": 0.032,
+        "output": "r03_teacher/result.json"
+      },
+      "r03_candidate": {
+        "passed": true,
+        "wall_seconds": 0.625,
+        "output": "r03_candidate/result.json"
+      },
+      "r03_risk": {
+        "passed": true,
+        "wall_seconds": 0.093,
+        "output": "r03_risk/result.json"
+      },
+      "figure1_kernels": {
+        "passed": true,
+        "wall_seconds": 0.266,
+        "output": "figure1_kernels/result.json"
+      },
+      "probability_audit": {
+        "passed": true,
+        "wall_seconds": 0.016,
+        "output": "probability_audit/result.json"
+      },
+      "figure2": {
+        "passed": true,
+        "wall_seconds": 0.656,
+        "output": "figure2/result.json"
+      }
+    },
+    "target_count": 16,
+    "total_wall_seconds": 5.843,
+    "original_modules_loaded": 26,
+    "manufactured_rng_and_quadrature_only": true,
+    "original_reference_writes": false,
+    "original_array_reads": false,
+    "Torch_autograd_self_test_executed": false
+  },
+  "saved_arithmetic": {
+    "passed": true,
+    "command": "python -I -B supplementary/h2_2/check.py --level all",
+    "total_wall_seconds": 60.766,
+    "scientific_integrals_replayed": false
+  },
+  "paper_scale_production_replayed": false,
+  "training_replayed": false,
+  "source_only_limits": [
+    "Historical Figure 1 matched-selection driver needs old training counts and governance bindings.",
+    "Full regeneration-to-certificate orchestration is source-readable; only finite producer calls and saved composition were validated.",
+    "Optional Torch/autograd checks and non-Windows platforms were not tested."
+  ]
+}

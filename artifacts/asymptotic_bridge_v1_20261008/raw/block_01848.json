@@ -1,0 +1,57 @@
+{
+  "path": "raw/block_01848.npz",
+  "sha256": "82405460f0bab56022427b437720edd22604fff406aeb111e30eb4ba049e2b5f",
+  "bytes": 374058,
+  "block_id": 1848,
+  "banks": 64,
+  "metadata": {
+    "schema_version": "1.0",
+    "block_id": 1848,
+    "bank_first": 118272,
+    "banks": 64,
+    "particles": 100,
+    "n_values": [
+      64,
+      256,
+      1024,
+      4096
+    ],
+    "metric_names": [
+      "path_gap",
+      "D12",
+      "overlap",
+      "coupling",
+      "direct_gap_truncated"
+    ],
+    "label_encoding": "spins_minus1_plus1_lexicographic",
+    "freeze_sha256": "502d464748a49315bfa5343bf8a20724e6dae7110402d51d79e5ff3df16afbd8",
+    "reference_sha256": "da59420e3d95ef8e2f59c9ac01c39b495475e5a1beca3b92d76921ead5ad5db2",
+    "freeze_reference": "FREEZE.json",
+    "coefficient_reference": "REFERENCE.json",
+    "scientific": true,
+    "role_seed_sequences": {
+      "0": [
+        202610080711,
+        1848,
+        0
+      ],
+      "1": [
+        202610080711,
+        1848,
+        1
+      ],
+      "2": [
+        202610080711,
+        1848,
+        2
+      ]
+    },
+    "nuisance_method": "inplace_log_expit_segment_sum_then_add",
+    "gamma_method": "dominant_complement_from_other_weights",
+    "attempt": 1,
+    "generated_utc": "2026-10-08T04:24:36.665815+00:00"
+  },
+  "elapsed_seconds": 3.2340000000003783,
+  "generation_seconds": 2.8440000000009604,
+  "scoring_seconds": 0.375
+}

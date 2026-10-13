@@ -1,0 +1,64 @@
+{
+  "alpha": 0.01,
+  "point_alpha": 0.0033333333333333335,
+  "banks": 262144,
+  "estimator": "mean of three correlated pair kernels per bank",
+  "results": [
+    {
+      "contrast": "h0",
+      "mean": 0.02820071377464458,
+      "variance": 1.8821389998111142e-05,
+      "range_length": 8.3125,
+      "numerical_allowance": 1e-09,
+      "halfwidth": 0.0005565001065401483,
+      "interval": [
+        0.02764421366810443,
+        0.02875721388118473
+      ],
+      "observed_min": 0.011906914026946056,
+      "observed_max": 0.05198014846547224
+    },
+    {
+      "contrast": "h256",
+      "mean": -0.0042654101617777464,
+      "variance": 0.00027836738293350556,
+      "range_length": 8.3125,
+      "numerical_allowance": 1e-09,
+      "halfwidth": 0.0006473022660078182,
+      "interval": [
+        -0.004912712427785564,
+        -0.0036181078957699285
+      ],
+      "observed_min": -0.06563711186364889,
+      "observed_max": 0.16557456717785338
+    },
+    {
+      "contrast": "interaction",
+      "mean": -0.03246612393642233,
+      "variance": 0.0002955395312373527,
+      "range_length": 16.625,
+      "numerical_allowance": 2e-09,
+      "halfwidth": 0.0011756228855597064,
+      "interval": [
+        -0.03364174682198203,
+        -0.031290501050862625
+      ],
+      "observed_min": -0.10476479631621338,
+      "observed_max": 0.13191686093147723
+    }
+  ],
+  "pair_means": [
+    [
+      0.0282029350610221,
+      0.028197259420549826,
+      0.028201946842361957
+    ],
+    [
+      -0.004280235531368545,
+      -0.004252957846934782,
+      -0.004263037107030079
+    ]
+  ],
+  "new_family_only": true,
+  "combined_with_prior_99_family_lower_coverage": 0.98
+}

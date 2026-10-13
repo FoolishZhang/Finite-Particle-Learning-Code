@@ -1,0 +1,113 @@
+{
+  "created_utc": "2026-10-07T12:59:20.772858+00:00",
+  "passed": true,
+  "source_sha256": "3ea31440102bb691f89e653782a25542f3592b9d91a22e3c53d9dd23553d16bf",
+  "test_sha256": "7871fb1b836397f98208210f9fe00e9bf3e06f27c6bdd5ed6c20c9b99d2dc569",
+  "exit_code": 0,
+  "command": ".venv/Scripts/python.exe script/prospective_explanation_independent.py --self-test",
+  "stdout": "{\n  \"passed\": true,\n  \"manufactured_only\": true,\n  \"scientific_inputs_read\": false,\n  \"new_random_draws\": 0,\n  \"cases\": [\n    {\n      \"name\": \"GL raw nonunit mass constant-emission PMF\",\n      \"max_abs_error\": 5.551115123125783e-17,\n      \"tolerance\": 2e-15,\n      \"passed\": true\n    },\n    {\n      \"name\": \"manufactured same-order rotated GL consistency\",\n      \"max_abs_error\": 2.4702462297909733e-14,\n      \"tolerance\": 2e-10,\n      \"passed\": true\n    },\n    {\n      \"name\": \"raw nonunit risk identity\",\n      \"max_abs_error\": 2.7755575615628914e-17,\n      \"tolerance\": 1e-14,\n      \"passed\": true\n    },\n    {\n      \"name\": \"both raw marginal cells retained\",\n      \"max_abs_error\": 0.0,\n      \"tolerance\": 1e-15,\n      \"passed\": true\n    },\n    {\n      \"name\": \"paired risk decomposition\",\n      \"max_abs_error\": 1.0408340855860843e-17,\n      \"tolerance\": 1e-14,\n      \"passed\": true\n    },\n    {\n      \"name\": \"exact independent Bernoulli MLE\",\n      \"max_abs_error\": 0.0,\n      \"tolerance\": 0.0,\n      \"passed\": true\n    },\n    {\n      \"name\": \"independent MLE product probabilities\",\n      \"max_abs_error\": 0.0,\n      \"tolerance\": 0.0,\n      \"passed\": true\n    },\n    {\n      \"name\": \"boundary MLE retains infinite risk and undefined decomposition\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"exact fixed-sign bit recoding\",\n      \"max_abs_error\": 0.0,\n      \"tolerance\": 0.0,\n      \"passed\": true\n    },\n    {\n      \"name\": \"GH80 kernel versus independent posterior gradient\",\n      \"max_abs_error\": 1.5265566588595902e-16,\n      \"tolerance\": 1e-12,\n      \"passed\": true\n    },\n    {\n      \"name\": \"GH80 kernel versus independent posterior Hangle\",\n      \"max_abs_error\": 1.3877787807814457e-17,\n      \"tolerance\": 1e-12,\n      \"passed\": true\n    },\n    {\n      \"name\": \"complete saved-unit schema and direct arithmetic checks\",\n      \"assertions\": 208,\n      \"failures\": [],\n      \"passed\": true\n    }\n  ],\n  \"retained_development_precision_diagnostics\": [\n    {\n      \"name\": \"retained initial GL24 versus rotatedGL32 manufactured precision failure\",\n      \"max_abs_error\": 1.865679277734955e-09,\n      \"original_tolerance\": 2e-10,\n      \"original_gate_passed\": false,\n      \"scientific_input_used\": false,\n      \"scientific_rules_or_tolerances_changed\": false\n    }\n  ]\n}\n",
+  "stderr": "",
+  "seconds": 0.4989287001080811,
+  "manufactured_only": true,
+  "scientific_inputs_read": false,
+  "new_study_PMF_calls": 0,
+  "new_study_GH80_calls": 0,
+  "new_data_or_random_draws": 0,
+  "initial_precision_failure": {
+    "fixture": "m2 GL24 L7 versus pi/7 rotated GL32 L7",
+    "observed_max_abs_error": 1.865679277734955e-09,
+    "original_tolerance": 2e-10,
+    "original_gate_passed": false,
+    "initial_source_hash_recorded": false,
+    "retention": "Original failure reported in this task and retained/recomputed in final stdout retained_development_precision_diagnostics."
+  },
+  "repair_scope": "Only the manufactured high-precision rotation qualification uses the already present GL32 order on both sides; the insufficient GL24 comparison remains recorded. Scientific GL96/128/rotated128 and all contractual thresholds are unchanged.",
+  "parsed_result": {
+    "passed": true,
+    "manufactured_only": true,
+    "scientific_inputs_read": false,
+    "new_random_draws": 0,
+    "cases": [
+      {
+        "name": "GL raw nonunit mass constant-emission PMF",
+        "max_abs_error": 5.551115123125783e-17,
+        "tolerance": 2e-15,
+        "passed": true
+      },
+      {
+        "name": "manufactured same-order rotated GL consistency",
+        "max_abs_error": 2.4702462297909733e-14,
+        "tolerance": 2e-10,
+        "passed": true
+      },
+      {
+        "name": "raw nonunit risk identity",
+        "max_abs_error": 2.7755575615628914e-17,
+        "tolerance": 1e-14,
+        "passed": true
+      },
+      {
+        "name": "both raw marginal cells retained",
+        "max_abs_error": 0.0,
+        "tolerance": 1e-15,
+        "passed": true
+      },
+      {
+        "name": "paired risk decomposition",
+        "max_abs_error": 1.0408340855860843e-17,
+        "tolerance": 1e-14,
+        "passed": true
+      },
+      {
+        "name": "exact independent Bernoulli MLE",
+        "max_abs_error": 0.0,
+        "tolerance": 0.0,
+        "passed": true
+      },
+      {
+        "name": "independent MLE product probabilities",
+        "max_abs_error": 0.0,
+        "tolerance": 0.0,
+        "passed": true
+      },
+      {
+        "name": "boundary MLE retains infinite risk and undefined decomposition",
+        "passed": true
+      },
+      {
+        "name": "exact fixed-sign bit recoding",
+        "max_abs_error": 0.0,
+        "tolerance": 0.0,
+        "passed": true
+      },
+      {
+        "name": "GH80 kernel versus independent posterior gradient",
+        "max_abs_error": 1.5265566588595902e-16,
+        "tolerance": 1e-12,
+        "passed": true
+      },
+      {
+        "name": "GH80 kernel versus independent posterior Hangle",
+        "max_abs_error": 1.3877787807814457e-17,
+        "tolerance": 1e-12,
+        "passed": true
+      },
+      {
+        "name": "complete saved-unit schema and direct arithmetic checks",
+        "assertions": 208,
+        "failures": [],
+        "passed": true
+      }
+    ],
+    "retained_development_precision_diagnostics": [
+      {
+        "name": "retained initial GL24 versus rotatedGL32 manufactured precision failure",
+        "max_abs_error": 1.865679277734955e-09,
+        "original_tolerance": 2e-10,
+        "original_gate_passed": false,
+        "scientific_input_used": false,
+        "scientific_rules_or_tolerances_changed": false
+      }
+    ]
+  }
+}

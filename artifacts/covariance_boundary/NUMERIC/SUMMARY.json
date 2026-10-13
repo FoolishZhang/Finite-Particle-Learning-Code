@@ -1,0 +1,626 @@
+{
+  "all_qualified": true,
+  "rows": [
+    {
+      "d": 16,
+      "params": [
+        {
+          "name": "teacher",
+          "scales": [
+            6.0,
+            2.0
+          ],
+          "lambda": [
+            0.24494897427831783,
+            0.24494897427831783
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        },
+        {
+          "name": "fixedRfloor",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.24494897427831783,
+            0.24494897427831783
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        },
+        {
+          "name": "comp",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.4531569708926585,
+            0.3590316788713569
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "half",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.22657848544632925,
+            0.17951583943567845
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "over",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.6797354563389877,
+            0.5385475183070354
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "independent",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.0,
+            0.0
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        }
+      ],
+      "risks": [
+        0.0,
+        0.013898476937073164,
+        7.376972353199833e-08,
+        0.019439126056964715,
+        0.027869163616293366,
+        0.038932691144741856
+      ],
+      "minimum_eigenvalues": [
+        3.759999999999996,
+        0.9399999999999987,
+        0.7946487597313885,
+        0.9486621899328463,
+        0.5379597093956269,
+        1.0
+      ],
+      "maximum_eigenvalues": [
+        51.83877129885438,
+        1.9000000000000021,
+        3.498691353114853,
+        1.6246728382787121,
+        6.622055544508422,
+        1.0
+      ],
+      "precision": {
+        "mass_error": 3.552713678800501e-14,
+        "PMF_L1_variant_difference": 1.1496208986942064e-14,
+        "log_PMF_variant_difference": 8.171241461241152e-14,
+        "complement_symmetry_error": 5.551115123125783e-17,
+        "KL_cross_variant_spans": [
+          1.1379125180561113e-28,
+          3.049643870767227e-15,
+          1.232869689618435e-18,
+          3.3306690738754696e-15,
+          4.475586568020162e-15,
+          4.642120021713936e-15
+        ],
+        "comp_KL_relative_span": 1.6712407619145622e-11,
+        "event_probability_span": 5.218048215738236e-15,
+        "event_risk_span": 3.1086244689504383e-15,
+        "quad_max_log_difference": 3.1530333899354446e-14,
+        "Decimal80_audits": [
+          {
+            "name": "fixedRfloor",
+            "Decimal80_normalized_KL": "0.013898476937073231601425626696165801917727162440674257058504052943643712032100593",
+            "float_value": 0.013898476937073231,
+            "stable_primary_KL": 0.013898476937073164,
+            "absolute_difference": 6.765421556309548e-17,
+            "relative_difference": 4.867743125337197e-15,
+            "passed": true
+          },
+          {
+            "name": "comp",
+            "Decimal80_normalized_KL": "7.3769723531998108677150702384643296917856508372154851248381108283209862495834E-8",
+            "float_value": 7.37697235319981e-08,
+            "stable_primary_KL": 7.376972353199833e-08,
+            "absolute_difference": 2.2499312661442353e-22,
+            "relative_difference": 3.049938590549693e-15,
+            "passed": true
+          },
+          {
+            "name": "half",
+            "Decimal80_normalized_KL": "0.019439126056964721137259568280927109148466211978871468593167707175147246194742565",
+            "float_value": 0.019439126056964722,
+            "stable_primary_KL": 0.019439126056964715,
+            "absolute_difference": 6.938893903907228e-18,
+            "relative_difference": 3.5695503406754944e-16,
+            "passed": true
+          },
+          {
+            "name": "over",
+            "Decimal80_normalized_KL": "0.027869163616293339328652751258962428436127858973580042061763919274431131957892540",
+            "float_value": 0.027869163616293338,
+            "stable_primary_KL": 0.027869163616293366,
+            "absolute_difference": 2.7755575615628914e-17,
+            "relative_difference": 9.959242407763524e-16,
+            "passed": true
+          },
+          {
+            "name": "independent",
+            "Decimal80_normalized_KL": "0.038932691144741785334620263865491319823672566009545294159964314172451480991366082",
+            "float_value": 0.038932691144741786,
+            "stable_primary_KL": 0.038932691144741856,
+            "absolute_difference": 6.938893903907228e-17,
+            "relative_difference": 1.7822795444861963e-15,
+            "passed": true
+          }
+        ],
+        "old_fixed_model_anchor": {
+          "teacher_L1": 8.116744039041168e-16,
+          "fixed_floor_L1": 4.1862739945559835e-16,
+          "old_floor_stable_KL": 0.013898476937073384,
+          "floor_KL_difference": 2.203098814490545e-16
+        },
+        "outer_GL_truncation_mass_bound": 1.277750880107581e-57,
+        "qualified": true,
+        "strict_integration_error_certificate": false
+      },
+      "elapsed_seconds": 6.450049399980344
+    },
+    {
+      "d": 64,
+      "params": [
+        {
+          "name": "teacher",
+          "scales": [
+            6.0,
+            2.0
+          ],
+          "lambda": [
+            0.11952286093343936,
+            0.11952286093343936
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        },
+        {
+          "name": "fixedRfloor",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.11952286093343936,
+            0.11952286093343936
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        },
+        {
+          "name": "comp",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.22111796047564083,
+            0.17518952080069575
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "half",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.11055898023782042,
+            0.08759476040034787
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "over",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.33167694071346127,
+            0.26278428120104363
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "independent",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.0,
+            0.0
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        }
+      ],
+      "risks": [
+        0.0,
+        0.01291362685233606,
+        4.446955942421848e-09,
+        0.01809159167864082,
+        0.02393423406360004,
+        0.036593524928987
+      ],
+      "minimum_eigenvalues": [
+        3.9428571428571244,
+        0.9857142857142838,
+        0.951106847555091,
+        0.98777671188877,
+        0.8899904069989522,
+        1.0
+      ],
+      "maximum_eigenvalues": [
+        52.5856755826639,
+        1.8999999999999968,
+        3.504861806028403,
+        1.6262154515070975,
+        6.635939063563903,
+        1.0
+      ],
+      "precision": {
+        "mass_error": 7.72715225139109e-14,
+        "PMF_L1_variant_difference": 3.0158922185552315e-14,
+        "log_PMF_variant_difference": 3.623767952376511e-13,
+        "complement_symmetry_error": 1.9081958235744878e-17,
+        "KL_cross_variant_spans": [
+          6.403554372521775e-28,
+          3.6012859361278515e-15,
+          6.344955063037003e-19,
+          4.0870085094013575e-15,
+          5.034167527284694e-15,
+          5.6690763194922056e-15
+        ],
+        "comp_KL_relative_span": 1.4268086181176532e-10,
+        "event_probability_span": 8.104628079763643e-15,
+        "event_risk_span": 3.552713678800501e-15,
+        "quad_max_log_difference": 3.68594044175552e-14,
+        "Decimal80_audits": [
+          {
+            "name": "fixedRfloor",
+            "Decimal80_normalized_KL": "0.012913626852336099178271732980029861184958470036641990458627074263219518528130555",
+            "float_value": 0.012913626852336098,
+            "stable_primary_KL": 0.01291362685233606,
+            "absolute_difference": 3.8163916471489756e-17,
+            "relative_difference": 2.9553212980275908e-15,
+            "passed": true
+          },
+          {
+            "name": "comp",
+            "Decimal80_normalized_KL": "4.4469559424218283222242570145341277738265888127353997438971058264060275043838786E-9",
+            "float_value": 4.446955942421829e-09,
+            "stable_primary_KL": 4.446955942421848e-09,
+            "absolute_difference": 1.9025154088719637e-23,
+            "relative_difference": 4.278242090781404e-15,
+            "passed": true
+          },
+          {
+            "name": "half",
+            "Decimal80_normalized_KL": "0.018091591678640819307015523155701392145910455978195647511135017872114733294912660",
+            "float_value": 0.018091591678640818,
+            "stable_primary_KL": 0.01809159167864082,
+            "absolute_difference": 3.469446951953614e-18,
+            "relative_difference": 1.917712390142925e-16,
+            "passed": true
+          },
+          {
+            "name": "over",
+            "Decimal80_normalized_KL": "0.023934234063600029605764784885067303561391019631846627008627795033858643520100843",
+            "float_value": 0.02393423406360003,
+            "stable_primary_KL": 0.02393423406360004,
+            "absolute_difference": 1.0408340855860843e-17,
+            "relative_difference": 4.348725272846807e-16,
+            "passed": true
+          },
+          {
+            "name": "independent",
+            "Decimal80_normalized_KL": "0.036593524928987047573335441297932272727846996828832466671809564041297594270759683",
+            "float_value": 0.03659352492898705,
+            "stable_primary_KL": 0.036593524928987,
+            "absolute_difference": 4.85722573273506e-17,
+            "relative_difference": 1.327345682647665e-15,
+            "passed": true
+          }
+        ],
+        "old_fixed_model_anchor": {
+          "teacher_L1": 5.0322026502519286e-15,
+          "fixed_floor_L1": 4.939001706318771e-15,
+          "old_floor_stable_KL": 0.01291362685233631,
+          "floor_KL_difference": 2.498001805406602e-16
+        },
+        "outer_GL_truncation_mass_bound": 1.277750880107581e-57,
+        "qualified": true,
+        "strict_integration_error_certificate": false
+      },
+      "elapsed_seconds": 6.45752410008572
+    },
+    {
+      "d": 256,
+      "params": [
+        {
+          "name": "teacher",
+          "scales": [
+            6.0,
+            2.0
+          ],
+          "lambda": [
+            0.05940885257860046,
+            0.05940885257860046
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        },
+        {
+          "name": "fixedRfloor",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.05940885257860046,
+            0.05940885257860046
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        },
+        {
+          "name": "comp",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.10990670917502227,
+            0.08707797264290852
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "half",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.05495335458751113,
+            0.04353898632145426
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "over",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.1648600637625334,
+            0.1306169589643628
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": true
+        },
+        {
+          "name": "independent",
+          "scales": [
+            1.0,
+            1.0
+          ],
+          "lambda": [
+            0.0,
+            0.0
+          ],
+          "mean": [
+            0.0,
+            0.0
+          ],
+          "single_Gaussian": true,
+          "loading_uses_teacher_information": false
+        }
+      ],
+      "risks": [
+        0.0,
+        0.012688615951269489,
+        2.744616506209588e-10,
+        0.017783344115007885,
+        0.023101166732569442,
+        0.036054081649123514
+      ],
+      "minimum_eigenvalues": [
+        3.9858823529411422,
+        0.9964705882352918,
+        0.987920515278315,
+        0.996980128819576,
+        0.9728211593762097,
+        1.0
+      ],
+      "maximum_eigenvalues": [
+        52.76218125076211,
+        1.9000000000000004,
+        3.5064000601884038,
+        1.6266000150471023,
+        6.639400135423929,
+        1.0
+      ],
+      "precision": {
+        "mass_error": 2.4291679778798425e-13,
+        "PMF_L1_variant_difference": 7.098708011023709e-11,
+        "log_PMF_variant_difference": 9.199254691338865e-10,
+        "complement_symmetry_error": 1.5612511283791264e-17,
+        "KL_cross_variant_spans": [
+          3.37197429617187e-21,
+          7.588575601236158e-12,
+          1.2811886053056032e-15,
+          8.544002311206e-12,
+          8.064104939364825e-12,
+          1.2603224019969161e-11
+        ],
+        "comp_KL_relative_span": 4.668005903218041e-06,
+        "event_probability_span": 2.681277422311723e-11,
+        "event_risk_span": 1.0397682714824441e-11,
+        "quad_max_log_difference": 2.9531932455029164e-14,
+        "Decimal80_audits": [
+          {
+            "name": "fixedRfloor",
+            "Decimal80_normalized_KL": "0.012688615951269487258905458371540239651122209614303471739433978356186986641904743",
+            "float_value": 0.012688615951269487,
+            "stable_primary_KL": 0.012688615951269489,
+            "absolute_difference": 1.734723475976807e-18,
+            "relative_difference": 1.3671494847341871e-16,
+            "passed": true
+          },
+          {
+            "name": "comp",
+            "Decimal80_normalized_KL": "2.7446165062098235343459838235838433598488902154092525698636168255109593186551254E-10",
+            "float_value": 2.7446165062098233e-10,
+            "stable_primary_KL": 2.744616506209588e-10,
+            "absolute_difference": 2.3522948669476725e-23,
+            "relative_difference": 8.570577571131328e-14,
+            "passed": true
+          },
+          {
+            "name": "half",
+            "Decimal80_normalized_KL": "0.017783344115007896917534111947191740663704823610522295190238235105687765104352380",
+            "float_value": 0.0177833441150079,
+            "stable_primary_KL": 0.017783344115007885,
+            "absolute_difference": 1.3877787807814457e-17,
+            "relative_difference": 7.803812217805865e-16,
+            "passed": true
+          },
+          {
+            "name": "over",
+            "Decimal80_normalized_KL": "0.023101166732569434689431011832533675996976751495342800863691399997213344202771862",
+            "float_value": 0.023101166732569435,
+            "stable_primary_KL": 0.023101166732569442,
+            "absolute_difference": 6.938893903907228e-18,
+            "relative_difference": 3.0036984643396174e-16,
+            "passed": true
+          },
+          {
+            "name": "independent",
+            "Decimal80_normalized_KL": "0.036054081649123473290408420597598946150904132826395986210541604630396862236110267",
+            "float_value": 0.03605408164912347,
+            "stable_primary_KL": 0.036054081649123514,
+            "absolute_difference": 4.163336342344337e-17,
+            "relative_difference": 1.1547475769489052e-15,
+            "passed": true
+          }
+        ],
+        "old_fixed_model_anchor": null,
+        "outer_GL_truncation_mass_bound": 1.277750880107581e-57,
+        "qualified": true,
+        "strict_integration_error_certificate": false
+      },
+      "elapsed_seconds": 11.940899400040507
+    }
+  ],
+  "primary_PMFS": 18,
+  "variant_PMFS": 72,
+  "new_observations": 0,
+  "new_fits": 0,
+  "new_alpha_integrals": 0,
+  "external_sandbox_files_used": false,
+  "no_global_optimization_or_learning_claim": true,
+  "strict_integration_error_certificate": false
+}

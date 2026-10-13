@@ -1,0 +1,81 @@
+{
+  "scope": "descriptive deterministic summary of the prespecified central event, no new gate or confidence family",
+  "event": "abs(sum spin)/sqrt(d) <= 1",
+  "source_sha256": "7a3a19a4aed4fd0feab59926be68426630af8ea80de2a550ad495b9ffb066acf",
+  "rows": [
+    {
+      "d": 16,
+      "N": 4096,
+      "method": "MOM",
+      "P": 0.698606228495228,
+      "mean_Q": 0.7030917811827926,
+      "mean_absolute_probability_error": 0.005337867036815422,
+      "mean_scalar_Brier_excess": 5.636590056972049e-05
+    },
+    {
+      "d": 16,
+      "N": 4096,
+      "method": "quasiMLE",
+      "P": 0.698606228495228,
+      "mean_Q": 0.7008318823100692,
+      "mean_absolute_probability_error": 0.0046620882608656156,
+      "mean_scalar_Brier_excess": 2.7020565746728845e-05
+    },
+    {
+      "d": 16,
+      "N": 4096,
+      "method": "raw",
+      "P": 0.698606228495228,
+      "mean_Q": 0.6063967082020533,
+      "mean_absolute_probability_error": 0.09220952029317471,
+      "mean_scalar_Brier_excess": 0.008598959682291584
+    },
+    {
+      "d": 16,
+      "N": 4096,
+      "method": "col",
+      "P": 0.698606228495228,
+      "mean_Q": 0.7151018584191258,
+      "mean_absolute_probability_error": 0.016495629923897595,
+      "mean_scalar_Brier_excess": 0.0002946949654272655
+    },
+    {
+      "d": 64,
+      "N": 4096,
+      "method": "MOM",
+      "P": 0.6526652775300515,
+      "mean_Q": 0.6541755134028979,
+      "mean_absolute_probability_error": 0.005716774955575446,
+      "mean_scalar_Brier_excess": 4.164610723768816e-05
+    },
+    {
+      "d": 64,
+      "N": 4096,
+      "method": "quasiMLE",
+      "P": 0.6526652775300515,
+      "mean_Q": 0.6544517741569114,
+      "mean_absolute_probability_error": 0.003861064023243696,
+      "mean_scalar_Brier_excess": 2.079354766980405e-05
+    },
+    {
+      "d": 64,
+      "N": 4096,
+      "method": "raw",
+      "P": 0.6526652775300515,
+      "mean_Q": 0.5609662978996443,
+      "mean_absolute_probability_error": 0.09169897963040718,
+      "mean_scalar_Brier_excess": 0.00840870286525783
+    },
+    {
+      "d": 64,
+      "N": 4096,
+      "method": "col",
+      "P": 0.6526652775300515,
+      "mean_Q": 0.6575369598955993,
+      "mean_absolute_probability_error": 0.0052140258462067685,
+      "mean_scalar_Brier_excess": 4.344024318856928e-05
+    }
+  ],
+  "new_samples": 0,
+  "new_integrals": 0
+}

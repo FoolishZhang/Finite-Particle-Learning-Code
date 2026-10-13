@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "source_rows": {
+    "A/FINITE_FITS": 1024,
+    "A/FINITE_RISK_INTERVALS": 40,
+    "A/POPULATION_FITS": 32,
+    "A/POPULATION_CURVES": 992,
+    "B/FINITE_FITS": 640,
+    "B/FINITE_RISK_INTERVALS": 32,
+    "B/POPULATION_FITS": 148,
+    "B/POPULATION_FIXED_COMPARISONS": 8,
+    "B/REFERENCE_CURVES": 1444,
+    "B/GRID": 361,
+    "C/FITS": 576,
+    "C/RISK_INTERVALS": 36,
+    "C/SUMMARY": 36
+  },
+  "finite_fits": 2240,
+  "original_statistics": 116,
+  "precision_failures": 4,
+  "primary_records": 9,
+  "null_profile_retained": true,
+  "new_scientific_samples": 0,
+  "new_fits": 0,
+  "new_reference_integrals": 0,
+  "new_statistical_intervals": 0,
+  "complete_readable_tables": 16
+}

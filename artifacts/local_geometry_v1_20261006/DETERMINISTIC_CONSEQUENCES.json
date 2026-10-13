@@ -1,0 +1,24 @@
+{
+  "source_results_sha256": "deb87f1515e8704e0b7c53e82dc53113e4a0f05c26babc05e5e788530c1f0dd3",
+  "proof_sources": {
+    "docs/08_research_研究工作/LocalGeometry_v1_20261006/LOCAL_CONSEQUENCES.md": "22f18efdace0afedff9ac96cfd7f3fe54b9f2a869b924fcfc91b998729210c02",
+    "docs/08_research_研究工作/LocalGeometry_v1_20261006/SCALE_CONTINUITY.md": "45adf383486981104ede745b2bd2c94a46ae908af07817c30bafa7ab23f2466e"
+  },
+  "new_statistical_contrasts": 0,
+  "new_alpha_spent": 0,
+  "exact_risk_hessian_bounds": [
+    0.027777777777777776,
+    0.0625
+  ],
+  "n256_local_score_risk_ratio_bounds": [
+    -0.17685764740028034,
+    -0.05788972633231885
+  ],
+  "interpretation": "limit as nonzero correlation vector approaches zero; not a finite-radius bound",
+  "n0_strict_local_minimum_analytic": true,
+  "n256_strict_local_maximum_qualified": true,
+  "continuous_scale_zero_exists_qualified": true,
+  "scale_zero_location_estimated": false,
+  "scale_zero_unique_proved": false,
+  "optimizer_trajectory_guaranteed": false
+}

@@ -1,0 +1,53 @@
+{
+  "roles": [
+    "I",
+    "O"
+  ],
+  "K": [
+    4,
+    100
+  ],
+  "samplers": [
+    "iid",
+    "antithetic"
+  ],
+  "initial_sd": [
+    0.01,
+    1.0
+  ],
+  "seeds": [
+    20266001,
+    20266002,
+    20266003,
+    20266004,
+    20266005,
+    20266006
+  ],
+  "d": 24,
+  "batch": 128,
+  "phase_steps": [
+    1500,
+    500
+  ],
+  "phase_rng_offsets": [
+    2000,
+    3000
+  ],
+  "learning_rate_first_1000": 0.002,
+  "learning_rate_remaining": 0.0005,
+  "optimizer": "torch.optim.Adam defaults; reset between phases",
+  "precision_regularization": null,
+  "CPU_threads": 2,
+  "dtype": "float32",
+  "repeats": 6,
+  "configuration_count": 16,
+  "terminal_models": 96,
+  "fit_phases": 192,
+  "new_means": 0,
+  "new_task_heads": 0,
+  "checkpoint_steps": 250,
+  "factor_diag_floor": 1e-06,
+  "noise_contract": "Generate full iid (128,K,24), then anti concatenates first half and negatives; consume final unused integer",
+  "data_contract": "I/O only; no C/T prediction or label arithmetic",
+  "float_boundary": "Count source float32 sigmoid 0/1; real-valued spectrum is not a float32 gradient certificate"
+}

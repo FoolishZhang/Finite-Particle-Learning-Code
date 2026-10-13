@@ -1,0 +1,869 @@
+{
+  "schema": "certified_f8_gradient_compute_manufactured_v1",
+  "created_utc": "2026-10-08T09:38:52.910975+00:00",
+  "status": "passed",
+  "tests_run": 5,
+  "results": [
+    {
+      "test": "zero_score",
+      "result": {
+        "status": "completed",
+        "pair_counts": [
+          1
+        ],
+        "K": 8,
+        "precision_bits": 192,
+        "conditional_gradient_finite": [
+          {
+            "arb_display_only": "0",
+            "lower_exact_dyadic": {
+              "mantissa": "0",
+              "exponent_of_two": 0
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "0",
+              "exponent_of_two": 0
+            }
+          }
+        ],
+        "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+        "inner_grid": {
+          "h_exact": "1/4",
+          "L_exact": "2",
+          "nodes": 17,
+          "full_weights": true
+        },
+        "outer_grid": {
+          "h_exact": "1/4",
+          "vmin_exact": "-2",
+          "vmax_exact": "2",
+          "nodes_prescribed": 17,
+          "nodes_completed": 17,
+          "full_weights": true
+        },
+        "raw_normal_grid_mass": {
+          "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+            "exponent_of_two": -190
+          }
+        },
+        "normal_mass_strictly_below_one": true,
+        "psi_completed_grid_lower_endpoint": {
+          "arb_display_only": "[0.152445020652123344896325496702764478450847671893499102878 +/- 3.02e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "3827651614746007346845815675736007804755083534316742113973",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3827651614746007346845815675736007804755083534316742113973",
+            "exponent_of_two": -194
+          }
+        },
+        "psi_completed_grid_upper_endpoint": {
+          "arb_display_only": "[0.934708031411933343472272477872701414134892971114894573189 +/- 3.39e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "5867257406055714905563965934247835658331362496562529382255",
+            "exponent_of_two": -192
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5867257406055714905563965934247835658331362496562529382255",
+            "exponent_of_two": -192
+          }
+        },
+        "psi_upper_bounded_by_raw_normal_mass": true,
+        "coefficients_or_Gaussian_mass_renormalized": false,
+        "likelihood_scale_exact": "1",
+        "physical_u": "exp(v)",
+        "saturation_threshold": null,
+        "saturation_is_interval_outer_enclosure": false,
+        "saturation_caps": null,
+        "backend": "loop",
+        "last_completed_v_index": 8,
+        "current_partial_inner_factors": 0,
+        "resources": {
+          "laplace_factors_evaluated": 289,
+          "saturated_factor_enclosures": 0,
+          "ordinary_exponential_calls": 289,
+          "inner_nodes": 17,
+          "outer_nodes_completed": 17,
+          "new_kernel_calls": 0,
+          "new_random_draws": 0,
+          "new_optimizer_updates": 0
+        },
+        "wall_seconds": 0.00044210000487510115,
+        "finite_sum_arithmetic_enclosed": true,
+        "analytic_discretization_tail_teacher_errors_added": false,
+        "true_F8_gradient_certified": false,
+        "true_F8_stationary_existence_certified": false
+      }
+    },
+    {
+      "test": "loop_matrix_performance",
+      "records": {
+        "loop": {
+          "status": "completed",
+          "pair_counts": [
+            1
+          ],
+          "K": 8,
+          "precision_bits": 192,
+          "conditional_gradient_finite": [
+            {
+              "arb_display_only": "[0.05572127214745329228426420903160220568757133765044017433 +/- 3.66e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "5596289505515721294478337874984505077735256049096058761353",
+                "exponent_of_two": -196
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "5596289505515721294478337874984505077735256049096058761709",
+                "exponent_of_two": -196
+              }
+            }
+          ],
+          "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+          "inner_grid": {
+            "h_exact": "1/4",
+            "L_exact": "2",
+            "nodes": 17,
+            "full_weights": true
+          },
+          "outer_grid": {
+            "h_exact": "1/4",
+            "vmin_exact": "-2",
+            "vmax_exact": "2",
+            "nodes_prescribed": 17,
+            "nodes_completed": 17,
+            "full_weights": true
+          },
+          "raw_normal_grid_mass": {
+            "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+              "exponent_of_two": -190
+            }
+          },
+          "normal_mass_strictly_below_one": true,
+          "psi_completed_grid_lower_endpoint": {
+            "arb_display_only": "[0.158921752690401850852273032472012725637900758060575151964 +/- 2.15e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "3990272038414457442209845165216855707632885758885423872539",
+              "exponent_of_two": -194
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3990272038414457442209845165216855707632885758885423872539",
+              "exponent_of_two": -194
+            }
+          },
+          "psi_completed_grid_upper_endpoint": {
+            "arb_display_only": "[0.935401335483645161795416957587206575049983712338098158429 +/- 2.42e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "5871609346247407812128200927354942743783598969755862500599",
+              "exponent_of_two": -192
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5871609346247407812128200927354942743783598969755862500599",
+              "exponent_of_two": -192
+            }
+          },
+          "psi_upper_bounded_by_raw_normal_mass": true,
+          "coefficients_or_Gaussian_mass_renormalized": false,
+          "likelihood_scale_exact": "1",
+          "physical_u": "exp(v)",
+          "saturation_threshold": null,
+          "saturation_is_interval_outer_enclosure": false,
+          "saturation_caps": null,
+          "backend": "loop",
+          "last_completed_v_index": 8,
+          "current_partial_inner_factors": 0,
+          "resources": {
+            "laplace_factors_evaluated": 289,
+            "saturated_factor_enclosures": 0,
+            "ordinary_exponential_calls": 289,
+            "inner_nodes": 17,
+            "outer_nodes_completed": 17,
+            "new_kernel_calls": 0,
+            "new_random_draws": 0,
+            "new_optimizer_updates": 0
+          },
+          "wall_seconds": 0.0004745999976876192,
+          "finite_sum_arithmetic_enclosed": true,
+          "analytic_discretization_tail_teacher_errors_added": false,
+          "true_F8_gradient_certified": false,
+          "true_F8_stationary_existence_certified": false
+        },
+        "arb_mat": {
+          "status": "completed",
+          "pair_counts": [
+            1
+          ],
+          "K": 8,
+          "precision_bits": 192,
+          "conditional_gradient_finite": [
+            {
+              "arb_display_only": "[0.05572127214745329228426420903160220568757133765044017433 +/- 3.62e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "699536188189465161809792234373063134716907006137007345171",
+                "exponent_of_two": -193
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "2798144752757860647239168937492252538867628024548029380853",
+                "exponent_of_two": -195
+              }
+            }
+          ],
+          "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+          "inner_grid": {
+            "h_exact": "1/4",
+            "L_exact": "2",
+            "nodes": 17,
+            "full_weights": true
+          },
+          "outer_grid": {
+            "h_exact": "1/4",
+            "vmin_exact": "-2",
+            "vmax_exact": "2",
+            "nodes_prescribed": 17,
+            "nodes_completed": 17,
+            "full_weights": true
+          },
+          "raw_normal_grid_mass": {
+            "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+              "exponent_of_two": -190
+            }
+          },
+          "normal_mass_strictly_below_one": true,
+          "psi_completed_grid_lower_endpoint": {
+            "arb_display_only": "[0.158921752690401850852273032472012725637900758060575151964 +/- 2.15e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "3990272038414457442209845165216855707632885758885423872539",
+              "exponent_of_two": -194
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3990272038414457442209845165216855707632885758885423872539",
+              "exponent_of_two": -194
+            }
+          },
+          "psi_completed_grid_upper_endpoint": {
+            "arb_display_only": "[0.935401335483645161795416957587206575049983712338098158429 +/- 2.42e-58]",
+            "lower_exact_dyadic": {
+              "mantissa": "5871609346247407812128200927354942743783598969755862500599",
+              "exponent_of_two": -192
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5871609346247407812128200927354942743783598969755862500599",
+              "exponent_of_two": -192
+            }
+          },
+          "psi_upper_bounded_by_raw_normal_mass": true,
+          "coefficients_or_Gaussian_mass_renormalized": false,
+          "likelihood_scale_exact": "1",
+          "physical_u": "exp(v)",
+          "saturation_threshold": null,
+          "saturation_is_interval_outer_enclosure": false,
+          "saturation_caps": null,
+          "backend": "arb_mat",
+          "last_completed_v_index": 8,
+          "current_partial_inner_factors": 0,
+          "resources": {
+            "laplace_factors_evaluated": 289,
+            "saturated_factor_enclosures": 0,
+            "ordinary_exponential_calls": 289,
+            "inner_nodes": 17,
+            "outer_nodes_completed": 17,
+            "new_kernel_calls": 0,
+            "new_random_draws": 0,
+            "new_optimizer_updates": 0
+          },
+          "wall_seconds": 0.0004411999980220571,
+          "finite_sum_arithmetic_enclosed": true,
+          "analytic_discretization_tail_teacher_errors_added": false,
+          "true_F8_gradient_certified": false,
+          "true_F8_stationary_existence_certified": false
+        }
+      }
+    },
+    {
+      "test": "positive_middle_and_complement",
+      "middle": {
+        "status": "completed",
+        "pair_counts": [
+          1
+        ],
+        "K": 8,
+        "precision_bits": 192,
+        "conditional_gradient_finite": [
+          {
+            "arb_display_only": "[0.05572127214745329228426420903160220568757133765044017433 +/- 3.66e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "5596289505515721294478337874984505077735256049096058761353",
+              "exponent_of_two": -196
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "5596289505515721294478337874984505077735256049096058761709",
+              "exponent_of_two": -196
+            }
+          }
+        ],
+        "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+        "inner_grid": {
+          "h_exact": "1/4",
+          "L_exact": "2",
+          "nodes": 17,
+          "full_weights": true
+        },
+        "outer_grid": {
+          "h_exact": "1/4",
+          "vmin_exact": "-2",
+          "vmax_exact": "2",
+          "nodes_prescribed": 17,
+          "nodes_completed": 17,
+          "full_weights": true
+        },
+        "raw_normal_grid_mass": {
+          "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+            "exponent_of_two": -190
+          }
+        },
+        "normal_mass_strictly_below_one": true,
+        "psi_completed_grid_lower_endpoint": {
+          "arb_display_only": "[0.158921752690401850852273032472012725637900758060575151964 +/- 2.15e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "3990272038414457442209845165216855707632885758885423872539",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3990272038414457442209845165216855707632885758885423872539",
+            "exponent_of_two": -194
+          }
+        },
+        "psi_completed_grid_upper_endpoint": {
+          "arb_display_only": "[0.935401335483645161795416957587206575049983712338098158429 +/- 2.42e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "5871609346247407812128200927354942743783598969755862500599",
+            "exponent_of_two": -192
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5871609346247407812128200927354942743783598969755862500599",
+            "exponent_of_two": -192
+          }
+        },
+        "psi_upper_bounded_by_raw_normal_mass": true,
+        "coefficients_or_Gaussian_mass_renormalized": false,
+        "likelihood_scale_exact": "1",
+        "physical_u": "exp(v)",
+        "saturation_threshold": null,
+        "saturation_is_interval_outer_enclosure": false,
+        "saturation_caps": null,
+        "backend": "loop",
+        "last_completed_v_index": 8,
+        "current_partial_inner_factors": 0,
+        "resources": {
+          "laplace_factors_evaluated": 289,
+          "saturated_factor_enclosures": 0,
+          "ordinary_exponential_calls": 289,
+          "inner_nodes": 17,
+          "outer_nodes_completed": 17,
+          "new_kernel_calls": 0,
+          "new_random_draws": 0,
+          "new_optimizer_updates": 0
+        },
+        "wall_seconds": 0.0005076000015833415,
+        "finite_sum_arithmetic_enclosed": true,
+        "analytic_discretization_tail_teacher_errors_added": false,
+        "true_F8_gradient_certified": false,
+        "true_F8_stationary_existence_certified": false
+      },
+      "left": {
+        "status": "completed",
+        "pair_counts": [
+          0
+        ],
+        "K": 8,
+        "precision_bits": 192,
+        "conditional_gradient_finite": [
+          {
+            "arb_display_only": "[-0.03674828156849717896931013929919441589884073702741281683 +/- 5.83e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "-3690763232097472272598741410100360424126577076758053664673",
+              "exponent_of_two": -196
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "-3690763232097472272598741410100360424126577076758053664171",
+              "exponent_of_two": -196
+            }
+          }
+        ],
+        "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+        "inner_grid": {
+          "h_exact": "1/4",
+          "L_exact": "2",
+          "nodes": 17,
+          "full_weights": true
+        },
+        "outer_grid": {
+          "h_exact": "1/4",
+          "vmin_exact": "-2",
+          "vmax_exact": "2",
+          "nodes_prescribed": 17,
+          "nodes_completed": 17,
+          "full_weights": true
+        },
+        "raw_normal_grid_mass": {
+          "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+            "exponent_of_two": -190
+          }
+        },
+        "normal_mass_strictly_below_one": true,
+        "psi_completed_grid_lower_endpoint": {
+          "arb_display_only": "[0.168520260899918386782465793864648032585971951878154738127 +/- 2.11e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "4231275288570775640948816249364223026241807041660351513093",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4231275288570775640948816249364223026241807041660351513093",
+            "exponent_of_two": -194
+          }
+        },
+        "psi_completed_grid_upper_endpoint": {
+          "arb_display_only": "[0.934062734577234689384623596323290622075056793491506756904 +/- 1.79e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "1465801703043697112978819551274066006977860275299337937231",
+            "exponent_of_two": -190
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1465801703043697112978819551274066006977860275299337937231",
+            "exponent_of_two": -190
+          }
+        },
+        "psi_upper_bounded_by_raw_normal_mass": true,
+        "coefficients_or_Gaussian_mass_renormalized": false,
+        "likelihood_scale_exact": "1",
+        "physical_u": "exp(v)",
+        "saturation_threshold": null,
+        "saturation_is_interval_outer_enclosure": false,
+        "saturation_caps": null,
+        "backend": "loop",
+        "last_completed_v_index": 8,
+        "current_partial_inner_factors": 0,
+        "resources": {
+          "laplace_factors_evaluated": 289,
+          "saturated_factor_enclosures": 0,
+          "ordinary_exponential_calls": 289,
+          "inner_nodes": 17,
+          "outer_nodes_completed": 17,
+          "new_kernel_calls": 0,
+          "new_random_draws": 0,
+          "new_optimizer_updates": 0
+        },
+        "wall_seconds": 0.0004654000003938563,
+        "finite_sum_arithmetic_enclosed": true,
+        "analytic_discretization_tail_teacher_errors_added": false,
+        "true_F8_gradient_certified": false,
+        "true_F8_stationary_existence_certified": false
+      },
+      "right": {
+        "status": "completed",
+        "pair_counts": [
+          2
+        ],
+        "K": 8,
+        "precision_bits": 192,
+        "conditional_gradient_finite": [
+          {
+            "arb_display_only": "[-0.03674828156849717896931013929919441589884073702741281683 +/- 5.52e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "-230672702006092017037421338131272526507911067297378354043",
+              "exponent_of_two": -192
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "-1845381616048736136299370705050180212063288538379026832101",
+              "exponent_of_two": -195
+            }
+          }
+        ],
+        "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+        "inner_grid": {
+          "h_exact": "1/4",
+          "L_exact": "2",
+          "nodes": 17,
+          "full_weights": true
+        },
+        "outer_grid": {
+          "h_exact": "1/4",
+          "vmin_exact": "-2",
+          "vmax_exact": "2",
+          "nodes_prescribed": 17,
+          "nodes_completed": 17,
+          "full_weights": true
+        },
+        "raw_normal_grid_mass": {
+          "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+            "exponent_of_two": -190
+          }
+        },
+        "normal_mass_strictly_below_one": true,
+        "psi_completed_grid_lower_endpoint": {
+          "arb_display_only": "[0.168520260899918386782465793864648032585971951878154738127 +/- 4.90e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "2115637644285387820474408124682111513120903520830175756543",
+            "exponent_of_two": -193
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2115637644285387820474408124682111513120903520830175756543",
+            "exponent_of_two": -193
+          }
+        },
+        "psi_completed_grid_upper_endpoint": {
+          "arb_display_only": "[0.934062734577234689384623596323290622075056793491506756904 +/- 1.79e-58]",
+          "lower_exact_dyadic": {
+            "mantissa": "1465801703043697112978819551274066006977860275299337937231",
+            "exponent_of_two": -190
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1465801703043697112978819551274066006977860275299337937231",
+            "exponent_of_two": -190
+          }
+        },
+        "psi_upper_bounded_by_raw_normal_mass": true,
+        "coefficients_or_Gaussian_mass_renormalized": false,
+        "likelihood_scale_exact": "1",
+        "physical_u": "exp(v)",
+        "saturation_threshold": null,
+        "saturation_is_interval_outer_enclosure": false,
+        "saturation_caps": null,
+        "backend": "loop",
+        "last_completed_v_index": 8,
+        "current_partial_inner_factors": 0,
+        "resources": {
+          "laplace_factors_evaluated": 289,
+          "saturated_factor_enclosures": 0,
+          "ordinary_exponential_calls": 289,
+          "inner_nodes": 17,
+          "outer_nodes_completed": 17,
+          "new_kernel_calls": 0,
+          "new_random_draws": 0,
+          "new_optimizer_updates": 0
+        },
+        "wall_seconds": 0.0004307999988668598,
+        "finite_sum_arithmetic_enclosed": true,
+        "analytic_discretization_tail_teacher_errors_added": false,
+        "true_F8_gradient_certified": false,
+        "true_F8_stationary_existence_certified": false
+      }
+    },
+    {
+      "test": "saturation_outer_enclosure",
+      "cases": [
+        {
+          "t": {
+            "arb_display_only": "128.000000000000000000000000000000000000000000000000000000",
+            "lower_exact_dyadic": {
+              "mantissa": "1",
+              "exponent_of_two": 7
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1",
+              "exponent_of_two": 7
+            }
+          },
+          "ordinary_exp_seconds": 5.999972927384079e-07,
+          "interval_replace_seconds": 1.4999968698248267e-06,
+          "ordinary_exp_upper_exponent": -375,
+          "encloses_ordinary_factors": true
+        },
+        {
+          "t": {
+            "arb_display_only": "129.000000000000000000000000000000000000000000000000000000",
+            "lower_exact_dyadic": {
+              "mantissa": "129",
+              "exponent_of_two": 0
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "129",
+              "exponent_of_two": 0
+            }
+          },
+          "ordinary_exp_seconds": 7.999988156370819e-07,
+          "interval_replace_seconds": 7.999988156370819e-07,
+          "ordinary_exp_upper_exponent": -378,
+          "encloses_ordinary_factors": true
+        },
+        {
+          "t": {
+            "arb_display_only": "1000.00000000000000000000000000000000000000000000000000000",
+            "lower_exact_dyadic": {
+              "mantissa": "125",
+              "exponent_of_two": 3
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "125",
+              "exponent_of_two": 3
+            }
+          },
+          "ordinary_exp_seconds": 5.999972927384079e-07,
+          "interval_replace_seconds": 6.00004568696022e-07,
+          "ordinary_exp_upper_exponent": -1634,
+          "encloses_ordinary_factors": true
+        },
+        {
+          "t": {
+            "arb_display_only": "[1558787270202904220727309677.23211743620784796155894997860 +/- 3.59e-30]",
+            "lower_exact_dyadic": {
+              "mantissa": "1975997618700834742886595161095153219595103828308529425643",
+              "exponent_of_two": -100
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1975997618700834742886595161095153219595103828308529425645",
+              "exponent_of_two": -100
+            }
+          },
+          "ordinary_exp_seconds": 9.199997293762863e-06,
+          "interval_replace_seconds": 6.00004568696022e-07,
+          "ordinary_exp_upper_exponent": -2248854664522574555907204319,
+          "encloses_ordinary_factors": true
+        }
+      ],
+      "finite_exact": {
+        "status": "completed",
+        "pair_counts": [
+          0
+        ],
+        "K": 8,
+        "precision_bits": 192,
+        "conditional_gradient_finite": [
+          {
+            "arb_display_only": "[+/- 7.38e-405]",
+            "lower_exact_dyadic": {
+              "mantissa": "-2146012771621955702203442672344729969745376105509591246953",
+              "exponent_of_two": -1533
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4441553716224387253672049038571066400903324608312848559919",
+              "exponent_of_two": -1534
+            }
+          }
+        ],
+        "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+        "inner_grid": {
+          "h_exact": "1/4",
+          "L_exact": "2",
+          "nodes": 17,
+          "full_weights": true
+        },
+        "outer_grid": {
+          "h_exact": "1/4",
+          "vmin_exact": "6",
+          "vmax_exact": "8",
+          "nodes_prescribed": 9,
+          "nodes_completed": 9,
+          "full_weights": true
+        },
+        "raw_normal_grid_mass": {
+          "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+            "exponent_of_two": -190
+          }
+        },
+        "normal_mass_strictly_below_one": true,
+        "psi_completed_grid_lower_endpoint": {
+          "arb_display_only": "[2.14767556797162662603189892314180867785897004721487627698e-324 +/- 4.93e-381]",
+          "lower_exact_dyadic": {
+            "mantissa": "5457241622945810965639310811307178381109547480868988980303",
+            "exponent_of_two": -1267
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "5457241622945810965639310811307178381109547480868988980303",
+            "exponent_of_two": -1267
+          }
+        },
+        "psi_completed_grid_upper_endpoint": {
+          "arb_display_only": "[1.52631826854095737801489968305149280323048805946529743522e-44 +/- 1.39e-101]",
+          "lower_exact_dyadic": {
+            "mantissa": "1068301036517043473078845337032002677558949762706629364209",
+            "exponent_of_two": -335
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1068301036517043473078845337032002677558949762706629364209",
+            "exponent_of_two": -335
+          }
+        },
+        "psi_upper_bounded_by_raw_normal_mass": true,
+        "coefficients_or_Gaussian_mass_renormalized": false,
+        "likelihood_scale_exact": "1",
+        "physical_u": "exp(v)",
+        "saturation_threshold": null,
+        "saturation_is_interval_outer_enclosure": false,
+        "saturation_caps": null,
+        "backend": "loop",
+        "last_completed_v_index": 32,
+        "current_partial_inner_factors": 0,
+        "resources": {
+          "laplace_factors_evaluated": 153,
+          "saturated_factor_enclosures": 0,
+          "ordinary_exponential_calls": 153,
+          "inner_nodes": 17,
+          "outer_nodes_completed": 9,
+          "new_kernel_calls": 0,
+          "new_random_draws": 0,
+          "new_optimizer_updates": 0
+        },
+        "wall_seconds": 0.00027380000392440706,
+        "finite_sum_arithmetic_enclosed": true,
+        "analytic_discretization_tail_teacher_errors_added": false,
+        "true_F8_gradient_certified": false,
+        "true_F8_stationary_existence_certified": false
+      },
+      "finite_outer": {
+        "status": "completed",
+        "pair_counts": [
+          0
+        ],
+        "K": 8,
+        "precision_bits": 192,
+        "conditional_gradient_finite": [
+          {
+            "arb_display_only": "[+/- 7.38e-405]",
+            "lower_exact_dyadic": {
+              "mantissa": "-2146012771621955702203442672344729969745376105509591246953",
+              "exponent_of_two": -1533
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4441553716224387253672049038571066400903324608312848559919",
+              "exponent_of_two": -1534
+            }
+          }
+        ],
+        "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+        "inner_grid": {
+          "h_exact": "1/4",
+          "L_exact": "2",
+          "nodes": 17,
+          "full_weights": true
+        },
+        "outer_grid": {
+          "h_exact": "1/4",
+          "vmin_exact": "6",
+          "vmax_exact": "8",
+          "nodes_prescribed": 9,
+          "nodes_completed": 9,
+          "full_weights": true
+        },
+        "raw_normal_grid_mass": {
+          "arb_display_only": "[0.96687385341821298870137918627957617394308203062997268007 +/- 5.63e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3034582771595735976074785191959478759452976662436005836967",
+            "exponent_of_two": -191
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1517291385797867988037392595979739379726488331218002918491",
+            "exponent_of_two": -190
+          }
+        },
+        "normal_mass_strictly_below_one": true,
+        "psi_completed_grid_lower_endpoint": {
+          "arb_display_only": "[-4.56790351242022712290026372416640641541686213350227846578e-64 +/- 4.40e-121]",
+          "lower_exact_dyadic": {
+            "mantissa": "-140612939453838980493429403446479382130361935793827",
+            "exponent_of_two": -377
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "-140612939453838980493429403446479382130361935793827",
+            "exponent_of_two": -377
+          }
+        },
+        "psi_completed_grid_upper_endpoint": {
+          "arb_display_only": "[1.52631826854095737801489968305149280323048805946529743522e-44 +/- 1.39e-101]",
+          "lower_exact_dyadic": {
+            "mantissa": "1068301036517043473078845337032002677558949762706629364209",
+            "exponent_of_two": -335
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1068301036517043473078845337032002677558949762706629364209",
+            "exponent_of_two": -335
+          }
+        },
+        "psi_upper_bounded_by_raw_normal_mass": true,
+        "coefficients_or_Gaussian_mass_renormalized": false,
+        "likelihood_scale_exact": "1",
+        "physical_u": "exp(v)",
+        "saturation_threshold": 128,
+        "saturation_is_interval_outer_enclosure": true,
+        "saturation_caps": {
+          "exp_upper_exact": "2^-184",
+          "t_exp_upper_exact": "2^-177",
+          "mathematical_lower_exact": "0",
+          "threshold_exact": "128",
+          "bounds_verified_with_Arb": true,
+          "Arb_ball_outward_rounding_retained": true,
+          "numeric_nonnegative_lower_endpoint_required": false
+        },
+        "backend": "loop",
+        "last_completed_v_index": 32,
+        "current_partial_inner_factors": 0,
+        "resources": {
+          "laplace_factors_evaluated": 153,
+          "saturated_factor_enclosures": 136,
+          "ordinary_exponential_calls": 17,
+          "inner_nodes": 17,
+          "outer_nodes_completed": 9,
+          "new_kernel_calls": 0,
+          "new_random_draws": 0,
+          "new_optimizer_updates": 0
+        },
+        "wall_seconds": 0.0002142000012099743,
+        "finite_sum_arithmetic_enclosed": true,
+        "analytic_discretization_tail_teacher_errors_added": false,
+        "true_F8_gradient_certified": false,
+        "true_F8_stationary_existence_certified": false
+      }
+    }
+  ],
+  "source_sha256": {
+    "script/certified_f8_gradient_compute.py": "6ae1f9ea8648fae41bbed029fa8e0c0ead079557ab998a9a61468a0f3424dda7",
+    "script/certified_f8_gradient_compute_test.py": "4e37472e2e82ed43361a4c4ded6192683297ecb5bd21503861889ccd12ba09aa"
+  },
+  "real_center_F8_evaluations": 0,
+  "scientific_NPZ_reads": 0,
+  "new_kernel_calls": 0,
+  "new_random_draws": 0,
+  "new_optimizer_updates": 0
+}

@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-02T09:15:08.770982+00:00",
+  "source_sha256": "229448d14ee90803fa404afb0d545a7eaeaac166c5cff95392ebac08e9b66c02",
+  "full_model_sha256": "0c246bbdf70b73b30db4cb2bf1db390630a392254302ccec5bbd05829c91dd92",
+  "stage": "Post-CAL exploratory diagnostic, before root reads new TRAIN risk results; outside original five-gate family",
+  "motivation": "CAL b(0)*rprime(0) versus 2*local coefficient suggested null raw-curvature sign change across n; inspect directly stored U_prime without changing training or selecting new inputs.",
+  "scope": "All four cases, U_prime not-a-knot derivative at zero and fixed symmetric differences h=.03,.06,.12; per-stream SE, no success gates/CI or method tuning.",
+  "new_random_samples": 0,
+  "new_model_integrals": 0,
+  "does_not_prove_global_minimum": true
+}

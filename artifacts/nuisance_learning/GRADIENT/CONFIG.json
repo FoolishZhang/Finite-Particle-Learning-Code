@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "K": 2,
+  "a": 1.0,
+  "rho": 0.75,
+  "theta": 0.0,
+  "streams": 8,
+  "banks_per_stream": 8192,
+  "ns": [
+    0,
+    14,
+    62,
+    254,
+    1022,
+    4094
+  ],
+  "outer_B": [
+    16,
+    64,
+    256,
+    1024,
+    4096
+  ],
+  "methods": [
+    "Price",
+    "raw_path",
+    "noise_CV"
+  ],
+  "Price_RB_bound": 0.125,
+  "bound_tolerance": 1e-12,
+  "GH_orders": [
+    64,
+    96,
+    128
+  ],
+  "GH_constant_span_gate": 1e-10,
+  "old_K4_inputs_reused_after_development": true,
+  "new_independent_banks": 0,
+  "new_labels": 0,
+  "RNG_calls": 0,
+  "fits": 0,
+  "locators": 0,
+  "statistical_CI": false,
+  "new_success_gates": false
+}

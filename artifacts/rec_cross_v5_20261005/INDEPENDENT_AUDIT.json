@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "case": "NULL",
+      "rep": 0,
+      "arm": "OUTER100x4",
+      "max_score_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 0,
+      "arm": "INNER400",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 8,
+      "arm": "OUTER100x4",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 8,
+      "arm": "INNER400",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 16,
+      "arm": "OUTER100x4",
+      "max_score_error": 2.220446049250313e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 16,
+      "arm": "INNER400",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 24,
+      "arm": "OUTER100x4",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "NULL",
+      "rep": 24,
+      "arm": "INNER400",
+      "max_score_error": 2.220446049250313e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 0,
+      "arm": "OUTER100x4",
+      "max_score_error": 2.220446049250313e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 0,
+      "arm": "INNER400",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 8,
+      "arm": "OUTER100x4",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 8,
+      "arm": "INNER400",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 16,
+      "arm": "OUTER100x4",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 16,
+      "arm": "INNER400",
+      "max_score_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 24,
+      "arm": "OUTER100x4",
+      "max_score_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "MIXED",
+      "rep": 24,
+      "arm": "INNER400",
+      "max_score_error": 1.7763568394002505e-15
+    }
+  ],
+  "scores_checked": 1024,
+  "max_error": 2.220446049250313e-15,
+  "replayed_vectors": 6400,
+  "replayed_Gaussian": 25600,
+  "new_independent_units": 0,
+  "seconds": 0.10377510008402169,
+  "source_sha256": "34971b152a2f69ef6ae240d510148c4cebe750c93473727427af72a04d80a7fa",
+  "result_sha256": "021e6590b310781895a32d1ea52129cddd449c93c05ed0b9eda51f1bc5a5500e"
+}

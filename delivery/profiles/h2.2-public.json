@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "engine": "paper_delivery_v1",
+  "mode": "authoring",
+  "release": {
+    "version": "humanlike-h2.2",
+    "date": "2026-10-13",
+    "identity_header": "% Humanlike h2.2 authoring snapshot, 2026-10-13; not submitted.",
+    "pdf_prefix": "finite_particle_h2_2",
+    "english_notice": "Format preview using ICML 2026 style. Submission candidate; not submitted."
+  },
+  "source": {
+    "document": "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h2_2_20261013",
+    "source_prefixes": [
+      "BODY",
+      "RELATED_WORK",
+      "IMPACT",
+      "APPENDIX_GUIDE",
+      "APPENDIX_THEORY",
+      "APPENDIX_POSITIONING",
+      "APPENDIX_FINITE",
+      "APPENDIX_PROBABILITY",
+      "APPENDIX_ARITHMETIC",
+      "APPENDIX_ROBUSTNESS",
+      "APPENDIX_STATIONARITY",
+      "APPENDIX_SELECTION",
+      "APPENDIX_MECHANISM"
+    ],
+    "appendices": [
+      "THEORY",
+      "POSITIONING",
+      "FINITE",
+      "PROBABILITY",
+      "ARITHMETIC",
+      "ROBUSTNESS",
+      "STATIONARITY",
+      "SELECTION",
+      "MECHANISM"
+    ],
+    "appendix_order": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "preserved_manifests": []
+  },
+  "contract": {
+    "numbered_equations": 259,
+    "main_equations": 15,
+    "citation_count": 25,
+    "bibliography_count": 39,
+    "figure_count": 4,
+    "semantic_targets": [
+      "dense-model",
+      "full-derivatives",
+      "laplace-representation",
+      "proof-theorem-3",
+      "local-persistence",
+      "same-root-angle",
+      "fixed-k-correction",
+      "fixed-k-proposition",
+      "finite-direction-corollary",
+      "quantitative-persistence-corollary",
+      "quantitative-teacher-family",
+      "finite-evidence-summary",
+      "full-local-statement",
+      "teacher-family-full-statement",
+      "full-hessian-criterion"
+    ],
+    "navigation_rules": {
+      "dense-model": {
+        "section": "I.1."
+      },
+      "full-derivatives": {
+        "section": "I.2."
+      },
+      "laplace-representation": {
+        "section": "I.3."
+      },
+      "proof-theorem-3": {
+        "section": "I.8."
+      },
+      "local-persistence": {
+        "section": "I.9."
+      },
+      "same-root-angle": {
+        "section": "I.10."
+      },
+      "fixed-k-correction": {
+        "section": "C.7."
+      },
+      "fixed-k-proposition": {
+        "kind": "proposition"
+      },
+      "finite-direction-corollary": {
+        "kind": "corollary"
+      },
+      "quantitative-persistence-corollary": {
+        "kind": "corollary"
+      },
+      "quantitative-teacher-family": {
+        "section": "I.11."
+      },
+      "finite-evidence-summary": {
+        "section": "C.15."
+      },
+      "full-local-statement": {
+        "kind": "theorem"
+      },
+      "teacher-family-full-statement": {
+        "kind": "corollary"
+      },
+      "full-hessian-criterion": {
+        "kind": "proposition"
+      }
+    }
+  },
+  "render": {
+    "dpi": 130
+  },
+  "notes": "Public rebuild of unchanged h2.2 inputs. No private historical delivery pins; verify the public release manifest first. Typesetting is separate from scientific verification."
+}

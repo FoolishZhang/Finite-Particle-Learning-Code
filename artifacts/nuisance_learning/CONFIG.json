@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "a": 1.0,
+  "theta": 0.0,
+  "R": 0.75,
+  "rho_grid": [
+    -0.75,
+    -0.6,
+    -0.45,
+    -0.3,
+    -0.15,
+    0.0,
+    0.15,
+    0.3,
+    0.45,
+    0.6,
+    0.75
+  ],
+  "grid_integer_coordinates": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "streams": 16,
+  "n_values": [
+    0,
+    254
+  ],
+  "Ks": [
+    2,
+    4
+  ],
+  "Ns": [
+    64,
+    256,
+    1024
+  ],
+  "Bs": [
+    32,
+    512,
+    8192
+  ],
+  "seed": 2037100101,
+  "roles": {
+    "labels": 0,
+    "prior": 1
+  },
+  "bank_chunk": 128,
+  "near_tie_diagnostic_tolerance": 1e-12,
+  "selection_tie_rule": "lowest index among exactly equal computed minima; near ties do not alter selection",
+  "primary": {
+    "n": 254,
+    "N": 1024,
+    "B": 8192,
+    "K": 4,
+    "integer_event": "raw_grid_coordinate^2 - RB_grid_coordinate^2 >= 4",
+    "guaranteed_true_KL_gain_exceeds": 0.001,
+    "null_success_probability": [
+      1,
+      2
+    ],
+    "alpha": [
+      1,
+      20
+    ]
+  },
+  "endpoint_CP": {
+    "Ks": [
+      2,
+      4
+    ],
+    "n": 254,
+    "N": 1024,
+    "B": 8192,
+    "family_alpha": [
+      1,
+      20
+    ],
+    "individual_alpha": [
+      1,
+      40
+    ],
+    "dyadic_bits": 40
+  },
+  "concentration_illustration_delta": 0.05,
+  "new_reference_integrals": 0,
+  "continuous_optimizations": 0
+}

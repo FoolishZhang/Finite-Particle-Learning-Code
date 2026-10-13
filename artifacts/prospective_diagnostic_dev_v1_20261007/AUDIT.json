@@ -1,0 +1,1075 @@
+{
+  "schema": "prospective_dev_audit_v1",
+  "passed": true,
+  "assertions": 107800,
+  "compared_array_elements": 15695626,
+  "failures": [],
+  "maxima": {
+    "labels_from_saved_Z_uniform": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:labels_from_saved_Z_uniform"
+    },
+    "label_counts": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:label_counts"
+    },
+    "frequency": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:frequency"
+    },
+    "sign_init_marginals": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:sign_init_marginals"
+    },
+    "sign_init_covariance": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:sign_init_covariance"
+    },
+    "sign_init_correlation": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:sign_init_correlation"
+    },
+    "sign_init_eigenvalues": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:sign_init_eigenvalues"
+    },
+    "chosen_signs": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:chosen_signs"
+    },
+    "bit_XOR_permutation": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:bit_XOR_permutation"
+    },
+    "recoded_target": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:recoded_target"
+    },
+    "original_target": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:original_target"
+    },
+    "initial_theta_recoded": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:initial_theta_recoded"
+    },
+    "original_bias_map": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:original_bias_map"
+    },
+    "signed_loading_map": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:signed_loading_map"
+    },
+    "signed_theta": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:signed_theta"
+    },
+    "weighted_loss": {
+      "error": 3.552713678800501e-15,
+      "context": "D3_N4096_r0:diagnostic_raw_finite_extraC:weighted_loss"
+    },
+    "weighted_gradient": {
+      "error": 2.931682674400804e-16,
+      "context": "D2_N1024_r0:anchor_kernel:weighted_gradient"
+    },
+    "weighted_d_mass": {
+      "error": 1.5543122344752192e-15,
+      "context": "D1_N4096_r0:diagnostic_raw_finite_extraC:weighted_d_mass"
+    },
+    "normal_mass": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:anchor_kernel:normal_mass"
+    },
+    "raw_bank_mass": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:anchor_kernel:raw_bank_mass"
+    },
+    "Hba_label_decomposition": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:anchor_kernel:Hba_label_decomposition"
+    },
+    "rebuilt_H_ba": {
+      "error": 4.163336342344337e-16,
+      "context": "D3_N1024_r0:anchor_kernel:rebuilt_H_ba"
+    },
+    "rebuilt_Hperp": {
+      "error": 7.494005416219807e-16,
+      "context": "D1_N1024_r1:anchor_kernel:rebuilt_Hperp"
+    },
+    "rebuilt_Hangle": {
+      "error": 2.688821387764051e-17,
+      "context": "D1_N4096_r1:diagnostic_raw_finite_extraC:rebuilt_Hangle"
+    },
+    "rebuilt_directWard": {
+      "error": 2.723515857283587e-16,
+      "context": "D3_N1024_r1:diagnostic_raw_reference_onlyC:rebuilt_directWard"
+    },
+    "rebuilt_ward_residual": {
+      "error": 2.7929047963226594e-16,
+      "context": "D3_N1024_r1:diagnostic_raw_reference_onlyC:rebuilt_ward_residual"
+    },
+    "Ward_max": {
+      "error": 2.7929047963226594e-16,
+      "context": "D3_N1024_r1:diagnostic_raw_reference_onlyC:Ward_max"
+    },
+    "solver_call_theta": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:solver_call_theta"
+    },
+    "solver_call_loss": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:solver_call_loss"
+    },
+    "solver_call_gradient": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:solver_call_gradient"
+    },
+    "solver_call_H": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:solver_call_H"
+    },
+    "Newton_mu": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_mu"
+    },
+    "Newton_raw_direction": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_raw_direction"
+    },
+    "Newton_capped_direction": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_capped_direction"
+    },
+    "Newton_initial_alpha": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_initial_alpha"
+    },
+    "Newton_sym_H": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_sym_H"
+    },
+    "Newton_trial_theta": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_trial_theta"
+    },
+    "Newton_call_trial": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Newton_call_trial"
+    },
+    "Armijo_rhs": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:Armijo_rhs"
+    },
+    "C_from_O_LAST": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:C_from_O_LAST"
+    },
+    "completed_LAST": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:completed_LAST"
+    },
+    "last_accepted_anchor": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:last_accepted_anchor"
+    },
+    "same_raw_xi": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:same_raw_xi"
+    },
+    "centered_xi": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:centered_xi"
+    },
+    "stable_centered_norm_relative": {
+      "error": 2.220446049250313e-16,
+      "context": "D1_N4096_r0:stable_centered_norm_relative"
+    },
+    "neutral_direction": {
+      "error": 1.1102230246251565e-16,
+      "context": "D1_N1024_r0:neutral_direction"
+    },
+    "neutral_direction_centering": {
+      "error": 4.440892098500626e-16,
+      "context": "D1_N1024_r0:neutral_direction_centering"
+    },
+    "neutral_direction_norm": {
+      "error": 1.1102230246251565e-16,
+      "context": "D1_N4096_r0:neutral_direction_norm"
+    },
+    "signed_neutral_kick": {
+      "error": 1.3877787807814457e-17,
+      "context": "D1_N1024_r0:signed_neutral_kick"
+    },
+    "kick_bias_unchanged": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:kick_bias_unchanged"
+    },
+    "kick_row_norms": {
+      "error": 1.1102230246251565e-16,
+      "context": "D1_N1024_r1:kick_row_norms"
+    },
+    "diagnosis_same_anchor": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:diagnosis_same_anchor"
+    },
+    "diagnostic_q": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:diagnostic_q"
+    },
+    "fixed_Helmert": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:projected_reference_onlyC:fixed_Helmert"
+    },
+    "transverse_orthonormal": {
+      "error": 2.220446049250313e-16,
+      "context": "D1_N4096_r0:projected_reference_onlyC:transverse_orthonormal"
+    },
+    "transverse_complement": {
+      "error": 1.6653345369377348e-16,
+      "context": "D1_N4096_r0:projected_reference_onlyC:transverse_complement"
+    },
+    "projected_H_ba": {
+      "error": 3.608224830031759e-16,
+      "context": "D2_N1024_r1:projected_reference_onlyD:projected_H_ba"
+    },
+    "eigenvalues_H_ba": {
+      "error": 4.996003610813204e-16,
+      "context": "D3_N4096_r0:projected_finite_extraD:eigenvalues_H_ba"
+    },
+    "eigenbasis_orthonormal_H_ba": {
+      "error": 4.107825191113079e-15,
+      "context": "D2_N4096_r1:projected_reference_onlyC:eigenbasis_orthonormal_H_ba"
+    },
+    "eigendecomposition_H_ba": {
+      "error": 8.049116928532385e-16,
+      "context": "D3_N1024_r1:projected_finite_extraC:eigendecomposition_H_ba"
+    },
+    "projected_Hangle_projected": {
+      "error": 3.122502256758253e-17,
+      "context": "D1_N4096_r1:projected_finite_extraC:projected_Hangle_projected"
+    },
+    "eigenvalues_Hangle_projected": {
+      "error": 3.469446951953614e-17,
+      "context": "D1_N1024_r0:projected_finite_extraC:eigenvalues_Hangle_projected"
+    },
+    "eigenbasis_orthonormal_Hangle_projected": {
+      "error": 2.220446049250313e-15,
+      "context": "D3_N4096_r1:projected_reference_onlyD:eigenbasis_orthonormal_Hangle_projected"
+    },
+    "eigendecomposition_Hangle_projected": {
+      "error": 4.163336342344337e-17,
+      "context": "D1_N4096_r1:projected_finite_extraD:eigendecomposition_Hangle_projected"
+    },
+    "projected_Hperp_projected": {
+      "error": 3.4998046127832083e-16,
+      "context": "D3_N1024_r0:projected_finite_extraC:projected_Hperp_projected"
+    },
+    "eigenvalues_Hperp_projected": {
+      "error": 2.498001805406602e-16,
+      "context": "D3_N1024_r0:projected_finite_extraC:eigenvalues_Hperp_projected"
+    },
+    "eigenbasis_orthonormal_Hperp_projected": {
+      "error": 2.1094237467877974e-15,
+      "context": "D1_N4096_r1:projected_finite_extraC:eigenbasis_orthonormal_Hperp_projected"
+    },
+    "eigendecomposition_Hperp_projected": {
+      "error": 3.421742056364252e-16,
+      "context": "D3_N1024_r0:projected_finite_extraC:eigendecomposition_Hperp_projected"
+    },
+    "saved_minimum_eigenvector": {
+      "error": 1.3444106938820255e-17,
+      "context": "D1_N1024_r0:saved_minimum_eigenvector"
+    },
+    "reference_direction": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:reference_direction"
+    },
+    "threshold_low": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:threshold_low"
+    },
+    "threshold_reference": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:threshold_reference"
+    },
+    "threshold_high": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:threshold_high"
+    },
+    "diagnostic_cost_partition": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:diagnostic_cost_partition"
+    },
+    "shared_initial": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:shared_initial"
+    },
+    "trace_initial": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:trace_initial"
+    },
+    "Adam_theta_before_evaluation": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:Adam_theta_before_evaluation"
+    },
+    "Adam_adam_first_after_update": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:Adam_adam_first_after_update"
+    },
+    "Adam_adam_second_after_update": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:Adam_adam_second_after_update"
+    },
+    "Adam_proposal": {
+      "error": 2.220446049250313e-16,
+      "context": "D3_N1024_r0:HIGH:Adam_proposal"
+    },
+    "Adam_projected_state": {
+      "error": 2.220446049250313e-16,
+      "context": "D3_N1024_r0:HIGH:Adam_projected_state"
+    },
+    "learning_rate": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:learning_rate"
+    },
+    "finite_LAST": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:finite_LAST"
+    },
+    "packed_endpoint": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:packed_endpoint"
+    },
+    "last_checkpoint": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:last_checkpoint"
+    },
+    "checkpoint_snapshot": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:LOW:checkpoint_snapshot"
+    },
+    "independent_MC_loss": {
+      "error": 1.7763568394002505e-15,
+      "context": "D2_N1024_r0:HIGH:independent_MC_loss"
+    },
+    "independent_MC_gradient": {
+      "error": 2.1640675362810669e-16,
+      "context": "D2_N4096_r1:HIGH:independent_MC_gradient"
+    },
+    "reference_shared_start": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:REF:reference_shared_start"
+    },
+    "reference_last_accepted": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:REF:reference_last_accepted"
+    },
+    "reference_packed_endpoint": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:REF:reference_packed_endpoint"
+    },
+    "raw_KL_LOW": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:raw_KL_LOW"
+    },
+    "empirical_NLL_LOW": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:empirical_NLL_LOW"
+    },
+    "mass_error_LOW": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:mass_error_LOW"
+    },
+    "PMF_disagreement_LOW": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:PMF_disagreement_LOW"
+    },
+    "raw_KL_HIGH": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:raw_KL_HIGH"
+    },
+    "empirical_NLL_HIGH": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:empirical_NLL_HIGH"
+    },
+    "mass_error_HIGH": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:mass_error_HIGH"
+    },
+    "PMF_disagreement_HIGH": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:PMF_disagreement_HIGH"
+    },
+    "raw_KL_REF": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:raw_KL_REF"
+    },
+    "empirical_NLL_REF": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:empirical_NLL_REF"
+    },
+    "mass_error_REF": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:mass_error_REF"
+    },
+    "PMF_disagreement_REF": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:PMF_disagreement_REF"
+    },
+    "direct_paired_gain": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:direct_paired_gain"
+    },
+    "paired_KL_identity": {
+      "error": 1.3877787807814457e-17,
+      "context": "D2_N1024_r0:paired_KL_identity"
+    },
+    "policy_FULL_risk": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:policy_FULL_risk"
+    },
+    "policy_B_risk": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:policy_B_risk"
+    },
+    "risk_identity_FULL_low": {
+      "error": 4.336808689942018e-18,
+      "context": "D3_N4096_r1:risk_identity_FULL_low"
+    },
+    "risk_identity_FULL_high": {
+      "error": 8.673617379884035e-18,
+      "context": "D1_N4096_r1:risk_identity_FULL_high"
+    },
+    "risk_identity_increment": {
+      "error": 3.0357660829594124e-18,
+      "context": "D3_N1024_r0:risk_identity_increment"
+    },
+    "FULL_policy_cost": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:FULL_policy_cost"
+    },
+    "B_policy_cost": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:B_policy_cost"
+    },
+    "FULL_cost_identity": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:FULL_cost_identity"
+    },
+    "B_cost_identity": {
+      "error": 0.0,
+      "context": "D1_N1024_r0:B_cost_identity"
+    }
+  },
+  "source_sha256": "94e4d4cccad2c215562e96ed10f65923a28bbf46b4280cc3213b7429cb0ed4ad",
+  "analyze_source_sha256": "62b982adaaeaeb7079681a7d6ba4c25a69077c88a93e7642b1e2cc24dc711375",
+  "driver_sha256": "51658967ad6d229f0448e8fd86d00da63fbe3d36085594803d32243b237ac622",
+  "freeze_sha256": "f3d6db88bd0c09dc492450f96a9cb965a50cb6ec7d31b2123d1902e194f90f77",
+  "evaluation_lock_sha256": "8cffef3b0340e7518a4487cdcce92206387297d5007caf291fc6855282790ed2",
+  "input_hashes": {
+    "artifacts/prospective_diagnostic_dev_v1_20261007/FREEZE.json": "f3d6db88bd0c09dc492450f96a9cb965a50cb6ec7d31b2123d1902e194f90f77",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/CONFIG.json": "399a358cc0073de5aa09a55be7bc012372ec6cffadc6e56bdd3b3913d9d603f5",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/teacher_D1.json": "6e28fe23c00eeb00e5f2c3358b06206ad841556012027db3a2f8ff1ec38fe755",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/teacher_D1.npz": "4dd9b9231d38c1a873eccb9d2573e74603d33402802e1b948df8c7049664cb9c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/teacher_D2.json": "f35343144ac10b3c8cb160837d58bec34b5cb91c7a76212d9670ff4404b17271",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/teacher_D2.npz": "e5ff80514f69746ceccc3f478a7790d6a5940400e6b4902b25a0e2acfd026e78",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/teacher_D3.json": "016e74f7e133ee00211dc6c7895e05d52ca125bd57f3377ffb1ceb93af2bf163",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/teacher_D3.npz": "bc47969d9eee62b3b933061cbdc6ff9eac1ae7534396b45db5ebab17b47b5de7",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/risk.json": "46962c0d9e7a1da958946c42bbc260c6fd733e921e023bba0527e3ae438fabe7",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/risk.npz": "13fb75628097903ecdfa441ca6823b7c1da0c2fb199fb9b660811bb579c251e0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/risk.json": "5b782aeed154be48a2ec4d48c4b932d20fc79fa19c9de5c6dd86c6b070202113",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/risk.npz": "29d26e035fa29c4232f4749a5f8ad00b57d0a7317b711d475219e254597d5b71",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/risk.json": "aadf356c02fabe919aff158278cce9b9e49a45b9dcefb916b124e5a01ddf2c97",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/risk.npz": "5578df8345b9e02a14f79b44369abde6a220d7efb88e989916bc178fdfe3df77",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/risk.json": "d64eecfb9827c5f214cf7ef1048765db936d35dfdeddd7b9d4647458b1e463df",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/risk.npz": "ed669e5eb4af7c4e77e2516c64f7746d0f79d88a4bed101577103680e1e0eaad",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/risk.json": "054facd7e0b74f19faab958d5189d65636ff90df1bd9538ce15a3a4b919477df",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/risk.npz": "9f7cecdeab58b504196db3b67a6a57a42ff477c57df1d1cb117db59262fccbca",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/risk.json": "95bb9e114ddda11147af25d8c40dc624b2e1beac48dec10e366e01625efee731",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/risk.npz": "c32a53501dbec6ba5c7320ffe7916337c68c0075064e67c1878f911e8db5e1b5",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/risk.json": "608a98633781d7bc312ac1a85ea2a9b3eeb5f9548079a335c06c7eaac330d585",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/risk.npz": "d8939c07580b1d22b2f3b0feb0331cf3d6922f98439dd3edcfefb3430d491a63",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/risk.json": "14773effb38181a8a69e1a3f11dadbd27a0bf1fcd139d241160613e60f004060",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/risk.npz": "3813a2da711fe067cd9c77e3183ecfc1f1dc36201ff84e1174da3ac3d2ac33a3",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/risk.json": "9959f2a10c32c1005316b19d7e2ce198001e70cf9496da16b7284c777caf720c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/risk.npz": "cb50f830142c6cc4ccd0c610fbd469ba035fc105f41938943904e76052504f13",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/risk.json": "35ade4b933f603ae0f7c0a0b783130f3ce7d384993d1f59a5e4c8b00ef849428",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/risk.npz": "6757e06d48268179c3fd4d7616c37f3b0ea74d85039cde16a308b1b48257f421",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/risk.json": "82e033a444bca9b76f29228d52018fd3f24de55a9fd5bcb0c10c7ad2af1d70d7",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/risk.npz": "0eef4f3333f65215d85478cdbbc427918c5581a2ea496b1b370c202873af8873",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/risk.json": "151edc986f93637ccfc2fe40892727de714e1c707132dcbe609ba5b9fee385e0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/risk.npz": "4662b3629bba79d9fa9497c0562fd0bae8cc47ccdb75accf8b3723d516286ffe",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/EVALUATION_LOCK.json": "8cffef3b0340e7518a4487cdcce92206387297d5007caf291fc6855282790ed2",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/inputs.json": "dd94b3d51eaccda0d681e891fc682766ef0a9ec0c35707656f963d56f7e7aece",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/inputs.npz": "accc4b86fdaf2254827f5611c3a2b350ad8f572e8e65cdef8c2257e2b7882a64",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/inputs.json": "891e2d3ee675b6196117b4262ea32c89d966577eef192cd595a16d71ba2e33a6",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/inputs.npz": "741bb35cbf79fdf8839945f21cb67ca083ff187639bacf77a67c1f0c417a7fa0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/inputs.json": "0f0af99b69b4f123d275ca47fd3547d8287f2c65e6286668567585ac48c50ed8",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/inputs.npz": "a8c248000e14ddd26ffd2d16b72ad185ff818a288abcc1f82e646cfe9f4aa218",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/inputs.json": "9b1746129e539ba96426eece3b09a5cb6ab448aac88f64d68d4a24c25718e2f4",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/inputs.npz": "1a581c1f652beaa83d9aa69770b5c0c9ec1a14b81b8c132d0deef63b4a900e5c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/inputs.json": "8e06225dd7d9eaf76c4489c2db0589c3b8aed2046422ee3c9793dbd691a38671",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/inputs.npz": "9c874fd18bdf04806e315d7e544f4448c999d870dbc0a44a9d7200cb2f9ffe16",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/inputs.json": "f33935476845849ca3864a1b5958ca2364f0161899c00c1c954d6c6354f35986",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/inputs.npz": "c15135e230f0aabfff98d94eba3be566bfcf768b546589fe3558f8bf42182757",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/inputs.json": "e1bbd28e0559dac4e90124dfcae9b8e4cbff720b755607f949a029bbae58b584",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/inputs.npz": "9155a33574e04404261432b8531aa46f9c49f5f9a00ed6f29f1e95418624d1a9",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/inputs.json": "2eaebf72ea73acac501ebe722686181d65dc092cf0ee528359231710e4f7045b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/inputs.npz": "890ea29c596e0604a82ced689b5ca430a48b83662aebdfad1ee2e13baf71c1f3",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/inputs.json": "10f149c8809290bce5ea3ad48c838fe5b627629d958f8536338aea3f3f5839f3",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/inputs.npz": "996a77ec6d2f84a0208986e0f7becb137cb45e772dac7b23448a17ba97a66099",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/inputs.json": "c027144913296ead2af7a8591c59a9ee8f226d6c30c42d93e34ff161ba397ece",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/inputs.npz": "7dc735635f0f0a7fd2b7a943771bc8d369764965e5b7231bc86bfe3eb3010e7d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/inputs.json": "8a28e80ea83552b9e111866308b636c46187d38d458038eecfe4444f7ca21eef",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/inputs.npz": "8e95440c8c2e7d9262725367d2941cdba844ad86ba61cdacd73a376f0bd77d03",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/inputs.json": "5ab2730175cee6935245886c9e0517fd45043c8c42ef8626dd5b35b538985123",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/inputs.npz": "a6e878027d68e6cbb47133d4903aed84781959cab077b2f10e9b77ae60d060a9",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/INPUTS_LOCK.json": "1243682faa693cc838b686b8c26a52b187c88a237a951d554d1c6171fb85245d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/anchor.json": "a0f2d6dd70f6aa64f10d901d86cbd2fe9337cf31b18e0afb33649d78009f8b7a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/anchor.npz": "89a1bb9f234c8284755138995c3fa62893926c6396b9825512ced60c06be0d90",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/diagnosis.json": "3f43a5ba356dd177a1dc3422ede01f663a8f4e7dc497b65c1d7edb6378b0bad3",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/diagnosis.npz": "92abd3d7a70d26c5b032e6be9a05db8d331679c6c2a6be634e3281cb66ef9d7a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/start.json": "fccb74bb2d6f1741893ab694409a41f9a0215b129fb3843c5432a2c7e0e2b113",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/start.npz": "4a13b9dce31a55ee1e284a2a4f9d18fd9623855c5c363f32fe33252742b32a13",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/anchor.json": "9c6c4a25bf1f2f523fc9eac444fcc18bdf0778216846b1c7845ed212566cabe0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/anchor.npz": "c9a404a31c6810276b9683bc3ae4d36e6904b8f52982436e7a1ce7cae42656c3",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/diagnosis.json": "ff5ba1fab8b855cefad981f7ba6cac5d5794f891ba597b85d31a513470244fc6",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/diagnosis.npz": "bdf63cbe2923b79453c63475ea752b4cefa8e79ff19a2dd31a1584e99ded7a55",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/start.json": "54dabe90d74cfe7fa64505c62b367cee5f34a6c7b050f3e67417b9d122815525",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/start.npz": "179cff855389695f9e14eee365f3e803365696dfa285bd75c722dfb2016ec34a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/anchor.json": "0188488ce565e7b0f09b04afd421798af3607447a4f265b1544150cbf8e5267c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/anchor.npz": "a19d7bbac0a4d9ca5b668f521f96129a0ea9cfcf231e5b3d8e4358af2f64b4fa",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/diagnosis.json": "3982555cc3b8551e0b742b55df4742c2ef17c9adaa6fb96349b295bc500a6073",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/diagnosis.npz": "37f33fdb15034dd16153148836120e1f338560f5df74c95792d4ef628110ae7f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/start.json": "2feeadebb2255988f4731751f6372d55eeeeea7be0dc60d65fe2ace3ed37af64",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/start.npz": "ba16c85ff4cb8f1fa673e94283624b6456bfd6c9245133403be6d359c5bc37cd",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/anchor.json": "b75909d76af3f6a302c166bdc1307be37a2371997839ee9544e9e1030983b914",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/anchor.npz": "2221ebdaf63b949b5aeffc9c413e0a754d4a344e9663c68c645456234ef6b15b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/diagnosis.json": "33fc8d5f40b7cd2965f2bbca1592bab1c7e0968e5ef40cc20ff027d920eaa26b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/diagnosis.npz": "fb0b41383b4a0a1550b35b98acf81ef3769432afc0c5f4135dec59c986467a68",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/start.json": "f6904c9472644de507bf087f90f8c172f65d4b03c0b11358924368fe66e5729d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/start.npz": "d287a4b9320a48e9e1f35139336e82b823d345d27780373290337dab01352046",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/anchor.json": "3093397335eb0eabda3a40498161ebd9c18ccb432fec38f0107924ad6ea5a86b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/anchor.npz": "bf8f68cb4f7632bb51492b88441bed3a55cae1889ea3b1b4a0e81bfde8cb3524",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/diagnosis.json": "46e4424f5bc571e4e453b036e1277ce348fdd1501026440b5037f0ad0440818f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/diagnosis.npz": "1f4a00143bcf62ac7c4822d545c66ebdbb4d4e9e2aee3a80a0ae28f20265accc",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/start.json": "5c57b0bf500b56c989e96091223089b4625396e4a75a69e53c88f070509dca7a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/start.npz": "b0ed7c535d891262e68c7301775bf125489bededc5a74222572138ee436a660a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/anchor.json": "3cbcaa7c8ebafbecba2a3aef1f24f278b97cb8fea4c05b58a878a2ead7eb79de",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/anchor.npz": "02cad714dc095aeae41d3949d947d5f7a171908d2f08061daef416347d606f9d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/diagnosis.json": "201d814d1024950285659da1842bd54abd7459a6d98fd8d0416dbac1cf7001ff",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/diagnosis.npz": "d7977cd2a1706114186afed0429ba0c9e153ec77dbe72428aa2d539501dca813",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/start.json": "0f4023e3b83b798f5c5a724057d88e5f1226ec658bbc7e19490ff780a5f05a7e",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/start.npz": "944bcfe57b397c229f2068cc667139eb8cb3a9f1e694dae84ebcbd9f768412ac",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/anchor.json": "7b60ea860faaadb40b43de9dc8e37b8d9107b7fcb6c4ad7b69d9039536f6a3c3",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/anchor.npz": "a82bca35b24b9c402161583e6a2bec9d7182bd07d6df36b0bc3673e124e16e4e",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/diagnosis.json": "21a60390b514867fcbb4488d4531e2398a180add3a6afe7dee298f816826ed8a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/diagnosis.npz": "0b9907b9888c240d36927728cdb365af3f25feb5009b50c375d2f6ff97279939",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/start.json": "f6a2484745645fa9f5c197494ef23765099d09cadfbde64101e1935ae6103331",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/start.npz": "448a9a26bc421590261f97e351c5c369c5673576097932e956214694b9852619",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/anchor.json": "acf12b477bc27c634d59af1856d6b14d680e5629b9144ed2177568324b390bc7",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/anchor.npz": "df96fbb8c4bde684de59194f6eab748250c3d287fcb828d9b74e15357c303a5a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/diagnosis.json": "f73efdacc3ebf25c8546704267b321565a49a3088e923566b1e110188762e57e",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/diagnosis.npz": "631a1eaee80b9554def08744a10053167a52947b3515e025fe915af8abdcf8ab",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/start.json": "963776bde1aaa19c8395364f4c500741cda6a62938c80cc16bb6bcf7e555bab1",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/start.npz": "2dfe91c33e614fdfb3ec29411faa6072ae2e3f16931711dce8b9a0a2b3bdff78",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/anchor.json": "7b668df2c98f665638a86cfbecd4018f28ed9af7789232e05c92eb2be8c81f20",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/anchor.npz": "08b0d25da4c431b0922a7e8d75305c5f84526b18325a4d67f6a00fd5a3cc8bfa",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/diagnosis.json": "37685c04bb93b23be72db6d25399676c9730e224e685444ddf939750fb5e78c0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/diagnosis.npz": "0292599c87bdd3c1b013702b7725af44d15f502ad53d948ad2036aa5b992f77b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/start.json": "3e490cee8eb367227a2adb6dde14d1e944acf0f2f4edaf40832350329d0cb413",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/start.npz": "92aff5e10bbdb019ee8ca68b0bbdb4a8e47f420b5440bea68c693821ab82101a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/anchor.json": "761ad58803d576b812fef3a4f14f8253170ae911cadae12aac5d4646aee4d11c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/anchor.npz": "376bc59ca31979059e2385fc43dc5b7d2c3667cde7ad4a4881cca8137e7ed45c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/diagnosis.json": "24048efa5ac6dc26390014c0dd7859faa8e6560650e0e82be8609987e317be62",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/diagnosis.npz": "fc600b8aba43419d92ef76f83b3b20a2332306646ba73c1305c1a86f2011a7a0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/start.json": "5d7b42968f710aa8808ce1a3a7295a7a62adc38be0b978e52f899177f1df957e",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/start.npz": "de8e4aed78d20f10e087baa80d3fa601cd8127dea50aefcbdc2b792e64b44888",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/anchor.json": "efcf3ba2fdbf1b4b57d14df264c0aac20757c956fac1c1d2b6fe3be37d3deb84",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/anchor.npz": "fcd311e44cd005d9e61d792d6a82f8cae0883576a20c4a8269ef9df252274ddf",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/diagnosis.json": "f41df0d18dbcabb6cda7873f87c597b88b4b81f8f2e2c2bb165e2a85298a7185",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/diagnosis.npz": "6a1bfd1baf28dc5e7eeed6109457b7a8adf86603b8b71bda8579fd72cdd89074",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/start.json": "fed747092a1f9366a44ba0a801662101d0f7e6e065096cfdae0c68c384f3a589",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/start.npz": "69fcb9a147c29bba8ff1a3c110e3ae1921b72a9f03a720b41f3db2e3cc5c1f24",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/anchor.json": "941e11ab9b41321042391111a2aefa1d00f6ed23e379ca64f4e0779183dd01e4",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/anchor.npz": "764faad8ef7385e4a56d6b613c546b46a3a4c2fe5499735c1eefc0aa95be2ca2",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/diagnosis.json": "2ee424245165ebc37eed82309ac3461c085eaaedbb44caf9451002faded960cb",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/diagnosis.npz": "67baba9fc0fcef8e8d0639a87c5069deabb3446b7bbaa52f95b33d6ac65e9df1",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/start.json": "7a2180d626173b448df7fd805b6ca8ce59b9dab355cbbc50f90ab2c087839d15",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/start.npz": "94d7e389949b8b4056b67d872f57adf9365912b16e9fc1b8567effb79894abe8",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/DIAGNOSIS_LOCK.json": "7a76a2ff437ae7d2ca3413f41863ff93509aacd5e038e6c86a6973300c96b609",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/LOW.json": "24cdd977063a800e2fe47755693d4905ed7e7b146d5e2a81db2067190ae4992a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/LOW.npz": "9ec0a681dbe4086834301805eed07c4cc261fbd8c9c822ceb6705947ec46f584",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/HIGH.json": "ce5590962517149302fc97e89ba619eafba7cf43be02e60a74fdd7f49a544d99",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/HIGH.npz": "a00d1815e47ea34e6ee03fdadc463eff0c72e7f06bada48b95f70c4dc3017faa",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/REF.json": "46f9f270a1fe1e1e6c6f511af1bc1a9733c9d2b84f078a46d561b850b4e2e19f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/REF.npz": "d033ff5ffca215905e172bacddafd1c7dd804f334eb3a614579fac0a74c5b2cb",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/HIGH.json": "6bfc752ddb4f2703cb3ec8012d22eeb3625489d6dcf713f24e891e65e5af431a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/HIGH.npz": "e21d46e80d48a88bf996bc2984702ef5d4d97b7a3aed79d7dd9669163aa09cad",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/LOW.json": "ed84fa780740e30048ffc7b47cd162f607e12e56dd60a57396c65b232f2b7224",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/LOW.npz": "bfec1e5d1cebbb7cdb21e301e2df78f17a8669693d3ed93ba36d52ea0b774f5e",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/REF.json": "cec147b8cbc3bf8b0e1f6b7e91402f0f56f00952f9ba49374f35b9203d9715c7",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/REF.npz": "bd5854bafd536fdd88836115f922993825e5c3c7f4de641819d1f1b3d8be94df",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/LOW.json": "276cffa74933db2447e1cb086c9cbe2df44ac43627c948afeba595847a963d9f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/LOW.npz": "feaaa96e5d0eec8df49e082203b9e0cabf24fe32c93f071674ac415360cbb60f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/HIGH.json": "6969be37d08f8643dc33ac2bc96f3abb622e66ccd6680859605e2478458eee36",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/HIGH.npz": "3e303b5e092e8cb082c520931779a85a69e9134d47902b02cc6ab80c18ab951d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/REF.json": "ab9fa512ef811263c91551a70794aa27af1592486c1f55d32e6d799f57d8b63f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/REF.npz": "12b62465842669315ee7624a174c3be294cf9610f08b479e9784ad6afe08fafe",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/HIGH.json": "102ca696823970190f50e17977c66bbc4b84930aa00ec203cd5c499ed777be95",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/HIGH.npz": "1eec21564c4253e6aaef35003f02861fb7d3b76b55cdd2af980dfa31847d3d15",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/LOW.json": "393f7ec44a9dc69a42d0a4b261669063775aed265d2769e9397d649e88085c8c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/LOW.npz": "ed50f48d1a7803df0202e0c62cee9554ddb5ca85dda8fdd287d38857f2f255fd",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/REF.json": "aecc9aed5fa6eac571eed3d5fa584e5392066cde86bd7ecdc6edc05458eedb6b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/REF.npz": "d85f91d3f44e98b7f747551e91f827037d76d4215143193182792c2021d7875d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/LOW.json": "7740b8ff48598c6d9ab7dea859fdb766aac89969e4712a09cb051146618c5c14",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/LOW.npz": "e5faf25de65ee72ed4ed55ffffb81bd55f35bdab9524bf26a8a20598df64b86d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/HIGH.json": "6a957b2754f1d2486deae95c877ebd61e257b546ec68a8ab64e5f91ecfffa6d6",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/HIGH.npz": "a6cd06313d0123e1fb0fd1d25f48154b44ae0696c8786b8815b8943c58386fbf",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/REF.json": "961dc2a2e24c10086e98b24144f9c967234ffb106eef2d607ccdd9911aca13b6",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/REF.npz": "142862ca7f88157f6d979e8b2ff390501d082171ba2fabc6acaf67f3768f7353",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/HIGH.json": "f81caddf9bb98c92080a5b3fac4d55cb64c68c904ae4a8307ac8bad43e0f791a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/HIGH.npz": "de2d3933b6855941d7a2ec281904436b0490928ced0645d318c5299975768fd1",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/LOW.json": "ff91778fa03ff8002011f1ed3210a861c5f592e499de7aae0b6c79f6785dba87",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/LOW.npz": "ff70e0fcd9052cf8f2e4e9690defbfc475a210ee78fcb0138378276e45cba33a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/REF.json": "b21cd80da7957c508fc0016b6d61b2c7e52b53da534d4775f70da567312bad8c",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/REF.npz": "8f005897b61c188f4354075d7e08cadc927d6f49ed7dff22f76c1d4f54e4aaba",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/LOW.json": "3effb93e61aa3588e6e7e462fecadb5b85e4920139c1312d2610bc13255e4e26",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/LOW.npz": "dbc26f0b8c8edf1e800e54dd945c43668fcd4980b394cea6b75d2ab30248df75",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/HIGH.json": "000efde4369fa8909bcecaeb6055395693aa9c646ea99c75ce5b0452d623a4b6",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/HIGH.npz": "d96f9de4bd6d5a1f05ebaba15f23c8c31490d1b29f712ca4550a6b5cf60a72c2",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/REF.json": "f629475767d93e33bbd49874ab1c328707372bb99eb22bb3255fb956802b6019",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/REF.npz": "2c20dabd5e84a883f8e2919850c7f649f2893f02e380e090465247a463ffb831",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/HIGH.json": "274a20bed0efffbbdc5945b51431cd301daa52d4b1a046109bb4acf8108dd75f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/HIGH.npz": "8893a965c6c5d743727c91b9738b18dadfab5e8f56932732f95058de5ba7c5df",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/LOW.json": "dc9d5b6084707ed8fbd245c925f9ccfc23658ccd2d556a46cf7f444ea30c2c2a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/LOW.npz": "b5259a9e0b355e77e9522ad133b95f3f31fc375d673e3e1928d057c995b79768",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/REF.json": "e9a4dc28db5f0443bcf14fc7d882676cba4e38d0f1997707a97b7a392d6ab457",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/REF.npz": "36a4557abe59dca337ef0246d9137f958ef70823dcb20e8786a07259b1754545",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/LOW.json": "438a701e9204c54142e252a67f76599fd6fa5b915bc57cab83d96b413c4fbdc1",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/LOW.npz": "cca89caf394d04367b8f18c5f19d056ae52c9c7e81d8554b5169df124da427d0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/HIGH.json": "e9214e32792e1d0f307f3378400c07d15d3bd22ea33dd3008ed1ce4f49e43227",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/HIGH.npz": "22f678585c3656cc8113a58bed80413d9fd170249705d2f9372ceed4e6375f39",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/REF.json": "163066c9d1a25f8c992e3265f5ddc0384def293e6872cc3d879c76fa540cc031",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/REF.npz": "ef2cbd8b04c084b4226163d26db51eb4e24da545181416399e7ee43a51568ac7",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/HIGH.json": "344d84227da48ac1edebd642721f331ced75f24d61698419253cf7774aaf11ff",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/HIGH.npz": "bc82309287daef37913d58fdf31934eba1bcc4b0998863c9ffe5979e912545c0",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/LOW.json": "256a8c2f73ba0462dfd3b9e0a3a24c90546085596e536ecbe1a32729922cb371",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/LOW.npz": "0057aa6de83e4e29fd897c9c3ddb41adebd7a707e8937fd0b4f19a4a92eedfaa",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/REF.json": "efaa4a9f304cb7400dd728c3ba9f6840f0636bcfa6fca972def68a3f1ec0fc6d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/REF.npz": "42fa37d1941977b35f21f923a0b8afe22936e374bb3e69bf3f4a5ca498c879ca",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/LOW.json": "ecd3fc13dcf7c2e8c21bc146bfbbedd0fd5cc1e5fa751da80469bc54765d0e0b",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/LOW.npz": "fb0a72d2135d362f2b8929cfd7105f278f51a0128c43b796fab8a42952f9817e",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/HIGH.json": "76ed1d374d2d03ce4cb6059b3e9d118599b98141cccb6a07cedd7a07c63f58b4",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/HIGH.npz": "a0bef3edbbd15dbcdbf0253dece0a8eb3e24d8ef7784d61dc1f00c7968d3a903",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/REF.json": "c85cb581bf1d3250d1eafea15caedbd9e45627efb6bb9da76caff8306ab20956",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/REF.npz": "a4a3063cec025c9fa7db9700b3812e51b7bed8f0e7f18c8d89f5df63375c08e6",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/HIGH.json": "f223ad539073170b20069dc4255e69c9f652127131453ff32400117094901bfa",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/HIGH.npz": "26b1bab472a3c20eb8216c0c7d27b23bd016ac187080b8b10a7d9cce9c3c11cc",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/LOW.json": "3ea8f06f92c16b0bb064fad3db0c32fab386de7776d8e35c7adf9c8e7296edca",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/LOW.npz": "8c1da8eb55dfae38afad89c7a4511216c14a109d117c3d34ffe5fae49c7df595",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/REF.json": "663b341b67b9c7313ba613787c85506c6e6987ee62e2b09fed52a987203a7c6f",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/REF.npz": "aabff303824cae42d4bdf21eef92a865f1fd75341bbeadaa5b9bbab333ac876a",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/ENDPOINTS_LOCK.json": "cc0e6f160de704b6bbbcee6cb0c30244d9f3b52ca21071fcdd5cd8f437e5491d",
+    "artifacts/prospective_diagnostic_dev_v1_20261007/SUMMARY.json": "b52fc4928bcca1e0a35e388508e3eca02bf42436a79d10168743fae8c491195a"
+  },
+  "unit_receipts": [
+    {
+      "unit": "D1_N1024_r0",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D1_N1024_r1",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D1_N4096_r0",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D1_N4096_r1",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D2_N1024_r0",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D2_N1024_r1",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D2_N4096_r0",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D2_N4096_r1",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D3_N1024_r0",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D3_N1024_r1",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D3_N4096_r0",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    },
+    {
+      "unit": "D3_N4096_r1",
+      "finite_arms": {
+        "LOW": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 19200
+        },
+        "HIGH": {
+          "completed_updates": 600,
+          "saved_updates_replayed": 600,
+          "independently_recomputed_gradient_steps_zero_based": [
+            0,
+            400,
+            599
+          ],
+          "attempted_calls": 600,
+          "processed_prior_vectors": 153600
+        }
+      },
+      "all_recorded_anchor_calls_reweighted": true,
+      "independent_diagnostic_decision": true,
+      "risk_PMFS_reintegrated": false,
+      "reference_optimizer_rerun": false
+    }
+  ],
+  "unit_count": 12,
+  "analysis_summary_checked": true,
+  "scope": {
+    "saved_Z_uniform_labels_rebuilt": true,
+    "saved_sign_recoding_kicks_rebuilt": true,
+    "all_saved_Adam_updates_replayed": true,
+    "all_saved_anchor_call_aggregates_reweighted": true,
+    "independent_finite_gradient_steps_zero_based": [
+      0,
+      400,
+      599
+    ],
+    "all_training_gradients_independently_recomputed": false,
+    "all_integrals_independently_recomputed": false,
+    "RNG_streams_regenerated": false,
+    "original_in_memory_aliasing_before_persistence_directly_observable": false,
+    "saved_snapshot_arithmetic_consistency_checked": true,
+    "teacher_PMFS_recomputed": false,
+    "saved_eigenbasis_verified_not_reselected_when_degenerate": true,
+    "optimization_restarted": false,
+    "external_scientific_review": false
+  },
+  "created_utc": "2026-10-07T10:54:52.683468+00:00",
+  "audit_seconds": 4.777084699831903
+}

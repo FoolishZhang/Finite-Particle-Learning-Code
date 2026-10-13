@@ -1,0 +1,15 @@
+{
+  "baseline": "a97896f243d257537a862479fe1e2e46bcca8bbd",
+  "frozen_compute_unchanged": true,
+  "independent_internal_read_only_audit": true,
+  "domain_expert_review": false,
+  "conclusions": [
+    "maximum-norm Hessian and log-K moment bounds consistent",
+    "range, tail and empirical-Bernstein coefficients verified",
+    "all source and array hashes match",
+    "recorded means, variances, halfwidths reconstructed",
+    "population region gate false and joint primary success false"
+  ],
+  "recording_deviation": "Truncation mask not stored separately; reconstructed from saved active Gaussian input; zero truncated banks",
+  "new_scientific_draws_during_delivery": 0
+}

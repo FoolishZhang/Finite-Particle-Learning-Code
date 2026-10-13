@@ -1,0 +1,39 @@
+{
+  "dimensions": [
+    16,
+    64
+  ],
+  "Ntrain": [
+    64,
+    1024
+  ],
+  "Nval": [
+    128,
+    512
+  ],
+  "budgets": [
+    1,
+    4
+  ],
+  "repetitions": 32,
+  "interval_family": 8,
+  "alpha": 0.05,
+  "primary": {
+    "d": 64,
+    "Ntrain": 64,
+    "Nval": 512,
+    "b": 1,
+    "threshold": 0.001
+  },
+  "new_random_draws": 0,
+  "pools": 256,
+  "closed_form_parameter_fits": 1280,
+  "methods": [
+    "PRODUCT",
+    "JOINT_MI",
+    "TARGET_MI"
+  ],
+  "known_bipartition": true,
+  "developed_after_B": true,
+  "no_validation_labels_remaining_after_pool": true
+}

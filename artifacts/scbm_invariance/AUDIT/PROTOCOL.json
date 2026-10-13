@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-03T01:04:50.456122+00:00",
+  "inputs": {
+    "script/scbminv_audit.py": "c8d43d89850188bddfbe394336ebe654f576585e8827355431b685b6b5c9f392",
+    "docs/08_research_研究工作/真实联合评分接口与无关扩展_20261003/AUDIT_PLAN.md": "fadf9ee2e518efc02e3ec10cc80c6686f5bf767ba6274bb2caad36b4867ad4c6",
+    "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/models/losses.py": "6a42d6b5c386434604883db615b2ab127bc7b9ac7ac2395a26fcfeb5b552c7e5",
+    "script/scbminv_kernel.py": "c6712abbb4e05ef0c25c688a05dad106034c41888040592424f50362f04129ad",
+    "script/scbminv_run.py": "f29a73b642bfca2dbfdce739505456da41369bedded32297a24422fd6e8db076",
+    "script/scbminv_reference.py": "79c911d1601ae9740b0e045a5d879394cfd4a82aaa9e48f72070fc46b5098a41",
+    "artifacts/scbm_invariance/RUN/FREEZE.json": "e709017462e3ef1d31acc7f7df4e7bcd499d117b1a422750b858040ac17004cd",
+    "artifacts/scbm_invariance/RUN/RESULTS.json": "c4d2153196fb23dba77addf3f482bd57b4057116611ea84cdd8ca59d6af0724e",
+    "artifacts/scbm_invariance/REFERENCE/MODEL.json": "2b5d12858dd6d581f36ded2327fd2ce26f0bc69eed314360783479403b9c9975",
+    "docs/08_research_研究工作/真实联合评分接口与无关扩展_20261003/EXPERIMENT_DESIGN.md": "de082db3ba10456b4c01dc857a298d349b7fc0d419921b613705d2271436ebed",
+    "docs/08_research_研究工作/真实联合评分接口与无关扩展_20261003/SOURCE_CONTRACT.md": "433ae2c34adc16c245df70f13b78a42a3c372c9f08f81e900765afc0ddb9453a"
+  },
+  "tolerances": {
+    "api_score": 5e-05,
+    "api_gradient": 5e-06,
+    "math": 1e-10,
+    "arithmetic": 2e-11,
+    "diagnostic": 2e-06,
+    "direction": 5e-07
+  },
+  "selftest": {
+    "passed": true,
+    "FD_error": 8.924966321544048e-11,
+    "API_math_gradient_error": 4.8944832464759e-08,
+    "scientific_RNG": 0,
+    "model_integrals": 0
+  },
+  "prefix_rows": 64,
+  "Ks": [
+    100,
+    400
+  ],
+  "paddings": [
+    0,
+    64,
+    256
+  ],
+  "candidates": [
+    -0.75,
+    0.0,
+    0.75
+  ],
+  "new_model_integrals": 0,
+  "reference_audit_assigned_elsewhere": true,
+  "no_automatic_retry": true,
+  "torch_version": "2.5.1+cpu",
+  "numpy_version": "2.3.5"
+}

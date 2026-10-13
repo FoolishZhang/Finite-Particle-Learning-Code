@@ -1,0 +1,11 @@
+{
+  "reason": "The new deterministic score-arithmetic phase adds one explicitly bound NPZ. The original checker correctly rejected it as unbound; extend the exact allowed array set and include its frozen implementation, without relaxing the no-unbound-array assertion.",
+  "old_checker_sha256": "643d6603f91ff3005bc3de7b223767b1c01ee5987bdbef0b92c5b4b609000b90",
+  "new_checker_sha256": "faad4a1371f5b0b4c5ace7c214785ac578af40cbebd33c593f4d5837b17c8832",
+  "historical_replay_receipt": "artifacts/failure_probability_v1_20261006/REPLAY_CHECK_PRE_SCORE_EXTENSION_001.json",
+  "historical_replay_sha256": "fc98d2009a304604c3d688575ff3839d45752ed7cf28a48859fe91475140ac7e",
+  "scientific_freezes_and_results_changed": false,
+  "initial_seal_attempt_passed": false,
+  "initial_seal_failure": "Unbound local NPZ: SCORE_ARITHMETIC_INTERVALS.npz",
+  "new_replay_receipt_required": true
+}

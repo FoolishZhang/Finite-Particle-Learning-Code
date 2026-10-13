@@ -1,0 +1,57 @@
+{
+  "path": "raw/block_01333.npz",
+  "sha256": "5c0daa289ad1e0dffc3b78431af49b1e7d455214fde5f65bcf29bc2461f3f714",
+  "bytes": 374054,
+  "block_id": 1333,
+  "banks": 64,
+  "metadata": {
+    "schema_version": "1.0",
+    "block_id": 1333,
+    "bank_first": 85312,
+    "banks": 64,
+    "particles": 100,
+    "n_values": [
+      64,
+      256,
+      1024,
+      4096
+    ],
+    "metric_names": [
+      "path_gap",
+      "D12",
+      "overlap",
+      "coupling",
+      "direct_gap_truncated"
+    ],
+    "label_encoding": "spins_minus1_plus1_lexicographic",
+    "freeze_sha256": "502d464748a49315bfa5343bf8a20724e6dae7110402d51d79e5ff3df16afbd8",
+    "reference_sha256": "da59420e3d95ef8e2f59c9ac01c39b495475e5a1beca3b92d76921ead5ad5db2",
+    "freeze_reference": "FREEZE.json",
+    "coefficient_reference": "REFERENCE.json",
+    "scientific": true,
+    "role_seed_sequences": {
+      "0": [
+        202610080711,
+        1333,
+        0
+      ],
+      "1": [
+        202610080711,
+        1333,
+        1
+      ],
+      "2": [
+        202610080711,
+        1333,
+        2
+      ]
+    },
+    "nuisance_method": "inplace_log_expit_segment_sum_then_add",
+    "gamma_method": "dominant_complement_from_other_weights",
+    "attempt": 1,
+    "generated_utc": "2026-10-08T04:20:07.543768+00:00"
+  },
+  "elapsed_seconds": 2.9210000000002765,
+  "generation_seconds": 2.57799999999952,
+  "scoring_seconds": 0.3430000000007567
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "r02_constants_implementation_retrospective_record_v1",
+  "record_kind": "retrospective record from observed tool outputs; not an original captured stdout file",
+  "date_local": "2026-10-10",
+  "production_target_nodes_executed_by_this_record": 0,
+  "constants_source_sha256_at_test": "9796c1ad03aaefc53c827fed2f59eb62be097801386912582820322b20ea89b8",
+  "constant_bounds_sha256_at_test": "f00cd2ba8cb0e5366039e6e6b30f42a5d7821d5d952ccbe4284294d943b13cc4",
+  "manufactured_constant_test": {
+    "python_executable": "[author-local path omitted]",
+    "invocation": "PowerShell single-quoted here-string containing python_stdin below, piped to the above executable with arguments -B -",
+    "python_stdin": "import sys\nsys.path.insert(0, 'script')\nimport r02_finite_scale_constants as m\nfrom flint import ctx\np=ctx.prec\nr=m.compute_constants(rho='1/4', K=2, step='1', N=2, strip='3/4', bits=80, hard_seconds=20)\nassert ctx.prec==p\nprint(r['status'],r['counts'])\nif r['status']=='complete':\n print(r['composition']['checks'])\n print({k:v['arb_display_only'] for k,v in r['composition']['constants'].items()})\n assert m.compose_saved(r)==r['composition']\nz=m.compute_constants(rho='1/4', K=2, step='1', N=2, strip='3/4', bits=80, hard_seconds=0)\nassert z['status']=='budget_stop' and z['counts']['nested_nodes']==0 and z['counts']['univariate_nodes']==0\nassert ctx.prec==p\nfor args in ({'rho':0.25},{'N':True},{'step':'1/16','N':1},{'K':1},{'strip':'2'}):\n try:m.analytic_bounds(**args)\n except ValueError:pass\n else:raise AssertionError(args)\nprint('MANUFACTURED_ONLY: five 1D nodes plus 25 nested nodes, rho=1/4 K=2; target nodes=0; saved composition, budget-stop, invalid inputs and precision restoration passed')\n",
+    "observed_exit_code": 0,
+    "observed_status": "complete",
+    "observed_counts": {
+      "gaussian_coordinate_evaluations": 5,
+      "univariate_nodes": 5,
+      "normal_cdf_evaluations": 5,
+      "nested_nodes": 25,
+      "tanh_evaluations": 30,
+      "logcosh_evaluations": 30,
+      "outer_nodes_completed": 5,
+      "finite_scalar_sums_completed": 32,
+      "new_D_n_scores": 0,
+      "new_MC_draws": 0,
+      "new_NPZ_reads": 0,
+      "optimizer_steps": 0,
+      "new_teacher_PMFs": 0
+    },
+    "observed_composition_checks": {
+      "all_inner_true_intervals_overlap_saved": true,
+      "all_reconstructed_outer_finite_intervals_overlap_saved": true,
+      "positive_variance_v": true,
+      "positive_VH_VA": false,
+      "all_constant_widths_below_1e_minus_8": false
+    },
+    "coarse_fixture_qualification_failures_retained": true,
+    "fixture_is_not_a_production_scientific_certificate": true,
+    "zero_budget_additional_call_target_nodes": 0,
+    "precision_restoration_passed": true,
+    "saved_composition_exact_reconstruction_passed": true,
+    "five_invalid_input_rejections_passed": true,
+    "original_stdout_file_was_not_saved": true
+  },
+  "fraction_interval_self_test": {
+    "command": "& '.venv/Scripts/python.exe' -B script/r02_finite_scale_fraction.py --self-test",
+    "observed_exit_code": 0,
+    "observed_stdout": "{\"exact_manufactured_checks\": 7, \"passed\": true, \"target_nodes\": 0}",
+    "cases": [
+      "square of interval crossing zero",
+      "square of negative interval",
+      "square of positive interval",
+      "mixed-sign interval multiplication",
+      "division by strictly positive interval",
+      "exact signed dyadic decode",
+      "containment failure of 1e-100 is not tolerated"
+    ],
+    "new_target_integral_nodes": 0
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "all_finite_rows_recomputed": 640,
+  "max_metric_error": 3.608224830031759e-16,
+  "max_ci_error": 0.0,
+  "conditional_mean_match": 2.355971320811001e-16,
+  "blindness_diagnostics": [
+    {
+      "world": "dependent",
+      "encoding": "native",
+      "x": 0,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 2.8945100284870155e-17,
+      "count_blind_Brier_floor": 3.636777863455217e-32
+    },
+    {
+      "world": "dependent",
+      "encoding": "native",
+      "x": 0,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 6.245004513516506e-17,
+      "count_blind_Brier_floor": 1.8668863505862273e-32
+    },
+    {
+      "world": "dependent",
+      "encoding": "native",
+      "x": 1,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": -2.9341608507950566e-17,
+      "count_blind_Brier_floor": 2.2187551791306948e-32
+    },
+    {
+      "world": "dependent",
+      "encoding": "native",
+      "x": 1,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": -6.938893903907228e-17,
+      "count_blind_Brier_floor": 2.5342369144990307e-32
+    },
+    {
+      "world": "dependent",
+      "encoding": "flip21",
+      "x": 0,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 0.0073206488472588515,
+      "count_blind_Brier_floor": 0.003252190541643042
+    },
+    {
+      "world": "dependent",
+      "encoding": "flip21",
+      "x": 0,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 0.03794853006953424,
+      "count_blind_Brier_floor": 0.01662181352016589
+    },
+    {
+      "world": "dependent",
+      "encoding": "flip21",
+      "x": 1,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 0.007320648847258762,
+      "count_blind_Brier_floor": 0.003252190541643042
+    },
+    {
+      "world": "dependent",
+      "encoding": "flip21",
+      "x": 1,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 0.03794853006953432,
+      "count_blind_Brier_floor": 0.01662181352016589
+    },
+    {
+      "world": "independent",
+      "encoding": "native",
+      "x": 0,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": -1.1498738469331979e-17,
+      "count_blind_Brier_floor": 2.1932034789183086e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "native",
+      "x": 0,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 2.7755575615628914e-17,
+      "count_blind_Brier_floor": 2.982150672950163e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "native",
+      "x": 1,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 6.899243081599187e-17,
+      "count_blind_Brier_floor": 2.0924093154133878e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "native",
+      "x": 1,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 0.0,
+      "count_blind_Brier_floor": 2.6821807940675105e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "flip21",
+      "x": 0,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": -2.4583509830985608e-17,
+      "count_blind_Brier_floor": 2.1897501175449522e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "flip21",
+      "x": 0,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 2.7755575615628914e-17,
+      "count_blind_Brier_floor": 2.290510876573908e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "flip21",
+      "x": 1,
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 9.516197353929913e-18,
+      "count_blind_Brier_floor": 1.7736637529904598e-32
+    },
+    {
+      "world": "independent",
+      "encoding": "flip21",
+      "x": 1,
+      "k": 7,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": -4.163336342344337e-17,
+      "count_blind_Brier_floor": 2.3458843722144927e-32
+    }
+  ],
+  "qualified": 695,
+  "total_fits": 700
+}

@@ -1,0 +1,167 @@
+{
+  "scientific_summary": {
+    "primary_PMFS": 18,
+    "variant_PMFS": 72,
+    "reference_rows": [
+      {
+        "d": 16,
+        "comp_KL": 7.376972353199833e-08,
+        "fixedRfloor_KL": 0.013898476937073164
+      },
+      {
+        "d": 64,
+        "comp_KL": 4.446955942421848e-09,
+        "fixedRfloor_KL": 0.01291362685233606
+      },
+      {
+        "d": 256,
+        "comp_KL": 2.744616506209588e-10,
+        "fixedRfloor_KL": 0.012688615951269489
+      }
+    ],
+    "profile_primary": [
+      {
+        "d": 16,
+        "K": 10,
+        "passed": true,
+        "score_upper": -0.02441338753281885,
+        "risk_difference": 0.027869089846569835,
+        "claim": "only the prespecified pair, not all covariance optimizers"
+      },
+      {
+        "d": 16,
+        "K": 16,
+        "passed": true,
+        "score_upper": -0.011687489836592738,
+        "risk_difference": 0.027869089846569835,
+        "claim": "only the prespecified pair, not all covariance optimizers"
+      },
+      {
+        "d": 64,
+        "K": 10,
+        "passed": true,
+        "score_upper": -0.05186886004195977,
+        "risk_difference": 0.023934229616644098,
+        "claim": "only the prespecified pair, not all covariance optimizers"
+      },
+      {
+        "d": 64,
+        "K": 64,
+        "passed": true,
+        "score_upper": -0.03449725461018927,
+        "risk_difference": 0.023934229616644098,
+        "claim": "only the prespecified pair, not all covariance optimizers"
+      }
+    ],
+    "highK_primary": [
+      {
+        "d": 16,
+        "K": 4096,
+        "passed": true,
+        "score_lower": 0.02619141646637491,
+        "risk_difference": 0.027869089846569835
+      },
+      {
+        "d": 64,
+        "K": 4096,
+        "passed": false,
+        "score_lower": -0.0017146166320449528,
+        "risk_difference": 0.023934229616644098
+      }
+    ],
+    "profile_precision": "16/16",
+    "highK_precision": "4/4",
+    "new_teacher_labels": 0,
+    "new_fits": 0,
+    "new_neural_models": 0,
+    "new_prior_streams": 32,
+    "banks": 33792,
+    "unique_base_prior_vectors": 5505024,
+    "base_gaussian_scalars": 244580352,
+    "count_particle_candidate_terms": 11886133248,
+    "noise_constants": {
+      "source": "primary",
+      "alpha": {
+        "1": 0.4132419282838008,
+        "2": 0.6057055096021395,
+        "6": 0.764499876019707
+      },
+      "emission_noise_variance_tau2": 0.8264838565676016,
+      "negative_teacher_limit_variance": 0.5775708702728994,
+      "tau2_minus_teacher_variance": 0.24891298629470215,
+      "negative_teacher_below_emission_noise": true
+    },
+    "unconfirmed_HIGHK_d64_retained": true,
+    "preserved_NUMERIC_audit_serializer_failure": true,
+    "numerical_reference_not_interval_certified": true,
+    "global_covariance_optimization_executed": false,
+    "confidence_families_not_merged": true
+  },
+  "local_arrays": {
+    "artifacts/covariance_boundary/NUMERIC/local/PMF_variants_d16.npz": "518ba5852b3e86df5a8ab6d58f4ba960d29d49a826c6ee26e68103226b6d1e57",
+    "artifacts/covariance_boundary/NUMERIC/local/PMF_variants_d256.npz": "302f9b4fc1251c4a32b91013f43a5838e25f5289a98f648f47ff29ff3675b10a",
+    "artifacts/covariance_boundary/NUMERIC/local/PMF_variants_d64.npz": "425f8f6a3290565133db8e54681866e5b95562d40d8bf48c027bdfc7c036e4d9",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s0.npz": "74755ba4c32767d4098823cdd3b77f8db26fcb58889231f63a25178e15829c70",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s1.npz": "af7c59ebac20afa67664a692d13d46cb4a2a9291fbbfaac4d130970a4a6d2a4f",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s2.npz": "157cf3d1281b27d9722a7a9e5852a93afd5b555f5a47be9ce553b1bd97e7254f",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s3.npz": "623570d98e86b245e26c7f4190b739b321578ca0367268b2ec9ec5c8256175b3",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s4.npz": "461b65efe49cd09dc76848b00043729d8094dd5f621b8b5b0e761e621900ee81",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s5.npz": "0e87262c59c5092430d3aeeb584ff69fe9bdf2eb8623be7d2f586108112eb814",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s6.npz": "5f1a5228b5948c01d79b0e9ca9e49e8697334f37d89f4ccb43fb5e908964e47c",
+    "artifacts/covariance_boundary/PROFILE/local/d16_s7.npz": "6fb86da212be5750e1f42d4c0cf86f2000e2176d60fd1a0cddc64f019d73285b",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s0.npz": "2c01d05caeda4ff69033200f9182bd8af3f84e91af281b56fd94265b6907c9b5",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s1.npz": "0058025750295110246cf3fb3156a7d729ae78ad68bb1ff32b3e0e673b86cfbb",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s2.npz": "d37d6ae9b4c7033d43a6eb0ef985e158e85e6547c76d893be6d72b059dc6fd60",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s3.npz": "f3255458f0a6bcf9c1839b5c456dcce3b968298389523186b389dd472eca8374",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s4.npz": "939607282b4c6887e98fdad11fb428ffbc43aebb0269ee9b1b0de2b2722d5dbf",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s5.npz": "ca56d857f5c04ba4a585c59e87278133ee4e5713405c6711d1c5ae5bb8ac7094",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s6.npz": "d6517c8f6b9dd110a812faaf92a881027eaa39e5ac7d0a85a94be065e8288032",
+    "artifacts/covariance_boundary/PROFILE/local/d64_s7.npz": "d013715cda78fd8555dac9a2b84632c9a127b385898f80b214fb46ee6b85179c",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s0.npz": "36468e32de294c720589cb929cc4d06b2002de11cfa6dbde14dc23ffd1c7b7b5",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s1.npz": "d7397d67c079318e9d9ff98bec165e1c4b3b21141956c02809ca3e7e3178fb11",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s2.npz": "feba652a65b174dfa0f0c25446a4ab3d7666ed5b211ce511b0600920bf751497",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s3.npz": "173dc2f2cde2bd1dde1347190c1aa4ced214a404330bb3adf16d9a7ee026c19e",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s4.npz": "05dac446a41efe9f06b257e592a20231409e7b886a25d0925ad7df27f94046b4",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s5.npz": "5a3576e48afd7b78eef904de3354470a0c56d14bc99083e6af0866cea8f5a65f",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s6.npz": "58900dc7aee753824bf640fb3c17d034ee3ed9c827fd5d9648a62e0858bb23be",
+    "artifacts/covariance_boundary/HIGHK/local/d16_s7.npz": "03b2078e2ada156bafa5a306f575f50d39da3c75f0f3767a623ede5fbdd9a4a5",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s0.npz": "30d1085ae421da790072a9f26678bf8dc47b94d63ef8ee97f33b1358170a6012",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s1.npz": "270c2c878efdb7d6beb717ac7f1d2c210d3e15c8bddc87ed9b0e8e8f65922e9b",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s2.npz": "b31821010aa3f0a96dfee1701c6324bc73c08b8cfda8dd1a1d9d0a69232e76dd",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s3.npz": "616c5850160fee1e3724a10180e71b3ecf2c60ef320e99d316e9bb87418e749e",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s4.npz": "0fcf6ac00bc9853bbaf3f6b5a76ae544bd355cc0edc825263673d6ef9ee42a49",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s5.npz": "8368922e8528057a549f34783222cbe27041fb1df1b316ab163bec7b4740c3ef",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s6.npz": "f121281a2a66e61738c52773306a323a861f50129f543f87d6703e75478c9083",
+    "artifacts/covariance_boundary/HIGHK/local/d64_s7.npz": "dd300d12c989e1c72bb7ec6e5a4c5498caf99edba8aa2cfe431932830bae99dd"
+  },
+  "frozen_records": {
+    "artifacts/covariance_boundary/NUMERIC/FREEZE.json": "6e28c2a9b012409dec6fd4d9ec2b94c7276dfddb565f17bbbcc10448e3572f44",
+    "artifacts/covariance_boundary/NUMERIC/RESULTS_FREEZE.json": "1ce9425453c4f85fbb5a1a03641a57de89322deeb364fdf753a6723616775dcc",
+    "artifacts/covariance_boundary/NUMERIC/INDEPENDENT_AUDIT.json": "2e79c720289d56bafa0add7362bc4b0ecd0d6cb6d79341b65bf4eea798452e58",
+    "artifacts/covariance_boundary/PROFILE/FREEZE.json": "dc4785719c3f06eeff0fab2a8d12b45f60a7ec373f9eff9d0ee16314ead2ef77",
+    "artifacts/covariance_boundary/PROFILE/RESULTS_FREEZE.json": "ad2e046c43f347fe792fca1bcc2243393c4a8d3b0190da3cbc1a4bac557c7708",
+    "artifacts/covariance_boundary/PROFILE/INDEPENDENT_AUDIT.json": "7e9878070f637cbc73d45b57f19b170f85b40783512745dfd9ffa5c255d1ced4",
+    "artifacts/covariance_boundary/HIGHK/FREEZE.json": "c3df0097a23c4e77d812bd678f3ee424a46b0b6bac15bea43e2dc2584a7b7bfe",
+    "artifacts/covariance_boundary/HIGHK/RESULTS_FREEZE.json": "3633c55c3d9dd36d6806fa8503c639c987025523e694c5d6f3bd43878281d626",
+    "artifacts/covariance_boundary/HIGHK/INDEPENDENT_AUDIT.json": "07bd4b2a036f540c77881ccb86364765fc87a10a4c667e82b1e555cd25b6fe96",
+    "artifacts/covariance_boundary/T/RECEIPT.json": "daeec2542438cb8a14ae5880f109ae32abb4404fe6b5797d5940c430d1cdbc71",
+    "artifacts/covariance_boundary/NUMERIC/AUDIT_FAILURE_SERIALIZATION/covariance_boundary_numeric_audit.py.txt": "7de5cb58423ddda715a7254dc9d233d5741d8daae26c8a53dfa60799a61282cc",
+    "artifacts/covariance_boundary/NUMERIC/AUDIT_FAILURE_SERIALIZATION/FAILURE.json": "45c851cc8a943bb75711f05a7419167590cac5f41b7aed9132d5d81d9723df71",
+    "artifacts/covariance_boundary/NUMERIC/AUDIT_FAILURE_SERIALIZATION/INDEPENDENT_AUDIT.partial.json": "3e52d1d4791e6e61b2464185b627bfc43e478e4a4b85b5d680e81acd3b53492f"
+  },
+  "local_links": 81,
+  "registry_sha256": "cd5d638c8e3fc210b4b2bbe3e5fc876825d402c5db6c851110ebb7698f664519",
+  "old_manifest_sha256": "a5d62939b53d6b85936282b5aeeff668523040b6a8c25451bc6d6de1f0d8b692",
+  "verification_outputs": {
+    "NUMERIC": "{\"passed\": true, \"workspace\": true, \"integrals_not_reexecuted\": true}",
+    "PROFILE": "{\"passed\": true, \"workspace\": true, \"no_science_reexecution\": true}",
+    "HIGHK": "{\"passed\": true, \"workspace\": true, \"no_science_reexecution\": true}",
+    "NUMERIC_independent": "{\"passed\": true, \"workspace\": true, \"integrals_reexecuted\": false, \"local_arrays_were_audited_in_write\": true, \"receipt_sha256\": \"2e79c720289d56bafa0add7362bc4b0ecd0d6cb6d79341b65bf4eea798452e58\"}",
+    "PROFILE_independent": "{\"passed\": true, \"workspace\": true, \"receipt_sha256\": \"7e9878070f637cbc73d45b57f19b170f85b40783512745dfd9ffa5c255d1ced4\", \"arithmetic_and_RNG_not_reexecuted\": true}",
+    "HIGHK_independent": "{\"passed\": true, \"workspace\": true, \"receipt_sha256\": \"07bd4b2a036f540c77881ccb86364765fc87a10a4c667e82b1e555cd25b6fe96\", \"arithmetic_and_RNG_not_reexecuted\": true}",
+    "figures": "{\"passed\": true, \"read_only\": true, \"new_scientific_computation\": false}",
+    "old_finite_learning": "{\"passed\": true, \"workspace\": false, \"new_science_executed\": false, \"full_probability_replay_executed\": false, \"final_selection_endpoints\": 224, \"new_teacher_vectors\": 81920, \"complete_raw_prior_vectors\": 163840, \"common_factor_draws\": 655360, \"raw_common_prefix_shared_per_phase\": 81920, \"main_readouts\": [{\"d\": 16, \"comparison\": \"raw_minus_col_d\", \"passed\": true, \"kind\": \"material_improvement\"}, {\"d\": 16, \"comparison\": \"col_d_minus_MLE\", \"passed\": false, \"kind\": \"one_sided_noninferiority_not_equivalence\"}, {\"d\": 16, \"comparison\": \"col_4d_minus_MLE\", \"passed\": true, \"kind\": \"one_sided_noninferiority_not_equivalence\"}, {\"d\": 64, \"comparison\": \"raw_minus_col_d\", \"passed\": true, \"kind\": \"material_improvement\"}, {\"d\": 64, \"comparison\": \"col_d_minus_MLE\", \"passed\": true, \"kind\": \"one_sided_noninferiority_not_equivalence\"}, {\"d\": 64, \"comparison\": \"col_4d_minus_MLE\", \"passed\": true, \"kind\": \"one_sided_noninferiority_not_equivalence\"}], \"additional_floor_readouts\": [{\"d\": 16, \"N\": 4096, \"B\": 128, \"K\": 16, \"n\": 8, \"floor_selections\": 8, \"probability_lower\": 0.6305833524471807, \"reference_minimum\": 0.0, \"floor_reference_risk\": 0.01389847693707304, \"expected_fixed_reference_risk_lower\": 0.008764148180889341, \"passed\": true, \"preregistered\": true, \"post_hoc\": false, \"binomial_family_alpha\": 0.05, \"binomial_family_size\": 2, \"strict_Gaussian_quadrature_error_certificate\": false}, {\"d\": 64, \"N\": 4096, \"B\": 128, \"K\": 64, \"n\": 8, \"floor_selections\": 8, \"probability_lower\": 0.6305833524471807, \"reference_minimum\": 0.0, \"floor_reference_risk\": 0.012913626852336229, \"expected_fixed_reference_risk_lower\": 0.008143118112798112, \"passed\": true, \"preregistered\": true, \"post_hoc\": false, \"binomial_family_alpha\": 0.05, \"binomial_family_size\": 2, \"strict_Gaussian_quadrature_error_certificate\": false}], \"risk_precision_pass\": 28, \"risk_total\": 32, \"score_precision_pass\": 17, \"score_total\": 24, \"risk_precision_failures\": [{\"d\": 16, \"N\": 256, \"B\": 16, \"comparison\": \"raw_minus_col_d\"}, {\"d\": 16, \"N\": 256, \"B\": 128, \"comparison\": \"raw_minus_col_d\"}, {\"d\": 64, \"N\": 256, \"B\": 16, \"comparison\": \"raw_minus_col_d\"}, {\"d\": 64, \"N\": 256, \"B\": 128, \"comparison\": \"raw_minus_col_d\"}], \"score_precision_failures\": [{\"d\": 16, \"N\": 256, \"B\": 16, \"comparison\": \"col_4d_selected_minus_truth\"}, {\"d\": 16, \"N\": 256, \"B\": 128, \"comparison\": \"col_d_selected_minus_truth\"}, {\"d\": 16, \"N\": 256, \"B\": 128, \"comparison\": \"col_4d_selected_minus_truth\"}, {\"d\": 64, \"N\": 256, \"B\": 16, \"comparison\": \"col_d_selected_minus_truth\"}, {\"d\": 64, \"N\": 256, \"B\": 16, \"comparison\": \"col_4d_selected_minus_truth\"}, {\"d\": 64, \"N\": 256, \"B\": 128, \"comparison\": \"col_d_selected_minus_truth\"}, {\"d\": 64, \"N\": 256, \"B\": 128, \"comparison\": \"col_4d_selected_minus_truth\"}], \"raw_floor_selections\": 64, \"raw_selections\": 64, \"reference_PMFS\": 98, \"reference_variant_evaluations\": 294, \"new_neural_models\": 0, \"new_deployment_samples\": 0, \"scope\": \"finite zero-mean fixed grid; mean-free extension is population only\", \"confidence_families_not_merged\": true, \"numerical_reference_not_interval_certified\": true}"
+  },
+  "new_scientific_calculation": false,
+  "full_independent_audit_replayed": false
+}

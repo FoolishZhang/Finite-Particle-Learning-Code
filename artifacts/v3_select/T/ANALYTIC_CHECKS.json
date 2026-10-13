@@ -1,0 +1,147 @@
+{
+  "d6": {
+    "d": 6,
+    "r": 3,
+    "epsilon": 0.9,
+    "full_support": true,
+    "count_distribution_error": 0.0,
+    "unconditional_pair_residual_max": 6.938893903907228e-18,
+    "conditional_given_N_pair_residual_max": 2.7755575615628914e-17,
+    "all_marginals_order_less_than_r_max_error": 0.0,
+    "joint_KL_uniform": 0.06182899215175905,
+    "joint_KL_formula": 0.061828992151759105,
+    "LOO": {
+      "conditional_excess_KL": 0.035584391350320446,
+      "excess_Brier": 0.015869905956112852,
+      "query_configurations": 6,
+      "scalar_Brier": true,
+      "complete_count_supplied": false
+    },
+    "LOO_log_formula": 0.03558439135032047,
+    "LOO_Brier_formula": 0.015869905956112856,
+    "k1": {
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "query_configurations": 30,
+      "scalar_Brier": true,
+      "complete_count_supplied": false
+    },
+    "max_formula_error": 5.551115123125783e-17,
+    "passed": true,
+    "conditional_N_pair_moments_not_claimed_zero": true
+  },
+  "d8": {
+    "d": 8,
+    "r": 4,
+    "epsilon": 0.9,
+    "full_support": true,
+    "count_distribution_error": 0.0,
+    "unconditional_pair_residual_max": 3.469446951953614e-18,
+    "conditional_given_N_pair_residual_max": 3.469446951953614e-18,
+    "all_marginals_order_less_than_r_max_error": 0.0,
+    "joint_KL_uniform": 0.030914496075879525,
+    "joint_KL_formula": 0.030914496075879552,
+    "LOO": {
+      "conditional_excess_KL": 0.017792195675160223,
+      "excess_Brier": 0.007934952978056426,
+      "query_configurations": 8,
+      "scalar_Brier": true,
+      "complete_count_supplied": false
+    },
+    "LOO_log_formula": 0.017792195675160234,
+    "LOO_Brier_formula": 0.007934952978056428,
+    "k1": {
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "query_configurations": 56,
+      "scalar_Brier": true,
+      "complete_count_supplied": false
+    },
+    "max_formula_error": 2.7755575615628914e-17,
+    "passed": true,
+    "conditional_N_pair_moments_not_claimed_zero": true
+  },
+  "d3_projection": {
+    "epsilon": 0.4,
+    "p": [
+      0.125,
+      0.024999999999999994,
+      0.125,
+      0.225,
+      0.225,
+      0.125,
+      0.024999999999999994,
+      0.125
+    ],
+    "Q0": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "Qstar": [
+      0.12499999999999999,
+      0.075,
+      0.075,
+      0.22499999999999998,
+      0.22499999999999998,
+      0.075,
+      0.075,
+      0.12499999999999999
+    ],
+    "joint_KL_before": 0.18403210358424843,
+    "joint_KL_after": 0.07277579150809235,
+    "joint_gain": 0.11125631207615605,
+    "query_observed": [
+      0
+    ],
+    "query_target": 2,
+    "query_before": {
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "evidence_probability": [
+        0.5,
+        0.5
+      ],
+      "target_given_evidence": [
+        0.5,
+        0.5
+      ],
+      "prediction_given_evidence": [
+        0.5,
+        0.5
+      ]
+    },
+    "query_after": {
+      "conditional_excess_KL": 0.020410997260127628,
+      "excess_Brier": 0.010000000000000002,
+      "evidence_probability": [
+        0.5,
+        0.5
+      ],
+      "target_given_evidence": [
+        0.5,
+        0.5
+      ],
+      "prediction_given_evidence": [
+        0.6,
+        0.39999999999999997
+      ]
+    },
+    "query_log_formula": 0.02041099726012757,
+    "query_Brier_formula": 0.010000000000000002,
+    "Qstar_pair_coefficients": {
+      "J12": 0.40235947810852507,
+      "J13": -0.14694666622552977,
+      "J23": -0.14694666622552977
+    },
+    "original_and_added_moment_error": 8.326672684688674e-17,
+    "max_identity_error": 8.326672684688674e-17,
+    "passed": true,
+    "population_solution_is_analytic_not_new_optimizer_call": true
+  }
+}

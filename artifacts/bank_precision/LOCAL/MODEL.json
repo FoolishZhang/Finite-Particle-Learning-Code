@@ -1,0 +1,316 @@
+{
+  "schema": "bankvar-local-model-v1",
+  "a": 1.0,
+  "R": 0.75,
+  "n": 254,
+  "K": 256,
+  "h_main": 0.06,
+  "coefficient": 0.00837193032655014,
+  "coefficient_SE": 0.00010329922640009865,
+  "source_sha256": "e1a059d6b7339821e04a780c09a858a981c5821e3658ab23356653b466706d08",
+  "protocol_sha256": "1da2c1c14b7e0c32c3feb0431a0eb1e7b098e1f9f89ffa31c9a19c6ff8b09a0c",
+  "reference_sha256": "3ab4124d02ad49d225effe3abd325a3d6254f7bef48a9606f498740b9075f481",
+  "reference_scope": "Known r801 table only; old fitted g and teacher observations never read",
+  "penalty": "coefficient*rho^2",
+  "h_values": [
+    0.03,
+    0.06,
+    0.12
+  ],
+  "pooled_c_h": [
+    0.00837086656693356,
+    0.00837193032655014,
+    0.008376173283426498
+  ],
+  "stream_SE_c_h": [
+    0.0001035389116415744,
+    0.00010329922640009865,
+    0.0001023474232232536
+  ],
+  "paired_c06_minus_c03_SE": 2.8330488914271087e-07,
+  "streams": [
+    {
+      "stream": 0,
+      "seed": 202610021700,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_00.npz",
+      "sha256": "579d2851c9418e9c9e6c470fc8f6f83d6b53de70beb47746ae791a7bb36dd49b",
+      "prior_sha256": "118b0ab418f15994e2cd41dd609fb9eadc1da12f4bd2912b8dd8952c3e9c4d9c",
+      "first_block_prior_sha256": "eb07388a820179a63e24fbf7b85a5e3d7368087ecdfc9fcc7bdcce1c93318584",
+      "mean_G": [
+        -0.0011827148879546732,
+        -0.00016375746427576608,
+        0.00034189318344209605,
+        0.001346389841610027,
+        0.0018456266962262756,
+        0.002839171472115549
+      ],
+      "mean_c_h": [
+        0.008370805484732754,
+        0.008372434002091856,
+        0.008378929916812971
+      ],
+      "elapsed_seconds": 2.705330300028436,
+      "Gaussian_generation_seconds": 0.5731229002121836,
+      "price_evaluation_seconds": 1.8211581001523882
+    },
+    {
+      "stream": 1,
+      "seed": 202610021701,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_01.npz",
+      "sha256": "bd3e39de73b2e1afd2a9e8d935f8c3c9daa9d2d4397e5f2d94e5811e4360e49b",
+      "prior_sha256": "84acf0a31e6ad16fa84b3dc5daadda3dda0fd58aa5b69f755d53186580ff93e1",
+      "first_block_prior_sha256": "372d65ca413b32ca7829b6c30dcdd3861d4727e1e0476d5ba4c4bd89ba409c36",
+      "mean_G": [
+        -0.001810795045347964,
+        -0.000816681006139913,
+        -0.00032069309637817626,
+        0.0006697090357335501,
+        0.0011643661262211579,
+        0.002153229401035217
+      ],
+      "mean_c_h": [
+        0.008253351100931058,
+        0.008254363051504478,
+        0.008258384263298285
+      ],
+      "elapsed_seconds": 2.5109094999497756,
+      "Gaussian_generation_seconds": 0.5480815999908373,
+      "price_evaluation_seconds": 1.6551043001236394
+    },
+    {
+      "stream": 2,
+      "seed": 202610021702,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_02.npz",
+      "sha256": "0b506dcc7d6b32bb2b94e66c8c025d85303ce8ce98e8f11cd05e1507f4353939",
+      "prior_sha256": "b5aae00c67ae5e21249337218da8751d5608998bab63c22ef1053386848665a9",
+      "first_block_prior_sha256": "f43d055b4a47916022a70e0c9cd3c72c6d7103b2d8c9916de08b02751fcf6a61",
+      "mean_G": [
+        -0.00163260000165799,
+        -0.0006574777754783509,
+        -0.00017170297766559017,
+        0.00079768548455497,
+        0.001281866703383825,
+        0.0022506030004952322
+      ],
+      "mean_c_h": [
+        0.00807823718517133,
+        0.008080601995259066,
+        0.008090006254485874
+      ],
+      "elapsed_seconds": 2.9199797000037506,
+      "Gaussian_generation_seconds": 0.6267431000014767,
+      "price_evaluation_seconds": 1.9834814999485388
+    },
+    {
+      "stream": 3,
+      "seed": 202610021703,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_03.npz",
+      "sha256": "3878bf276da82c01e2af223ad3d371b31d3aeb17dfb509a87b0b33c5e364b68f",
+      "prior_sha256": "e02ac2c2e320bf146fc2f746d3491e9b555e1fe92e8d3a34dfd6f231c50b042e",
+      "first_block_prior_sha256": "aeea612576a75b04c24f35b46e7f6a6626836c0d131693822c1068170bf09bd7",
+      "mean_G": [
+        -0.002084204590731264,
+        -0.0010646844351728853,
+        -0.000554515752127525,
+        0.00046690971010582256,
+        0.0009782911227408776,
+        0.002002716042180556
+      ],
+      "mean_c_h": [
+        0.008511878851944564,
+        0.008512398157974005,
+        0.008514417985232963
+      ],
+      "elapsed_seconds": 2.478022599942051,
+      "Gaussian_generation_seconds": 0.5079691997962072,
+      "price_evaluation_seconds": 1.6595045001013204
+    },
+    {
+      "stream": 4,
+      "seed": 202610021704,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_04.npz",
+      "sha256": "3be06cee5dfecb8f2c5a36349c1fcacad6f3fb13c7bd88a53905c6021a368d08",
+      "prior_sha256": "9c89e87e3488eb3090cf09522e088d03d4cde244dce70305a91fc5a36e598576",
+      "first_block_prior_sha256": "8a9cbeea1b3a839051da4992ee9d5669e3c1661d5d26594bc11a4583a593a4a2",
+      "mean_G": [
+        -0.002287974443522155,
+        -0.001243582337671974,
+        -0.0007202067759724274,
+        0.00032907365984012415,
+        0.0008550297992755468,
+        0.001909669451915002
+      ],
+      "mean_c_h": [
+        0.008744003631771243,
+        0.008744217237281332,
+        0.008745091448827428
+      ],
+      "elapsed_seconds": 2.6924859000137076,
+      "Gaussian_generation_seconds": 0.5375141999684274,
+      "price_evaluation_seconds": 1.844577899784781
+    },
+    {
+      "stream": 5,
+      "seed": 202610021705,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_05.npz",
+      "sha256": "e37577e012e087001f271f8a2c6f47d05abd4d6dffe3e9983cd53d7a7128740d",
+      "prior_sha256": "88dcf27e95b186bbe23fbe6d9ef089b41fa442132f999c4880596e82fee4d870",
+      "first_block_prior_sha256": "c26ed366b6e021ca88110bccb487fdb1372c467f95a90edf166f1a11e6d04934",
+      "mean_G": [
+        -0.002346585015717646,
+        -0.0013413544273301137,
+        -0.000839006866089109,
+        0.00016593183179931123,
+        0.0006688159757234801,
+        0.0016761076122156526
+      ],
+      "mean_c_h": [
+        0.008374489149070175,
+        0.008375710012723315,
+        0.008380609641527714
+      ],
+      "elapsed_seconds": 2.5390327000059187,
+      "Gaussian_generation_seconds": 0.5505278001073748,
+      "price_evaluation_seconds": 1.6849977998062968
+    },
+    {
+      "stream": 6,
+      "seed": 202610021706,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_06.npz",
+      "sha256": "6e9c001f1dd66e56e3927e44e3d4a9edee70dd5e4ca1a8274280247ad9cca089",
+      "prior_sha256": "f433f006047c6e34fe0036889219c857674c46dd8ba0dae00f009114a87275e9",
+      "first_block_prior_sha256": "9d94f7ad7312c79be595c762ed900bcf28f62c607f093fb0b6d5375f02f2e8f4",
+      "mean_G": [
+        -0.0018407069215934115,
+        -0.0008849589815654568,
+        -0.00040903178904690954,
+        0.0005398342493363829,
+        0.0010131504845134027,
+        0.0019585310404632403
+      ],
+      "mean_c_h": [
+        0.00790721698652744,
+        0.007908789441995254,
+        0.007915079087618026
+      ],
+      "elapsed_seconds": 2.521634600008838,
+      "Gaussian_generation_seconds": 0.5154761002631858,
+      "price_evaluation_seconds": 1.687154300045222
+    },
+    {
+      "stream": 7,
+      "seed": 202610021707,
+      "banks": 1024,
+      "file": "artifacts/bank_precision/LOCAL/stream_07.npz",
+      "sha256": "175804bb83f9e1b5eeeeb3dc91b7eaa9ef6c710f2bc49678a1287148b3791213",
+      "prior_sha256": "28f35717428e4ae14a5e587c37358f8b846f81061c44dc6e5a1c73bb55ef1350",
+      "first_block_prior_sha256": "db568197a85089f491991f186c64e4d9bff7af770653b6b5e5e47e61ffc3a25d",
+      "mean_G": [
+        -0.0025261854468668398,
+        -0.0014775187994755486,
+        -0.0009535199902287445,
+        9.371402720964684e-05,
+        0.0006169440917816891,
+        0.0016627110345453396
+      ],
+      "mean_c_h": [
+        0.008726950145319925,
+        0.008726928713571816,
+        0.008726867669608715
+      ],
+      "elapsed_seconds": 2.668782399967313,
+      "Gaussian_generation_seconds": 0.5402353000827134,
+      "price_evaluation_seconds": 1.8178459998453036
+    }
+  ],
+  "subpools_2048": [
+    {
+      "subpool": 0,
+      "streams": [
+        0,
+        1
+      ],
+      "banks": 2048,
+      "c_h": [
+        0.008312078292831905,
+        0.008313398526798167,
+        0.008318657090055628
+      ]
+    },
+    {
+      "subpool": 1,
+      "streams": [
+        2,
+        3
+      ],
+      "banks": 2048,
+      "c_h": [
+        0.008295058018557948,
+        0.008296500076616534,
+        0.008302212119859417
+      ]
+    },
+    {
+      "subpool": 2,
+      "streams": [
+        4,
+        5
+      ],
+      "banks": 2048,
+      "c_h": [
+        0.00855924639042071,
+        0.008559963625002324,
+        0.00856285054517757
+      ]
+    },
+    {
+      "subpool": 3,
+      "streams": [
+        6,
+        7
+      ],
+      "banks": 2048,
+      "c_h": [
+        0.008317083565923682,
+        0.008317859077783535,
+        0.00832097337861337
+      ]
+    }
+  ],
+  "qualification": {
+    "main_stream_SE": {
+      "value": 0.00010329922640009865,
+      "threshold": 0.0002,
+      "passed": true
+    },
+    "resolution_c06_c03": {
+      "value": 1.0637596165805063e-06,
+      "threshold": 5e-05,
+      "passed": true
+    }
+  },
+  "qualification_all_passed": true,
+  "main_coefficient_not_clipped_or_selected": true,
+  "teacher_specific_tuning": false,
+  "accounting": {
+    "new_observations": 0,
+    "new_data_fits": 0,
+    "new_integrals": 0,
+    "banks": 8192,
+    "prior_vectors": 2097152,
+    "Gaussian_scalars": 536870912,
+    "bank_rho_mode_evaluations": 196608,
+    "old_full_CAL_training_banks_for_comparison": 32768,
+    "bank_reduction_ratio": 4.0
+  },
+  "elapsed_seconds": 21.04427960002795,
+  "compute_scope": "Four times fewer prior banks than old full-CAL training pool; report wall clock and mode terms separately, not a measured speedup",
+  "scientific_scope": "canonical nuisance population calibration, not complete-observation finite-data training"
+}

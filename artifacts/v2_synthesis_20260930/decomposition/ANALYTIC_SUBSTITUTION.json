@@ -1,0 +1,163 @@
+{
+  "coefficients": {
+    "6.0": {
+      "values": {
+        "quad": 0.7644998760197311,
+        "stein_quad": 0.7644998760197309,
+        "GH2048": 0.7644998760197069,
+        "GH4096": 0.7644998760196944
+      },
+      "inherited_reference_value": 0.7644998760197312,
+      "quad_error_estimate": 4.6597154048672055e-14,
+      "stein_error_estimate": 1.118215180203961e-14,
+      "quad_tail_bound": 4.292767471326121e-32,
+      "stein_tail_bound": 1.0658892672465919e-32,
+      "max_algorithm_disagreement": 3.674838211509268e-14,
+      "quad_evaluations": 231,
+      "stein_evaluations": 231
+    },
+    "2.0": {
+      "values": {
+        "quad": 0.6057055096021589,
+        "stein_quad": 0.605705509602159,
+        "GH2048": 0.6057055096021395,
+        "GH4096": 0.6057055096021291
+      },
+      "inherited_reference_value": 0.6057055096021589,
+      "quad_error_estimate": 6.845539593374779e-15,
+      "stein_error_estimate": 1.380184812544481e-14,
+      "quad_tail_bound": 4.292767471326121e-32,
+      "stein_tail_bound": 3.552964224155306e-33,
+      "max_algorithm_disagreement": 2.986499936241671e-14,
+      "quad_evaluations": 189,
+      "stein_evaluations": 147
+    }
+  },
+  "constants": {
+    "quad": {
+      "Delta": 0.21758089607177333,
+      "kappa": 0.032637134410766,
+      "M": 58.00000000000002
+    },
+    "stein_quad": {
+      "Delta": 0.2175808960717729,
+      "kappa": 0.03263713441076593,
+      "M": 58.00000000000002
+    },
+    "GH2048": {
+      "Delta": 0.21758089607175968,
+      "kappa": 0.032637134410763956,
+      "M": 58.00000000000002
+    },
+    "GH4096": {
+      "Delta": 0.21758089607175324,
+      "kappa": 0.032637134410762984,
+      "M": 58.00000000000002
+    }
+  },
+  "primary_algorithm": "quad",
+  "sufficient_sample_sizes": [
+    {
+      "d": 16,
+      "dimension_condition_pass": true,
+      "by_algorithm": {
+        "quad": {
+          "unrounded_N": 2050518.4873862884,
+          "ceil_N": 2050519
+        },
+        "stein_quad": {
+          "unrounded_N": 2050518.4873862972,
+          "ceil_N": 2050519
+        },
+        "GH2048": {
+          "unrounded_N": 2050518.4873865456,
+          "ceil_N": 2050519
+        },
+        "GH4096": {
+          "unrounded_N": 2050518.4873866674,
+          "ceil_N": 2050519
+        }
+      },
+      "all_ceil_values_equal": true,
+      "expected_total_KL_upper": 0.015360169491525424,
+      "simpler_expected_total_KL_upper": 0.015625,
+      "known_scales_c_and_group_size": true
+    },
+    {
+      "d": 128,
+      "dimension_condition_pass": true,
+      "by_algorithm": {
+        "quad": {
+          "unrounded_N": 25399851.678795487,
+          "ceil_N": 25399852
+        },
+        "stein_quad": {
+          "unrounded_N": 25399851.678795595,
+          "ceil_N": 25399852
+        },
+        "GH2048": {
+          "unrounded_N": 25399851.678798676,
+          "ceil_N": 25399852
+        },
+        "GH4096": {
+          "unrounded_N": 25399851.678800184,
+          "ceil_N": 25399852
+        }
+      },
+      "all_ceil_values_equal": true,
+      "expected_total_KL_upper": 0.001920021186440678,
+      "simpler_expected_total_KL_upper": 0.001953125,
+      "known_scales_c_and_group_size": true
+    }
+  ],
+  "Fano": [
+    {
+      "d": 16,
+      "N": 256,
+      "teacher_Dsym": 0.001920899442827917,
+      "log_group_count": 9.462654300590172,
+      "raw_lower": 0.874781704975739,
+      "error_probability_lower": 0.874781704975739,
+      "bound_uninformative": false,
+      "raw_by_teacher_reference_variant": [
+        0.874781704975739,
+        0.874781704975691,
+        0.874781704975739
+      ],
+      "target": "uniform-prior/minimax exact group recovery; not density-estimation risk"
+    },
+    {
+      "d": 16,
+      "N": 4096,
+      "teacher_Dsym": 0.001920899442827917,
+      "log_group_count": 9.462654300590172,
+      "raw_lower": 0.0952695695700152,
+      "error_probability_lower": 0.0952695695700152,
+      "bound_uninformative": false,
+      "raw_by_teacher_reference_variant": [
+        0.0952695695700152,
+        0.09526956956924626,
+        0.0952695695700152
+      ],
+      "target": "uniform-prior/minimax exact group recovery; not density-estimation risk"
+    },
+    {
+      "d": 16,
+      "N": 65536,
+      "teacher_Dsym": 0.001920899442827917,
+      "log_group_count": 9.462654300590172,
+      "raw_lower": -12.376924596921565,
+      "error_probability_lower": 0.0,
+      "bound_uninformative": true,
+      "raw_by_teacher_reference_variant": [
+        -12.376924596921565,
+        -12.376924596933868,
+        -12.376924596921565
+      ],
+      "target": "uniform-prior/minimax exact group recovery; not density-estimation risk"
+    }
+  ],
+  "posthoc_formula_evaluation_not_new_confirmation": true,
+  "new_Gaussian_scalar_coefficient_problems": 2,
+  "new_full_joint_reference_integrals": 0
+}

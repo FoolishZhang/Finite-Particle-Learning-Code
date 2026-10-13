@@ -1,0 +1,43 @@
+{
+  "schema": "r03_local_raw_index_v1",
+  "files": {
+    "artifacts/r03_teacher_family_v1_20261011/DEVELOPMENT.json": {
+      "sha256": "960c3798db39223106138e3128048fb0b4b966e61555bf336216e9bbf96555d3",
+      "bytes": 401838514
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_000.json": {
+      "sha256": "176e6c345c9fcde7c4d98e9fdb763461941fd9f21ae51a84e4b174a27c664e31",
+      "bytes": 50992294
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_001.json": {
+      "sha256": "bf49bc8908ee0a858d35aaf42ee6a0d50d2fcb60bb475a861aa7e52cbb46509b",
+      "bytes": 50996879
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_002.json": {
+      "sha256": "26e4ab1ffd7fc723167f8553a3d5f6dedccfb1de3cb7d066948752038c73ed37",
+      "bytes": 51001476
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_003.json": {
+      "sha256": "7cdeb3bde9ca987a4587bfdd5709dcabf0513d3b76c7f6113fea23a0954d184d",
+      "bytes": 50992080
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_004.json": {
+      "sha256": "16a06c3eb014f31a5b05fbb281f9b459996f28b7851786fbb5866103b0000573",
+      "bytes": 50999430
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_005.json": {
+      "sha256": "8b41e49b2eb7684e286c01d4e3d9aec15965fd12d58abdd72bb7acc98060f954",
+      "bytes": 50992793
+    },
+    "artifacts/r03_teacher_family_v1_20261011/DEV_POINT_006.json": {
+      "sha256": "71147727478285d7b09744f2ad90aaf5fd3ccd04d4239f5e1693ae6b225ac75a",
+      "bytes": 51005172
+    }
+  },
+  "raw_files_kept_locally_unchanged": true,
+  "raw_files_in_git": false,
+  "raw_files_required_for_saved_strict_certificate_check": false,
+  "source_bindings": {
+    "script/r03_public_projection.py": "884682aa5f9871773ba2f9d899d40ef6207cdbedde88a5c7e96c1f6c12aa0f03"
+  }
+}

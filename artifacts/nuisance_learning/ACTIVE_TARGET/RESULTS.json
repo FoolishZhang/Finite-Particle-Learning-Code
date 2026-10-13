@@ -1,0 +1,19 @@
+{
+  "qualified": true,
+  "post_hoc": true,
+  "original_primary_and_CP_unchanged": true,
+  "not_independent_confirmation": true,
+  "ledger": {
+    "count_state_argmins": 8082,
+    "unique_count_K_states": 2694,
+    "primary_actual_count_lookups": 96,
+    "original_RB_pairings": 288,
+    "old_MLE_state_index_lookups": 1347,
+    "new_Gaussian_integrals": 0,
+    "new_labels": 0,
+    "new_banks": 0,
+    "new_training_models": 0,
+    "new_confidence_families": 0,
+    "wall_seconds": 0.38541330001316965
+  }
+}

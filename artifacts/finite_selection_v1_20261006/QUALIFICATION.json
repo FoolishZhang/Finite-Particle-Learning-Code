@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-05T16:26:38.258874+00:00",
+  "manufactured_inputs_only": true,
+  "score_gradient_arb_error": 2.7755575615628914e-17,
+  "gradient_fd_error": 2.311376090524675e-11,
+  "reference_score_difference": 0.0,
+  "root_error_allowance": {
+    "mid": 2.821682836005217e-14,
+    "lower": 2.8216828360052167e-14,
+    "upper": 2.8216828360052174e-14,
+    "enclosure": "[2.8216828360052171069086e-14 +/- 3.59e-37]"
+  },
+  "grid_candidates": 143,
+  "passed": true
+}

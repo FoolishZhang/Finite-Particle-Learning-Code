@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-10-08T08:07:41.890756+00:00",
+  "action": "manufactured_scalar_teacher_bound_qualification",
+  "status": "passed",
+  "precision_bits": 192,
+  "tests_run": 4,
+  "results": [
+    {
+      "test": "exact_comparisons_and_invalid_inputs",
+      "status": "passed",
+      "comparisons": 300,
+      "rejected_inputs": 6
+    },
+    {
+      "test": "prior_scalar_budget",
+      "status": "passed",
+      "result": {
+        "schema_version": "1.0",
+        "scope": "teacher_total_L1_analytic_quadrature_only",
+        "precision_bits": 192,
+        "python_flint_version": "0.8.0",
+        "exact_inputs": {
+          "h": "1/8",
+          "limit": "10",
+          "strip": "1",
+          "amplitude": "4/5",
+          "bias": "0",
+          "angles_radians": [
+            "-7/10",
+            "-1/2",
+            "-3/10",
+            "-1/10",
+            "1/10",
+            "3/10",
+            "1/2",
+            "7/10"
+          ]
+        },
+        "m": 8,
+        "label_count": 256,
+        "grid": {
+          "N_actual_integer": 80,
+          "minimum_index": -80,
+          "maximum_index": 80,
+          "points_per_axis": 161,
+          "points_total": 25921,
+          "endpoint_weight": "full h^2, including all four corners",
+          "omitted_axis_indices_begin_at": 81,
+          "renormalized": false
+        },
+        "rows": [
+          {
+            "angle_exact_rational": "-7/10",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[1.12724789961774358394277947327246807386721951595791440065 +/- 4.22e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3537924873450764583204408770805955675613890052897478577397",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3537924873450764583204408770805955675613890052897478577405",
+                "exponent_of_two": -191
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.18297757782556889202917799787493986926872996214190807146 +/- 5.69e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "58013051614784458538379561629702758325943822598294631951",
+                "exponent_of_two": -185
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "1856417651673102673228145972150488266430202323145428222435",
+                "exponent_of_two": -190
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "-1/2",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[1.08560648039566057311165561425552083205875885204027578255 +/- 2.56e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "1703615580509656903253686197836511698636084017947342241559",
+                "exponent_of_two": -190
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "1703615580509656903253686197836511698636084017947342241563",
+                "exponent_of_two": -190
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.16786402587832527707178479563077209797867397292826223694 +/- 5.60e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3665400651768255524592313512037336397218496428663647735855",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3665400651768255524592313512037336397218496428663647735861",
+                "exponent_of_two": -191
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "-3/10",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[1.00068535662955647579810477860246181753763695549972489841 +/- 5.73e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "785175473584428560571696907365035139148909906912250974685",
+                "exponent_of_two": -189
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "1570350947168857121143393814730070278297819813824501949373",
+                "exponent_of_two": -190
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.13970735431126008181711944942316317460253251408261116702 +/- 3.10e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3577029505790086649962413594445106027755466632185214533503",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3577029505790086649962413594445106027755466632185214533509",
+                "exponent_of_two": -191
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "-1/10",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[0.875870065539883134721900948971593857462793290746453036761 +/- 8.67e-58]",
+              "lower_exact_dyadic": {
+                "mantissa": "2748962754186823121311974071817637313146227003261243466703",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "687240688546705780327993517954409328286556750815310866677",
+                "exponent_of_two": -189
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.10420457568731247204724671929499376025702154763180918384 +/- 3.58e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3465602229134371302266327562593636884549818621996245976713",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3465602229134371302266327562593636884549818621996245976719",
+                "exponent_of_two": -191
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "1/10",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[0.875870065539883134721900948971593857462793290746453036761 +/- 8.67e-58]",
+              "lower_exact_dyadic": {
+                "mantissa": "2748962754186823121311974071817637313146227003261243466703",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "687240688546705780327993517954409328286556750815310866677",
+                "exponent_of_two": -189
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.10420457568731247204724671929499376025702154763180918384 +/- 3.58e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3465602229134371302266327562593636884549818621996245976713",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3465602229134371302266327562593636884549818621996245976719",
+                "exponent_of_two": -191
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "3/10",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[1.00068535662955647579810477860246181753763695549972489841 +/- 5.73e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "785175473584428560571696907365035139148909906912250974685",
+                "exponent_of_two": -189
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "1570350947168857121143393814730070278297819813824501949373",
+                "exponent_of_two": -190
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.13970735431126008181711944942316317460253251408261116702 +/- 3.10e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3577029505790086649962413594445106027755466632185214533503",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3577029505790086649962413594445106027755466632185214533509",
+                "exponent_of_two": -191
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "1/2",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[1.08560648039566057311165561425552083205875885204027578255 +/- 2.56e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "1703615580509656903253686197836511698636084017947342241559",
+                "exponent_of_two": -190
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "1703615580509656903253686197836511698636084017947342241563",
+                "exponent_of_two": -190
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.16786402587832527707178479563077209797867397292826223694 +/- 5.60e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3665400651768255524592313512037336397218496428663647735855",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3665400651768255524592313512037336397218496428663647735861",
+                "exponent_of_two": -191
+              }
+            },
+            "strictly_below_pi": true
+          },
+          {
+            "angle_exact_rational": "7/10",
+            "imaginary_logit_bound": {
+              "arb_display_only": "[1.12724789961774358394277947327246807386721951595791440065 +/- 4.22e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "3537924873450764583204408770805955675613890052897478577397",
+                "exponent_of_two": -191
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "3537924873450764583204408770805955675613890052897478577405",
+                "exponent_of_two": -191
+              }
+            },
+            "row_modulus_sum_bound": {
+              "arb_display_only": "[1.18297757782556889202917799787493986926872996214190807146 +/- 5.69e-57]",
+              "lower_exact_dyadic": {
+                "mantissa": "58013051614784458538379561629702758325943822598294631951",
+                "exponent_of_two": -185
+              },
+              "upper_exact_dyadic": {
+                "mantissa": "1856417651673102673228145972150488266430202323145428222435",
+                "exponent_of_two": -190
+              }
+            },
+            "strictly_below_pi": true
+          }
+        ],
+        "bounds": {
+          "label_modulus_product_C": {
+            "arb_display_only": "[3.0228971722966589521050269911582908483819417867047743007 +/- 4.83e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "4743758271529712007635616714605549957378506918089715881305",
+              "exponent_of_two": -190
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4743758271529712007635616714605549957378506918089715881375",
+              "exponent_of_two": -190
+            }
+          },
+          "complex_shift_integral_M": {
+            "arb_display_only": "[8.2170864527542395985474844942648815273818254769606709600 +/- 8.60e-56]",
+            "lower_exact_dyadic": {
+              "mantissa": "3223717977025376386168990322817614746899460232992463990949",
+              "exponent_of_two": -188
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3223717977025376386168990322817614746899460232992463991001",
+              "exponent_of_two": -188
+            }
+          },
+          "alias_ratio_q": {
+            "arb_display_only": "[1.47903461596178565254202554516631554588861235595448136354e-22 +/- 8.97e-79]",
+            "lower_exact_dyadic": {
+              "mantissa": "548033626356885673081224588089334710798894403113460750783",
+              "exponent_of_two": -261
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "548033626356885673081224588089334710798894403113460750789",
+              "exponent_of_two": -261
+            }
+          },
+          "one_dimensional_grid_mass_upper": {
+            "arb_display_only": "[1.04986778505017908474249325749179773355948232889561683221 +/- 2.28e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3295063447732524935973804043556916868255431681990672412779",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3295063447732524935973804043556916868255431681990672412783",
+              "exponent_of_two": -191
+            }
+          },
+          "two_sided_normal_tail_upper": {
+            "arb_display_only": "[1.53891972534128386926780671600837544707189252257662571739e-23 +/- 2.50e-80]",
+            "lower_exact_dyadic": {
+              "mantissa": "228089254612203611449347261793868701169967827267639518925",
+              "exponent_of_two": -263
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1824714036897628891594778094350949609359742618141116151405",
+              "exponent_of_two": -266
+            }
+          },
+          "infinite_grid_alias_L1": {
+            "arb_display_only": "[4.8613421223896633240862010508476503189820877785137019086e-21 +/- 8.33e-77]",
+            "lower_exact_dyadic": {
+              "mantissa": "2251619843395472021761951657598595507890903723236971551071",
+              "exponent_of_two": -258
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "2251619843395472021761951657598595507890903723236971551135",
+              "exponent_of_two": -258
+            }
+          },
+          "finite_grid_tail_L1": {
+            "arb_display_only": "[3.23132448682816729638843308114940798694228283729199104906e-23 +/- 8.89e-80]",
+            "lower_exact_dyadic": {
+              "mantissa": "3831416968535368792917835768564085244041717377932513111297",
+              "exponent_of_two": -266
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3831416968535368792917835768564085244041717377932513111311",
+              "exponent_of_two": -266
+            }
+          },
+          "total_quadrature_L1": {
+            "arb_display_only": "[4.8936553672579449970500853816591443988515106068866218191e-21 +/- 9.39e-77]",
+            "lower_exact_dyadic": {
+              "mantissa": "4533172631857626612218573907139097931750883363489040860823",
+              "exponent_of_two": -259
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "4533172631857626612218573907139097931750883363489040860953",
+              "exponent_of_two": -259
+            }
+          }
+        },
+        "comparisons": [
+          {
+            "bound": "infinite_grid_alias_L1",
+            "target_exact_rational": "1/1000000000000",
+            "strictly_below": true,
+            "method": "exact_integer_dyadic_vs_rational"
+          },
+          {
+            "bound": "finite_grid_tail_L1",
+            "target_exact_rational": "1/1000000000000",
+            "strictly_below": true,
+            "method": "exact_integer_dyadic_vs_rational"
+          },
+          {
+            "bound": "total_quadrature_L1",
+            "target_exact_rational": "1/1000000000000",
+            "strictly_below": true,
+            "method": "exact_integer_dyadic_vs_rational"
+          }
+        ],
+        "factor_256_used": false,
+        "strict_all_L1_target": true,
+        "target_exact_rational": "1/1000000000000",
+        "PMF_evaluations": 0,
+        "scientific_data_reads": 0,
+        "random_draws": 0,
+        "acb_integral_calls": 0,
+        "finite_sum_arithmetic_certified": false,
+        "binary64_teacher_weights_used": false
+      },
+      "real_PMF_computed": false
+    },
+    {
+      "test": "row_modulus_identity",
+      "status": "passed",
+      "cases": [
+        {
+          "t_exact": "1/4",
+          "imag_logit_exact": "1/5",
+          "row_modulus_sum": {
+            "arb_display_only": "[1.00320468701194913343661306969340186517095606594600933506 +/- 4.97e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3148608940895378912942067480023765801075427367192151523381",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3148608940895378912942067480023765801075427367192151523387",
+              "exponent_of_two": -191
+            }
+          },
+          "secant": {
+            "arb_display_only": "[1.00502091840045542846511410131163581939665289709269343958 +/- 4.28e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717955",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717959",
+              "exponent_of_two": -191
+            }
+          },
+          "identity_residual_encloses_zero": true,
+          "strict_comparison_or_exact_equality_case": true
+        },
+        {
+          "t_exact": "1/4",
+          "imag_logit_exact": "3/5",
+          "row_modulus_sum": {
+            "arb_display_only": "[1.02917517017580533752998100496504222177982947177523898473 +/- 5.83e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3230118623363715090078056677349782002902128007801716486463",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3230118623363715090078056677349782002902128007801716486469",
+              "exponent_of_two": -191
+            }
+          },
+          "secant": {
+            "arb_display_only": "[1.04675160153808560093279084558703692841456893499327651132 +/- 2.90e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "205330196704172015719463183320179040728756645493455669539",
+              "exponent_of_two": -187
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "821320786816688062877852733280716162915026581973822678157",
+              "exponent_of_two": -189
+            }
+          },
+          "identity_residual_encloses_zero": true,
+          "strict_comparison_or_exact_equality_case": true
+        },
+        {
+          "t_exact": "1",
+          "imag_logit_exact": "1/5",
+          "row_modulus_sum": {
+            "arb_display_only": "[1.00502091840045542846511410131163581939665289709269343958 +/- 4.20e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717955",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717961",
+              "exponent_of_two": -191
+            }
+          },
+          "secant": {
+            "arb_display_only": "[1.00502091840045542846511410131163581939665289709269343958 +/- 4.28e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717955",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717959",
+              "exponent_of_two": -191
+            }
+          },
+          "identity_residual_encloses_zero": true,
+          "strict_comparison_or_exact_equality_case": true
+        },
+        {
+          "t_exact": "1",
+          "imag_logit_exact": "3/5",
+          "row_modulus_sum": {
+            "arb_display_only": "[1.04675160153808560093279084558703692841456893499327651132 +/- 3.48e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "205330196704172015719463183320179040728756645493455669539",
+              "exponent_of_two": -187
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "1642641573633376125755705466561432325830053163947645356315",
+              "exponent_of_two": -190
+            }
+          },
+          "secant": {
+            "arb_display_only": "[1.04675160153808560093279084558703692841456893499327651132 +/- 2.90e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "205330196704172015719463183320179040728756645493455669539",
+              "exponent_of_two": -187
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "821320786816688062877852733280716162915026581973822678157",
+              "exponent_of_two": -189
+            }
+          },
+          "identity_residual_encloses_zero": true,
+          "strict_comparison_or_exact_equality_case": true
+        },
+        {
+          "t_exact": "4",
+          "imag_logit_exact": "1/5",
+          "row_modulus_sum": {
+            "arb_display_only": "[1.00320468701194913343661306969340186517095606594600933506 +/- 4.97e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3148608940895378912942067480023765801075427367192151523381",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3148608940895378912942067480023765801075427367192151523387",
+              "exponent_of_two": -191
+            }
+          },
+          "secant": {
+            "arb_display_only": "[1.00502091840045542846511410131163581939665289709269343958 +/- 4.28e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717955",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3154309275495707225603285405322086517463157538857895717959",
+              "exponent_of_two": -191
+            }
+          },
+          "identity_residual_encloses_zero": true,
+          "strict_comparison_or_exact_equality_case": true
+        },
+        {
+          "t_exact": "4",
+          "imag_logit_exact": "3/5",
+          "row_modulus_sum": {
+            "arb_display_only": "[1.02917517017580533752998100496504222177982947177523898473 +/- 5.83e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "3230118623363715090078056677349782002902128007801716486463",
+              "exponent_of_two": -191
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "3230118623363715090078056677349782002902128007801716486469",
+              "exponent_of_two": -191
+            }
+          },
+          "secant": {
+            "arb_display_only": "[1.04675160153808560093279084558703692841456893499327651132 +/- 2.90e-57]",
+            "lower_exact_dyadic": {
+              "mantissa": "205330196704172015719463183320179040728756645493455669539",
+              "exponent_of_two": -187
+            },
+            "upper_exact_dyadic": {
+              "mantissa": "821320786816688062877852733280716162915026581973822678157",
+              "exponent_of_two": -189
+            }
+          },
+          "identity_residual_encloses_zero": true,
+          "strict_comparison_or_exact_equality_case": true
+        }
+      ]
+    },
+    {
+      "test": "zero_loading_gaussian_alias_and_endpoint_tail",
+      "status": "passed",
+      "h": "1",
+      "L": "3",
+      "N": 3,
+      "first_omitted_index": 4,
+      "alias_exact_upper": {
+        "arb_display_only": "[1.070115199292562206570866070653654437717241788112e-8 +/- 2.87e-57]",
+        "lower_exact_dyadic": {
+          "mantissa": "563481419934272561578552142971280390267379024183284465657",
+          "exponent_of_two": -215
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "563481419934272561578552142971280390267379024183452237831",
+          "exponent_of_two": -215
+        }
+      },
+      "alias_analytic_bound": {
+        "arb_display_only": "[0.0203809921690438885641701744653669119615989407387658257990 +/- 6.54e-59]",
+        "lower_exact_dyadic": {
+          "mantissa": "63966780656603871908478197235826397847467881732428748503",
+          "exponent_of_two": -191
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "2046936981011323901071302311546444731118972215437719952105",
+          "exponent_of_two": -196
+        }
+      },
+      "discrete_axis_tail_upper": {
+        "arb_display_only": "[0.00027064606060448636053981046307571643789152981523976254098 +/- 6.27e-60]",
+        "lower_exact_dyadic": {
+          "mantissa": "3479291610513387741126594429637449470605999377048567973961",
+          "exponent_of_two": -203
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3479291610513387741126594429637449470605999377048567974001",
+          "exponent_of_two": -203
+        }
+      },
+      "Mills_L_bound": {
+        "arb_display_only": "[0.00295456560795867145040156846408067416211248786956069550483 +/- 5.02e-60]",
+        "lower_exact_dyadic": {
+          "mantissa": "296737742480498880891185031789034662134002821229793543555",
+          "exponent_of_two": -196
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "593475484960997761782370063578069324268005642459587087111",
+          "exponent_of_two": -197
+        }
+      },
+      "all_strict_comparisons": true,
+      "PMF_evaluations": 0
+    }
+  ],
+  "source_sha256": {
+    "script/certified_teacher_bounds.py": "8eff1603093a42c90b39e424fbbf112d9125c44d94395ab8ca67fd4635719cfd",
+    "script/certified_teacher_bounds_test.py": "442091d2cff57d2e2e038783ef2c0e8c6649350693b75b9a4f7e522ec1a23a45",
+    "docs/08_research_研究工作/CertifiedTeacher_v1_20261008/QUADRATURE_PROOF.md": "870b3e5a2bc102d30be1de486b6bb2118f1e634791ad43b755726fa1264c5ab5"
+  },
+  "real_PMF_computed": false,
+  "scientific_data_reads": 0,
+  "random_draws": 0,
+  "acb_integral_calls": 0,
+  "finite_sum_arithmetic_certified": false,
+  "scientific_execution_frozen": false,
+  "unclosed": [
+    "certified PMF finite-sum arithmetic",
+    "later consumption of a PMF enclosure"
+  ]
+}

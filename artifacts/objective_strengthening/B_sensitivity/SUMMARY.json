@@ -1,0 +1,104 @@
+{
+  "post_hoc": true,
+  "family_alpha": 0.05,
+  "family_size": 1083,
+  "probability_statement": "simultaneously for all 3 B and 361 categories, p_Bj >= l_Bj with at least 95 percent binomial-model coverage",
+  "expected_risk_statement": "three lower bounds for fixed published risk tables, conditional on the frozen population-weight selection procedure",
+  "raw_reference_negative_count": 1,
+  "raw_reference_minimum": -1.7763568394002505e-15,
+  "reference_margin": 1e-07,
+  "reference_margin_is_not_certified_integration_error": true,
+  "margin_table_not_claimed_pointwise_below_signed_raw_table": true,
+  "true_Gaussian_KL_interpretation_requires_unverified_uniform_reference_error_bound": true,
+  "original_B_primary_gates_unchanged": true,
+  "not_preregistered_confirmation": true,
+  "not_combined_with_old_t_families_or_all_research_95percent": true,
+  "maximum_tail_absolute_error": 6.776263578034403e-20,
+  "maximum_tail_relative_error": 1.4677386910022514e-15,
+  "k16_closed_form_max_error": 0.0,
+  "aggregates": [
+    {
+      "B": 64,
+      "n": 16,
+      "sum_probability_lowers": 0.2675056618619297,
+      "remaining_probability_mass_upper": 0.7324943381380703,
+      "nonzero_selection_categories": [
+        {
+          "index": 59,
+          "u": 1.5,
+          "v": 1.0,
+          "count": 4,
+          "probability_lower": 0.013022019306889912
+        },
+        {
+          "index": 60,
+          "u": 1.5,
+          "v": 1.5,
+          "count": 12,
+          "probability_lower": 0.2544836425550398
+        }
+      ],
+      "raw_reference_minimum": -1.7763568394002505e-15,
+      "sum_l_times_raw_reference_not_standalone_bound": 0.004795789252667777,
+      "signed_raw_reference_expectation_lower": 0.004795789252666475,
+      "signed_shift_correction": -1.301171327373521e-15,
+      "margin_truncated_table_expectation_lower": 0.004795762502101591,
+      "empirical_mean_raw_reference_risk": 0.019495803639080656,
+      "empirical_mean_margin_table_risk": 0.019495703639080656
+    },
+    {
+      "B": 256,
+      "n": 16,
+      "sum_probability_lowers": 0.44280604800508755,
+      "remaining_probability_mass_upper": 0.5571939519949125,
+      "nonzero_selection_categories": [
+        {
+          "index": 59,
+          "u": 1.5,
+          "v": 1.0,
+          "count": 1,
+          "probability_lower": 2.8855656795923798e-06
+        },
+        {
+          "index": 60,
+          "u": 1.5,
+          "v": 1.5,
+          "count": 15,
+          "probability_lower": 0.442803162439408
+        }
+      ],
+      "raw_reference_minimum": -1.7763568394002505e-15,
+      "sum_l_times_raw_reference_not_standalone_bound": 0.007770676030385668,
+      "signed_raw_reference_expectation_lower": 0.007770676030384678,
+      "signed_shift_correction": -9.897752874986177e-16,
+      "margin_truncated_table_expectation_lower": 0.007770631749780868,
+      "empirical_mean_raw_reference_risk": 0.018035447220012157,
+      "empirical_mean_margin_table_risk": 0.018035347220012158
+    },
+    {
+      "B": 1024,
+      "n": 16,
+      "sum_probability_lowers": 0.5358229939951162,
+      "remaining_probability_mass_upper": 0.46417700600488376,
+      "nonzero_selection_categories": [
+        {
+          "index": 60,
+          "u": 1.5,
+          "v": 1.5,
+          "count": 16,
+          "probability_lower": 0.5358229939951162
+        }
+      ],
+      "raw_reference_minimum": -1.7763568394002505e-15,
+      "sum_l_times_raw_reference_not_standalone_bound": 0.009402976477879387,
+      "signed_raw_reference_expectation_lower": 0.009402976477878562,
+      "signed_shift_correction": -8.245439993091064e-16,
+      "margin_truncated_table_expectation_lower": 0.009402922895579988,
+      "empirical_mean_raw_reference_risk": 0.017548661746989325,
+      "empirical_mean_margin_table_risk": 0.017548561746989325
+    }
+  ],
+  "new_samples": 0,
+  "new_fits": 0,
+  "new_integrals": 0
+}

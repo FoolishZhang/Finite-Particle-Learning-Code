@@ -1,0 +1,7127 @@
+{
+  "status": "passed",
+  "code_sha256": "7fafe218924cce508f0882ef00b53b7c755eecd686ceb441f3e16c03ed7b0ff3",
+  "protocol_sha256": "aad6e55d1d1111eddb23e380d47f2ef896146dd6d7c43daaee13391ccbfab216",
+  "input_sha256": {
+    "artifacts/finite_calibration/ENDPOINT_DIAGNOSTIC/PROTOCOL.json": "c0cd52312bf972e81e64fce6d13849d26c647bdc20d37deb540b07d422de9ad8",
+    "artifacts/finite_calibration/ENDPOINT_DIAGNOSTIC/RESULTS.json": "83f86037eb00f3e9a236526e7a71178f508bd53509f7e4fe2f26be4be4067e96",
+    "artifacts/finite_calibration/TRAIN/RESULTS.json": "c748756e4ea6870d880c4333db5440a208b2c7444a2683e4f3bcd7487f0d1ea1",
+    "artifacts/finite_calibration/CAL/MODEL.json": "ea73bb0b2ded95a15bbc27c020a3d8f26aa2041df8bc1276c0689f103255fe3c",
+    "script/fincal_endpoint_diagnostic.py": "58eac80421331c5b40318e940a73b3ee60cbf0c9bc595dfd9d1a7c5e13d7d2f1"
+  },
+  "elapsed_seconds": 0.5404832999920473,
+  "numerical_comparisons": [
+    {
+      "name": "finite endpoint penalty difference",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5167314006376056e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (0, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (0, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (0, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (0, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (0, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (0, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (0, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (0, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (0, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (0, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (0, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (0, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (1, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (1, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (1, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (1, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (1, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (1, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (1, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (1, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (1, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (1, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (1, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (1, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (2, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (2, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (2, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (2, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (2, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (2, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (2, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (2, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (2, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (2, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (2, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (2, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (3, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (3, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (3, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (3, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (3, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (3, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (3, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (3, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (3, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (3, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (3, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (3, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (4, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (4, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (4, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (4, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (4, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (4, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (4, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (4, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (4, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (4, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (4, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (4, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (5, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (5, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (5, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (5, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (5, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (5, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (5, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (5, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (5, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (5, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (5, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (5, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (6, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (6, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (6, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (6, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (6, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (6, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (6, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (6, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (6, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (6, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (6, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (6, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (7, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (7, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (7, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (7, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (7, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (7, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (7, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (7, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (7, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (7, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (7, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (7, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (8, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (8, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (8, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (8, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (8, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (8, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (8, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (8, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (8, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (8, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (8, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (8, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (9, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (9, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (9, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (9, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (9, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (9, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (9, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (9, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (9, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (9, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (9, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (9, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (10, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (10, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (10, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (10, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (10, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (10, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (10, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (10, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (10, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (10, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (10, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (10, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (11, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (11, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (11, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (11, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (11, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (11, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (11, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (11, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (11, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (11, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (11, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (11, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (12, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (12, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (12, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (12, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (12, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (12, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (12, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (12, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (12, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (12, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (12, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (12, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (13, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (13, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (13, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (13, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (13, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (13, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (13, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (13, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (13, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (13, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (13, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (13, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (14, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (14, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (14, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (14, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (14, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (14, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (14, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (14, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (14, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (14, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (14, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (14, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (15, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (15, 0.0, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (15, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (15, 0.0, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (15, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (15, 0.3, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (15, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (15, 0.3, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (15, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (15, 0.6, 1024)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "endpoint gap (15, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "rational endpoint gap (15, 0.6, 4096)",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    }
+  ],
+  "exact_checks": [
+    {
+      "name": "producer source",
+      "passed": true
+    },
+    {
+      "name": "target source",
+      "passed": true
+    },
+    {
+      "name": "target protocol",
+      "passed": true
+    },
+    {
+      "name": "input artifacts/finite_calibration/TRAIN/RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "input artifacts/finite_calibration/CAL/MODEL.json",
+      "passed": true
+    },
+    {
+      "name": "posthoc",
+      "passed": true
+    },
+    {
+      "name": "no new test",
+      "passed": true
+    },
+    {
+      "name": "no causal percentage",
+      "passed": true
+    },
+    {
+      "name": "finite parity below original near-tie threshold",
+      "passed": true
+    },
+    {
+      "name": "npz 0",
+      "passed": true
+    },
+    {
+      "name": "pair sum (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (0, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (0, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (0, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (0, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (0, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (0, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 1",
+      "passed": true
+    },
+    {
+      "name": "pair sum (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (1, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (1, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (1, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (1, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (1, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (1, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 2",
+      "passed": true
+    },
+    {
+      "name": "pair sum (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (2, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (2, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (2, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (2, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (2, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (2, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 3",
+      "passed": true
+    },
+    {
+      "name": "pair sum (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (3, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (3, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (3, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (3, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (3, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (3, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 4",
+      "passed": true
+    },
+    {
+      "name": "pair sum (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (4, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (4, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (4, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (4, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (4, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (4, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 5",
+      "passed": true
+    },
+    {
+      "name": "pair sum (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (5, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (5, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (5, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (5, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (5, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (5, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 6",
+      "passed": true
+    },
+    {
+      "name": "pair sum (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (6, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (6, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (6, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (6, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (6, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (6, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 7",
+      "passed": true
+    },
+    {
+      "name": "pair sum (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (7, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (7, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (7, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (7, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (7, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (7, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 8",
+      "passed": true
+    },
+    {
+      "name": "pair sum (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (8, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (8, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (8, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (8, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (8, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (8, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 9",
+      "passed": true
+    },
+    {
+      "name": "pair sum (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (9, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (9, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (9, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (9, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (9, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (9, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 10",
+      "passed": true
+    },
+    {
+      "name": "pair sum (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (10, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (10, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (10, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (10, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (10, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (10, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 11",
+      "passed": true
+    },
+    {
+      "name": "pair sum (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (11, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (11, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (11, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (11, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (11, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (11, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 12",
+      "passed": true
+    },
+    {
+      "name": "pair sum (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (12, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (12, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (12, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (12, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (12, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (12, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 13",
+      "passed": true
+    },
+    {
+      "name": "pair sum (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (13, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (13, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (13, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (13, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (13, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (13, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 14",
+      "passed": true
+    },
+    {
+      "name": "pair sum (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (14, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (14, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (14, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (14, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (14, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (14, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "npz 15",
+      "passed": true
+    },
+    {
+      "name": "pair sum (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (15, 0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (15, 0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (15, 0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (15, 0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "opposite (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (15, 0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "pair sum (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "pair ratio (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "TRAIN pair (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expected sign (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "actual sign (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "opposite (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "expectation tie (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "numeric tie (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "raw rho (15, 0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "summary (0.0, 1024)",
+      "passed": true
+    },
+    {
+      "name": "summary (0.0, 4096)",
+      "passed": true
+    },
+    {
+      "name": "summary (0.3, 1024)",
+      "passed": true
+    },
+    {
+      "name": "summary (0.3, 4096)",
+      "passed": true
+    },
+    {
+      "name": "summary (0.6, 1024)",
+      "passed": true
+    },
+    {
+      "name": "summary (0.6, 4096)",
+      "passed": true
+    },
+    {
+      "name": "96 rows",
+      "passed": true
+    },
+    {
+      "name": "six summaries",
+      "passed": true
+    }
+  ],
+  "numerical_failures": 0,
+  "exact_failures": 0,
+  "npz_inputs": [
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_00.npz",
+      "sha256": "d1a4f98df65f02844b22521786b057c1597de6741f229430dce86f299a480ac2"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_01.npz",
+      "sha256": "6523288cce1fd285f9adec22ea5a066d686b29eaba8c84f783928cbb652d2484"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_02.npz",
+      "sha256": "f9857ee1f4645ad7eb19462241c65356f0393a8ce1fd557b52c41428e797b260"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_03.npz",
+      "sha256": "78cc3faf07f02c7e6ac9bb7522b02871787f7fd26be0626ebceb9f7109a24ab4"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_04.npz",
+      "sha256": "9c2be63937fdde14fbcc9a225d3b1c8a0c22919770190cfef233ca82f7243ec3"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_05.npz",
+      "sha256": "74809b761e92d442f83aa5e91d19c3ba87885502d96d0ee9b47dfb63a73bd6b9"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_06.npz",
+      "sha256": "6dac777c1912f8ecea47a0be3611b7df765d4df7354b288457ab962b32b78ed7"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_07.npz",
+      "sha256": "10feb1257517d74aaee99c692189ab29f4d84c59d425559d7681d22cec053c24"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_08.npz",
+      "sha256": "6148705c252bab1402a1830994ab71b82ed1d38a1f7caf3ef84e2ccfb5b8f00c"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_09.npz",
+      "sha256": "5f9c0972eb20c45566c999dcda543817ec19f357e38c787fdea949d5cd0f8956"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_10.npz",
+      "sha256": "2f36ce6a72bcc52dc39f66fe38de7768b04d3839653f0326be3ac45555a05c8a"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_11.npz",
+      "sha256": "2cb37320451b3449865fca26420e1e60de72de711d4a9a8741e83c28d5011bad"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_12.npz",
+      "sha256": "19fd0ae6f95dab72060691885de0d312f2e9fa43f9b2ae6c9ebb24a0dfe2f30b"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_13.npz",
+      "sha256": "05acfbf7cba0f686ca06d62bbc0dabd2b83bf86a3b890a55d8ee3bec7889fbb6"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_14.npz",
+      "sha256": "37b5d16afc52a0a5e1ea5e537d51629f8cf43f3d40696ef4f711c477738a2fbe"
+    },
+    {
+      "file": "artifacts/finite_calibration/TRAIN/stream_15.npz",
+      "sha256": "5236b353a2bc3fc757743c027c2628e8e185c67435c28c298a778675932446da"
+    }
+  ],
+  "rows": [
+    {
+      "stream": 0,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -12,
+      "t_N": -0.01171875,
+      "independent_raw_gap": 0.0036478534339935177,
+      "exact_stored_score_gap": {
+        "numerator": "1051422167426265",
+        "denominator": "288230376151711744",
+        "float_value": 0.0036478534339935177
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 0,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -20,
+      "t_N": -0.0048828125,
+      "independent_raw_gap": 0.0022966035778191974,
+      "exact_stored_score_gap": {
+        "numerator": "2647803652424777",
+        "denominator": "1152921504606846976",
+        "float_value": 0.0022966035778191974
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 0,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 50,
+      "t_N": 0.048828125,
+      "independent_raw_gap": -0.0048002734622726705,
+      "exact_stored_score_gap": {
+        "numerator": "-2767169251323863",
+        "denominator": "576460752303423488",
+        "float_value": -0.0048002734622726705
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 0,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 204,
+      "t_N": 0.0498046875,
+      "independent_raw_gap": -0.004148265962409039,
+      "exact_stored_score_gap": {
+        "numerator": "-4782625034889999",
+        "denominator": "1152921504606846976",
+        "float_value": -0.004148265962409039
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 0,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 114,
+      "t_N": 0.111328125,
+      "independent_raw_gap": -0.01326947371163393,
+      "exact_stored_score_gap": {
+        "numerator": "-15298661596957993",
+        "denominator": "1152921504606846976",
+        "float_value": -0.01326947371163393
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 0,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 454,
+      "t_N": 0.11083984375,
+      "independent_raw_gap": -0.011876797264316515,
+      "exact_stored_score_gap": {
+        "numerator": "-1711626871485785",
+        "denominator": "144115188075855872",
+        "float_value": -0.011876797264316515
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 1,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 2,
+      "t_N": 0.001953125,
+      "independent_raw_gap": 8.732156411171352e-05,
+      "exact_stored_score_gap": {
+        "numerator": "25168727270075",
+        "denominator": "288230376151711744",
+        "float_value": 8.732156411171352e-05
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 1,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -78,
+      "t_N": -0.01904296875,
+      "independent_raw_gap": 0.003416153673778893,
+      "exact_stored_score_gap": {
+        "numerator": "3938557033541369",
+        "denominator": "1152921504606846976",
+        "float_value": 0.003416153673778893
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 1,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 42,
+      "t_N": 0.041015625,
+      "independent_raw_gap": -0.005060556102567294,
+      "exact_stored_score_gap": {
+        "numerator": "-2917211977959623",
+        "denominator": "576460752303423488",
+        "float_value": -0.005060556102567294
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 1,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 140,
+      "t_N": 0.0341796875,
+      "independent_raw_gap": -0.0025985015554812673,
+      "exact_stored_score_gap": {
+        "numerator": "-2995868323068695",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0025985015554812673
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 1,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 96,
+      "t_N": 0.09375,
+      "independent_raw_gap": -0.01160616225673912,
+      "exact_stored_score_gap": {
+        "numerator": "-13380994051750863",
+        "denominator": "1152921504606846976",
+        "float_value": -0.01160616225673912
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 1,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 382,
+      "t_N": 0.09326171875,
+      "independent_raw_gap": -0.00967884387498679,
+      "exact_stored_score_gap": {
+        "numerator": "-11158947243204537",
+        "denominator": "1152921504606846976",
+        "float_value": -0.00967884387498679
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 2,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -36,
+      "t_N": -0.03515625,
+      "independent_raw_gap": 0.00480443363280601,
+      "exact_stored_score_gap": {
+        "numerator": "5539134852718445",
+        "denominator": "1152921504606846976",
+        "float_value": 0.00480443363280601
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 2,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 36,
+      "t_N": 0.0087890625,
+      "independent_raw_gap": -0.0003602272317261212,
+      "exact_stored_score_gap": {
+        "numerator": "-415313722002039",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0003602272317261212
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 2,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 26,
+      "t_N": 0.025390625,
+      "independent_raw_gap": -0.00302159124938604,
+      "exact_stored_score_gap": {
+        "numerator": "-870914382387259",
+        "denominator": "288230376151711744",
+        "float_value": -0.00302159124938604
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 2,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 222,
+      "t_N": 0.05419921875,
+      "independent_raw_gap": -0.005924960617876854,
+      "exact_stored_score_gap": {
+        "numerator": "-426938406893681",
+        "denominator": "72057594037927936",
+        "float_value": -0.005924960617876854
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 2,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 96,
+      "t_N": 0.09375,
+      "independent_raw_gap": -0.011526112616800858,
+      "exact_stored_score_gap": {
+        "numerator": "-1661087887553751",
+        "denominator": "144115188075855872",
+        "float_value": -0.011526112616800858
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 2,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 438,
+      "t_N": 0.10693359375,
+      "independent_raw_gap": -0.01243615666440822,
+      "exact_stored_score_gap": {
+        "numerator": "-1792239056631999",
+        "denominator": "144115188075855872",
+        "float_value": -0.01243615666440822
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 3,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 44,
+      "t_N": 0.04296875,
+      "independent_raw_gap": -0.005096103314554768,
+      "exact_stored_score_gap": {
+        "numerator": "-5875407101048423",
+        "denominator": "1152921504606846976",
+        "float_value": -0.005096103314554768
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 3,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 74,
+      "t_N": 0.01806640625,
+      "independent_raw_gap": -0.0021234596290506946,
+      "exact_stored_score_gap": {
+        "numerator": "-9563211994129",
+        "denominator": "4503599627370496",
+        "float_value": -0.0021234596290506946
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 3,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 102,
+      "t_N": 0.099609375,
+      "independent_raw_gap": -0.010666174097874317,
+      "exact_stored_score_gap": {
+        "numerator": "-12297261489319835",
+        "denominator": "1152921504606846976",
+        "float_value": -0.010666174097874317
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 3,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 300,
+      "t_N": 0.0732421875,
+      "independent_raw_gap": -0.008190880720437799,
+      "exact_stored_score_gap": {
+        "numerator": "-4721721262131181",
+        "denominator": "576460752303423488",
+        "float_value": -0.008190880720437799
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 3,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 166,
+      "t_N": 0.162109375,
+      "independent_raw_gap": -0.018984778280056763,
+      "exact_stored_score_gap": {
+        "numerator": "-21887959139270433",
+        "denominator": "1152921504606846976",
+        "float_value": -0.018984778280056763
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 3,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 474,
+      "t_N": 0.11572265625,
+      "independent_raw_gap": -0.013358085486861999,
+      "exact_stored_score_gap": {
+        "numerator": "-7700412009089911",
+        "denominator": "576460752303423488",
+        "float_value": -0.013358085486861999
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 4,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -12,
+      "t_N": -0.01171875,
+      "independent_raw_gap": 0.00039820465762432835,
+      "exact_stored_score_gap": {
+        "numerator": "459098713009695",
+        "denominator": "1152921504606846976",
+        "float_value": 0.00039820465762432835
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 4,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 42,
+      "t_N": 0.01025390625,
+      "independent_raw_gap": -0.0011048441073875379,
+      "exact_stored_score_gap": {
+        "numerator": "-1273798530645249",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0011048441073875379
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 4,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 62,
+      "t_N": 0.060546875,
+      "independent_raw_gap": -0.006797473921751746,
+      "exact_stored_score_gap": {
+        "numerator": "-1959238465347957",
+        "denominator": "288230376151711744",
+        "float_value": -0.006797473921751746
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 4,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 252,
+      "t_N": 0.0615234375,
+      "independent_raw_gap": -0.006427399170501766,
+      "exact_stored_score_gap": {
+        "numerator": "-463142920147731",
+        "denominator": "72057594037927936",
+        "float_value": -0.006427399170501766
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 4,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 100,
+      "t_N": 0.09765625,
+      "independent_raw_gap": -0.010397985070894861,
+      "exact_stored_score_gap": {
+        "numerator": "-11988060592815637",
+        "denominator": "1152921504606846976",
+        "float_value": -0.010397985070894861
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 4,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 444,
+      "t_N": 0.1083984375,
+      "independent_raw_gap": -0.011611422935359376,
+      "exact_stored_score_gap": {
+        "numerator": "-1673382400157623",
+        "denominator": "144115188075855872",
+        "float_value": -0.011611422935359376
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 5,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 0,
+      "t_N": 0.0,
+      "independent_raw_gap": -0.0011760858381462775,
+      "exact_stored_score_gap": {
+        "numerator": "-1355934654062411",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0011760858381462775
+      },
+      "expected_conditional_gap_sign": 0,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": true,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 5,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 60,
+      "t_N": 0.0146484375,
+      "independent_raw_gap": -0.002632837528696823,
+      "exact_stored_score_gap": {
+        "numerator": "-1517727502485257",
+        "denominator": "576460752303423488",
+        "float_value": -0.002632837528696823
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 5,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 86,
+      "t_N": 0.083984375,
+      "independent_raw_gap": -0.011497529011811374,
+      "exact_stored_score_gap": {
+        "numerator": "-13255748447558445",
+        "denominator": "1152921504606846976",
+        "float_value": -0.011497529011811374
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 5,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 304,
+      "t_N": 0.07421875,
+      "independent_raw_gap": -0.00933501199544395,
+      "exact_stored_score_gap": {
+        "numerator": "-10762536075310205",
+        "denominator": "1152921504606846976",
+        "float_value": -0.00933501199544395
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 5,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 152,
+      "t_N": 0.1484375,
+      "independent_raw_gap": -0.019116189780653502,
+      "exact_stored_score_gap": {
+        "numerator": "-22039466284261069",
+        "denominator": "1152921504606846976",
+        "float_value": -0.019116189780653502
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 5,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 524,
+      "t_N": 0.1279296875,
+      "independent_raw_gap": -0.01605477455163167,
+      "exact_stored_score_gap": {
+        "numerator": "-2313736854023863",
+        "denominator": "144115188075855872",
+        "float_value": -0.01605477455163167
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 6,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 76,
+      "t_N": 0.07421875,
+      "independent_raw_gap": -0.007301720646272283,
+      "exact_stored_score_gap": {
+        "numerator": "-526144422107445",
+        "denominator": "72057594037927936",
+        "float_value": -0.007301720646272283
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 6,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 128,
+      "t_N": 0.03125,
+      "independent_raw_gap": -0.0032477028362306506,
+      "exact_stored_score_gap": {
+        "numerator": "-1872173220231483",
+        "denominator": "576460752303423488",
+        "float_value": -0.0032477028362306506
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 6,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 132,
+      "t_N": 0.12890625,
+      "independent_raw_gap": -0.012642365524052773,
+      "exact_stored_score_gap": {
+        "numerator": "-14575655081780651",
+        "denominator": "1152921504606846976",
+        "float_value": -0.012642365524052773
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 6,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 332,
+      "t_N": 0.0810546875,
+      "independent_raw_gap": -0.00928584307023165,
+      "exact_stored_score_gap": {
+        "numerator": "-5352924082037269",
+        "denominator": "576460752303423488",
+        "float_value": -0.00928584307023165
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 6,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 184,
+      "t_N": 0.1796875,
+      "independent_raw_gap": -0.019263584756661598,
+      "exact_stored_score_gap": {
+        "numerator": "-22209401121771813",
+        "denominator": "1152921504606846976",
+        "float_value": -0.019263584756661598
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 6,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 550,
+      "t_N": 0.13427734375,
+      "independent_raw_gap": -0.015229399454789284,
+      "exact_stored_score_gap": {
+        "numerator": "-17558302133674357",
+        "denominator": "1152921504606846976",
+        "float_value": -0.015229399454789284
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 7,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -58,
+      "t_N": -0.056640625,
+      "independent_raw_gap": 0.0066296944896208675,
+      "exact_stored_score_gap": {
+        "numerator": "7643517346057413",
+        "denominator": "1152921504606846976",
+        "float_value": 0.0066296944896208675
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 7,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -238,
+      "t_N": -0.05810546875,
+      "independent_raw_gap": 0.00785949349610249,
+      "exact_stored_score_gap": {
+        "numerator": "4530689533487105",
+        "denominator": "576460752303423488",
+        "float_value": 0.00785949349610249
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 7,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": -4,
+      "t_N": -0.00390625,
+      "independent_raw_gap": 0.0007297308693350263,
+      "exact_stored_score_gap": {
+        "numerator": "841322411831801",
+        "denominator": "1152921504606846976",
+        "float_value": 0.0007297308693350263
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 7,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": -24,
+      "t_N": -0.005859375,
+      "independent_raw_gap": 0.0017715791114830473,
+      "exact_stored_score_gap": {
+        "numerator": "255311456842637",
+        "denominator": "144115188075855872",
+        "float_value": 0.0017715791114830473
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 7,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 66,
+      "t_N": 0.064453125,
+      "independent_raw_gap": -0.00825936724787843,
+      "exact_stored_score_gap": {
+        "numerator": "-9522402114524511",
+        "denominator": "1152921504606846976",
+        "float_value": -0.00825936724787843
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 7,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 206,
+      "t_N": 0.05029296875,
+      "independent_raw_gap": -0.0050481767291668915,
+      "exact_stored_score_gap": {
+        "numerator": "-1455037877528091",
+        "denominator": "288230376151711744",
+        "float_value": -0.0050481767291668915
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 8,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -12,
+      "t_N": -0.01171875,
+      "independent_raw_gap": 0.0030016758525695277,
+      "exact_stored_score_gap": {
+        "numerator": "865174160071625",
+        "denominator": "288230376151711744",
+        "float_value": 0.0030016758525695277
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 8,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 34,
+      "t_N": 0.00830078125,
+      "independent_raw_gap": -0.0011747122930191502,
+      "exact_stored_score_gap": {
+        "numerator": "-677175532173899",
+        "denominator": "576460752303423488",
+        "float_value": -0.0011747122930191502
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 8,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 10,
+      "t_N": 0.009765625,
+      "independent_raw_gap": 0.0010121547667603526,
+      "exact_stored_score_gap": {
+        "numerator": "583467498294169",
+        "denominator": "576460752303423488",
+        "float_value": 0.0010121547667603526
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 8,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 212,
+      "t_N": 0.0517578125,
+      "independent_raw_gap": -0.005759935898224124,
+      "exact_stored_score_gap": {
+        "numerator": "-1660188490554887",
+        "denominator": "288230376151711744",
+        "float_value": -0.005759935898224124
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 8,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 56,
+      "t_N": 0.0546875,
+      "independent_raw_gap": -0.004339738611284926,
+      "exact_stored_score_gap": {
+        "numerator": "-2501688984661523",
+        "denominator": "576460752303423488",
+        "float_value": -0.004339738611284926
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 8,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 398,
+      "t_N": 0.09716796875,
+      "independent_raw_gap": -0.011483136723062004,
+      "exact_stored_score_gap": {
+        "numerator": "-103430900534053",
+        "denominator": "9007199254740992",
+        "float_value": -0.011483136723062004
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 9,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -20,
+      "t_N": -0.01953125,
+      "independent_raw_gap": 0.00116160829862206,
+      "exact_stored_score_gap": {
+        "numerator": "1339243187411145",
+        "denominator": "1152921504606846976",
+        "float_value": 0.00116160829862206
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 9,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -110,
+      "t_N": -0.02685546875,
+      "independent_raw_gap": 0.002380371222638962,
+      "exact_stored_score_gap": {
+        "numerator": "343047646440969",
+        "denominator": "144115188075855872",
+        "float_value": 0.002380371222638962
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 9,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 48,
+      "t_N": 0.046875,
+      "independent_raw_gap": -0.007176148758852525,
+      "exact_stored_score_gap": {
+        "numerator": "-8273536224338811",
+        "denominator": "1152921504606846976",
+        "float_value": -0.007176148758852525
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 9,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 128,
+      "t_N": 0.03125,
+      "independent_raw_gap": -0.004264874877828225,
+      "exact_stored_score_gap": {
+        "numerator": "-1229266490276415",
+        "denominator": "288230376151711744",
+        "float_value": -0.004264874877828225
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 9,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 86,
+      "t_N": 0.083984375,
+      "independent_raw_gap": -0.012230466247225336,
+      "exact_stored_score_gap": {
+        "numerator": "-14100767547794291",
+        "denominator": "1152921504606846976",
+        "float_value": -0.012230466247225336
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 9,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 366,
+      "t_N": 0.08935546875,
+      "independent_raw_gap": -0.011233303286831869,
+      "exact_stored_score_gap": {
+        "numerator": "-6475558463579619",
+        "denominator": "576460752303423488",
+        "float_value": -0.011233303286831869
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 10,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -34,
+      "t_N": -0.033203125,
+      "independent_raw_gap": 0.0016973586423112948,
+      "exact_stored_score_gap": {
+        "numerator": "1956921279750973",
+        "denominator": "1152921504606846976",
+        "float_value": 0.0016973586423112948
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 10,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -18,
+      "t_N": -0.00439453125,
+      "independent_raw_gap": 0.00017261466893335638,
+      "exact_stored_score_gap": {
+        "numerator": "99505581911929",
+        "denominator": "576460752303423488",
+        "float_value": 0.00017261466893335638
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 10,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 22,
+      "t_N": 0.021484375,
+      "independent_raw_gap": -0.004494122826255893,
+      "exact_stored_score_gap": {
+        "numerator": "-647671356341865",
+        "denominator": "144115188075855872",
+        "float_value": -0.004494122826255893
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 10,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 228,
+      "t_N": 0.0556640625,
+      "independent_raw_gap": -0.006835679094422533,
+      "exact_stored_score_gap": {
+        "numerator": "-1970250356637799",
+        "denominator": "288230376151711744",
+        "float_value": -0.006835679094422533
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 10,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 62,
+      "t_N": 0.060546875,
+      "independent_raw_gap": -0.008488354060981227,
+      "exact_stored_score_gap": {
+        "numerator": "-9786405935622117",
+        "denominator": "1152921504606846976",
+        "float_value": -0.008488354060981227
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 10,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 428,
+      "t_N": 0.1044921875,
+      "independent_raw_gap": -0.012165362222639205,
+      "exact_stored_score_gap": {
+        "numerator": "-1753213464726561",
+        "denominator": "144115188075855872",
+        "float_value": -0.012165362222639205
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 11,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 28,
+      "t_N": 0.02734375,
+      "independent_raw_gap": -0.003168497342138937,
+      "exact_stored_score_gap": {
+        "numerator": "-3653028723041619",
+        "denominator": "1152921504606846976",
+        "float_value": -0.003168497342138937
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 11,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -42,
+      "t_N": -0.01025390625,
+      "independent_raw_gap": 0.0017168146596968827,
+      "exact_stored_score_gap": {
+        "numerator": "989676270294411",
+        "denominator": "576460752303423488",
+        "float_value": 0.0017168146596968827
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 11,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 70,
+      "t_N": 0.068359375,
+      "independent_raw_gap": -0.008099082566644688,
+      "exact_stored_score_gap": {
+        "numerator": "-4668803229335539",
+        "denominator": "576460752303423488",
+        "float_value": -0.008099082566644688
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 11,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 144,
+      "t_N": 0.03515625,
+      "independent_raw_gap": -0.004020969486171314,
+      "exact_stored_score_gap": {
+        "numerator": "-1158965547493713",
+        "denominator": "288230376151711744",
+        "float_value": -0.004020969486171314
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 11,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 120,
+      "t_N": 0.1171875,
+      "independent_raw_gap": -0.014323521281701466,
+      "exact_stored_score_gap": {
+        "numerator": "-16513895707367447",
+        "denominator": "1152921504606846976",
+        "float_value": -0.014323521281701466
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 11,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 382,
+      "t_N": 0.09326171875,
+      "independent_raw_gap": -0.01035968029731531,
+      "exact_stored_score_gap": {
+        "numerator": "-11943898195626677",
+        "denominator": "1152921504606846976",
+        "float_value": -0.01035968029731531
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 12,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 26,
+      "t_N": 0.025390625,
+      "independent_raw_gap": 0.002802148018610239,
+      "exact_stored_score_gap": {
+        "numerator": "807664177436803",
+        "denominator": "288230376151711744",
+        "float_value": 0.002802148018610239
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 12,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": 6,
+      "t_N": 0.00146484375,
+      "independent_raw_gap": 0.001224398297019323,
+      "exact_stored_score_gap": {
+        "numerator": "1411635126837579",
+        "denominator": "1152921504606846976",
+        "float_value": 0.001224398297019323
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 12,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 74,
+      "t_N": 0.072265625,
+      "independent_raw_gap": -0.00251660236633521,
+      "exact_stored_score_gap": {
+        "numerator": "-1450722493346171",
+        "denominator": "576460752303423488",
+        "float_value": -0.00251660236633521
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 12,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 206,
+      "t_N": 0.05029296875,
+      "independent_raw_gap": -0.0046013622997111555,
+      "exact_stored_score_gap": {
+        "numerator": "-5305009545824207",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0046013622997111555
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 12,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 128,
+      "t_N": 0.125,
+      "independent_raw_gap": -0.009146008068326692,
+      "exact_stored_score_gap": {
+        "numerator": "-10544629383281571",
+        "denominator": "1152921504606846976",
+        "float_value": -0.009146008068326692
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 12,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 452,
+      "t_N": 0.1103515625,
+      "independent_raw_gap": -0.011391553755549956,
+      "exact_stored_score_gap": {
+        "numerator": "-6566783647829217",
+        "denominator": "576460752303423488",
+        "float_value": -0.011391553755549956
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 13,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 8,
+      "t_N": 0.0078125,
+      "independent_raw_gap": 0.00035809533629304214,
+      "exact_stored_score_gap": {
+        "numerator": "412855813911669",
+        "denominator": "1152921504606846976",
+        "float_value": 0.00035809533629304214
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 13,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -24,
+      "t_N": -0.005859375,
+      "independent_raw_gap": 0.0009666668394236856,
+      "exact_stored_score_gap": {
+        "numerator": "1114490986961901",
+        "denominator": "1152921504606846976",
+        "float_value": 0.0009666668394236856
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 13,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 42,
+      "t_N": 0.041015625,
+      "independent_raw_gap": -0.003260569218482573,
+      "exact_stored_score_gap": {
+        "numerator": "-3759180369247699",
+        "denominator": "1152921504606846976",
+        "float_value": -0.003260569218482573
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 13,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 164,
+      "t_N": 0.0400390625,
+      "independent_raw_gap": -0.0041848962249992116,
+      "exact_stored_score_gap": {
+        "numerator": "-4824856852349605",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0041848962249992116
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 13,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 100,
+      "t_N": 0.09765625,
+      "independent_raw_gap": -0.010659521871848175,
+      "exact_stored_score_gap": {
+        "numerator": "-1536198999360099",
+        "denominator": "144115188075855872",
+        "float_value": -0.010659521871848175
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 13,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 362,
+      "t_N": 0.08837890625,
+      "independent_raw_gap": -0.010524882427666964,
+      "exact_stored_score_gap": {
+        "numerator": "-12134363284315961",
+        "denominator": "1152921504606846976",
+        "float_value": -0.010524882427666964
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 14,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": -4,
+      "t_N": -0.00390625,
+      "independent_raw_gap": -0.0002992971107802283,
+      "exact_stored_score_gap": {
+        "numerator": "-345066075285223",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0002992971107802283
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 14,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -22,
+      "t_N": -0.00537109375,
+      "independent_raw_gap": 5.765349043400803e-05,
+      "exact_stored_score_gap": {
+        "numerator": "66469948937013",
+        "denominator": "1152921504606846976",
+        "float_value": 5.765349043400803e-05
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 14,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 36,
+      "t_N": 0.03515625,
+      "independent_raw_gap": -0.005104359945785606,
+      "exact_stored_score_gap": {
+        "numerator": "-5884926348750065",
+        "denominator": "1152921504606846976",
+        "float_value": -0.005104359945785606
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 14,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 184,
+      "t_N": 0.044921875,
+      "independent_raw_gap": -0.005753137019605988,
+      "exact_stored_score_gap": {
+        "numerator": "-6632915388853487",
+        "denominator": "1152921504606846976",
+        "float_value": -0.005753137019605988
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 14,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 118,
+      "t_N": 0.115234375,
+      "independent_raw_gap": -0.014598677448168104,
+      "exact_stored_score_gap": {
+        "numerator": "-16831129168812017",
+        "denominator": "1152921504606846976",
+        "float_value": -0.014598677448168104
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 14,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 430,
+      "t_N": 0.10498046875,
+      "independent_raw_gap": -0.012566220376242616,
+      "exact_stored_score_gap": {
+        "numerator": "-14487865703398857",
+        "denominator": "1152921504606846976",
+        "float_value": -0.012566220376242616
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 15,
+      "theta": 0.0,
+      "N": 1024,
+      "pair_sum": 22,
+      "t_N": 0.021484375,
+      "independent_raw_gap": 0.00016402197972293156,
+      "exact_stored_score_gap": {
+        "numerator": "47276116912689",
+        "denominator": "288230376151711744",
+        "float_value": 0.00016402197972293156
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": true,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.571875
+    },
+    {
+      "stream": 15,
+      "theta": 0.0,
+      "N": 4096,
+      "pair_sum": -52,
+      "t_N": -0.0126953125,
+      "independent_raw_gap": 0.002631339983869025,
+      "exact_stored_score_gap": {
+        "numerator": "3033728453334433",
+        "denominator": "1152921504606846976",
+        "float_value": 0.002631339983869025
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    },
+    {
+      "stream": 15,
+      "theta": 0.3,
+      "N": 1024,
+      "pair_sum": 80,
+      "t_N": 0.078125,
+      "independent_raw_gap": -0.008038770191830875,
+      "exact_stored_score_gap": {
+        "numerator": "-9268071024754325",
+        "denominator": "1152921504606846976",
+        "float_value": -0.008038770191830875
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 15,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": 140,
+      "t_N": 0.0341796875,
+      "independent_raw_gap": -0.0031884905493579684,
+      "exact_stored_score_gap": {
+        "numerator": "-3676079321590501",
+        "denominator": "1152921504606846976",
+        "float_value": -0.0031884905493579684
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 15,
+      "theta": 0.6,
+      "N": 1024,
+      "pair_sum": 144,
+      "t_N": 0.140625,
+      "independent_raw_gap": -0.016774175585992198,
+      "exact_stored_score_gap": {
+        "numerator": "-19339307755141563",
+        "denominator": "1152921504606846976",
+        "float_value": -0.016774175585992198
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    },
+    {
+      "stream": 15,
+      "theta": 0.6,
+      "N": 4096,
+      "pair_sum": 378,
+      "t_N": 0.09228515625,
+      "independent_raw_gap": -0.010044560519717836,
+      "exact_stored_score_gap": {
+        "numerator": "-11580589827507619",
+        "denominator": "1152921504606846976",
+        "float_value": -0.010044560519717836
+      },
+      "expected_conditional_gap_sign": -1,
+      "actual_gap_sign": -1,
+      "finite_penalty_gap_sign": -1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": 0.75
+    }
+  ],
+  "summary": [
+    {
+      "theta": 0.0,
+      "N": 1024,
+      "opposite_count": 5,
+      "expectation_ties": 1,
+      "numeric_ties": 0
+    },
+    {
+      "theta": 0.0,
+      "N": 4096,
+      "opposite_count": 1,
+      "expectation_ties": 0,
+      "numeric_ties": 0
+    },
+    {
+      "theta": 0.3,
+      "N": 1024,
+      "opposite_count": 1,
+      "expectation_ties": 0,
+      "numeric_ties": 0
+    },
+    {
+      "theta": 0.3,
+      "N": 4096,
+      "opposite_count": 0,
+      "expectation_ties": 0,
+      "numeric_ties": 0
+    },
+    {
+      "theta": 0.6,
+      "N": 1024,
+      "opposite_count": 0,
+      "expectation_ties": 0,
+      "numeric_ties": 0
+    },
+    {
+      "theta": 0.6,
+      "N": 4096,
+      "opposite_count": 0,
+      "expectation_ties": 0,
+      "numeric_ties": 0
+    }
+  ],
+  "finite_penalty_endpoint_integral_exact": {
+    "numerator": "2723281940179818673375537677874304473810906480630310300298776095755",
+    "denominator": "994646472819573284310764496293641680200912301594695434880927953786318994025066751066112",
+    "float_value": 2.7379395741081727e-21
+  },
+  "positive_theta_highN_opposites": [],
+  "positive_theta_highN_negative_raw": [
+    {
+      "stream": 7,
+      "theta": 0.3,
+      "N": 4096,
+      "pair_sum": -24,
+      "t_N": -0.005859375,
+      "independent_raw_gap": 0.0017715791114830473,
+      "exact_stored_score_gap": {
+        "numerator": "255311456842637",
+        "denominator": "144115188075855872",
+        "float_value": 0.0017715791114830473
+      },
+      "expected_conditional_gap_sign": 1,
+      "actual_gap_sign": 1,
+      "finite_penalty_gap_sign": 1,
+      "finite_preserves_actual_endpoint_sign": true,
+      "opposite": false,
+      "expectation_tie": false,
+      "numeric_gap_tie": false,
+      "raw_rho": -0.75
+    }
+  ],
+  "ledger": {
+    "new_random_draws": 0,
+    "new_fits": 0,
+    "new_Gaussian_integrals": 0,
+    "observed_pair_products_recomputed": 196608,
+    "saved_endpoint_score_values_reaggregated": 24576,
+    "endpoint_assignments": 96,
+    "summary_cells": 6,
+    "independent_training_streams_reused": 16
+  },
+  "software_error": null,
+  "scope": "Fixed-input endpoint ranking signs from saved observed data and scores; analytic conditional expectation sign; no population frequency, new tests or causal percentage"
+}

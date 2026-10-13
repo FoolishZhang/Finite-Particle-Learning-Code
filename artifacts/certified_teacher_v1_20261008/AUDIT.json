@@ -1,0 +1,250 @@
+{
+  "completed": true,
+  "labels": [
+    0,
+    15,
+    85,
+    90,
+    165,
+    170,
+    240,
+    255
+  ],
+  "points": 25921,
+  "last_point": [
+    80,
+    80
+  ],
+  "finite_probabilities": {
+    "0": {
+      "arb_display_only": "[0.021385272174531312494342254437675079237782499679207011 +/- 2.34e-55]",
+      "lower_exact_dyadic": {
+        "mantissa": "536950116313867991397387857572543476695138754638426754583",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "268475058156933995698693928786271738347569377319213379169",
+        "exponent_of_two": -193
+      }
+    },
+    "15": {
+      "arb_display_only": "[0.0045743969912834110903314485728858749150543278629291707 +/- 4.60e-56]",
+      "lower_exact_dyadic": {
+        "mantissa": "229711642338661687636123071475558981256067329694362448999",
+        "exponent_of_two": -195
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "1837693138709293501088984571804471850048538637554899604811",
+        "exponent_of_two": -198
+      }
+    },
+    "85": {
+      "arb_display_only": "[0.0025795217901648230762447589105423365759664847589210314 +/- 2.17e-56]",
+      "lower_exact_dyadic": {
+        "mantissa": "4145131700610910290948098599438798300530148671114983709189",
+        "exponent_of_two": -200
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4145131700610910290948098599438798300530148671114983735263",
+        "exponent_of_two": -200
+      }
+    },
+    "90": {
+      "arb_display_only": "[0.00250238964857514998933723356842271617138442386286970492 +/- 8.70e-57]",
+      "lower_exact_dyadic": {
+        "mantissa": "4021185127855293495470026750511691751704189358975144358139",
+        "exponent_of_two": -200
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4021185127855293495470026750511691751704189358975144383921",
+        "exponent_of_two": -200
+      }
+    },
+    "165": {
+      "arb_display_only": "[0.00250238964857514998933723356842271617138442386286970492 +/- 8.84e-57]",
+      "lower_exact_dyadic": {
+        "mantissa": "4021185127855293495470026750511691751704189358975144357913",
+        "exponent_of_two": -200
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4021185127855293495470026750511691751704189358975144384013",
+        "exponent_of_two": -200
+      }
+    },
+    "170": {
+      "arb_display_only": "[0.0025795217901648230762447589105423365759664847589210314 +/- 2.17e-56]",
+      "lower_exact_dyadic": {
+        "mantissa": "1036282925152727572737024649859699575132537167778745927295",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "1036282925152727572737024649859699575132537167778745933815",
+        "exponent_of_two": -198
+      }
+    },
+    "240": {
+      "arb_display_only": "[0.0045743969912834110903314485728858749150543278629291707 +/- 4.60e-56]",
+      "lower_exact_dyadic": {
+        "mantissa": "3675386277418587002177969143608943700097077275109799183965",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3675386277418587002177969143608943700097077275109799209635",
+        "exponent_of_two": -199
+      }
+    },
+    "255": {
+      "arb_display_only": "[0.021385272174531312494342254437675079237782499679207011 +/- 2.06e-55]",
+      "lower_exact_dyadic": {
+        "mantissa": "2147800465255471965589551430290173906780555018553707021107",
+        "exponent_of_two": -196
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "536950116313867991397387857572543476695138754638426758057",
+        "exponent_of_two": -194
+      }
+    }
+  },
+  "precision_bits": 192,
+  "full_endpoint_weights": true,
+  "density": "h^2 exp(-(x^2+y^2)/2)/(2*pi)",
+  "likelihood": "direct product of 1/(1+exp(-spin*logit)); no prefix recursion",
+  "schema": "certified_teacher_selected_grid_audit_v1",
+  "created_utc": "2026-10-08T08:20:53.660596+00:00",
+  "bindings": {
+    "script/certified_teacher_audit.py": "79a54e98538c8546290409c18da6f5929205b98ef3eb0740e1697848e691258b",
+    "script/certified_teacher_audit_test.py": "63b20120d7233604501037b7f454624ac4559dc803a9ba253d57ef0b022e4f07",
+    "artifacts/certified_teacher_v1_20261008/FREEZE.json": "e7f2da984aa85d8b66152e657f7c25fad37c3ce627818a7b4594936e265ea217",
+    "artifacts/certified_teacher_v1_20261008/FINITE_GRID_SUM.json": "1b22843ac27f4e53cd715633dba61d3e4ff7f9e73ac231bb3de938eadc9069c8"
+  },
+  "comparisons": [
+    {
+      "label": 0,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 1.15e-55]",
+        "lower_exact_dyadic": {
+          "mantissa": "-752123905",
+          "exponent_of_two": -212
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "315719681",
+          "exponent_of_two": -212
+        }
+      }
+    },
+    {
+      "label": 15,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 2.48e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-650641409",
+          "exponent_of_two": -214
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "268042241",
+          "exponent_of_two": -214
+        }
+      }
+    },
+    {
+      "label": 85,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 1.26e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-661782529",
+          "exponent_of_two": -215
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "279707649",
+          "exponent_of_two": -215
+        }
+      }
+    },
+    {
+      "label": 90,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 1.25e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-656015361",
+          "exponent_of_two": -215
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "271908865",
+          "exponent_of_two": -215
+        }
+      }
+    },
+    {
+      "label": 165,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 1.27e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-664141825",
+          "exponent_of_two": -215
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "278855681",
+          "exponent_of_two": -215
+        }
+      }
+    },
+    {
+      "label": 170,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 1.26e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-662208513",
+          "exponent_of_two": -215
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "279674881",
+          "exponent_of_two": -215
+        }
+      }
+    },
+    {
+      "label": 240,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 2.48e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-651591681",
+          "exponent_of_two": -214
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "269123585",
+          "exponent_of_two": -214
+        }
+      }
+    },
+    {
+      "label": 255,
+      "overlapping_enclosures": true,
+      "difference": {
+        "arb_display_only": "[+/- 8.64e-56]",
+        "lower_exact_dyadic": {
+          "mantissa": "-568492033",
+          "exponent_of_two": -212
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "240091137",
+          "exponent_of_two": -212
+        }
+      }
+    }
+  ],
+  "wall_seconds": 1.6061297000014747,
+  "all_eight_replays_passed": true,
+  "new_teacher_grid_point_evaluations": 25921,
+  "selected_probability_summands": 207368,
+  "new_independent_samples": 0,
+  "new_random_draws": 0,
+  "new_optimizer_updates": 0,
+  "audit_scope": "eight fixed labels on the full same grid; not all-256 independent replay"
+}

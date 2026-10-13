@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-07T13:10:12.719427+00:00",
+  "command": [
+    "[author-local path omitted]",
+    "script/prospective_explanation_independent.py",
+    "--check"
+  ],
+  "exit_code": 0,
+  "passed": true,
+  "source_sha256": "3ea31440102bb691f89e653782a25542f3592b9d91a22e3c53d9dd23553d16bf",
+  "result": {
+    "passed": true,
+    "all_numerical_qualified": true,
+    "new_GL_calls": 0,
+    "new_GH80_calls": 0,
+    "seconds": 2.0246359000448138
+  },
+  "stdout": "{\"checked_unit\": \"D1_N1024_r0\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D1_N1024_r1\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D1_N4096_r0\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D1_N4096_r1\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D2_N1024_r0\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D2_N1024_r1\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D2_N4096_r0\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D2_N4096_r1\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D3_N1024_r0\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D3_N1024_r1\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D3_N4096_r0\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"checked_unit\": \"D3_N4096_r1\", \"GH80_numerically_qualified\": true, \"new_integration\": false}\n{\"passed\": true, \"all_numerical_qualified\": true, \"new_GL_calls\": 0, \"new_GH80_calls\": 0, \"seconds\": 2.0246359000448138}\n",
+  "stderr": ""
+}

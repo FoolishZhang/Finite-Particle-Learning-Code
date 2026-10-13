@@ -1,0 +1,78 @@
+{
+  "tree": {
+    "unit": {
+      "id": "D3_N4096_r0",
+      "teacher": 2,
+      "N": 4096,
+      "rep": 0
+    },
+    "latent": {
+      "__ndarray__": "array_000000",
+      "dtype": "float64",
+      "shape": [
+        4096,
+        2
+      ]
+    },
+    "uniforms": {
+      "__ndarray__": "array_000001",
+      "dtype": "float64",
+      "shape": [
+        4096,
+        8
+      ]
+    },
+    "labels": {
+      "__ndarray__": "array_000002",
+      "dtype": "int8",
+      "shape": [
+        4096,
+        8
+      ]
+    },
+    "counts": {
+      "__ndarray__": "array_000003",
+      "dtype": "int64",
+      "shape": [
+        256
+      ]
+    },
+    "q": {
+      "__ndarray__": "array_000004",
+      "dtype": "float64",
+      "shape": [
+        256
+      ]
+    },
+    "xi": {
+      "__ndarray__": "array_000005",
+      "dtype": "float64",
+      "shape": [
+        8
+      ]
+    },
+    "prior": {
+      "__ndarray__": "array_000006",
+      "dtype": "float64",
+      "shape": [
+        600,
+        4,
+        64,
+        2
+      ]
+    },
+    "seconds": 0.00552919995971024,
+    "data_generation_seconds": 0.0024706998374313116,
+    "kick_generation_seconds": 7.659988477826118e-05,
+    "prior_generation_seconds": 0.0029810999985784292,
+    "Gaussian_scalars": 315400,
+    "uniform_scalars": 32768,
+    "prior_vectors_generated": 153600
+  },
+  "raw": {
+    "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/inputs.npz",
+    "sha256": "8e95440c8c2e7d9262725367d2941cdba844ad86ba61cdacd73a376f0bd77d03",
+    "bytes": 2678738
+  },
+  "created_utc": "2026-10-07T10:41:29.653904+00:00"
+}

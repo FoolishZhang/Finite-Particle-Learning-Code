@@ -1,0 +1,204 @@
+{
+  "schema": "certified_teacher_compute_manufactured_check_v1",
+  "created_utc": "2026-10-08T08:07:37.744860+00:00",
+  "status": "passed",
+  "tests_run": 5,
+  "source_sha256": {
+    "script/certified_teacher_compute.py": "d0beb67a06deb19f4b1b7fdd1a082297570adb2946c8eb4f38af5fe6aeb9121a",
+    "script/certified_teacher_compute_test.py": "cd5c0fc265f1fec9b4e9a248dc27dab537f32de68f5e9ece9680cf0d2d5d73b4"
+  },
+  "manufactured_finite_grid_calls": 5,
+  "manufactured_grid_points": 75,
+  "manufactured_m": 2,
+  "manufactured_h": "1/2",
+  "expired_budget_manufactured_calls": 1,
+  "expired_budget_points": 0,
+  "new_kernel_calls": 0,
+  "acb_integral_calls": 0,
+  "real_teacher_grid_calls": 0,
+  "real_teacher_grid_points": 0,
+  "new_random_draws": 0,
+  "new_optimizer_updates": 0,
+  "source_input_floats_used_as_certified_coefficients": false,
+  "manufactured_readout": {
+    "block": {
+      "label_representatives": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "probability_orbits": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "representative_balls": [
+        {
+          "arb_display_only": "[0.16499816985324323358671786901888300757465335901065943516 +/- 6.02e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "1035710298321419415274556425373795302341798362163457265741",
+            "exponent_of_two": -192
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2071420596642838830549112850747590604683596724326914531511",
+            "exponent_of_two": -193
+          }
+        },
+        {
+          "arb_display_only": "[0.14982866161529578727051457503487476705758461854472828011 +/- 2.99e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3761959007344147800527338205832292177144826113074562182571",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3761959007344147800527338205832292177144826113074562182617",
+            "exponent_of_two": -194
+          }
+        },
+        {
+          "arb_display_only": "[0.14982866161529578727051457503487476705758461854472828011 +/- 3.04e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "3761959007344147800527338205832292177144826113074562182571",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "3761959007344147800527338205832292177144826113074562182619",
+            "exponent_of_two": -194
+          }
+        },
+        {
+          "arb_display_only": "[0.16499816985324323358671786901888300757465335901065943516 +/- 5.83e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "2071420596642838830549112850747590604683596724326914531485",
+            "exponent_of_two": -193
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "2071420596642838830549112850747590604683596724326914531509",
+            "exponent_of_two": -193
+          }
+        }
+      ],
+      "grid_gaussian_mass": {
+        "arb_display_only": "[0.62965366293707804171446488810751554926447595511077543055 +/- 6.92e-57]",
+        "lower_exact_dyadic": {
+          "mantissa": "3952400100314912730812781953663736693256009780864195622779",
+          "exponent_of_two": -192
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3952400100314912730812781953663736693256009780864195622813",
+          "exponent_of_two": -192
+        }
+      },
+      "outer_indices": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "inner_index_min": -2,
+      "inner_index_max": 2,
+      "completed": true,
+      "last_completed_point": [
+        2,
+        2
+      ],
+      "precision_bits": 192,
+      "label_mode": "all_labels",
+      "work_counts": {
+        "grid_points": 25,
+        "teacher_dimension": 2,
+        "label_probabilities_accumulated_per_point": 4,
+        "prefix_multiplications_per_point": 6,
+        "logistic_exponentials_per_point": 4,
+        "gaussian_1d_exponentials": 5,
+        "new_kernel_calls": 0,
+        "new_random_draws": 0,
+        "acb_integral_calls": 0
+      },
+      "wall_seconds": 0.000556200000573881,
+      "scope": "strict Arb enclosure of finite full-weight uniform-grid sum only"
+    },
+    "outcome": {
+      "pmf_finite_sum": [
+        {
+          "arb_display_only": "[0.16499816985324323358671786901888300757465335901065943516 +/- 6.03e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "4142841193285677661098225701495181209367193448653829062963",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4142841193285677661098225701495181209367193448653829063023",
+            "exponent_of_two": -194
+          }
+        },
+        {
+          "arb_display_only": "[0.14982866161529578727051457503487476705758461854472828011 +/- 3.00e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "1880979503672073900263669102916146088572413056537281091285",
+            "exponent_of_two": -193
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "1880979503672073900263669102916146088572413056537281091309",
+            "exponent_of_two": -193
+          }
+        },
+        {
+          "arb_display_only": "[0.14982866161529578727051457503487476705758461854472828011 +/- 3.08e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "1880979503672073900263669102916146088572413056537281091285",
+            "exponent_of_two": -193
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "940489751836036950131834551458073044286206528268640545655",
+            "exponent_of_two": -192
+          }
+        },
+        {
+          "arb_display_only": "[0.16499816985324323358671786901888300757465335901065943516 +/- 5.87e-57]",
+          "lower_exact_dyadic": {
+            "mantissa": "4142841193285677661098225701495181209367193448653829062969",
+            "exponent_of_two": -194
+          },
+          "upper_exact_dyadic": {
+            "mantissa": "4142841193285677661098225701495181209367193448653829063019",
+            "exponent_of_two": -194
+          }
+        }
+      ],
+      "grid_gaussian_mass": {
+        "arb_display_only": "[0.62965366293707804171446488810751554926447595511077543055 +/- 7.00e-57]",
+        "lower_exact_dyadic": {
+          "mantissa": "1976200050157456365406390976831868346628004890432097811389",
+          "exponent_of_two": -191
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "1976200050157456365406390976831868346628004890432097811407",
+          "exponent_of_two": -191
+        }
+      },
+      "sum_of_probability_enclosures": {
+        "arb_display_only": "[0.62965366293707804171446488810751554926447595511077543055 +/- 8.11e-57]",
+        "lower_exact_dyadic": {
+          "mantissa": "3952400100314912730812781953663736693256009780864195622765",
+          "exponent_of_two": -192
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3952400100314912730812781953663736693256009780864195622821",
+          "exponent_of_two": -192
+        }
+      },
+      "probability_sum_overlaps_grid_mass": true,
+      "complement_symmetry_balls_overlap": true,
+      "reversal_symmetry_balls_overlap": true,
+      "true_PMF_enclosed": false,
+      "analytic_discretization_and_tail_error_added": false
+    }
+  }
+}

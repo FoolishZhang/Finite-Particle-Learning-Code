@@ -1,0 +1,21 @@
+{
+  "population_fits": 945,
+  "qualified": 945,
+  "failed_tree_ids": [],
+  "best_joint_tree_id": 403,
+  "boxed_union_joint_KL_upper": 0.04906373204335057,
+  "boxed_union_joint_KL_lower_raw": 0.049063732038799,
+  "qualified_boxed_union_joint_KL_lower": 0.049063732038799,
+  "all_candidate_boxes_qualified": true,
+  "boxed_class_only_not_unbounded_numerical_lower_bound": true,
+  "minimum_query_among_joint_fit_endpoints": {
+    "1": -6.56881956236551e-17,
+    "5": 0.029160672668616994
+  },
+  "not_query_optimized": true,
+  "elapsed_fit_seconds": 19.564844199921936,
+  "scientific_random_observations": 0,
+  "extra_optimizer_calls": 0,
+  "array_sha256": "03282ddbd58625e3dd4050b78af7cdaf48be5d020f5699d05eded34ea0dc9de9",
+  "analytic_checks_passed": true
+}

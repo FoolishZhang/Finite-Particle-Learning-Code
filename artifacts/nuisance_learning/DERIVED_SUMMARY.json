@@ -1,0 +1,944 @@
+{
+  "source_sha256": "69f561791fa2e50d5ec7394baa453052b8f60a6e72f79a7b85d2f6e49782d4cd",
+  "inputs": {
+    "artifacts/nuisance_learning/RESULTS.json": "794a3f062b3255582b65c6bb4919b2848ed45532cb308fe24882d95ea7deb29c",
+    "artifacts/nuisance_learning/EVALUATION.json": "90ff7030c7e94e85958f3398696982b1555502cc8f860968176107395b70dd9b",
+    "artifacts/nuisance_learning/GRADIENT/RESULTS.json": "df36386186a910d8597cf64a309f2c06b4a022aa5bd0883c474b5e108d12aaba",
+    "artifacts/nuisance_learning/GRADIENT/COUNTS.json": "1bf0417d602a73540152300bbb5329de3bffff1b26d817f05d390a49d1384c92",
+    "artifacts/nuisance_learning/GRADIENT/GH_REFERENCE.json": "cf1cfeba183c1b5f2c4ea6f0b8ea657af75fa2d5438bd2077c2b908856279b6f",
+    "artifacts/nuisance_learning/ACTIVE_TARGET/RESULTS.json": "76b6dae5ae4299adf68a093fbef29f28f231b0b274bfe8ea1e5901161306f1d9",
+    "artifacts/nuisance_learning/ACTIVE_TARGET/EXPECTED_RISKS.json": "a259b9963d2274dd5d1101442acaf7bcaa0c4fe9dd3e0c03b5c761c879cf3666",
+    "artifacts/nuisance_learning/ACTIVE_TARGET/ACTUAL_TARGETS.json": "c393e6c660a0c9128d8a04de0268114705192315414d882cf7c72d91db6867ee",
+    "artifacts/nuisance_learning/ACTIVE_TARGET/RB_COMPARISONS.json": "b3c4eed391ed06db6729bbc9e3452a17783fa7e25e37c4180f1644df6a089ce7",
+    "artifacts/nuisance_learning/ACTIVE_TARGET/QUALIFICATION.json": "30f3ae18d65e1d758b74da7da481cb1c98a8e51a54bd9f93cc0cc10586b57ffe"
+  },
+  "learning_ledger": {
+    "independent_training_streams": 16,
+    "role_RNG_streams": 32,
+    "raw_RB_training_grid_optimizations": 576,
+    "table_MLE_training_argmins": 48,
+    "unique_training_model_outputs": 624,
+    "raw_RB_cell_assignments": 1152,
+    "count_state_analysis_argmins": 1347,
+    "new_label_vectors": 16384,
+    "new_label_bits": 4194304,
+    "global_prior_banks": 131072,
+    "prior_vectors": 524288,
+    "Gaussian_scalars": 134217728,
+    "new_reference_integrals": 0,
+    "new_neural_models": 0,
+    "continuous_optimizations": 0
+  },
+  "primary": {
+    "successes": 13,
+    "trials": 16,
+    "events": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "integer_square_gaps": [
+      21,
+      25,
+      21,
+      24,
+      21,
+      0,
+      16,
+      16,
+      -1,
+      0,
+      24,
+      21,
+      21,
+      24,
+      16,
+      16
+    ],
+    "exact_one_sided_pvalue": {
+      "numerator": "697",
+      "denominator": "65536",
+      "float_display": 0.0106353759765625
+    },
+    "alpha": [
+      1,
+      20
+    ],
+    "passed": true,
+    "target": "probability of analytically guaranteed true KL gain >.001 exceeds 1/2; not a mean-gain test"
+  },
+  "CP_bounds": [
+    {
+      "K": 2,
+      "successes": 14,
+      "trials": 16,
+      "CP_lower": {
+        "numerator": "42367190399",
+        "denominator": "68719476736",
+        "float_display": 0.616523763150326
+      },
+      "raw_expected_KL_lower": {
+        "numerator": "42367190399",
+        "denominator": "8796093022208",
+        "float_display": 0.004816591899611922
+      },
+      "table_MLE_expected_KL_upper": {
+        "numerator": "51497324705399775636846050097517650432102257826203001420417032296259080368630532405318022316990593115916910521807677666320592587613589819819397423269786596866906077628256013979665738048563111189739923685263153892557192748016159209103104832319490038658102884053244195788145185050583558813970735031721490839781",
+        "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+        "float_display": 0.0011597707589579161
+      },
+      "expected_difference_lower": {
+        "numerator": "162373903821335304117967919175828013263899221978702743290701398938464277832235176977318700391661721911109672204076520354306307509702613780971794619798728266045850388344025908114237317260781596751833301016048878039492989607214931302770839338035716703182640979805954985011589441587417205639183147802113462830875",
+        "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+        "float_display": 0.0036568211406540056
+      },
+      "raw_lower_display": "0.004816",
+      "MLE_upper_display": "0.001160",
+      "gap_lower_display": "0.003656",
+      "outward_rounding": true
+    },
+    {
+      "K": 4,
+      "successes": 15,
+      "trials": 16,
+      "CP_lower": {
+        "numerator": "767106460549",
+        "denominator": "1099511627776",
+        "float_display": 0.6976792615650993
+      },
+      "raw_expected_KL_lower": {
+        "numerator": "767106460549",
+        "denominator": "140737488355328",
+        "float_display": 0.005450619230977338
+      },
+      "table_MLE_expected_KL_upper": {
+        "numerator": "51497324705399775636846050097517650432102257826203001420417032296259080368630532405318022316990593115916910521807677666320592587613589819819397423269786596866906077628256013979665738048563111189739923685263153892557192748016159209103104832319490038658102884053244195788145185050583558813970735031721490839781",
+        "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+        "float_display": 0.0011597707589579161
+      },
+      "expected_difference_lower": {
+        "numerator": "190526632369829200018385023361423485095437997217249491939572028020013845210034865892838247810131687454685966356295114612687507664259299009827225965767780990774575871153912130421802564593343805943085337022632605438861403056595585782840687553381043123787871969051270673291061248685491020580654881697594053822235",
+        "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+        "float_display": 0.0042908484720194226
+      },
+      "raw_lower_display": "0.005450",
+      "MLE_upper_display": "0.001160",
+      "gap_lower_display": "0.004290",
+      "outward_rounding": true
+    }
+  ],
+  "reference_cells": [
+    {
+      "n": 0,
+      "N": 64,
+      "B": 32,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007526840110346201,
+      "RB_reference_KL": 0.007526840110346201,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 13,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 64,
+      "B": 32,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.0060430082212193275,
+      "RB_reference_KL": 0.0060430082212193275,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 9,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 64,
+      "B": 512,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006602303736470938,
+      "RB_reference_KL": 0.006602303736470938,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 12,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 64,
+      "B": 512,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.005902071520202865,
+      "RB_reference_KL": 0.005902071520202865,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 10,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 64,
+      "B": 8192,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007545287195570658,
+      "RB_reference_KL": 0.007545287195570658,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 13,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 64,
+      "B": 8192,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.006560237839849379,
+      "RB_reference_KL": 0.006560237839849379,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 12,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 256,
+      "B": 32,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006973880473392159,
+      "RB_reference_KL": 0.006973880473392159,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 11,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 256,
+      "B": 32,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.005170720462115196,
+      "RB_reference_KL": 0.005170720462115196,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 6,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 256,
+      "B": 512,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007885140641710045,
+      "RB_reference_KL": 0.007885140641710045,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 14,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 256,
+      "B": 512,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.0048866676593143825,
+      "RB_reference_KL": 0.0048866676593143825,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 7,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 256,
+      "B": 8192,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007385903409329739,
+      "RB_reference_KL": 0.007385903409329739,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 14,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 256,
+      "B": 8192,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.004954830421570417,
+      "RB_reference_KL": 0.004954830421570417,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 8,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 1024,
+      "B": 32,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006492075077593345,
+      "RB_reference_KL": 0.006492075077593345,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 11,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 1024,
+      "B": 32,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.004055681460179417,
+      "RB_reference_KL": 0.004055681460179417,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 4,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 1024,
+      "B": 512,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007781247861130021,
+      "RB_reference_KL": 0.007781247861130021,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 14,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 1024,
+      "B": 512,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.0024164725123537825,
+      "RB_reference_KL": 0.0024164725123537825,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 2,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 1024,
+      "B": 8192,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.0074413944149906335,
+      "RB_reference_KL": 0.0074413944149906335,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 13,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 0,
+      "N": 1024,
+      "B": 8192,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.0022910391591414963,
+      "RB_reference_KL": 0.0022910391591414963,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 2,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 64,
+      "B": 32,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006681413553528936,
+      "RB_reference_KL": 0.007526840110346201,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 11,
+      "analytic_paired_gain_count": 1,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 64,
+      "B": 32,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.006743240437487401,
+      "RB_reference_KL": 0.0060430082212193275,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 11,
+      "analytic_paired_gain_count": 4,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 64,
+      "B": 512,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006622829060460236,
+      "RB_reference_KL": 0.006602303736470938,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 12,
+      "analytic_paired_gain_count": 1,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 64,
+      "B": 512,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.007275674750452145,
+      "RB_reference_KL": 0.005902071520202865,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 13,
+      "analytic_paired_gain_count": 4,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 64,
+      "B": 8192,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007468255617277501,
+      "RB_reference_KL": 0.007545287195570658,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 14,
+      "analytic_paired_gain_count": 2,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 64,
+      "B": 8192,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.0080777215085354,
+      "RB_reference_KL": 0.006560237839849379,
+      "table_MLE_reference_KL": 0.0047169412672337365,
+      "raw_endpoint_count": 15,
+      "analytic_paired_gain_count": 4,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 256,
+      "B": 32,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006488832686703579,
+      "RB_reference_KL": 0.006973880473392159,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 10,
+      "analytic_paired_gain_count": 2,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 256,
+      "B": 32,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.00644676679008202,
+      "RB_reference_KL": 0.005170720462115196,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 10,
+      "analytic_paired_gain_count": 7,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 256,
+      "B": 512,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.005584821636817615,
+      "RB_reference_KL": 0.007885140641710045,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 9,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 256,
+      "B": 512,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.005983259576025703,
+      "RB_reference_KL": 0.0048866676593143825,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 9,
+      "analytic_paired_gain_count": 6,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 256,
+      "B": 8192,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.008224994087849434,
+      "RB_reference_KL": 0.007385903409329739,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 15,
+      "analytic_paired_gain_count": 2,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 256,
+      "B": 8192,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.00841757495467479,
+      "RB_reference_KL": 0.004954830421570417,
+      "table_MLE_reference_KL": 0.0024731285166451657,
+      "raw_endpoint_count": 16,
+      "analytic_paired_gain_count": 8,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 1024,
+      "B": 32,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.006805067321445865,
+      "RB_reference_KL": 0.006492075077593345,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 11,
+      "analytic_paired_gain_count": 2,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 1024,
+      "B": 32,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.00602456113599487,
+      "RB_reference_KL": 0.004055681460179417,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 9,
+      "analytic_paired_gain_count": 8,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 1024,
+      "B": 512,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.005687950080745247,
+      "RB_reference_KL": 0.007781247861130021,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 9,
+      "analytic_paired_gain_count": 0,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 1024,
+      "B": 512,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.005767059897803245,
+      "RB_reference_KL": 0.0024164725123537825,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 8,
+      "analytic_paired_gain_count": 11,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 1024,
+      "B": 8192,
+      "K": 2,
+      "streams": 16,
+      "raw_reference_KL": 0.007468255617277501,
+      "RB_reference_KL": 0.0074413944149906335,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 14,
+      "analytic_paired_gain_count": 2,
+      "descriptive_not_new_confidence_family": true
+    },
+    {
+      "n": 254,
+      "N": 1024,
+      "B": 8192,
+      "K": 4,
+      "streams": 16,
+      "raw_reference_KL": 0.007891476520007615,
+      "RB_reference_KL": 0.0022910391591414963,
+      "table_MLE_reference_KL": 0.0006798564122332167,
+      "raw_endpoint_count": 15,
+      "analytic_paired_gain_count": 13,
+      "descriptive_not_new_confidence_family": true
+    }
+  ],
+  "gradient": {
+    "n": 4094,
+    "old_banks_reused": 65536,
+    "independent_confirmation": false,
+    "variance": {
+      "Price": 1.5098279881686004e-05,
+      "raw_path": 0.09387198050524284,
+      "noise_CV": 0.0008525909399165019
+    },
+    "raw_over_Price_variance": 6217.395706057099,
+    "B4096": [
+      {
+        "stream": "all",
+        "n": 4094,
+        "method": "Price",
+        "outer_B": 4096,
+        "groups": 16,
+        "reference_gradient": -0.0005450365106489617,
+        "mean_of_group_means": -0.000536415199145175,
+        "MSE_to_fixed_reference": 4.94935488347678e-09,
+        "mean_error": 8.621311503786738e-06,
+        "sign_hit_fraction": 1.0,
+        "zero_fraction": 0.0,
+        "nested_n_and_B": true,
+        "independent_confirmation": false,
+        "reference_SNR_from_sample_variance": 8.97721928325433
+      },
+      {
+        "stream": "all",
+        "n": 4094,
+        "method": "raw_path",
+        "outer_B": 4096,
+        "groups": 16,
+        "reference_gradient": -0.0005450365106489617,
+        "mean_of_group_means": -0.0010360481058669675,
+        "MSE_to_fixed_reference": 2.2358632249080698e-05,
+        "mean_error": -0.0004910115952180057,
+        "sign_hit_fraction": 0.5,
+        "zero_fraction": 0.0,
+        "nested_n_and_B": true,
+        "independent_confirmation": false,
+        "reference_SNR_from_sample_variance": 0.11385119128024418
+      },
+      {
+        "stream": "all",
+        "n": 4094,
+        "method": "noise_CV",
+        "outer_B": 4096,
+        "groups": 16,
+        "reference_gradient": -0.0005450365106489617,
+        "mean_of_group_means": -0.0005463351002539123,
+        "MSE_to_fixed_reference": 1.5397612428681677e-07,
+        "mean_error": -1.298589604950529e-06,
+        "sign_hit_fraction": 0.9375,
+        "zero_fraction": 0.0,
+        "nested_n_and_B": true,
+        "independent_confirmation": false,
+        "reference_SNR_from_sample_variance": 1.1946349408511248
+      }
+    ],
+    "n0_CV_exceeds_raw_variance": true,
+    "GH_reference": {
+      "rows": [
+        {
+          "order": 64,
+          "E_tanh_squared": 0.17351614343237132,
+          "raw_path_RB_variance_limit": 0.09915208196135504
+        },
+        {
+          "order": 96,
+          "E_tanh_squared": 0.17351614343237207,
+          "raw_path_RB_variance_limit": 0.09915208196135547
+        },
+        {
+          "order": 128,
+          "E_tanh_squared": 0.17351614343237254,
+          "raw_path_RB_variance_limit": 0.09915208196135573
+        }
+      ],
+      "primary_order": 96,
+      "span": 6.938893903907228e-16,
+      "limit": 1e-10,
+      "qualified": true,
+      "new_1D_integrals": 3,
+      "Gaussian_nodes": 288,
+      "single_label_constant_not_used": true,
+      "strict_certificate": false
+    }
+  },
+  "gradient_ledger": {
+    "reused_banks": 65536,
+    "old_original_K": 4,
+    "used_K": 2,
+    "reused_prior_vectors": 131072,
+    "streams": 8,
+    "new_independent_banks": 0,
+    "new_labels": 0,
+    "RNG_calls": 0,
+    "fits": 0,
+    "locators": 0,
+    "new_bank_n_combinations": 393216,
+    "label_bank_terms": 1572864,
+    "label_particle_weighted_terms": 3145728,
+    "active_label_particle_kernels": 524288,
+    "estimator_outputs": 1179648,
+    "active_transform_calls": 8,
+    "active_particle_transforms": 131072,
+    "new_1D_reference_integrals": 3,
+    "new_1D_Gaussian_nodes": 288,
+    "group_mean_numbers": 98208,
+    "global_estimator_rows": 18,
+    "global_outer_B_rows": 90,
+    "stream_outer_B_rows": 720
+  },
+  "active_target": [
+    {
+      "N": 64,
+      "K": 2,
+      "reference_expected_risk_min": {
+        "numerator": "40309190996932165527306118151576185",
+        "denominator": "5316911983139663491615228241121378304",
+        "float_display": 0.0075813162084976595
+      },
+      "reference_expected_risk_max": {
+        "numerator": "40309190996932165527306118151576185",
+        "denominator": "5316911983139663491615228241121378304",
+        "float_display": 0.0075813162084976595
+      },
+      "analytic_upper": {
+        "numerator": "74763539697451324869",
+        "denominator": "4556345786206259249152",
+        "float_display": 0.016408662381109915
+      },
+      "table_MLE_reference_expected_risk": {
+        "numerator": "22924006503843670502718150435868963",
+        "denominator": "5316911983139663491615228241121378304",
+        "float_display": 0.004311526422957058
+      },
+      "actual_count_target_reference_risk_min_mean": 0.007891476520007615,
+      "actual_count_target_reference_risk_max_mean": 0.007891476520007615,
+      "absolute_target_agreement_by_B": {
+        "32": 12,
+        "512": 13,
+        "8192": 13
+      },
+      "post_hoc": true,
+      "strict_infinite_bank_target_certificate": false
+    },
+    {
+      "N": 64,
+      "K": 4,
+      "reference_expected_risk_min": {
+        "numerator": "33035851800545890025617382287541821",
+        "denominator": "5316911983139663491615228241121378304",
+        "float_display": 0.006213353146583038
+      },
+      "reference_expected_risk_max": {
+        "numerator": "33035851800545890025617382287541821",
+        "denominator": "5316911983139663491615228241121378304",
+        "float_display": 0.006213353146583038
+      },
+      "analytic_upper": {
+        "numerator": "1533218468059895620221",
+        "denominator": "113908644655156481228800",
+        "float_display": 0.013460071206197861
+      },
+      "table_MLE_reference_expected_risk": {
+        "numerator": "22924006503843670502718150435868963",
+        "denominator": "5316911983139663491615228241121378304",
+        "float_display": 0.004311526422957058
+      },
+      "actual_count_target_reference_risk_min_mean": 0.006560237839849379,
+      "actual_count_target_reference_risk_max_mean": 0.006560237839849379,
+      "absolute_target_agreement_by_B": {
+        "32": 11,
+        "512": 12,
+        "8192": 16
+      },
+      "post_hoc": true,
+      "strict_infinite_bank_target_certificate": false
+    },
+    {
+      "N": 256,
+      "K": 2,
+      "reference_expected_risk_min": {
+        "numerator": "248996700306373134945785334865334277829995467665973299813740094717058058587335111927431663865",
+        "denominator": "33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+        "float_display": 0.0074606205710126515
+      },
+      "reference_expected_risk_max": {
+        "numerator": "248996700306373134945785334865334277829995467665973299813740094717058058587335111927431663865",
+        "denominator": "33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+        "float_display": 0.0074606205710126515
+      },
+      "analytic_upper": {
+        "numerator": "2310677696817719237022288690175176980383601934952539472929239611510997451029721",
+        "denominator": "143003230208085501348110166485729566198788431062066096588730116249772715105320960",
+        "float_display": 0.01615822029653056
+      },
+      "table_MLE_reference_expected_risk": {
+        "numerator": "63252690086797658969717883872365717903975116843627081288252622648180805019016343699178653995",
+        "denominator": "33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+        "float_display": 0.001895223190720219
+      },
+      "actual_count_target_reference_risk_min_mean": 0.007551623073868227,
+      "actual_count_target_reference_risk_max_mean": 0.007551623073868227,
+      "absolute_target_agreement_by_B": {
+        "32": 9,
+        "512": 12,
+        "8192": 13
+      },
+      "post_hoc": true,
+      "strict_infinite_bank_target_certificate": false
+    },
+    {
+      "N": 256,
+      "K": 4,
+      "reference_expected_risk_min": {
+        "numerator": "141690147714789638186999006549394734408702594551253374445300032300218441736977007022649839677",
+        "denominator": "33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+        "float_display": 0.004245423451194723
+      },
+      "reference_expected_risk_max": {
+        "numerator": "141690147714789638186999006549394734408702594551253374445300032300218441736977007022649839677",
+        "denominator": "33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+        "float_display": 0.004245423451194723
+      },
+      "analytic_upper": {
+        "numerator": "263935194572245340848749593111328179638845476968356848685934875421633091104773",
+        "denominator": "28600646041617100269622033297145913239757686212413219317746023249954543021064192",
+        "float_display": 0.009228294849990118
+      },
+      "table_MLE_reference_expected_risk": {
+        "numerator": "63252690086797658969717883872365717903975116843627081288252622648180805019016343699178653995",
+        "denominator": "33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+        "float_display": 0.001895223190720219
+      },
+      "actual_count_target_reference_risk_min_mean": 0.004954830421570417,
+      "actual_count_target_reference_risk_max_mean": 0.004954830421570417,
+      "absolute_target_agreement_by_B": {
+        "32": 4,
+        "512": 11,
+        "8192": 16
+      },
+      "post_hoc": true,
+      "strict_infinite_bank_target_certificate": false
+    },
+    {
+      "N": 1024,
+      "K": 2,
+      "reference_expected_risk_min": {
+        "numerator": "344476494765733321245651555062116469781237169104625575959747377112949046139023891345485309353873393064423665744810188656219766654263825369926562137638001465579210611757316132398744608004601071429737622807510890251686801249401729757814650581426701872295790710367216887536489805456216391238423638875474725813258640837667944985",
+        "denominator": "51814976846671518298238808760042830604686502339620382299366747655022166929406808804341858227567903870767891933265103849315791036770763130077955430384829058539908460614800988509303528381975863383357380525689022737551873915756721330846234459046184846423247374467163845005397354141499008648239699842213377603406773181719934664704",
+        "float_display": 0.0066482031977953444
+      },
+      "reference_expected_risk_max": {
+        "numerator": "344476494765733321245651555062116469781237169104625575959747377112949046139023891345485309353873393064423665744810188656219766654263825369926562137638001465579210611757316132398744608004601071429737622807510890251686801249401729757814650581426701872295790710367216887536489805456216391238423638875474725813258640837667944985",
+        "denominator": "51814976846671518298238808760042830604686502339620382299366747655022166929406808804341858227567903870767891933265103849315791036770763130077955430384829058539908460614800988509303528381975863383357380525689022737551873915756721330846234459046184846423247374467163845005397354141499008648239699842213377603406773181719934664704",
+        "float_display": 0.0066482031977953444
+      },
+      "analytic_upper": {
+        "numerator": "3198007560888628630535409596871568045627791949730368197865382815880879151046156087976002437618767847587263412057110041677464863261652533935727484374700757561218023316812078229813834813870356857222346081192682064778750200432061611657251755174398156276301484933227061302968214345196568829060485605018415055322329",
+        "denominator": "222015102155496014604569191062444554601820156899374861732686150229799854619793689468894969493173306986083340641641170796708605364485804528778666576839750543606543348379708874316233241207538926237524557445824982124515116092692941658620282691517921637896737880695464078326334848734022449636471665067085916809461760",
+        "float_display": 0.014404459560813087
+      },
+      "table_MLE_reference_expected_risk": {
+        "numerator": "27183595927725207525557583546978365459563258987736557172156590084107375143928592318626113911764115950390497855594083884701255732172554055946778339225008991442282315650503637762703085822523281164107508318671241790195503859390665532370448926179405096956010882583005382808777542861733269142194984927294322155467181079777426955",
+        "denominator": "51814976846671518298238808760042830604686502339620382299366747655022166929406808804341858227567903870767891933265103849315791036770763130077955430384829058539908460614800988509303528381975863383357380525689022737551873915756721330846234459046184846423247374467163845005397354141499008648239699842213377603406773181719934664704",
+        "float_display": 0.0005246281593093373
+      },
+      "actual_count_target_reference_risk_min_mean": 0.007912001843996912,
+      "actual_count_target_reference_risk_max_mean": 0.007912001843996912,
+      "absolute_target_agreement_by_B": {
+        "32": 10,
+        "512": 13,
+        "8192": 12
+      },
+      "post_hoc": true,
+      "strict_infinite_bank_target_certificate": false
+    },
+    {
+      "N": 1024,
+      "K": 4,
+      "reference_expected_risk_min": {
+        "numerator": "98340462090425593804399731194616503649035768639636033469003152286080995220715881577050733934084096899501030255169846427127606778749452796783609075725641899725369769766126602562104450903671678468848436955516238047616734686356796849375082479539703434552940220675877852496641046593723062307430872759614649952172521998439084125",
+        "denominator": "51814976846671518298238808760042830604686502339620382299366747655022166929406808804341858227567903870767891933265103849315791036770763130077955430384829058539908460614800988509303528381975863383357380525689022737551873915756721330846234459046184846423247374467163845005397354141499008648239699842213377603406773181719934664704",
+        "float_display": 0.0018979157779309666
+      },
+      "reference_expected_risk_max": {
+        "numerator": "98340462090425593804399731194616503649035768639636033469003152286080995220715881577050733934084096899501030255169846427127606778749452796783609075725641899725369769766126602562104450903671678468848436955516238047616734686356796849375082479539703434552940220675877852496641046593723062307430872759614649952172521998439084125",
+        "denominator": "51814976846671518298238808760042830604686502339620382299366747655022166929406808804341858227567903870767891933265103849315791036770763130077955430384829058539908460614800988509303528381975863383357380525689022737551873915756721330846234459046184846423247374467163845005397354141499008648239699842213377603406773181719934664704",
+        "float_display": 0.0018979157779309666
+      },
+      "analytic_upper": {
+        "numerator": "70950754759046022549881225322467673577535790134148521274593791430910335207308797342901824243541908280194369840595359229453974827083590915919765052702276870987615334665598399573848250906521439927882896119103386650907579042941822379466409191925149991516180321995420564933420442484125204594006340377973521304893",
+        "denominator": "17078084781192001123428399312495734969370781299951912440975857709984604201522591497607305345628715922006410818587782368977585028037369579136820505910750041815887949875362221101248710862118378941348042880448075548039624314822533973740021745501378587530518298515035698332794988364155573048959358851314301293035520",
+        "float_display": 0.0041544913067291765
+      },
+      "table_MLE_reference_expected_risk": {
+        "numerator": "27183595927725207525557583546978365459563258987736557172156590084107375143928592318626113911764115950390497855594083884701255732172554055946778339225008991442282315650503637762703085822523281164107508318671241790195503859390665532370448926179405096956010882583005382808777542861733269142194984927294322155467181079777426955",
+        "denominator": "51814976846671518298238808760042830604686502339620382299366747655022166929406808804341858227567903870767891933265103849315791036770763130077955430384829058539908460614800988509303528381975863383357380525689022737551873915756721330846234459046184846423247374467163845005397354141499008648239699842213377603406773181719934664704",
+        "float_display": 0.0005246281593093373
+      },
+      "actual_count_target_reference_risk_min_mean": 0.002349623652210196,
+      "actual_count_target_reference_risk_max_mean": 0.002349623652210196,
+      "absolute_target_agreement_by_B": {
+        "32": 4,
+        "512": 7,
+        "8192": 13
+      },
+      "post_hoc": true,
+      "strict_infinite_bank_target_certificate": false
+    }
+  ],
+  "active_target_ledger": {
+    "count_state_argmins": 8082,
+    "unique_count_K_states": 2694,
+    "primary_actual_count_lookups": 96,
+    "original_RB_pairings": 288,
+    "old_MLE_state_index_lookups": 1347,
+    "new_Gaussian_integrals": 0,
+    "new_labels": 0,
+    "new_banks": 0,
+    "new_training_models": 0,
+    "new_confidence_families": 0,
+    "wall_seconds": 0.38541330001316965
+  },
+  "active_target_qualified": true,
+  "active_target_qualification_rows": 2727,
+  "active_target_max_curve_spread": 2.3725466036239595e-13,
+  "new_scientific_computation": false
+}

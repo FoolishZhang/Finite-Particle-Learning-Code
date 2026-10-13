@@ -1,0 +1,344 @@
+{
+  "created_utc": "2026-10-07T04:21:16.177319+00:00",
+  "freeze_sha256": "6c4c7ed1fd208ab2fe4e1967d98b2cace602be76f429f8e73eb600d1e915cd02",
+  "source_sha256": "bda66ae333a0784d0626b2954f26cfc0b71a98a2e58f3d89e0a1a09a3a13c5fb",
+  "new_endpoint_count": 10,
+  "endpoints": [
+    {
+      "point_id": "coarse_K009",
+      "K": 9,
+      "theta": [
+        3.3420611424080004e-17,
+        -5.553844924502529e-17,
+        -6.006492312723446e-17,
+        -9.312268028030043e-17,
+        -1.4829313537360232e-16,
+        4.740488923160022e-17,
+        1.8180953621509012e-16,
+        1.6178276526799704e-16,
+        0.48122158937865056,
+        0.5798158634415427,
+        0.660178502707111,
+        0.7072956807539775,
+        0.7072956807539774,
+        0.660178502707111,
+        0.5798158634415426,
+        0.4812215893786501
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K009/PARAMETERS_LOCK.json",
+        "sha256": "71e9c29e8a9a5c806ef2c4f38397da81378c86d3fc6c0c18fed6a3ddaf64eba0",
+        "bytes": 3692
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K009/RESULTS.json",
+        "sha256": "8fa1d2bbbeaf4a813f12db5fe0435b572e131756cb5a114649c7b2c92b0637c2",
+        "bytes": 101981
+      }
+    },
+    {
+      "point_id": "coarse_K010",
+      "K": 10,
+      "theta": [
+        2.1775597966144155e-16,
+        4.746883507651583e-17,
+        9.31182458011915e-17,
+        4.188899127945849e-18,
+        -8.269472059739227e-17,
+        6.433291146084221e-17,
+        2.405763220999065e-16,
+        1.932956285455277e-16,
+        0.4893425027591008,
+        0.5901762147411829,
+        0.6726745447647641,
+        0.7212303298791198,
+        0.7212303298791197,
+        0.6726745447647645,
+        0.590176214741183,
+        0.48934250275910113
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K010/PARAMETERS_LOCK.json",
+        "sha256": "3e70b694ecb24ccc04ef06eb03036377b33cfbdb93a7d92707bf64f7e9226a11",
+        "bytes": 3358
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K010/RESULTS.json",
+        "sha256": "29db276e671df90672d0389f6a6986d2c7cb50e78b0fc5020d66d09e7ffe08d9",
+        "bytes": 102052
+      }
+    },
+    {
+      "point_id": "coarse_K012",
+      "K": 12,
+      "theta": [
+        -2.8693431506599203e-16,
+        2.331182875325296e-16,
+        -3.887360402515659e-17,
+        9.40455337501817e-17,
+        -8.714308977957695e-18,
+        1.6210734966433758e-16,
+        1.8454974461883995e-16,
+        1.1051864742572582e-16,
+        0.5005902875035871,
+        0.6045312053633198,
+        0.6900017023657302,
+        0.7405724341459113,
+        0.7405724341459109,
+        0.6900017023657309,
+        0.6045312053633201,
+        0.5005902875035874
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K012/PARAMETERS_LOCK.json",
+        "sha256": "313816af6cae807632c4ed413e43135261a40f9ddcc31f11476e995b3d54cbde",
+        "bytes": 3692
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K012/RESULTS.json",
+        "sha256": "a196d57f7a3e70e67b1e3c161ae81cb94fa2cc3308d9e3800e0b4929489df29f",
+        "bytes": 102019
+      }
+    },
+    {
+      "point_id": "coarse_K016",
+      "K": 16,
+      "theta": [
+        1.020850713805236e-16,
+        1.668616699821329e-16,
+        -5.089135289773359e-17,
+        2.8578996593384714e-17,
+        -1.3360320903593619e-17,
+        7.300218540393751e-17,
+        2.0312495549968302e-16,
+        2.1545930444583964e-16,
+        0.513119261806853,
+        0.6205109359310981,
+        0.7092888751352856,
+        0.7621200192224422,
+        0.7621200192224417,
+        0.7092888751352858,
+        0.6205109359310981,
+        0.5131192618068525
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K016/PARAMETERS_LOCK.json",
+        "sha256": "538a5b77c9c6adb27da25dfb6719b65591647cfcee54c9916dc354a0fe5750ca",
+        "bytes": 3691
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K016/RESULTS.json",
+        "sha256": "da3f44d1fe48f2653adcaea67e37a409ec3c16b094b4388d0e6ce8ade8959763",
+        "bytes": 102026
+      }
+    },
+    {
+      "point_id": "coarse_K024",
+      "K": 24,
+      "theta": [
+        2.5772998031396797e-17,
+        1.765599222001855e-16,
+        2.609291511714396e-17,
+        -1.6075261274035549e-16,
+        -1.5616173632280897e-16,
+        1.344372980694817e-16,
+        1.7437117611945202e-16,
+        1.0603079434936573e-16,
+        0.5240281243254722,
+        0.6343844396186693,
+        0.7260090482325602,
+        0.7808058490545056,
+        0.7808058490545056,
+        0.7260090482325604,
+        0.6343844396186694,
+        0.5240281243254722
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K024/PARAMETERS_LOCK.json",
+        "sha256": "2bea2da3ac7b3fdb09b8be1c61d9e6fdc749f89d766217fa6c38ebdcffe73d84",
+        "bytes": 3693
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K024/RESULTS.json",
+        "sha256": "f72b44439f1053622425af0ba95bc6d922a127988fac1235c42c40fda46ce097",
+        "bytes": 101942
+      }
+    },
+    {
+      "point_id": "coarse_K032",
+      "K": 32,
+      "theta": [
+        -1.4812628528596393e-16,
+        2.7008448269318353e-16,
+        6.417612428241958e-17,
+        4.518484698620829e-17,
+        6.567935570766266e-17,
+        2.031582354410059e-16,
+        2.674201392825471e-16,
+        2.7550445290694566e-16,
+        0.5289065824483691,
+        0.6405632149859416,
+        0.7334420593555734,
+        0.7891146334746036,
+        0.7891146334746036,
+        0.7334420593555735,
+        0.6405632149859412,
+        0.5289065824483686
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K032/PARAMETERS_LOCK.json",
+        "sha256": "6019c9fe79eaba9d5112643c7cdd6869b82ca2cd08d3268bfdd82975891cfd95",
+        "bytes": 3361
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K032/RESULTS.json",
+        "sha256": "74e932f6798bc6e356e5359ff0f0828847a4b8cfafea894f344ef306e3a0752b",
+        "bytes": 102139
+      }
+    },
+    {
+      "point_id": "coarse_K064",
+      "K": 64,
+      "theta": [
+        -4.8369151808180464e-17,
+        7.359396335851304e-17,
+        1.3136962713385114e-16,
+        -7.583825368562107e-18,
+        -1.791171892378314e-17,
+        1.9354951508530254e-16,
+        1.2748970711489897e-16,
+        1.4632357594689753e-16,
+        0.5355371105765223,
+        0.6489228620512119,
+        0.7434864832027333,
+        0.8003518287359231,
+        0.8003518287359228,
+        0.7434864832027336,
+        0.648922862051212,
+        0.5355371105765224
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K064/PARAMETERS_LOCK.json",
+        "sha256": "ada5697a982f81f4bf42bcc45add5c0e70bc6c69902fb9d26c63063527619fc0",
+        "bytes": 3693
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K064/RESULTS.json",
+        "sha256": "8e4ec392bc22f262ba7476a12097d71ddedb47dec7f897d903e5fcf6d0af07ec",
+        "bytes": 101901
+      }
+    },
+    {
+      "point_id": "coarse_K128",
+      "K": 128,
+      "theta": [
+        -1.6141920801174882e-16,
+        -9.302702620031083e-18,
+        1.1274961413153177e-17,
+        3.1514803977842804e-18,
+        -8.638343716036035e-17,
+        8.110411798799498e-17,
+        7.149816234026437e-17,
+        1.333031764981209e-16,
+        0.5385512206430577,
+        0.6527077444173651,
+        0.7480342934902762,
+        0.8054488378124997,
+        0.8054488378124997,
+        0.7480342934902765,
+        0.6527077444173656,
+        0.5385512206430582
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K128/PARAMETERS_LOCK.json",
+        "sha256": "0cef305aa6f7bec5eaaa4efe4ac3c06240337e9a0ed07e29ffe24e820ee8aed6",
+        "bytes": 3364
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_K128/RESULTS.json",
+        "sha256": "cef3da710636871aa83b5b4d824944539a6ef536ab1800f8456a11ec909e50d0",
+        "bytes": 101994
+      }
+    },
+    {
+      "point_id": "coarse_Kinf",
+      "K": "inf",
+      "theta": [
+        1.57227867365225e-16,
+        3.8088879110587273e-16,
+        4.342796545713905e-18,
+        6.453638020050477e-17,
+        6.24888526053257e-17,
+        1.764045106698487e-16,
+        1.272998906823272e-16,
+        2.9458230384094607e-16,
+        0.5413690669151761,
+        0.6562402389735345,
+        0.752284592407296,
+        0.8102227671755395,
+        0.8102227671755393,
+        0.7522845924072963,
+        0.6562402389735346,
+        0.5413690669151757
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_Kinf/PARAMETERS_LOCK.json",
+        "sha256": "9548a0a3afc9d176dbd71a145e393e30608efb8aeb29c77d46080cc07841f334",
+        "bytes": 3359
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/coarse_Kinf/RESULTS.json",
+        "sha256": "fdc9c6aa8145cc319083c0720277a1e2f7e3ada9f0281ca98c971ae3bc98866f",
+        "bytes": 99650
+      }
+    },
+    {
+      "point_id": "refine_00_K011",
+      "K": 11,
+      "theta": [
+        1.8456889340682091e-16,
+        -1.5982398778290307e-16,
+        1.0280952052170786e-16,
+        3.289155970905683e-17,
+        -1.238371966340995e-16,
+        1.4306368813204564e-16,
+        2.597723077620575e-16,
+        2.0633808511686157e-16,
+        0.4956151500437097,
+        0.5981815655337215,
+        0.682336295002307,
+        0.7320131838937917,
+        0.7320131838937917,
+        0.6823362950023075,
+        0.598181565533722,
+        0.49561515004370993
+      ],
+      "parameter_lock_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/refine_00_K011/PARAMETERS_LOCK.json",
+        "sha256": "750e2280deec5141e3b328494ffeedc5c72f0c0139e34555fd2b9d6777aade0f",
+        "bytes": 3411
+      },
+      "result_artifact": {
+        "path": "artifacts/rankone_continuation_v1_20261007/points/refine_00_K011/RESULTS.json",
+        "sha256": "951ef8210afce63b7d580cc3304cbc478071e1b5798bf818c787a933acb75428",
+        "bytes": 102776
+      }
+    }
+  ],
+  "old_K8_artifact": {
+    "path": "artifacts/rankone_continuation_v1_20261007/INITIAL_K8.json",
+    "sha256": "b23cd90e7bfdba9f26654bb660e93e06b28428d6004ded5860163456033adaea",
+    "bytes": 92782
+  },
+  "coarse_lock_artifact": {
+    "path": "artifacts/rankone_continuation_v1_20261007/COARSE_LOCK.json",
+    "sha256": "415f3d8aa8d274f66a6798d47c7e88a46c25a468d912ffae22722cb720f0b4ad",
+    "bytes": 1151498
+  },
+  "bracket_final_artifact": {
+    "path": "artifacts/rankone_continuation_v1_20261007/BRACKET_FINAL.json",
+    "sha256": "b60c841e5982a79a91b35429f78fe5c24fcf39fc1f00efcd1ddabf21f157b439",
+    "bytes": 355527
+  },
+  "all_endpoints_locked_before_cross": true
+}

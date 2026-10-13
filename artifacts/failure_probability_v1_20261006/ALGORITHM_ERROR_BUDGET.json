@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-06T06:09:27.458381+00:00",
+  "role": "Post-run deterministic conditional error-budget corollary; not a new achieved native-program guarantee",
+  "source_results_sha256": "f25ee252366d27c74451fdd7b6ad416dba689e41e8aa51323d5a35f70a6704c6",
+  "source_probability": 0.70355036287487,
+  "target_probability": "2/3",
+  "algorithm_error_threshold_for_target": {
+    "lower": 0.00022911104158471933,
+    "upper": 0.0002291110415847194,
+    "enclosure": "[0.00022911104158471935956154814419186035969623748415956303596 +/- 6.05e-60]"
+  },
+  "conservative_sufficient_epsilon_algorithm": ".00022",
+  "conditional_probability_at_conservative_epsilon": {
+    "lower": 0.6682407343670721,
+    "upper": 0.6682407343670723,
+    "enclosure": "[0.66824073436707218697801045543018713839133154918474700636 +/- 1.57e-57]"
+  },
+  "input_bridge_coefficients": {
+    "relative_S_oscillation": 1,
+    "active_Z_supnorm": {
+      "lower": 8.019960159204452,
+      "upper": 8.019960159204455,
+      "enclosure": "[8.0199601592044532878690321547111249363568922157920331989 +/- 4.16e-56]"
+    }
+  },
+  "uniform_algorithm_error_established": false,
+  "Gaussian_or_S_generation_certified": false,
+  "new_alpha_spent": 0,
+  "new_random_draws": 0,
+  "new_scores": 0
+}

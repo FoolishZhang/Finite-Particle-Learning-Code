@@ -1,0 +1,366 @@
+{
+  "created_utc": "2026-10-07T10:47:59.438695+00:00",
+  "freeze_sha256": "f3d6db88bd0c09dc492450f96a9cb965a50cb6ec7d31b2123d1902e194f90f77",
+  "files": {
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/LOW.json",
+      "sha256": "24cdd977063a800e2fe47755693d4905ed7e7b146d5e2a81db2067190ae4992a",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/LOW.npz",
+      "sha256": "9ec0a681dbe4086834301805eed07c4cc261fbd8c9c822ceb6705947ec46f584",
+      "bytes": 673936
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/HIGH.json",
+      "sha256": "ce5590962517149302fc97e89ba619eafba7cf43be02e60a74fdd7f49a544d99",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/HIGH.npz",
+      "sha256": "a00d1815e47ea34e6ee03fdadc463eff0c72e7f06bada48b95f70c4dc3017faa",
+      "bytes": 672307
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/REF.json",
+      "sha256": "46f9f270a1fe1e1e6c6f511af1bc1a9733c9d2b84f078a46d561b850b4e2e19f",
+      "bytes": 94658
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r0/REF.npz",
+      "sha256": "d033ff5ffca215905e172bacddafd1c7dd804f334eb3a614579fac0a74c5b2cb",
+      "bytes": 156902
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/HIGH.json",
+      "sha256": "6bfc752ddb4f2703cb3ec8012d22eeb3625489d6dcf713f24e891e65e5af431a",
+      "bytes": 8958
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/HIGH.npz",
+      "sha256": "e21d46e80d48a88bf996bc2984702ef5d4d97b7a3aed79d7dd9669163aa09cad",
+      "bytes": 672393
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/LOW.json",
+      "sha256": "ed84fa780740e30048ffc7b47cd162f607e12e56dd60a57396c65b232f2b7224",
+      "bytes": 8953
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/LOW.npz",
+      "sha256": "bfec1e5d1cebbb7cdb21e301e2df78f17a8669693d3ed93ba36d52ea0b774f5e",
+      "bytes": 674720
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/REF.json",
+      "sha256": "cec147b8cbc3bf8b0e1f6b7e91402f0f56f00952f9ba49374f35b9203d9715c7",
+      "bytes": 109836
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/REF.npz",
+      "sha256": "bd5854bafd536fdd88836115f922993825e5c3c7f4de641819d1f1b3d8be94df",
+      "bytes": 183138
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/LOW.json",
+      "sha256": "276cffa74933db2447e1cb086c9cbe2df44ac43627c948afeba595847a963d9f",
+      "bytes": 8953
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/LOW.npz",
+      "sha256": "feaaa96e5d0eec8df49e082203b9e0cabf24fe32c93f071674ac415360cbb60f",
+      "bytes": 673994
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/HIGH.json",
+      "sha256": "6969be37d08f8643dc33ac2bc96f3abb622e66ccd6680859605e2478458eee36",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/HIGH.npz",
+      "sha256": "3e303b5e092e8cb082c520931779a85a69e9134d47902b02cc6ab80c18ab951d",
+      "bytes": 672435
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/REF.json",
+      "sha256": "ab9fa512ef811263c91551a70794aa27af1592486c1f55d32e6d799f57d8b63f",
+      "bytes": 89300
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r0/REF.npz",
+      "sha256": "12b62465842669315ee7624a174c3be294cf9610f08b479e9784ad6afe08fafe",
+      "bytes": 148740
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/HIGH.json",
+      "sha256": "102ca696823970190f50e17977c66bbc4b84930aa00ec203cd5c499ed777be95",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/HIGH.npz",
+      "sha256": "1eec21564c4253e6aaef35003f02861fb7d3b76b55cdd2af980dfa31847d3d15",
+      "bytes": 673251
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/LOW.json",
+      "sha256": "393f7ec44a9dc69a42d0a4b261669063775aed265d2769e9397d649e88085c8c",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/LOW.npz",
+      "sha256": "ed50f48d1a7803df0202e0c62cee9554ddb5ca85dda8fdd287d38857f2f255fd",
+      "bytes": 672992
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/REF.json",
+      "sha256": "aecc9aed5fa6eac571eed3d5fa584e5392066cde86bd7ecdc6edc05458eedb6b",
+      "bytes": 57033
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N4096_r1/REF.npz",
+      "sha256": "d85f91d3f44e98b7f747551e91f827037d76d4215143193182792c2021d7875d",
+      "bytes": 93714
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/LOW.json",
+      "sha256": "7740b8ff48598c6d9ab7dea859fdb766aac89969e4712a09cb051146618c5c14",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/LOW.npz",
+      "sha256": "e5faf25de65ee72ed4ed55ffffb81bd55f35bdab9524bf26a8a20598df64b86d",
+      "bytes": 673058
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/HIGH.json",
+      "sha256": "6a957b2754f1d2486deae95c877ebd61e257b546ec68a8ab64e5f91ecfffa6d6",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/HIGH.npz",
+      "sha256": "a6cd06313d0123e1fb0fd1d25f48154b44ae0696c8786b8815b8943c58386fbf",
+      "bytes": 672693
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/REF.json",
+      "sha256": "961dc2a2e24c10086e98b24144f9c967234ffb106eef2d607ccdd9911aca13b6",
+      "bytes": 114909
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r0/REF.npz",
+      "sha256": "142862ca7f88157f6d979e8b2ff390501d082171ba2fabc6acaf67f3768f7353",
+      "bytes": 191676
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/HIGH.json",
+      "sha256": "f81caddf9bb98c92080a5b3fac4d55cb64c68c904ae4a8307ac8bad43e0f791a",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/HIGH.npz",
+      "sha256": "de2d3933b6855941d7a2ec281904436b0490928ced0645d318c5299975768fd1",
+      "bytes": 671669
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/LOW.json",
+      "sha256": "ff91778fa03ff8002011f1ed3210a861c5f592e499de7aae0b6c79f6785dba87",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/LOW.npz",
+      "sha256": "ff70e0fcd9052cf8f2e4e9690defbfc475a210ee78fcb0138378276e45cba33a",
+      "bytes": 674156
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/REF.json",
+      "sha256": "b21cd80da7957c508fc0016b6d61b2c7e52b53da534d4775f70da567312bad8c",
+      "bytes": 72948
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N1024_r1/REF.npz",
+      "sha256": "8f005897b61c188f4354075d7e08cadc927d6f49ed7dff22f76c1d4f54e4aaba",
+      "bytes": 120677
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/LOW.json",
+      "sha256": "3effb93e61aa3588e6e7e462fecadb5b85e4920139c1312d2610bc13255e4e26",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/LOW.npz",
+      "sha256": "dbc26f0b8c8edf1e800e54dd945c43668fcd4980b394cea6b75d2ab30248df75",
+      "bytes": 672020
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/HIGH.json",
+      "sha256": "000efde4369fa8909bcecaeb6055395693aa9c646ea99c75ce5b0452d623a4b6",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/HIGH.npz",
+      "sha256": "d96f9de4bd6d5a1f05ebaba15f23c8c31490d1b29f712ca4550a6b5cf60a72c2",
+      "bytes": 672952
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/REF.json",
+      "sha256": "f629475767d93e33bbd49874ab1c328707372bb99eb22bb3255fb956802b6019",
+      "bytes": 93928
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r0/REF.npz",
+      "sha256": "2c20dabd5e84a883f8e2919850c7f649f2893f02e380e090465247a463ffb831",
+      "bytes": 156793
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/HIGH.json",
+      "sha256": "274a20bed0efffbbdc5945b51431cd301daa52d4b1a046109bb4acf8108dd75f",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/HIGH.npz",
+      "sha256": "8893a965c6c5d743727c91b9738b18dadfab5e8f56932732f95058de5ba7c5df",
+      "bytes": 672740
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/LOW.json",
+      "sha256": "dc9d5b6084707ed8fbd245c925f9ccfc23658ccd2d556a46cf7f444ea30c2c2a",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/LOW.npz",
+      "sha256": "b5259a9e0b355e77e9522ad133b95f3f31fc375d673e3e1928d057c995b79768",
+      "bytes": 673796
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/REF.json",
+      "sha256": "e9a4dc28db5f0443bcf14fc7d882676cba4e38d0f1997707a97b7a392d6ab457",
+      "bytes": 74871
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D2_N4096_r1/REF.npz",
+      "sha256": "36a4557abe59dca337ef0246d9137f958ef70823dcb20e8786a07259b1754545",
+      "bytes": 123896
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/LOW.json",
+      "sha256": "438a701e9204c54142e252a67f76599fd6fa5b915bc57cab83d96b413c4fbdc1",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/LOW.npz",
+      "sha256": "cca89caf394d04367b8f18c5f19d056ae52c9c7e81d8554b5169df124da427d0",
+      "bytes": 672784
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/HIGH.json",
+      "sha256": "e9214e32792e1d0f307f3378400c07d15d3bd22ea33dd3008ed1ce4f49e43227",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/HIGH.npz",
+      "sha256": "22f678585c3656cc8113a58bed80413d9fd170249705d2f9372ceed4e6375f39",
+      "bytes": 672150
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/REF.json",
+      "sha256": "163066c9d1a25f8c992e3265f5ddc0384def293e6872cc3d879c76fa540cc031",
+      "bytes": 70576
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r0/REF.npz",
+      "sha256": "ef2cbd8b04c084b4226163d26db51eb4e24da545181416399e7ee43a51568ac7",
+      "bytes": 116743
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/HIGH.json",
+      "sha256": "344d84227da48ac1edebd642721f331ced75f24d61698419253cf7774aaf11ff",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/HIGH.npz",
+      "sha256": "bc82309287daef37913d58fdf31934eba1bcc4b0998863c9ffe5979e912545c0",
+      "bytes": 672149
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/LOW.json",
+      "sha256": "256a8c2f73ba0462dfd3b9e0a3a24c90546085596e536ecbe1a32729922cb371",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/LOW.npz",
+      "sha256": "0057aa6de83e4e29fd897c9c3ddb41adebd7a707e8937fd0b4f19a4a92eedfaa",
+      "bytes": 672213
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/REF.json",
+      "sha256": "efaa4a9f304cb7400dd728c3ba9f6840f0636bcfa6fca972def68a3f1ec0fc6d",
+      "bytes": 94829
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N1024_r1/REF.npz",
+      "sha256": "42fa37d1941977b35f21f923a0b8afe22936e374bb3e69bf3f4a5ca498c879ca",
+      "bytes": 158299
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/LOW.json",
+      "sha256": "ecd3fc13dcf7c2e8c21bc146bfbbedd0fd5cc1e5fa751da80469bc54765d0e0b",
+      "bytes": 8954
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/LOW.npz",
+      "sha256": "fb0a72d2135d362f2b8929cfd7105f278f51a0128c43b796fab8a42952f9817e",
+      "bytes": 673539
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/HIGH.json",
+      "sha256": "76ed1d374d2d03ce4cb6059b3e9d118599b98141cccb6a07cedd7a07c63f58b4",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/HIGH.npz",
+      "sha256": "a0bef3edbbd15dbcdbf0253dece0a8eb3e24d8ef7784d61dc1f00c7968d3a903",
+      "bytes": 672143
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/REF.json",
+      "sha256": "c85cb581bf1d3250d1eafea15caedbd9e45627efb6bb9da76caff8306ab20956",
+      "bytes": 111635
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r0/REF.npz",
+      "sha256": "a4a3063cec025c9fa7db9700b3812e51b7bed8f0e7f18c8d89f5df63375c08e6",
+      "bytes": 187076
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/HIGH.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/HIGH.json",
+      "sha256": "f223ad539073170b20069dc4255e69c9f652127131453ff32400117094901bfa",
+      "bytes": 8959
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/HIGH.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/HIGH.npz",
+      "sha256": "26b1bab472a3c20eb8216c0c7d27b23bd016ac187080b8b10a7d9cce9c3c11cc",
+      "bytes": 672576
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/LOW.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/LOW.json",
+      "sha256": "3ea8f06f92c16b0bb064fad3db0c32fab386de7776d8e35c7adf9c8e7296edca",
+      "bytes": 8953
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/LOW.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/LOW.npz",
+      "sha256": "8c1da8eb55dfae38afad89c7a4511216c14a109d117c3d34ffe5fae49c7df595",
+      "bytes": 674095
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/REF.json": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/REF.json",
+      "sha256": "663b341b67b9c7313ba613787c85506c6e6987ee62e2b09fed52a987203a7c6f",
+      "bytes": 63131
+    },
+    "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/REF.npz": {
+      "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D3_N4096_r1/REF.npz",
+      "sha256": "aabff303824cae42d4bdf21eef92a865f1fd75341bbeadaa5b9bbab333ac876a",
+      "bytes": 104069
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source_sha256": "58eac80421331c5b40318e940a73b3ee60cbf0c9bc595dfd9d1a7c5e13d7d2f1",
+  "posthoc": true,
+  "inputs": {
+    "artifacts/finite_calibration/TRAIN/RESULTS.json": "c748756e4ea6870d880c4333db5440a208b2c7444a2683e4f3bcd7487f0d1ea1",
+    "artifacts/finite_calibration/CAL/MODEL.json": "ea73bb0b2ded95a15bbc27c020a3d8f26aa2041df8bc1276c0689f103255fe3c"
+  },
+  "claim": "For any fixed data, exact conditional raw endpoint gap is 2*t_N*V(R), V(R)<0. Compare its known sign to actual saved raw endpoint gap.",
+  "positive_target_ties": "t_N=0 is an expectation tie, excluded from opposite-sign count",
+  "arithmetic_near_tie": 1e-12,
+  "new_random_draws": 0,
+  "new_tests": false,
+  "no_causal_percentage_claim": true
+}

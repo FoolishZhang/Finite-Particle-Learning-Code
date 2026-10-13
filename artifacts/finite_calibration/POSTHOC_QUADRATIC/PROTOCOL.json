@@ -1,0 +1,15 @@
+{
+  "stage": "after CAL derivative review, before root reads complete TRAIN risk results",
+  "classification": "additional exploratory replay, outside original four-gate family",
+  "model_sha256": "ea73bb0b2ded95a15bbc27c020a3d8f26aa2041df8bc1276c0689f103255fe3c",
+  "rule": "raw + c*rho^2, c = derivative_at_zero(frozen gprime spline)/2",
+  "coefficient": 0.00834401506837232,
+  "coefficient_uses_teacher_or_training_outcomes": false,
+  "teacher_specific_tuning": false,
+  "same_existing_training_arrays_reused": true,
+  "new_random_draws": 0,
+  "original_primary_outputs_modified": false,
+  "additional_selections": 96,
+  "tests_or_new_success_gates": false,
+  "readout": "all theta/N mean reference risks, paired differences vs full finite calibration, same-point counts; descriptive only"
+}

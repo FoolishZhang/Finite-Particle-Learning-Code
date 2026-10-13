@@ -1,0 +1,529 @@
+{
+  "schema": "r02_label_averaged_kernel_exact_fixtures_v1",
+  "qualification": "manufactured algebra and finite-bound tests; no project target values or finite-n certificate",
+  "source_sha256": {
+    "script/r02_finite_scale_fixture.py": "f284dc257cb40bc09c5457d0f83ac62ef57a4e2598ef925186813bd56b59a99f",
+    "docs/08_research_研究工作/R02FiniteScale_v1_20261010/AVERAGED_KERNEL.md": "1ea25b2aa65458c73ae0ab3cb3583f958b353825d58c27b547ebdaff81b93c4c"
+  },
+  "arithmetic": "Python fractions.Fraction, exact polynomial integration and exact Gumbel Laplace identity",
+  "fixed_K": [
+    2,
+    3,
+    4
+  ],
+  "fixed_coordinate_scales": [
+    "1",
+    "2"
+  ],
+  "beta_density_C2": true,
+  "beta_cases": [
+    {
+      "K": 2,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "direct": {
+        "numerator": "-7171240783",
+        "denominator": "10380902400"
+      },
+      "factorized": {
+        "numerator": "-7171240783",
+        "denominator": "10380902400"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-603565674649",
+        "denominator": "1349517312000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "36521736349",
+        "denominator": "149946368000"
+      },
+      "centered_equal": true,
+      "translated_equal": true,
+      "residual_decomposition_equal": true
+    },
+    {
+      "K": 2,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "direct": {
+        "numerator": "-165196460973943",
+        "denominator": "442209832796160"
+      },
+      "factorized": {
+        "numerator": "-165196460973943",
+        "denominator": "442209832796160"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-7836285251780489",
+        "denominator": "22110491639808000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "141179265638887",
+        "denominator": "7370163879936000"
+      },
+      "centered_equal": true,
+      "translated_equal": true,
+      "residual_decomposition_equal": true
+    },
+    {
+      "K": 3,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "direct": {
+        "numerator": "-1057918598947007483",
+        "denominator": "1190281466609664000"
+      },
+      "factorized": {
+        "numerator": "-1057918598947007483",
+        "denominator": "1190281466609664000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-30269659208838897379",
+        "denominator": "59514073330483200000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "7542090246170492257",
+        "denominator": "19838024443494400000"
+      },
+      "centered_equal": true,
+      "translated_equal": true,
+      "residual_decomposition_equal": true
+    },
+    {
+      "K": 3,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "direct": {
+        "numerator": "-244294586212334133262087",
+        "denominator": "499240231652678015385600"
+      },
+      "factorized": {
+        "numerator": "-244294586212334133262087",
+        "denominator": "499240231652678015385600"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-56814837386775169117310923",
+        "denominator": "124810057913169503846400000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "1419603055436121399403609",
+        "denominator": "41603352637723167948800000"
+      },
+      "centered_equal": true,
+      "translated_equal": true,
+      "residual_decomposition_equal": true
+    },
+    {
+      "K": 4,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "direct": {
+        "numerator": "-3293788708735061362147",
+        "denominator": "3583829288555642880000"
+      },
+      "factorized": {
+        "numerator": "-3293788708735061362147",
+        "denominator": "3583829288555642880000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-95617773669772217081858311",
+        "denominator": "236532733044672430080000000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "121772281106741832819843689",
+        "denominator": "236532733044672430080000000"
+      },
+      "centered_equal": true,
+      "translated_equal": true,
+      "residual_decomposition_equal": true
+    },
+    {
+      "K": 4,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "direct": {
+        "numerator": "-21973534910676319115260952517583",
+        "denominator": "42329181369181941426101944320000"
+      },
+      "factorized": {
+        "numerator": "-21973534910676319115260952517583",
+        "denominator": "42329181369181941426101944320000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-29160399548400880041287269836187441",
+        "denominator": "63493772053772912139152916480000000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "3799902817613598631604158940187059",
+        "denominator": "63493772053772912139152916480000000"
+      },
+      "centered_equal": true,
+      "translated_equal": true,
+      "residual_decomposition_equal": true
+    }
+  ],
+  "gumbel_cases": [
+    {
+      "K": 2,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "direct_softmax": {
+        "numerator": "-10417",
+        "denominator": "81000"
+      },
+      "factorized_gumbel_integral": {
+        "numerator": "-10417",
+        "denominator": "81000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-254407",
+        "denominator": "2025000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "1003",
+        "denominator": "337500"
+      }
+    },
+    {
+      "K": 2,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "direct_softmax": {
+        "numerator": "-10417",
+        "denominator": "81000"
+      },
+      "factorized_gumbel_integral": {
+        "numerator": "-10417",
+        "denominator": "81000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-254407",
+        "denominator": "2025000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "1003",
+        "denominator": "337500"
+      }
+    },
+    {
+      "K": 3,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "direct_softmax": {
+        "numerator": "-2230891",
+        "denominator": "9922500"
+      },
+      "factorized_gumbel_integral": {
+        "numerator": "-2230891",
+        "denominator": "9922500"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-5459052313",
+        "denominator": "24806250000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "39391729",
+        "denominator": "8268750000"
+      }
+    },
+    {
+      "K": 3,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "direct_softmax": {
+        "numerator": "-2230891",
+        "denominator": "9922500"
+      },
+      "factorized_gumbel_integral": {
+        "numerator": "-2230891",
+        "denominator": "9922500"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-5459052313",
+        "denominator": "24806250000"
+      },
+      "wrong_mix_difference": {
+        "numerator": "39391729",
+        "denominator": "8268750000"
+      }
+    },
+    {
+      "K": 4,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "direct_softmax": {
+        "numerator": "-84185083",
+        "denominator": "297675000"
+      },
+      "factorized_gumbel_integral": {
+        "numerator": "-84185083",
+        "denominator": "297675000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-15606012485881",
+        "denominator": "56279179687500"
+      },
+      "wrong_mix_difference": {
+        "numerator": "206819845871",
+        "denominator": "37519453125000"
+      }
+    },
+    {
+      "K": 4,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "direct_softmax": {
+        "numerator": "-84185083",
+        "denominator": "297675000"
+      },
+      "factorized_gumbel_integral": {
+        "numerator": "-84185083",
+        "denominator": "297675000"
+      },
+      "wrong_mix_labels_first": {
+        "numerator": "-15606012485881",
+        "denominator": "56279179687500"
+      },
+      "wrong_mix_difference": {
+        "numerator": "206819845871",
+        "denominator": "37519453125000"
+      }
+    }
+  ],
+  "signed_correction_fixture_checks": [
+    {
+      "K": 2,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "I_g": {
+        "numerator": "700",
+        "denominator": "429"
+      },
+      "J_g": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "J_integration_by_parts_equal": true,
+      "signed_correction": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "exact_remainder": {
+        "numerator": "2690486869",
+        "denominator": "14994636800"
+      },
+      "explicit_bound": {
+        "numerator": "4649356096",
+        "denominator": "1875"
+      },
+      "bound_pass": true
+    },
+    {
+      "K": 2,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "I_g": {
+        "numerator": "700",
+        "denominator": "429"
+      },
+      "J_g": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "J_integration_by_parts_equal": true,
+      "signed_correction": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "exact_remainder": {
+        "numerator": "3024230431873",
+        "denominator": "49134425866240"
+      },
+      "explicit_bound": {
+        "numerator": "290909927",
+        "denominator": "1875"
+      },
+      "bound_pass": true
+    },
+    {
+      "K": 3,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "I_g": {
+        "numerator": "350",
+        "denominator": "429"
+      },
+      "J_g": {
+        "numerator": "-68600",
+        "denominator": "46189"
+      },
+      "J_integration_by_parts_equal": true,
+      "signed_correction": {
+        "numerator": "101528",
+        "denominator": "230945"
+      },
+      "exact_remainder": {
+        "numerator": "-9147519166664361",
+        "denominator": "396760488869888000"
+      },
+      "explicit_bound": {
+        "numerator": "1423591205708",
+        "denominator": "625"
+      },
+      "bound_pass": true
+    },
+    {
+      "K": 3,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "I_g": {
+        "numerator": "350",
+        "denominator": "429"
+      },
+      "J_g": {
+        "numerator": "-68600",
+        "denominator": "46189"
+      },
+      "J_integration_by_parts_equal": true,
+      "signed_correction": {
+        "numerator": "25382",
+        "denominator": "230945"
+      },
+      "exact_remainder": {
+        "numerator": "8893626157018462394451",
+        "denominator": "166413410550892671795200"
+      },
+      "explicit_bound": {
+        "numerator": "177995063057",
+        "denominator": "1250"
+      },
+      "bound_pass": true
+    },
+    {
+      "K": 4,
+      "s": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "I_g": {
+        "numerator": "100870",
+        "denominator": "200583"
+      },
+      "J_g": {
+        "numerator": "-68600",
+        "denominator": "46189"
+      },
+      "J_integration_by_parts_equal": true,
+      "signed_correction": {
+        "numerator": "203056",
+        "denominator": "230945"
+      },
+      "exact_remainder": {
+        "numerator": "-828215828669486987513",
+        "denominator": "4380235797123563520000"
+      },
+      "explicit_bound": {
+        "numerator": "17055203951072",
+        "denominator": "1875"
+      },
+      "bound_pass": true
+    },
+    {
+      "K": 4,
+      "s": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "I_g": {
+        "numerator": "100870",
+        "denominator": "200583"
+      },
+      "J_g": {
+        "numerator": "-68600",
+        "denominator": "46189"
+      },
+      "J_integration_by_parts_equal": true,
+      "signed_correction": {
+        "numerator": "50764",
+        "denominator": "230945"
+      },
+      "exact_remainder": {
+        "numerator": "308974071151636925360464788713",
+        "denominator": "4703242374353549047344660480000"
+      },
+      "explicit_bound": {
+        "numerator": "1066225621174",
+        "denominator": "1875"
+      },
+      "bound_pass": true
+    }
+  ],
+  "beta_safe_norm_caps": {
+    "L0": {
+      "numerator": "1120",
+      "denominator": "1"
+    },
+    "L1": {
+      "numerator": "5040",
+      "denominator": "1"
+    },
+    "L2": {
+      "numerator": "18480",
+      "denominator": "1"
+    },
+    "V1": {
+      "numerator": "5040",
+      "denominator": "1"
+    }
+  },
+  "checks": {
+    "all_12_exact_factorizations": true,
+    "all_12_wrong_label_mixtures_rejected": true,
+    "all_6_beta_translations_and_centerings": true,
+    "all_6_exact_residual_decompositions": true,
+    "all_6_signed_correction_finite_bounds": true,
+    "all_3_J_integration_by_parts": true
+  },
+  "work_counts": {
+    "beta_direct_banks": 112,
+    "gumbel_direct_banks": 112,
+    "fixture_cases": 12,
+    "new_project_target_integrals": 0,
+    "new_Gaussian_grids": 0,
+    "new_random_samples": 0,
+    "new_NPZ_reads": 0,
+    "new_optimizations": 0
+  }
+}

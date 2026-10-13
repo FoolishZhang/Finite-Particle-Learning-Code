@@ -1,0 +1,41 @@
+{
+  "schema": "direction_validation_audit_manufactured_check_v1",
+  "passed": true,
+  "created_utc": "2026-10-07T14:47:23.866379+00:00",
+  "command": ".venv/Scripts/python.exe script/direction_validation_audit.py --self-test",
+  "exit_code": 0,
+  "seconds": 1.726322199916467,
+  "sources": {
+    "script/direction_validation_audit.py": "2d40b16730337e5d19bb156817f35d7850676e9970ca8b8c91a8329154fcef39",
+    "script/direction_validation_audit_test.py": "53c5dc86cb65456041bfae5fdcd0babb4aeb511af91be53006d4001efb7c1aa6"
+  },
+  "result": {
+    "passed": true,
+    "manufactured_only": true,
+    "scientific_inputs_read": false,
+    "new_random_draws": 0,
+    "checks": 34762,
+    "planning_rows": 720,
+    "critical_n_checks": 1482,
+    "mocked_panel_run_and_check_checks": 411404,
+    "mocked_PMF_dispatches": 48,
+    "actual_manufactured_GL_PMF_calls": 1,
+    "scientific_GL_PMF_calls": 0,
+    "failures": [],
+    "test_groups": [
+      "raw/nonunit Pbar moments and full six-look planning",
+      "nonpositive margins, cap, constant score, zero variance and strict integer boundary",
+      "raw and explicitly normalized score/KL identities",
+      "complete curvature/finite/bridge/transfer schema and critical-n reconstruction",
+      "whole-unit/call-schema reconstruction and independent PMF qualification including failure",
+      "complete mocked 12-unit dispatch and stable no-integration --check algebra",
+      "negative transfer correction preserved",
+      "independent GL PMF with unnormalized finite mass"
+    ]
+  },
+  "stdout": "{\n  \"passed\": true,\n  \"manufactured_only\": true,\n  \"scientific_inputs_read\": false,\n  \"new_random_draws\": 0,\n  \"checks\": 34762,\n  \"planning_rows\": 720,\n  \"critical_n_checks\": 1482,\n  \"mocked_panel_run_and_check_checks\": 411404,\n  \"mocked_PMF_dispatches\": 48,\n  \"actual_manufactured_GL_PMF_calls\": 1,\n  \"scientific_GL_PMF_calls\": 0,\n  \"failures\": [],\n  \"test_groups\": [\n    \"raw/nonunit Pbar moments and full six-look planning\",\n    \"nonpositive margins, cap, constant score, zero variance and strict integer boundary\",\n    \"raw and explicitly normalized score/KL identities\",\n    \"complete curvature/finite/bridge/transfer schema and critical-n reconstruction\",\n    \"whole-unit/call-schema reconstruction and independent PMF qualification including failure\",\n    \"complete mocked 12-unit dispatch and stable no-integration --check algebra\",\n    \"negative transfer correction preserved\",\n    \"independent GL PMF with unnormalized finite mass\"\n  ]\n}\n",
+  "stderr": "",
+  "scientific_inputs_read": false,
+  "scientific_PMF_calls": 0,
+  "new_random_draws": 0
+}

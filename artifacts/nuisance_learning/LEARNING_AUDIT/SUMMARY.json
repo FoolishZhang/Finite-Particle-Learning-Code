@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "checks": 132679,
+  "max_errors": {
+    "reference_mean": 2.168404344971009e-19,
+    "float": 0.0,
+    "saved_bank_curves": 2.842170943040401e-14,
+    "table_curves": 2.220446049250313e-16,
+    "raw_baseline": 5.684341886080801e-13,
+    "RB_baseline": 4.440892098500626e-16,
+    "raw_original_scores": 9.769962616701378e-15,
+    "RB_original_scores": 3.9898639947466563e-16,
+    "paired_risks": 0.0,
+    "concentration": 1.1102230246251565e-16
+  },
+  "statistics": {
+    "primary": {
+      "successes": 13,
+      "trials": 16,
+      "pvalue": {
+        "numerator": "697",
+        "denominator": "65536",
+        "float_display": 0.0106353759765625
+      },
+      "passed": true,
+      "integer_square_gaps": [
+        21,
+        25,
+        21,
+        24,
+        21,
+        0,
+        16,
+        16,
+        -1,
+        0,
+        24,
+        21,
+        21,
+        24,
+        16,
+        16
+      ]
+    },
+    "endpoints": [
+      {
+        "K": 2,
+        "successes": 14,
+        "CP_lower": {
+          "numerator": "42367190399",
+          "denominator": "68719476736",
+          "float_display": 0.616523763150326
+        },
+        "mean_risk_gap_lower": {
+          "numerator": "162373903821335304117967919175828013263899221978702743290701398938464277832235176977318700391661721911109672204076520354306307509702613780971794619798728266045850388344025908114237317260781596751833301016048878039492989607214931302770839338035716703182640979805954985011589441587417205639183147802113462830875",
+          "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+          "float_display": 0.0036568211406540056
+        }
+      },
+      {
+        "K": 4,
+        "successes": 15,
+        "CP_lower": {
+          "numerator": "767106460549",
+          "denominator": "1099511627776",
+          "float_display": 0.6976792615650993
+        },
+        "mean_risk_gap_lower": {
+          "numerator": "190526632369829200018385023361423485095437997217249491939572028020013845210034865892838247810131687454685966356295114612687507664259299009827225965767780990774575871153912130421802564593343805943085337022632605438861403056595585782840687553381043123787871969051270673291061248685491020580654881697594053822235",
+          "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+          "float_display": 0.0042908484720194226
+        }
+      }
+    ],
+    "table_highN_true_risk_upper": {
+      "numerator": "51497324705399775636846050097517650432102257826203001420417032296259080368630532405318022316990593115916910521807677666320592587613589819819397423269786596866906077628256013979665738048563111189739923685263153892557192748016159209103104832319490038658102884053244195788145185050583558813970735031721490839781",
+      "denominator": "44403020431099202920913838212488910920364031379874972346537230045959970923958737893778993898634661397216668128328234159341721072897160905755733315367950108721308669675941774863246648241507785247504911489164996424903023218538588331724056538303584327579347576139092815665266969746804489927294333013417183361892352",
+      "float_display": 0.0011597707589579161
+    },
+    "paired_cells": 576
+  },
+  "coverage": {
+    "schema": 1,
+    "independent_of_producer_functions": true,
+    "streams": 16,
+    "fixed_bank_indices": [
+      0,
+      1,
+      31,
+      32,
+      127,
+      128,
+      511,
+      512,
+      1023,
+      2047,
+      4095,
+      4096,
+      7000,
+      8000,
+      8190,
+      8191
+    ],
+    "all_actual_labels_per_fixed_bank": 1024,
+    "all_rhos": [
+      -0.75,
+      -0.6,
+      -0.45,
+      -0.3,
+      -0.15,
+      0.0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75
+    ],
+    "Ns": [
+      64,
+      256,
+      1024
+    ],
+    "Ks": [
+      2,
+      4
+    ],
+    "Bs": [
+      32,
+      512,
+      8192
+    ],
+    "original_score_replay": "sum coordinate log-sigmoid; cache unchanged nuisance; no noise GEMM/logcosh",
+    "raw_contrast_values_replayed": 16896,
+    "RB_contrast_values_replayed": 16896,
+    "full_saved_bank_arithmetic": "576 raw/RB curves and 48 table training curves; 624 choices",
+    "table_state_argmins": 1347,
+    "table_state_reference": "80-digit Decimal logarithms of the exact stored float probabilities",
+    "statistics": "all paired cells; single exact binomial; two downward dyadic CP; exact Fraction risk consequences",
+    "full_input_RNG_replay": true,
+    "Gaussian_scalars_replayed": 134217728,
+    "label_bits_replayed": 4194304,
+    "absolute_score_and_curve_tolerance": 1e-10,
+    "selection_indices": "exact agreement",
+    "RNG_values": "bitwise equality",
+    "integer_and_Fraction_statistics": "exact equality",
+    "new_independent_scientific_samples": 0,
+    "new_Gaussian_integrals": 0,
+    "new_scientific_fits": 0,
+    "unreplayed_original_banks": 130816,
+    "failure_rule": "retain first failure and stop; no tolerance or coverage adaptation"
+  },
+  "wall_seconds": 13.541141499998048,
+  "failures": 0,
+  "automatic_retries": 0
+}

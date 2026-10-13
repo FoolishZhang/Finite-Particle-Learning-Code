@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-04T05:27:35.663514+00:00",
+  "audit_authorized": true,
+  "root_freeze_sha256": "5b720b19a12def0fb5446a40bb3ce35ee16aa033ecdcb17704a9de7754e6b23c",
+  "inputs": {
+    "script/activevar_audit.py": "6701bfcf17529ca9f219004a4807172230fec792338ad536db82dd593f5f07d9",
+    "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/models/losses.py": "6a42d6b5c386434604883db615b2ab127bc7b9ac7ac2395a26fcfeb5b552c7e5",
+    "artifacts/active_scale_boundary/FREEZE.json": "5b720b19a12def0fb5446a40bb3ce35ee16aa033ecdcb17704a9de7754e6b23c",
+    "artifacts/active_scale_boundary/SPEC.json": "4fbc24f1e490499c99354873447cb953bc1f6da6b49716e15f71e4b090163ef8",
+    "artifacts/active_scale_boundary/REFERENCE/RESULTS.json": "67b70aec263392c90c19811e6354460db85aceb02e0bdce6590994068ec7f970",
+    "artifacts/active_scale_boundary/SUMMARY/RESULTS.json": "09307ab9a1fcda34215b8500a7e8396c1e28729a20713f1c7fb4eee35da1c1e9",
+    "script/activevar_compute.py": "e03a2e9adb57014dfc215d0653009ed2b33dd9dfa83363c14aab0913a3015b2d",
+    "docs/08_research_研究工作/有效尺度自由度与有限曲率_20261004/PROTOCOL.md": "733b10488a717dd8dfbc06349c9c3094df13aab7d69c5ca96d8aaa9dd1959308",
+    "docs/08_research_研究工作/有效尺度自由度与有限曲率_20261004/THEORY.md": "073a49b248cdaf27a9743742fad0f1d5f1dbe2a60b4c644c04f6a4e37dc51fe7",
+    "artifacts/active_scale_boundary/MC/stream_00/RESULTS.json": "ea8f2c7acb27e56bb255a6452046913872b7c27b01cf96596e52af1418e54a5b",
+    "artifacts/active_scale_boundary/MC/stream_00/BANKS.npz": "43122f514c44e665eca5a7349471256cc44a413a743cef1727b81d55ee73a138",
+    "artifacts/active_scale_boundary/MC/stream_01/RESULTS.json": "8cff87da96c38bb5e5d1519d03ab489ecb7a296c161d837c1ab4bbddce9084f8",
+    "artifacts/active_scale_boundary/MC/stream_01/BANKS.npz": "26aead332c290d2f84514a78ddf821f6d6801e252a55f9dcdb9ca5c07668dd67",
+    "artifacts/active_scale_boundary/MC/stream_02/RESULTS.json": "114888c97d0c2512cd06bc1d8dec8436ee6f3538e51f918e22df426543ab3683",
+    "artifacts/active_scale_boundary/MC/stream_02/BANKS.npz": "859f4e88626fd50587c7ed997d2aca6c691ab74ccb932db2064a223a3cc2352c",
+    "artifacts/active_scale_boundary/MC/stream_03/RESULTS.json": "97150193206733678f68dfbbc30be3d992304779e347747e709615be8d01b596",
+    "artifacts/active_scale_boundary/MC/stream_03/BANKS.npz": "3e898404c077edb0b3a44579b3c17de8ac1c212d231324a714d8d22feaa56ee0",
+    "artifacts/active_scale_boundary/MC/stream_04/RESULTS.json": "7feaa1ba90e0ab0a539728122d0edf7df9f957d36eb19cc13d8b914dc7412f90",
+    "artifacts/active_scale_boundary/MC/stream_04/BANKS.npz": "9eb73770cd4a7b6b1be8aa33c92a7fe8413b6901733555146d01d1b6a8b8e061",
+    "artifacts/active_scale_boundary/MC/stream_05/RESULTS.json": "5c75963b485eb89e546245857dc6104765c96b0f34ae46dae3a297e548ff7511",
+    "artifacts/active_scale_boundary/MC/stream_05/BANKS.npz": "fbd6536f5a65ba0bbb591b80f30540bcf686d961b5a8d47f27b5cf897714b15d",
+    "artifacts/active_scale_boundary/MC/stream_06/RESULTS.json": "5d72e4120b443bf85c00c53492905c0db2686b14ec4347f1df0fd5b302f20d11",
+    "artifacts/active_scale_boundary/MC/stream_06/BANKS.npz": "ad82996797e9598b7f85e5ed34a795830d2ee585792051fd969134caf87bd453",
+    "artifacts/active_scale_boundary/MC/stream_07/RESULTS.json": "b871b56c03ed4df9715bec7d7d2939b71e64392e48153fd7958cfc259b5db60a",
+    "artifacts/active_scale_boundary/MC/stream_07/BANKS.npz": "c8a54092ea6fb0c97abc04f31df7967f70ac43ec226ba0d1f32d351d577f79d7",
+    "artifacts/active_scale_boundary/MC/stream_08/RESULTS.json": "094d80291f5ebe6ebd41108f2650e9f58a3b7eb5d0ce73772ebe0bc918b17f94",
+    "artifacts/active_scale_boundary/MC/stream_08/BANKS.npz": "fdc69093839d097587e2078b39200369d0688253d3e148161a2d4f04fdfbdfca",
+    "artifacts/active_scale_boundary/MC/stream_09/RESULTS.json": "78dd2925fde092a199d6f3a9e101380cae9364e99f2ddf5eeebd2317e72b361c",
+    "artifacts/active_scale_boundary/MC/stream_09/BANKS.npz": "4940260185678bae958018f405b1b213f5a4537bd41193bfb80be920d4509d32",
+    "artifacts/active_scale_boundary/MC/stream_10/RESULTS.json": "fb4d31a69361a188cec7c9047f080d0d4bae6f4515ab56c3de86aee0e5fc0a91",
+    "artifacts/active_scale_boundary/MC/stream_10/BANKS.npz": "377d39bfa33c63076dd3038e0c53745781a595d052d2d02144631b8e834ade7f",
+    "artifacts/active_scale_boundary/MC/stream_11/RESULTS.json": "59327487550fc0f49701ce3f08a9215e1ec50f252a16cc6ca7cc8400ed401458",
+    "artifacts/active_scale_boundary/MC/stream_11/BANKS.npz": "64559096d633aed469163aea2ca1617a8a0d932b9c24f552337eb7e0a331b3c8",
+    "artifacts/active_scale_boundary/MC/stream_12/RESULTS.json": "b5d1bef6646b36c2a9fa0333a430fd1a272b592d6a48eee6279967e3649655c0",
+    "artifacts/active_scale_boundary/MC/stream_12/BANKS.npz": "25b56069457366fbcdf1bf2314675f5f8556b0db28407800cc7c6daa30297ba7",
+    "artifacts/active_scale_boundary/MC/stream_13/RESULTS.json": "52a109ba0d25c72f6a645d8a314b7c4bd9e7556bfcb90890e322e7538d8e832b",
+    "artifacts/active_scale_boundary/MC/stream_13/BANKS.npz": "3af7f0ffb8438c0050f43e04a9e3d4592a38db2e183ef208d112f029a71a12f5",
+    "artifacts/active_scale_boundary/MC/stream_14/RESULTS.json": "1b139b80da7cbcc6c6cd50a730853024297345caeaafd8ca890c67320276038b",
+    "artifacts/active_scale_boundary/MC/stream_14/BANKS.npz": "5701ced5053cafc1877e61cfa32b420c6ab06657e6d7eed319a42a2eb8f69de0",
+    "artifacts/active_scale_boundary/MC/stream_15/RESULTS.json": "7194f2bf8b8a7d1dd3eeb749c234c344f234038e829e1496f284ef0f0fed353b",
+    "artifacts/active_scale_boundary/MC/stream_15/BANKS.npz": "efbe718a0ac271d3d9c8d0f5ea0671337f767b6413bd5411e7aea1887554269e"
+  },
+  "tolerances": {
+    "arithmetic": 2e-11,
+    "prefix_score": 2e-11,
+    "native_contrast": 0.0001,
+    "hessian": 2e-12,
+    "reference_pmf": 2e-08,
+    "reference_KL": 2e-07
+  },
+  "scope": {
+    "all_input_hash_replay": true,
+    "all_saved_statistics": true,
+    "prefix_banks_per_stream": 2,
+    "native_first_bank": true,
+    "native_n": [
+      0,
+      256
+    ],
+    "native_t": [
+      0.0,
+      0.2
+    ],
+    "native_scalar_pattern_calls": 4096,
+    "expected_reference_PMFS": 16,
+    "reference_order": 36,
+    "reference_Gaussian_nodes": 26873856,
+    "independent_scientific_draws": 0,
+    "parameter_fits": 0,
+    "automatic_retry": false
+  },
+  "deterministic_control": {
+    "passed": true,
+    "maximum_Hessian_error": 5.551115123125783e-17,
+    "mean_scale_block_error": 2.42861286636753e-17,
+    "deterministic_particles": 7,
+    "patterns": 16,
+    "new_random_draws": 0,
+    "model_integrals": 0,
+    "official_API_calls": 0
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "torch": "2.5.1+cpu",
+    "torch_threads": 1,
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
+}

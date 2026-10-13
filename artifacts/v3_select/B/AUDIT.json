@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T13:08:50.858301+00:00",
+  "maximum_arithmetic_error": 3.552713678800501e-15,
+  "teacher_realizations": 64,
+  "candidate_parameter_fits_replayed": 640,
+  "formal_records": 2560,
+  "intervals": 64,
+  "raw_train_validation_replayed": true,
+  "selection_risk_routines_reused": true,
+  "scope": "independent pair-count/MI expressions and scalar statistics; deterministic selection/fit/risk replay; toy enumeration supplies independent risk and matching check",
+  "new_scientific_draws": 0,
+  "new_iterative_fits": 0,
+  "timing_not_replayed": true
+}

@@ -1,0 +1,132 @@
+{
+  "source_sha256": "52a6ea5d9e50af9380990d488ed78f3893c7bdd2fe43600d780fe5172affcac2",
+  "inputs": {
+    "artifacts/scbm_frozen_evaluation/EVAL/RESULTS.json": "3fe0cd9b93f1f0aa7022a0c69931599731889f6c493e815d1a16ee51c700c690",
+    "artifacts/scbm_frozen_evaluation/REFERENCE/RESULTS.json": "e9efd13addc320c1c922fdf2bb05318ad61692420b466a119b41949309f136b3",
+    "artifacts/scbm_frozen_evaluation/STATISTICS/RESULTS.json": "e155eb66bc509f3aac2e7c7abcfeeb4c6083a8147a7a4d9d26966a3f2098c13d",
+    "artifacts/scbm_frozen_evaluation/MODEL_SELECTION.json": "2c37caea493cb8f57421359672786a6f89415b12a05ae68e8323533b8b5c750f"
+  },
+  "derived_intervals_sha256": "746aab2e289d4f4894b8572576726a24a983b0b95f1bb5f4e82ff08fbc99b929",
+  "exploratory_risk_sha256": "66d79d37612cfa47becc233fe60e39f9627b10a9f2cd706424295df87363d6ca",
+  "primary_effects_passed": 4,
+  "primary_precision_passed": 4,
+  "primary_family_size": 4,
+  "diagnostic_family_size": 7480,
+  "statistical_families_separate": true,
+  "new_evaluation_replicates": 32,
+  "old_training_models_fixed": 16,
+  "conditional_on_old_panel_not_new_training_confirmation": true,
+  "numerical_qualification": {
+    "core_cases": 128,
+    "core_cases_passed": 128,
+    "weighted_score_checks": 256,
+    "weighted_score_passed": 256,
+    "weighted_path_checks": 256,
+    "weighted_path_passed": 256,
+    "maximum_weighted_score_difference": 1.3677088257613428e-05,
+    "maximum_weighted_path_difference": 3.386284055589573e-07,
+    "canonical_cases": 128,
+    "canonical_cases_passed": 128,
+    "maximum_canonical_score_difference": 3.0517578125e-05,
+    "maximum_canonical_path_difference": 1.862645149230957e-06
+  },
+  "reference_qualification": true,
+  "evaluation_ledger": {
+    "independent_evaluation_replicates": 32,
+    "new_base_banks": 16384,
+    "new_prior_vectors": 1638400,
+    "Gaussian_scalars": 425984000,
+    "active_Gaussian_scalars": 6553600,
+    "nuisance_Gaussian_scalars": 419430400,
+    "new_observations": 0,
+    "new_fits": 0,
+    "new_model_integrals": 0,
+    "shared_active_grid_terms_per_chunk": 21,
+    "actual_t_terms_per_chunk": 32,
+    "common_FACT_grid_scores_per_chunk": 21,
+    "learned_or_half_grid_scores_per_chunk": 1008,
+    "actual_t_score_cases_per_chunk": 80,
+    "score_kernel_calls": 283904,
+    "reused_bank_pattern_score_cases": 290717696,
+    "original_API_pattern_control_calls": 2048,
+    "original_API_canonical_control_calls": 256,
+    "original_API_control_calls": 2304
+  },
+  "reference_ledger": {
+    "new_PMF_integrations": 54,
+    "new_scalar_pattern_integrals": 864,
+    "new_Gaussian_nodes": 70926336,
+    "reused_grid_queries": 3,
+    "reused_actual_queries": 32,
+    "new_random_draws": 0,
+    "new_fits": 0
+  },
+  "evaluation_seconds": 791.5231742999749,
+  "reference_seconds": 89.44521719997283,
+  "profile_readouts": [
+    {
+      "profile": "TAIL learned",
+      "P_t14_contrast": -0.00010952331758760838,
+      "D_t14_contrast": -0.00010992452694457734,
+      "P_Price_at_truth": -0.0009499381630139685,
+      "D_Price_at_truth": -0.0009556175598002715
+    },
+    {
+      "profile": "TAIL half",
+      "P_t14_contrast": 0.0001516749694710903,
+      "D_t14_contrast": 0.0001517467814799488,
+      "P_Price_at_truth": -0.0003033383701652249,
+      "D_Price_at_truth": -0.0003077957278574901
+    },
+    {
+      "profile": "TAIL FACT",
+      "P_t14_contrast": 0.0002052151605244218,
+      "D_t14_contrast": 0.00020528711996411868,
+      "P_Price_at_truth": -0.0001704501833077935,
+      "D_Price_at_truth": -0.0001746032700955964
+    },
+    {
+      "profile": "LAST learned",
+      "P_t14_contrast": -8.916870145738061e-05,
+      "D_t14_contrast": -8.95250998179057e-05,
+      "P_Price_at_truth": -0.0008995286809816122,
+      "D_Price_at_truth": -0.0009050562180437072
+    },
+    {
+      "profile": "LAST FACT",
+      "P_t14_contrast": 0.0002052151605244218,
+      "D_t14_contrast": 0.00020528711996411868,
+      "P_Price_at_truth": -0.0001704501833077935,
+      "D_Price_at_truth": -0.0001746032700955964
+    }
+  ],
+  "reference_KL_at_t14": 0.0002660636321113472,
+  "validation_model_mean_gain": [
+    0.00012409853027117723,
+    3.341495719499932e-05,
+    8.95973713130327e-06,
+    1.3831526412405593e-05,
+    3.111569032332451e-05,
+    0.00012604065464630332,
+    1.3357064939129026e-05,
+    2.0080466740984848e-05,
+    0.0002298053812104517,
+    0.0,
+    -3.6466254318689995e-06,
+    6.695976868939524e-05,
+    -1.1471507360694133e-07,
+    7.318818990664777e-05,
+    3.8933748493286124e-05,
+    6.373532843134688e-06
+  ],
+  "validation_negative_models": [
+    10,
+    12
+  ],
+  "diagnostic_candidate_selections": 16,
+  "new_original_training_runs": 0,
+  "new_neural_fits": 0,
+  "new_summary_RNG": 0,
+  "new_summary_integrals": 0,
+  "new_summary_tests": 0
+}

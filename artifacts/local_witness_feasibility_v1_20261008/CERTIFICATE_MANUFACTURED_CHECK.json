@@ -1,0 +1,17 @@
+{
+  "schema": "local_witness_certificate_manufactured_check_v1",
+  "passed": true,
+  "tests_run": 24,
+  "failures": [],
+  "errors": [],
+  "precision_bits": 192,
+  "python_flint_version": "0.8.0",
+  "certificate_source_sha256": "5f1e42a1df20f0321f5feed0be8dc9658ad15680e60f71a7d7b1b812bd7406d8",
+  "test_source_sha256": "1c880e0fef520610f9766c07af0a59c90f761986ded880d443ed14a559e10bca",
+  "scope": "manufactured rational/dyadic matrices and scalar budgets only",
+  "real_nominal_outputs_read": false,
+  "scientific_NPZ_reads": 0,
+  "new_kernel_calls": 0,
+  "new_Gaussian_Laplace_integrals": 0,
+  "exact_stationary_point_existence_certified": false
+}

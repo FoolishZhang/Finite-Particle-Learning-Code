@@ -1,0 +1,22 @@
+{
+  "scope": "deterministic replay of existing saved audit inputs",
+  "saved_banks": 262144,
+  "K": 100,
+  "bank_label_differences": 2097152,
+  "anchor_bank_label_log_mixtures": 4194304,
+  "candidate_particle_label_products": 419430400,
+  "block_size": 256,
+  "blocks": 1024,
+  "independent_Arb_banks": 32,
+  "independent_Arb_label_differences": 256,
+  "interval_output_bytes": 35677233,
+  "wall_seconds": 339.6720000000205,
+  "budget_seconds": 1200,
+  "new_observations": 0,
+  "new_random_draws": 0,
+  "new_prior_banks": 0,
+  "new_optimizations": 0,
+  "new_quadrature_nodes": 0,
+  "new_statistical_comparisons": 0,
+  "original_statistical_result_recomputed": false
+}

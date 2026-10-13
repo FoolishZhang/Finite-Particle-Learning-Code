@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-10-03T02:06:46.908737+00:00",
+  "inputs": {
+    "script/scbmopt_audit.py": "6722cc1f2ab803df9bad393fe9be57fc4ee8697cec814dc14e48a78fb53b5cce",
+    "docs/08_research_研究工作/可学习无关尺度与优化路径_20261003/AUDIT_PLAN.md": "9ee2d1f305a82a6388afd6398af0088c8e67d38696448135dd8d1ba3d5263fb8",
+    "docs/08_research_研究工作/可学习无关尺度与优化路径_20261003/EXPERIMENT_DESIGN.md": "9f356cf102a1f9975a787ecf7ecdf2f0feca362f319cf168eb8288e81fffabf0",
+    "artifacts/scbm_scale_optimization/TRAIN/FREEZE.json": "afaa85279eb6c66f76142ecd65145435006e3b21e1f519d80c185e0c73531bb4",
+    "script/scbmopt_run.py": "6624d9ecb1dd7d02c40821f7b89dd24c515436fa3048565c10010a69d049144d",
+    "script/scbmopt_kernel.py": "f292b26b2f65fa7adb5204453345b744fd30e01ba86a6aaaf1b8f66cc2e1840b",
+    "script/scbmopt_reference.py": "97015cef4b2a2c4c82babc269bac7a9472c0d2ef05da615e7dd2d518a28e4958",
+    "script/scbminv_kernel.py": "c6712abbb4e05ef0c25c688a05dad106034c41888040592424f50362f04129ad",
+    "script/scbminv_reference.py": "79c911d1601ae9740b0e045a5d879394cfd4a82aaa9e48f72070fc46b5098a41",
+    "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/models/losses.py": "6a42d6b5c386434604883db615b2ab127bc7b9ac7ac2395a26fcfeb5b552c7e5",
+    "artifacts/scbm_invariance/REFERENCE/MODEL.json": "2b5d12858dd6d581f36ded2327fd2ce26f0bc69eed314360783479403b9c9975"
+  },
+  "tolerances": {
+    "api_loss": 5e-05,
+    "api_t": 3e-06,
+    "api_raw": 5e-07,
+    "mathematical": 1e-10,
+    "arithmetic": 2e-11,
+    "full_parameter": 0.0001,
+    "one_step_parameter": 3e-06,
+    "moment_abs": 2e-06,
+    "moment_rel": 2e-05,
+    "tau_abs": 2e-07,
+    "tau_rel": 2e-07,
+    "maxlogit": 2e-06
+  },
+  "steps": [
+    0,
+    1,
+    31,
+    127,
+    511
+  ],
+  "methods": [
+    "FIXED",
+    "FREE",
+    "FACT"
+  ],
+  "deterministic_check": {
+    "passed": true,
+    "t_FD_error": 3.8062502108471286e-10,
+    "raw_FD_error": 7.288037309066686e-10,
+    "Adam_cumulative_error": 3.2782554626464844e-07,
+    "Adam_local_error": 5.960464477539063e-08,
+    "scientific_RNG": 0,
+    "model_integrals": 0
+  },
+  "numpy_version": "2.3.5",
+  "torch_version": "2.5.1+cpu",
+  "new_model_integrals": 0,
+  "automatic_retry": false
+}

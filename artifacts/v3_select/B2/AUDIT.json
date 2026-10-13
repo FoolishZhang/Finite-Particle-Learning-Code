@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T13:15:40.827771+00:00",
+  "maximum_arithmetic_error": 8.881784197001252e-16,
+  "pooled_closed_form_fits_replayed": 1280,
+  "old_HQ_references": 512,
+  "intervals": 8,
+  "new_random_draws": 0,
+  "new_fits": 0,
+  "raw_labels_replayed": true,
+  "production_selection_and_risk_functions_reused": true,
+  "scope": "independent pooled integer-count/MI formulas and scalar confidence readouts; frozen B deterministic selection/fit/risk replay",
+  "timing_not_replayed": true
+}

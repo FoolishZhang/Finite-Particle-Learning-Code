@@ -1,0 +1,79 @@
+{
+  "schema": "asymptotic_bridge_reference_contract_v1",
+  "created_utc": "2026-10-08T04:01:35.368296+00:00",
+  "source_hashes": {
+    "artifacts/submission_candidate_v1_7_1_20261008/CALIBRATION_RESULTS.json": "ae8b0ce6c930e0a964e61171b4b8937f8e1c5fd19f2d007173b572978023bd07",
+    "artifacts/submission_candidate_v1_7_1_20261008/CALIBRATION_MANIFEST.json": "d70c3a1a6c46f047dccacd85bc2f0f49e6c28c07ad4cf425d19b7eb96624ad14",
+    "artifacts/submission_candidate_v1_7_1_20261008/CALIBRATION_CONTRACT.json": "641e79d4874022a81d4590e03b781c4ad902139593d7a77f67f8b537b7fbe2ad",
+    "script/candidate_v171_calibration.py": "51daafd4f4d9c6cef6bb685f95ef7b17c566ff29042a7739659962c99f93785f",
+    "script/nuisance_contrast_compute.py": "3187c6299c0ecd9266c00a3377c2d16a3314a8a76b0accc9384bc9f4774f0578",
+    "script/direction_validation_statistics.py": "30622e25996e56a2882a1a4955d5e0e6f4adc27f9d5d7de3c0e2585215217c26",
+    "docs/07_papers_论文工作/ParticleJointSupervision/submission_candidate_v1_7_1_20261008/APPENDIX_THEORY_EN.md": "d9786d58ebbe81cade6d31cc84abc1468f560bd8f89bbddc03c5c87801f65570",
+    "script/asymptotic_bridge_statistics.py": "f1ec925a05fa0a48f1201b2f26d11cf3d59df32ceb7ba089a5b9cf4bafe63e7e"
+  },
+  "scope": {
+    "reference_only": true,
+    "rho": 0.45,
+    "mean_mark": "kappa(.45)/4",
+    "n": [
+      64,
+      256,
+      1024,
+      4096
+    ],
+    "K": 100,
+    "new_banks": 0,
+    "new_random_samples": 0,
+    "scientific_NPZ_reads": 0,
+    "new_training_steps": 0
+  },
+  "old_coefficients": {
+    "result": "artifacts/submission_candidate_v1_7_1_20261008/CALIBRATION_RESULTS.json",
+    "manifest": "artifacts/submission_candidate_v1_7_1_20261008/CALIBRATION_MANIFEST.json",
+    "v_key": "derived.v",
+    "J100_key": "derived.J100",
+    "gapV_key": "-derived.V_Cb"
+  },
+  "rules": [
+    {
+      "id": "GH40",
+      "rule": "Gauss-Hermite standard normal",
+      "order": 40,
+      "transform": "x=a, y=rho*a+sqrt(1-rho^2)*b"
+    },
+    {
+      "id": "GH64",
+      "rule": "Gauss-Hermite standard normal",
+      "order": 64,
+      "transform": "x=a, y=rho*a+sqrt(1-rho^2)*b"
+    },
+    {
+      "id": "GH96",
+      "rule": "Gauss-Hermite standard normal",
+      "order": 96,
+      "transform": "x=a, y=rho*a+sqrt(1-rho^2)*b"
+    },
+    {
+      "id": "GL128",
+      "rule": "Gauss-Legendre normal-density weighted",
+      "order": 128,
+      "interval": [
+        -12.0,
+        12.0
+      ],
+      "renormalize": false,
+      "transform": "x=sqrt((1+rho)/2)*a+sqrt((1-rho)/2)*b; y=sqrt((1+rho)/2)*a-sqrt((1-rho)/2)*b"
+    }
+  ],
+  "primary_rule": "GH96",
+  "quadrature_integrals_planned": 4,
+  "bivariate_nodes_planned": 31296,
+  "qualification": {
+    "max_absolute_m_H45_rule_difference": 1e-10,
+    "maximum_normal_mass_error": 1e-12,
+    "rigorous_integration_enclosure": false,
+    "sensitivity_gate_is_numerical_only": true,
+    "frozen_numeric_reference_target": true
+  },
+  "integration_scope": "Four 2D expectations only; no new v/J/V integration, no banks, no NPZ access"
+}

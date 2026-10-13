@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-07T14:29:56.013753+00:00",
+  "command": [
+    "[author-local path omitted]",
+    "script/direction_validation_statistics_test.py"
+  ],
+  "passed": true,
+  "exit_code": 0,
+  "stdout": "{\n  \"passed\": true,\n  \"tests\": 11,\n  \"cases\": [\n    \"explicit_raw_mass_normalization_and_input_preservation\",\n    \"global_range_zero_mass_labels_and_degenerate_scores\",\n    \"affine_weighted_moment_and_radius_equivariance\",\n    \"theorem4_pairwise_unbiased_variance_and_reflected_lower_bound\",\n    \"two_sided_delta_split_and_sample_affine_equivariance\",\n    \"n1_invalid_and_domain_failures_are_explicit\",\n    \"Hoeffding_integer_minimum_matches_analytic_sufficient_radius_formula\",\n    \"strict_root_boundary_cap_and_no_solution_semantics\",\n    \"planning_scale_equivariance_and_two_radius_sufficient_condition\",\n    \"fixed_family_budget_targets_and_nonconfidence_flags\",\n    \"manufactured_even_family_scaled_score_limit\"\n  ],\n  \"seconds\": 0.09545970009639859,\n  \"study_data_read\": false,\n  \"random_draws\": 0,\n  \"new_validation_samples\": 0,\n  \"scope\": \"manufactured deterministic numerical/logic checks, not a scientific review\"\n}\n",
+  "stderr": "",
+  "sources": {
+    "script/direction_validation_statistics.py": "30622e25996e56a2882a1a4955d5e0e6f4adc27f9d5d7de3c0e2585215217c26",
+    "script/direction_validation_statistics_test.py": "7cb7f0a0bbb410fa9b2b46b580eb20261340ec312e34389ccd9832b839f4ac17"
+  },
+  "real_study_inputs_used": false,
+  "capture_history": "Prior successful suite stdout was non-JSON; the receipt collector expected JSON and failed. Test implementation and scientific rules unchanged; this captures actual raw output."
+}

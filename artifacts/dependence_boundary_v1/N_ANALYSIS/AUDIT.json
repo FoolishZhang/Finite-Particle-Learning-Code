@@ -1,0 +1,17 @@
+{
+  "time_utc": "2026-09-29T10:51:30.884884+00:00",
+  "passed": true,
+  "errors": {
+    "projection": 2.6645352591003757e-15,
+    "mode_sum": 1.4210854715202004e-14,
+    "curvature": 4.263256414560601e-14,
+    "trace_float32": 2.21085570615287e-05
+  },
+  "configurations": 16,
+  "endpoints": 96,
+  "paired_rows": 48,
+  "trajectory_points": 864,
+  "modes": 2304,
+  "test_scores_or_labels_read": false,
+  "additional_training": 0
+}

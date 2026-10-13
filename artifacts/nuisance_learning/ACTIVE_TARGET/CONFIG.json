@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "a": 1.0,
+  "old_latent_theta": 0.15,
+  "rho_grid": [
+    -0.75,
+    -0.6,
+    -0.45,
+    -0.3,
+    -0.15,
+    0.0,
+    0.15,
+    0.3,
+    0.45,
+    0.6,
+    0.75
+  ],
+  "Ns": [
+    64,
+    256,
+    1024
+  ],
+  "Ks": [
+    2,
+    4
+  ],
+  "Bs": [
+    32,
+    512,
+    8192
+  ],
+  "variants": [
+    "low",
+    "primary",
+    "high"
+  ],
+  "primary": "primary",
+  "streams": 16,
+  "score_variant_tolerance": 1e-10,
+  "K2_null_cross_tolerance": 1e-10,
+  "choice_qualification": "absolute-rho argmin classes equal; all exact signed sets retained",
+  "post_hoc_after_observing_K2_RB_results": true,
+  "new_Gaussian_integrals": 0,
+  "new_labels": 0,
+  "new_banks": 0,
+  "new_training_models": 0,
+  "new_confidence_families": 0
+}

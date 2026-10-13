@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-10-06T05:47:16.739049+00:00",
+  "checker_sha256": "643d6603f91ff3005bc3de7b223767b1c01ee5987bdbef0b92c5b4b609000b90",
+  "freeze_sha256": "c574d78e56826b1452620d80a78a1befa5ec756210a1c47842f42c62727a0d38",
+  "results_sha256": "f25ee252366d27c74451fdd7b6ad416dba689e41e8aa51323d5a35f70a6704c6",
+  "scalar_stats_sha256": "f5d0b8617b6c2c74d0d03a1bfed88d8ffd1abf579ee7b65940cdd16882b8faba",
+  "arrays": {
+    "artifacts/failure_probability_v1_20261006/AUDIT_BANKS.npz": {
+      "sha256": "9ed44d6c166ef7e03621265a8ae1bdb05d3ef030ca5ee546a371ab4ae5511931",
+      "bytes": 862193626
+    },
+    "artifacts/failure_probability_v1_20261006/DEVELOPMENT_POINT_DIFFERENCES.npz": {
+      "sha256": "0d1f3ee40d4e275a606c0767aebd876e6c59433efdd22ae75173fadab2d4099b",
+      "bytes": 25167450
+    },
+    "artifacts/failure_probability_v1_20261006/MANUFACTURED_POINT_DIFFERENCES.npz": {
+      "sha256": "dc699beb8eb6591a906903060b09a416cca607c5773cca3e10bcd21626ed63dd",
+      "bytes": 25078
+    }
+  },
+  "validation": {
+    "array_hashes_and_shapes_checked": true,
+    "new_arrays_bound": 3,
+    "replayed_banks": 262144,
+    "replayed_labels_per_bank": 8,
+    "replayed_label_differences": 2097152,
+    "max_point_difference_error": 0.0,
+    "tolerance": 1e-11,
+    "truncation_mask_exact": true,
+    "three_saved_scalar_sequences_exact": true,
+    "exact_integer_statistics_identical": true,
+    "inference_identical": true,
+    "historical_Arb_receipts_bound_to_saved_differences": true,
+    "truncated_banks": 0,
+    "kernel_block_calls": 1024,
+    "replay_candidate_bank_label_logscore_evaluations": 4194304,
+    "new_RNG_draws": 0,
+    "Gaussian_scalars_regenerated": 0,
+    "Arb_diagnostics_reexecuted": false,
+    "whole_pipeline_numerical_certification": false
+  },
+  "wall_seconds": 14.5,
+  "author_execution_check": true,
+  "external_scientific_review": false,
+  "prior_v141_manifest_sha256": "dd3147b3b4866972c5aadefc15f8829ff9c6541bdcefb0a2d3188b5c8fe6c1bc",
+  "prior_public_chain_checked_utc": "2026-10-06T05:48:35.927632+00:00",
+  "full_replay_log_sha256": "912021fbed37aed84a0678ee0579c68d422a98cc8106821219b5e418bdf06474"
+}

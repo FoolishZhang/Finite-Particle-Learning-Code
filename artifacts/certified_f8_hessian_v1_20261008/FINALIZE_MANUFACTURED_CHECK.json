@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests_run": 6,
+  "sources": {
+    "script/certified_f8_hessian_finalize.py": "4d538932e4dadee275e4eebb156650a46c82654a585886e5859ff3e00bd6394a",
+    "script/certified_f8_hessian_finalize_test.py": "00e5c8eaee3df31d8031e301b4b5fc4476bf5f8559a58a7a6f16cf1a6b356e7e"
+  },
+  "real_Hessian_evaluations": 0,
+  "scientific_data_reads": 0,
+  "new_random_draws": 0
+}

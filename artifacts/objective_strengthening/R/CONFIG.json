@@ -1,0 +1,54 @@
+{
+  "dimensions": [
+    16,
+    64,
+    256
+  ],
+  "K_by_d": {
+    "16": [
+      10
+    ],
+    "64": [
+      10,
+      100
+    ],
+    "256": [
+      10
+    ]
+  },
+  "streams": 8,
+  "c": 0.9,
+  "truth": [
+    6.0,
+    2.0
+  ],
+  "a": 1.0,
+  "b": 8.0,
+  "coarse": [
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "refine_radius": 0.5,
+  "refine_step": 0.125,
+  "n_select": 1024,
+  "n_confirm": 4096,
+  "prior_chunk": 128,
+  "label_chunk": 256,
+  "event_chunk": 1024,
+  "event_N": 65536,
+  "event_family": 38,
+  "event_alpha": 0.025,
+  "score_family": 4,
+  "score_alpha": 0.025,
+  "SE_per_dim": 0.002,
+  "improvement_per_dim": 0.001,
+  "brier_gate": 0.001,
+  "near": 0.005,
+  "tie": 1e-12,
+  "seed": 7316100100
+}

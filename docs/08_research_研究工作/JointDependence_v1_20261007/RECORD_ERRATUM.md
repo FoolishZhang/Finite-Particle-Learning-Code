@@ -1,0 +1,11 @@
+# 路径摘要参数引用勘误（不改原科学输出）
+
+独立执行审计发现：冻结driver的path_check把theta视图直接放进内存checkpoints，随后原地Adam更新使RESULTS.training.path_checks中step0/300/600/900的theta字段全部漂移为GH-LAST。4流共16个摘要theta字段受影响。
+
+即时落盘的PATH_0000/0300/0600/0900/1200.json不受影响，TRAINING.npz保存的全部逐步参数也不受影响。勘误脚本逐项验证：20个即时PATH参数精确等于tape对应GH步；原摘要与即时PATH除theta外全部字段相同；16个错误theta确实都等于GH-LAST。损失、梯度、reference值、精度差与qualified标志均保留了当时计算值。
+
+因此保留原driver、RESULTS、PATH和所有原始数组，新增每流PATH_METADATA_CORRECTED.json，以原始即时文件恢复正确参数配对，并由PATH_RECORDS_ERRATUM.json绑定来源哈希。读取路径资格时以这些即时记录及补正文件为权威，不能再把原摘要theta当中间状态。首次失败审计尝试仍保留，不以删除失败或放宽数值门处理。
+
+这项缺陷没有进入训练更新、候选锁定、终态评分或profile参数构造；profile只使用未受影响的路径qualified标志及终态。没有重新抽样、训练、优化或改动任何NLL/KL/MCSE。后续独立审计仍须核所有路径loss/gradient与相应正确theta，不能仅凭此说明宣布验证通过。
+
+前向修复是在新版本driver中将theta=np.array(theta,copy=True)保存为独立快照。本轮为了保持已执行源哈希不回写冻结driver；修复的copy行为已用独立可变数组夹具验证，未来新合同须采用修复。`script/joint_dependence_path_records.py check`只读核这项精确勘误与源绑定。

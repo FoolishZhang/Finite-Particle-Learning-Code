@@ -1,0 +1,174 @@
+{
+  "created_utc": "2026-09-30T02:31:48.596389+00:00",
+  "pass_all": true,
+  "streams_checked": 96,
+  "histogram_arithmetic_exact": true,
+  "rng_seeds_unique": 96,
+  "cp_method": "independent scipy.stats.binom tail inversion with brentq",
+  "max_abs_CP_difference": 9.43689570931383e-16,
+  "total_observations": 6291456,
+  "total_primitives": [
+    1132462080,
+    1132462080,
+    12582912
+  ],
+  "rows": [
+    {
+      "profile": "null",
+      "d": 16,
+      "n": 524288,
+      "successes": 261926,
+      "cp_binomial_inversion": [
+        0.4976046987992863,
+        0.5015637064130269
+      ],
+      "independently_computed_information_lower": 0.0,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "null",
+      "d": 64,
+      "n": 524288,
+      "successes": 262274,
+      "cp_binomial_inversion": [
+        0.4982684483265832,
+        0.5022274568220373
+      ],
+      "independently_computed_information_lower": 0.0,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "null",
+      "d": 128,
+      "n": 524288,
+      "successes": 262090,
+      "cp_binomial_inversion": [
+        0.4979174998662486,
+        0.5018765087643242
+      ],
+      "independently_computed_information_lower": 0.0,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "null",
+      "d": 512,
+      "n": 524288,
+      "successes": 261915,
+      "cp_binomial_inversion": [
+        0.4975837182676289,
+        0.5015427257398012
+      ],
+      "independently_computed_information_lower": 0.0,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "mild",
+      "d": 16,
+      "n": 524288,
+      "successes": 260296,
+      "cp_binomial_inversion": [
+        0.4944958034625192,
+        0.4984547141170928
+      ],
+      "independently_computed_information_lower": 4.7758245226847684e-06,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "mild",
+      "d": 64,
+      "n": 524288,
+      "successes": 259926,
+      "cp_binomial_inversion": [
+        0.4937901139474535,
+        0.4977489812860846
+      ],
+      "independently_computed_information_lower": 1.0134204734835173e-05,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "mild",
+      "d": 128,
+      "n": 524288,
+      "successes": 259961,
+      "cp_binomial_inversion": [
+        0.4938568681922341,
+        0.49781573996593265
+      ],
+      "independently_computed_information_lower": 9.542014142938093e-06,
+      "primary": true,
+      "primary_pass": true
+    },
+    {
+      "profile": "mild",
+      "d": 512,
+      "n": 524288,
+      "successes": 259909,
+      "cp_binomial_inversion": [
+        0.4937576904698587,
+        0.49771655562886014
+      ],
+      "independently_computed_information_lower": 1.0428272641860303e-05,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "contrast",
+      "d": 16,
+      "n": 524288,
+      "successes": 251306,
+      "cp_binomial_inversion": [
+        0.47735057180658347,
+        0.4813061974186891
+      ],
+      "independently_computed_information_lower": 0.0006990794291047986,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "contrast",
+      "d": 64,
+      "n": 524288,
+      "successes": 251822,
+      "cp_binomial_inversion": [
+        0.4783345954842865,
+        0.48229053571547376
+      ],
+      "independently_computed_information_lower": 0.0006273814639695119,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "contrast",
+      "d": 128,
+      "n": 524288,
+      "successes": 251345,
+      "cp_binomial_inversion": [
+        0.4774249454207308,
+        0.48138059534912514
+      ],
+      "independently_computed_information_lower": 0.000693524799486589,
+      "primary": true,
+      "primary_pass": true
+    },
+    {
+      "profile": "contrast",
+      "d": 512,
+      "n": 524288,
+      "successes": 250750,
+      "cp_binomial_inversion": [
+        0.4762902758260955,
+        0.4802455452251201
+      ],
+      "independently_computed_information_lower": 0.0007806801418897558,
+      "primary": false,
+      "primary_pass": null
+    }
+  ],
+  "limitation": "audits saved aggregates and RNG contract; no new observations or complete-label replay"
+}

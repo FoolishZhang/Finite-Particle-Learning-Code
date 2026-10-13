@@ -1,0 +1,39 @@
+{
+  "source_statistics_sha256": "1ed74d251ebb3d7cac68706009f1c020e15c65b37baab701af544001882cf287",
+  "source_audit_sha256": "cf2fddad0e218f6698458ffac361d2f408d652b8dba4f6a653db5691fcbac775",
+  "scope": "Frozen four-n panel and rho=.45 single c12; all statements conditional on the declared 99% family and numerical qualification.",
+  "n64_gap_and_gradient_opposite_to_leading_signs": true,
+  "n256_1024_4096_signs_match_leading": true,
+  "A_adjacent_all_positive_intervals": true,
+  "B_adjacent_unresolved": [
+    [
+      1024,
+      4096
+    ]
+  ],
+  "coupling_dominates_absolute_overlap_via_joint_intervals": [
+    64,
+    256,
+    1024
+  ],
+  "A_interval_upper_below_one": [
+    64,
+    256,
+    1024,
+    4096
+  ],
+  "B_interval_upper_below_one": [
+    64,
+    256,
+    1024,
+    4096
+  ],
+  "ten_percent_accuracy_confirmed_at4096": {
+    "A": false,
+    "B": false
+  },
+  "ten_percent_threshold_is_posthoc_interval_reading_not_a_success_gate": true,
+  "direct_path_diagnostic_max_abs_mean_over_paired_SE": 1.3671804873489992,
+  "direct_path_standard_errors_not_new_CI": true,
+  "no_uniform_remainder_or_causal_attribution": true
+}

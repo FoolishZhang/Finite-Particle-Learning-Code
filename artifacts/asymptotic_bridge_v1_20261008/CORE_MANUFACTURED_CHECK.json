@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "passed": true,
+  "manufactured_only": true,
+  "scientific_banks": 0,
+  "scientific_seed_calls": 0,
+  "fixture_banks": 12,
+  "label_count": 8,
+  "fixtures": [
+    {
+      "K": 1,
+      "banks": 3,
+      "max_scalar_error": 1.432187701766452e-14,
+      "max_decomposition_error": 0.0
+    },
+    {
+      "K": 2,
+      "banks": 3,
+      "max_scalar_error": 2.1649348980190553e-14,
+      "max_decomposition_error": 6.938893903907228e-18
+    },
+    {
+      "K": 3,
+      "banks": 3,
+      "max_scalar_error": 2.1649348980190553e-14,
+      "max_decomposition_error": 6.938893903907228e-18
+    },
+    {
+      "K": 100,
+      "banks": 3,
+      "max_scalar_error": 1.2989609388114332e-14,
+      "max_decomposition_error": 1.3877787807814457e-17
+    }
+  ],
+  "max_scalar_score_error": 2.1649348980190553e-14,
+  "max_decomposition_error": 1.3877787807814457e-17,
+  "max_root_residual": 1.1102230246251565e-16,
+  "mixed_logit_hessian_fd_error": 2.5791136587516306e-10,
+  "mixed_logit_hessian_fd_step": 0.0002,
+  "dominant_complement_preserved": true,
+  "primary_not_clipped": true,
+  "K1_price_zero": true,
+  "primitive_generation_error": 9.094947017729282e-13,
+  "manufactured_rng_seed": 202001010000,
+  "manufactured_normal_scalars": 36891,
+  "sources": {
+    "script/asymptotic_bridge_core_test.py": "7392a05c8317a97f3326d1f6faf9eb59a110f00f86b1023aee311449f182d495",
+    "script/asymptotic_bridge_core.py": "1d2ec77c87e7174f766894e599cc553c045dd2c31cdefd7c033994beaced80e6"
+  },
+  "elapsed_seconds": 0.5160000000014406,
+  "scope": "manufactured finite inputs and scalar/logit-Hessian checks; not a population or floating-point certificate",
+  "previous_manufactured_receipt": {
+    "schema_version": "1.0",
+    "passed": true,
+    "manufactured_only": true,
+    "scientific_banks": 0,
+    "scientific_seed_calls": 0,
+    "fixture_banks": 12,
+    "label_count": 8,
+    "fixtures": [
+      {
+        "K": 1,
+        "banks": 3,
+        "max_scalar_error": 1.432187701766452e-14,
+        "max_decomposition_error": 0.0
+      },
+      {
+        "K": 2,
+        "banks": 3,
+        "max_scalar_error": 2.1649348980190553e-14,
+        "max_decomposition_error": 6.938893903907228e-18
+      },
+      {
+        "K": 3,
+        "banks": 3,
+        "max_scalar_error": 2.1649348980190553e-14,
+        "max_decomposition_error": 6.938893903907228e-18
+      },
+      {
+        "K": 100,
+        "banks": 3,
+        "max_scalar_error": 1.2989609388114332e-14,
+        "max_decomposition_error": 1.3877787807814457e-17
+      }
+    ],
+    "max_scalar_score_error": 2.1649348980190553e-14,
+    "max_decomposition_error": 1.3877787807814457e-17,
+    "max_root_residual": 1.1102230246251565e-16,
+    "mixed_logit_hessian_fd_error": 2.5791136587516306e-10,
+    "mixed_logit_hessian_fd_step": 0.0002,
+    "dominant_complement_preserved": true,
+    "primary_not_clipped": true,
+    "K1_price_zero": true,
+    "primitive_generation_error": 9.094947017729282e-13,
+    "manufactured_rng_seed": 202001010000,
+    "manufactured_normal_scalars": 36891,
+    "sources": {
+      "script/asymptotic_bridge_core_test.py": "7392a05c8317a97f3326d1f6faf9eb59a110f00f86b1023aee311449f182d495",
+      "script/asymptotic_bridge_core.py": "0ef0c57b9d0e8d3e83c6610cc2982f3d3ab922e89f79ef9e2088af0501a10d4b"
+    },
+    "elapsed_seconds": 0.5310000000008586,
+    "scope": "manufactured finite inputs and scalar/logit-Hessian checks; not a population or floating-point certificate",
+    "previous_manufactured_receipt": {
+      "schema_version": "1.0",
+      "passed": true,
+      "manufactured_only": true,
+      "scientific_banks": 0,
+      "scientific_seed_calls": 0,
+      "fixture_banks": 12,
+      "label_count": 8,
+      "fixtures": [
+        {
+          "K": 1,
+          "banks": 3,
+          "max_scalar_error": 1.432187701766452e-14,
+          "max_decomposition_error": 0.0
+        },
+        {
+          "K": 2,
+          "banks": 3,
+          "max_scalar_error": 2.1649348980190553e-14,
+          "max_decomposition_error": 6.938893903907228e-18
+        },
+        {
+          "K": 3,
+          "banks": 3,
+          "max_scalar_error": 2.1649348980190553e-14,
+          "max_decomposition_error": 6.938893903907228e-18
+        },
+        {
+          "K": 100,
+          "banks": 3,
+          "max_scalar_error": 1.2989609388114332e-14,
+          "max_decomposition_error": 1.3877787807814457e-17
+        }
+      ],
+      "max_scalar_score_error": 2.1649348980190553e-14,
+      "max_decomposition_error": 1.3877787807814457e-17,
+      "max_root_residual": 1.1102230246251565e-16,
+      "mixed_logit_hessian_fd_error": 2.5791136587516306e-10,
+      "mixed_logit_hessian_fd_step": 0.0002,
+      "dominant_complement_preserved": true,
+      "primary_not_clipped": true,
+      "K1_price_zero": true,
+      "primitive_generation_error": 9.094947017729282e-13,
+      "manufactured_rng_seed": 202001010000,
+      "manufactured_normal_scalars": 36891,
+      "elapsed_seconds": 0.5,
+      "scope": "manufactured finite inputs and scalar/logit-Hessian checks; not a population or floating-point certificate"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "p": [
+    0.0791950994254576,
+    0.12834485778922605,
+    0.14185845070522815,
+    0.15060159208008816,
+    0.15060159208008816,
+    0.14185845070522815,
+    0.12834485778922605,
+    0.0791950994254576
+  ],
+  "moments": [
+    -0.08081323397781695,
+    -0.11578579947725698,
+    -0.16984017114126526
+  ],
+  "all_tree_query_lower_min": 8.713886841332095e-05,
+  "projections": [
+    {
+      "cherry": [
+        0,
+        1
+      ],
+      "outside_target": 2,
+      "delta": 0.050012684860516535,
+      "Gamma_lower": 0.0002253776978742625,
+      "exact_I_projection_q": [
+        0.0791950994254576,
+        0.1351016542472271,
+        0.1351016542472271,
+        0.15060159208008816,
+        0.15060159208008816,
+        0.1351016542472271,
+        0.1351016542472271,
+        0.0791950994254576
+      ],
+      "joint_KL_at_I_projection": 0.0006761330936228219,
+      "mean_LOO_KL_at_I_projection": 0.00042754052823330575,
+      "per_target_LOO_KL": [
+        0.0003022644174354074,
+        0.0003042240736416879,
+        0.0006761330936228219
+      ],
+      "outside_target_contribution_to_mean": 0.000225377697874274,
+      "spin_pair_coefficients": {
+        "cherry": -0.10637566778822455,
+        "equal_cross": -0.16068086648151297
+      },
+      "moment_matching_max_error": 2.7755575615628914e-17,
+      "identity_max_error": 2.7755575615628914e-17,
+      "actual_queries_are_not_query_optimized": true
+    },
+    {
+      "cherry": [
+        0,
+        2
+      ],
+      "outside_target": 1,
+      "delta": 0.07978855547826223,
+      "Gamma_lower": 0.0005925739049969774,
+      "exact_I_projection_q": [
+        0.0791950994254576,
+        0.1394732249346571,
+        0.14185845070522815,
+        0.1394732249346571,
+        0.1394732249346571,
+        0.14185845070522815,
+        0.1394732249346571,
+        0.0791950994254576
+      ],
+      "joint_KL_at_I_projection": 0.0017777217149909721,
+      "mean_LOO_KL_at_I_projection": 0.0011064594248412357,
+      "per_target_LOO_KL": [
+        0.0007670203452967428,
+        0.0017777217149909721,
+        0.0007746362142359922
+      ],
+      "outside_target_contribution_to_mean": 0.0005925739049969908,
+      "spin_pair_coefficients": {
+        "cherry": -0.1372502845972744,
+        "equal_cross": -0.14572882836386858
+      },
+      "moment_matching_max_error": 0.0,
+      "identity_max_error": 1.3335686721571705e-17,
+      "actual_queries_are_not_query_optimized": true
+    },
+    {
+      "cherry": [
+        1,
+        2
+      ],
+      "outside_target": 0,
+      "delta": 0.029895165478307787,
+      "Gamma_lower": 8.713886841332095e-05,
+      "exact_I_projection_q": [
+        0.0791950994254576,
+        0.12834485778922605,
+        0.14623002139265817,
+        0.14623002139265817,
+        0.14623002139265817,
+        0.14623002139265817,
+        0.12834485778922605,
+        0.0791950994254576
+      ],
+      "joint_KL_at_I_projection": 0.00026141660523989856,
+      "mean_LOO_KL_at_I_projection": 0.00015849326636029832,
+      "per_target_LOO_KL": [
+        0.00026141660523989856,
+        0.00010685293234052721,
+        0.00010721026150046923
+      ],
+      "outside_target_contribution_to_mean": 8.713886841329951e-05,
+      "spin_pair_coefficients": {
+        "cherry": -0.18593161958228155,
+        "equal_cross": -0.12070160539450625
+      },
+      "moment_matching_max_error": 2.7755575615628914e-17,
+      "identity_max_error": 2.7755575615628914e-17,
+      "actual_queries_are_not_query_optimized": true
+    }
+  ],
+  "maximum_identity_error": 2.7755575615628914e-17,
+  "strict_positivity_is_analytic_not_a_numerical_interval_certificate": true
+}

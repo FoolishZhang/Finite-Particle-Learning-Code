@@ -1,0 +1,23 @@
+{
+  "schema": "local_witness_tail_wrapper_manufactured_check_v1",
+  "created_utc": "2026-10-08T07:14:44.459256+00:00",
+  "status": "passed",
+  "tests_run": 4,
+  "source_sha256": {
+    "script/local_witness_feasibility_tail_run.py": "aa3a3c5ce12cd749509dd99d5e069cd0929ace562744f1da3d07ffd366bdf766",
+    "script/local_witness_feasibility_tail_run_test.py": "9df2c8f7e9bc882468f9d58d21371e872f8281772d2978059f57fa066ddfbeb1",
+    "script/local_witness_feasibility_bounds.py": "6f3e0d228da6fa860a25a5181b3c75f5d9df762cd811298d5c4cfa9c21d8f6bd"
+  },
+  "manufactured_bound_box_calls": 2,
+  "manufactured_bound_m": 2,
+  "manufactured_bound_K": 1,
+  "synthetic_center_planning_only": true,
+  "real_center_bound_box_calls": 0,
+  "real_INPUTS_reads": 0,
+  "new_kernel_calls": 0,
+  "new_integrals": 0,
+  "new_random_draws": 0,
+  "scientific_array_reads": 0,
+  "finite_interval_quadrature_certified": false,
+  "strict_stationary_existence_certified": false
+}

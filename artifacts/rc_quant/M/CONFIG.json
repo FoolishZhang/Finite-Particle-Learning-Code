@@ -1,0 +1,33 @@
+{
+  "dimensions": [
+    12,
+    24,
+    48,
+    96
+  ],
+  "sizes": [
+    2048,
+    8192,
+    32768
+  ],
+  "reps": 16,
+  "seed_base": 6126100100,
+  "known_epsilon_min": 0.7,
+  "known_a": 0.95,
+  "teacher_abs_amplitudes": [
+    0.75,
+    0.9
+  ],
+  "methods": [
+    "MOM",
+    "MLE",
+    "HIST",
+    "PRODUCT"
+  ],
+  "numerical_tolerance": 1e-10,
+  "primary_query_floor": [
+    87,
+    56320
+  ],
+  "primary_t_family": 4
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "scope": "mechanical output/hash/error-field verification only; no new score or statistical inference",
+  "code_sha256": "7feabce83f18bca5b2e46758d54ad24a931b67dc7cfcbdacda3a0dd9acd0d977",
+  "freeze_sha256": "1e2eb115f02bf8e99428da59726cfbc69a6d393ed0bc7a7a9a4d59fe77d73a5c",
+  "result_sha256": "dece04f27be21aecb9034015d85630fb3c0ae409c0d2080cea67cf3bcb4edb5b",
+  "intervals_sha256": "8a75d4ca8e52f6c8e779d91b9ffa9b87aa68d56bded9a99ab10e7e4b9f19b987",
+  "components": 2097152,
+  "all_fields_finite": true,
+  "all_intervals_ordered": true,
+  "outward_error_fields_recomputed_exactly": true,
+  "all_original_frozen_records_unchanged": true,
+  "max_error": 3.33066907387547e-14,
+  "maximum_interval_width": 5.773159728050815e-14,
+  "Arb_banks": 32,
+  "Arb_label_differences": 256,
+  "all_Arb_contained": true,
+  "new_score_evaluations": 0,
+  "new_random_draws": 0
+}

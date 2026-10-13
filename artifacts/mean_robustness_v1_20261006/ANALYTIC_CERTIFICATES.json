@@ -1,0 +1,42 @@
+{
+  "derivative_constants": [
+    1,
+    3,
+    14,
+    90,
+    744,
+    7560
+  ],
+  "mean_l1_radius": 1e-07,
+  "correlation_l2_radius": 3e-08,
+  "hessian_deviation_upper": {
+    "numerator": "3539583",
+    "denominator": "2500000000",
+    "display": 0.0014158332
+  },
+  "n0_curvature_lower": 0.002684,
+  "n256_negative_curvature_magnitude_lower": 0.002202,
+  "gradient_norm_upper": {
+    "numerator": "419",
+    "denominator": "400000000000000",
+    "display": 1.0475e-12
+  },
+  "stationary_displacement_upper": {
+    "numerator": "419",
+    "denominator": "880800000000",
+    "display": 4.757039055404178e-10
+  },
+  "stationary_risk_upper": {
+    "numerator": "180000",
+    "denominator": "1562499997877500000720801",
+    "display": 1.1520000015648768e-19
+  },
+  "n256_global_risk_lower": {
+    "numerator": "599999999999997",
+    "denominator": "174016000000000000000000000000000",
+    "display": 3.4479588083854185e-18
+  },
+  "old_event_reused": true,
+  "new_statistical_contrasts": 0,
+  "new_alpha": 0
+}

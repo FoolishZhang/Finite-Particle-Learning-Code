@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "matrix_trace_derivative_max_error": 4.163336342344337e-17,
+  "trace_one_directions_checked": 192,
+  "nonlinear_risk_or_training_gap_claimed": false
+}

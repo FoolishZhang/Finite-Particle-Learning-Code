@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "producer_sha256": "b46768ee06c368617f60a2136b3f760a3b877f4af613e1b0b8b996c31c786415",
+  "audit_sha256": "34971b152a2f69ef6ae240d510148c4cebe750c93473727427af72a04d80a7fa",
+  "direct_score_error": 2.220446049250313e-15,
+  "kernel_score_error": 4.440892098500626e-16,
+  "constant_particle_error": 0.0,
+  "manufactured_statistics_error": 4.336808689942018e-19,
+  "seconds": 0.04791339999064803,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1"
+  },
+  "scope": "Manufactured fixed arrays only; no scientific endpoint scoring or RNG pilot"
+}

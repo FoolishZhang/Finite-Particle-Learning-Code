@@ -1,0 +1,54 @@
+{
+  "dimensions": [
+    16,
+    64
+  ],
+  "streams": 8,
+  "c": 0.9,
+  "truth": [
+    6.0,
+    2.0
+  ],
+  "axis": [
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "N": [
+    256,
+    4096
+  ],
+  "B": [
+    16,
+    128
+  ],
+  "raw_K_multiplier": 1,
+  "col_K_multipliers": [
+    1,
+    4
+  ],
+  "confirm_N": 1024,
+  "confirm_B": 128,
+  "seed": 8416100100,
+  "label_chunk": 256,
+  "bank_chunk": 4,
+  "tie": 1e-12,
+  "near": 0.001,
+  "risk_alpha": 0.025,
+  "risk_family": 32,
+  "risk_SE": 0.001,
+  "score_alpha": 0.025,
+  "score_family": 24,
+  "raw_score_SE_per_d": 0.01,
+  "col_score_SE": 0.001,
+  "floor_alpha": 0.05,
+  "floor_family": 2,
+  "material_improvement": 0.002,
+  "noninferiority_margin": 0.001,
+  "formula_gate": 1e-10,
+  "reference_risk_roundoff_gate": 1e-10
+}

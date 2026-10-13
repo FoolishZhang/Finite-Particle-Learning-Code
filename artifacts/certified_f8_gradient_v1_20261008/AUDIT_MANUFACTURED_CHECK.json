@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests_run": 3,
+  "sources": {
+    "script/certified_f8_gradient_audit.py": "ce4ecd734aaa350fed6a918fb32523c323eaab8261bd5ce74cd5515251c231b3",
+    "script/certified_f8_gradient_audit_test.py": "7f8ee9b6f562ec5eade5e7f839a4e82ad19863254bfcbdb4c8b17ef5bce8777f"
+  },
+  "manufactured_m4_factor_evaluations_per_method": 243,
+  "real_center_factor_evaluations": 0,
+  "new_random_draws": 0
+}

@@ -1,0 +1,46 @@
+{
+  "source_sha256": "d33f5425ec905a3f1514dcacc57216f9efd28287bc37ed64d9fd14405a2f6270",
+  "inputs": {
+    "artifacts/scbm_invariance/RUN/RESULTS.json": "c4d2153196fb23dba77addf3f482bd57b4057116611ea84cdd8ca59d6af0724e",
+    "artifacts/scbm_invariance/REFERENCE/MODEL.json": "2b5d12858dd6d581f36ded2327fd2ce26f0bc69eed314360783479403b9c9975"
+  },
+  "main_effects_passed": 4,
+  "main_precision_passed": 4,
+  "sigmoid_zero_count": 0,
+  "sigmoid_one_count": 0,
+  "maximum_absolute_logit": 6.167874336242676,
+  "descriptive_stream_counts": {
+    "base_high_worse": 14,
+    "padded_high_better": 14,
+    "both_signs": 12,
+    "padded_reverse_streams": [
+      6,
+      7
+    ]
+  },
+  "numerical_qualification": {
+    "score_count": 288,
+    "score_passed": 288,
+    "gradient_count": 96,
+    "gradient_passed": 96,
+    "maximum_score_difference": 3.189886959376054e-05,
+    "maximum_normalized_gradient_difference": 1.140857684728963e-06
+  },
+  "scale_control_qualification": {
+    "value_count": 384,
+    "value_passed": 384,
+    "active_gradient_count": 128,
+    "active_gradient_passed": 128
+  },
+  "reference_qualification": true,
+  "reference_KL": {
+    "-0.75": 0.001547616698240405,
+    "0.0": 0.0,
+    "0.75": 0.001724194983487943
+  },
+  "conditional_readout_sha256": "33dbd1b796e9cf78c614036ec12b296eb416dbccd0f181009ed170f9a83b8837",
+  "conditional_readout_scope": "Post hoc interpretation of already-frozen 16-pattern reference PMFs; all ordered pairs retained, no new integration, simulation, intervention API or significance test.",
+  "new_summary_random_draws": 0,
+  "new_summary_integrals": 0,
+  "new_tests": 0
+}

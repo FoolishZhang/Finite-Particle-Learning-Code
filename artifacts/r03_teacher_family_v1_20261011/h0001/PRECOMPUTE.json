@@ -1,0 +1,202 @@
+{
+  "config": {
+    "K": 8,
+    "precision_bits": 192,
+    "hz": "1/32",
+    "L": "10",
+    "dz": "1/6",
+    "hv": "1/4",
+    "vmin": "-28",
+    "vmax": "56",
+    "dv": "1",
+    "T": "4",
+    "saturation_threshold": 128,
+    "label_mode": "complement"
+  },
+  "a_input_audit": [
+    {
+      "arb_display_only": "[0.470 +/- 4.34e-4]",
+      "lower_exact_dyadic": {
+        "mantissa": "5904037235968101789243957030161318624545885103804894937087",
+        "exponent_of_two": -193
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5905920366495381327500813352480965850004881613330977914879",
+        "exponent_of_two": -193
+      }
+    },
+    {
+      "arb_display_only": "[0.5660 +/- 4.50e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "3552557399427833093292699999705878600358248993321461481471",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3552745712480311278772162088958658122859494982625202798591",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6435 +/- 1.53e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4039219519023419337033439513168164778300552409818607910911",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4039407832075897522512901602420944300801798399122349228031",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6887 +/- 3.62e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4323078718159626160765333383901974500815017245669997936639",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4323267031212104346244795473154754023316263234973739253759",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6887 +/- 3.62e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4323078718159626160765333383901974500815017245669997936639",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4323267031212104346244795473154754023316263234973739253759",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6435 +/- 1.53e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4039219519023419337033439513168164778300552409818607910911",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4039407832075897522512901602420944300801798399122349228031",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.5660 +/- 4.50e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "3552557399427833093292699999705878600358248993321461481471",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3552745712480311278772162088958658122859494982625202798591",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.4704 +/- 5.64e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "5904790488179263372892923102068362714774137369264195108863",
+        "exponent_of_two": -193
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5905167114284219743851847280573921759776629347871677743103",
+        "exponent_of_two": -193
+      }
+    }
+  ],
+  "a_enclosures": [
+    {
+      "arb_display_only": "[0.470 +/- 4.34e-4]",
+      "lower_exact_dyadic": {
+        "mantissa": "5904037235966674541551251070280260338576435608668512190463",
+        "exponent_of_two": -193
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5905920366496808575193519312362024135974331108467360661503",
+        "exponent_of_two": -193
+      }
+    },
+    {
+      "arb_display_only": "[0.5660 +/- 4.50e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "3552557399427743890311905877213312457485158399875437559807",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3552745712480400481752956211451224265732585576071226720255",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6435 +/- 1.53e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4039219519023330134052645390675598635427461816372583989247",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4039407832075986725493695724913510443674888992568373149695",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6887 +/- 3.62e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4323078718159536957784539261409408357941926652223974014975",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4323267031212193549225589595647320166189353828419763175423",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6887 +/- 3.62e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4323078718159536957784539261409408357941926652223974014975",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4323267031212193549225589595647320166189353828419763175423",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.6435 +/- 1.53e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "4039219519023330134052645390675598635427461816372583989247",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4039407832075986725493695724913510443674888992568373149695",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.5660 +/- 4.50e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "3552557399427743890311905877213312457485158399875437559807",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3552745712480400481752956211451224265732585576071226720255",
+        "exponent_of_two": -192
+      }
+    },
+    {
+      "arb_display_only": "[0.4704 +/- 5.64e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "5904790488179084966931334857083230429027956182372147265535",
+        "exponent_of_two": -193
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5905167114284398149813435525559054045522810534763725586431",
+        "exponent_of_two": -193
+      }
+    }
+  ],
+  "signature": "cba0baf31f7ea2ec68dc9e52964ca78abd96e3a5401557c8e04a22bd0de64552",
+  "moment_columns": 99,
+  "scalar_moments_including_Psi": 100,
+  "normal_nodes": 641,
+  "precompute_logistic_exponentials": 10256,
+  "precompute_gaussian_exponentials": 641
+}

@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-05T16:28:01.987953+00:00",
+  "family_alpha": 0.01,
+  "point_alpha": 0.005,
+  "B": 2097152,
+  "method": "two-sided scaled Maurer-Pontil plus tail and numerical allowance",
+  "results": [
+    {
+      "n": 0,
+      "mean": 0.0024785736420258686,
+      "sample_variance": 0.021394811536539788,
+      "interval": [
+        0.001864904388289961,
+        0.003092242895761776
+      ],
+      "halfwidth": 0.0006136692537359077,
+      "tail_bound": 2.525437738014843e-07,
+      "range_bound": 16.410533615595888,
+      "truncated_banks": 0,
+      "region_cost": {
+        "mid": 0.0015884459822678963,
+        "lower": 0.001588445982267896,
+        "upper": 0.0015884459822678965,
+        "enclosure": "[0.001588445982267896350350893689476785480 +/- 5.01e-40]"
+      },
+      "region_gap_lower": 0.00027645840602206454,
+      "region_excluded": true
+    },
+    {
+      "n": 256,
+      "mean": 0.0032662333607003866,
+      "sample_variance": 0.08620412465628684,
+      "interval": [
+        0.002280561286112843,
+        0.00425190543528793
+      ],
+      "halfwidth": 0.0009856720745875433,
+      "tail_bound": 2.525437738014843e-07,
+      "range_bound": 16.410533615595888,
+      "truncated_banks": 0,
+      "region_cost": {
+        "mid": 0.0015884459822678963,
+        "lower": 0.001588445982267896,
+        "upper": 0.0015884459822678965,
+        "enclosure": "[0.001588445982267896350350893689476785480 +/- 5.01e-40]"
+      },
+      "region_gap_lower": 0.0006921153038449465,
+      "region_excluded": true
+    }
+  ]
+}

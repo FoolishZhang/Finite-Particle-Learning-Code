@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T04:57:32.753915+00:00",
+  "maximum_replay_error": 5.329070518200751e-15,
+  "finite_argmins": 1024,
+  "population_grid_estimates": 32,
+  "paired_intervals": 40,
+  "new_local_pattern_arrays_verified": 16,
+  "old_bank_arrays_verified": 16,
+  "public_objective_replay": true,
+  "independent_t_quantile_and_interval_replay": true,
+  "limitation": "argmin replay shares the declared objective assembly; no scientific resampling or new reference integrals",
+  "no_new_scientific_samples_in_audit": true
+}

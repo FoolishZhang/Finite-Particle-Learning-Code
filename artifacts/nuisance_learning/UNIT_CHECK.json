@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "raw_direct_coordinate_error": 1.7763568394002505e-15,
+  "n0_raw_equals_RB_error": 1.1102230246251565e-16,
+  "table_likelihood_direct_error": 1.0408340855860843e-17,
+  "actual_nuisance_label_axis_checked": true,
+  "same_active_different_nuisance_contrast_effect": 0.14996029904971353,
+  "CP_exact_arithmetic_cases": 17,
+  "integer_improvement_grid_pairs": 121,
+  "Gaussian_integrals": 0,
+  "scientific_RNG_calls": 0,
+  "scientific_training_fits": 0,
+  "fixture_labels": 5,
+  "fixture_banks": 3,
+  "source_sha256": "f77e390122ed200438ba383d61eac5d392d1acd10070507119bdc633c120292e",
+  "created": "2026-10-01T16:04:37.859743+00:00",
+  "completed_QA_executions": 2
+}

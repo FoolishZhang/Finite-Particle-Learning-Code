@@ -1,0 +1,686 @@
+{
+  "created_utc": "2026-10-07T03:55:44.425248+00:00",
+  "source_sha256": "49a3e1394d453920127dac2ce50c0462dfd3fcda9c427095b3ec82faa6b853d2",
+  "sources": {
+    "artifacts/rankone_stationary_v1_20261007/RESULTS.json": "109349cfa22b591d807e58c28e30cb54320ad916c9244881cceba2961f8a8feb",
+    "artifacts/rankone_stationary_v1_20261007/ENDPOINTS_LOCK.json": "4e9fcbc297d05802953e94c5f99dfbdd7294e8b8cc49bb570a427256ca589f84",
+    "artifacts/rankone_stationary_v1_20261007/SOURCE.json": "45bf397781b96103f855d26e2d24fb3e5b355efbe6dd218e3c53fcc81072e7b4",
+    "artifacts/rankone_stationary_v1_20261007/AUDIT.json": "172aa2bbc1c416e60ad95d0ef485d376388fc31adbc22bbe0155bbf18742e467",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E0_C.json": "80dacfae7fafb5220f650f2833fe0cbfba5b83c2bd656e177c224a864df29b35",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E0_D.json": "7898619f88d174f3108e6c7d670072fdfda395e2adc683fd1cea78535dbdc8f2",
+    "artifacts/rankone_stationary_v1_20261007/optimization/E0/SOLVER.json": "b94914216db7e409659e74b004fb665ffabc68cff13397924a474663001c92b8",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E1_C.json": "3ef4555b3d6313c537e9484cebf605474ec402f28073348b23664f96316a4e51",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E1_D.json": "03ccf1901166b09d58b77ade520cc5c7d5d6339f73970a4d8f35851ed6f7f133",
+    "artifacts/rankone_stationary_v1_20261007/optimization/E1/SOLVER.json": "dc430aa0e6ecbd1b08cc27a04f8d988fcc4cc55c12837eb9b05ff81041204780",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E2_C.json": "38017eb959151d0d72d88df369f0ed67470cd14eb32c6bff765a20c41384dc25",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E2_D.json": "c75550b5953beb6360e5582e9c8cbe79ac0223986b9041693048b8a1800e8b74",
+    "artifacts/rankone_stationary_v1_20261007/optimization/E2/SOLVER.json": "2dbd95e9e1417bd413fdad48be127150cf1cd650817355b39875033030ccfc75",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E3_C.json": "1adf4dc4ec1e2ad593ea1c89daf14f715ca04eb12fca87e2a3c98ab0cedfe2ae",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/E3_D.json": "7feff577ad2e5cf0e52735986359169d70c3e327da5ba7ff39e3096b250aff39",
+    "artifacts/rankone_stationary_v1_20261007/optimization/E3/SOLVER.json": "ec98b7fdc624477dc50ab28103515136dd2f9dbd0f09431b7428f0bc3166acc0",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/P_C.json": "cd272c6805a65f2eb57d3387e2f9c62d48842162b594940944951a2a3ab3f44c",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/P_D.json": "ad7b67c296dba6dca69519dd503bcd58b581ab1cbb0909966e2e27c9b89fa290",
+    "artifacts/rankone_stationary_v1_20261007/optimization/P/SOLVER.json": "83fe0a816c320793b530acafc11d3b3ce2a8e1cd412279f855e8c4955fbb27db",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/PROBE_PLAN.json": "f39682a3c6fde39828bf713481c0182997001967a6b7bb66fd2842da87dea02a",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_00_C.json": "b1c7e49d682e38ee7bd34e303177db85998107d0d55c32fb52821bc1a8227c3d",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_00_D.json": "b8d6644bfac36608de7f1200f08f4017799f753061f94c121dfcace72a2104b1",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_01_C.json": "20c18d105e79d89b03f423859f1521ac49f58bba64437490d3e24fd30b6be1df",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_01_D.json": "cf367160ba6995cc982345ce620ad8e3e46e28f171bbdffcdf0464852a8a9d72",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_02_C.json": "7544d6d83800e880c2cf372490bc48762b9c4e7ffd0cefabc0e1084d4dd54b40",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_02_D.json": "e52b13d0ece7c30e37271e5b24f18ae34527d0856a7048b5b592bdd9f16bd020",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_03_C.json": "6906377bb306da29bd7d5de4adbecbecdd6d937208e7fd652cbd17ea7d7afe58",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_03_D.json": "e1bcd35d3b09b9808a0ef4886bbc14fa2530404c334bc81fe297ff962a1b041d",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_04_C.json": "2e36a0cac92757b8f4164a83a891cffb5bf90f6684e176f33dbf858537eac6af",
+    "artifacts/rankone_stationary_v1_20261007/evaluation/probe/point_04_D.json": "cf615bdae082a8085adee21fbe237cbb937180f324dd23fa12ac6e191c65c0b0"
+  },
+  "endpoint_blocks": 27,
+  "endpoint_rule_blocks": 54,
+  "qualified_endpoint_blocks": 27,
+  "fit_signatures_passed": 5,
+  "endpoint_rows": [
+    {
+      "name": "E0",
+      "fit_target": "empirical",
+      "signature": {
+        "qualified_full_local_minimum_signature": true,
+        "classification": "numerically_qualified_full_nonrotation_local_minimum_signature",
+        "gates": {
+          "numerical_qualification": true,
+          "gradient": true,
+          "box_margin": true,
+          "H_ba_positive": true,
+          "Hperp_transverse_positive": true,
+          "Cartesian_Ward": true,
+          "near_rotation_mode": true
+        },
+        "failed_gates": [],
+        "D_gradient_Linf": 9.939461385020942e-11,
+        "minimum_box_margin": 0.4131298217411944,
+        "D_H_ba_minimum": 0.05029121091220879,
+        "D_Hperp_transverse_minimum": 0.010629424701094852,
+        "D_Cartesian_Ward_Linf": 1.6663970550667706e-14,
+        "D_near_rotation_residual_Linf": 5.894116618387901e-11,
+        "nonrotation_dimensions": 23,
+        "own_fitted_K8_target_only": true,
+        "interval_existence_or_uniqueness_certificate": false,
+        "global_optimum_claimed": false
+      },
+      "theta": [
+        -0.014801201871367013,
+        -0.03412066265383791,
+        -0.020943197035645015,
+        0.008881778413989714,
+        0.01539285370322697,
+        -0.04647913456983983,
+        -0.0143123177126762,
+        -0.0076566837569425755,
+        0.4631298217411944,
+        0.5744524403570521,
+        0.6491508316691001,
+        0.6387304543427259,
+        0.6902577017280724,
+        0.6456834186705195,
+        0.5961429409537925,
+        0.4712486915937273
+      ],
+      "parameter_movement_Linf": 0.010787269923562492,
+      "accepted_steps": 2,
+      "kernel_calls": 5,
+      "stages": [
+        {
+          "phase": "O",
+          "call_count": 4,
+          "accepted_step_count": 2,
+          "stop_reason": "gradient_tolerance_at_accepted_FG"
+        },
+        {
+          "phase": "C",
+          "call_count": 1,
+          "accepted_step_count": 0,
+          "stop_reason": "gradient_tolerance"
+        }
+      ],
+      "F8_fit_loss": 5.490610043346926,
+      "F8_fit_gradient_Linf": 9.939461385020942e-11,
+      "F8_fit_Hba_min": 0.05029121091220879,
+      "F8_fit_Hperp_transverse_min": 0.010629424701094852,
+      "F8_fit_Hangle_min": 0.0029756861749918534,
+      "population_angular_min": {
+        "8": 0.003842927373881278,
+        "64": -0.0036783337084174295,
+        "inf": -0.004952394428354801
+      },
+      "population_losses": {
+        "8": 5.49131561400856,
+        "64": 5.45480805752164,
+        "inf": 5.449906330771649
+      },
+      "integrated_gradient_L2": 0.02869312738995865,
+      "observation_KL_D": 0.01110941503106522,
+      "observation_KL_C": 0.0111094150311081,
+      "teacher_mass": 0.9999999999999989,
+      "model_mass_D": 1.0000000000000275
+    },
+    {
+      "name": "E1",
+      "fit_target": "empirical",
+      "signature": {
+        "qualified_full_local_minimum_signature": true,
+        "classification": "numerically_qualified_full_nonrotation_local_minimum_signature",
+        "gates": {
+          "numerical_qualification": true,
+          "gradient": true,
+          "box_margin": true,
+          "H_ba_positive": true,
+          "Hperp_transverse_positive": true,
+          "Cartesian_Ward": true,
+          "near_rotation_mode": true
+        },
+        "failed_gates": [],
+        "D_gradient_Linf": 4.531563145560025e-11,
+        "minimum_box_margin": 0.36564852155162936,
+        "D_H_ba_minimum": 0.05191025587312377,
+        "D_Hperp_transverse_minimum": 0.018919211118172054,
+        "D_Cartesian_Ward_Linf": 1.8208524965590556e-14,
+        "D_near_rotation_residual_Linf": 2.658862106180715e-11,
+        "nonrotation_dimensions": 23,
+        "own_fitted_K8_target_only": true,
+        "interval_existence_or_uniqueness_certificate": false,
+        "global_optimum_claimed": false
+      },
+      "theta": [
+        0.06315259198159155,
+        0.022880853178708062,
+        0.019904635302702686,
+        0.04197512646583577,
+        0.013692488210087278,
+        0.025307508504811387,
+        0.10533515637099061,
+        -0.013177442588091073,
+        0.5171601043675336,
+        0.5358335627481413,
+        0.5672188974675587,
+        0.6839318357044376,
+        0.5864191495959652,
+        0.7636574292958986,
+        0.6798609080037875,
+        0.41564852155162935
+      ],
+      "parameter_movement_Linf": 0.008475512672418695,
+      "accepted_steps": 2,
+      "kernel_calls": 5,
+      "stages": [
+        {
+          "phase": "O",
+          "call_count": 4,
+          "accepted_step_count": 2,
+          "stop_reason": "gradient_tolerance_at_accepted_FG"
+        },
+        {
+          "phase": "C",
+          "call_count": 1,
+          "accepted_step_count": 0,
+          "stop_reason": "gradient_tolerance"
+        }
+      ],
+      "F8_fit_loss": 5.488120112251309,
+      "F8_fit_gradient_Linf": 4.531563145560025e-11,
+      "F8_fit_Hba_min": 0.05191025587312377,
+      "F8_fit_Hperp_transverse_min": 0.018919211118172054,
+      "F8_fit_Hangle_min": 0.004651370382839482,
+      "population_angular_min": {
+        "8": 0.003051969318507804,
+        "64": -0.005711585812622688,
+        "inf": -0.007217066922878825
+      },
+      "population_losses": {
+        "8": 5.49416802194178,
+        "64": 5.457451455213576,
+        "inf": 5.452530366242479
+      },
+      "integrated_gradient_L2": 0.038075125822783835,
+      "observation_KL_D": 0.013733450501893396,
+      "observation_KL_C": 0.01373345050193634,
+      "teacher_mass": 0.9999999999999989,
+      "model_mass_D": 1.0000000000000275
+    },
+    {
+      "name": "E2",
+      "fit_target": "empirical",
+      "signature": {
+        "qualified_full_local_minimum_signature": true,
+        "classification": "numerically_qualified_full_nonrotation_local_minimum_signature",
+        "gates": {
+          "numerical_qualification": true,
+          "gradient": true,
+          "box_margin": true,
+          "H_ba_positive": true,
+          "Hperp_transverse_positive": true,
+          "Cartesian_Ward": true,
+          "near_rotation_mode": true
+        },
+        "failed_gates": [],
+        "D_gradient_Linf": 5.02399771090678e-14,
+        "minimum_box_margin": 0.37900409807203456,
+        "D_H_ba_minimum": 0.05465115724156078,
+        "D_Hperp_transverse_minimum": 0.015768936084034815,
+        "D_Cartesian_Ward_Linf": 1.894426455983922e-14,
+        "D_near_rotation_residual_Linf": 3.710920459809586e-14,
+        "nonrotation_dimensions": 23,
+        "own_fitted_K8_target_only": true,
+        "interval_existence_or_uniqueness_certificate": false,
+        "global_optimum_claimed": false
+      },
+      "theta": [
+        0.0073137221688671485,
+        -0.0459046385431127,
+        -0.03891368368773493,
+        -0.023849282450616547,
+        -0.039775883336526596,
+        0.005543283511504825,
+        -0.023993869957460393,
+        -0.049994448400312,
+        0.5353120152048267,
+        0.6904793510512623,
+        0.7595094762702881,
+        0.8202951475760775,
+        0.7315156544884888,
+        0.6323767796774005,
+        0.5860217013956326,
+        0.42900409807203455
+      ],
+      "parameter_movement_Linf": 0.017093483709218482,
+      "accepted_steps": 3,
+      "kernel_calls": 6,
+      "stages": [
+        {
+          "phase": "O",
+          "call_count": 4,
+          "accepted_step_count": 2,
+          "stop_reason": "gradient_tolerance_at_accepted_FG"
+        },
+        {
+          "phase": "C",
+          "call_count": 2,
+          "accepted_step_count": 1,
+          "stop_reason": "gradient_tolerance_at_accepted_FG"
+        }
+      ],
+      "F8_fit_loss": 5.472597374457818,
+      "F8_fit_gradient_Linf": 5.02399771090678e-14,
+      "F8_fit_Hba_min": 0.05465115724156078,
+      "F8_fit_Hperp_transverse_min": 0.015768936084034815,
+      "F8_fit_Hangle_min": 0.004684659296175846,
+      "population_angular_min": {
+        "8": 0.002949160453553693,
+        "64": -0.007240595521914557,
+        "inf": -0.008979440285684995
+      },
+      "population_losses": {
+        "8": 5.493260605816335,
+        "64": 5.45317326242364,
+        "inf": 5.447885654818206
+      },
+      "integrated_gradient_L2": 0.02170026659759974,
+      "observation_KL_D": 0.00908873907762343,
+      "observation_KL_C": 0.009088739077666282,
+      "teacher_mass": 0.9999999999999989,
+      "model_mass_D": 1.0000000000000275
+    },
+    {
+      "name": "E3",
+      "fit_target": "empirical",
+      "signature": {
+        "qualified_full_local_minimum_signature": true,
+        "classification": "numerically_qualified_full_nonrotation_local_minimum_signature",
+        "gates": {
+          "numerical_qualification": true,
+          "gradient": true,
+          "box_margin": true,
+          "H_ba_positive": true,
+          "Hperp_transverse_positive": true,
+          "Cartesian_Ward": true,
+          "near_rotation_mode": true
+        },
+        "failed_gates": [],
+        "D_gradient_Linf": 2.964430242079208e-12,
+        "minimum_box_margin": 0.3740728052366505,
+        "D_H_ba_minimum": 0.054102046401090446,
+        "D_Hperp_transverse_minimum": 0.01389994185875654,
+        "D_Cartesian_Ward_Linf": 1.7087568339457793e-14,
+        "D_near_rotation_residual_Linf": 1.7848864747316284e-12,
+        "nonrotation_dimensions": 23,
+        "own_fitted_K8_target_only": true,
+        "interval_existence_or_uniqueness_certificate": false,
+        "global_optimum_claimed": false
+      },
+      "theta": [
+        0.01782006822891224,
+        0.024123630137529377,
+        0.01521716670761738,
+        0.010073030347785903,
+        -0.07369973704596255,
+        0.0192391503871079,
+        0.0034117570753834244,
+        0.04186842550421819,
+        0.5145071250071835,
+        0.5324921626520741,
+        0.6461966001400796,
+        0.7083786262007131,
+        0.6751133609271295,
+        0.59836394780395,
+        0.5736105324794345,
+        0.4240728052366505
+      ],
+      "parameter_movement_Linf": 0.013664539143724987,
+      "accepted_steps": 3,
+      "kernel_calls": 7,
+      "stages": [
+        {
+          "phase": "O",
+          "call_count": 6,
+          "accepted_step_count": 3,
+          "stop_reason": "gradient_tolerance_at_accepted_FG"
+        },
+        {
+          "phase": "C",
+          "call_count": 1,
+          "accepted_step_count": 0,
+          "stop_reason": "gradient_tolerance"
+        }
+      ],
+      "F8_fit_loss": 5.491952596824891,
+      "F8_fit_gradient_Linf": 2.964430242079208e-12,
+      "F8_fit_Hba_min": 0.054102046401090446,
+      "F8_fit_Hperp_transverse_min": 0.01389994185875654,
+      "F8_fit_Hangle_min": 0.003604555694428694,
+      "population_angular_min": {
+        "8": 0.004126237146833534,
+        "64": -0.0029550828495090013,
+        "inf": -0.0041498238252367335
+      },
+      "population_losses": {
+        "8": 5.492033357360336,
+        "64": 5.45594257412121,
+        "inf": 5.451089630229029
+      },
+      "integrated_gradient_L2": 0.03485072561985319,
+      "observation_KL_D": 0.012292714488446117,
+      "observation_KL_C": 0.012292714488489054,
+      "teacher_mass": 0.9999999999999989,
+      "model_mass_D": 1.0000000000000275
+    },
+    {
+      "name": "P",
+      "fit_target": "population",
+      "signature": {
+        "qualified_full_local_minimum_signature": true,
+        "classification": "numerically_qualified_full_nonrotation_local_minimum_signature",
+        "gates": {
+          "numerical_qualification": true,
+          "gradient": true,
+          "box_margin": true,
+          "H_ba_positive": true,
+          "Hperp_transverse_positive": true,
+          "Cartesian_Ward": true,
+          "near_rotation_mode": true
+        },
+        "failed_gates": [],
+        "D_gradient_Linf": 2.9357757544423713e-12,
+        "minimum_box_margin": 0.420358698182411,
+        "D_H_ba_minimum": 0.05396627882413683,
+        "D_Hperp_transverse_minimum": 0.01485716656423241,
+        "D_Cartesian_Ward_Linf": 1.6714928052774525e-14,
+        "D_near_rotation_residual_Linf": 1.7458534617986743e-12,
+        "nonrotation_dimensions": 23,
+        "own_fitted_K8_target_only": true,
+        "interval_existence_or_uniqueness_certificate": false,
+        "global_optimum_claimed": false
+      },
+      "theta": [
+        -1.3071813168021753e-14,
+        1.921817632731686e-14,
+        -1.2686998159150244e-14,
+        1.0702704106794997e-13,
+        1.2737940862003287e-13,
+        2.2685941066543272e-13,
+        8.048914260017887e-14,
+        2.4383983752945963e-14,
+        0.470358698182411,
+        0.5659700456862028,
+        0.6434997943047034,
+        0.6887211737094057,
+        0.688721173708451,
+        0.6434997943042676,
+        0.5659700456863077,
+        0.4703586981826782
+      ],
+      "parameter_movement_Linf": 0.046039511654236566,
+      "accepted_steps": 3,
+      "kernel_calls": 7,
+      "stages": [
+        {
+          "phase": "O",
+          "call_count": 6,
+          "accepted_step_count": 3,
+          "stop_reason": "gradient_tolerance_at_accepted_FG"
+        },
+        {
+          "phase": "C",
+          "call_count": 1,
+          "accepted_step_count": 0,
+          "stop_reason": "gradient_tolerance"
+        }
+      ],
+      "F8_fit_loss": 5.490732689404217,
+      "F8_fit_gradient_Linf": 2.9357757544423713e-12,
+      "F8_fit_Hba_min": 0.05396627882413683,
+      "F8_fit_Hperp_transverse_min": 0.01485716656423241,
+      "F8_fit_Hangle_min": 0.004026254197965881,
+      "population_angular_min": {
+        "8": 0.004026254197965881,
+        "64": -0.003278508377123738,
+        "inf": -0.0045112985312487286
+      },
+      "population_losses": {
+        "8": 5.490732689404217,
+        "64": 5.45414090322167,
+        "inf": 5.449230488733418
+      },
+      "integrated_gradient_L2": 0.024564580310120127,
+      "observation_KL_D": 0.010433572992834402,
+      "observation_KL_C": 0.010433572992877414,
+      "teacher_mass": 0.9999999999999989,
+      "model_mass_D": 1.0000000000000275
+    }
+  ],
+  "maximum_C_D_endpoint_differences": {
+    "loss": 1.504485425130042e-11,
+    "gradient": 9.282956348055649e-13,
+    "H_ba": 1.111083447469241e-11,
+    "Hperp": 1.0486944646004304e-11,
+    "Hangle": 3.3036073876502314e-14,
+    "H_ba_eigenvalues": 1.111610803405938e-11,
+    "Hperp_projected_eigenvalues": 1.0399965610918827e-11,
+    "Hangle_projected_eigenvalues": 4.369768435985577e-14
+  },
+  "probe_status": "completed_prespecified_probe",
+  "probe_direction": [
+    3.540125121327264e-13,
+    8.42836491582703e-14,
+    4.1300577012651786e-13,
+    -6.682842420586522e-13,
+    -8.530762311117764e-13,
+    -1.804948293955786e-12,
+    -4.926373996883901e-13,
+    -6.77941375717968e-15,
+    0.30330501072725025,
+    0.34512615974087407,
+    0.37302529005338186,
+    0.3869704605133662,
+    0.3869704605156894,
+    0.37302529005455654,
+    0.34512615974054234,
+    0.3033050107262615
+  ],
+  "P_integrated_gradient_L2": 0.024564580310120127,
+  "probe_rows": [
+    {
+      "index": 0,
+      "t": -0.02,
+      "status": "evaluated",
+      "qualified": true,
+      "C": {
+        "losses": {
+          "8": 5.490747686885063,
+          "64": 5.454600252319652,
+          "inf": 5.449740012784121
+        },
+        "KL": 0.010943097043536899,
+        "delta_F8": 1.4997482739254053e-05,
+        "delta_KL": 0.0005095240506594843
+      },
+      "D": {
+        "losses": {
+          "8": 5.490747686886957,
+          "64": 5.454600252334688,
+          "inf": 5.449740012784077
+        },
+        "KL": 0.01094309704349391,
+        "delta_F8": 1.4997482740142232e-05,
+        "delta_KL": 0.0005095240506595086
+      }
+    },
+    {
+      "index": 1,
+      "t": -0.01,
+      "status": "evaluated",
+      "qualified": true,
+      "C": {
+        "losses": {
+          "8": 5.490736438113605,
+          "64": 5.45436614316692,
+          "inf": 5.449480691407556
+        },
+        "KL": 0.010683775666973786,
+        "delta_F8": 3.748711280948669e-06,
+        "delta_KL": 0.0002502026740963722
+      },
+      "D": {
+        "losses": {
+          "8": 5.490736438115494,
+          "64": 5.454366143181958,
+          "inf": 5.449480691407515
+        },
+        "KL": 0.010683775666930741,
+        "delta_F8": 3.7487112773959552e-06,
+        "delta_KL": 0.00025020267409633923
+      }
+    },
+    {
+      "index": 2,
+      "t": 0.0,
+      "status": "evaluated",
+      "qualified": true,
+      "C": {
+        "losses": {
+          "8": 5.490732689402324,
+          "64": 5.454140903206634,
+          "inf": 5.449230488733462
+        },
+        "KL": 0.010433572992877414,
+        "delta_F8": 0.0,
+        "delta_KL": 0.0
+      },
+      "D": {
+        "losses": {
+          "8": 5.490732689404217,
+          "64": 5.45414090322167,
+          "inf": 5.449230488733418
+        },
+        "KL": 0.010433572992834402,
+        "delta_F8": 0.0,
+        "delta_KL": 0.0
+      }
+    },
+    {
+      "index": 3,
+      "t": 0.01,
+      "status": "evaluated",
+      "qualified": true,
+      "C": {
+        "losses": {
+          "8": 5.490736436556249,
+          "64": 5.453924526169107,
+          "inf": 5.448989396966125
+        },
+        "KL": 0.010192481225541596,
+        "delta_F8": 3.7471539249267494e-06,
+        "delta_KL": -0.00024109176733581872
+      },
+      "D": {
+        "losses": {
+          "8": 5.490736436558141,
+          "64": 5.453924526184144,
+          "inf": 5.448989396966082
+        },
+        "KL": 0.010192481225498531,
+        "delta_F8": 3.747153924038571e-06,
+        "delta_KL": -0.00024109176733587076
+      }
+    },
+    {
+      "index": 4,
+      "t": 0.02,
+      "status": "evaluated",
+      "qualified": true,
+      "C": {
+        "losses": {
+          "8": 5.490747674435722,
+          "64": 5.453717004441954,
+          "inf": 5.4487574069042095
+        },
+        "KL": 0.009960491163625653,
+        "delta_F8": 1.4985033398140502e-05,
+        "delta_KL": -0.0004730818292517612
+      },
+      "D": {
+        "losses": {
+          "8": 5.490747674437619,
+          "64": 5.453717004456986,
+          "inf": 5.448757406904166
+        },
+        "KL": 0.009960491163582849,
+        "delta_F8": 1.4985033402581394e-05,
+        "delta_KL": -0.00047308182925155304
+      }
+    }
+  ],
+  "qualified_probe_points": 5,
+  "resources": {
+    "optimization": {
+      "successful_kernel_calls": 30,
+      "failed_kernel_calls": 0,
+      "full_Hessian_calls": 17,
+      "FG_only_calls": 13,
+      "target_K_blocks": 30,
+      "high_level_factor_totals": {
+        "targets": 30,
+        "labels": 7680,
+        "normal_nodes": 4608,
+        "outer_nodes": 8958,
+        "finite_K_greater_than_one": 30,
+        "bernoulli_logit_evaluations": 36864,
+        "conditional_loglikelihood_values": 1179648,
+        "laplace_exp_minus_ux_factors": 359792640,
+        "finite_d_coefficients": 1179648,
+        "finite_c_coefficients": 720896,
+        "finite_cross_particle_outer_products": 1319168
+      },
+      "new_random_draws": 0,
+      "new_observations": 0,
+      "statistical_alpha_spent": 0,
+      "accepted_optimizer_steps": 13
+    },
+    "evaluation": {
+      "successful_kernel_calls": 20,
+      "failed_kernel_calls": 0,
+      "full_Hessian_calls": 20,
+      "FG_only_calls": 0,
+      "target_K_blocks": 84,
+      "high_level_factor_totals": {
+        "targets": 28,
+        "labels": 5120,
+        "normal_nodes": 6400,
+        "outer_nodes": 11060,
+        "finite_K_greater_than_one": 40,
+        "bernoulli_logit_evaluations": 51200,
+        "conditional_loglikelihood_values": 1638400,
+        "laplace_exp_minus_ux_factors": 976814080,
+        "finite_d_coefficients": 3276800,
+        "finite_c_coefficients": 3276800,
+        "finite_cross_particle_outer_products": 5662720
+      },
+      "new_random_draws": 0,
+      "new_observations": 0,
+      "statistical_alpha_spent": 0,
+      "accepted_optimizer_steps": 0
+    }
+  },
+  "new_quadrature_calls": 0,
+  "new_random_draws": 0,
+  "numerical_stationary_signature_not_interval_existence": true,
+  "full_independent_optimizer_reexecution": false,
+  "manuscript_modified": false,
+  "new_transfer_prompt_created": false,
+  "figure_outputs": {
+    "docs/08_research_研究工作/RankOneStationary_v1_20261007/population_probe.png": {
+      "sha256": "07496ce6c01ae49e7fa8e27ec4efc5c22c03e02d5e0caa156317a09c403ce794",
+      "bytes": 114010
+    },
+    "docs/08_research_研究工作/RankOneStationary_v1_20261007/population_probe.svg": {
+      "sha256": "d441491f6037b3e55be29e5d9a619988f03c6bea0963e9143d4200159c56c1af",
+      "bytes": 70510
+    }
+  }
+}

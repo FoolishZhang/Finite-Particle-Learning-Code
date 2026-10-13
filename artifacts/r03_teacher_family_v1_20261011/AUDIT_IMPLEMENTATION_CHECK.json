@@ -1,0 +1,18 @@
+{
+  "schema": "r03_independent_audit_manufactured_v1",
+  "passed": true,
+  "checks": {
+    "dyadic_codec_roundtrip": true,
+    "dyadic_expansion": true,
+    "exact_float_comparison": true,
+    "wide_interval_does_not_false_pass_by_overlap": true,
+    "rectangular_shape": true,
+    "ragged_shape_rejected": true,
+    "fixed_count_arithmetic": true
+  },
+  "new_teacher_nodes": 0,
+  "new_candidate_nodes": 0,
+  "scientific_file_reads": 0,
+  "completed_utc": "2026-10-10T17:52:27.860761+00:00",
+  "freeze_sha256": "083218ae008396cf5e5e2ec970f3a9cda436dbb3a96f1ec5f4af52933a6f1f19"
+}

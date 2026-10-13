@@ -1,0 +1,33 @@
+{
+  "schema": "r02_remainder_author_math_check_v1",
+  "completed": true,
+  "completed_utc": "2026-10-10T14:34:05.084091+00:00",
+  "checks": {
+    "free_c12_two_class_reduction_and_factor_one_third": true,
+    "centered_Gumbel_kept": true,
+    "Price_cubic_factor_18_and_class_covariance": true,
+    "active_fourth_moment_Poincare_and_nonpositive_covariance": true,
+    "finite_kernel_integration_by_parts_and_positive_density_homotopy": true,
+    "Fourier_low_logarithm_and_cubic_phase_remainder": true,
+    "CF_strip_aliasing_and_real_tail": true,
+    "CF_segment_Lipschitz_and_BV_high_tail": true,
+    "decay_rates_lower_endpoints": true,
+    "Parseval_Sobolev_normalization": true,
+    "Gaussian_weight_cell_primitive_and_tail": true,
+    "five_budgets_prefactors_and_sign_test": true,
+    "no_use_of_old_MC_to_reduce_bound": true
+  },
+  "reviewed_sources": {
+    "docs/08_research_研究工作/R02Remainder_v1_20261010/FOURIER_PLAN.md": "321a153f0c93bf3dc486a1d9271a9bbc5d8ad627cdf035f10a60a3b710590aad",
+    "docs/08_research_研究工作/R02Remainder_v1_20261010/NOISE_CERTIFICATE_METHOD.md": "71d838946418427be119d425eea3371724aea9537c596cce598366cc9b07371c",
+    "docs/08_research_研究工作/R02Remainder_v1_20261010/FINITE_PROPAGATION.md": "25fb3353127180f46b431d86658938de0ed9e4eafa4d5c342fd6e81fea283767",
+    "docs/08_research_研究工作/R02Remainder_v1_20261010/WEIGHTED_INTERFACE.md": "1a9f20cbd6718e3d07b7f8bde245a88658b731dd876c338219220f9eb7d7ca3c",
+    "docs/08_research_研究工作/R02Remainder_v1_20261010/WEIGHT_CERTIFICATE_METHOD.md": "30e4cb6fe6aed49323f17282ab85fdd8bd4b9a25af91ed5447b81d41edc82bda",
+    "script/r02_remainder_noise.py": "e53e84013dd5c1d52b67c51482928b95f1b14697dd98b18410be0b4750c4adcd",
+    "script/r02_remainder_propagate.py": "5f1c90207d5c7ef40b12593e2b20f2eb3c06f146b5c8bf9874e8ca86d7773045"
+  },
+  "proof_automatically_verified": false,
+  "external_scientific_review": false,
+  "scope": "Author derivation and targeted formula/source inspection, plus internal implementation verification; not external scientific review.",
+  "new_target_integrals": 0
+}

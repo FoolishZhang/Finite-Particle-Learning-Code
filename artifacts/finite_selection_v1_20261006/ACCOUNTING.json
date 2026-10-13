@@ -1,0 +1,15 @@
+{
+  "original_diagnostic_Gaussian_node_visits": {
+    "pair_risk": 89088,
+    "independent_3D": 286720,
+    "variance_identity_2D": 2427648,
+    "identity_marginal_means": 288,
+    "total": 2803744
+  },
+  "original_Legendre_parameter_abscissae": 960,
+  "recovery_repeated_Gaussian_node_visits": 2803744,
+  "recovery_repeated_Legendre_abscissae": 960,
+  "meaning": "Derived from frozen loops; computational visits including repeats, not independent observations or distinct nodes. A tensor grid is shared over its label patterns.",
+  "recovery_new_random_inputs": 0,
+  "primary_start_wall_timestamp_not_recorded": true
+}

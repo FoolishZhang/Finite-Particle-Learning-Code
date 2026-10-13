@@ -1,0 +1,79 @@
+{
+  "d": 16,
+  "c": 0.9,
+  "teacher": [
+    6.0,
+    2.0
+  ],
+  "K": 10,
+  "grid": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0
+  ],
+  "streams": 16,
+  "training_banks": [
+    64,
+    256,
+    1024
+  ],
+  "confirmation_banks": 4096,
+  "batch_banks": 16,
+  "train_seed_base": 20601001,
+  "confirmation_seed_base": 30601001,
+  "old_label_N": 65536,
+  "old_label_r": 0,
+  "anchors": [
+    [
+      6.0,
+      2.0
+    ],
+    [
+      1.0,
+      1.0
+    ],
+    [
+      3.0,
+      1.0
+    ]
+  ],
+  "neighbor_index_offsets": [
+    -1,
+    0,
+    1
+  ],
+  "near_tolerance": 0.005,
+  "tie_tolerance": 1e-12,
+  "mass_gate": 1e-12,
+  "identity_gate": 1e-10,
+  "reference_sensitivity_gate": 1e-07,
+  "contrast_family": 35,
+  "contrast_alpha": 0.025,
+  "bands_family": 1080,
+  "bands_alpha": 0.025,
+  "confirmation_F_SE_gate": 0.005,
+  "risk_SE_gate": 0.001,
+  "band_SE_gate": 0.01,
+  "material": 0.001,
+  "new_teacher_observations": 0,
+  "new_reference_integrations": 0,
+  "new_neural_networks": 0,
+  "continuous_optimality_claim": false,
+  "floor_anchor_is_not_grid_lower_bound": true
+}

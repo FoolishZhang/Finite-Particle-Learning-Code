@@ -1,0 +1,77 @@
+{
+  "d": [
+    16,
+    64
+  ],
+  "c": 0.9,
+  "axis": [
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "truth": [
+    6.0,
+    2.0
+  ],
+  "domain": [
+    -12.0,
+    12.0
+  ],
+  "lookup_nodes": 4097,
+  "private_orders": [
+    1024,
+    2048
+  ],
+  "primary_private_order": 2048,
+  "reference_variants": [
+    [
+      1024,
+      512
+    ],
+    [
+      2048,
+      256
+    ],
+    [
+      2048,
+      512
+    ]
+  ],
+  "primary_variant": 2,
+  "GH_chunk": 128,
+  "h_order_gate": 1e-09,
+  "derivative_order_gate": 1e-08,
+  "identity_gate": 1e-12,
+  "score_order_bound_gate": 1e-06,
+  "exact_node_interpolation_score_bound_gate": 1e-07,
+  "PMF_L1_gate": 1e-08,
+  "log_PMF_gate": 1e-06,
+  "risk_sensitivity_gate": 1e-07,
+  "quad_z": [
+    -12.0,
+    -8.0,
+    -4.0,
+    -1.0,
+    0.0,
+    1.0,
+    4.0,
+    8.0,
+    12.0
+  ],
+  "quad_interval": [
+    -12.0,
+    12.0
+  ],
+  "quad_epsabs": 1e-12,
+  "quad_epsrel": 1e-12,
+  "quad_limit": 400,
+  "quad_log_probability_gate": 1e-09,
+  "quad_derivative_gate": 1e-10,
+  "new_observations": 0,
+  "new_fits": 0,
+  "numerical_qualification_not_interval_certificate": true
+}

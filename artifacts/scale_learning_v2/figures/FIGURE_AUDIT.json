@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "source_row_counts": {
+    "REFERENCE_CURVES": 62,
+    "POPULATION_BANDS": 360,
+    "POPULATION_FITS": 208,
+    "FINITE_FITS": 512,
+    "FINITE_RISK_INTERVALS": 20
+  },
+  "deployment_lookup_max_error": 0.0,
+  "independent_interval_replay_max_error": 1.0842021724855044e-19,
+  "new_samples": 0,
+  "new_fits": 0,
+  "new_reference_integrals": 0,
+  "no_new_statistical_intervals": true,
+  "all_primary_failures_shown": true,
+  "all_precision_failures_shown": true
+}

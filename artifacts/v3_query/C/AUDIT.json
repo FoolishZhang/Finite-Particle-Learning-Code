@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T10:11:50.359742+00:00",
+  "source_sha256": "1f6d4ebeacacbbb66d4d6cd7930074fb5795e6084aa0cd2171354cea255c8b9a",
+  "freeze_sha256": "a97d5a5f1dd733369a179494362d555bd73626f4aa74d8b10c5231e54299395f",
+  "stored_queries_replayed": 6144,
+  "complete_enumeration_checks": 2052,
+  "independently_replayed_stream_metrics": 576,
+  "simultaneous_t_readouts": 36,
+  "maximum_probability_error": 1.6542323066914832e-14,
+  "maximum_log_evidence_error": 2.4868995751603507e-14,
+  "maximum_IS_logweight_error": 5.3290705182007514e-14,
+  "maximum_readout_error": 1.9895196601282805e-13,
+  "no_RNG_replay": true,
+  "new_scientific_draws": 0,
+  "new_fits": 0,
+  "scope": "alternate scaled forward target-state DP; full/proposal path-ratio weights; scalar weighted readouts; statistics",
+  "timing_not_reproduced": true
+}

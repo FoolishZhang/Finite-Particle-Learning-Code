@@ -1,0 +1,23 @@
+{
+  "d": 128,
+  "c": 0.9,
+  "b": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "K": 100,
+  "dtype": "float64",
+  "decimal_precision": 70,
+  "matrix_atol": 1e-12,
+  "decimal_inequality_atol": "1e-60",
+  "inherited_teacher": "homogeneous NEG, sigma4",
+  "random_observations": 0,
+  "fits": 0,
+  "confidence": "one existing M2 lower bound, inherited original 24-event CP family; no new interval",
+  "candidate_scope": "all components share the same fixed nonoverlapping equal-block partition"
+}

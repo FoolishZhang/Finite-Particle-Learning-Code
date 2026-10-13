@@ -1,0 +1,19 @@
+# A ranking reversal in the official joint-score API and a scale boundary
+
+We directly invoke the unchanged official SCBM `SCBLoss.compute_concept_loss` under Torch2.5.1 CPU, using its native float32 probability path. A four-concept Gaussian-logistic fixture has nonzero means and mixed positive/negative correlations. This tests the actual scoring method on model-compatible tensors, without running an encoder, complete training loss, or optimizer.
+
+The fixed candidates have covariance Σ(t)=I+(1+t)(Σ*−I), with truth t=0. The high candidate t=.75 multiplies all six latent correlations by 1.75 while preserving means and marginal variances; its numerical-reference observation KL is .001724195 nats. This risk and the exact parameter comparison are unchanged by independent fair nuisance channels. The value .75 is a radial increment, not an individual correlation.
+
+Across sixteen independent streams and 65,536 complete observations at the default K=100, the high-minus-truth mean API score changes from +.00142404 at n=0 to −.00378112 at n=256. The original four-comparison development t intervals are respectively [.00082559,.00202250] and [−.00645150,−.00111075]. The paired correlation-direction gradient shift at truth is −.00417546. All four registered effects and precision checks passed; reverse outcomes in streams 6 and 7 are retained. These are development approximations, not exact finite-sample coverage claims.
+
+Correct factorization calls the same active API and handles nlog2 as a parameter-independent constant, preserving the original active contrasts and gradients for each realization. It restores extension invariance, while active finite-K bias can remain. The auxiliary K=400 comparison uses only the paired first 1024 observations per stream; its negative point estimate has substantial uncertainty and does not establish whether a larger K restores the ranking.
+
+Risk evaluates the integrated observation model Q, whereas the API optimizes the average log score of a random K-particle predictor. The result separates the preferences of these two contracts; it does not identify an improper log score or a software bug.
+
+All 288 score and 96 gradient comparisons against an independent stable-logit float64 expression passed their numerical qualifications. No primary sigmoid probability saturated at 0 or 1; the maximum absolute logit was about 6.17. Stable64 is not another official dtype path, and the prefix checks do not certify all floating-point errors.
+
+An additional real-arithmetic result identifies a feasible escape direction: with independent zero-mean nuisance channels, the population concept score is strictly increasing in every positive nuisance scale for any finite K. Its excess over factorization lies in [0,Στ_i²/8]. The measured shared-scale derivative divided by n is +.125835 at τ=1. This is a direction and a conditional mathematical bound, not evidence that an optimizer learned a repair or that the code-floor implementation attains the ideal precision bound.
+
+The nonzero-mean Price term involves the sum of centered observation covariances. At truth, it is Cov(S_i,S_j)/2=2Cov(Y_i,Y_j), where S=2Y−1. With paired candidates and independent per-observation priors, the ideal finite-panel raw ERM selects the high endpoint when 2≤K≤Cn^p and N/n→∞; additionally allowing K_n→∞ makes the corresponding factorized ERM select truth. These real-arithmetic results require the stated numerical/optimization error contracts and do not establish native float32 or SGD asymptotics.
+
+The experiment connects the mechanism to an actual scoring implementation while exposing the importance of trainable nuisance scales. It is neither an official-checkpoint reproduction nor a result about complete SCBM training or natural-data performance. The v5.1 manuscripts and earlier scientific packages remain unchanged.

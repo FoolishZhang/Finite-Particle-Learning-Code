@@ -1,0 +1,35 @@
+{
+  "roles": [
+    "I",
+    "O"
+  ],
+  "K": [
+    4,
+    100
+  ],
+  "samplers": [
+    "iid",
+    "antithetic"
+  ],
+  "initial_sd": 1.0,
+  "reps": 6,
+  "streams": 4,
+  "nodes": 1024,
+  "half_nodes": 512,
+  "sobol_seed": 20269501,
+  "cdf_grid": 2049,
+  "cdf_check_grid": 4097,
+  "cdf_target_NLL_max_difference": 0.0001,
+  "cdf_partner_extreme_cases": 32,
+  "MC_SE_gate": 0.0005,
+  "node_sensitivity_gate": 0.0005,
+  "probability_floor": 1e-12,
+  "contrasts": 8,
+  "bootstrap": 10000,
+  "bootstrap_seed": 20269502,
+  "material_nats": 0.005,
+  "primary": "four-scramble pooled probability, then log; 4096 total nodes",
+  "sensitivity": "pool first 512 nodes of each scramble; 2048 total nodes",
+  "target_floor_gate": "no true-target floor in pool, half-pool, streams, or CDF checks",
+  "numerical_scope": "preset robustness gates; not a rigorous finite-MC bias bound"
+}

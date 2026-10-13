@@ -1,0 +1,8 @@
+{
+  "exact_Walsh_orthogonality": true,
+  "exact_second_moment_identity": true,
+  "exact_inversion_event_mass": true,
+  "positive_and_negative_Taylor_fixtures": 4,
+  "zero_radius_limit": true,
+  "scientific_draws": 0
+}

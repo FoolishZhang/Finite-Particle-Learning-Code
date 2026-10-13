@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source_sha256": "ddf42a630fd24502fef7bf394c9bbb31adade9a1ee81905bb18f83b0e4065b92",
+  "audit_sha256": "901767765070b164ec04ebe5eb2e1678a062c5004b138f175b1c282d46fe3239",
+  "legacy_score_source_sha256": "300b4132c4864aa5e1dd7f5d0d453f6b8944bc6594f3d5b1fa796ea887f55872",
+  "direct_prefix_errors": [
+    8.881784197001252e-16,
+    8.881784197001252e-16,
+    8.881784197001252e-16
+  ],
+  "legacy_prefix_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "constant_particle_error": 4.440892098500626e-16,
+  "first_moment_error": 5.551115123125783e-17,
+  "second_moment_error": 6.938893903907228e-18,
+  "second_moments_not_normalized": true,
+  "seconds": 0.23073790001217276,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1"
+  },
+  "scope": "Deterministic manufactured arrays, no saved scientific endpoints or scientific RNG"
+}

@@ -1,0 +1,50 @@
+{
+  "daudel2026.pdf": {
+    "url": "https://arxiv.org/pdf/2410.12035v2",
+    "local_cache": ".cache\\finite_selection_literature\\daudel2026.pdf",
+    "sha256": "ca0b7e244b157bb10c1e0280c70fe4ccd9bddad3ac3a87c2d916b0063be16dfc",
+    "bytes": 2266809,
+    "pages": 80
+  },
+  "daudel2026.html": {
+    "url": "https://arxiv.org/html/2410.12035v2",
+    "local_cache": ".cache\\finite_selection_literature\\daudel2026.html",
+    "sha256": "76e9b839c6f92db30430eea2288a09b0f234bd0b7095bdc7f365cb7069f4e863",
+    "bytes": 2519716
+  },
+  "daudel2023.pdf": {
+    "url": "https://jmlr.org/papers/volume24/22-1160/22-1160.pdf",
+    "local_cache": ".cache\\finite_selection_literature\\daudel2023.pdf",
+    "sha256": "96a32ad5ce4889a19e16d9438443de191b68e636bb0c74ba1d65514b8a16a893",
+    "bytes": 5051960,
+    "pages": 83
+  },
+  "bickel2008.pdf": {
+    "url": "https://arxiv.org/pdf/0805.3287",
+    "local_cache": ".cache\\finite_selection_literature\\bickel2008.pdf",
+    "sha256": "25866a7914281dbfe0c3b00b8648c78dac1a9a466228c7d7f8a0c499380a0d62",
+    "bytes": 204639,
+    "pages": 12
+  },
+  "bengtsson2008.pdf": {
+    "url": "https://arxiv.org/pdf/0805.3034",
+    "local_cache": ".cache\\finite_selection_literature\\bengtsson2008.pdf",
+    "sha256": "5b35052e53bf3e1bc69f3959ab3e78cf80a2ca3fd9fef3f838da99bbbfbd1a7a",
+    "bytes": 353506,
+    "pages": 19
+  },
+  "snyder2008.pdf": {
+    "url": "https://www.stat.berkeley.edu/~bickel/Snyder%20et%20al%202008.pdf",
+    "local_cache": ".cache\\finite_selection_literature\\snyder2008.pdf",
+    "sha256": "87c72e6e24b0cc77819d5bf4d01afd96842723514887b76a692936a70374ec45",
+    "bytes": 561648,
+    "pages": 12
+  },
+  "maurer2009.pdf": {
+    "url": "https://arxiv.org/pdf/0907.3740",
+    "local_cache": ".cache\\finite_selection_literature\\maurer2009.pdf",
+    "sha256": "2edbfd8e9a97e60dacd6cf9286fc951bd3f710e27e07e0b03ca92822b4d03e41",
+    "bytes": 187186,
+    "pages": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "public_only": false,
+  "reference_qualified": true,
+  "streams": 64,
+  "readout_models": 256,
+  "full_banks_checked": 262144,
+  "primary_cells_checked": 24,
+  "max_score_stat_error": 1.7763568394002505e-15,
+  "max_reference_loss_error": 8.881784197001252e-16,
+  "source_sha256": "f583598ede157d9a0982a5282456ac2bacdb54aaee70dcc6c3b082de343f6ee5",
+  "result_sha256": "cb96a2557de41f8f8a90b5237a9dda09ca3fbd3f6892d407c1691fae2f76a267"
+}

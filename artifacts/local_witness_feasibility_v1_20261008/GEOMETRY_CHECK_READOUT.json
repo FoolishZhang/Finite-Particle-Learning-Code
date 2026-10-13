@@ -1,0 +1,74 @@
+{
+  "schema": "local_witness_geometry_readout_v1",
+  "kind": "author_analytic_derivation_and_scalar_arithmetic",
+  "geometry_path": "docs/08_research_研究工作/LocalWitnessFeasibility_v1_20261008/GEOMETRY.md",
+  "geometry_sha256": "383da88702fc2593390241a3adf20970d2063c93ebf41af458e76b9a58c6639c",
+  "feedback_use": "reference_with_author_judgment",
+  "constants": {
+    "m": 8,
+    "d": 2,
+    "K": 8,
+    "logsumexp_third_coefficient": 185.51197667087547,
+    "moment_polynomial": 321,
+    "moment_bound": 75.83658609379263,
+    "Hessian_Lipschitz_formula_float": 14068.594990230498,
+    "Hessian_Lipschitz_safe_integer": 14069,
+    "safe_integer_rational_proof": {
+      "sqrt8_upper_numerator": 707107,
+      "sqrt8_upper_denominator": 250000,
+      "moment_upper_numerator": 75836587,
+      "moment_upper_denominator": 1000000,
+      "product_upper_numerator": 7034299752993979,
+      "product_upper_denominator": 500000000000,
+      "exact_fraction_inequalities_passed": true
+    }
+  },
+  "pure_conditional_example": {
+    "actual_center_not_certified": true,
+    "hypothesized_radial_minimum": 0.05,
+    "hypothesized_transverse_minimum": 0.014,
+    "hypothesized_Hessian_operator_error": 0.001,
+    "hypothesized_total_gradient_L2_bound": 1e-08,
+    "physical_radius": 5e-07,
+    "Lr": 0.0070345,
+    "radial_lower_bound": 0.0419655,
+    "transverse_lower_bound": 0.005965500000000001,
+    "outward_gradient_capacity": 2.098275e-08
+  },
+  "analytic_checks": {
+    "whole_bias_sign_evenness": true,
+    "individual_bias_sign_evenness_not_claimed": true,
+    "zero_bias_gradient_and_bias_loading_mixed_block": true,
+    "reversal_fixed_subspace_stationarity_lift": true,
+    "isometric_S_over_sqrt2_scales_explicit": true,
+    "antisymmetric_radial_directions_retained": 4,
+    "full_nonrotation_dimensions": 23,
+    "fixed_slice_transversality_proved": true,
+    "restricted_root_existence_requires_eps_lt_mr_r": true,
+    "full_16_plus_7_stability_required": true,
+    "third_covariance_coefficient_verified": true,
+    "PSD_difference_max_bound_verified": true,
+    "Jensen_qmin_bound_verified": true,
+    "negative_risk_derivative_implies_positive_KL": true
+  },
+  "executed_validation": {
+    "method": "manual_symbolic_derivation_plus_standard_library_scalar_arithmetic",
+    "scientific_NPZ_reads": 0,
+    "real_kernel_calls": 0,
+    "new_integrals": 0,
+    "new_optimizer_updates": 0,
+    "new_random_draws": 0,
+    "strict_stationary_existence_certified": false,
+    "external_scientific_review": false,
+    "exact_fraction_inequalities": 3
+  },
+  "unresolved": [
+    "certified exact-center gradient",
+    "certified exact-center full16 and fixed-transverse operator Hessian errors",
+    "teacher PMF error and improper-integral tails",
+    "finite-domain quadrature and arithmetic enclosure",
+    "fixed orthogonal basis errors",
+    "risk-direction enclosure and path feasibility"
+  ],
+  "unresolved_scope": "Unclosed at the geometry derivation phase; followup tail bounds and saved-matrix checks are recorded separately and do not alone close exact integration error."
+}

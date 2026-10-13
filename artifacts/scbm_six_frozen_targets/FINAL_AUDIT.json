@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "Frozen old data/output panel; development t intervals; numerical quadrature qualification; original failures preserved. Delivery pass is not a pass of all scientific effect/precision targets.",
+  "freeze_sha256": "08c384cb9336af21a910d9018cf3af817af503943fa8ce5a16c26efebf2e91fe",
+  "paper_v7_manifest_sha256": "801306f7797b3cb4231cf81b5575b2b6c70db3a5e5f4b87d5cd939eb58e2621d",
+  "new_prior_banks": 32768,
+  "new_prior_vectors": 3276800,
+  "new_prior_gaussians": 851968000,
+  "new_observations": 0,
+  "new_training": 0,
+  "candidates": 35,
+  "primary_effects_passed": 10,
+  "primary_precision_passed": 5,
+  "primary_combined_passed": 5,
+  "qualification": {
+    "PMF": true,
+    "V": true,
+    "all": true
+  },
+  "native_numerical_passed": true,
+  "independent_audit_sha256": "1c2d164b9437b7d6fa60f5cc4bd617850781bf86414e6987f77e30413d533fe7",
+  "arrays_recorded": 48,
+  "default_reads_arrays": false,
+  "default_binds_current_navigation": false,
+  "source_sha256": "2e920be9749ffca64ae7cb38509e17a5ff7b583f9e72b70442a747d11597ac43"
+}

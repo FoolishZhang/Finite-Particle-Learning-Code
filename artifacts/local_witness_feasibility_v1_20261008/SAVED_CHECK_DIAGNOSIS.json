@@ -1,0 +1,104 @@
+{
+  "schema": "local_witness_saved_check_diagnosis_v1",
+  "created_utc": "2026-10-08T07:32:18.902384+00:00",
+  "original_failure": {
+    "type": "ValueError",
+    "message": "saved label aggregation drift: Hperp",
+    "traceback": "Traceback (most recent call last):\n  File \"[author-local path omitted]\", line 123, in diagnose\n    frozen.check()\n  File \"[author-local path omitted]\", line 338, in check\n    if not np.array_equal(result[aggregate],rebuilt_aggregate):raise ValueError(\"saved label aggregation drift: \"+aggregate)\n                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: saved label aggregation drift: Hperp\n",
+    "frozen_checker_modified": false,
+    "failure_preserved": true
+  },
+  "source_sha256": {
+    "script/local_witness_feasibility_saved_check.py": "a1ec216a4c08080f181f008c81a26d2cd2396a7a6525a48c53a6c25a8990e676",
+    "script/local_witness_feasibility_saved_check_test.py": "43709834bb5fc33dc134406ed1ba91ce26b85f32e93001c24995592018a70d4a"
+  },
+  "evidence_sha256": {
+    "artifacts/local_witness_feasibility_v1_20261008/INPUTS.json": "66c7ecff42c016905930e20f8a558bc1bf0dde2c224c5d3dfc4f6452921e8910",
+    "artifacts/local_witness_feasibility_v1_20261008/FREEZE.json": "57c0a38db8dfb01d151249374a342b8c38ee185326aa20d0b14334ebd419ab88",
+    "artifacts/local_witness_feasibility_v1_20261008/NOMINAL_SUMMARY.json": "0f4861f1539455e6c706ad3ebfaa19bf970dbe6e8db650cf78696a2a7adfb305",
+    "script/local_witness_feasibility_compute.py": "af38f27744d93452e2a9d9fc1b252b0003f98cff051572650333f62cf6b66ec3",
+    "script/rankone_stationary_kernel.py": "e47012dc7eb20bc44f49afdd3bbaddd91df4b093382759d99804d4f185d9b56b",
+    "artifacts/local_witness_feasibility_v1_20261008/C1.npz": "03503d9116501b0471f130620a2d0f7b021a5d55a08e4ce7b798d374d501b8fb",
+    "artifacts/local_witness_feasibility_v1_20261008/D1.npz": "9c38e2579b7063d7dc7b88e4cf363d6efcf549d6c0d6fe76c5f7f8244e644c26"
+  },
+  "rules": {
+    "C1": {
+      "loss": {
+        "direct_label_aggregation_Linf": 0.0,
+        "direct_label_aggregation_unequal_entries": 0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "gradient": {
+        "direct_label_aggregation_Linf": 0.0,
+        "direct_label_aggregation_unequal_entries": 0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "H_ba": {
+        "direct_label_aggregation_Linf": 0.0,
+        "direct_label_aggregation_unequal_entries": 0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "Hperp": {
+        "direct_label_aggregation_Linf": 9.71445146547012e-17,
+        "direct_label_aggregation_unequal_entries": 16,
+        "kernel_operation_order_Linf": 0.0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "Hangle": {
+        "direct_label_aggregation_Linf": 1.734723475976807e-17,
+        "direct_label_aggregation_unequal_entries": 113,
+        "kernel_operation_order_Linf": 0.0,
+        "kernel_operation_order_bitwise_equal": true
+      }
+    },
+    "D1": {
+      "loss": {
+        "direct_label_aggregation_Linf": 0.0,
+        "direct_label_aggregation_unequal_entries": 0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "gradient": {
+        "direct_label_aggregation_Linf": 0.0,
+        "direct_label_aggregation_unequal_entries": 0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "H_ba": {
+        "direct_label_aggregation_Linf": 0.0,
+        "direct_label_aggregation_unequal_entries": 0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "Hperp": {
+        "direct_label_aggregation_Linf": 6.938893903907228e-17,
+        "direct_label_aggregation_unequal_entries": 16,
+        "kernel_operation_order_Linf": 0.0,
+        "kernel_operation_order_bitwise_equal": true
+      },
+      "Hangle": {
+        "direct_label_aggregation_Linf": 3.469446951953614e-17,
+        "direct_label_aggregation_unequal_entries": 108,
+        "kernel_operation_order_Linf": 0.0,
+        "kernel_operation_order_bitwise_equal": true
+      }
+    }
+  },
+  "source_locations": {
+    "frozen_failure": "script/local_witness_feasibility_compute.py:336-338",
+    "kernel_target_aggregation": "script/rankone_stationary_kernel.py:303-305",
+    "kernel_Hperp_assembly": "script/rankone_stationary_kernel.py:310-312",
+    "kernel_Hangle_assembly": "script/rankone_stationary_kernel.py:313-316",
+    "alternate_per_label_assembly": "script/rankone_stationary_kernel.py:320-325"
+  },
+  "Hangle_same_class_issue_found_before_it_was_reached_by_frozen_checker": true,
+  "diagnosis": "frozen checker combines already assembled per-label Hperp/Hangle; kernel combines label_M/sigma first then assembles matrices; float64 operations are not distributive bitwise",
+  "resolution": "supplemental checker reconstructs original kernel arithmetic exactly; no tolerance relaxation, science-source or raw change",
+  "saved_kernel_order_matrices_bitwise_equal": true,
+  "scientific_artifacts_modified": false,
+  "frozen_scientific_sources_and_raw_artifact_hashes_unchanged": true,
+  "independent_integration_performed": false,
+  "new_kernel_calls": 0,
+  "new_integrals": 0,
+  "new_random_draws": 0,
+  "new_saved_array_reads_for_diagnosis": 3,
+  "old_scientific_array_reads": 0,
+  "strict_stationary_existence_certified": false
+}

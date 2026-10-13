@@ -1,0 +1,36 @@
+{
+  "all_qualified": true,
+  "rows": [
+    {
+      "d": 16,
+      "kernel_points": 6305,
+      "quad_locations": 45,
+      "reference_points": 81,
+      "reference_variant_PMFS": 243,
+      "finite_difference_parameters": 18,
+      "anchors": 2,
+      "qualified": true
+    },
+    {
+      "d": 64,
+      "kernel_points": 6305,
+      "quad_locations": 45,
+      "reference_points": 81,
+      "reference_variant_PMFS": 243,
+      "finite_difference_parameters": 18,
+      "anchors": 2,
+      "qualified": true
+    }
+  ],
+  "reference_grid_PMFS": 486,
+  "finite_difference_primary_PMFS": 162,
+  "old_anchor_PMFS": 4,
+  "kernel_pairs_per_order": 12610,
+  "adaptive_quad_scalar_calls": 270,
+  "new_labels": 0,
+  "new_RNG_calls": 0,
+  "new_fits": 0,
+  "elapsed_seconds": 8.579020699951798,
+  "qualification_is_finite_not_uniform_certificate": true,
+  "runtime_endpoint_three_variant_checks_required": true
+}

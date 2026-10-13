@@ -1,0 +1,37 @@
+{
+  "schema": "r02_remainder_inputs_v1",
+  "baseline": "31399da0ae8aa38333c0d6dd97ec03ac58937556",
+  "handoff_updated_this_round": false,
+  "feedback_reviewed_commit": "513f15a8c6fc3d2f74db4c770a2f377dd290c922",
+  "parameters": {
+    "step": "1/16",
+    "N": 192,
+    "u_start": "1/4",
+    "u_step": "1/64",
+    "u_count": 273,
+    "strip": "1",
+    "bits": 192,
+    "hard_seconds": 600
+  },
+  "weight_parameters": {
+    "step": "1/128",
+    "N": 1536,
+    "bits": 192,
+    "hard_seconds": 120
+  },
+  "audit_hard_seconds": 120,
+  "audit_CF_gate_exact": "1e-10",
+  "audit_mu4_gate_exact": "1e-9",
+  "n_values": [
+    64,
+    256,
+    1024,
+    4096
+  ],
+  "K": 100,
+  "rho_exact": "9/20",
+  "model_and_coordinate": "m3 independent centered teacher, free c12 at equicorrelation .45",
+  "direct_D_n_scoring": false,
+  "old_active_integrals_reused": true,
+  "sign_not_a_qualification_gate": true
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "passed": true,
+  "checks": {
+    "K2_scores": {
+      "maxabs": 1.2739809207573671e-14,
+      "maximum_weight_sum_error": 2.220446049250313e-16,
+      "minimum_gamma": 0.001671444125128688,
+      "maximum_gamma_sum": 0.49955659024179894,
+      "D_identity_maxabs": 1.3877787807814457e-17
+    },
+    "K2_autograd_Price": {
+      "labels": 8,
+      "maxabs": 5.898059818321144e-17
+    },
+    "K5_scores": {
+      "maxabs": 1.2156942119645464e-14,
+      "maximum_weight_sum_error": 3.3306690738754696e-16,
+      "minimum_gamma": 9.757786967918971e-14,
+      "maximum_gamma_sum": 0.7591200254025582,
+      "D_identity_maxabs": 2.0816681711721685e-17
+    },
+    "K5_autograd_Price": {
+      "labels": 8,
+      "maxabs": 8.326672684688674e-17
+    },
+    "K100_scores": {
+      "maxabs": 4.3021142204224816e-15,
+      "maximum_weight_sum_error": 4.440892098500626e-16,
+      "minimum_gamma": 3.921943752281124e-20,
+      "maximum_gamma_sum": 0.9379134831046237,
+      "D_identity_maxabs": 2.0816681711721685e-17
+    },
+    "K100_autograd_Price": {
+      "labels": 1,
+      "maxabs": 8.326672684688674e-17
+    },
+    "dominant_complement": 4.248354255291589e-18,
+    "residual_vertex_extrema": {
+      "pair": [
+        -1.0,
+        1.0
+      ],
+      "sum3": [
+        -1.0,
+        3.0
+      ]
+    },
+    "finite_K_label_averaged_support": {
+      "average_vertex_extrema": [
+        -0.75,
+        1.5,
+        -0.5,
+        0.5
+      ],
+      "gamma_upper": 0.99,
+      "centered_bounds": [
+        -0.51183,
+        0.486585
+      ],
+      "direct_M": 16.410533615595888
+    },
+    "clip_only_direct_gap": true,
+    "statistics": {
+      "EB": true,
+      "affine": true,
+      "paired_variance": 0.5805111018903729,
+      "covariance_maxabs": 2.220446049250313e-16
+    },
+    "full_statistics_schema": {
+      "passed": true,
+      "raw_target_count": 20,
+      "paired_target_count": 6,
+      "family_target_count": 26,
+      "covariance20_checked": true,
+      "covariance26_checked": true,
+      "residual_covariance_matrices_checked": 4,
+      "derived_event_count": 24,
+      "EB_logarithm": "log(4/delta)",
+      "independent_bank_unit_preserved": true,
+      "coefficient_target": "frozen numeric reference, no exact coefficient enclosure"
+    },
+    "damaged_paired_variance_rejected": true,
+    "damaged_covariance_rejected": true,
+    "predetermined_replay_indices": [
+      0,
+      136,
+      272,
+      409,
+      545,
+      682,
+      818,
+      955,
+      1091,
+      1228,
+      1364,
+      1501,
+      1637,
+      1774,
+      1910,
+      2047
+    ]
+  },
+  "scientific_npz_read": 0,
+  "scientific_rng_calls": 0,
+  "new_independent_banks": 0,
+  "manufactured_inputs": "fixed sin/cos/vertices; no random fixture",
+  "new_reference_integrals": 0,
+  "scope": "native arithmetic implementation checks, not interval arithmetic or external scientific review",
+  "sources": {
+    "asymptotic_bridge_audit.py": "ab798b70b62b92a0c1e877e011d82f1b829645608a5b9f06c5afee9978e92978",
+    "asymptotic_bridge_audit_test.py": "60899c4dcf1cd6c4d99083fd9eca9b5a7dcbae027612bd7b672f0295ea336f89",
+    "asymptotic_bridge_core.py": "1d2ec77c87e7174f766894e599cc553c045dd2c31cdefd7c033994beaced80e6",
+    "asymptotic_bridge_statistics.py": "f1ec925a05fa0a48f1201b2f26d11cf3d59df32ceb7ba089a5b9cf4bafe63e7e"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "wstructure-independent-audit-v1",
+  "created_utc": "2026-10-02T15:20:47.220232+00:00",
+  "inputs": {
+    "script/wstructure_audit.py": "b84ce8742619db0c14104a0e7090830e7e740312a23c61d925fa07c63214f2a4",
+    "script/bankvar_audit_train.py": "5e84c06ed1ef0f6f8509923b4bbbd9824d30f625b6f81b84aef0f35b3b1bc4c3",
+    "docs/08_research_研究工作/无关权重结构与方差匹配_20261002/AUDIT_PLAN.md": "2dad0c0077a2d602bc6574fd037cd936aa262a0d60fdcbd9243ae3f3b439589d",
+    "docs/08_research_研究工作/无关权重结构与方差匹配_20261002/REFERENCE_PLAN.md": "671a479fab45db3f95edbe75b0ce5fbb565b02a76f1ccab12eaaccc641500877",
+    "docs/08_research_研究工作/无关权重结构与方差匹配_20261002/MC_DESIGN.md": "2b1bde1c6d944a9ac521e8028f7a5889e47c70780f3fc40b6c511b12f3e3d672",
+    "docs/08_research_研究工作/无关权重结构与方差匹配_20261002/TRAIN_DESIGN.md": "4e79bcbebcd12408cb9121a75a01a07a998013a673b09137023d64ad3cfcafac",
+    "script/wstructure_reference.py": "a9fe7b5883cb05073f6d436225a561dbcc292b917ed7d9f0ca25fa378278b366",
+    "script/wstructure_score.py": "bad526581d5e92e893b443cf21b6557a8c991a05d6f31050604b36131ca24ae8",
+    "script/wstructure_train.py": "bf80c9ece5765ae1e05b1a709ece548e5e98dca5ad2a4717635b9a319a9e1d8d",
+    "script/fincal_train.py": "e3f69503ef9e0d944004197c88211dc579b9df3684045ceee35c27f336f3dfdd",
+    "script/bankvar_train.py": "8e6e585a7b0bcf6ca9cc7b414d1768f50a701b98a9ef7af0b1eceb6feee0223b",
+    "script/curvcal_train.py": "025c8cc0c865324d4eb973553135b19ae4de6cc8694569b6bbab737dad2761bc",
+    "artifacts/nuisance_structure/REFERENCE/FREEZE.json": "afc718e7a2925d332e815621ddb88566a9045de55fe93b0b5722b4bc74aac53b",
+    "artifacts/nuisance_structure/REFERENCE/MODEL.json": "4a87d9ef1cce50b9cbb88beea127e8af983174ff4d1d50b3685daed44d99ad44",
+    "artifacts/nuisance_structure/MC/FREEZE.json": "3c1f4dc6dd40642845e8d3a51259b5e5850235947cc8e42fe930ff690f22370b",
+    "artifacts/finite_calibration/CAL/REFERENCE.json": "3ab4124d02ad49d225effe3abd325a3d6254f7bef48a9606f498740b9075f481"
+  },
+  "check": {
+    "passed": true,
+    "old_independent_helpers": {
+      "DCT_polynomial_and_cosine_max_abs": 4.440892098500626e-16,
+      "spline_integral_and_curvature": true,
+      "raw_scalar_full_logsumexp_max_abs": 8.881784197001252e-16,
+      "raw_marg_gradient_finite_difference_max_abs": 2.3340357424572744e-11,
+      "new_random_draws": 0,
+      "production_code_imported": false
+    },
+    "scaled_full_row_error": 8.881784197001252e-16,
+    "independent_MC_zero_bank_passed": true,
+    "scientific_RNG": 0,
+    "model_integrals": 0
+  },
+  "raw_MC_banks_per_stream": 4,
+  "raw_TRAIN_banks_per_stream": 2,
+  "raw_TRAIN_points": [
+    -0.75,
+    -0.6,
+    -0.3,
+    -0.03,
+    0.0,
+    0.03,
+    0.3,
+    0.6,
+    0.75
+  ],
+  "reference_digits": 50,
+  "new_reference_component_integrals": 14,
+  "no_new_independent_RNG": true,
+  "automatic_retry": false
+}

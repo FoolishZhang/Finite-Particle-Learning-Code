@@ -1,0 +1,51 @@
+{
+  "dimensions": [
+    8,
+    32,
+    64
+  ],
+  "evidence_fractions": [
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "layouts": [
+    "prefix",
+    "mixed"
+  ],
+  "streams": 16,
+  "queries_per_stream": 32,
+  "particles": [
+    16,
+    64,
+    256
+  ],
+  "seed_base": 3026093000,
+  "seed_cell_stride": 100000,
+  "seed_stream_stride": 1000,
+  "seed_query_stride": 10,
+  "seed_offsets": {
+    "mask": 0,
+    "teacher": 1,
+    "IS": 2
+  },
+  "alpha": 0.05,
+  "interval_family": 36,
+  "probability_gate": 2e-11,
+  "log_evidence_gate": 2e-10,
+  "arithmetic_gate": 2e-10,
+  "model": "theta_i(k)=0.8 sin(0.7(i+1))+0.9 tanh((2k-i)/sqrt(i+1))+1.25 (-1)^k",
+  "zero_based_i": true,
+  "no_probability_floor": true,
+  "fitted_models": 0,
+  "teacher_iid_draws": 6144,
+  "independent_IS_banks": 6144,
+  "unique_particle_trajectories": 1572864,
+  "executed_prefix_trajectories": 2064384,
+  "main_metric": "scalar conditional excess Brier = (p_IS-p_exact)^2"
+}

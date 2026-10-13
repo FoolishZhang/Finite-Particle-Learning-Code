@@ -1,0 +1,24 @@
+{
+  "schema": "r03_manufactured_implementation_checks_v1",
+  "checks": {
+    "affine_root_one_newton_step": true,
+    "line_search_uses_gradient_only": true,
+    "nine_trials_then_failure": true,
+    "householder_basis": true,
+    "stop_before_any_kernel": true,
+    "seven_points_retained_on_stop": true,
+    "partial_is_strict_json": true,
+    "complete_fake_panel": true,
+    "separate_same_side_seeds": true,
+    "exact_successful_call_ledger": true,
+    "teacher_all_three_grids_counted": true,
+    "raw_q_saved_unchanged": true,
+    "qualification_failure_stops_both_baseline_branches": true,
+    "complete_is_strict_json": true
+  },
+  "all_passed": true,
+  "real_teacher_calls": 0,
+  "real_target_calls": 0,
+  "implementation_sha256": "58af4007239e283f4ad3286588cebb55475bb42295e210acf6dd889f4ba866ca",
+  "method_sha256": "94d7afc0a77cee31281b8ee4ec2f425ee316e797e10b40e5e8a3652ab6b3c3ab"
+}

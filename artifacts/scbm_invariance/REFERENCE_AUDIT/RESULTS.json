@@ -1,0 +1,1426 @@
+{
+  "passed": true,
+  "completed_utc": "2026-10-03T00:58:41.141450+00:00",
+  "source_sha256": "d5a7ff1f65a0ab26bee4bb0af7bd092a95b3d4042115afd2a6690aa3de1505ae",
+  "freeze_sha256": "669f0173c64cd1e7a24265f6dfc25cdba04559e8a777179bcd367ecffefb9cd3",
+  "plan_sha256": "c4a3d865a5c239459add838c207c123a39b9ca3b3db171c4375bb1cd83e8ceec",
+  "bindings": {
+    "production_source": {
+      "path": "script/scbminv_reference.py",
+      "sha256": "79c911d1601ae9740b0e045a5d879394cfd4a82aaa9e48f72070fc46b5098a41"
+    },
+    "production_freeze": {
+      "path": "artifacts/scbm_invariance/REFERENCE/FREEZE.json",
+      "sha256": "fc0d0ace7a7efb14ce21e7950b3b6ba3b0a45d5f0f8cfc026aad710ca56faad1"
+    },
+    "production_model": {
+      "path": "artifacts/scbm_invariance/REFERENCE/MODEL.json",
+      "sha256": "2b5d12858dd6d581f36ded2327fd2ce26f0bc69eed314360783479403b9c9975"
+    },
+    "production_reference_plan": {
+      "path": "docs/08_research_研究工作/真实联合评分接口与无关扩展_20261003/REFERENCE_PLAN.md",
+      "sha256": "506b7d6f4ddc2659260c4fa777d802c56d06bcd7c985ecb8dcf262021af5e514"
+    },
+    "observable_readout": {
+      "path": "artifacts/scbm_invariance/OBSERVABLE_READOUT.json",
+      "sha256": "33dbd1b796e9cf78c614036ec12b296eb416dbccd0f181009ed170f9a83b8837"
+    }
+  },
+  "config": {
+    "mean": [
+      -0.6,
+      -0.2,
+      0.2,
+      0.6
+    ],
+    "covariance": [
+      [
+        1.0,
+        0.25,
+        -0.15,
+        0.1
+      ],
+      [
+        0.25,
+        1.0,
+        0.1,
+        -0.15
+      ],
+      [
+        -0.15,
+        0.1,
+        1.0,
+        0.25
+      ],
+      [
+        0.1,
+        -0.15,
+        0.25,
+        1.0
+      ]
+    ],
+    "candidates": [
+      -0.75,
+      0.0,
+      0.75
+    ],
+    "order": 36,
+    "chunk": 16384,
+    "root": "symmetric_principal_square_root",
+    "nodes": "numpy.polynomial.hermite_e.hermegauss",
+    "maximum_PMF_difference": 5e-08,
+    "normalization_tolerance": 2e-12,
+    "root_residual_tolerance": 2e-12,
+    "conditional_arithmetic_tolerance": 1e-13,
+    "PMF_integrations": 3,
+    "scalar_pattern_integrals": 48,
+    "Gaussian_nodes": 5038848,
+    "conditional_pattern_evaluations": 80621568,
+    "conditional_probabilities": 72,
+    "new_random_draws": 0,
+    "new_fits": 0
+  },
+  "runtime": {
+    "python": "3.11.15",
+    "numpy": "2.3.5"
+  },
+  "patterns": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "records": [
+    {
+      "t": -0.75,
+      "order": 36,
+      "root": "symmetric_principal_square_root",
+      "pmf": [
+        0.05943144116810811,
+        0.09594771073979307,
+        0.06838255938925172,
+        0.11527775673866435,
+        0.049890245989151066,
+        0.07846409180382721,
+        0.05842583557728356,
+        0.09594771073979326,
+        0.03554863627088743,
+        0.058425835577283695,
+        0.039844669612292154,
+        0.06838255938925174,
+        0.031160623576260645,
+        0.04989024598915096,
+        0.03554863627088745,
+        0.05943144116810809
+      ],
+      "Gaussian_nodes": 1679616,
+      "covariance": [
+        [
+          1.0,
+          0.0625,
+          -0.0375,
+          0.025
+        ],
+        [
+          0.0625,
+          1.0,
+          0.025,
+          -0.0375
+        ],
+        [
+          -0.0375,
+          0.025,
+          1.0,
+          0.0625
+        ],
+        [
+          0.025,
+          -0.0375,
+          0.0625,
+          1.0
+        ]
+      ],
+      "eigenvalues": [
+        0.8750000000000001,
+        0.9999999999999999,
+        1.0499999999999998,
+        1.0750000000000002
+      ],
+      "symmetric_square_root": [
+        [
+          0.9992328727389579,
+          0.03152569939221473,
+          -0.019178161094235556,
+          0.013114665559021925
+        ],
+        [
+          0.03152569939221468,
+          0.9992328727389578,
+          0.01311466555902214,
+          -0.01917816109423535
+        ],
+        [
+          -0.019178161094235494,
+          0.013114665559022068,
+          0.9992328727389583,
+          0.031525699392215015
+        ],
+        [
+          0.013114665559021977,
+          -0.019178161094235348,
+          0.031525699392214966,
+          0.9992328727389578
+        ]
+      ],
+      "symmetry_error": 7.28583859910259e-17,
+      "reconstruction_error": 1.1102230246251565e-15,
+      "normalization_error": 5.440092820663267e-15,
+      "minimum_probability": 0.031160623576260645,
+      "main32_absolute_differences": [
+        9.228728892196614e-16,
+        3.0531133177191805e-14,
+        2.1149748619109232e-14,
+        1.1213252548714081e-14,
+        1.5855372570428017e-14,
+        5.1514348342607263e-14,
+        5.134781488891349e-16,
+        2.5049406993105094e-14,
+        1.2989609388114332e-14,
+        4.5102810375396984e-15,
+        2.858824288409778e-14,
+        3.567979245389097e-14,
+        1.1449174941446927e-16,
+        1.6160683902199935e-14,
+        1.309369279667294e-14,
+        6.765421556309548e-15
+      ],
+      "maximum_main32_absolute_difference": 5.1514348342607263e-14,
+      "joint_KL": 0.0015476166982387686,
+      "production_joint_KL": 0.001547616698240405,
+      "joint_KL_difference": -1.6364947591496204e-15,
+      "cross_entropy": 2.70470443134673,
+      "production_cross_entropy": 2.704704431346696,
+      "cross_entropy_difference": 3.375077994860476e-14,
+      "passed": true
+    },
+    {
+      "t": 0.0,
+      "order": 36,
+      "root": "symmetric_principal_square_root",
+      "pmf": [
+        0.0626704639200016,
+        0.09572608793206792,
+        0.06669876445104059,
+        0.12150228418855577,
+        0.05099332978366502,
+        0.06981493638446908,
+        0.05863539755399821,
+        0.0957260879320681,
+        0.03548505492369562,
+        0.05863539755399832,
+        0.03382435146514151,
+        0.0666987644510407,
+        0.03444023083288963,
+        0.05099332978366486,
+        0.035485054923695636,
+        0.06267046392000172
+      ],
+      "Gaussian_nodes": 1679616,
+      "covariance": [
+        [
+          1.0,
+          0.25,
+          -0.15,
+          0.1
+        ],
+        [
+          0.25,
+          1.0,
+          0.1,
+          -0.15
+        ],
+        [
+          -0.15,
+          0.1,
+          1.0,
+          0.25
+        ],
+        [
+          0.1,
+          -0.15,
+          0.25,
+          1.0
+        ]
+      ],
+      "eigenvalues": [
+        0.49999999999999994,
+        0.9999999999999996,
+        1.1999999999999997,
+        1.2999999999999998
+      ],
+      "symmetric_square_root": [
+        [
+          0.985681830324004,
+          0.1321284397307306,
+          -0.08440588222556428,
+          0.0620407271811618
+        ],
+        [
+          0.13212843973073068,
+          0.9856818303240035,
+          0.062040727181161326,
+          -0.08440588222556414
+        ],
+        [
+          -0.08440588222556426,
+          0.06204072718116134,
+          0.9856818303240037,
+          0.1321284397307312
+        ],
+        [
+          0.06204072718116181,
+          -0.0844058822255641,
+          0.13212843973073118,
+          0.9856818303240039
+        ]
+      ],
+      "symmetry_error": 8.326672684688674e-17,
+      "reconstruction_error": 1.9984014443252818e-15,
+      "normalization_error": 5.773159728050814e-15,
+      "minimum_probability": 0.03382435146514151,
+      "main32_absolute_differences": [
+        1.2240208846492351e-14,
+        1.8762769116165146e-14,
+        9.534040223968532e-15,
+        1.6708856520608606e-14,
+        7.278899705198683e-15,
+        9.173217740965356e-15,
+        1.0672018824209317e-14,
+        1.2656542480726785e-14,
+        9.305056725139593e-15,
+        1.5050460877574778e-14,
+        1.1157741397482823e-14,
+        2.0719537197066984e-14,
+        5.280498260873401e-15,
+        4.489464355827977e-15,
+        1.0179357357031904e-14,
+        1.5265566588595902e-14
+      ],
+      "maximum_main32_absolute_difference": 2.0719537197066984e-14,
+      "joint_KL": 0.0,
+      "production_joint_KL": 0.0,
+      "joint_KL_difference": 0.0,
+      "cross_entropy": 2.7031568146484912,
+      "production_cross_entropy": 2.7031568146484557,
+      "cross_entropy_difference": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "t": 0.75,
+      "order": 36,
+      "root": "symmetric_principal_square_root",
+      "pmf": [
+        0.06612322753079337,
+        0.09534887103946853,
+        0.06475078580655808,
+        0.12797668578092186,
+        0.051959854399447725,
+        0.06123260910613471,
+        0.059026447443071596,
+        0.09534887103946857,
+        0.035183075587558184,
+        0.05902644744307162,
+        0.028081289890614626,
+        0.06475078580655828,
+        0.03792489160852737,
+        0.05195985439944775,
+        0.03518307558755826,
+        0.06612322753079337
+      ],
+      "Gaussian_nodes": 1679616,
+      "covariance": [
+        [
+          1.0,
+          0.4375,
+          -0.2625,
+          0.17500000000000002
+        ],
+        [
+          0.4375,
+          1.0,
+          0.17500000000000002,
+          -0.2625
+        ],
+        [
+          -0.2625,
+          0.17500000000000002,
+          1.0,
+          0.4375
+        ],
+        [
+          0.17500000000000002,
+          -0.2625,
+          0.4375,
+          1.0
+        ]
+      ],
+      "eigenvalues": [
+        0.12499999999999997,
+        0.9999999999999997,
+        1.35,
+        1.525
+      ],
+      "symmetric_square_root": [
+        [
+          0.9375893244945861,
+          0.2608126291979495,
+          -0.17986512726683676,
+          0.1433581774365264
+        ],
+        [
+          0.2608126291979495,
+          0.9375893244945864,
+          0.14335817743652587,
+          -0.17986512726683632
+        ],
+        [
+          -0.1798651272668367,
+          0.14335817743652596,
+          0.937589324494586,
+          0.2608126291979498
+        ],
+        [
+          0.14335817743652635,
+          -0.17986512726683634,
+          0.26081262919794973,
+          0.9375893244945861
+        ]
+      ],
+      "symmetry_error": 8.326672684688674e-17,
+      "reconstruction_error": 1.3877787807814457e-15,
+      "normalization_error": 6.106226635438361e-15,
+      "minimum_probability": 0.028081289890614626,
+      "main32_absolute_differences": [
+        1.3739009929736312e-14,
+        2.1024848528838902e-14,
+        6.411537967210279e-15,
+        2.3675506000131463e-14,
+        6.904199434387692e-15,
+        2.5673907444456745e-15,
+        1.3433698597964394e-14,
+        1.6292522886374172e-14,
+        1.304512053934559e-14,
+        2.0032586700580168e-14,
+        5.7696902810988604e-15,
+        2.273181642920008e-14,
+        6.3629657098829284e-15,
+        3.184952301893418e-15,
+        1.2802259252708836e-14,
+        1.534883331544279e-14
+      ],
+      "maximum_main32_absolute_difference": 2.3675506000131463e-14,
+      "joint_KL": 0.0017241949834870761,
+      "production_joint_KL": 0.001724194983487943,
+      "joint_KL_difference": -8.669280571194093e-16,
+      "cross_entropy": 2.704881009631978,
+      "production_cross_entropy": 2.7048810096319436,
+      "cross_entropy_difference": 3.4638958368304884e-14,
+      "passed": true
+    }
+  ],
+  "conditional_arithmetic": {
+    "scope": "Arithmetic-only conditioning of frozen observational PMFs, not SCBM intervention, causal effect, or a significance test.",
+    "count": 72,
+    "records": [
+      {
+        "t": -0.75,
+        "given_index": 0,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.282727884110147,
+        "denominator": 0.6217673521459633,
+        "probability": 0.4547165159674949,
+        "stored_probability": 0.454716515967495,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 0,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.17603094700440333,
+        "denominator": 0.3782326478540366,
+        "probability": 0.4654038936171773,
+        "stored_probability": 0.4654038936171773,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 0,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.33803386244498507,
+        "denominator": 0.6217673521459633,
+        "probability": 0.5436661498521874,
+        "stored_probability": 0.5436661498521874,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 0,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.20320730644045532,
+        "denominator": 0.3782326478540366,
+        "probability": 0.5372548022847432,
+        "stored_probability": 0.5372548022847432,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 0,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.38563727002217374,
+        "denominator": 0.6217673521459633,
+        "probability": 0.6202275958864486,
+        "stored_probability": 0.6202275958864487,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 0,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.23613008212376368,
+        "denominator": 0.3782326478540366,
+        "probability": 0.6242985196108413,
+        "stored_probability": 0.6242985196108413,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 1,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.20220170084963324,
+        "denominator": 0.5412411688854496,
+        "probability": 0.3735889146533641,
+        "stored_probability": 0.37358891465336413,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 1,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.17603094700440333,
+        "denominator": 0.45875883111455035,
+        "probability": 0.3837112989775865,
+        "stored_probability": 0.38371129897758655,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 1,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.2918875451293633,
+        "denominator": 0.5412411688854496,
+        "probability": 0.5392929472280028,
+        "stored_probability": 0.5392929472280028,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 1,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.24935362375607703,
+        "denominator": 0.45875883111455035,
+        "probability": 0.5435396701798082,
+        "stored_probability": 0.5435396701798083,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 1,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.33803386244497197,
+        "denominator": 0.5412411688854496,
+        "probability": 0.6245531232242881,
+        "stored_probability": 0.6245531232242881,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 1,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.28373348970096546,
+        "denominator": 0.45875883111455035,
+        "probability": 0.6184807146091064,
+        "stored_probability": 0.6184807146091066,
+        "absolute_difference": 2.220446049250313e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 2,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.17502534141358128,
+        "denominator": 0.45875883111455956,
+        "probability": 0.38151928539087804,
+        "stored_probability": 0.38151928539087804,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 2,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.20320730644045532,
+        "denominator": 0.5412411688854404,
+        "probability": 0.375446876775677,
+        "stored_probability": 0.375446876775677,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 2,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.2094052073584733,
+        "denominator": 0.45875883111455956,
+        "probability": 0.4564603298201826,
+        "stored_probability": 0.4564603298201826,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 2,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.24935362375607703,
+        "denominator": 0.5412411688854404,
+        "probability": 0.460707052771988,
+        "stored_probability": 0.46070705277198803,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 2,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.28272788411014865,
+        "denominator": 0.45875883111455956,
+        "probability": 0.6162887010224047,
+        "stored_probability": 0.6162887010224046,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 2,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.3390394680357888,
+        "denominator": 0.5412411688854404,
+        "probability": 0.6264110853465957,
+        "stored_probability": 0.6264110853465957,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 3,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.1421025657302729,
+        "denominator": 0.37823264785406246,
+        "probability": 0.37570148038913304,
+        "stored_probability": 0.3757014803891331,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 3,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.23613008212376368,
+        "denominator": 0.6217673521459375,
+        "probability": 0.3797724041135255,
+        "stored_probability": 0.3797724041135255,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 3,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.17502534141358486,
+        "denominator": 0.37823264785406246,
+        "probability": 0.46274519771523465,
+        "stored_probability": 0.46274519771523465,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 3,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.28373348970096546,
+        "denominator": 0.6217673521459375,
+        "probability": 0.45633385014781097,
+        "stored_probability": 0.4563338501478111,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 3,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.20220170084965156,
+        "denominator": 0.37823264785406246,
+        "probability": 0.5345961063828345,
+        "stored_probability": 0.5345961063828346,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": -0.75,
+        "given_index": 3,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.3390394680357888,
+        "denominator": 0.6217673521459375,
+        "probability": 0.5452834840324835,
+        "stored_probability": 0.5452834840324835,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 0,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.2751697516542402,
+        "denominator": 0.6217673521459633,
+        "probability": 0.4425606309249292,
+        "stored_probability": 0.4425606309249292,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 0,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.18358907946021663,
+        "denominator": 0.37823264785403654,
+        "probability": 0.48538665422416244,
+        "stored_probability": 0.48538665422416244,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 0,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.34256253412571225,
+        "denominator": 0.6217673521459633,
+        "probability": 0.5509496967690478,
+        "stored_probability": 0.5509496967690478,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 0,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.19867863475982225,
+        "denominator": 0.37823264785403654,
+        "probability": 0.5252815585514822,
+        "stored_probability": 0.5252815585514822,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 0,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.3827693964372182,
+        "denominator": 0.6217673521459633,
+        "probability": 0.6156151414449965,
+        "stored_probability": 0.6156151414449964,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 0,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.23899795570865007,
+        "denominator": 0.37823264785403654,
+        "probability": 0.6318808200842608,
+        "stored_probability": 0.6318808200842608,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 1,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.1946435683938199,
+        "denominator": 0.5412411688855431,
+        "probability": 0.3596244697989362,
+        "stored_probability": 0.3596244697989362,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 1,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.18358907946021663,
+        "denominator": 0.4587588311144568,
+        "probability": 0.40018647491586395,
+        "stored_probability": 0.40018647491586395,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 1,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.28872416455577293,
+        "denominator": 0.5412411688855431,
+        "probability": 0.5334482688193842,
+        "stored_probability": 0.5334482688193842,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 1,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.25251700432976154,
+        "denominator": 0.4587588311144568,
+        "probability": 0.5504351899152008,
+        "stored_probability": 0.5504351899152008,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 1,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.3425625341256624,
+        "denominator": 0.5412411688855431,
+        "probability": 0.632920320586523,
+        "stored_probability": 0.632920320586523,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 1,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.27920481802020586,
+        "denominator": 0.4587588311144568,
+        "probability": 0.6086091407590721,
+        "stored_probability": 0.608609140759072,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 2,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.17955401309421432,
+        "denominator": 0.45875883111446536,
+        "probability": 0.39139085924084066,
+        "stored_probability": 0.39139085924084055,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 2,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.19867863475982225,
+        "denominator": 0.5412411688855345,
+        "probability": 0.36707967941337477,
+        "stored_probability": 0.36707967941337477,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 2,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.20624182678469527,
+        "denominator": 0.45875883111446536,
+        "probability": 0.4495648100847909,
+        "stored_probability": 0.44956481008479077,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 2,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.25251700432976154,
+        "denominator": 0.5412411688855345,
+        "probability": 0.4665517311806072,
+        "stored_probability": 0.4665517311806072,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 2,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.2751697516542086,
+        "denominator": 0.45875883111446536,
+        "probability": 0.599813525084056,
+        "stored_probability": 0.5998135250840559,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 2,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.34659760049165966,
+        "denominator": 0.5412411688855345,
+        "probability": 0.6403755302009566,
+        "stored_probability": 0.6403755302009566,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 3,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.13923469214538647,
+        "denominator": 0.37823264785413163,
+        "probability": 0.3681191799156466,
+        "stored_probability": 0.36811917991564663,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 3,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.23899795570865007,
+        "denominator": 0.6217673521458682,
+        "probability": 0.38438485855490934,
+        "stored_probability": 0.38438485855490934,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 3,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.17955401309425098,
+        "denominator": 0.37823264785413163,
+        "probability": 0.47471844144849545,
+        "stored_probability": 0.4747184414484955,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 3,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.27920481802020586,
+        "denominator": 0.6217673521458682,
+        "probability": 0.4490503032309482,
+        "stored_probability": 0.4490503032309481,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 3,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.1946435683938748,
+        "denominator": 0.37823264785413163,
+        "probability": 0.5146133457758534,
+        "stored_probability": 0.5146133457758534,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "given_index": 3,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.34659760049165966,
+        "denominator": 0.6217673521458682,
+        "probability": 0.557439369075054,
+        "stored_probability": 0.557439369075054,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 0,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.26756778198815667,
+        "denominator": 0.6217673521459633,
+        "probability": 0.4303342416816759,
+        "stored_probability": 0.4303342416816759,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 0,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.19119104912629542,
+        "denominator": 0.37823264785403654,
+        "probability": 0.5054853149537684,
+        "stored_probability": 0.5054853149537684,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 0,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.34710279007007994,
+        "denominator": 0.6217673521459633,
+        "probability": 0.5582518748726383,
+        "stored_probability": 0.5582518748726383,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 0,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.1941383788154679,
+        "denominator": 0.37823264785403654,
+        "probability": 0.5132776874681312,
+        "stored_probability": 0.5132776874681313,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 0,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.3799070369660521,
+        "denominator": 0.6217673521459633,
+        "probability": 0.6110115554553383,
+        "stored_probability": 0.6110115554553383,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 0,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.2418603151798161,
+        "denominator": 0.37823264785403654,
+        "probability": 0.6394485419279623,
+        "stored_probability": 0.6394485419279623,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 1,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.18704159872774112,
+        "denominator": 0.5412411688855479,
+        "probability": 0.3455790310867749,
+        "stored_probability": 0.3455790310867749,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 1,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.19119104912629542,
+        "denominator": 0.4587588311144521,
+        "probability": 0.41675720696610785,
+        "stored_probability": 0.41675720696610785,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 1,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.28555954728465444,
+        "denominator": 0.5412411688855479,
+        "probability": 0.5276013054820661,
+        "stored_probability": 0.5276013054820661,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 1,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.25568162160089336,
+        "denominator": 0.4587588311144521,
+        "probability": 0.5573334053968443,
+        "stored_probability": 0.5573334053968443,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 1,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.3471027900700222,
+        "denominator": 0.5412411688855479,
+        "probability": 0.6413089210946948,
+        "stored_probability": 0.6413089210946948,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 1,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.274664562075846,
+        "denominator": 0.4587588311144521,
+        "probability": 0.598712315594252,
+        "stored_probability": 0.598712315594252,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 2,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.18409426903856868,
+        "denominator": 0.4587588311144521,
+        "probability": 0.4012876844056664,
+        "stored_probability": 0.4012876844056664,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 2,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.1941383788154679,
+        "denominator": 0.5412411688855479,
+        "probability": 0.35869107890519847,
+        "stored_probability": 0.3586910789051985,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 2,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.20307720951355873,
+        "denominator": 0.4587588311144521,
+        "probability": 0.4426665946031557,
+        "stored_probability": 0.4426665946031557,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 2,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.25568162160089336,
+        "denominator": 0.5412411688855479,
+        "probability": 0.47239869451793387,
+        "stored_probability": 0.47239869451793387,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 2,
+        "query_index": 3,
+        "given_value": 0,
+        "numerator": 0.2675677819881242,
+        "denominator": 0.4587588311144521,
+        "probability": 0.5832427930338214,
+        "stored_probability": 0.5832427930338214,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 2,
+        "query_index": 3,
+        "given_value": 1,
+        "numerator": 0.35419957015774395,
+        "denominator": 0.5412411688855479,
+        "probability": 0.6544209689131091,
+        "stored_probability": 0.6544209689131092,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 3,
+        "query_index": 0,
+        "given_value": 0,
+        "numerator": 0.13637233267422047,
+        "denominator": 0.37823264785413174,
+        "probability": 0.360551458071947,
+        "stored_probability": 0.36055145807194705,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 3,
+        "query_index": 0,
+        "given_value": 1,
+        "numerator": 0.2418603151798161,
+        "denominator": 0.6217673521458682,
+        "probability": 0.38898844454456827,
+        "stored_probability": 0.38898844454456827,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 3,
+        "query_index": 1,
+        "given_value": 0,
+        "numerator": 0.18409426903860612,
+        "denominator": 0.37823264785413174,
+        "probability": 0.4867223125318454,
+        "stored_probability": 0.48672231253184545,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 3,
+        "query_index": 1,
+        "given_value": 1,
+        "numerator": 0.274664562075846,
+        "denominator": 0.6217673521458682,
+        "probability": 0.44174812512736916,
+        "stored_probability": 0.44174812512736916,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 3,
+        "query_index": 2,
+        "given_value": 0,
+        "numerator": 0.18704159872780382,
+        "denominator": 0.37823264785413174,
+        "probability": 0.49451468504627294,
+        "stored_probability": 0.494514685046273,
+        "absolute_difference": 5.551115123125783e-17,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "given_index": 3,
+        "query_index": 2,
+        "given_value": 1,
+        "numerator": 0.35419957015774395,
+        "denominator": 0.6217673521458682,
+        "probability": 0.5696657583183103,
+        "stored_probability": 0.5696657583183105,
+        "absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      }
+    ],
+    "highlight": [
+      {
+        "t": -0.75,
+        "probability": 0.4654038936171773,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.0,
+        "probability": 0.48538665422416244,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "t": 0.75,
+        "probability": 0.5054853149537684,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "maximum_absolute_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  "accounting": {
+    "PMF_integrations": 3,
+    "scalar_pattern_integrals": 48,
+    "Gaussian_nodes": 5038848,
+    "conditional_pattern_evaluations": 80621568,
+    "conditional_probabilities": 72,
+    "new_random_draws": 0,
+    "new_fits": 0
+  },
+  "seconds": 1.5983294999459758,
+  "scope": "Independent NumPy 36^4 symmetric-root numerical cross-check, not a rigorous quadrature remainder certificate. No main experiment scores or statistics read."
+}

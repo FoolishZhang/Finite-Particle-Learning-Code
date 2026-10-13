@@ -1,0 +1,817 @@
+{
+  "schema_version": "1",
+  "input_and_implementation_freeze_sha256": "3c3aab632104a03889879575bed1235c44069eb896635336d48204ce6b7ecc3c",
+  "analytic_statement": "chi <= K/(K-1)^2 * [(1+tau^2/4)*(1+2exp(tau^2/2)+exp(2tau^2))/4]^n",
+  "parameters": {
+    "K": 100,
+    "nuisance": 256,
+    "delta": 0.1,
+    "panel": 32,
+    "independent_data_units": 16
+  },
+  "manufactured_checks": {
+    "passed": true,
+    "discrete_positive_iid_examples": [
+      {
+        "K": 2,
+        "exact_chi": "2287/4050",
+        "exact_bound": "49/8"
+      },
+      {
+        "K": 3,
+        "exact_chi": "67433/170100",
+        "exact_bound": "147/64"
+      }
+    ],
+    "zero_scale_bound": {
+      "tau_decimal": "0",
+      "upper_bound_decimal50": "0.010203040506070809101112131415161718192021222324253",
+      "upper_bound_decimal80": "0.010203040506070809101112131415161718192021222324252627282930313233343536373839404",
+      "upper_bound": 0.010203040506070809,
+      "float64_upper_bound": 0.010203040506070815,
+      "decimal_50_80_difference": "3.727170696867666564636261606E-52",
+      "float64_decimal_difference": 6.938893903907228e-18
+    },
+    "exact_zero_scale_collision": 0.01,
+    "note": "The inverse-moment bound is deliberately loose at tau=0; chi=1/K exactly."
+  },
+  "teacher_moments": [
+    {
+      "order": 24,
+      "p": [
+        0.37823264784348287,
+        0.4587588311156283,
+        0.5412411688830293,
+        0.6217673521459308
+      ],
+      "Gamma": [
+        [
+          0.23517271194879075,
+          0.010071512040204275,
+          -0.006036445674644113,
+          0.00382524375692948
+        ],
+        [
+          0.010071512040204268,
+          0.24829916598905075,
+          0.0042178383408138075,
+          -0.006036445675395331
+        ],
+        [
+          -0.006036445674644116,
+          0.004217838340813813,
+          0.2482991659891615,
+          0.010071512041424648
+        ],
+        [
+          0.0038252437569294886,
+          -0.006036445675395328,
+          0.010071512041424651,
+          0.2351727119513689
+        ]
+      ],
+      "R_Y": [
+        [
+          1.0,
+          0.041678644121616634,
+          -0.024980446831477453,
+          0.01626567863767062
+        ],
+        [
+          0.041678644121616606,
+          1.0,
+          0.01698692109581577,
+          -0.024980446834454842
+        ],
+        [
+          -0.024980446831477467,
+          0.01698692109581579,
+          1.0000000000000002,
+          0.04167864412642912
+        ],
+        [
+          0.016265678637670658,
+          -0.024980446834454828,
+          0.04167864412642913,
+          1.0000000000000002
+        ]
+      ],
+      "lambda_max_R_Y": 1.050033766551488,
+      "B": 1.0450303898963393,
+      "collision_threshold": 0.04309002908595427,
+      "eigen_residual_l2": 1.9229626863835638e-16,
+      "normalization_squared": 4.1404049402742
+    },
+    {
+      "order": 32,
+      "p": [
+        0.37823264785403665,
+        0.4587588311144569,
+        0.5412411688855346,
+        0.6217673521458684
+      ],
+      "Gamma": [
+        [
+          0.23517271195136097,
+          0.010071512041372835,
+          -0.006036445675367276,
+          0.003825243757325115
+        ],
+        [
+          0.01007151204137284,
+          0.24829916598895413,
+          0.0042178383408114145,
+          -0.006036445675363579
+        ],
+        [
+          -0.006036445675367277,
+          0.004217838340811409,
+          0.24829916598895482,
+          0.010071512041366158
+        ],
+        [
+          0.0038252437573251235,
+          -0.006036445675363572,
+          0.010071512041366155,
+          0.23517271195138412
+        ]
+      ],
+      "R_Y": [
+        [
+          1.0,
+          0.04167864412623281,
+          -0.024980446834343986,
+          0.01626567863926353
+        ],
+        [
+          0.04167864412623283,
+          1.0000000000000002,
+          0.016986921095816506,
+          -0.024980446834327496
+        ],
+        [
+          -0.024980446834343993,
+          0.016986921095816485,
+          1.0,
+          0.04167864412620307
+        ],
+        [
+          0.016265678639263568,
+          -0.024980446834327468,
+          0.041678644126203056,
+          1.0000000000000002
+        ]
+      ],
+      "lambda_max_R_Y": 1.0500337665542516,
+      "B": 1.0450303898988265,
+      "collision_threshold": 0.04309002908823156,
+      "eigen_residual_l2": 1.9229626863835638e-16,
+      "normalization_squared": 4.140404940262295
+    },
+    {
+      "order": 40,
+      "p": [
+        0.3782326478541313,
+        0.45875883111445215,
+        0.5412411688855479,
+        0.6217673521458683
+      ],
+      "Gamma": [
+        [
+          0.23517271195138398,
+          0.010071512041367437,
+          -0.006036445675363893,
+          0.003825243757323373
+        ],
+        [
+          0.010071512041367447,
+          0.24829916598895374,
+          0.004217838340811027,
+          -0.006036445675363733
+        ],
+        [
+          -0.0060364456753639,
+          0.004217838340811013,
+          0.24829916598895374,
+          0.010071512041367157
+        ],
+        [
+          0.0038252437573233645,
+          -0.0060364456753637385,
+          0.010071512041367157,
+          0.23517271195138412
+        ]
+      ],
+      "R_Y": [
+        [
+          1.0,
+          0.04167864412620846,
+          -0.024980446834328818,
+          0.016265678639255328
+        ],
+        [
+          0.0416786441262085,
+          1.0000000000000002,
+          0.016986921095814993,
+          -0.02498044683432815
+        ],
+        [
+          -0.02498044683432885,
+          0.016986921095814938,
+          1.0000000000000002,
+          0.041678644126207295
+        ],
+        [
+          0.01626567863925529,
+          -0.024980446834328176,
+          0.041678644126207295,
+          1.0000000000000002
+        ]
+      ],
+      "lambda_max_R_Y": 1.0500337665542392,
+      "B": 1.0450303898988154,
+      "collision_threshold": 0.04309002908822146,
+      "eigen_residual_l2": 2.482534153247273e-16,
+      "normalization_squared": 4.140404940262205
+    }
+  ],
+  "numerical_qualification": {
+    "arithmetic_guard": 1e-12,
+    "saved_GH40_threshold_difference": 4.440892098500626e-16,
+    "threshold_max_order_change": 2.267186438587032e-12,
+    "scope": "Decimal/eigen residual/order agreement are numerical qualifications, not interval or integration remainder certificates"
+  },
+  "envelope": {
+    "tau_decimal": "0.053",
+    "upper_bound_decimal50": "0.020953278787240715608524879070214514935691125750600",
+    "upper_bound_decimal80": "0.020953278787240715608524879070214514935691125750614439071615511166707305015390893",
+    "upper_bound": 0.020953278787240716,
+    "float64_upper_bound": 0.020953278787241028,
+    "decimal_50_80_difference": "1.443907161551116670730501539E-50",
+    "float64_decimal_difference": 3.122502256758253e-16,
+    "covers_all_outputs": true,
+    "conservative_threshold_gap": 0.022136750298713558
+  },
+  "panel_summary": {
+    "NEAR_FREE": {
+      "outputs": 16,
+      "tau_min": 0.04109409125521779,
+      "tau_max": 0.05195827380521223,
+      "bound_min": 0.01572389913376455,
+      "bound_max": 0.020374132394595134
+    },
+    "UNIT_FREE": {
+      "outputs": 16,
+      "tau_min": 0.039831313595641404,
+      "tau_max": 0.052038141700904816,
+      "bound_min": 0.015317554360446307,
+      "bound_max": 0.020417559362579347
+    }
+  },
+  "panel": [
+    {
+      "stream": 0,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_00.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04953459184616804",
+      "upper_bound_decimal50": "0.019129130616066685576018049720285514900641100130985",
+      "upper_bound_decimal80": "0.019129130616066685576018049720285514900641100131051230387943219177971458256129917",
+      "upper_bound": 0.019129130616066685,
+      "float64_upper_bound": 0.01912913061606656,
+      "decimal_50_80_difference": "6.623038794321917797145825613E-50",
+      "float64_decimal_difference": 1.249000902703301e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02396089846988759,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 0,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_00.json",
+      "output": "TAIL",
+      "tau_decimal": "0.049837186466902494",
+      "upper_bound_decimal50": "0.019277133585820565581740434810012906591493188486889",
+      "upper_bound_decimal80": "0.019277133585820565581740434810012906591493188486866993221165393698624587997013724",
+      "upper_bound": 0.019277133585820564,
+      "float64_upper_bound": 0.01927713358582073,
+      "decimal_50_80_difference": "2.200677883460630137541200299E-50",
+      "float64_decimal_difference": 1.6653345369377348e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02381289550013371,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 1,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_01.json",
+      "output": "TAIL",
+      "tau_decimal": "0.046607868222054094",
+      "upper_bound_decimal50": "0.017798159526987322274682552059825850830808755270829",
+      "upper_bound_decimal80": "0.017798159526987322274682552059825850830808755270943640858984280954244917049313631",
+      "upper_bound": 0.017798159526987323,
+      "float64_upper_bound": 0.017798159526987233,
+      "decimal_50_80_difference": "1.146408589842809542449170493E-49",
+      "float64_decimal_difference": 9.020562075079397e-17,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02529186955896695,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 1,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_01.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04575183556880802",
+      "upper_bound_decimal50": "0.017441167222314031071366117561920807566946796662552",
+      "upper_bound_decimal80": "0.017441167222314031071366117561920807566946796662625036902407930484184251557458266",
+      "upper_bound": 0.017441167222314032,
+      "float64_upper_bound": 0.01744116722231361,
+      "decimal_50_80_difference": "7.303690240793048418425155746E-50",
+      "float64_decimal_difference": 4.2327252813834093e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02564886186364024,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 2,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_02.json",
+      "output": "TAIL",
+      "tau_decimal": "0.047485331480856985",
+      "upper_bound_decimal50": "0.018178774555327055287554928138622192997877613073788",
+      "upper_bound_decimal80": "0.018178774555327055287554928138622192997877613074037492179395934951944306853295178",
+      "upper_bound": 0.018178774555327057,
+      "float64_upper_bound": 0.018178774555326634,
+      "decimal_50_80_difference": "2.494921793959349519443068533E-49",
+      "float64_decimal_difference": 4.2327252813834093e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.024911254530627217,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 2,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_02.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04675912420498207",
+      "upper_bound_decimal50": "0.017862692331875256378274084183031540749400563536296",
+      "upper_bound_decimal80": "0.017862692331875256378274084183031540749400563536529217049297767948085653068803714",
+      "upper_bound": 0.017862692331875256,
+      "float64_upper_bound": 0.01786269233187558,
+      "decimal_50_80_difference": "2.332170492977679480856530688E-49",
+      "float64_decimal_difference": 3.226585665316861e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.025227336754079017,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 3,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_03.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04109409125521779",
+      "upper_bound_decimal50": "0.015723899133764549700697065759183860241589820311694",
+      "upper_bound_decimal80": "0.015723899133764549700697065759183860241589820311759298184366774181893247133914596",
+      "upper_bound": 0.01572389913376455,
+      "float64_upper_bound": 0.015723899133764145,
+      "decimal_50_80_difference": "6.529818436677418189324713391E-50",
+      "float64_decimal_difference": 4.0592529337857286e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.027366129952189722,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 3,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_03.json",
+      "output": "TAIL",
+      "tau_decimal": "0.039831313595641404",
+      "upper_bound_decimal50": "0.015317554360446306843232752444365843541174356273074",
+      "upper_bound_decimal80": "0.015317554360446306843232752444365843541174356273180165012868915558255119520768584",
+      "upper_bound": 0.015317554360446307,
+      "float64_upper_bound": 0.015317554360446514,
+      "decimal_50_80_difference": "1.061650128689155582551195208E-49",
+      "float64_decimal_difference": 2.0643209364124004e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.027772474725507965,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 4,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_04.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04653205204522237",
+      "upper_bound_decimal50": "0.017765979160290639969863465134834795632551597343834",
+      "upper_bound_decimal80": "0.017765979160290639969863465134834795632551597343715977358465211505539609692740018",
+      "upper_bound": 0.01776597916029064,
+      "float64_upper_bound": 0.017765979160290976,
+      "decimal_50_80_difference": "1.180226415347884944603903073E-49",
+      "float64_decimal_difference": 3.365363543395006e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.025324049925663634,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 4,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_04.json",
+      "output": "TAIL",
+      "tau_decimal": "0.0456775717320852",
+      "upper_bound_decimal50": "0.017410845423642708549526612134970465591778352795151",
+      "upper_bound_decimal80": "0.017410845423642708549526612134970465591778352795159436993585230223637746112629902",
+      "upper_bound": 0.01741084542364271,
+      "float64_upper_bound": 0.017410845423642407,
+      "decimal_50_80_difference": "8.436993585230223637746112630E-51",
+      "float64_decimal_difference": 3.0184188481996443e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.025679183662311564,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 5,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_05.json",
+      "output": "TAIL",
+      "tau_decimal": "0.0443153596133925",
+      "upper_bound_decimal50": "0.016872390815340318709557441320257118629126638103807",
+      "upper_bound_decimal80": "0.016872390815340318709557441320257118629126638104056699134105096544372574726630282",
+      "upper_bound": 0.016872390815340317,
+      "float64_upper_bound": 0.016872390815340574,
+      "decimal_50_80_difference": "2.496991341050965443725747266E-49",
+      "float64_decimal_difference": 2.5673907444456745e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026217638270613956,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 5,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_05.json",
+      "output": "TAIL",
+      "tau_decimal": "0.042641182197257876",
+      "upper_bound_decimal50": "0.016254579542037638271906731961252557185748140996568",
+      "upper_bound_decimal80": "0.016254579542037638271906731961252557185748140996707169135303381812531029175590058",
+      "upper_bound": 0.01625457954203764,
+      "float64_upper_bound": 0.016254579542037323,
+      "decimal_50_80_difference": "1.391691353033818125310291756E-49",
+      "float64_decimal_difference": 3.157196726277789e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026835449543916635,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 6,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_06.json",
+      "output": "TAIL",
+      "tau_decimal": "0.05123625852866098",
+      "upper_bound_decimal50": "0.019988689769711685996430639478987513531473783243330",
+      "upper_bound_decimal80": "0.019988689769711685996430639478987513531473783243344455985017997726310469894140279",
+      "upper_bound": 0.019988689769711687,
+      "float64_upper_bound": 0.019988689769711847,
+      "decimal_50_80_difference": "1.445598501799772631046989414E-50",
+      "float64_decimal_difference": 1.5959455978986625e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.023101339316242586,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 6,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_06.json",
+      "output": "TAIL",
+      "tau_decimal": "0.05026951537001878",
+      "upper_bound_decimal50": "0.019492171583407304436247141737610885369076829376179",
+      "upper_bound_decimal80": "0.019492171583407304436247141737610885369076829376321582183447697032964354772308116",
+      "upper_bound": 0.019492171583407304,
+      "float64_upper_bound": 0.019492171583406867,
+      "decimal_50_80_difference": "1.425821834476970329643547723E-49",
+      "float64_decimal_difference": 4.371503159461554e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02359785750254697,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 7,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_07.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04293769068317488",
+      "upper_bound_decimal50": "0.016360609779453273304509621552113084013185074274733",
+      "upper_bound_decimal80": "0.016360609779453273304509621552113084013185074274660034153654339759143249284940994",
+      "upper_bound": 0.016360609779453274,
+      "float64_upper_bound": 0.01636060977945316,
+      "decimal_50_80_difference": "7.296584634566024085675071506E-50",
+      "float64_decimal_difference": 1.1449174941446927e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026729419306501,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 7,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_07.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04227313573937863",
+      "upper_bound_decimal50": "0.016124935338573019865592170262286880677349711250284",
+      "upper_bound_decimal80": "0.016124935338573019865592170262286880677349711250366097077362055115718062691451773",
+      "upper_bound": 0.01612493533857302,
+      "float64_upper_bound": 0.016124935338573534,
+      "decimal_50_80_difference": "8.209707736205511571806269145E-50",
+      "float64_decimal_difference": 5.134781488891349e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026965093747381253,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 8,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_08.json",
+      "output": "TAIL",
+      "tau_decimal": "0.043901544355321676",
+      "upper_bound_decimal50": "0.016715293851745102079582341501579132361906693640024",
+      "upper_bound_decimal80": "0.016715293851745102079582341501579132361906693640279800640006147140902701345196414",
+      "upper_bound": 0.0167152938517451,
+      "float64_upper_bound": 0.016715293851744542,
+      "decimal_50_80_difference": "2.558006400061471409027013452E-49",
+      "float64_decimal_difference": 5.585809592645319e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026374735234209173,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 8,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_08.json",
+      "output": "TAIL",
+      "tau_decimal": "0.043659291812218726",
+      "upper_bound_decimal50": "0.016624685379141364322343287745568234143878068703811",
+      "upper_bound_decimal80": "0.016624685379141364322343287745568234143878068703998866600113683395191939299066745",
+      "upper_bound": 0.016624685379141364,
+      "float64_upper_bound": 0.01662468537914186,
+      "decimal_50_80_difference": "1.878666001136833951919392991E-49",
+      "float64_decimal_difference": 4.961309141293668e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02646534370681291,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 9,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_09.json",
+      "output": "TAIL",
+      "tau_decimal": "0.045735758263617754",
+      "upper_bound_decimal50": "0.017434594222015187310155723919706758320869459699189",
+      "upper_bound_decimal80": "0.017434594222015187310155723919706758320869459699269664306715124279411717470085452",
+      "upper_bound": 0.01743459422201519,
+      "float64_upper_bound": 0.017434594222014547,
+      "decimal_50_80_difference": "8.066430671512427941171747009E-50",
+      "float64_decimal_difference": 6.418476861114186e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.025655434863939085,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 9,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_09.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04541043861536309",
+      "upper_bound_decimal50": "0.017302615837672481655730817509980044369289346143257",
+      "upper_bound_decimal80": "0.017302615837672481655730817509980044369289346143196250594451339416208638785012141",
+      "upper_bound": 0.01730261583767248,
+      "float64_upper_bound": 0.017302615837671745,
+      "decimal_50_80_difference": "6.074940554866058379136121499E-50",
+      "float64_decimal_difference": 7.355227538141662e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.025787413248281793,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 10,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_10.json",
+      "output": "TAIL",
+      "tau_decimal": "0.05195827380521223",
+      "upper_bound_decimal50": "0.020374132394595132324653604033349144587651126965821",
+      "upper_bound_decimal80": "0.020374132394595132324653604033349144587651126965749726490362179503809012203436829",
+      "upper_bound": 0.020374132394595134,
+      "float64_upper_bound": 0.020374132394594943,
+      "decimal_50_80_difference": "7.127350963782049619098779656E-50",
+      "float64_decimal_difference": 1.9081958235744878e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02271589669135914,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 10,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_10.json",
+      "output": "TAIL",
+      "tau_decimal": "0.052038141700904816",
+      "upper_bound_decimal50": "0.020417559362579347092905767145322020320345451492265",
+      "upper_bound_decimal80": "0.020417559362579347092905767145322020320345451492388176095924562365347102881120779",
+      "upper_bound": 0.020417559362579347,
+      "float64_upper_bound": 0.020417559362578965,
+      "decimal_50_80_difference": "1.231760959245623653471028811E-49",
+      "float64_decimal_difference": 3.8163916471489756e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.022672469723374927,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 11,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_11.json",
+      "output": "TAIL",
+      "tau_decimal": "0.0449243015027605",
+      "upper_bound_decimal50": "0.017108988338870373144759472864352457372938419059244",
+      "upper_bound_decimal80": "0.017108988338870373144759472864352457372938419059083656400461942776755078864773985",
+      "upper_bound": 0.017108988338870375,
+      "float64_upper_bound": 0.017108988338869948,
+      "decimal_50_80_difference": "1.603435995380572232449211352E-49",
+      "float64_decimal_difference": 4.2674197509029455e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.0259810407470839,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 11,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_11.json",
+      "output": "TAIL",
+      "tau_decimal": "0.044773980567697436",
+      "upper_bound_decimal50": "0.017049974383506807175563566371585830255381902146499",
+      "upper_bound_decimal80": "0.017049974383506807175563566371585830255381902146795724728762424433543144417210522",
+      "upper_bound": 0.01704997438350681,
+      "float64_upper_bound": 0.01704997438350673,
+      "decimal_50_80_difference": "2.967247287624244335431444172E-49",
+      "float64_decimal_difference": 7.979727989493313e-17,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026040054702447465,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 12,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_12.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04148760804673657",
+      "upper_bound_decimal50": "0.015855369216646526843194418427308312298242730806624",
+      "upper_bound_decimal80": "0.015855369216646526843194418427308312298242730806590546663835987536491811968895419",
+      "upper_bound": 0.015855369216646528,
+      "float64_upper_bound": 0.015855369216647076,
+      "decimal_50_80_difference": "3.345333616401246350818803110E-50",
+      "float64_decimal_difference": 5.48172618408671e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.027234659869307745,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 12,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_12.json",
+      "output": "TAIL",
+      "tau_decimal": "0.041271439113188535",
+      "upper_bound_decimal50": "0.015782858527218923064249354140411677998687599352276",
+      "upper_bound_decimal80": "0.015782858527218923064249354140411677998687599352455987817582065147157640954374640",
+      "upper_bound": 0.01578285852721892,
+      "float64_upper_bound": 0.015782858527218613,
+      "decimal_50_80_difference": "1.799878175820651471576409544E-49",
+      "float64_decimal_difference": 3.0878077872387166e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.027307170558735352,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 13,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_13.json",
+      "output": "TAIL",
+      "tau_decimal": "0.047493087127804756",
+      "upper_bound_decimal50": "0.018182206801405660655806031266281329663522096093521",
+      "upper_bound_decimal80": "0.018182206801405660655806031266281329663522096093550340920463021314250716365848576",
+      "upper_bound": 0.01818220680140566,
+      "float64_upper_bound": 0.018182206801405205,
+      "decimal_50_80_difference": "2.934092046302131425071636585E-50",
+      "float64_decimal_difference": 4.544975507059235e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.024907822284548613,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 13,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_13.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04669823270523921",
+      "upper_bound_decimal50": "0.017836659901750351590313829950016942137881034668851",
+      "upper_bound_decimal80": "0.017836659901750351590313829950016942137881034668590304769894633033945800639684796",
+      "upper_bound": 0.017836659901750353,
+      "float64_upper_bound": 0.01783665990175031,
+      "decimal_50_80_difference": "2.606952301053669660541993603E-49",
+      "float64_decimal_difference": 4.163336342344337e-17,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02525336918420392,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 14,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_14.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04270952241495252",
+      "upper_bound_decimal50": "0.016278891466417054420237253705373946729189969505396",
+      "upper_bound_decimal80": "0.016278891466417054420237253705373946729189969505218141246142396523008373819754197",
+      "upper_bound": 0.016278891466417054,
+      "float64_upper_bound": 0.01627889146641751,
+      "decimal_50_80_difference": "1.778587538576034769916261802E-49",
+      "float64_decimal_difference": 4.544975507059235e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02681113761953722,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 14,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_14.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04222902102628723",
+      "upper_bound_decimal50": "0.016109540697995889334870686311380539699160476196462",
+      "upper_bound_decimal80": "0.016109540697995889334870686311380539699160476196362517962850574595430160493437217",
+      "upper_bound": 0.01610954069799589,
+      "float64_upper_bound": 0.016109540697995903,
+      "decimal_50_80_difference": "9.948203714942540456983950656E-50",
+      "float64_decimal_difference": 1.3877787807814457e-17,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026980488387958385,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 15,
+      "arm": "NEAR_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_15.json",
+      "output": "TAIL",
+      "tau_decimal": "0.044827786390669644",
+      "upper_bound_decimal50": "0.017071051627625240836441310907607722599208592687539",
+      "upper_bound_decimal80": "0.017071051627625240836441310907607722599208592687550002591012137885419184783008652",
+      "upper_bound": 0.01707105162762524,
+      "float64_upper_bound": 0.01707105162762534,
+      "decimal_50_80_difference": "1.100259101213788541918478301E-50",
+      "float64_decimal_difference": 1.0061396160665481e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.026018977458329033,
+      "bound_excludes_uniform_stability": true
+    },
+    {
+      "stream": 15,
+      "arm": "UNIT_FREE",
+      "source": "artifacts/joint_scale_learning/TRAIN/stream_15.json",
+      "output": "TAIL",
+      "tau_decimal": "0.04453788453247398",
+      "upper_bound_decimal50": "0.016958094191149894830846848928305256242374521384101",
+      "upper_bound_decimal80": "0.016958094191149894830846848928305256242374521383863344006576057874372654280336188",
+      "upper_bound": 0.016958094191149894,
+      "float64_upper_bound": 0.01695809419114969,
+      "decimal_50_80_difference": "2.376559934239421256273457197E-49",
+      "float64_decimal_difference": 2.0469737016526324e-16,
+      "envelope_covers": true,
+      "conservative_threshold_gap": 0.02613193489480438,
+      "bound_excludes_uniform_stability": true
+    }
+  ],
+  "conclusion": {
+    "excludes_uniform_C_stability_at_virtual_true_product": true,
+    "conditional_on": "frozen numerical mixed teacher and ideal iid Gaussian-logistic prior law",
+    "limitations": [
+      "No statement about actual learned C, mu, nonzero active scales or finite-amplitude steps",
+      "No diagnosis of Adam or training-history causes",
+      "No empirical estimate of chi; bound is sufficient and may be loose",
+      "No rigorous error certificate for the exact continuous teacher's quadrature PMF"
+    ]
+  },
+  "accounting": {
+    "new_random_draws": 0,
+    "new_model_integrals": 0,
+    "scoring_calls": 0,
+    "baseline_fits": 0,
+    "training_updates": 0,
+    "panel_outputs": 32,
+    "analytic_panel_bounds": 32,
+    "envelope_bounds": 1,
+    "teacher_moment_eigendecompositions": 3,
+    "teacher_orders": [
+      24,
+      32,
+      40
+    ],
+    "decimal_precisions": [
+      50,
+      80
+    ],
+    "arithmetic_guard": 1e-12,
+    "manufactured_discrete_examples": 2
+  }
+}

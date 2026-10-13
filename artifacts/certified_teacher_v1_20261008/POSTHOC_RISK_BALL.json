@@ -1,0 +1,66 @@
+{
+  "schema": "certified_teacher_posthoc_risk_ball_v1",
+  "provenance": "post-execution deterministic consequence of the fixed radius and certified center derivative; not a newly tuned grid or statistical test",
+  "input_sha256": {
+    "artifacts/local_witness_feasibility_v1_20261008/NOMINAL_SUMMARY.json": "0f4861f1539455e6c706ad3ebfaa19bf970dbe6e8db650cf78696a2a7adfb305",
+    "docs/08_research_研究工作/LocalWitnessFeasibility_v1_20261008/GEOMETRY.md": "383da88702fc2593390241a3adf20970d2063c93ebf41af458e76b9a58c6639c",
+    "artifacts/certified_teacher_v1_20261008/TEACHER_RISK_CERTIFICATE.json": "538e2c1ad3f1eed3a90a194f003fde46e74982578c37fff0b2082fda0b1f1c63",
+    "script/certified_teacher_corollary.py": "13013814944ab47e6d7876241caa496bec06f377cbd45de6b1e4f9040738a256"
+  },
+  "precision_bits": 192,
+  "physical_radius_exact": "1/2000000",
+  "parameter_dimension": 24,
+  "candidate_probability_uniform_lower_bound": {
+    "arb_display_only": "[0.00273212532493775387491217257962180860026013104702223088499 +/- 4.42e-60]",
+    "lower_exact_dyadic": {
+      "mantissa": "4390356126325932524225588868475266395189195472854084152487",
+      "exponent_of_two": -200
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "4390356126325932524225588868475266395189195472854084152495",
+      "exponent_of_two": -200
+    }
+  },
+  "risk_Hessian_operator_uniform_upper_expression": {
+    "arb_display_only": "[8784.3700949358144834542482564922033517887347510969252008 +/- 2.73e-53]",
+    "lower_exact_dyadic": {
+      "mantissa": "210343874996950007422847127225210390203060168463142645719",
+      "exponent_of_two": -174
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "420687749993900014845694254450420780406120336926285291439",
+      "exponent_of_two": -175
+    }
+  },
+  "center_risk_direction_upper_endpoint": {
+    "arb_display_only": "[-0.0245645803101201251565660135236328928906167861267746433247 +/- 4.38e-59]",
+    "lower_exact_dyadic": {
+      "mantissa": "-4934219830198416843402256421029108315433654577027829422049",
+      "exponent_of_two": -197
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "-4934219830198416843402256421029108315433654577027829422049",
+      "exponent_of_two": -197
+    }
+  },
+  "risk_direction_uniform_upper_expression": {
+    "arb_display_only": "[-0.0201723952626522179148388893953867912147224187512261807243 +/- 4.60e-59]",
+    "lower_exact_dyadic": {
+      "mantissa": "-4051973673923209439468579023919899474963398500202196370541",
+      "exponent_of_two": -197
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "-4051973673923209439468579023919899474963398500202196370535",
+      "exponent_of_two": -197
+    }
+  },
+  "risk_direction_uniform_upper_below_minus_point020": true,
+  "risk_direction_strictly_negative_throughout_ball": true,
+  "proof": "For every theta in the full physical ball, DR(theta)[d] <= upper(DR(center)[d]) + sup||H_R|| r; Qmin follows GEOMETRY G13-G15. Fixed d is a mathematical unit vector.",
+  "positive_KL_throughout_ball_follows_from_negative_direction": true,
+  "F8_stationary_point_in_ball_proved": false,
+  "true_F8_local_minimum_certified": false,
+  "new_integrals": 0,
+  "new_grid_evaluations": 0,
+  "new_random_draws": 0
+}

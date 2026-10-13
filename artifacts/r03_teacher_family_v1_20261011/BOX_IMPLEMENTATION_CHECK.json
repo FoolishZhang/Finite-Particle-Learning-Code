@@ -1,0 +1,110 @@
+{
+  "schema": "r03_box_manufactured_checks_v1",
+  "candidate": {
+    "status": "passed",
+    "manufactured_labels": 134,
+    "manufactured_grid": "3 Gaussian x 3 Laplace nodes",
+    "manufactured_laplace_factors": 1206,
+    "independent_direct_comparisons": 1200,
+    "independent_direct_reference_labels": 7,
+    "independent_direct_reference_factors": 63,
+    "complement_reflection_pairs": 2,
+    "interval_box_contains_point_gradient": true,
+    "interval_box_contains_point_Hessian_blocks": true,
+    "full_128_label_aggregation_checked": true,
+    "centered_moments_against_unchanged_uncentered_direct_reference": true,
+    "scalar_budget_m": 8,
+    "timeout_partial_checked": true,
+    "rejected_models": 3,
+    "scientific_target_evaluations": 0,
+    "old_npz_reads": 0,
+    "random_draws": 0,
+    "python_flint_version": "0.8.0"
+  },
+  "teacher": {
+    "schema": "r03_teacher_derivative_manufactured_checks_v1",
+    "passed": true,
+    "checks": {
+      "fraction_all256_mass_one": true,
+      "fraction_all256_derivative_mass_zero": true,
+      "fraction_other_seven_joint_marginal_derivative_zero": true,
+      "fraction_missing_label_sign_negative_control_fails": true,
+      "fraction_spinpair_derivatives": true,
+      "fraction_all256_reflected_point_derivative": true,
+      "fraction_all256_complement_derivative": true,
+      "fraction_all_eight_single_spin_derivatives_zero": true,
+      "manufactured_2x2_independent_tanh_q_overlap": true,
+      "manufactured_2x2_independent_score_derivative_overlap": true,
+      "manufactured_2x2_complement_derivative": true,
+      "manufactured_2x2_derivative_zero": true,
+      "manufactured_2x2_mass": true,
+      "fraction_tensor_alias_identity": true,
+      "default_analytic_errors_below_1e_15": true,
+      "reject_float_lambda": true,
+      "reject_short_tail_domain": true,
+      "reject_partial_manufactured_aggregate": true
+    },
+    "default_analytic_L1_errors": {
+      "q_total_L1": {
+        "arb_display_only": "[4.8936553672579449970500853816591443988515106068866218191e-21 +/- 9.28e-77]",
+        "lower_exact_dyadic": {
+          "mantissa": "566646578982203326527321738392387241468860420436130107603",
+          "exponent_of_two": -256
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "2266586315928813306109286953569548965875441681744520430477",
+          "exponent_of_two": -258
+        }
+      },
+      "prime_total_L1": {
+        "arb_display_only": "[5.926554875939937417981420056502966143293515971897861718e-21 +/- 4.82e-76]",
+        "lower_exact_dyadic": {
+          "mantissa": "2744992684258754589137657898449492514225837571597872510259",
+          "exponent_of_two": -258
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "1372496342129377294568828949224746257112918785798936255175",
+          "exponent_of_two": -257
+        }
+      }
+    },
+    "manufactured_grid_points": 4,
+    "manufactured_dimension": 3,
+    "fraction_label_count": 256,
+    "scientific_target_grid_points": 0,
+    "new_scientific_target_integrals": 0,
+    "scientific_data_reads": 0,
+    "python_flint_version": "0.8.0"
+  },
+  "composition": {
+    "schema": "r03_continuous_manufactured_checks_v1",
+    "checks": {
+      "affine_eight_dimensional_root": true,
+      "constant_negative_risk": true,
+      "centered_constant_risk_remainder_zero": true,
+      "strict_json_roundtrip": true,
+      "missing_risk_not_a_complete_certificate": true,
+      "signed_teacher_derivative_preserved": true,
+      "broad_hessian_is_unresolved": true,
+      "nonpositive_preconditioner_fails": true,
+      "partial_grid_rejected": true,
+      "wrong_risk_direction_rejected": true,
+      "own_target_both_forms_same_nonzero_value": true,
+      "own_target_intersection_reduces_common_uncertainty": true,
+      "wrong_own_target_ratio_rejected": true,
+      "zero_mass_caps_invariant_under_common_shift": true,
+      "centered_transfer_caps_do_not_exceed_legacy": true,
+      "legacy_transfer_bound_independently_retained": true
+    },
+    "passed": true,
+    "scientific_integrals": 0,
+    "scientific_input_reads": 0
+  },
+  "risk": {
+    "passed": true,
+    "finite_label_cases": 256,
+    "new_Gaussian_nodes": 0,
+    "new_project_integrals": 0
+  },
+  "new_project_target_calls": 0
+}

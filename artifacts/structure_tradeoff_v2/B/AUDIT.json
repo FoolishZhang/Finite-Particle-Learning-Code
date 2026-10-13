@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-09-30T02:25:13.769286+00:00",
+  "passed": true,
+  "cases": 7,
+  "max_errors": {
+    "whitening_formula_max_error": 1.199040866595169e-14,
+    "full_spectrum_max_error": 1.3433698597964394e-14,
+    "generalized_spectrum_max_error": 3.3306690738754696e-15,
+    "maximum_eigenvalue_error": 3.774758283725532e-15,
+    "direct_logdet_error": 3.0531133177191805e-16,
+    "total_logdet_error": 1.5439038936193583e-15,
+    "symmetry_max_error": 5.898059818321144e-17
+  },
+  "minimum_PSD_slack": -1.5372733755691073e-15,
+  "no_random_observations": true,
+  "no_fits": true,
+  "new_confidence_intervals": 0,
+  "theorem_certified_by_arithmetic": false,
+  "originality_certified": false
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "r03_independent_audit_run_inputs_v1",
+  "specification": {
+    "schema": "r03_independent_audit_inputs_v1",
+    "source_files": [
+      "artifacts/r03_teacher_family_v1_20261011/BOX_INPUTS.json",
+      "artifacts/r03_teacher_family_v1_20261011/DEVELOPMENT.json",
+      "artifacts/r03_teacher_family_v1_20261011/TEACHER_CERTIFICATE.json",
+      "artifacts/certified_teacher_v1_20261008/TEACHER_CERTIFICATE.json"
+    ],
+    "labels": [
+      0,
+      85,
+      127
+    ],
+    "teacher_GH_orders": [
+      80,
+      100
+    ],
+    "teacher_L1_gate_exact": "1e-11",
+    "candidate_entry_gate_exact": "1e-8",
+    "candidate_config": {
+      "K": 8,
+      "precision_bits": 192,
+      "hz": "1/32",
+      "L": "10",
+      "dz": "1/6",
+      "hv": "1/4",
+      "vmin": "-28",
+      "vmax": "56",
+      "dv": "1",
+      "T": "4",
+      "saturation_threshold": 128,
+      "label_mode": "complement"
+    },
+    "lambda_centre_exact": "0",
+    "old_hessian_rep00_comparison": false
+  },
+  "wall_seconds": 120,
+  "run_count": 1,
+  "blas_threads": 1,
+  "purpose": "internal implementation and numerical verification at original a0; no extension of the certified lambda range",
+  "certified_route_closure": "|lambda|<=1/1000; no new continuation chain",
+  "forbidden": [
+    "automatic retry",
+    "rule change",
+    "label selection change",
+    "old source modification",
+    "manuscript modification"
+  ],
+  "public_python_flint_required": true
+}

@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-09-29T12:29:31.677684+00:00",
+  "passed": true,
+  "checks": {
+    "histogram_identities": true,
+    "all_96_seeds_unique": true,
+    "CP_binomial_tail_inversion_pass": true,
+    "all_cells_preserved": true,
+    "quadrature_pass": true
+  },
+  "cells": 12,
+  "independent_streams": 96,
+  "observations": 3145728,
+  "simultaneous_event_intervals": 24,
+  "elapsed_seconds": 45.319923600007314,
+  "all_parameters_and_seeds_frozen": true,
+  "neural_models_fitted": 0,
+  "raw_labels_saved": false,
+  "old_M_preserved_with_failed_numerical_gate": true,
+  "reused_unchanged_simulator_sha256": "4f4a5a7c72d5ef4f4f92dbf18111ddb82a26e63ce6457f64dba57d2db8124261"
+}

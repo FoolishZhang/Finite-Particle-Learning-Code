@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "remaining_required_fixes": [],
+  "source_sha256": "7139acc0d4862d7af44cf519b30dd49ec77239a6f5541d2dc0e3bbec790eb146",
+  "freeze_sha256": "08c384cb9336af21a910d9018cf3af817af503943fa8ce5a16c26efebf2e91fe",
+  "input_files": {
+    "artifacts/scbm_six_frozen_targets/FREEZE.json": "08c384cb9336af21a910d9018cf3af817af503943fa8ce5a16c26efebf2e91fe",
+    "artifacts/scbm_six_frozen_targets/MC/RESULTS.json": "b1e6f750e5f4cde45e9608f3416c9943f8fe8ec02a732b8bf98a853c8f274028",
+    "artifacts/scbm_six_frozen_targets/REFERENCE/RESULTS.json": "7f3367af635a405f11778fc6b2af40046f23877e8c2916be9595a75628fbb007",
+    "artifacts/scbm_six_frozen_targets/RESULTS.json": "f8c9768aa40f87550878349b017e6845b6f9521ac091a25f746aa6ce7317af69",
+    "artifacts/scbm_six_frozen_targets/CONFIG.json": "2b4a2e87985aebf5bfad12b76db1a19efd503c2f26bcc645734cf3aaab9596d8",
+    "artifacts/scbm_six_frozen_targets/CANDIDATES.json": "1c2de1437e53722da5f93606d85a0b8157b64047d3565abd5ca1702adb2fb0d1",
+    "artifacts/scbm_six_frozen_targets/MC/group_00_prefix.npz": "5350def9e7bd20838ed3cd18858c584ec8c0d19d132a8bf7ff45d522fe9c93fc",
+    "artifacts/scbm_six_frozen_targets/MC/group_01_prefix.npz": "f918d939bb0dba4d60b269f699b12d701bd1a47ac494fc8cde895bdb296223fa",
+    "artifacts/scbm_six_frozen_targets/MC/group_02_prefix.npz": "5ed49939d4f6e653c49e8ae64005588762548f1baa32ab75c7421dd4bfe1f244",
+    "artifacts/scbm_six_frozen_targets/MC/group_03_prefix.npz": "4dfda44711367f1ba375699572963434149a3a9d83d986b2aab91714564b5f5c",
+    "artifacts/scbm_six_frozen_targets/MC/group_04_prefix.npz": "f2fcf34dc2f01382525cf058c88ffa8fc49eb9ee2fa0f60fa4f3663ef92c5fce",
+    "artifacts/scbm_six_frozen_targets/MC/group_05_prefix.npz": "3264713bc921e6abdab46efa5ad5a2ec05eadcd3237837f9f1c55825c358ed28",
+    "artifacts/scbm_six_frozen_targets/MC/group_06_prefix.npz": "51699ef5cc6a0fb6f7b050e427932984bd562db276726e09778139409378cfaf",
+    "artifacts/scbm_six_frozen_targets/MC/group_07_prefix.npz": "8877e56e292e4ab18b39fa2a8d1ac5d3cb11a2cc26520424e96fe73dde11a7f7",
+    "artifacts/scbm_six_frozen_targets/MC/group_08_prefix.npz": "7847a59d1d55bfddb06543abe10e3c9907744047e599404ce1bade78c0e5fa0c",
+    "artifacts/scbm_six_frozen_targets/MC/group_09_prefix.npz": "19c1bfcfa55972f30f9d3ae7ca222a37615b20dd8cfd5fda9903649a4e1b5fc5",
+    "artifacts/scbm_six_frozen_targets/MC/group_10_prefix.npz": "0ff7733865b7124f6528102d13b4d81935900c97d30f6ab37d9ce52e8627cde5",
+    "artifacts/scbm_six_frozen_targets/MC/group_11_prefix.npz": "728e0b37379a1ad9298ee84862af7ec4b137cd9f91a7bbe05d89720e3dd9b6ac",
+    "artifacts/scbm_six_frozen_targets/MC/group_12_prefix.npz": "aebf8d1a1abb3c74976ef21200ae909da414b3f9584e51f30c69b8b5114baed1",
+    "artifacts/scbm_six_frozen_targets/MC/group_13_prefix.npz": "3b0386bc9cab7bbeb3d0e237e99921e1996a7888b0cfda827d9cb153e04a783b",
+    "artifacts/scbm_six_frozen_targets/MC/group_14_prefix.npz": "34f6c7581514fae05b39a9c07a118e78bb8dba06db41564ee0a5b9b521b1f7f1",
+    "artifacts/scbm_six_frozen_targets/MC/group_15_prefix.npz": "a0efb4bef106a536b782a0bc4dd96625c431dcd209a3133b8f22736168094834",
+    "artifacts/scbm_six_frozen_targets/MC/group_16_prefix.npz": "f553a49906ff8e780dbbb272847876a27cd54e5d6f8a3ece6a3950bcca259ad5",
+    "artifacts/scbm_six_frozen_targets/MC/group_17_prefix.npz": "f6bdca596b39c01cf52991389df54dd6626c20e6ce81aa7b0d68bfe3c1cb84a3",
+    "artifacts/scbm_six_frozen_targets/MC/group_18_prefix.npz": "cb31fd1e83c441800a4a2c5ca40bf246752c7a052d538038a5ed81a8b500af1b",
+    "artifacts/scbm_six_frozen_targets/MC/group_19_prefix.npz": "6426aa01e52fb631c205991b142ca5b03bb777db926e820087a5ea2b83830ebb",
+    "artifacts/scbm_six_frozen_targets/MC/group_20_prefix.npz": "34d29aabe0147615e655e2658454e3980d3f09387b97e8f78e84cb8130bb1910",
+    "artifacts/scbm_six_frozen_targets/MC/group_21_prefix.npz": "b7b7993b229f6347713f8e43e9b31a9775374c62eba04e4f94b283e3e26469fa",
+    "artifacts/scbm_six_frozen_targets/MC/group_22_prefix.npz": "9ca7eb7e98454ae7f876812d4fe2a8c2d9aeb49156df45fde9b812f569a81391",
+    "artifacts/scbm_six_frozen_targets/MC/group_23_prefix.npz": "79dd0378cff4637f50be2782d6f9a008512e90b8b5026b1e1a15c5b7ad0f9717",
+    "artifacts/scbm_six_frozen_targets/MC/group_24_prefix.npz": "1a4cc91d3222a5f7b82fe0715c5e08662560cb2c9309af31c90f67fbbf4cbb80",
+    "artifacts/scbm_six_frozen_targets/MC/group_25_prefix.npz": "4c4b8aa3f9e2dab9c08c12a1cdeb182f098da37c625736cc90195f19d675534f",
+    "artifacts/scbm_six_frozen_targets/MC/group_26_prefix.npz": "c449d22ad7012b7e940cf288cca6f30d6f80ca835f623f5194f6f488ad93a35b",
+    "artifacts/scbm_six_frozen_targets/MC/group_27_prefix.npz": "eb52f95ff032a49a54696bb66efd461ad85450b9e32c322535ca19fd63cb3098",
+    "artifacts/scbm_six_frozen_targets/MC/group_28_prefix.npz": "ad99f24b3d76c6bb1a29ebd59b4baf8d86733b33222611acd3db1850018e7a2e",
+    "artifacts/scbm_six_frozen_targets/MC/group_29_prefix.npz": "f3b5749875b30dd6db4a3d6713b3acf90541a8721ddbdd746d4a79263f0f506e",
+    "artifacts/scbm_six_frozen_targets/MC/group_30_prefix.npz": "cc3d057c5a2ddccc7880c4e2370d6bdb4e2c05e91930224b244cb0c63e74f6b3",
+    "artifacts/scbm_six_frozen_targets/MC/group_31_prefix.npz": "5c0927d2fdf355f936ac98757e82d30e640767580da500466bbf913ec4119bdc"
+  },
+  "preparation_audit": {
+    "candidate_count": 35,
+    "old_PMF_mappings": 34,
+    "old_data_sets": 16,
+    "label_rows": 65536,
+    "new_RNG": 0,
+    "new_model_integrals": 0
+  },
+  "production_RNG_replay": {
+    "groups": 32,
+    "roles": 64,
+    "Gaussian_scalars": 851968000,
+    "all_hashes_and_states_match": true,
+    "new_independent_draws": 0
+  },
+  "prefix_score_audit": {
+    "cases": 143360,
+    "maximum_score_error": 5.684341886080802e-14,
+    "maximum_block_mean_error": 8.526512829121202e-14,
+    "scope": "First4 banks/group all35 candidates,2 profiles,16patterns; all saved block arithmetic."
+  },
+  "native_API_replay": {
+    "calls": 192,
+    "maximum_native_replay_difference": 0.0,
+    "production_passed": true,
+    "independent_new_random_draws": 0
+  },
+  "statistics_audit": {
+    "passed": true,
+    "primary_contrasts": 11,
+    "group_values": 352,
+    "candidates": 35,
+    "per_model_descriptive": 128,
+    "effects": 10,
+    "precision": 5,
+    "combined": 5,
+    "qualification_failures_not_overridden": true,
+    "new_tests": 0
+  },
+  "reference_audit": {
+    "saved_arithmetic": {
+      "candidates": 35,
+      "V_rule_values": 105,
+      "V_pair_integrals": 630,
+      "maximum_saved_arithmetic_error": 0.0
+    },
+    "independent": {
+      "passed": true,
+      "V_records": [
+        {
+          "index": 0,
+          "value": -0.011474033388148128,
+          "production": -0.01147403338813923,
+          "difference": 8.897396708285044e-15,
+          "passed": true
+        },
+        {
+          "index": 1,
+          "value": -0.025110729522988547,
+          "production": -0.025110729522975817,
+          "difference": 1.272940086671781e-14,
+          "passed": true
+        },
+        {
+          "index": 2,
+          "value": -0.02187933941254468,
+          "production": -0.021879339412532103,
+          "difference": 1.2576745200831851e-14,
+          "passed": true
+        },
+        {
+          "index": 17,
+          "value": -0.014292809605790435,
+          "production": -0.014292809605783302,
+          "difference": 7.13318293321663e-15,
+          "passed": true
+        },
+        {
+          "index": 34,
+          "value": -0.012350636586369645,
+          "production": -0.012350636586360916,
+          "difference": 8.729128531115293e-15,
+          "passed": true
+        }
+      ],
+      "mean_PMF": [
+        0.063737900688196,
+        0.09338591672428256,
+        0.06684286775191266,
+        0.12177156226916684,
+        0.05070665431095182,
+        0.06943695928363551,
+        0.057678107221939424,
+        0.09820738389578498,
+        0.03699797767535418,
+        0.05865443561311606,
+        0.03359004655002675,
+        0.066260461613489,
+        0.03459370273199146,
+        0.051245284086925774,
+        0.034085390923758244,
+        0.06280534865946892
+      ],
+      "mean_PMF_maximum_difference": 2.0913826226376386e-14,
+      "mean_PMF_normalization_error": 2.220446049250313e-16,
+      "new_V_candidate_integrals": 5,
+      "new_V_pair_rule_integrals": 30,
+      "new_bivariate_nodes": 2764800,
+      "new_PMF_integrals": 1,
+      "new_PMF_pattern_integrals": 16,
+      "new_four_dimensional_nodes": 1679616,
+      "roots": "symmetric covariance roots; NumPy hermgauss/leggauss, not production routines",
+      "no_extra_rules_or_retries": true
+    }
+  },
+  "seconds": 18.485140799893998,
+  "new_independent_scientific_draws": 0,
+  "new_model_integrals": {
+    "V_candidates": 5,
+    "V_pair_rules": 30,
+    "PMFs": 1,
+    "bivariate_nodes": 2764800,
+    "four_dimensional_nodes": 1679616
+  },
+  "scope": "All production inputs replayed, all saved arithmetic/statistics checked; independent bottom-level scores limited to first4 banks/group. No full scientific scoring rerun or training. New audit quadratures are explicitly budgeted and counted."
+}

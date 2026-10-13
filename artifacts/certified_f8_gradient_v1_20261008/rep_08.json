@@ -1,0 +1,142 @@
+{
+  "status": "completed",
+  "pair_counts": [
+    0,
+    0,
+    2,
+    2
+  ],
+  "K": 8,
+  "precision_bits": 192,
+  "conditional_gradient_finite": [
+    {
+      "arb_display_only": "[0.221323877754975254674799331611951838808069386373315533 +/- 4.50e-55]",
+      "lower_exact_dyadic": {
+        "mantissa": "2778544994276529524213284919785817593026704722695474829589",
+        "exponent_of_two": -193
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "2778544994276529524213284919785817593026704722695474833559",
+        "exponent_of_two": -193
+      }
+    },
+    {
+      "arb_display_only": "[0.240744457206023719160023881287794223648650720307551903 +/- 2.58e-55]",
+      "lower_exact_dyadic": {
+        "mantissa": "6044709800450623962368785675290432816352245558141042812253",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "6044709800450623962368785675290432816352245558141042820787",
+        "exponent_of_two": -194
+      }
+    },
+    {
+      "arb_display_only": "[0.0218892594459622793476041878712081992235833687322259618 +/- 6.39e-56]",
+      "lower_exact_dyadic": {
+        "mantissa": "4396835470546531775992492120120366421650927574719362366439",
+        "exponent_of_two": -197
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4396835470546531775992492120120366421650927574719362375077",
+        "exponent_of_two": -197
+      }
+    },
+    {
+      "arb_display_only": "[0.0304420615783043037508123807567459720438804745416971454 +/- 5.93e-56]",
+      "lower_exact_dyadic": {
+        "mantissa": "3057406680990754288896419974655709832140968913598516492243",
+        "exponent_of_two": -196
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "764351670247688572224104993663927458035242228399629124399",
+        "exponent_of_two": -194
+      }
+    }
+  ],
+  "gradient_coordinates": "orthonormal pair directions (e_j+e_(m-1-j))/sqrt2, m=2*pair_count",
+  "inner_grid": {
+    "h_exact": "1/40",
+    "L_exact": "11",
+    "nodes": 881,
+    "full_weights": true
+  },
+  "outer_grid": {
+    "h_exact": "1/8",
+    "vmin_exact": "-32",
+    "vmax_exact": "64",
+    "nodes_prescribed": 769,
+    "nodes_completed": 769,
+    "full_weights": true
+  },
+  "raw_normal_grid_mass": {
+    "arb_display_only": "[0.999999999999999999999999999668413731846192154600423413 +/- 1.09e-55]",
+    "lower_exact_dyadic": {
+      "mantissa": "1569275433846670190958947355281566419210923734950641808823",
+      "exponent_of_two": -190
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "3138550867693340381917894710563132838421847469901283618117",
+      "exponent_of_two": -191
+    }
+  },
+  "normal_mass_strictly_below_one": true,
+  "psi_completed_grid_lower_endpoint": {
+    "arb_display_only": "[-2.41567243452129280135786899005065908728322540061970954676e-62 +/- 2.18e-119]",
+    "lower_exact_dyadic": {
+      "mantissa": "-7436120330739634047822429829599706664514046245939021",
+      "exponent_of_two": -377
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "-7436120330739634047822429829599706664514046245939021",
+      "exponent_of_two": -377
+    }
+  },
+  "psi_completed_grid_upper_endpoint": {
+    "arb_display_only": "[0.999999999999999961009978680708428651292170851746319577863 +/- 3.78e-58]",
+    "lower_exact_dyadic": {
+      "mantissa": "3138550867693340259545729468559431853267386115992341649205",
+      "exponent_of_two": -191
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "3138550867693340259545729468559431853267386115992341649205",
+      "exponent_of_two": -191
+    }
+  },
+  "psi_upper_bounded_by_raw_normal_mass": true,
+  "coefficients_or_Gaussian_mass_renormalized": false,
+  "likelihood_scale_exact": "1",
+  "physical_u": "exp(v)",
+  "saturation_threshold": 128,
+  "saturation_is_interval_outer_enclosure": true,
+  "saturation_caps": {
+    "exp_upper_exact": "2^-184",
+    "t_exp_upper_exact": "2^-177",
+    "mathematical_lower_exact": "0",
+    "threshold_exact": "128",
+    "bounds_verified_with_Arb": true,
+    "Arb_ball_outward_rounding_retained": true,
+    "numeric_nonnegative_lower_endpoint_required": false
+  },
+  "backend": "arb_mat",
+  "last_completed_v_index": 512,
+  "current_partial_inner_factors": 0,
+  "resources": {
+    "laplace_factors_evaluated": 677489,
+    "saturated_factor_enclosures": 318164,
+    "ordinary_exponential_calls": 359325,
+    "inner_nodes": 881,
+    "outer_nodes_completed": 769,
+    "new_kernel_calls": 0,
+    "new_random_draws": 0,
+    "new_optimizer_updates": 0
+  },
+  "wall_seconds": 1.0720026999988477,
+  "finite_sum_arithmetic_enclosed": true,
+  "analytic_discretization_tail_teacher_errors_added": false,
+  "true_F8_gradient_certified": false,
+  "true_F8_stationary_existence_certified": false,
+  "representative_index": 8,
+  "inputs_sha256": "3179ac880eeb879b32d2cee3b1c15d1deff6a56414885965e5f85966be0d09a8",
+  "freeze_sha256": "ad9a58ea3c8fc76c30c3737a2bb0a9ad9d0b4e9139843ed3241d75dfe4dccae1"
+}

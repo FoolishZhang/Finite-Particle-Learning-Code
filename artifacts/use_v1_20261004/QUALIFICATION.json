@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "stage": "USE0",
+  "date": "2026-10-04",
+  "candidate": "Fixed SCBM hard prediction head and L1 precision restored in the existing four-active plus independent centered nuisance semi-synthetic family",
+  "decision": "candidate_not_qualified_for_USE1_stop",
+  "contract_sha256": "a84780325e5205a27f1e066387ae663f4edb877486766339214072459e2ade3b",
+  "source_audit_sha256": "f8c7a07e42bc8e91079493990d20a7712025a0852678de7cd27143a6834918b4",
+  "gates": [
+    {
+      "id": "G1",
+      "status": "partial_support_retention_reason_not_established"
+    },
+    {
+      "id": "G2",
+      "status": "restricted_family_identity_proved_full_standard_family_not_qualified"
+    },
+    {
+      "id": "G3",
+      "status": "same_information_simple_concept_alternative_available_stop_condition"
+    },
+    {
+      "id": "G4",
+      "status": "real_arithmetic_scope_qualified_native_numerics_not_tested"
+    },
+    {
+      "id": "G5",
+      "status": "controlled_reference_feasible_full_target_risk_contract_not_frozen"
+    }
+  ],
+  "scientific_budget_used": {
+    "rng": 0,
+    "data_processing": 0,
+    "scoring_or_api_forward": 0,
+    "integration": 0,
+    "fitting_or_training": 0,
+    "statistical_inference": 0
+  },
+  "use1_started": false,
+  "does_not_claim": [
+    "full SCBM failure",
+    "full training solved by Rao-Blackwellization",
+    "straight-through gradient invariance",
+    "full standard dense model-class invariance",
+    "new task-risk measurements"
+  ],
+  "author_documents": [
+    {
+      "path": "docs/08_research_研究工作/USE_v1_20261004/CONTRACT.md",
+      "sha256": "a84780325e5205a27f1e066387ae663f4edb877486766339214072459e2ade3b"
+    },
+    {
+      "path": "docs/08_research_研究工作/USE_v1_20261004/FAILURES.md",
+      "sha256": "9d9b7c2c66422136f089b8eeee117aa893edf13b375631c749b3b6f6d36e1830"
+    },
+    {
+      "path": "docs/08_research_研究工作/USE_v1_20261004/QUALIFICATION.md",
+      "sha256": "6c48a0b1c00f15e34caba3f976b385509b94ce2bdecc5496f970544e199339c4"
+    },
+    {
+      "path": "docs/08_research_研究工作/USE_v1_20261004/README.md",
+      "sha256": "68423be2583294a89793f83d7fe8f90ae3dbe182305f4838943c5fd2f4385a2a"
+    },
+    {
+      "path": "docs/08_research_研究工作/USE_v1_20261004/RESULTS.md",
+      "sha256": "1703d4f6d28e037ed975acae8dd7fb53043ad7c56d55ba5e468a4e3ecaf27b51"
+    },
+    {
+      "path": "docs/08_research_研究工作/USE_v1_20261004/SOURCES.md",
+      "sha256": "c3dafeb4d97a59d1808311e951d625051d0ead2bc97c54eba06d8ba4c32961bc"
+    }
+  ]
+}

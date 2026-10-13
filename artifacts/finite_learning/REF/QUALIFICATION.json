@@ -1,0 +1,22 @@
+{
+  "all_passed": true,
+  "dimensions": [
+    {
+      "d": 16,
+      "lookup_qualified": true,
+      "quad_qualified": true,
+      "reference_qualified": true
+    },
+    {
+      "d": 64,
+      "lookup_qualified": true,
+      "quad_qualified": true,
+      "reference_qualified": true
+    }
+  ],
+  "reference_PMFS": 98,
+  "variant_PMF_evaluations": 294,
+  "new_samples": 0,
+  "new_fits": 0,
+  "strict_integral_error_certificate": false
+}

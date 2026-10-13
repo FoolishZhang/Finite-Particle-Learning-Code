@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-07T13:10:12.312617+00:00",
+  "command": [
+    "[author-local path omitted]",
+    "script/prospective_explanation_compute.py",
+    "--check"
+  ],
+  "exit_code": 0,
+  "passed": true,
+  "source_sha256": "1ea009c72eec32aff1848cdf340afc69133097e372036a062e81f91b101c5ad9",
+  "result": {
+    "passed": true,
+    "mode": "check",
+    "units": 12,
+    "new_quadrature_calls": 0,
+    "new_training": 0,
+    "saved_array_derivation_repeated": true,
+    "seconds": 1.4091397000011057
+  },
+  "stdout": "{\"passed\": true, \"mode\": \"check\", \"units\": 12, \"new_quadrature_calls\": 0, \"new_training\": 0, \"saved_array_derivation_repeated\": true, \"seconds\": 1.4091397000011057}\n",
+  "stderr": ""
+}

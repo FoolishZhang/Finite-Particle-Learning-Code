@@ -1,0 +1,265 @@
+{
+  "outer_banks": 4,
+  "K": 100,
+  "nuisance": 256,
+  "observations": 4096,
+  "batch_size": 64,
+  "steps": 512,
+  "tail_postupdates": 64,
+  "initial_rho": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": 1.0,
+  "lr_rho": 0.02,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0,
+  "eigen_floor": 0.1,
+  "repair_target": 0.1001,
+  "shuffle": false,
+  "gradient_clip": false,
+  "learning_rate_schedule": false,
+  "early_stop": false,
+  "workers": 8,
+  "torch_threads": 1,
+  "roles": {
+    "active": 0,
+    "noise": 1
+  },
+  "draw_shape_order": "float64[K,batch,coordinate], C-order, cast once per bank",
+  "numerical_preupdate_steps": [
+    0,
+    31,
+    127,
+    511
+  ],
+  "numerical_loss_tolerance": 0.0001,
+  "numerical_gradient_tolerance": 2e-05,
+  "schema": "scbmseq-config-v1",
+  "data_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "repeats": 2,
+  "strategies": [
+    "IN4",
+    "OUT4",
+    "SEQ4",
+    "FACT"
+  ],
+  "arms": [
+    "IN4",
+    "OUT4",
+    "SEQ4",
+    "FACT"
+  ],
+  "programs": [
+    "IN4",
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "SEQ4",
+    "FACT"
+  ],
+  "members": [
+    "M0",
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "seed_base": 202610040100,
+  "seed_format": "[seed_base,data_id,repeat,bank_index,role]",
+  "seq_bank_order": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "seq_lr_rho": 0.02,
+  "seq_tail": "last64_macrostep_end_states",
+  "data_generation": {
+    "seed_base": 202610040000,
+    "roles": {
+      "active_normal": 0,
+      "active_uniform": 1,
+      "nuisance_uniform": 2
+    },
+    "seed_format": "[seed_base,data_id,role]",
+    "normal_shape": [
+      4096,
+      4
+    ],
+    "active_uniform_shape": [
+      4096,
+      4
+    ],
+    "nuisance_uniform_shape": [
+      4096,
+      256
+    ],
+    "dtype": "float64",
+    "labels_dtype": "int8",
+    "law": "active u<sigmoid(z@chol(C_truth).T+mu), independent nuisance u<.5"
+  },
+  "training_family": {
+    "alpha": 0.025,
+    "size": 5,
+    "df": 15,
+    "primary_order": [
+      "OUT4_minus_IN4",
+      "SEQ4_minus_OUT4",
+      "OUT4_minus_I",
+      "SEQ4_minus_I",
+      "FACT_minus_I"
+    ],
+    "SE_thresholds": [
+      0.0005,
+      0.0005,
+      0.0002,
+      0.0002,
+      0.0002
+    ],
+    "units": "16 independent new datasets with independent training priors; each averages2 quartets",
+    "two_sided": true,
+    "direction_open": true
+  },
+  "evaluation": {
+    "data_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "groups": 8,
+    "banks_per_group": 512,
+    "K": 100,
+    "nuisance": 256,
+    "chunk": 64,
+    "workers": 4,
+    "seed_base": 202610040200,
+    "roles": {
+      "active": 0,
+      "noise": 1
+    },
+    "seed_format": "[seed_base,data_id,group,role]",
+    "profiles": [
+      "raw",
+      "FACT"
+    ],
+    "candidates": 130,
+    "local_candidates": 10,
+    "saved_prefix_banks": 2,
+    "alpha": 0.025,
+    "family_size": 2,
+    "df": 15,
+    "SE_threshold": 0.0005,
+    "primary_order": [
+      "raw_P_OUT4_minus_IN4",
+      "raw_P_SEQ4_minus_OUT4"
+    ],
+    "two_sided": true,
+    "direction_open": true,
+    "canonical_nuisance_label": 0,
+    "native_data_ids": [
+      0,
+      15
+    ],
+    "native_groups": [
+      0
+    ]
+  },
+  "reference": {
+    "new_candidates": 128,
+    "old_candidates": 2,
+    "orders": [
+      24,
+      32,
+      40
+    ],
+    "main_order": 32,
+    "maximum_PMF_change": 5e-08,
+    "normalization_tolerance": 2e-12,
+    "workers": 4,
+    "include_LAST": false,
+    "include_dataset_arm_means": false
+  },
+  "audit": {
+    "training_API_data_ids": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "training_API_repeats": [
+      0
+    ],
+    "training_API_steps": [
+      0,
+      31,
+      127,
+      511
+    ],
+    "evaluation_prefix_banks": 2,
+    "reference_data_ids": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "reference_tail_repeats": [
+      0
+    ],
+    "reference_arms": [
+      "IN4",
+      "OUT4",
+      "SEQ4",
+      "FACT"
+    ],
+    "reference_order": 36,
+    "reference_root": "symmetric",
+    "reference_max_difference": 5e-08
+  },
+  "new_observations": 65536,
+  "new_training_programs": 224,
+  "new_training_prior_vectors": 419430400,
+  "new_training_prior_Gaussians": 109051904000,
+  "new_training_API_calls": 212992,
+  "new_training_optimizer_calls": 163840,
+  "new_eval_prior_vectors": 6553600,
+  "new_eval_prior_Gaussians": 1703936000
+}

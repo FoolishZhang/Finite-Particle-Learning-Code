@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tests_run": 3,
+  "source_sha256": {
+    "script/certified_teacher_audit.py": "79a54e98538c8546290409c18da6f5929205b98ef3eb0740e1697848e691258b",
+    "script/certified_teacher_audit_test.py": "63b20120d7233604501037b7f454624ac4559dc803a9ba253d57ef0b022e4f07"
+  },
+  "manufactured_m3_grid_points_per_method": 25,
+  "manufactured_grid_methods": 2,
+  "real_teacher_grid_points": 0,
+  "new_random_draws": 0,
+  "scientific_array_reads": 0
+}

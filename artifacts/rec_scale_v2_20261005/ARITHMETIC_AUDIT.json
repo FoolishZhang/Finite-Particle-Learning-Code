@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source_sha256": "1aa721b29030963a14f5c3f21a47e7911f303f1b4a171881a5441c6d9446a46e",
+  "result_sha256": "a04c2f370dccf6dfa8fbbf94402953349d89db7f8970b298925d0897e567f035",
+  "models": 96,
+  "risk_recomputations": 96,
+  "capacity_pairs_recomputed": 384,
+  "primary_MC_cells": 16,
+  "max_risk_error": 1.2620113287731272e-16,
+  "max_direct_score_error": 6.661338147750939e-15,
+  "max_marginal_error": 9.992007221626409e-16,
+  "direct_pattern_scores": 768,
+  "replayed_Gaussian": 3328000,
+  "independent_1D_GH96_calls": 256,
+  "scope": "All saved arithmetic plus prescribed marginal and first-bank checks; no new scientific data or banks; not external expert reproduction"
+}

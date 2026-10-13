@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-02T09:07:51.225360+00:00",
+  "source_sha256": "6d4b00e41e738f9babcd713c1a915c97f47901a0d9a2909e84a90ec483b9b7c0",
+  "inputs": {
+    "script/curvcal_audit_stats.py": "6d4b00e41e738f9babcd713c1a915c97f47901a0d9a2909e84a90ec483b9b7c0",
+    "artifacts/calibration_precision/STATS_AUDIT/SELFTEST.json": "314456cbd34b6848b7d078cceac179b1cc1c81f1871267b367fed8f3afd9ef95",
+    "artifacts/calibration_precision/TRAIN/FREEZE.json": "d76e2862d6ce7bfd30cce8f705e726db676946816f845288e8741d8c063dced8",
+    "docs/08_research_研究工作/校准精度与跨尺度学习_20261002/PLAN.md": "2af9b11c240a2e68e9146c02b1a2b12ebc7a7661530e660ed9474139634a0bc3",
+    "artifacts/calibration_precision/CAL/FULL/MODEL.json": "0c246bbdf70b73b30db4cb2bf1db390630a392254302ccec5bbd05829c91dd92",
+    "artifacts/calibration_precision/CAL/LOCAL/MODEL.json": "4e9cb258f1289300dee9287bf0ffc8a9904324dc8208c4d6763e7c750f29f3fd",
+    "script/curvcal_analysis.py": "caff21c94c26eb6a7ac2f88a02786f45e5dfea2af37e66f48d71dfd8861c0bf4"
+  },
+  "analysis_existed_at_freeze": false,
+  "expected_outputs": 2304,
+  "expected_cells": 144,
+  "expected_primary_gates": 5,
+  "expected_error_rows": 1920,
+  "expected_gradient_rows": 1920,
+  "expected_curvature_rows": 768,
+  "curvature_summary_slots": 48,
+  "methods": [
+    "raw",
+    "marg",
+    "asymquad",
+    "fullfinite",
+    "localquad",
+    "exact"
+  ],
+  "cases": [
+    "n62_K64",
+    "n62_K256",
+    "n254_K64",
+    "n254_K256"
+  ],
+  "teachers": [
+    0.0,
+    0.3,
+    0.6
+  ],
+  "bank_prefixes": [
+    128,
+    512
+  ],
+  "numerical_tolerance": {
+    "absolute": 3e-12,
+    "relative": 3e-10
+  },
+  "risk_absolute_tolerance": 2e-14,
+  "scope": "Scalar fsum statistics, forward-CDF t critical, independent PCHIP/Horner penalties and b/rprime, all saved-gradient diagnostics, rational known error checks conditional on saved base curvature.",
+  "excluded": "No RNG replay or underlying likelihood/path-gradient recomputation; no strict quadrature or full floating-point certificate; production author auditing independent analysis is not blind production audit.",
+  "new_random_draws": 0,
+  "new_model_integrals": 0,
+  "automatic_retry": false
+}

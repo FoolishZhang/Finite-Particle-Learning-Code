@@ -1,0 +1,35 @@
+{
+  "schema": "finite_particle_learning_public_release_v1",
+  "version": "1.0.0",
+  "source_tag": "v1.0.0",
+  "data_tag": "data-v1.0.0",
+  "date": "2026-10-13",
+  "repository": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code",
+  "author_display": "ZHANG",
+  "author_display_provisional": true,
+  "paper_version": "h2.2",
+  "paper_submitted": false,
+  "status": "prepared; data download verification pending",
+  "independent_public_history": true,
+  "license": {
+    "original_software": "MIT",
+    "original_documents_figures_synthetic_data": "CC-BY-4.0",
+    "third_party": "see THIRD_PARTY_NOTICES.md"
+  },
+  "verification_levels": {
+    "saved_arithmetic": "passed in clean export and new isolated environment",
+    "small_production": "16 targets passed through original functions",
+    "paper_scale_production": "not run for this release",
+    "historical_training": "source-only with stated dependencies"
+  },
+  "paper_sha256": {
+    "en": "fe8556e9b03037975b808d76ea7eda3fc6d48b3e7e5818d0fb4d693dbb974c24",
+    "zh": "23455ed4c3b7ec7d0c7dbcd5f42a6a45c102432d762c2f941ad53c8d5c706135"
+  },
+  "anonymous_snapshot": {
+    "path": "supplementary/h2_2",
+    "status": "original low-cost snapshot preserved byte-for-byte; no expanded anonymous production snapshot generated",
+    "manifest_sha256": "8766828fa556f135fc90d801b909c555f8eb9a352211fc24dca01b18cde2a2a2"
+  },
+  "evidence_policy": "Saved scientific endpoints remain references; no full production or training replay is claimed."
+}

@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-10-06T05:29:24.141840+00:00",
+  "stage": "manufactured_qualification_before_any_scientific_bank_read",
+  "sources": {
+    "script/failure_probability_compute.py": "782883cce803b835aa2a004dd8bc38109cc50af77fb87fc5b790c32b0a7805dd",
+    "docs/08_research_研究工作/FailureProbability_v1_20261006/DEVELOPMENT_CONTRACT.md": "dacda2ceb98b21281b77d794b0c6f53d4ca80856d323df07ee81a3d0d5f20ec9",
+    "docs/00_project_项目管理/RESEARCH_QUESTIONS_1_2_20261006.md": "12cbb9634be08500bb5d62c5a164a00fc4488094ee177a44e0e02521af54d6f6",
+    "script/nuisance_contrast_compute.py": "3187c6299c0ecd9266c00a3377c2d16a3314a8a76b0accc9384bc9f4774f0578",
+    "script/finite_selection_compute.py": "2250773a392e4c31051d112cbf7842cacbb50f3bb9e0a07821532c1ada6d7bba",
+    "artifacts/nuisance_contrast_v1_20261006/RESULTS.json": "b8f94914b5a704cb7dbf422efe8f739c38dbeba04588c7445627c7322b8dedd7",
+    "artifacts/failure_probability_v1_20261006/HANDOFF_INPUT.md": "ebc8a5376d6f28ebbeaae2acc93ed5609c744c5e5c29203c018036dc101fb365"
+  },
+  "source_array": "artifacts/nuisance_contrast_v1_20261006/EVALUATION_BANKS.npz",
+  "expected_source_array_sha256": "2fc7f9e258b80332123c29c3600c476ef80348f67fdde0889f7bab8883bfc8d8",
+  "expected_source_array_bytes": 843055846,
+  "reference_results": "artifacts/nuisance_contrast_v1_20261006/RESULTS.json",
+  "feedback_use": "reference; implementation and post-hoc development diagnostics only",
+  "label_order": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "tolerance": 1e-11,
+  "block": 256,
+  "N_data": 65536,
+  "B_selection": 16384,
+  "development_truncation_thresholds": [
+    5.5,
+    6.0,
+    6.5,
+    8.0
+  ],
+  "old_scientific_array_opened": false,
+  "new_rng": 0,
+  "new_confidence_family": false,
+  "probability_guarantee_claimed": false
+}

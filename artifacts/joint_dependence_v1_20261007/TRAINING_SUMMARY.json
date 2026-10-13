@@ -1,0 +1,460 @@
+{
+  "created_utc": "2026-10-06T23:15:02.574632+00:00",
+  "sources": {
+    "artifacts/joint_dependence_v1_20261007/rep_00/RESULTS.json": "c0a9807061e49421b278c8a4e8adfe1e7f1898e429b1bce9e4a2862c3787eae9",
+    "artifacts/joint_dependence_v1_20261007/rep_01/RESULTS.json": "474fe0413e13f8141ee63a471f3492baa5859cf856c668259dca26e204e76b61",
+    "artifacts/joint_dependence_v1_20261007/rep_02/RESULTS.json": "bd5854e35abf283b129cccf8823c770892156c283a4e1768551138ad4f0ab9a7",
+    "artifacts/joint_dependence_v1_20261007/rep_03/RESULTS.json": "7149f29f0ff2954df8b337b0cd15c1091d716602071bae738d14d24e105d131a"
+  },
+  "rows": [
+    {
+      "rep": 0,
+      "candidate": "K8",
+      "risk_KL": 0.0107141731154313,
+      "empirical_NLL": 5.448719579093206,
+      "mean_row_norm": 0.5967806003209446,
+      "mean_pair_angle_cosine": 0.9999922254015235,
+      "second_normalized_Gram_eigenvalue": 5.44219465317881e-05,
+      "qualified": true
+    },
+    {
+      "rep": 0,
+      "candidate": "K64",
+      "risk_KL": 0.0008827792346407792,
+      "empirical_NLL": 5.436870401436633,
+      "mean_row_norm": 0.7858354001936823,
+      "mean_pair_angle_cosine": 0.7846261220511185,
+      "second_normalized_Gram_eigenvalue": 1.4566574947483433,
+      "qualified": true
+    },
+    {
+      "rep": 0,
+      "candidate": "GH",
+      "risk_KL": 0.0010134457318475595,
+      "empirical_NLL": 5.436592338090526,
+      "mean_row_norm": 0.8136663721003442,
+      "mean_pair_angle_cosine": 0.762505963417681,
+      "second_normalized_Gram_eigenvalue": 1.5987866097390695,
+      "qualified": true
+    },
+    {
+      "rep": 0,
+      "candidate": "REF",
+      "risk_KL": 0.0010134457318475595,
+      "empirical_NLL": 5.436592338090526,
+      "mean_row_norm": 0.8136663721003442,
+      "mean_pair_angle_cosine": 0.762505963417681,
+      "second_normalized_Gram_eigenvalue": 1.5987866097390695,
+      "qualified": true
+    },
+    {
+      "rep": 0,
+      "candidate": "IND",
+      "risk_KL": 0.10685171928814621,
+      "empirical_NLL": 5.5447060685947935,
+      "mean_row_norm": null,
+      "mean_pair_angle_cosine": null,
+      "second_normalized_Gram_eigenvalue": null,
+      "qualified": true
+    },
+    {
+      "rep": 1,
+      "candidate": "K8",
+      "risk_KL": 0.01351891665513232,
+      "empirical_NLL": 5.445953769195272,
+      "mean_row_norm": 0.5965254093383046,
+      "mean_pair_angle_cosine": 0.9999940177157837,
+      "second_normalized_Gram_eigenvalue": 4.187591894790381e-05,
+      "qualified": true
+    },
+    {
+      "rep": 1,
+      "candidate": "K64",
+      "risk_KL": 0.00501776986399606,
+      "empirical_NLL": 5.437490303042568,
+      "mean_row_norm": 0.7598497084705977,
+      "mean_pair_angle_cosine": 0.8387684594562491,
+      "second_normalized_Gram_eigenvalue": 1.0785447857540493,
+      "qualified": true
+    },
+    {
+      "rep": 1,
+      "candidate": "GH",
+      "risk_KL": 0.0045630763955224335,
+      "empirical_NLL": 5.436971470028543,
+      "mean_row_norm": 0.7968001712054394,
+      "mean_pair_angle_cosine": 0.7966754565260384,
+      "second_normalized_Gram_eigenvalue": 1.3402889208109183,
+      "qualified": true
+    },
+    {
+      "rep": 1,
+      "candidate": "REF",
+      "risk_KL": 0.0045630763955224335,
+      "empirical_NLL": 5.436971470028543,
+      "mean_row_norm": 0.7968001712054394,
+      "mean_pair_angle_cosine": 0.7966754565260384,
+      "second_normalized_Gram_eigenvalue": 1.3402889208109183,
+      "qualified": true
+    },
+    {
+      "rep": 1,
+      "candidate": "IND",
+      "risk_KL": 0.10835498368966076,
+      "empirical_NLL": 5.543203059965041,
+      "mean_row_norm": null,
+      "mean_pair_angle_cosine": null,
+      "second_normalized_Gram_eigenvalue": null,
+      "qualified": true
+    },
+    {
+      "rep": 2,
+      "candidate": "K8",
+      "risk_KL": 0.008767420966826275,
+      "empirical_NLL": 5.423874776574717,
+      "mean_row_norm": 0.6635014269124194,
+      "mean_pair_angle_cosine": 0.9999672131429909,
+      "second_normalized_Gram_eigenvalue": 0.00022950577407126332,
+      "qualified": true
+    },
+    {
+      "rep": 2,
+      "candidate": "K64",
+      "risk_KL": 0.0034660905708903096,
+      "empirical_NLL": 5.4149366991349,
+      "mean_row_norm": 0.8546141985617204,
+      "mean_pair_angle_cosine": 0.8209945612785777,
+      "second_normalized_Gram_eigenvalue": 1.2167173824733035,
+      "qualified": true
+    },
+    {
+      "rep": 2,
+      "candidate": "GH",
+      "risk_KL": 0.00259193319591804,
+      "empirical_NLL": 5.41451558250415,
+      "mean_row_norm": 0.8497088465045962,
+      "mean_pair_angle_cosine": 0.7874408999386882,
+      "second_normalized_Gram_eigenvalue": 1.4348242891950342,
+      "qualified": true
+    },
+    {
+      "rep": 2,
+      "candidate": "REF",
+      "risk_KL": 0.00259193319591804,
+      "empirical_NLL": 5.41451558250415,
+      "mean_row_norm": 0.8497088465045962,
+      "mean_pair_angle_cosine": 0.7874408999386882,
+      "second_normalized_Gram_eigenvalue": 1.4348242891950342,
+      "qualified": true
+    },
+    {
+      "rep": 2,
+      "candidate": "IND",
+      "risk_KL": 0.10738231983549612,
+      "empirical_NLL": 5.544175302218264,
+      "mean_row_norm": null,
+      "mean_pair_angle_cosine": null,
+      "second_normalized_Gram_eigenvalue": null,
+      "qualified": true
+    },
+    {
+      "rep": 3,
+      "candidate": "K8",
+      "risk_KL": 0.011357337140383181,
+      "empirical_NLL": 5.4507205098509575,
+      "mean_row_norm": 0.5965509364421322,
+      "mean_pair_angle_cosine": 0.9999982911869019,
+      "second_normalized_Gram_eigenvalue": 1.1961688898058144e-05,
+      "qualified": true
+    },
+    {
+      "rep": 3,
+      "candidate": "K64",
+      "risk_KL": 0.0021998532493841816,
+      "empirical_NLL": 5.4406158161959475,
+      "mean_row_norm": 0.7787116932391549,
+      "mean_pair_angle_cosine": 0.7978633989995936,
+      "second_normalized_Gram_eigenvalue": 1.3584349112472978,
+      "qualified": true
+    },
+    {
+      "rep": 3,
+      "candidate": "GH",
+      "risk_KL": 0.0023569892339229976,
+      "empirical_NLL": 5.440265621799776,
+      "mean_row_norm": 0.8028122284554231,
+      "mean_pair_angle_cosine": 0.7721017049780956,
+      "second_normalized_Gram_eigenvalue": 1.5160228533594038,
+      "qualified": true
+    },
+    {
+      "rep": 3,
+      "candidate": "REF",
+      "risk_KL": 0.0023569892339229976,
+      "empirical_NLL": 5.440265621799776,
+      "mean_row_norm": 0.8028122284554231,
+      "mean_pair_angle_cosine": 0.7721017049780956,
+      "second_normalized_Gram_eigenvalue": 1.5160228533594038,
+      "qualified": true
+    },
+    {
+      "rep": 3,
+      "candidate": "IND",
+      "risk_KL": 0.10731861738671017,
+      "empirical_NLL": 5.54423914418523,
+      "mean_row_norm": null,
+      "mean_pair_angle_cosine": null,
+      "second_normalized_Gram_eigenvalue": null,
+      "qualified": true
+    }
+  ],
+  "mean_by_candidate": {
+    "K8": {
+      "risk_KL": 0.011089461969443269,
+      "empirical_NLL": 5.442317158678538
+    },
+    "K64": {
+      "risk_KL": 0.0028916232297278325,
+      "empirical_NLL": 5.432478304952512
+    },
+    "GH": {
+      "risk_KL": 0.0026313611393027577,
+      "empirical_NLL": 5.43208625310575
+    },
+    "REF": {
+      "risk_KL": 0.0026313611393027577,
+      "empirical_NLL": 5.43208625310575
+    },
+    "IND": {
+      "risk_KL": 0.10747691005000332,
+      "empirical_NLL": 5.544080893740833
+    }
+  },
+  "K8_minus_REF_pairs": [
+    {
+      "rep": 0,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "empirical",
+      "mean": -0.017111838930567218,
+      "sample_sd": 0.02692383574257126,
+      "MCSE": 0.00042068493347767596,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 0,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "population",
+      "mean": -0.01903039781794017,
+      "sample_sd": 0.026988153712008373,
+      "MCSE": 0.00042168990175013083,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 0,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "empirical",
+      "mean": 0.008707463626423276,
+      "sample_sd": 0.0045006332646865465,
+      "MCSE": 7.032239476072729e-05,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 0,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "population",
+      "mean": 0.0063395992336235316,
+      "sample_sd": 0.004509356807561736,
+      "MCSE": 7.045870011815213e-05,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 1,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "empirical",
+      "mean": -0.01738974233213741,
+      "sample_sd": 0.055161458104014224,
+      "MCSE": 0.0008618977828752223,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 1,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "population",
+      "mean": -0.017994447869565774,
+      "sample_sd": 0.05570848659766698,
+      "MCSE": 0.0008704451030885466,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 1,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "empirical",
+      "mean": 0.006107190466799944,
+      "sample_sd": 0.006498911077466307,
+      "MCSE": 0.00010154548558541105,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 1,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "population",
+      "mean": 0.0060299724389127115,
+      "sample_sd": 0.007175670607380112,
+      "MCSE": 0.00011211985324031425,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 2,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "empirical",
+      "mean": -0.016952622810917757,
+      "sample_sd": 0.03321608974901799,
+      "MCSE": 0.0005190014023284061,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 2,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "population",
+      "mean": -0.019887290392609745,
+      "sample_sd": 0.03239600265950779,
+      "MCSE": 0.0005061875415548092,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 2,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "empirical",
+      "mean": 0.0064347518168784475,
+      "sample_sd": 0.004614832289491916,
+      "MCSE": 7.210675452331118e-05,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 2,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "population",
+      "mean": 0.0033029571689078335,
+      "sample_sd": 0.004592935582676553,
+      "MCSE": 7.176461847932114e-05,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 3,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "empirical",
+      "mean": -0.017387109240257992,
+      "sample_sd": 0.024560064078737773,
+      "MCSE": 0.0003837510012302777,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 3,
+      "left": "K8",
+      "right": "REF",
+      "K": 8,
+      "target": "population",
+      "mean": -0.018698806435957654,
+      "sample_sd": 0.02478951337257054,
+      "MCSE": 0.0003873361464464147,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 3,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "empirical",
+      "mean": 0.007285929628540384,
+      "sample_sd": 0.004204785400958732,
+      "MCSE": 6.569977188998019e-05,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    },
+    {
+      "rep": 3,
+      "left": "K8",
+      "right": "REF",
+      "K": 64,
+      "target": "population",
+      "mean": 0.005844009937636972,
+      "sample_sd": 0.0042773016945033306,
+      "MCSE": 6.683283897661454e-05,
+      "banks": 4096,
+      "scope": "conditional on locked endpoints; not independent training repeats"
+    }
+  ],
+  "K64_mean_risk_reduction_relative_to_K8": 0.7392458500064631,
+  "resources": {
+    "new_observations": 16384,
+    "data_Gaussian_scalars": 32768,
+    "data_uniform_scalars": 131072,
+    "initialization_Gaussian_scalars": 64,
+    "training_prior_vectors": 614400,
+    "training_Gaussian_scalars": 1228800,
+    "independent_evaluation_prior_vectors": 1048576,
+    "evaluation_Gaussian_scalars": 2097152,
+    "Adam_updates": 14400,
+    "GH_Adam_nodes": 1920000,
+    "GH_path_nodes": 40000,
+    "REF_objective_gradient_calls": 4,
+    "REF_nodes": 6400,
+    "terminal_GH_PMF_nodes": 335680,
+    "terminal_GH_loss_gradient_nodes": 268544,
+    "MC_evaluation_bank_candidate_K_target_cells": 327680,
+    "MC_computed_nonindependent_cells": 262144,
+    "MC_evaluation_particle_pattern_products": 2415919104
+  },
+  "streams": 4,
+  "exploratory_only": true,
+  "formal_training_population_confidence_claim": false,
+  "all_reference_optimizer_success": true,
+  "reference_iterations": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "all_final_numerical_qualifications_passed": true,
+  "profile_outcomes_not_yet_observed": true
+}

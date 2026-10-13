@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-03T09:09:17.692882+00:00",
+  "inputs": {
+    "script/scbm6_audit.py": "621a3281facb6ce672794a2b68a70bcf4b6ff28dba13ce2f12f0cfd44ed6d0dd",
+    "docs/08_research_研究工作/六相关自由学习与方向机制_20261003/AUDIT_PLAN.md": "8ceac1ab0d3601225b7e0c6d4009f52b6b70469ee7e0fe6a57bb4ab4e62d7998",
+    "docs/08_research_研究工作/六相关自由学习与方向机制_20261003/EXPERIMENT_DESIGN.md": "941b74cdebb4cac66587d3414305d6575df502ce5895c6beb1f0b913b86a360f",
+    "artifacts/scbm_multicorrelation/TRAIN/FREEZE.json": "adc93c2d344c7839a21e8a69625b617658cb59e935db1b60ce13d40eded4a966",
+    "artifacts/scbm_multicorrelation/TRAIN/RESULTS.json": "aee05b29ba1c3b7c4f83f6f76f61cc2b0dd6f94a65f6d1f95f929ae903ea7b80",
+    "artifacts/scbm_multicorrelation/DIRECTION/FREEZE.json": "741dfafb0eff8d1c2b95c93a3045ab3b7166966cc3ea9384b7e9d860ff026415",
+    "artifacts/scbm_multicorrelation/DIRECTION/RESULTS.json": "bd9f32a1a6123a08fb9f1086cd867a9552b794a49b9a5248182bfaf759f27366",
+    "script/scbm6_run.py": "0cacd8f7d93518c697bde3f536a9a1cb9a2589e307462689807774fbd6acade7",
+    "script/scbm6_kernel.py": "40ad5e8139229fe624a5d888c77768a81b6addecab018b18b824a2c634573d13",
+    "script/scbm6_reference.py": "6e1fc78b11e549ea6bcc2d399afde4f79290555f00a941cd8a6f0133ef8bae02",
+    "script/scbm6_direction.py": "1328fa2cf1cacd891c427217babde3f3ee389623f8aaa5e6ee264338e4b6cb8f",
+    "script/scbmeval_kernel.py": "9dc59d1436abeb1ce5eaf4c70a098a6f34c4ced1d797492c0c56ff5eee8e64d1",
+    "script/scbminv_reference.py": "79c911d1601ae9740b0e045a5d879394cfd4a82aaa9e48f72070fc46b5098a41",
+    "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/models/losses.py": "6a42d6b5c386434604883db615b2ab127bc7b9ac7ac2395a26fcfeb5b552c7e5",
+    "artifacts/scbm_invariance/REFERENCE/MODEL.json": "2b5d12858dd6d581f36ded2327fd2ce26f0bc69eed314360783479403b9c9975",
+    "artifacts/scbm_multicorrelation/REFERENCE/FREEZE.json": "cab5931aa6d02d235ae4cba7a2ea4b3e9de9fad9e50d8b6ddad24f36a7df1f35",
+    "artifacts/scbm_multicorrelation/REFERENCE/RESULTS.json": "1554f3e611d321a8410d150bb1771896ac5fec022e836cd0e3b3117fe530c569"
+  },
+  "tolerances": {
+    "api_loss": 5e-05,
+    "api_rho": 3e-06,
+    "api_raw": 5e-07,
+    "mathematical": 1e-10,
+    "arithmetic": 2e-11,
+    "full_parameter": 0.0001,
+    "one_step_parameter": 3e-06,
+    "moment_abs": 2e-06,
+    "moment_rel": 2e-05,
+    "tau_abs": 2e-07,
+    "tau_rel": 2e-07,
+    "maxlogit": 2e-06,
+    "repair": 1e-12,
+    "repair_parameter": 2e-07,
+    "direction": 1e-10
+  },
+  "streams": [
+    0,
+    15
+  ],
+  "steps": [
+    0,
+    31,
+    127,
+    511
+  ],
+  "methods": [
+    "FIXED",
+    "FREE",
+    "FACT"
+  ],
+  "direction_prefix_banks": 4,
+  "deterministic_check": {
+    "passed": true,
+    "maximum_FD_error": 1.5840739137074067e-09,
+    "Adam_one_step_error": 2.384185791015625e-07,
+    "synthetic_repair_vertices": 64,
+    "native_constant_checks": 3,
+    "maximum_constant_native_loss_error": 4.701340031942891e-06,
+    "scientific_RNG": 0,
+    "model_integrals": 0
+  },
+  "numpy_version": "2.3.5",
+  "torch_version": "2.5.1+cpu",
+  "new_model_integrals": 0,
+  "automatic_retry": false,
+  "scope": "Whole input and saved-arithmetic replay; only24 native states/8 raw vectors and128 direction banks at bottom level. Not blind to ROOT status summaries."
+}

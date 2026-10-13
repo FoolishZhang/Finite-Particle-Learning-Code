@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "scope": "Deterministic manufactured tensors; no historical arrays, scientific RNG or training",
+  "mean_NLL_change": -0.24012453600924388,
+  "exact_gradient_bound": -0.22416489077106208,
+  "max_Hessian_eigenvalue": 0.23592760368424304,
+  "Hessian_symmetry_error": 8.18789480661053e-12,
+  "matched_marginal_error": 3.3306690738754696e-16,
+  "infeasible_branch_checked": true,
+  "direct_score_error": 4.440892098500626e-16,
+  "covariance_checks": [
+    {
+      "rho": -0.9,
+      "covariance": -0.020456126523363063,
+      "bound": 0.022500000000000003
+    },
+    {
+      "rho": 0.0,
+      "covariance": -3.469446951953614e-18,
+      "bound": 0.022500000000000003
+    },
+    {
+      "rho": 0.9,
+      "covariance": 0.02043351436300101,
+      "bound": 0.022500000000000003
+    }
+  ],
+  "illustrative_spin_capacity": 0.0015750000000000004,
+  "covariance_Lipschitz_constant_for_Bernoulli": 1.0,
+  "spin_KL_gap_factor": 0.125,
+  "source_sha256": "7be535b26a57fb748ad06bc10f6387b007ae4b79d4aaad61adcb97afeac3c3c9",
+  "reused_kernel_sha256": "300b4132c4864aa5e1dd7f5d0d453f6b8944bc6594f3d5b1fa796ea887f55872",
+  "independent_kernel_sha256": "e2986f13e1c4df5d4a2937b3d660396eda90b84b004010f8dfd97bb9f81cbed9",
+  "seconds": 2.313281900016591,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1"
+  }
+}

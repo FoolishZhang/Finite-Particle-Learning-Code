@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "max_metric_error": 9.992007221626409e-16,
+  "same_count_error": 2.220446049250313e-16,
+  "same_marginal_error": 2.888314587501384e-16,
+  "qualified": 50,
+  "fit_count": 50,
+  "blindness_diagnostics": [
+    {
+      "teacher": "indep",
+      "encoding": "native",
+      "k": 3,
+      "conditional_excess_KL": 6.423778649771034e-18,
+      "excess_Brier": 2.0126822607347574e-32,
+      "count_blind_KL_floor": 1.0705722023171153e-16,
+      "count_blind_Brier_floor": 6.057829603852663e-32
+    },
+    {
+      "teacher": "indep",
+      "encoding": "native",
+      "k": 7,
+      "conditional_excess_KL": -4.899195188822477e-19,
+      "excess_Brier": 1.349667224454294e-32,
+      "count_blind_KL_floor": -9.71445146547012e-17,
+      "count_blind_Brier_floor": 4.6917414933351365e-32
+    },
+    {
+      "teacher": "indep",
+      "encoding": "flip21",
+      "k": 3,
+      "conditional_excess_KL": 1.06736469544655e-17,
+      "excess_Brier": 2.0612422540153609e-32,
+      "count_blind_KL_floor": 2.0142617732484983e-16,
+      "count_blind_Brier_floor": 9.696994494243052e-32
+    },
+    {
+      "teacher": "indep",
+      "encoding": "flip21",
+      "k": 7,
+      "conditional_excess_KL": 1.7412510222977657e-18,
+      "excess_Brier": 1.832935840263259e-32,
+      "count_blind_KL_floor": -9.71445146547012e-17,
+      "count_blind_Brier_floor": 3.1116923422410765e-32
+    },
+    {
+      "teacher": "count",
+      "encoding": "native",
+      "k": 3,
+      "conditional_excess_KL": 0.012017478578742457,
+      "excess_Brier": 0.005947310957893867,
+      "count_blind_KL_floor": 1.2569310671649093e-16,
+      "count_blind_Brier_floor": 4.440904645183097e-33
+    },
+    {
+      "teacher": "count",
+      "encoding": "native",
+      "k": 7,
+      "conditional_excess_KL": 0.047596172826681424,
+      "excess_Brier": 0.02282315999859968,
+      "count_blind_KL_floor": 1.8041124150158794e-16,
+      "count_blind_Brier_floor": 1.77569909934126e-31
+    },
+    {
+      "teacher": "count",
+      "encoding": "flip21",
+      "k": 3,
+      "conditional_excess_KL": 0.01201747857874247,
+      "excess_Brier": 0.005947310957893868,
+      "count_blind_KL_floor": 0.008606619256167023,
+      "count_blind_Brier_floor": 0.004254791298646473
+    },
+    {
+      "teacher": "count",
+      "encoding": "flip21",
+      "k": 7,
+      "conditional_excess_KL": 0.04759617282668143,
+      "excess_Brier": 0.022823159998599674,
+      "count_blind_KL_floor": 0.045124735179059336,
+      "count_blind_Brier_floor": 0.021602213817398803
+    },
+    {
+      "teacher": "allocation",
+      "encoding": "native",
+      "k": 3,
+      "conditional_excess_KL": 0.083908806267218,
+      "excess_Brier": 0.039135043930450836,
+      "count_blind_KL_floor": 0.05405439111440623,
+      "count_blind_Brier_floor": 0.025019665375793376
+    },
+    {
+      "teacher": "allocation",
+      "encoding": "native",
+      "k": 7,
+      "conditional_excess_KL": 0.1957872146235089,
+      "excess_Brier": 0.09131510250438536,
+      "count_blind_KL_floor": 0.16973796046904024,
+      "count_blind_Brier_floor": 0.0787832998488013
+    },
+    {
+      "teacher": "allocation",
+      "encoding": "flip21",
+      "k": 3,
+      "conditional_excess_KL": 0.08390880626721797,
+      "excess_Brier": 0.03913504393045083,
+      "count_blind_KL_floor": 0.05196619149763596,
+      "count_blind_Brier_floor": 0.023976472242494606
+    },
+    {
+      "teacher": "allocation",
+      "encoding": "flip21",
+      "k": 7,
+      "conditional_excess_KL": 0.1957872146235089,
+      "excess_Brier": 0.09131510250438536,
+      "count_blind_KL_floor": 0.1498178402277762,
+      "count_blind_Brier_floor": 0.06904852512226617
+    },
+    {
+      "teacher": "allocation_sym",
+      "encoding": "native",
+      "k": 3,
+      "conditional_excess_KL": 0.009687856248747472,
+      "excess_Brier": 0.004805658067744019,
+      "count_blind_KL_floor": 2.339398516174437e-16,
+      "count_blind_Brier_floor": 1.9144473096332132e-31
+    },
+    {
+      "teacher": "allocation_sym",
+      "encoding": "native",
+      "k": 7,
+      "conditional_excess_KL": 0.026049254154468286,
+      "excess_Brier": 0.012531802655584094,
+      "count_blind_KL_floor": -5.134781488891349e-16,
+      "count_blind_Brier_floor": 2.115218950074983e-31
+    },
+    {
+      "teacher": "allocation_sym",
+      "encoding": "flip21",
+      "k": 3,
+      "conditional_excess_KL": 0.00968785624874747,
+      "excess_Brier": 0.004805658067744016,
+      "count_blind_KL_floor": 0.006393601456693998,
+      "count_blind_Brier_floor": 0.0031664498461447983
+    },
+    {
+      "teacher": "allocation_sym",
+      "encoding": "flip21",
+      "k": 7,
+      "conditional_excess_KL": 0.026049254154468286,
+      "excess_Brier": 0.012531802655584094,
+      "count_blind_KL_floor": 0.014973696742936249,
+      "count_blind_Brier_floor": 0.007029720105921723
+    },
+    {
+      "teacher": "parity",
+      "encoding": "native",
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 1.2192627859722702e-15,
+      "count_blind_Brier_floor": 1.018356093058441e-30
+    },
+    {
+      "teacher": "parity",
+      "encoding": "native",
+      "k": 7,
+      "conditional_excess_KL": 0.24047585588588574,
+      "excess_Brier": 0.11023620806693903,
+      "count_blind_KL_floor": 3.191891195797325e-16,
+      "count_blind_Brier_floor": 9.323306490157087e-32
+    },
+    {
+      "teacher": "parity",
+      "encoding": "flip21",
+      "k": 3,
+      "conditional_excess_KL": 0.0,
+      "excess_Brier": 0.0,
+      "count_blind_KL_floor": 1.217280244856868e-15,
+      "count_blind_Brier_floor": 1.0175100595471565e-30
+    },
+    {
+      "teacher": "parity",
+      "encoding": "flip21",
+      "k": 7,
+      "conditional_excess_KL": 0.24047585588588574,
+      "excess_Brier": 0.11023620806693903,
+      "count_blind_KL_floor": 3.0531133177191805e-16,
+      "count_blind_Brier_floor": 7.999906738136936e-32
+    }
+  ],
+  "analytic": {
+    "d3_t": 0.17539052967910607,
+    "d3_joint_opt_KL": 0.02500955727987838,
+    "d3_query_only_Brier_floor": 0.00833333333333333,
+    "d3_joint_opt_query_excess_Brier": 0.009205489073055852,
+    "d3_context_probabilities": [
+      0.16666666666666666,
+      0.1111111111111111,
+      0.5555555555555556,
+      0.16666666666666666
+    ],
+    "d3_target_given_context": [
+      0.6666666666666666,
+      0.5,
+      0.7999999999999999,
+      0.6666666666666666
+    ],
+    "d4_joint_KL_floor": 0.07596370727569134,
+    "d4_same_count_pair_products": [
+      0.16000000000000003,
+      0.0025000000000000005
+    ]
+  }
+}

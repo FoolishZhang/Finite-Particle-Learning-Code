@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-09-29T11:06:05.623138+00:00",
+  "status": "complete_all_fixed_GE_comparisons",
+  "models": 48,
+  "contrasts": 16,
+  "precision_pass": 16,
+  "material_pass": 0,
+  "failed_precision_contrasts": [],
+  "negative_results_retained": true,
+  "no_new_fits": true,
+  "historical_test": true,
+  "claim_scope": "conditional fixed-model development; not best feedback strategy or original-method confirmation"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "driver manufactured storage fixtures only",
+  "checks": [
+    "np.ndarray dtype and shape roundtrip",
+    "nonfinite numeric preservation without nonfinite JSON",
+    "signed negative zero preservation",
+    "exclusive write rejects overwrite",
+    "12 unique fixed development unit IDs"
+  ],
+  "fixture_directory": "tmp/prospective_diagnostic_dev/persistence_fixture",
+  "new_development_data": false,
+  "new_teacher_PMF": false,
+  "new_fits": 0,
+  "new_integrals": 0
+}

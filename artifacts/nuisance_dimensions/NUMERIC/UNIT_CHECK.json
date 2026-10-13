@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "errors": {
+    "Fourier_vs_direct_with_mean_CV": 2.7755575615628914e-16,
+    "path_vs_direct_with_mean_CV": 2.7755575615628914e-17,
+    "path_vs_FD_with_mean_CV": 7.664507917226615e-12
+  },
+  "mean_CV": 0.038534114770826244,
+  "gradient_mean_CV": 0.1904536239122101,
+  "finite_nodes": 4,
+  "direct_K2_particle_pairs": 16,
+  "synthetic_GL_nodes": 320,
+  "Gaussian_integrals": 0,
+  "scientific_model_evaluations": 0,
+  "random_draws": 0,
+  "fits": 0,
+  "Price_identity_not_imposed": true,
+  "source_sha256": "399687508842fef40c67ed1de34d3680f47c8a2b52aee259fb06a3d7d2ac25cc",
+  "created": "2026-10-01T13:09:18.289027+00:00"
+}

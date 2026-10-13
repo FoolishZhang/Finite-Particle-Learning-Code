@@ -1,0 +1,1671 @@
+{
+  "passed": true,
+  "utc": "2026-10-01T05:19:52.868929+00:00",
+  "audit_source_sha256": "6d7e363d456606c858406ccc6b9bc5bbd3dc073aece71e002f44e0c74a56d933",
+  "source_freeze_sha256": "cb45c2b15dfa83e5bc635e769a788a4fdcf8b824adbf270125db7c6bc3c7ed26",
+  "results_freeze_sha256": "13700cd306b075bffac02f66ed66255b973a35d63c387986abcf0c06535f01c8",
+  "producer_functions_imported": false,
+  "selection_NPZ": 24,
+  "confirmation_NPZ": 24,
+  "event_NPZ": 6,
+  "complete_saved_array_coarse_argmins_checked": 32,
+  "complete_saved_array_fine_argmins_checked": 32,
+  "complete_saved_array_near_sets_checked": 64,
+  "fine_endpoints_checked": 32,
+  "confirmation_t_intervals_checked": 4,
+  "event_CP_probabilities_checked": 6,
+  "event_primary_decisions_checked": 4,
+  "event_family_retained_at_38_not_actual_state_count": true,
+  "all_source_and_result_hashes_match": true,
+  "maximum_errors": {
+    "choice_objective": 3.410605131648481e-13,
+    "full_curve": 1.2505552149377763e-12,
+    "all_rows_shared_coarse_fine_replay": 0.0,
+    "sample_selection_anchor_direct_score": 3.410605131648481e-13,
+    "sample_selection_fine_direct_score": 8.526512829121202e-14,
+    "all_confirmation_means": 1.0800249583553523e-12,
+    "sample_confirmation_direct_score": 3.410605131648481e-13,
+    "event_probability": 0.0,
+    "event_CP_interval": 0.0,
+    "confirmation_contrast_values": 1.2789769243681803e-12,
+    "four_t_intervals": 4.263256414560601e-13,
+    "selected_event_probability": 0.0,
+    "event_brier_plugin": 0.0,
+    "event_rectangle_difference": 0.0,
+    "event_rectangle_brier": 0.0,
+    "event_rectangle_logloss": 5.551115123125783e-17,
+    "mean_event_brier_plugin": 0.0,
+    "mean_event_brier_interval": 0.0
+  },
+  "matrix_covariance_errors": {
+    "16": 3.1086244689504383e-15,
+    "64": 4.551914400963142e-15,
+    "256": 6.328271240363392e-15
+  },
+  "sampled_replay": {
+    "rows_per_phase_per_underlying_stream": 32,
+    "underlying_dimension_streams": 24,
+    "phases": [
+      "selection",
+      "confirmation"
+    ],
+    "stored_selection_label_rows_exactly_matched": 768,
+    "scalar_score_comparisons": 11264,
+    "records": [
+      {
+        "d": 16,
+        "stream": 0,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 1,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 2,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 3,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 4,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 5,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 6,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 16,
+        "stream": 7,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 0,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 1,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 2,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 3,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 4,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 5,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 6,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 64,
+        "stream": 7,
+        "Ks": [
+          10,
+          100
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 100,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 0,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 1,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 2,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 3,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 4,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 5,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 6,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      },
+      {
+        "d": 256,
+        "stream": 7,
+        "Ks": [
+          10
+        ],
+        "rows_per_phase": 32,
+        "selection_label_rows_exactly_equal": 32,
+        "label_generation_rows_per_phase": 256,
+        "prior_generation_rows_per_phase": 128,
+        "selection_anchors": [
+          [
+            6.0,
+            2.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "selection_fine_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ]
+        ],
+        "confirmation_points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.125
+          ],
+          [
+            1.125,
+            1.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            6.0,
+            2.0
+          ]
+        ],
+        "K_prefix_shared_maxK": 10,
+        "matrix_square_root_eigendecomposition": true
+      }
+    ],
+    "all_original_raw_scoring_replayed": false,
+    "confirmation_Y_not_stored_score_matches_are_indirect_label_checks": true,
+    "generated_full_first_label_and_prior_chunks_to_preserve_RNG_contract": true
+  },
+  "cases": [
+    {
+      "d": 16,
+      "K": 10,
+      "score_precision_pass": true,
+      "primary_score_pass": true,
+      "primary_event_pass": true,
+      "score_mean": 5.140497422035415,
+      "score_interval": [
+        5.070054636063757,
+        5.210940208007074
+      ],
+      "mean_event_brier": 0.006500784307718277,
+      "mean_event_brier_interval": [
+        0.005147894109906985,
+        0.008007760515924486
+      ]
+    },
+    {
+      "d": 64,
+      "K": 10,
+      "score_precision_pass": true,
+      "primary_score_pass": true,
+      "primary_event_pass": true,
+      "score_mean": 39.18124168092052,
+      "score_interval": [
+        39.053611297371084,
+        39.30887206446996
+      ],
+      "mean_event_brier": 0.006966502405703068,
+      "mean_event_brier_interval": [
+        0.005376093236475401,
+        0.008758840183715522
+      ]
+    },
+    {
+      "d": 64,
+      "K": 100,
+      "score_precision_pass": true,
+      "primary_score_pass": true,
+      "primary_event_pass": true,
+      "score_mean": 26.83063710216778,
+      "score_interval": [
+        26.722462163035008,
+        26.938812041300555
+      ],
+      "mean_event_brier": 0.006966502405703068,
+      "mean_event_brier_interval": [
+        0.005376093236475401,
+        0.008758840183715522
+      ]
+    },
+    {
+      "d": 256,
+      "K": 10,
+      "score_precision_pass": true,
+      "primary_score_pass": true,
+      "primary_event_pass": true,
+      "score_mean": 201.5946032166952,
+      "score_interval": [
+        201.1727509206052,
+        202.01645551278517
+      ],
+      "mean_event_brier": 0.0070328861474990845,
+      "mean_event_brier_interval": [
+        0.005357245018845429,
+        0.008932270306011353
+      ]
+    }
+  ],
+  "reconstructed_ledger": {
+    "new_teacher_vectors": 122880,
+    "unique_prior_particles": 4915200,
+    "selection_prior_particles": 983040,
+    "confirmation_prior_particles": 3932160,
+    "fitted_procedures": 32,
+    "coarse_intermediate_selections": 32,
+    "grid_search_stages": 64,
+    "event_models": 6,
+    "event_observations": 393216,
+    "new_neural_models": 0,
+    "primary_score_pass": 4,
+    "primary_event_pass": 4,
+    "particle_candidate_evaluations": 92405760,
+    "covariance_structure_known": true,
+    "continuous_global_optimality_certified": false
+  },
+  "new_scientific_samples": 0,
+  "new_scientific_fits": 0,
+  "audit_RNG_is_replay_of_old_stream_prefixes_not_new_independent_data": true,
+  "elapsed_seconds": 2.1597905999515206
+}

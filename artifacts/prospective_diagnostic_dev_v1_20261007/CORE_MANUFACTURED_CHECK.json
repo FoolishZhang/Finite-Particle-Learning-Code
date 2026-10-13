@@ -1,0 +1,62 @@
+{
+  "schema": "prospective_core_manufactured_check_v1",
+  "created_utc": "2026-10-07T10:38:37.637234+00:00",
+  "command": ".venv/Scripts/python.exe script/prospective_diagnostic_core_test.py",
+  "exit_code": 0,
+  "passed": true,
+  "sources": {
+    "script/prospective_diagnostic_core.py": "9856815548e7b1b203d0e028ecdb931103b5dd667aee6177f64bd7eeacca307d",
+    "script/prospective_diagnostic_core_test.py": "bdab6ee5c0940fd54f3fca563c39ce827fc5d016f055cbea06f91ce77462bf2e"
+  },
+  "reused_frozen_sources": {
+    "script/rankone_stationary_compute.py": "d48ec5827f1499675126f0824eda7bc35b46c95515847f52e1f9f9ed9ca95534",
+    "script/rankone_stationary_kernel.py": "e47012dc7eb20bc44f49afdd3bbaddd91df4b093382759d99804d4f185d9b56b",
+    "script/joint_dependence_kernel.py": "7b98c0d7543521e3d0e9353d92174098b17e450c36c79b88c4724fca8b80865f"
+  },
+  "first_attempt": {
+    "tests_run": 15,
+    "passed": 14,
+    "failed": 1,
+    "failed_test": "test_sign_recoding_and_initialization",
+    "reason": "Equivalent Jeffreys logit paths log(p)-log1p(-p) versus log(odds) differed by 3.3306690738754696e-16; the initial manufactured assertion used atol=3e-16.",
+    "algorithm_or_scientific_gate_failed": false,
+    "first_attempt_source_hash_not_captured": true
+  },
+  "pre_freeze_changes": [
+    {
+      "kind": "manufactured_assertion_rounding_tolerance",
+      "change": "Use atol=4*np.finfo(float).eps (8.881784197001252e-16) for this algebraically equivalent initialization comparison; do not alter any scientific gate."
+    },
+    {
+      "kind": "required_implementation_conformance",
+      "change": "Neutral kick uses maxabs-scaled L2 normalization and saves centered_norm, normalization_maxabs, scaled_L2_norm and method; a new 1e-300 manufactured test verifies nonzero small xi is retained, while exact zero is rejected without redraw."
+    }
+  ],
+  "final_result": {
+    "diagnostics": {
+      "manufactured_A_implies_B_cases": 216,
+      "signed_MC_gradient_FD_error": 2.2355894913062002e-11,
+      "signed_Ward_error": 1.298822160933355e-13
+    },
+    "frozen_sources_unchanged": true,
+    "manufactured_m2_m3_only": true,
+    "passed": true,
+    "random_state_unchanged": true,
+    "seconds": 0.08246379997581244,
+    "study_teacher_or_data_used": false,
+    "tests_run": 16
+  },
+  "stdout": "{\"diagnostics\": {\"manufactured_A_implies_B_cases\": 216, \"signed_MC_gradient_FD_error\": 2.2355894913062002e-11, \"signed_Ward_error\": 1.298822160933355e-13}, \"frozen_sources_unchanged\": true, \"manufactured_m2_m3_only\": true, \"passed\": true, \"random_state_unchanged\": true, \"seconds\": 0.08246379997581244, \"study_teacher_or_data_used\": false, \"tests_run\": 16}\n",
+  "stderr": "test_A_implies_B_for_manufactured_decision_grid (__main__.ProspectiveCoreTests.test_A_implies_B_for_manufactured_decision_grid) ... ok\ntest_LOW_HIGH_actual_particle_counts_and_Adam_replay (__main__.ProspectiveCoreTests.test_LOW_HIGH_actual_particle_counts_and_Adam_replay) ... ok\ntest_anchor_solver_snapshots_and_numerical_fallback (__main__.ProspectiveCoreTests.test_anchor_solver_snapshots_and_numerical_fallback) ... ok\ntest_diagnosis_cost_partition_and_finite_failure_preserves_B (__main__.ProspectiveCoreTests.test_diagnosis_cost_partition_and_finite_failure_preserves_B) ... ok\ntest_manufactured_overrides_cannot_touch_m8 (__main__.ProspectiveCoreTests.test_manufactured_overrides_cannot_touch_m8) ... ok\ntest_neutral_kick_stable_small_nonzero_norm (__main__.ProspectiveCoreTests.test_neutral_kick_stable_small_nonzero_norm) ... ok\ntest_neutral_shared_kick_and_no_redraw (__main__.ProspectiveCoreTests.test_neutral_shared_kick_and_no_redraw) ... ok\ntest_nonfinite_training_retains_last_update (__main__.ProspectiveCoreTests.test_nonfinite_training_retains_last_update) ... ok\ntest_offline_AB_risk_and_cost_identities (__main__.ProspectiveCoreTests.test_offline_AB_risk_and_cost_identities) ... ok\ntest_ordered_classifier_all_levels_and_reasons (__main__.ProspectiveCoreTests.test_ordered_classifier_all_levels_and_reasons) ... ok\ntest_reference_hard_cap_does_not_return_last_trial (__main__.ProspectiveCoreTests.test_reference_hard_cap_does_not_return_last_trial) ... ok\ntest_reference_nonfinite_and_normal_real_optimizer (__main__.ProspectiveCoreTests.test_reference_nonfinite_and_normal_real_optimizer) ... ok\ntest_sign_fallbacks_are_not_data_smoothing (__main__.ProspectiveCoreTests.test_sign_fallbacks_are_not_data_smoothing) ... ok\ntest_sign_recoding_and_initialization (__main__.ProspectiveCoreTests.test_sign_recoding_and_initialization) ... ok\ntest_signed_angular_Ward_and_common_rotation (__main__.ProspectiveCoreTests.test_signed_angular_Ward_and_common_rotation) ... ok\ntest_signed_likelihood_gradients_and_finite_differences (__main__.ProspectiveCoreTests.test_signed_likelihood_gradients_and_finite_differences) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.082s\n\nOK\n",
+  "production_configuration_changed_by_test": false,
+  "frozen_dependencies_unchanged": true,
+  "numeric_fixtures": "Only invented m2/m3 targets, small fixed quadrature, supplied deterministic prior arrays and mock numerical failures.",
+  "m8_interface_rejection_fixture": "A uniform m8 vector is used only to verify that manufactured overrides are rejected before any model or solver call.",
+  "actual_development_or_formal_data_generated": false,
+  "actual_teacher_PMF_generated": false,
+  "D1_D2_D3_or_T1_T2_T3_evaluated": false,
+  "actual_study_fit_or_integral_run": false,
+  "new_random_numbers_generated": false,
+  "scientific_result": false,
+  "caller_still_owns_generation_locks_risk_evaluation_and_first_scientific_freeze": true
+}

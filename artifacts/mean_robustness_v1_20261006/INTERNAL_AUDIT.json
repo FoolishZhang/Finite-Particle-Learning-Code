@@ -1,0 +1,23 @@
+{
+  "internal_independent_audit": true,
+  "external_expert_review": false,
+  "steps": [
+    "joint smoothness and mean-equivariant stationary branches",
+    "K-independent derivative bounds and tiny explicit neighborhoods",
+    "one frozen fresh asymmetric-mean gradient/Hessian audit",
+    "postrun neighborhood and risk consequences on same new event"
+  ],
+  "new_random_studies": 1,
+  "checks": [
+    "full qualitative symmetry/IFT/Fisher arguments",
+    "independent partition enumeration and Fraction constants",
+    "fourth-order off-diagonal Price kernel and universal ranges",
+    "all Hessian entries used in Gershgorin",
+    "teacher probability integral tail padding conservatively encloses Mills bound",
+    "full saved-component replay and 576 prescribed interval comparisons",
+    "six unresolved gradient intervals retained",
+    "old/new confidence events distinguished"
+  ],
+  "checker_development_note": "Arb string comparison was corrected to use frozen 128-bit display context; no scientific source, array or result changed",
+  "manuscripts_unchanged": true
+}

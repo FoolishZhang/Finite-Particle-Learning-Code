@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-09-30T03:10:37.364823+00:00",
+  "passed": true,
+  "array_count": 24,
+  "reference_count": 3,
+  "statistics_rows": 18,
+  "joint_sensitivity_rows": 90,
+  "independent_replay_max_error": 1.4210854715202004e-14,
+  "precision_failures": [],
+  "no_new_scientific_samples_or_fits": true
+}

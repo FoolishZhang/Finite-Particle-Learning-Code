@@ -1,0 +1,48 @@
+{
+  "time_utc": "2026-09-29T10:43:16.593040+00:00",
+  "scope": "posthoc implementation audit; no new fitting, labels, calibration or evaluation",
+  "terminal_control_replays": 12,
+  "arrays": [
+    {
+      "role": "I",
+      "array": "raw",
+      "max_absolute_error": 0.0,
+      "exact_array_equal": true,
+      "new_path": "artifacts/dependence_boundary_v1/N/models/I_K100_iid_sd1.json",
+      "old_path": "artifacts/feedback_uncertainty_v3/R/models/CONT.json",
+      "new_sha256": "342697d4f56a4b4abb4835d09d570219b555a333425e376f56bf636bfd6390b2",
+      "old_sha256": "24b41c49f1a30acbc1ac705882ce92bef9d923c1d5c06664aa64a2042c0fe1a8"
+    },
+    {
+      "role": "I",
+      "array": "factors",
+      "max_absolute_error": 0.0,
+      "exact_array_equal": true,
+      "new_path": "artifacts/dependence_boundary_v1/N/models/I_K100_iid_sd1.json",
+      "old_path": "artifacts/feedback_uncertainty_v3/R/models/CONT.json",
+      "new_sha256": "342697d4f56a4b4abb4835d09d570219b555a333425e376f56bf636bfd6390b2",
+      "old_sha256": "24b41c49f1a30acbc1ac705882ce92bef9d923c1d5c06664aa64a2042c0fe1a8"
+    },
+    {
+      "role": "O",
+      "array": "raw",
+      "max_absolute_error": 0.0,
+      "exact_array_equal": true,
+      "new_path": "artifacts/dependence_boundary_v1/N/models/O_K100_iid_sd1.json",
+      "old_path": "artifacts/feedback_uncertainty_v3/N1/models/CONT.json",
+      "new_sha256": "e3d8645245dec0333933ef1041ce37e83cf350251d41dd1d087db0e860a5f974",
+      "old_sha256": "c2887fdb1d4413085c140e9bf0d75a04bdc1d9834a77607fcc03e29fea482528"
+    },
+    {
+      "role": "O",
+      "array": "factors",
+      "max_absolute_error": 0.0,
+      "exact_array_equal": true,
+      "new_path": "artifacts/dependence_boundary_v1/N/models/O_K100_iid_sd1.json",
+      "old_path": "artifacts/feedback_uncertainty_v3/N1/models/CONT.json",
+      "new_sha256": "e3d8645245dec0333933ef1041ce37e83cf350251d41dd1d087db0e860a5f974",
+      "old_sha256": "c2887fdb1d4413085c140e9bf0d75a04bdc1d9834a77607fcc03e29fea482528"
+    }
+  ],
+  "passed": true
+}

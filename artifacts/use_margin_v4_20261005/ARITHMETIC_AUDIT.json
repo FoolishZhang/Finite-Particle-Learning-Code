@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "decisions": 512,
+  "pairs": 1536,
+  "groups": 16,
+  "maximum_decimal_discrepancy": 4.74e-15,
+  "arithmetic_scalars_checked": 17536,
+  "result_sha256": "65dc5229257474ec716a056bedc7a7d4badb19208a7d15290c7b9f40f21be19f",
+  "source_sha256": "6ad05301e2b144ef261bb0227918a5f722c1a6a2135d089e221c31cc1045a459",
+  "scope": "Independent Decimal differences, selection/ties, certificates, risks and group summaries; no resampling or new statistical inference"
+}

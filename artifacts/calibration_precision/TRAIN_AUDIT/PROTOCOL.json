@@ -1,0 +1,60 @@
+{
+  "schema": "curvcal-independent-train-audit-v1",
+  "created_before_reconstruction_utc": "2026-10-02T08:57:31.593973+00:00",
+  "source_sha256": "6850646ef5041cfe085dbc5a4b937f74bc162631d8435ab9f42c2a9f969dfd45",
+  "inputs": {
+    "artifacts/calibration_precision/TRAIN/FREEZE.json": "d76e2862d6ce7bfd30cce8f705e726db676946816f845288e8741d8c063dced8",
+    "script/curvcal_audit_train.py": "6850646ef5041cfe085dbc5a4b937f74bc162631d8435ab9f42c2a9f969dfd45",
+    "script/bankvar_audit_train.py": "5e84c06ed1ef0f6f8509923b4bbbd9824d30f625b6f81b84aef0f35b3b1bc4c3",
+    "script/curvcal_train.py": "025c8cc0c865324d4eb973553135b19ae4de6cc8694569b6bbab737dad2761bc",
+    "script/fincal_train.py": "e3f69503ef9e0d944004197c88211dc579b9df3684045ceee35c27f336f3dfdd",
+    "script/bankvar_train.py": "8e6e585a7b0bcf6ca9cc7b414d1768f50a701b98a9ef7af0b1eceb6feee0223b",
+    "docs/08_research_研究工作/校准精度与跨尺度学习_20261002/PLAN.md": "2af9b11c240a2e68e9146c02b1a2b12ebc7a7661530e660ed9474139634a0bc3",
+    "artifacts/calibration_precision/CAL/FULL/MODEL.json": "0c246bbdf70b73b30db4cb2bf1db390630a392254302ccec5bbd05829c91dd92",
+    "artifacts/calibration_precision/CAL/LOCAL/MODEL.json": "4e9cb258f1289300dee9287bf0ffc8a9904324dc8208c4d6763e7c750f29f3fd"
+  },
+  "scope": {
+    "fresh_inputs": "All 16 streams: complete new observation RNG and maximum prior RNG; all four prior/noise prefix hashes",
+    "raw": "First 8 banks per case, all 4096 original complete observation rows, fixed nine rho",
+    "marg": "All 512 banks, four patterns, all saved 193 or fallback801 nodes in all 64 stream/cases",
+    "interpolation": "All saved raw/marg node curves via independent DCT-I/Clenshaw to all801 points",
+    "gradient": "Raw first8 and marg all512 banks at all three saved numerical MLE points per case",
+    "selection": "1920 grid outputs, 384 repeated MLE rows (48 unique), reference KL, penalties, norm/mesh/interpolation bounds",
+    "statistics": "Primary statistical intervals and tests left to root",
+    "reuse": "Pure calculations from previous independent bankvar_audit_train; no production evaluators, selectors or derivatives invoked"
+  },
+  "raw_rho": [
+    -0.75,
+    -0.6,
+    -0.3,
+    -0.03,
+    0.0,
+    0.03,
+    0.3,
+    0.6,
+    0.75
+  ],
+  "raw_banks": 8,
+  "replay_block": 32,
+  "selftest": {
+    "DCT_polynomial_and_cosine_max_abs": 4.440892098500626e-16,
+    "spline_integral_and_curvature": true,
+    "raw_scalar_full_logsumexp_max_abs": 8.881784197001252e-16,
+    "raw_marg_gradient_finite_difference_max_abs": 2.3340357424572744e-11,
+    "new_random_draws": 0,
+    "production_code_imported": false
+  },
+  "tolerances": {
+    "marg_nodes": 2e-12,
+    "saved_interpolation": 3e-11,
+    "raw_centered": "2*epsilon+1e-9",
+    "raw_offsets": 2e-10,
+    "path_gradients": 2e-10,
+    "MLE": 2e-11,
+    "KL": 3e-14,
+    "scores": 3e-12,
+    "bounds": 1e-14
+  },
+  "no_new_scientific_samples": true,
+  "automatic_retry": false
+}

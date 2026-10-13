@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "base_commit": "6b7e950d535a049e70a646dac3fa53e0fd36756b",
+  "science": {
+    "primary_gates": [
+      true,
+      true
+    ],
+    "local_qualification": true,
+    "outputs": 1008,
+    "grid_selections": 864,
+    "reused_MLE_rows": 144,
+    "new_Gaussian_scalars": 1073741824,
+    "new_prior_vectors": 4194304,
+    "new_banks": 16384,
+    "new_observations": 0,
+    "mesh_interpolation_pass_count": 864,
+    "maximum_known_regret_term": 1.9617753587318356e-05
+  },
+  "local_links": 48,
+  "new_manuscript": false,
+  "default_requires_arrays": false,
+  "default_binds_live_navigation": false,
+  "scientific_replay": false,
+  "certifies_strict_floating_global_optimum": false
+}

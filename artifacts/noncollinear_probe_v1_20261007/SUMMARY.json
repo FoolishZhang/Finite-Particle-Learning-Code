@@ -1,0 +1,1167 @@
+{
+  "created_utc": "2026-10-07T06:06:10.887959+00:00",
+  "source_sha256": "c1f6efe5cc1150ac4061dfd51aef2e8bcee21513f3daf1f47f19aff3fe6ac531",
+  "sources": {
+    "artifacts/noncollinear_probe_v1_20261007/RESULTS.json": "7339ce41973e33863bdb1a90ed18d90f3fe9df11a47771831c83ce9faf44775e",
+    "artifacts/noncollinear_probe_v1_20261007/AUDIT.json": "d3f9c377139f8a120bf0edd15ee7cdca47c5cbb5c8b729b2cb683ce0d55066b2",
+    "artifacts/noncollinear_probe_v1_20261007/SOURCE.json": "e5133ea9ed0e555b8b8a137c3f54b114af39e0543550f38e4efdcfd5e47079b4",
+    "artifacts/noncollinear_probe_v1_20261007/PANEL_LOCK.json": "01468906fcc817fe57b7682a95ba9356729fb7dbb318fe378e6b18554a345c95",
+    "artifacts/noncollinear_probe_v1_20261007/anchors/K11/RESULTS.json": "aadf73957436d83da22bd926eab773cabda9a37c37de1efc58064c4f33d16413",
+    "artifacts/noncollinear_probe_v1_20261007/anchors/K12/RESULTS.json": "d89a532986dd15fd6ed35538d3a62057bbb0781b529f87d1d370bf3d136a3470"
+  },
+  "baseline": "94fec1e1a2166ed7342752ab8c3bd43e39951714",
+  "primary_outcome": "supported",
+  "outcome": {
+    "primary_amplitude": 0.02,
+    "primary": {
+      "amplitude": 0.02,
+      "status": "supported",
+      "cells": [
+        {
+          "anchor_name": "K11",
+          "K": 11,
+          "t": -0.02,
+          "qualified": true,
+          "F_sign": "positive",
+          "R_sign": "negative",
+          "expected_F_sign": "positive",
+          "expected_R_sign": "negative",
+          "supports_expected_combination": true
+        },
+        {
+          "anchor_name": "K11",
+          "K": 11,
+          "t": 0.02,
+          "qualified": true,
+          "F_sign": "positive",
+          "R_sign": "negative",
+          "expected_F_sign": "positive",
+          "expected_R_sign": "negative",
+          "supports_expected_combination": true
+        },
+        {
+          "anchor_name": "K12",
+          "K": 12,
+          "t": -0.02,
+          "qualified": true,
+          "F_sign": "negative",
+          "R_sign": "negative",
+          "expected_F_sign": "negative",
+          "expected_R_sign": "negative",
+          "supports_expected_combination": true
+        },
+        {
+          "anchor_name": "K12",
+          "K": 12,
+          "t": 0.02,
+          "qualified": true,
+          "F_sign": "negative",
+          "R_sign": "negative",
+          "expected_F_sign": "negative",
+          "expected_R_sign": "negative",
+          "supports_expected_combination": true
+        }
+      ],
+      "supported": true
+    },
+    "sensitivities": [
+      {
+        "amplitude": 0.05,
+        "status": "supported",
+        "cells": [
+          {
+            "anchor_name": "K11",
+            "K": 11,
+            "t": -0.05,
+            "qualified": true,
+            "F_sign": "positive",
+            "R_sign": "negative",
+            "expected_F_sign": "positive",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          },
+          {
+            "anchor_name": "K11",
+            "K": 11,
+            "t": 0.05,
+            "qualified": true,
+            "F_sign": "positive",
+            "R_sign": "negative",
+            "expected_F_sign": "positive",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          },
+          {
+            "anchor_name": "K12",
+            "K": 12,
+            "t": -0.05,
+            "qualified": true,
+            "F_sign": "negative",
+            "R_sign": "negative",
+            "expected_F_sign": "negative",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          },
+          {
+            "anchor_name": "K12",
+            "K": 12,
+            "t": 0.05,
+            "qualified": true,
+            "F_sign": "negative",
+            "R_sign": "negative",
+            "expected_F_sign": "negative",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          }
+        ],
+        "supported": true
+      },
+      {
+        "amplitude": 0.1,
+        "status": "supported",
+        "cells": [
+          {
+            "anchor_name": "K11",
+            "K": 11,
+            "t": -0.1,
+            "qualified": true,
+            "F_sign": "positive",
+            "R_sign": "negative",
+            "expected_F_sign": "positive",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          },
+          {
+            "anchor_name": "K11",
+            "K": 11,
+            "t": 0.1,
+            "qualified": true,
+            "F_sign": "positive",
+            "R_sign": "negative",
+            "expected_F_sign": "positive",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          },
+          {
+            "anchor_name": "K12",
+            "K": 12,
+            "t": -0.1,
+            "qualified": true,
+            "F_sign": "negative",
+            "R_sign": "negative",
+            "expected_F_sign": "negative",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          },
+          {
+            "anchor_name": "K12",
+            "K": 12,
+            "t": 0.1,
+            "qualified": true,
+            "F_sign": "negative",
+            "R_sign": "negative",
+            "expected_F_sign": "negative",
+            "expected_R_sign": "negative",
+            "supports_expected_combination": true
+          }
+        ],
+        "supported": true
+      }
+    ],
+    "larger_amplitude_does_not_replace_primary": true,
+    "fixed_panel_complete_is_stopping_rule": true,
+    "further_rules_amplitudes_K_or_optimization_added": false
+  },
+  "point_rows": [
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "zero",
+      "t": 0.0,
+      "baseline": true,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 0.0,
+          "paired_R": 0.0,
+          "quadratic_F": null,
+          "quadratic_R": null,
+          "raw_KL": 0.008426627445983215,
+          "absolute_loss": [
+            5.478540132266052,
+            5.447223543186569
+          ]
+        },
+        "B": {
+          "paired_F": 0.0,
+          "paired_R": 0.0,
+          "quadratic_F": null,
+          "quadratic_R": null,
+          "raw_KL": 0.008426627445982326,
+          "absolute_loss": [
+            5.478540132266063,
+            5.447223543186568
+          ]
+        },
+        "C": {
+          "paired_F": 0.0,
+          "paired_R": 0.0,
+          "quadratic_F": null,
+          "quadratic_R": null,
+          "raw_KL": 0.008426627445954793,
+          "absolute_loss": [
+            5.478540132267721,
+            5.447223543186539
+          ]
+        }
+      },
+      "singular_values": [
+        1.7915812474844812,
+        0.0
+      ],
+      "qualified": true,
+      "F_sign": "zero_by_definition",
+      "R_sign": "zero_by_definition",
+      "F_resolved": false,
+      "R_resolved": false
+    },
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "m010",
+      "t": -0.1,
+      "baseline": false,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 2.9096052669136355e-06,
+          "paired_R": -3.622779876365661e-05,
+          "quadratic_F": 0.000581921053382727,
+          "quadratic_R": -0.00724555975273132,
+          "raw_KL": 0.008390399647218771,
+          "absolute_loss": [
+            5.478543041871317,
+            5.4471873153878025
+          ]
+        },
+        "B": {
+          "paired_F": 2.9096052665518664e-06,
+          "paired_R": -3.622779876373286e-05,
+          "quadratic_F": 0.0005819210533103732,
+          "quadratic_R": -0.007245559752746571,
+          "raw_KL": 0.008390399647218771,
+          "absolute_loss": [
+            5.4785430418713315,
+            5.4471873153878025
+          ]
+        },
+        "C": {
+          "paired_F": 2.909605266606718e-06,
+          "paired_R": -3.6227798763695605e-05,
+          "quadratic_F": 0.0005819210533213435,
+          "quadratic_R": -0.00724555975273912,
+          "raw_KL": 0.00839039964719035,
+          "absolute_loss": [
+            5.478543041872989,
+            5.447187315387774
+          ]
+        }
+      },
+      "singular_values": [
+        1.7907160475782269,
+        0.05567228470130427
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "positive",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 3.962087436526864e-05,
+      "B_quadratic_R_minus_old": 5.654640048583393e-05
+    },
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "m005",
+      "t": -0.05,
+      "baseline": false,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 6.902724323592423e-07,
+          "paired_R": -9.109942537890052e-06,
+          "quadratic_F": 0.0005522179458873937,
+          "quadratic_R": -0.00728795403031204,
+          "raw_KL": 0.008417517503445104,
+          "absolute_loss": [
+            5.478540822538482,
+            5.447214433244028
+          ]
+        },
+        "B": {
+          "paired_F": 6.902724322539367e-07,
+          "paired_R": -9.109942538048295e-06,
+          "quadratic_F": 0.0005522179458031493,
+          "quadratic_R": -0.007287954030438634,
+          "raw_KL": 0.008417517503444216,
+          "absolute_loss": [
+            5.478540822538497,
+            5.447214433244028
+          ]
+        },
+        "C": {
+          "paired_F": 6.902724322507136e-07,
+          "paired_R": -9.109942538001275e-06,
+          "quadratic_F": 0.0005522179458005708,
+          "quadratic_R": -0.007287954030401018,
+          "raw_KL": 0.008417517503417571,
+          "absolute_loss": [
+            5.478540822540154,
+            5.447214433244003
+          ]
+        }
+      },
+      "singular_values": [
+        1.7913648843778183,
+        0.027842725371199164
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "positive",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 9.91776685804475e-06,
+      "B_quadratic_R_minus_old": 1.4152122793770726e-05
+    },
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "m002",
+      "t": -0.02,
+      "baseline": false,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 1.0877751703974312e-07,
+          "paired_R": -1.4599682233341886e-06,
+          "quadratic_F": 0.0005438875851987156,
+          "quadratic_R": -0.0072998411166709425,
+          "raw_KL": 0.008425167477758677,
+          "absolute_loss": [
+            5.478540241043567,
+            5.447222083218344
+          ]
+        },
+        "B": {
+          "paired_F": 1.0877751699543147e-07,
+          "paired_R": -1.4599682233845983e-06,
+          "quadratic_F": 0.0005438875849771573,
+          "quadratic_R": -0.007299841116922991,
+          "raw_KL": 0.008425167477758677,
+          "absolute_loss": [
+            5.478540241043582,
+            5.447222083218344
+          ]
+        },
+        "C": {
+          "paired_F": 1.0877751695522946e-07,
+          "paired_R": -1.4599682233706411e-06,
+          "quadratic_F": 0.0005438875847761473,
+          "quadratic_R": -0.0072998411168532056,
+          "raw_KL": 0.008425167477732032,
+          "absolute_loss": [
+            5.47854024104524,
+            5.447222083218315
+          ]
+        }
+      },
+      "singular_values": [
+        1.7915466265591304,
+        0.011137827555258615
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "positive",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 1.5874060320527576e-06,
+      "B_quadratic_R_minus_old": 2.2650363094142353e-06
+    },
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "p002",
+      "t": 0.02,
+      "baseline": false,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 1.0877751703987303e-07,
+          "paired_R": -1.4599682233558322e-06,
+          "quadratic_F": 0.0005438875851993652,
+          "quadratic_R": -0.007299841116779161,
+          "raw_KL": 0.008425167477758677,
+          "absolute_loss": [
+            5.478540241043567,
+            5.447222083218344
+          ]
+        },
+        "B": {
+          "paired_F": 1.087775169925672e-07,
+          "paired_R": -1.4599682233666878e-06,
+          "quadratic_F": 0.0005438875849628359,
+          "quadratic_R": -0.007299841116833438,
+          "raw_KL": 0.008425167477758677,
+          "absolute_loss": [
+            5.478540241043582,
+            5.447222083218344
+          ]
+        },
+        "C": {
+          "paired_F": 1.0877751695148175e-07,
+          "paired_R": -1.4599682233823956e-06,
+          "quadratic_F": 0.0005438875847574087,
+          "quadratic_R": -0.007299841116911978,
+          "raw_KL": 0.008425167477732032,
+          "absolute_loss": [
+            5.47854024104524,
+            5.447222083218315
+          ]
+        }
+      },
+      "singular_values": [
+        1.7915466265591304,
+        0.011137827555258615
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "positive",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 1.5874060177314226e-06,
+      "B_quadratic_R_minus_old": 2.2650363989667327e-06
+    },
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "p005",
+      "t": 0.05,
+      "baseline": false,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 6.902724323601726e-07,
+          "paired_R": -9.109942537900467e-06,
+          "quadratic_F": 0.000552217945888138,
+          "quadratic_R": -0.007287954030320372,
+          "raw_KL": 0.008417517503445104,
+          "absolute_loss": [
+            5.478540822538482,
+            5.447214433244029
+          ]
+        },
+        "B": {
+          "paired_F": 6.902724322558331e-07,
+          "paired_R": -9.109942538057968e-06,
+          "quadratic_F": 0.0005522179458046664,
+          "quadratic_R": -0.007287954030446373,
+          "raw_KL": 0.008417517503444216,
+          "absolute_loss": [
+            5.478540822538497,
+            5.447214433244028
+          ]
+        },
+        "C": {
+          "paired_F": 6.902724322508824e-07,
+          "paired_R": -9.109942537997009e-06,
+          "quadratic_F": 0.0005522179458007058,
+          "quadratic_R": -0.007287954030397606,
+          "raw_KL": 0.008417517503417571,
+          "absolute_loss": [
+            5.478540822540154,
+            5.447214433244003
+          ]
+        }
+      },
+      "singular_values": [
+        1.7913648843778183,
+        0.027842725371199164
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "positive",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 9.917766859561875e-06,
+      "B_quadratic_R_minus_old": 1.4152122786032124e-05
+    },
+    {
+      "anchor": "K11",
+      "K": 11,
+      "point_id": "p010",
+      "t": 0.1,
+      "baseline": false,
+      "old_curvature": 0.0005423001789451045,
+      "old_risk_curvature": -0.007302106153232405,
+      "rules": {
+        "A": {
+          "paired_F": 2.90960526691328e-06,
+          "paired_R": -3.6227798763667626e-05,
+          "quadratic_F": 0.0005819210533826559,
+          "quadratic_R": -0.0072455597527335235,
+          "raw_KL": 0.008390399647218771,
+          "absolute_loss": [
+            5.478543041871317,
+            5.4471873153878025
+          ]
+        },
+        "B": {
+          "paired_F": 2.9096052665531493e-06,
+          "paired_R": -3.6227798763730876e-05,
+          "quadratic_F": 0.0005819210533106298,
+          "quadratic_R": -0.007245559752746174,
+          "raw_KL": 0.008390399647218771,
+          "absolute_loss": [
+            5.4785430418713315,
+            5.4471873153878025
+          ]
+        },
+        "C": {
+          "paired_F": 2.909605266609345e-06,
+          "paired_R": -3.6227798763683686e-05,
+          "quadratic_F": 0.0005819210533218688,
+          "quadratic_R": -0.007245559752736736,
+          "raw_KL": 0.00839039964719035,
+          "absolute_loss": [
+            5.478543041872989,
+            5.447187315387774
+          ]
+        }
+      },
+      "singular_values": [
+        1.7907160475782269,
+        0.05567228470130427
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "positive",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 3.962087436552527e-05,
+      "B_quadratic_R_minus_old": 5.6546400486231184e-05
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "zero",
+      "t": 0.0,
+      "baseline": true,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": 0.0,
+          "paired_R": 0.0,
+          "quadratic_F": null,
+          "quadratic_R": null,
+          "raw_KL": 0.00813614697749454,
+          "absolute_loss": [
+            5.475792337756037,
+            5.44693306271808
+          ]
+        },
+        "B": {
+          "paired_F": 0.0,
+          "paired_R": 0.0,
+          "quadratic_F": null,
+          "quadratic_R": null,
+          "raw_KL": 0.00813614697749454,
+          "absolute_loss": [
+            5.475792337756051,
+            5.446933062718079
+          ]
+        },
+        "C": {
+          "paired_F": 0.0,
+          "paired_R": 0.0,
+          "quadratic_F": null,
+          "quadratic_R": null,
+          "raw_KL": 0.008136146977467007,
+          "absolute_loss": [
+            5.4757923377578575,
+            5.446933062718047
+          ]
+        }
+      },
+      "singular_values": [
+        1.811407460338705,
+        0.0
+      ],
+      "qualified": true,
+      "F_sign": "zero_by_definition",
+      "R_sign": "zero_by_definition",
+      "F_resolved": false,
+      "R_resolved": false
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "m010",
+      "t": -0.1,
+      "baseline": false,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": -1.7605540525757032e-06,
+          "paired_R": -3.919489572559559e-05,
+          "quadratic_F": -0.00035211081051514056,
+          "quadratic_R": -0.007838979145119116,
+          "raw_KL": 0.008096952081769082,
+          "absolute_loss": [
+            5.475790577201983,
+            5.446893867822354
+          ]
+        },
+        "B": {
+          "paired_F": -1.7605540528536626e-06,
+          "paired_R": -3.9194895725486314e-05,
+          "quadratic_F": -0.00035211081057073243,
+          "quadratic_R": -0.007838979145097262,
+          "raw_KL": 0.008096952081768194,
+          "absolute_loss": [
+            5.475790577201995,
+            5.446893867822353
+          ]
+        },
+        "C": {
+          "paired_F": -1.7605540528721694e-06,
+          "paired_R": -3.9194895725637384e-05,
+          "quadratic_F": -0.0003521108105744338,
+          "quadratic_R": -0.007838979145127475,
+          "raw_KL": 0.008096952081741549,
+          "absolute_loss": [
+            5.4757905772038065,
+            5.446893867822326
+          ]
+        }
+      },
+      "singular_values": [
+        1.8105336699239747,
+        0.056256710198348256
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "negative",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 4.243578426372206e-05,
+      "B_quadratic_R_minus_old": 5.8525278289204424e-05
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "m005",
+      "t": -0.05,
+      "baseline": false,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": -4.799052874336226e-07,
+          "paired_R": -9.853571084211301e-06,
+          "quadratic_F": -0.000383924229946898,
+          "quadratic_R": -0.00788285686736904,
+          "raw_KL": 0.008126293406411023,
+          "absolute_loss": [
+            5.47579185785075,
+            5.446923209146993
+          ]
+        },
+        "B": {
+          "paired_F": -4.799052874445164e-07,
+          "paired_R": -9.853571084054495e-06,
+          "quadratic_F": -0.00038392422995561304,
+          "quadratic_R": -0.007882856867243595,
+          "raw_KL": 0.008126293406410134,
+          "absolute_loss": [
+            5.475791857850764,
+            5.446923209146993
+          ]
+        },
+        "C": {
+          "paired_F": -4.799052874780811e-07,
+          "paired_R": -9.853571084177293e-06,
+          "quadratic_F": -0.0003839242299824648,
+          "quadratic_R": -0.007882856867341833,
+          "raw_KL": 0.008126293406382601,
+          "absolute_loss": [
+            5.475791857852572,
+            5.446923209146966
+          ]
+        }
+      },
+      "singular_values": [
+        1.811188948980836,
+        0.028135004183609216
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "negative",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 1.062236487884145e-05,
+      "B_quadratic_R_minus_old": 1.4647556142870916e-05
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "m002",
+      "t": -0.02,
+      "baseline": false,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": -7.856928285252086e-08,
+          "paired_R": -1.5790320171110717e-06,
+          "quadratic_F": -0.0003928464142626043,
+          "quadratic_R": -0.007895160085555358,
+          "raw_KL": 0.0081345679454774,
+          "absolute_loss": [
+            5.4757922591867505,
+            5.446931483686061
+          ]
+        },
+        "B": {
+          "paired_F": -7.856928284311829e-08,
+          "paired_R": -1.5790320171550007e-06,
+          "quadratic_F": -0.00039284641421559143,
+          "quadratic_R": -0.007895160085775003,
+          "raw_KL": 0.0081345679454774,
+          "absolute_loss": [
+            5.475792259186767,
+            5.44693148368606
+          ]
+        },
+        "C": {
+          "paired_F": -7.85692828778102e-08,
+          "paired_R": -1.5790320172060605e-06,
+          "quadratic_F": -0.000392846414389051,
+          "quadratic_R": -0.007895160086030303,
+          "raw_KL": 0.008134567945448978,
+          "absolute_loss": [
+            5.475792259188578,
+            5.446931483686034
+          ]
+        }
+      },
+      "singular_values": [
+        1.8113724956652009,
+        0.01125474648047004
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "negative",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 1.7001806188630605e-06,
+      "B_quadratic_R_minus_old": 2.344337611462702e-06
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "p002",
+      "t": 0.02,
+      "baseline": false,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": -7.856928285501495e-08,
+          "paired_R": -1.5790320171169901e-06,
+          "quadratic_F": -0.0003928464142750747,
+          "quadratic_R": -0.00789516008558495,
+          "raw_KL": 0.0081345679454774,
+          "absolute_loss": [
+            5.4757922591867505,
+            5.446931483686061
+          ]
+        },
+        "B": {
+          "paired_F": -7.856928284488954e-08,
+          "paired_R": -1.5790320171285693e-06,
+          "quadratic_F": -0.0003928464142244477,
+          "quadratic_R": -0.007895160085642845,
+          "raw_KL": 0.0081345679454774,
+          "absolute_loss": [
+            5.475792259186767,
+            5.446931483686061
+          ]
+        },
+        "C": {
+          "paired_F": -7.856928287668401e-08,
+          "paired_R": -1.5790320172110993e-06,
+          "quadratic_F": -0.00039284641438342,
+          "quadratic_R": -0.007895160086055496,
+          "raw_KL": 0.008134567945448978,
+          "absolute_loss": [
+            5.475792259188578,
+            5.446931483686034
+          ]
+        }
+      },
+      "singular_values": [
+        1.8113724956652009,
+        0.01125474648047004
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "negative",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 1.7001806100068093e-06,
+      "B_quadratic_R_minus_old": 2.344337743620875e-06
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "p005",
+      "t": 0.05,
+      "baseline": false,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": -4.799052874338235e-07,
+          "paired_R": -9.853571084199933e-06,
+          "quadratic_F": -0.0003839242299470587,
+          "quadratic_R": -0.007882856867359945,
+          "raw_KL": 0.008126293406411023,
+          "absolute_loss": [
+            5.47579185785075,
+            5.446923209146993
+          ]
+        },
+        "B": {
+          "paired_F": -4.799052874452052e-07,
+          "paired_R": -9.853571084064982e-06,
+          "quadratic_F": -0.00038392422995616414,
+          "quadratic_R": -0.007882856867251984,
+          "raw_KL": 0.008126293406410134,
+          "absolute_loss": [
+            5.475791857850764,
+            5.446923209146993
+          ]
+        },
+        "C": {
+          "paired_F": -4.799052874793036e-07,
+          "paired_R": -9.853571084169582e-06,
+          "quadratic_F": -0.00038392422998344283,
+          "quadratic_R": -0.007882856867335664,
+          "raw_KL": 0.008126293406382601,
+          "absolute_loss": [
+            5.475791857852572,
+            5.446923209146966
+          ]
+        }
+      },
+      "singular_values": [
+        1.811188948980836,
+        0.028135004183609216
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "negative",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 1.062236487829035e-05,
+      "B_quadratic_R_minus_old": 1.4647556134481793e-05
+    },
+    {
+      "anchor": "K12",
+      "K": 12,
+      "point_id": "p010",
+      "t": 0.1,
+      "baseline": false,
+      "old_curvature": -0.0003945465948344545,
+      "old_risk_curvature": -0.007897504423386466,
+      "rules": {
+        "A": {
+          "paired_F": -1.7605540525738685e-06,
+          "paired_R": -3.919489572560112e-05,
+          "quadratic_F": -0.0003521108105147736,
+          "quadratic_R": -0.007838979145120223,
+          "raw_KL": 0.008096952081769082,
+          "absolute_loss": [
+            5.475790577201983,
+            5.446893867822354
+          ]
+        },
+        "B": {
+          "paired_F": -1.760554052851919e-06,
+          "paired_R": -3.919489572547725e-05,
+          "quadratic_F": -0.0003521108105703837,
+          "quadratic_R": -0.007838979145095447,
+          "raw_KL": 0.008096952081768194,
+          "absolute_loss": [
+            5.475790577201995,
+            5.446893867822353
+          ]
+        },
+        "C": {
+          "paired_F": -1.7605540528746438e-06,
+          "paired_R": -3.9194895725632315e-05,
+          "quadratic_F": -0.00035211081057492867,
+          "quadratic_R": -0.007838979145126462,
+          "raw_KL": 0.008096952081741549,
+          "absolute_loss": [
+            5.4757905772038065,
+            5.446893867822326
+          ]
+        }
+      },
+      "singular_values": [
+        1.8105336699239747,
+        0.056256710198348256
+      ],
+      "qualified": true,
+      "qualified_F": true,
+      "qualified_R": true,
+      "F_sign": "negative",
+      "R_sign": "negative",
+      "F_resolved": true,
+      "R_resolved": true,
+      "shared_failed_gates": [],
+      "effect_failed_gates": {
+        "F": [],
+        "R": []
+      },
+      "F_sign_floor": 1e-09,
+      "R_sign_floor": 1e-09,
+      "B_quadratic_F_minus_old": 4.2435784264070796e-05,
+      "B_quadratic_R_minus_old": 5.8525278291018945e-05
+    }
+  ],
+  "baseline_rows": [
+    {
+      "anchor": "K11",
+      "rule": "A",
+      "qualified": true,
+      "comparisons": {
+        "old_1D_D_loss_max_difference": 1.6688872506165353e-12,
+        "old_1D_D_PMF_max_difference": 4.787836793695988e-16
+      }
+    },
+    {
+      "anchor": "K11",
+      "rule": "B",
+      "qualified": true,
+      "comparisons": {
+        "old_1D_D_loss_max_difference": 1.6582291095801338e-12,
+        "old_1D_D_PMF_max_difference": 4.787836793695988e-16
+      }
+    },
+    {
+      "anchor": "K11",
+      "rule": "C",
+      "qualified": true,
+      "comparisons": {
+        "old_1D_D_loss_max_difference": 0.0,
+        "old_1D_D_PMF_max_difference": 6.938893903907228e-18
+      }
+    },
+    {
+      "anchor": "K12",
+      "rule": "A",
+      "qualified": true,
+      "comparisons": {
+        "old_1D_D_loss_max_difference": 1.8207657603852567e-12,
+        "old_1D_D_PMF_max_difference": 4.787836793695988e-16
+      }
+    },
+    {
+      "anchor": "K12",
+      "rule": "B",
+      "qualified": true,
+      "comparisons": {
+        "old_1D_D_loss_max_difference": 1.8065549056700547e-12,
+        "old_1D_D_PMF_max_difference": 4.891920202254596e-16
+      }
+    },
+    {
+      "anchor": "K12",
+      "rule": "C",
+      "qualified": true,
+      "comparisons": {
+        "old_1D_D_loss_max_difference": 0.0,
+        "old_1D_D_PMF_max_difference": 1.5612511283791264e-17
+      }
+    }
+  ],
+  "nonzero_points": 12,
+  "qualified_nonzero_points": 12,
+  "qualified_baseline_rules": 6,
+  "precision_maxima": {
+    "F_BC": 5.61955538526393e-17,
+    "R_BC": 1.5506801571973927e-16,
+    "F_AC": 3.069173062399122e-16,
+    "R_AC": 1.1122220223806767e-16,
+    "even_F": 3.747710510016453e-18,
+    "even_R": 2.643145136083363e-17,
+    "even_PMF": 1.734723475976807e-17,
+    "marginal_change": 3.885780586188048e-16,
+    "row_norm_error": 1.1102230246251565e-16,
+    "paired_F_interface": 4.619859995860093e-15,
+    "paired_R_interface": 1.2033447680551103e-15,
+    "baseline_old_1D_loss": 1.8207657603852567e-12,
+    "baseline_old_1D_PMF": 4.891920202254596e-16
+  },
+  "resources": {
+    "baseline_preparations": 6,
+    "nonzero_evaluations": 36,
+    "reused_zero_records": 6,
+    "failed_kernel_calls": 0,
+    "high_level_factor_totals": {
+      "kernel_evaluations": 42,
+      "baseline_preparations": 6,
+      "perturbed_model_evaluations": 36,
+      "tensor_normal_rules_constructed": 6,
+      "bernoulli_logit_values": 2494464,
+      "conditional_loglikelihood_values": 79822848,
+      "laplace_exp_minus_ux_factors": 63101337600,
+      "laplace_logPsi_values": 7064064,
+      "finite_absolute_integrand_values": 7064064,
+      "paired_integrand_values": 6054912,
+      "new_random_draws": 0,
+      "optimizer_updates": 0
+    },
+    "new_observations": 0,
+    "new_random_draws": 0,
+    "optimizer_updates": 0,
+    "statistical_alpha_spent": 0
+  },
+  "scientific_seconds": 601.0515842000023,
+  "audit_passed": true,
+  "route_closed": true,
+  "no_new_report_quadrature": true,
+  "manuscript_modified": false,
+  "third_tier_started": false,
+  "two_dimensional_optimization_started": false,
+  "new_transfer_prompt_created": false,
+  "figure_outputs": {
+    "docs/08_research_研究工作/NoncollinearProbe_v1_20261007/finite_paths.png": {
+      "sha256": "974c51cdc65c12aff4977a803f51d123f0e1e22584d9be8b0cfce3496dd7b90c",
+      "bytes": 174104
+    },
+    "docs/08_research_研究工作/NoncollinearProbe_v1_20261007/finite_paths.svg": {
+      "sha256": "7a04a3e24f33fb2682e7bf595b135d06dd1162b4e073defac4bd6e162bffc245",
+      "bytes": 107124
+    }
+  }
+}

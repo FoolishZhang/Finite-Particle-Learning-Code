@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "learning_ledger": {
+      "independent_training_streams": 16,
+      "role_RNG_streams": 32,
+      "raw_RB_training_grid_optimizations": 576,
+      "table_MLE_training_argmins": 48,
+      "unique_training_model_outputs": 624,
+      "raw_RB_cell_assignments": 1152,
+      "count_state_analysis_argmins": 1347,
+      "new_label_vectors": 16384,
+      "new_label_bits": 4194304,
+      "global_prior_banks": 131072,
+      "prior_vectors": 524288,
+      "Gaussian_scalars": 134217728,
+      "new_reference_integrals": 0,
+      "new_neural_models": 0,
+      "continuous_optimizations": 0
+    },
+    "primary_successes": 13,
+    "primary_pvalue": "697/65536",
+    "CP_successes": [
+      14,
+      15
+    ],
+    "CP_gap_lower_outward": [
+      "0.003656",
+      "0.004290"
+    ],
+    "gradient_ledger": {
+      "reused_banks": 65536,
+      "old_original_K": 4,
+      "used_K": 2,
+      "reused_prior_vectors": 131072,
+      "streams": 8,
+      "new_independent_banks": 0,
+      "new_labels": 0,
+      "RNG_calls": 0,
+      "fits": 0,
+      "locators": 0,
+      "new_bank_n_combinations": 393216,
+      "label_bank_terms": 1572864,
+      "label_particle_weighted_terms": 3145728,
+      "active_label_particle_kernels": 524288,
+      "estimator_outputs": 1179648,
+      "active_transform_calls": 8,
+      "active_particle_transforms": 131072,
+      "new_1D_reference_integrals": 3,
+      "new_1D_Gaussian_nodes": 288,
+      "group_mean_numbers": 98208,
+      "global_estimator_rows": 18,
+      "global_outer_B_rows": 90,
+      "stream_outer_B_rows": 720
+    },
+    "active_target_ledger": {
+      "count_state_argmins": 8082,
+      "unique_count_K_states": 2694,
+      "primary_actual_count_lookups": 96,
+      "original_RB_pairings": 288,
+      "old_MLE_state_index_lookups": 1347,
+      "new_Gaussian_integrals": 0,
+      "new_labels": 0,
+      "new_banks": 0,
+      "new_training_models": 0,
+      "new_confidence_families": 0
+    },
+    "active_target_qualification_rows": 2727,
+    "learning_audit_checks": 132679,
+    "active_audit_checks": 168599,
+    "gradient_audit_counts": {
+      "new_scientific_samples": 0,
+      "RNG_calls": 0,
+      "fits": 0,
+      "locators": 0,
+      "streams_recomputed": 8,
+      "banks_recomputed": 65536,
+      "bank_n_combinations": 393216,
+      "label_bank_terms": 1572864,
+      "active_particle_transforms": 131072,
+      "GH_integrals": 2,
+      "GH_nodes": 224
+    },
+    "new_neural_models": 0,
+    "new_continuous_optimizations": 0,
+    "same_Q_gradient_diagnostics_are_not_finite_label_training": true
+  },
+  "checks": {
+    "learning": "{\"passed\": true, \"workspace_arrays_checked\": true, \"scope\": \"frozen bytes, 624 saved selections, exact sign/CP rational arithmetic; no training replay\"}",
+    "learning_audit": "{\"passed\": true, \"workspace\": true, \"checks\": 112, \"scope\": \"public frozen hashes and completed receipt; workspace adds array hashes, no arithmetic/RNG replay\"}",
+    "gradient_relocated_provenance": "{\"integrity_passed\": true, \"workspace\": true, \"mapped_source_paths\": 1, \"original_source_bytes_unchanged\": true, \"original_scientific_freezes_unchanged\": true, \"GH_reference_qualified\": true, \"statistics_or_integrals_reexecuted\": false}",
+    "gradient_audit": "{\"passed\": true, \"workspace\": true, \"statistics_integrals_RNG_reexecuted\": false, \"receipt_sha256\": \"0d6e428496b4a86a18e6ec567c3d39a25295f86acba58130372dc861def6b927\"}",
+    "active_target": "{\"passed\": true, \"scope\": \"frozen bytes and saved finite-table arithmetic; no Gaussian evaluation or new data\", \"qualified\": true}",
+    "active_audit": "{\"passed\": true, \"checks\": 59, \"local_arrays_required\": false, \"scope\": \"public frozen inputs/outputs and completed receipt; no table replay\"}",
+    "figures": "{\"passed\": true, \"read_only\": true, \"render_or_science_reexecuted\": false, \"receipt_sha256\": \"edd5a21405629a58584b1d9371431869dfefa9c54939756ee0fbfbd570c9d922\"}",
+    "derived_summary": "{\"passed\": true, \"new_scientific_computation\": false, \"primary_successes\": 13, \"CP_gap_lower_displays\": [\"0.003656\", \"0.004290\"], \"active_target_qualification_rows\": 2727}",
+    "old_package_default": "{\"passed\": true, \"workspace\": false, \"new_scientific_computation\": false, \"full_scientific_audit_reexecuted\": false, \"public_files\": 88, \"local_arrays\": 17}"
+  },
+  "local_links": 61,
+  "old_manifest_sha256": "53a6ef7512240e30642bc370ce05cc5ba2c14a25cad4eacfda72a6240cd8f583",
+  "new_RNG_training_or_Gaussian_integrals": false,
+  "full_independent_audits_reexecuted": false,
+  "saved_table_arithmetic_rechecked": true
+}

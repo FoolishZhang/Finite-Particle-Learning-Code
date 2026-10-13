@@ -1,0 +1,30 @@
+{
+  "status": "passed_design_algebra_only",
+  "source_plan": "docs/08_research_研究工作/ProspectiveDiagnostic_v1_20261007/DECISION_RULES.json",
+  "source_plan_sha256": "f29f13befab1e87b08ea4196f8f008816168d2dc97a9816b3569ce7af3fec24f",
+  "feedback_sha256": "90982b0613b5dc549e20dc7aed23392d16129f8a45929352ebe6b5d724684d08",
+  "reviewer_sandbox_files_obtained": false,
+  "local_independent_algebra_calculation": true,
+  "old_fixed_kick_alignment": [
+    {
+      "teacher": "T2_weak_second_direction",
+      "old_kick_cosine": 0.996426489544849
+    },
+    {
+      "teacher": "T3_asymmetric_two_factor",
+      "old_kick_cosine": 0.9947682481730059
+    }
+  ],
+  "centering_projector_commutes_with_checked_coordinate_permutation": true,
+  "Gaussian_kick_symmetry_argument": "The centered isotropic Gaussian law is invariant under coordinate permutations; normalization preserves that law outside the probability-zero zero vector. No sampling is used in this check.",
+  "manufactured_policy_identity_max_errors": {
+    "policy_minus_low": 0.0,
+    "policy_minus_high": 0.0,
+    "ref_minus_full": 0.0,
+    "cost_identity": 0.0
+  },
+  "new_teacher_probabilities": 0,
+  "new_data_units": 0,
+  "new_training": 0,
+  "new_scientific_quadrature": 0
+}

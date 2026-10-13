@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests_run": 3,
+  "source_sha256": {
+    "script/certified_teacher_finalize.py": "a47539adef50e74611e5f88bd5d3de9b952fb8c58cbd39f74e5d656c0b2bee39",
+    "script/certified_teacher_finalize_test.py": "60708509963447eb417e42c630b9f03433e1e31be9ce309f62f7619c5b475bcb"
+  },
+  "real_teacher_grid_points": 0,
+  "scientific_data_reads": 0,
+  "new_random_draws": 0
+}

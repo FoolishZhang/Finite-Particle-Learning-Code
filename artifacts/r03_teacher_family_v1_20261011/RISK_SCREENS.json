@@ -1,0 +1,386 @@
+{
+  "h01": {
+    "status": "enclosed",
+    "R0": {
+      "arb_display_only": "[+/- 6.03e-3]",
+      "lower_exact_dyadic": {
+        "mantissa": "-4841573479988164016227803446909777893756719676996323858459",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-2409695211946271390466986298896673090812639012789832603675",
+        "exponent_of_two": -199
+      }
+    },
+    "R0_original": {
+      "arb_display_only": "[+/- 0.0120]",
+      "lower_exact_dyadic": {
+        "mantissa": "-4800174563185873978917617440277991733650286933225990686963",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "2358391844376648428008450283984524726830473586368671051291",
+        "exponent_of_two": -199
+      }
+    },
+    "R0_centered": {
+      "arb_display_only": "[+/- 6.03e-3]",
+      "lower_exact_dyadic": {
+        "mantissa": "-4841573478526662378896900528706093061040436657340391315483",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-2409695213407773027797889217100357923528922032445765146651",
+        "exponent_of_two": -199
+      }
+    },
+    "own_target_centering": {
+      "enabled": true,
+      "ratio_bindings_checked": 256,
+      "independent_ratio_overlap_consistency": true,
+      "overlap_is_mathematical_certificate": false,
+      "centered_ratio_source": "intersection of source-qualified true rho and independently reconstructed N/Q",
+      "true_enclosure_qualification_source": "source-bound producer proofs; not numerical overlap",
+      "analytic_numerator_sum_zero_used": true,
+      "Q_mass": {
+        "arb_display_only": "[1.00 +/- 6.28e-3]",
+        "lower_exact_dyadic": {
+          "mantissa": "779717538261109010970862726502049328215179864626170424997",
+          "exponent_of_two": -189
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "789557909818672981392706343445972263251059121704850157221",
+          "exponent_of_two": -189
+        }
+      },
+      "N_sum": {
+        "arb_display_only": "[+/- 6.86e-3]",
+        "lower_exact_dyadic": {
+          "mantissa": "-2752144929171959641421728159554522430752736210785141345253",
+          "exponent_of_two": -198
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "2752144929171960366398631139426678112097616117895792079899",
+          "exponent_of_two": -198
+        }
+      },
+      "intersection_used": true,
+      "identity": "sum_y N_y(a)=0 for each fixed a; R0=sum_y(q0_y-Q_y(a))*N_y(a)/Q_y(a)"
+    },
+    "R1": {
+      "arb_display_only": "[0.01 +/- 5.00e-3]",
+      "lower_exact_dyadic": {
+        "mantissa": "5068425070849033557897762615943338316202062612738637255983",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "6024507370798980657652976171846361541546390352569813390639",
+        "exponent_of_two": -198
+      }
+    },
+    "centering_B0": {
+      "arb_display_only": "-0.105361034398811170831322669982910156250000000000000000000",
+      "lower_exact_dyadic": {
+        "mantissa": "-28961420609",
+        "exponent_of_two": -38
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-28961420609",
+        "exponent_of_two": -38
+      }
+    },
+    "max_centered_ratio_absolute": {
+      "arb_display_only": "0.381660719645878998562693595886230468750000000000000000000",
+      "lower_exact_dyadic": {
+        "mantissa": "104910099779",
+        "exponent_of_two": -38
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "104910099779",
+        "exponent_of_two": -38
+      }
+    },
+    "Taylor_remainder": {
+      "arb_display_only": "[8.4408657247962068140623159706592559814453125000000000000e-6 +/- 1.55e-62]",
+      "lower_exact_dyadic": {
+        "mantissa": "1736185377236065410084664690062512065858914095295352320747",
+        "exponent_of_two": -207
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "108511586077254088130291543128907004116182130955959520047",
+        "exponent_of_two": -203
+      }
+    },
+    "true_curvature": {
+      "arb_display_only": "[+/- 6.19e-3]",
+      "lower_exact_dyadic": {
+        "mantissa": "-4968845603913549152092988035843074726627662629004140566555",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-2282423088020886254601801709963376257941696060782015895579",
+        "exponent_of_two": -199
+      }
+    },
+    "true_risk_curvature_negative": true,
+    "passed": true,
+    "uses_teacher_at_each_lambda": true,
+    "remainder_mass_zero_centering": true
+  },
+  "h001": {
+    "status": "enclosed",
+    "R0": {
+      "arb_display_only": "[-0.005 +/- 6.35e-4]",
+      "lower_exact_dyadic": {
+        "mantissa": "-1871096855837322134282441342103527026766719558391125454975",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-1753600621731812390861157247327676492634929616441643053183",
+        "exponent_of_two": -198
+      }
+    },
+    "R0_original": {
+      "arb_display_only": "[+/- 5.25e-3]",
+      "lower_exact_dyadic": {
+        "mantissa": "-2108806048081796371822317209859437609975235069544061695755",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-1515858364885448794627548495003904125465616243982837970699",
+        "exponent_of_two": -198
+      }
+    },
+    "R0_centered": {
+      "arb_display_only": "[-0.005 +/- 6.35e-4]",
+      "lower_exact_dyadic": {
+        "mantissa": "-1871096855745978281949259909715796724721951869662629671039",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-1753600621823156243194338679715406794679697305170138837119",
+        "exponent_of_two": -198
+      }
+    },
+    "own_target_centering": {
+      "enabled": true,
+      "ratio_bindings_checked": 256,
+      "independent_ratio_overlap_consistency": true,
+      "overlap_is_mathematical_certificate": false,
+      "centered_ratio_source": "intersection of source-qualified true rho and independently reconstructed N/Q",
+      "true_enclosure_qualification_source": "source-bound producer proofs; not numerical overlap",
+      "analytic_numerator_sum_zero_used": true,
+      "Q_mass": {
+        "arb_display_only": "[1.000 +/- 6.26e-4]",
+        "lower_exact_dyadic": {
+          "mantissa": "98018396482281520008284246880724295165274573517894056183",
+          "exponent_of_two": -186
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "98141034334691358325209612229886956656135515253137078519",
+          "exponent_of_two": -186
+        }
+      },
+      "N_sum": {
+        "arb_display_only": "[+/- 6.80e-4]",
+        "lower_exact_dyadic": {
+          "mantissa": "-272885061944492259457210191503462087447626026008170246161",
+          "exponent_of_two": -198
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "272885061944492854680971609029762568796027444503009775599",
+          "exponent_of_two": -198
+        }
+      },
+      "intersection_used": true,
+      "identity": "sum_y N_y(a)=0 for each fixed a; R0=sum_y(q0_y-Q_y(a))*N_y(a)/Q_y(a)"
+    },
+    "R1": {
+      "arb_display_only": "[0.014 +/- 3.16e-4]",
+      "lower_exact_dyadic": {
+        "mantissa": "343599139512753581904862119464189550938051336951260857013",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "349524301441765306174810092780012963251060095526640370357",
+        "exponent_of_two": -194
+      }
+    },
+    "centering_B0": {
+      "arb_display_only": "-0.103284621844522916944697499275207519531250000000000000000",
+      "lower_exact_dyadic": {
+        "mantissa": "-227125285377",
+        "exponent_of_two": -41
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-227125285377",
+        "exponent_of_two": -41
+      }
+    },
+    "max_centered_ratio_absolute": {
+      "arb_display_only": "0.373017268023886572336778044700622558593750000000000000000",
+      "lower_exact_dyadic": {
+        "mantissa": "820273647107",
+        "exponent_of_two": -41
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "820273647107",
+        "exponent_of_two": -41
+      }
+    },
+    "Taylor_remainder": {
+      "arb_display_only": "[8.2497058522064790167860337533056735992431640625000000000e-8 +/- 2.07e-64]",
+      "lower_exact_dyadic": {
+        "mantissa": "4343977144436859229688393055684230993697518842443202548611",
+        "exponent_of_two": -215
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4343977144436859229688393055684230993697518842443202548625",
+        "exponent_of_two": -215
+      }
+    },
+    "true_curvature": {
+      "arb_display_only": "[-0.005 +/- 6.49e-4]",
+      "lower_exact_dyadic": {
+        "mantissa": "-1876722386643707669263716140681649723522736205574300971135",
+        "exponent_of_two": -198
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-1747975090925426855879882448749553795878912969258467537023",
+        "exponent_of_two": -198
+      }
+    },
+    "true_risk_curvature_negative": true,
+    "passed": true,
+    "uses_teacher_at_each_lambda": true,
+    "remainder_mass_zero_centering": true
+  },
+  "h0001": {
+    "status": "enclosed",
+    "R0": {
+      "arb_display_only": "[-0.0045 +/- 2.59e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "-3636401102332668123049117560528106276324946573952828170099",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-3612976314397989255809562740496009780653195005664109649779",
+        "exponent_of_two": -199
+      }
+    },
+    "R0_original": {
+      "arb_display_only": "[-0.0045 +/- 8.51e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "-3683942959381830114022612853373158568464244007514243062403",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-3565433879978809924920026860321054098112556547618616629891",
+        "exponent_of_two": -199
+      }
+    },
+    "R0_centered": {
+      "arb_display_only": "[-0.0045 +/- 2.59e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "-3636401102321250141507469881479639988569350612861766197107",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-3612976314409407237351210419544476068408790966755171622771",
+        "exponent_of_two": -199
+      }
+    },
+    "own_target_centering": {
+      "enabled": true,
+      "ratio_bindings_checked": 256,
+      "independent_ratio_overlap_consistency": true,
+      "overlap_is_mathematical_certificate": false,
+      "centered_ratio_source": "intersection of source-qualified true rho and independently reconstructed N/Q",
+      "true_enclosure_qualification_source": "source-bound producer proofs; not numerical overlap",
+      "analytic_numerator_sum_zero_used": true,
+      "Q_mass": {
+        "arb_display_only": "[1.0000 +/- 6.26e-5]",
+        "lower_exact_dyadic": {
+          "mantissa": "784588661081716346983942880053791785998315314908055172057",
+          "exponent_of_two": -189
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "784686785087415769236275706643123568731097026941368890329",
+          "exponent_of_two": -189
+        }
+      },
+      "N_sum": {
+        "arb_display_only": "[+/- 6.79e-5]",
+        "lower_exact_dyadic": {
+          "mantissa": "-6817004385002751383661044317144583423667086414257543373",
+          "exponent_of_two": -196
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "6817004385002894755674426258148834730173738635733804851",
+          "exponent_of_two": -196
+        }
+      },
+      "intersection_used": true,
+      "identity": "sum_y N_y(a)=0 for each fixed a; R0=sum_y(q0_y-Q_y(a))*N_y(a)/Q_y(a)"
+    },
+    "R1": {
+      "arb_display_only": "[0.0138 +/- 1.44e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "692529380208521395321303653433645954582027190491120113609",
+        "exponent_of_two": -195
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "693713616048528239133248397372257716056952923104411359177",
+        "exponent_of_two": -195
+      }
+    },
+    "centering_B0": {
+      "arb_display_only": "-0.103078542742878198623657226562500000000000000000000000000",
+      "lower_exact_dyadic": {
+        "mantissa": "-221359485",
+        "exponent_of_two": -31
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-221359485",
+        "exponent_of_two": -31
+      }
+    },
+    "max_centered_ratio_absolute": {
+      "arb_display_only": "0.372164206113779982842970639467239379882812500000000000000",
+      "lower_exact_dyadic": {
+        "mantissa": "3273590976513",
+        "exponent_of_two": -43
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3273590976513",
+        "exponent_of_two": -43
+      }
+    },
+    "Taylor_remainder": {
+      "arb_display_only": "[8.2308394070432751675525651080533862113952636718750000000e-10 +/- 1.65e-66]",
+      "lower_exact_dyadic": {
+        "mantissa": "5547574785994212365910920485395584846520691843383725621203",
+        "exponent_of_two": -222
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5547574785994212365910920485395584846520691843383725621217",
+        "exponent_of_two": -222
+      }
+    },
+    "true_curvature": {
+      "arb_display_only": "[-0.0045 +/- 2.73e-5]",
+      "lower_exact_dyadic": {
+        "mantissa": "-3637511705465134881496626590752753959731139725199864618867",
+        "exponent_of_two": -199
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-3611865711265522497362053710271362097247001854417073201011",
+        "exponent_of_two": -199
+      }
+    },
+    "true_risk_curvature_negative": true,
+    "passed": true,
+    "uses_teacher_at_each_lambda": true,
+    "remainder_mass_zero_centering": true
+  }
+}

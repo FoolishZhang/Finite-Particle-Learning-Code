@@ -1,0 +1,97 @@
+{
+  "rep": 18,
+  "folder": "artifacts/use_digits_v3_20261005/rep_18",
+  "trained_sha256": "71c5643e0b1f505973fdb79e16eef15060c00b14b290d7a10f3f3e2412643c4c",
+  "selection_sha256": "3f286f7db8b87aee7d3df6180650f85ffb772bc1cb9b68bba81ac09ea3bb0e16",
+  "evaluation_file": "artifacts/use_digits_v3_20261005/rep_18/EVALUATION.npz",
+  "evaluation_sha256": "985c91cb0ac6637bcc90d7c2e1af8495be383e21caf3bd2b7e1d45bf7eb399a7",
+  "candidate_test_NLL": [
+    25.171086827211127,
+    22.65320604126238,
+    22.736376552807894,
+    23.366398854127137
+  ],
+  "selected_test_NLL": [
+    22.65320604126238,
+    22.65320604126238,
+    22.65320604126238,
+    22.65320604126238,
+    22.65320604126238
+  ],
+  "choices": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "test_best_candidate": 1,
+  "test_relative_best": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "test_reference": [
+    {
+      "name": "IND",
+      "qualified": true,
+      "main_order": 0,
+      "nodes": 0
+    },
+    {
+      "name": "L001",
+      "main_order": 32,
+      "qualified": true,
+      "errors": {
+        "coarse": 7.4800224680871e-07,
+        "adjacent": 4.753466953388852e-09
+      },
+      "mode": {
+        "iterations": 6,
+        "max_gradient": 9.995560490416722e-09,
+        "backtracks": 0
+      },
+      "profiles": 1750,
+      "nodes": 2744000
+    },
+    {
+      "name": "L010",
+      "main_order": 32,
+      "qualified": true,
+      "errors": {
+        "coarse": 2.07092405446474e-08,
+        "adjacent": 3.7765346405649325e-12
+      },
+      "mode": {
+        "iterations": 6,
+        "max_gradient": 9.987662363819538e-09,
+        "backtracks": 0
+      },
+      "profiles": 1750,
+      "nodes": 2744000
+    },
+    {
+      "name": "L100",
+      "main_order": 32,
+      "qualified": true,
+      "errors": {
+        "coarse": 6.094680315982259e-11,
+        "adjacent": 7.105427357601002e-15
+      },
+      "mode": {
+        "iterations": 5,
+        "max_gradient": 9.831876424115649e-09,
+        "backtracks": 0
+      },
+      "profiles": 1750,
+      "nodes": 2744000
+    }
+  ],
+  "numerically_qualified": true,
+  "reference_nodes": 11797632,
+  "training_calls": 732,
+  "converged_fits": 4,
+  "seconds": 63.62847660004627
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "bankvar-independent-stats-audit-v1",
+  "created_utc": "2026-10-02T06:52:31.649779+00:00",
+  "source_sha256": "710db61321eb080ab2ebc3e5f2833e348a9c59175d17ffaa0e5aa9a7cfc52581",
+  "inputs": {
+    "script/bankvar_analysis.py": "a37cb96b07ae128862bd58134db5bc99a28bc81af31f84d3167ac5ceb1750105",
+    "artifacts/bank_precision/TRAIN/FREEZE.json": "4288c2d77c8b56b560e1243bf8fd25888de59ced98c3f2aef5a9b0a61882dd4f",
+    "docs/08_research_研究工作/粒子精度与局部校准_20261002/PLAN.md": "4bd7ca159cf6820ad6ae08d74e8471180f62dab57fa56631e226ac03f866e76f",
+    "artifacts/finite_calibration/CAL/MODEL.json": "ea73bb0b2ded95a15bbc27c020a3d8f26aa2041df8bc1276c0689f103255fe3c",
+    "artifacts/bank_precision/LOCAL/MODEL.json": "c7501995a5314a212e65369496a17ef1996bce0fe9a01607d5d4be00b3e03a13",
+    "artifacts/finite_calibration/POSTHOC_QUADRATIC/PROTOCOL.json": "2a1e8cd424b7b5d06c7e7397861d10a1409d56f8b27f7d27ce227bcd6e2b373b"
+  },
+  "analysis_existed_at_freeze": false,
+  "expected_output_rows": 1008,
+  "expected_cells": 63,
+  "expected_gradient_rows": 864,
+  "expected_mesh_rows": 864,
+  "numerical_tolerance": 2e-12,
+  "KL_tolerance": 2e-14,
+  "primary_family": "Two paired t development gates: average3 teachers within each stream, then16 streams; t_(.9875,15)",
+  "scope": "63 cells; both primary gates; 864 rational mesh/interpolation checks conditional on stored base curvature; all864 fixed-point gradient rows and all/interior summaries from saved NPZ and independently evaluated penalties",
+  "excluded": "No prior RNG replay, no underlying likelihood/path-gradient recomputation, no Gaussian integral certification; these have separate audits",
+  "new_random_draws": 0,
+  "new_integrals": 0,
+  "automatic_retry": false
+}

@@ -1,0 +1,133 @@
+{
+  "tree": {
+    "pmfs": {
+      "LOW": {
+        "__ndarray__": "array_000000",
+        "dtype": "float64",
+        "shape": [
+          4,
+          256
+        ]
+      },
+      "HIGH": {
+        "__ndarray__": "array_000001",
+        "dtype": "float64",
+        "shape": [
+          4,
+          256
+        ]
+      },
+      "REF": {
+        "__ndarray__": "array_000002",
+        "dtype": "float64",
+        "shape": [
+          4,
+          256
+        ]
+      }
+    },
+    "KL": {
+      "LOW": {
+        "__ndarray__": "array_000003",
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      },
+      "HIGH": {
+        "__ndarray__": "array_000004",
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      },
+      "REF": {
+        "__ndarray__": "array_000005",
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      }
+    },
+    "empirical_NLL": {
+      "LOW": {
+        "__ndarray__": "array_000006",
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      },
+      "HIGH": {
+        "__ndarray__": "array_000007",
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      },
+      "REF": {
+        "__ndarray__": "array_000008",
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      }
+    },
+    "paired_gain": {
+      "__ndarray__": "array_000009",
+      "dtype": "float64",
+      "shape": [
+        4
+      ]
+    },
+    "main_index": 1,
+    "rules": [
+      [
+        40,
+        0.0
+      ],
+      [
+        60,
+        0.0
+      ],
+      [
+        80,
+        0.0
+      ],
+      [
+        72,
+        0.4487989505128276
+      ]
+    ],
+    "qualified_by_arm": {
+      "LOW": true,
+      "HIGH": true,
+      "REF": true
+    },
+    "errors": {
+      "LOW": {
+        "mass_error": 1.4432899320127035e-15,
+        "pmf_max_difference": 1.7694179454963432e-15
+      },
+      "HIGH": {
+        "mass_error": 1.4432899320127035e-15,
+        "pmf_max_difference": 7.200837148779726e-15
+      },
+      "REF": {
+        "mass_error": 1.3322676295501878e-15,
+        "pmf_max_difference": 1.822686689079145e-10
+      }
+    },
+    "paired_numerical_discrepancy": 1.1852498149611534e-15,
+    "paired_identity_error": 3.469446951953614e-18,
+    "LOW_HIGH_risk_qualified": true,
+    "seconds": 0.38196619995869696,
+    "PMF_calls": 12,
+    "PMF_label_node_evaluations": 12890112
+  },
+  "raw": {
+    "path": "artifacts/prospective_diagnostic_dev_v1_20261007/units/D1_N1024_r1/risk.npz",
+    "sha256": "29d26e035fa29c4232f4749a5f8ad00b57d0a7317b711d475219e254597d5b71",
+    "bytes": 15993
+  },
+  "created_utc": "2026-10-07T10:48:50.448698+00:00"
+}

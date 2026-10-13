@@ -1,0 +1,22 @@
+{
+  "internal_independent_audit": true,
+  "external_expert_review": false,
+  "steps_completed": [
+    "analytic n0 local minimum by two independent proofs",
+    "frozen fresh paired bounded-curvature audit",
+    "local exact-risk consequence",
+    "continuity along an observation-equivalent nuisance scale path"
+  ],
+  "additional_random_experiments": 1,
+  "checked": [
+    "Laplace alternating-series ratio, P/N tail bound and exact rational certificate",
+    "independent ratio proof and monotone K>=100 lower bound",
+    "fourth-order Price kernel diagonal and cross-particle terms",
+    "bounded kernel range and bank unit",
+    "risk Hessian and quotient interval orientation",
+    "tau0 retains 256 fair observations; normalized curvature matches n0",
+    "continuity and at least one zero without uniqueness or location",
+    "separate confidence families and conservative cross-round98% coverage"
+  ],
+  "manuscripts_unchanged": true
+}

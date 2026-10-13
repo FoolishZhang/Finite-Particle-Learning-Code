@@ -1,0 +1,108 @@
+{
+  "time_utc": "2026-09-30T02:51:15.083717+00:00",
+  "passed": true,
+  "hash_checks": 78,
+  "array_hash_checks": 48,
+  "reference_count": 6,
+  "stream_count": 48,
+  "statistical_rows": 72,
+  "maxima": {
+    "array_mean_error": 0.0,
+    "weighted_mean_error": 2.4868995751603507e-14,
+    "pair_identity_error": 0.0,
+    "reference_F_error": 0.0,
+    "statistical_replay_error": 3.552713678800501e-15
+  },
+  "precision_pass": 60,
+  "precision_failures": [
+    {
+      "d": "8",
+      "profile": "null",
+      "K": "1",
+      "reading": "group_excess",
+      "SE": "0.01844020571607731"
+    },
+    {
+      "d": "8",
+      "profile": "null",
+      "K": "1",
+      "reading": "single_minus_group",
+      "SE": "0.01678914314051366"
+    },
+    {
+      "d": "8",
+      "profile": "mild",
+      "K": "1",
+      "reading": "group_excess",
+      "SE": "0.02240325097304067"
+    },
+    {
+      "d": "8",
+      "profile": "mild",
+      "K": "1",
+      "reading": "single_minus_group",
+      "SE": "0.02146698949954384"
+    },
+    {
+      "d": "8",
+      "profile": "contrast",
+      "K": "1",
+      "reading": "group_excess",
+      "SE": "0.023430685900824703"
+    },
+    {
+      "d": "8",
+      "profile": "contrast",
+      "K": "1",
+      "reading": "single_minus_group",
+      "SE": "0.027994904337443796"
+    },
+    {
+      "d": "16",
+      "profile": "null",
+      "K": "1",
+      "reading": "group_excess",
+      "SE": "0.01935291675507844"
+    },
+    {
+      "d": "16",
+      "profile": "null",
+      "K": "1",
+      "reading": "single_minus_group",
+      "SE": "0.018265014172539482"
+    },
+    {
+      "d": "16",
+      "profile": "mild",
+      "K": "1",
+      "reading": "group_excess",
+      "SE": "0.02975700737211021"
+    },
+    {
+      "d": "16",
+      "profile": "mild",
+      "K": "1",
+      "reading": "single_minus_group",
+      "SE": "0.030716555685213177"
+    },
+    {
+      "d": "16",
+      "profile": "contrast",
+      "K": "1",
+      "reading": "group_excess",
+      "SE": "0.044393407692181766"
+    },
+    {
+      "d": "16",
+      "profile": "contrast",
+      "K": "1",
+      "reading": "single_minus_group",
+      "SE": "0.042433710159224015"
+    }
+  ],
+  "no_new_random_draws": true,
+  "no_new_scientific_observations_or_fits": true,
+  "audit_source_sha256": "8d06118529926ec4b9bd0c2183f5e8e6dfdd6e8f559caeba9303dc113488cff6",
+  "immutable_experiment_freeze_sha256": "81b03f6ddae4661351dc857586c927408ebbfed2499440b8c4e675b2aab5507a",
+  "results_freeze_sha256": "76d2aea7cf2da4cf710464c7a611205601cd223d5584e1c96e67d1a9653e9118"
+}

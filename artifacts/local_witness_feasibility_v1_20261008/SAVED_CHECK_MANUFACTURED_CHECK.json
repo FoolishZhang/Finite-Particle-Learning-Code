@@ -1,0 +1,14 @@
+{
+  "schema": "local_witness_saved_check_manufactured_v1",
+  "created_utc": "2026-10-08T07:32:18.408740+00:00",
+  "status": "passed",
+  "tests_run": 3,
+  "source_sha256": {
+    "script/local_witness_feasibility_saved_check.py": "a1ec216a4c08080f181f008c81a26d2cd2396a7a6525a48c53a6c25a8990e676",
+    "script/local_witness_feasibility_saved_check_test.py": "43709834bb5fc33dc134406ed1ba91ce26b85f32e93001c24995592018a70d4a"
+  },
+  "new_kernel_calls": 0,
+  "new_integrals": 0,
+  "new_random_draws": 0,
+  "scientific_array_reads": 0
+}

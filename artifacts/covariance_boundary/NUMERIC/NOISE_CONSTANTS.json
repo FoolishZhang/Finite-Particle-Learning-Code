@@ -1,0 +1,57 @@
+{
+  "rows": [
+    {
+      "source": "primary",
+      "alpha": {
+        "1": 0.4132419282838008,
+        "2": 0.6057055096021395,
+        "6": 0.764499876019707
+      },
+      "emission_noise_variance_tau2": 0.8264838565676016,
+      "negative_teacher_limit_variance": 0.5775708702728994,
+      "tau2_minus_teacher_variance": 0.24891298629470215,
+      "negative_teacher_below_emission_noise": true
+    },
+    {
+      "source": "previous",
+      "alpha": {
+        "1": 0.4132419282838077,
+        "2": 0.6057055096021497,
+        "6": 0.7644998760197228
+      },
+      "emission_noise_variance_tau2": 0.8264838565676154,
+      "negative_teacher_limit_variance": 0.5775708702728835,
+      "tau2_minus_teacher_variance": 0.2489129862947319,
+      "negative_teacher_below_emission_noise": true
+    },
+    {
+      "source": "quad",
+      "alpha": {
+        "1": 0.4132419282838141,
+        "2": 0.605705509602159,
+        "6": 0.7644998760197312
+      },
+      "emission_noise_variance_tau2": 0.8264838565676282,
+      "negative_teacher_limit_variance": 0.5775708702728726,
+      "tau2_minus_teacher_variance": 0.24891298629475567,
+      "negative_teacher_below_emission_noise": true
+    }
+  ],
+  "primary": {
+    "source": "primary",
+    "alpha": {
+      "1": 0.4132419282838008,
+      "2": 0.6057055096021395,
+      "6": 0.764499876019707
+    },
+    "emission_noise_variance_tau2": 0.8264838565676016,
+    "negative_teacher_limit_variance": 0.5775708702728994,
+    "tau2_minus_teacher_variance": 0.24891298629470215,
+    "negative_teacher_below_emission_noise": true
+  },
+  "old_moments_qualified": true,
+  "strict_interval_certificate": false,
+  "new_scalar_alpha_integrals": 0,
+  "not_a_general_covariance_theorem": true,
+  "tau2_identity": "E sech^2(aZ/2) = 2*alpha(a)/a; do not square this value again"
+}

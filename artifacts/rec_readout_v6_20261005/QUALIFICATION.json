@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "producer_sha256": "022c884351d1cd0eeb35ca1509d3feb416c9efbd7465bc799f4ea210881d3f7b",
+  "audit_sha256": "f583598ede157d9a0982a5282456ac2bacdb54aaee70dcc6c3b082de343f6ee5",
+  "extraction_error": 0.0,
+  "diagonal_PMF_error": 1.3058998327153404e-14,
+  "alternate_PMF_error": 1.6028844918025698e-14,
+  "score_error": 1.3322676295501878e-15,
+  "statistics_error": 0.0,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1"
+  },
+  "seconds": 0.5950253000482917,
+  "scope": "Manufactured tensors only; no saved LAST risks or scientific prior pilot"
+}

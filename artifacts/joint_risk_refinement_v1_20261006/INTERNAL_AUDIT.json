@@ -1,0 +1,18 @@
+{
+  "kind": "internal_read_only_mathematical_audit",
+  "domain_expert_review": false,
+  "proof_route": "Exact three-spin Walsh representation, inversion event Pinsker, joint quadratic KL lower bound, Price lower derivative, existing maximum-norm Taylor bound",
+  "checked": [
+    "Pinsker direction and event factor four",
+    "Walsh second-moment sum",
+    "Taylor bound for positive and negative u",
+    "Frobenius factor two and radius coefficient four",
+    "reuse of the same original simultaneous confidence event",
+    "finite population regret implication and compactness/existence",
+    "no conclusion that Cb is globally optimal or that n0 has a global I minimum"
+  ],
+  "pre_freeze_feasibility": true,
+  "pre_freeze_precision_bits": 192,
+  "original_primary_gate_unchanged": true,
+  "manuscript_change_proposal_only": true
+}

@@ -1,0 +1,965 @@
+{
+  "schema": "r02_finite_scale_results_v1",
+  "freeze_sha256": "7d80f8d338df004d6c723eb7552c602a3db0736d2c9c42056f81a5eeef8449e3",
+  "constants_sha256": "9531d7e8dc2787298af5de2dbdcd2ff93d2d6757b7b2f478f8aa75d94189393e",
+  "audit_sha256": "f4dd6be6ee9eff4850222d0520836d1121ebabeac1933a75c870b4bf201f7008",
+  "analytic_second_order": "D=-m_H J_K/sqrt(nv)+coefficient/n+O_K(n^-3/2); remainder constant and starting n not explicit",
+  "constants": {
+    "d0": {
+      "arb_display_only": "[0.112912002787494475111 +/- 1.29e-22]",
+      "lower_exact_dyadic": {
+        "mantissa": "2835040514573469222021863727723608942564944776854780737849",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "2835040514573469222025727710002892721116978060992327416121",
+        "exponent_of_two": -194
+      }
+    },
+    "v": {
+      "arb_display_only": "[0.271514501800558731839 +/- 7.02e-22]",
+      "lower_exact_dyadic": {
+        "mantissa": "3408648300869874549088057092311847163555974168030166607247",
+        "exponent_of_two": -193
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3408648300869874549098249937564534341491888282257932903823",
+        "exponent_of_two": -193
+      }
+    },
+    "s0": {
+      "arb_display_only": "[0.8264838565676281490494 +/- 2.97e-23]",
+      "lower_exact_dyadic": {
+        "mantissa": "5187923250329735208188339616182203640612902018158038361945",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5187923250329735208188532815296601108554253565461130389337",
+        "exponent_of_two": -192
+      }
+    },
+    "kappa3_L": {
+      "arb_display_only": "[-0.16208683226381804873 +/- 4.57e-21]",
+      "lower_exact_dyadic": {
+        "mantissa": "-4069742144346168446050989180442415106598181952367583327097",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-4069742144346168445945010182976978040180955016447021577081",
+        "exponent_of_two": -194
+      }
+    },
+    "kappa_spin": {
+      "arb_display_only": "[0.0770851154121167354901 +/- 4.96e-23]",
+      "lower_exact_dyadic": {
+        "mantissa": "1935484446903522126700236505533352774537550882970095225751",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "1935484446903522126701359385433757181428460352076955421591",
+        "exponent_of_two": -194
+      }
+    },
+    "m_H": {
+      "arb_display_only": "[0.01927127885302918387252 +/- 7.39e-24]",
+      "lower_exact_dyadic": {
+        "mantissa": "1935484446903522126700236505532733804517908192832645663639",
+        "exponent_of_two": -196
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "1935484446903522126701359385434376151448103042214404983703",
+        "exponent_of_two": -196
+      }
+    },
+    "cbar": {
+      "arb_display_only": "[-0.0547240726452943675562 +/- 6.63e-23]",
+      "lower_exact_dyadic": {
+        "mantissa": "-1374034285476816241535026908500808454806423805273943058363",
+        "exponent_of_two": -194
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "-1374034285476816241532090386249254495600456632483906594747",
+        "exponent_of_two": -194
+      }
+    },
+    "V_H": {
+      "arb_display_only": "[0.02360133572724289470720 +/- 5.56e-24]",
+      "lower_exact_dyadic": {
+        "mantissa": "4740735534429441397105099623703050009349777569231047176491",
+        "exponent_of_two": -197
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "4740735534429441397106479468430229020744262015945712283947",
+        "exponent_of_two": -197
+      }
+    },
+    "V_A": {
+      "arb_display_only": "[0.84051923403528451804 +/- 3.06e-21]",
+      "lower_exact_dyadic": {
+        "mantissa": "5276024742588768118828915198407515679708419524652160934799",
+        "exponent_of_two": -192
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "5276024742588768118862156739131229484577459794574665999247",
+        "exponent_of_two": -192
+      }
+    },
+    "J_K": {
+      "arb_display_only": "[2.50759363644168 +/- 7.24e-15]",
+      "lower_exact_dyadic": {
+        "mantissa": "3935105091738169113227852649022887834911256869070045137339",
+        "exponent_of_two": -190
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "3935105091738178098664207918919915764845212333636162898363",
+        "exponent_of_two": -190
+      }
+    },
+    "B_K": {
+      "arb_display_only": "[5.47243065910866 +/- 8.04e-15]",
+      "lower_exact_dyadic": {
+        "mantissa": "1073468874596068639880932379273683667985749616976693363231",
+        "exponent_of_two": -187
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "1073468874596070115951790140656743727880508982588022260255",
+        "exponent_of_two": -187
+      }
+    },
+    "second_order_coefficient": {
+      "arb_display_only": "[1.02568353735379 +/- 4.23e-15]",
+      "lower_exact_dyadic": {
+        "mantissa": "25149687157347648832700052083028496247552893618559756267",
+        "exponent_of_two": -184
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "25149687157347683415435593219785909744946840767648868331",
+        "exponent_of_two": -184
+      }
+    },
+    "marked_budget_numerator": {
+      "arb_display_only": "[12.5519706108980452367 +/- 4.66e-20]",
+      "lower_exact_dyadic": {
+        "mantissa": "62154347964656259075001514647",
+        "exponent_of_two": -92
+      },
+      "upper_exact_dyadic": {
+        "mantissa": "124308695929312518150784460039",
+        "exponent_of_two": -93
+      }
+    }
+  },
+  "nuisance_skew_component": {
+    "arb_display_only": "[-0.0772914085493864 +/- 8.92e-17]",
+    "lower_exact_dyadic": {
+      "mantissa": "-7403046184323652121400219829722945774181664760474939",
+      "exponent_of_two": -176
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "-7403046184323641941462126132946955927853673873354043",
+      "exponent_of_two": -176
+    }
+  },
+  "active_covariance_component": {
+    "arb_display_only": "[1.102974945903173 +/- 8.41e-16]",
+    "lower_exact_dyadic": {
+      "mantissa": "27044866980534501169770446109171215431411458756866663147",
+      "exponent_of_two": -184
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "27044866980534538358457959760086685396809322319602180843",
+      "exponent_of_two": -184
+    }
+  },
+  "coefficient_sum_verified": true,
+  "independent_expression_checks": [
+    {
+      "name": "v",
+      "GH32": 0.27151450180045733,
+      "GH48": 0.2715145018005586,
+      "distance32_exact": "1273010053105921088738931246183589171876816271/12554203470773361527671578846415332832204710888928069025792",
+      "distance48_exact": "1867576789675569671395304642632566035932559/12554203470773361527671578846415332832204710888928069025792",
+      "GH_difference_exact": "57/562949953421312",
+      "passed": true
+    },
+    {
+      "name": "kappa3_L",
+      "GH32": -0.1620868322641582,
+      "GH48": -0.16208683226381826,
+      "distance32_exact": "8540890700160685538357726018247571419427736711/25108406941546723055343157692830665664409421777856138051584",
+      "distance48_exact": "5280475423089530934929849391411053013732487/25108406941546723055343157692830665664409421777856138051584",
+      "GH_difference_exact": "1531/4503599627370496",
+      "passed": true
+    },
+    {
+      "name": "m_H",
+      "GH32": 0.019271278853070964,
+      "GH48": 0.019271278853029226,
+      "distance32_exact": "4196118511817525318402617975259456119383618665/100433627766186892221372630771322662657637687111424552206336",
+      "distance48_exact": "4275312781222249767075931197584417556362345/100433627766186892221372630771322662657637687111424552206336",
+      "GH_difference_exact": "6015/144115188075855872",
+      "passed": true
+    },
+    {
+      "name": "cbar",
+      "GH32": -0.0547240726451825,
+      "GH48": -0.054724072645294386,
+      "distance32_exact": "2808734533885896337049677643495834708938860475/25108406941546723055343157692830665664409421777856138051584",
+      "distance48_exact": "462459904985845256690661694665789481146437/25108406941546723055343157692830665664409421777856138051584",
+      "GH_difference_exact": "4031/36028797018963968",
+      "passed": true
+    },
+    {
+      "name": "V_H",
+      "GH32": 0.02360133572746576,
+      "GH48": 0.02360133572724299,
+      "distance32_exact": "44766105650439466317795610668506211902624681685/200867255532373784442745261542645325315275374222849104412672",
+      "distance48_exact": "18963511300316902331018963241254279577915093/200867255532373784442745261542645325315275374222849104412672",
+      "GH_difference_exact": "64209/288230376151711744",
+      "passed": true
+    },
+    {
+      "name": "V_A",
+      "GH32": 0.8405192340351666,
+      "GH48": 0.8405192340352863,
+      "distance32_exact": "740209689329914043050948727535617566472037263/6277101735386680763835789423207666416102355444464034512896",
+      "distance48_exact": "11046631304045600315730912733954189255613553/6277101735386680763835789423207666416102355444464034512896",
+      "GH_difference_exact": "539/4503599627370496",
+      "passed": true
+    },
+    {
+      "name": "J_K",
+      "GH32": 2.507593636441685,
+      "GH48": 2.507593636441685,
+      "distance32_exact": "0",
+      "distance48_exact": "0",
+      "GH_difference_exact": "0",
+      "passed": true
+    },
+    {
+      "name": "B_K",
+      "GH32": 5.4724306591086584,
+      "GH48": 5.4724306591086584,
+      "distance32_exact": "0",
+      "distance48_exact": "0",
+      "GH_difference_exact": "0",
+      "passed": true
+    },
+    {
+      "name": "second_order_coefficient",
+      "GH32": 1.0256835373515567,
+      "GH48": 1.0256835373537876,
+      "distance32_exact": "54656636492381897773124152088615295239956459/24519928653854221733733552434404946937899825954937634816",
+      "distance48_exact": "9851819351665348126745411309159198906389/24519928653854221733733552434404946937899825954937634816",
+      "GH_difference_exact": "10047/4503599627370496",
+      "passed": true
+    }
+  ],
+  "conditional_tau_K": {
+    "arb_display_only": "[3.51425708005108e-27 +/- 4.39e-42]",
+    "lower_exact_dyadic": {
+      "mantissa": "82177479623941857120195",
+      "exponent_of_two": -164
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "164354959247884089534963",
+      "exponent_of_two": -165
+    }
+  },
+  "absolute_mark_recipe_n_floor": {
+    "arb_display_only": "[18318.1439959990 +/- 4.49e-11]",
+    "lower_exact_dyadic": {
+      "mantissa": "6382941590074474933811822492223117474668555865",
+      "exponent_of_two": -138
+    },
+    "upper_exact_dyadic": {
+      "mantissa": "6382941590074504083999984638290461016683523673",
+      "exponent_of_two": -138
+    }
+  },
+  "rows": [
+    {
+      "n": 64,
+      "primary": false,
+      "s_n": {
+        "arb_display_only": "[4.16856427505151452447 +/- 4.77e-21]",
+        "lower_exact_dyadic": {
+          "mantissa": "165133843917468948357712431229",
+          "exponent_of_two": -95
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "330267687834937896715918667997",
+          "exponent_of_two": -96
+        }
+      },
+      "w_n": {
+        "arb_display_only": "[0.601548511905984 +/- 9.69e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "45451720487118815801007",
+          "exponent_of_two": -76
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "181806881948475678349275",
+          "exponent_of_two": -78
+        }
+      },
+      "leading": {
+        "arb_display_only": "[-0.0115926091165650 +/- 5.50e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "-2328575577703982042495909697721420788630074157413825898333",
+          "exponent_of_two": -197
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-2328575577703976725330121895315888264091633844966914385757",
+          "exponent_of_two": -197
+        }
+      },
+      "correction": {
+        "arb_display_only": "[0.0160263052711529 +/- 2.48e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "25149687157347648832700011518209288944212045724057184235",
+          "exponent_of_two": -190
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "25149687157347683415435633784605117048287688662151440363",
+          "exponent_of_two": -190
+        }
+      },
+      "truncated_second_order": {
+        "arb_display_only": "[0.0044336961545880 +/- 6.88e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "890584378436517008089689180460938928815253430017329073699",
+          "exponent_of_two": -197
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "890584378436526751845641825261995985503004569036634590755",
+          "exponent_of_two": -197
+        }
+      },
+      "truncated_relative_to_leading": {
+        "arb_display_only": "[-0.38245886754282 +/- 6.80e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "-115591099978271116306533",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-115591099978269587672055",
+          "exponent_of_two": -78
+        }
+      },
+      "condition_event_Rmin_squared": {
+        "arb_display_only": "[42.29299786814386 +/- 7.30e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "3195568569481598373172677",
+          "exponent_of_two": -76
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3195568569481599322529891",
+          "exponent_of_two": -76
+        }
+      },
+      "gaussian_shift_bmin_squared": {
+        "arb_display_only": "[13.87299793437336 +/- 4.27e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "1048214087395272912544645",
+          "exponent_of_two": -76
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "131026760924409152995223",
+          "exponent_of_two": -73
+        }
+      },
+      "conditional_eta_recipe_lower": {
+        "arb_display_only": "[0.99999905586619132983 +/- 4.79e-21]",
+        "lower_exact_dyadic": {
+          "mantissa": "93536016478578923986567228208838352386977545270919",
+          "exponent_of_two": -166
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "93536016478578923986931206660915541960836243732103",
+          "exponent_of_two": -166
+        }
+      },
+      "conditional_eta_over_mH": {
+        "arb_display_only": "[51.890643246491398788 +/- 4.21e-19]",
+        "lower_exact_dyadic": {
+          "mantissa": "128475009878210429726782103739",
+          "exponent_of_two": -91
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "128475009878210429727356585069",
+          "exponent_of_two": -91
+        }
+      },
+      "conditional_recipe_cannot_certify_leading": true,
+      "absolute_mark_recipe_lower": {
+        "arb_display_only": "[0.19612454079528195682 +/- 3.95e-21]",
+        "lower_exact_dyadic": {
+          "mantissa": "248617391858625036300006058585",
+          "exponent_of_two": -100
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "248617391858625036301568920081",
+          "exponent_of_two": -100
+        }
+      },
+      "absolute_mark_budget_over_signal": {
+        "arb_display_only": "[16.9180672636529 +/- 3.41e-14]",
+        "lower_exact_dyadic": {
+          "mantissa": "639146510406468851393161",
+          "exponent_of_two": -75
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "639146510406470310873035",
+          "exponent_of_two": -75
+        }
+      },
+      "absolute_mark_recipe_cannot_certify_leading": true,
+      "archived_D_mean": 0.0017225937889107932,
+      "archived_D_conditional_interval": [
+        0.0014397737308794734,
+        0.002005413846942113
+      ],
+      "old_mean_minus_leading": {
+        "arb_display_only": "[0.0133152029054758 +/- 6.19e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "2674588264479600961095870107360819764147399501720846722909",
+          "exponent_of_two": -197
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "2674588264479606278261657909766352288685839814167758235485",
+          "exponent_of_two": -197
+        }
+      },
+      "old_mean_minus_truncated": {
+        "arb_display_only": "[-0.0027111023656772 +/- 6.20e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "-544571691660902516079893613217064485447238912282702253603",
+          "exponent_of_two": -197
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-544571691660892772323940968416007428759487773263396736547",
+          "exponent_of_two": -197
+        }
+      },
+      "truncated_sign_is_not_true_D_certificate": true,
+      "old_event_not_upgraded": true
+    },
+    {
+      "n": 256,
+      "primary": true,
+      "s_n": {
+        "arb_display_only": "[8.3371285501030290489 +/- 4.96e-20]",
+        "lower_exact_dyadic": {
+          "mantissa": "165133843917468948357712431229",
+          "exponent_of_two": -94
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "330267687834937896715918667997",
+          "exponent_of_two": -95
+        }
+      },
+      "w_n": {
+        "arb_display_only": "[0.300774255952992 +/- 4.85e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "45451720487118815801007",
+          "exponent_of_two": -77
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "181806881948475678349275",
+          "exponent_of_two": -79
+        }
+      },
+      "leading": {
+        "arb_display_only": "[-0.00579630455828248 +/- 7.49e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "-2328575577703982042495909697721420788630074157413825898333",
+          "exponent_of_two": -198
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-2328575577703976725330121895315888264091633844966914385757",
+          "exponent_of_two": -198
+        }
+      },
+      "correction": {
+        "arb_display_only": "[0.00400657631778823 +/- 4.31e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "25149687157347648832700011518209288944212045724057184235",
+          "exponent_of_two": -192
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "25149687157347683415435633784605117048287688662151440363",
+          "exponent_of_two": -192
+        }
+      },
+      "truncated_second_order": {
+        "arb_display_only": "[-0.0017897282404943 +/- 5.87e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "-718995599633732517203114152852884831028131761570495327389",
+          "exponent_of_two": -198
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-718995599633724986742236140804302238173593240092892982429",
+          "exponent_of_two": -198
+        }
+      },
+      "truncated_relative_to_leading": {
+        "arb_display_only": "[0.30877056622859 +/- 4.11e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "23330044365673218897649",
+          "exponent_of_two": -76
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "23330044365673516524163",
+          "exponent_of_two": -76
+        }
+      },
+      "condition_event_Rmin_squared": {
+        "arb_display_only": "[44.23354134050486 +/- 5.99e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "835547972180115849911791",
+          "exponent_of_two": -74
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "1671095944360232124682077",
+          "exponent_of_two": -75
+        }
+      },
+      "gaussian_shift_bmin_squared": {
+        "arb_display_only": "[3.627384310518812 +/- 6.70e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "1096309637662800257948371",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "548154818831400268340527",
+          "exponent_of_two": -77
+        }
+      },
+      "conditional_eta_recipe_lower": {
+        "arb_display_only": "[0.9734143666976927 +/- 2.71e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "91049388206726516697961779299425492806039482349191",
+          "exponent_of_two": -166
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "91049388206726518991333898049836617713478621673095",
+          "exponent_of_two": -166
+        }
+      },
+      "conditional_eta_over_mH": {
+        "arb_display_only": "[50.511145322599344 +/- 7.89e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "1908257117462407941614241",
+          "exponent_of_two": -75
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "477064279365601997420421",
+          "exponent_of_two": -73
+        }
+      },
+      "conditional_recipe_cannot_certify_leading": true,
+      "absolute_mark_recipe_lower": {
+        "arb_display_only": "[0.049031135198820489206 +/- 3.23e-22]",
+        "lower_exact_dyadic": {
+          "mantissa": "248617391858625036300006058585",
+          "exponent_of_two": -102
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "248617391858625036301568920081",
+          "exponent_of_two": -102
+        }
+      },
+      "absolute_mark_budget_over_signal": {
+        "arb_display_only": "[8.4590336318265 +/- 5.23e-14]",
+        "lower_exact_dyadic": {
+          "mantissa": "639146510406468851393161",
+          "exponent_of_two": -76
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "639146510406470310873035",
+          "exponent_of_two": -76
+        }
+      },
+      "absolute_mark_recipe_cannot_certify_leading": true,
+      "archived_D_mean": -0.0019009456444026211,
+      "archived_D_conditional_interval": [
+        -0.002184701304323051,
+        -0.0016171899844821913
+      ],
+      "old_mean_minus_leading": {
+        "arb_display_only": "[0.00389535891387986 +/- 8.62e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "1564900108689228229697619379349369763900626045042870839133",
+          "exponent_of_two": -198
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "1564900108689233546863407181754902288439066357489782351709",
+          "exponent_of_two": -198
+        }
+      },
+      "old_mean_minus_truncated": {
+        "arb_display_only": "[-0.0001112174039084 +/- 3.90e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "-44679869381023508890266375162216262017414559831150564195",
+          "exponent_of_two": -198
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-44679869381015978429388363113633669162876038353548219235",
+          "exponent_of_two": -198
+        }
+      },
+      "truncated_sign_is_not_true_D_certificate": true,
+      "old_event_not_upgraded": true
+    },
+    {
+      "n": 1024,
+      "primary": true,
+      "s_n": {
+        "arb_display_only": "[16.6742571002060580979 +/- 2.59e-20]",
+        "lower_exact_dyadic": {
+          "mantissa": "165133843917468948357712431229",
+          "exponent_of_two": -93
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "330267687834937896715918667997",
+          "exponent_of_two": -94
+        }
+      },
+      "w_n": {
+        "arb_display_only": "[0.150387127976496 +/- 2.43e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "45451720487118815801007",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "181806881948475678349275",
+          "exponent_of_two": -80
+        }
+      },
+      "leading": {
+        "arb_display_only": "[-0.00289815227914124 +/- 3.75e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "-2328575577703982042495909697721420788630074157413825898333",
+          "exponent_of_two": -199
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-2328575577703976725330121895315888264091633844966914385757",
+          "exponent_of_two": -199
+        }
+      },
+      "correction": {
+        "arb_display_only": "[0.001001644079447057 +/- 8.00e-19]",
+        "lower_exact_dyadic": {
+          "mantissa": "25149687157347648832700011518209288944212045724057184235",
+          "exponent_of_two": -194
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "25149687157347683415435633784605117048287688662151440363",
+          "exponent_of_two": -194
+        }
+      },
+      "truncated_second_order": {
+        "arb_display_only": "[-0.00189650819969418 +/- 6.46e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "-1523785588668857279849513223361367443536010092116242917885",
+          "exponent_of_two": -199
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-1523785588668850856036177719985880617425706409905821379069",
+          "exponent_of_two": -199
+        }
+      },
+      "truncated_relative_to_leading": {
+        "arb_display_only": "[0.65438528311430 +/- 6.07e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "12360988511448421222775",
+          "exponent_of_two": -74
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "24721977022897003119471",
+          "exponent_of_two": -75
+        }
+      },
+      "condition_event_Rmin_squared": {
+        "arb_display_only": "[46.51468546301863 +/- 8.96e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "7029100530937057924867049",
+          "exponent_of_two": -77
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "7029100530937059485583693",
+          "exponent_of_two": -77
+        }
+      },
+      "gaussian_shift_bmin_squared": {
+        "arb_display_only": "[0.953612547989502 +/- 1.65e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "288211707793250850667205",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "2305693662346007317300427",
+          "exponent_of_two": -81
+        }
+      },
+      "conditional_eta_recipe_lower": {
+        "arb_display_only": "[0.6146535765059101 +/- 6.22e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "57492301341099711045465817579887363728618612536967",
+          "exponent_of_two": -166
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "57492301341099718677483396564539706760565759620743",
+          "exponent_of_two": -166
+        }
+      },
+      "conditional_eta_over_mH": {
+        "arb_display_only": "[31.89479957160679 +/- 6.47e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "9639611678387263567910477",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "9639611678387264847579731",
+          "exponent_of_two": -78
+        }
+      },
+      "conditional_recipe_cannot_certify_leading": true,
+      "absolute_mark_recipe_lower": {
+        "arb_display_only": "[0.0122577837997051223015 +/- 8.06e-23]",
+        "lower_exact_dyadic": {
+          "mantissa": "248617391858625036300006058585",
+          "exponent_of_two": -104
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "248617391858625036301568920081",
+          "exponent_of_two": -104
+        }
+      },
+      "absolute_mark_budget_over_signal": {
+        "arb_display_only": "[4.22951681591323 +/- 6.15e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "639146510406468851393161",
+          "exponent_of_two": -77
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "639146510406470310873035",
+          "exponent_of_two": -77
+        }
+      },
+      "absolute_mark_recipe_cannot_certify_leading": true,
+      "archived_D_mean": -0.0018888169406914444,
+      "archived_D_conditional_interval": [
+        -0.0021496979083448927,
+        -0.0016279359730379962
+      ],
+      "old_mean_minus_leading": {
+        "arb_display_only": "[0.00100933533844980 +/- 8.17e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "810969677384997262988975305896516341322026284901523122013",
+          "exponent_of_two": -199
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "810969677385002580154763108302048865860466597348434634589",
+          "exponent_of_two": -199
+        }
+      },
+      "old_mean_minus_truncated": {
+        "arb_display_only": "[7.69125900274e-6 +/- 5.97e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "6179688349871393695031130566508694656098849840430115325",
+          "exponent_of_two": -199
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "6179688349877817508366633941995520766402532050851654141",
+          "exponent_of_two": -199
+        }
+      },
+      "truncated_sign_is_not_true_D_certificate": true,
+      "old_event_not_upgraded": true
+    },
+    {
+      "n": 4096,
+      "primary": true,
+      "s_n": {
+        "arb_display_only": "[33.3485142004121161958 +/- 5.18e-20]",
+        "lower_exact_dyadic": {
+          "mantissa": "165133843917468948357712431229",
+          "exponent_of_two": -92
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "330267687834937896715918667997",
+          "exponent_of_two": -93
+        }
+      },
+      "w_n": {
+        "arb_display_only": "[0.075193563988248 +/- 1.22e-16]",
+        "lower_exact_dyadic": {
+          "mantissa": "45451720487118815801007",
+          "exponent_of_two": -79
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "181806881948475678349275",
+          "exponent_of_two": -81
+        }
+      },
+      "leading": {
+        "arb_display_only": "[-0.00144907613957062 +/- 1.88e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "-2328575577703982042495909697721420788630074157413825898333",
+          "exponent_of_two": -200
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-2328575577703976725330121895315888264091633844966914385757",
+          "exponent_of_two": -200
+        }
+      },
+      "correction": {
+        "arb_display_only": "[0.000250411019861764 +/- 4.50e-19]",
+        "lower_exact_dyadic": {
+          "mantissa": "25149687157347648832700011518209288944212045724057184235",
+          "exponent_of_two": -196
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "25149687157347683415435633784605117048287688662151440363",
+          "exponent_of_two": -196
+        }
+      },
+      "truncated_second_order": {
+        "arb_display_only": "[-0.00119866511970886 +/- 6.33e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "-1926180583186419661172712758615608749789949257389116713133",
+          "exponent_of_two": -200
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-1926180583186413790683148509576669807051762994812285577389",
+          "exponent_of_two": -200
+        }
+      },
+      "truncated_relative_to_leading": {
+        "arb_display_only": "[0.82719264155715 +/- 4.18e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "250003635543415671551303",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "250003635543417004385325",
+          "exponent_of_two": -78
+        }
+      },
+      "condition_event_Rmin_squared": {
+        "arb_display_only": "[49.01688292983758 +/- 9.36e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "1851805480340881591603843",
+          "exponent_of_two": -75
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "115737842521305122550337",
+          "exponent_of_two": -71
+        }
+      },
+      "gaussian_shift_bmin_squared": {
+        "arb_display_only": "[0.2512277260392770 +/- 3.55e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "4859450953791238726551061",
+          "exponent_of_two": -84
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "4859450953791239695427729",
+          "exponent_of_two": -84
+        }
+      },
+      "conditional_eta_recipe_lower": {
+        "arb_display_only": "[0.2221547842219289 +/- 6.53e-17]",
+        "lower_exact_dyadic": {
+          "mantissa": "20779493176399524061597822206792758771424302675591",
+          "exponent_of_two": -166
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "20779493176399527705958314041637397039315025344135",
+          "exponent_of_two": -166
+        }
+      },
+      "conditional_eta_over_mH": {
+        "arb_display_only": "[11.52776553731457 +/- 4.42e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "3484053350130823878626947",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "3484053350130824489680455",
+          "exponent_of_two": -78
+        }
+      },
+      "conditional_recipe_cannot_certify_leading": true,
+      "absolute_mark_recipe_lower": {
+        "arb_display_only": "[0.0030644459499262805754 +/- 4.52e-23]",
+        "lower_exact_dyadic": {
+          "mantissa": "248617391858625036300006058585",
+          "exponent_of_two": -106
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "248617391858625036301568920081",
+          "exponent_of_two": -106
+        }
+      },
+      "absolute_mark_budget_over_signal": {
+        "arb_display_only": "[2.11475840795661 +/- 6.76e-15]",
+        "lower_exact_dyadic": {
+          "mantissa": "639146510406468851393161",
+          "exponent_of_two": -78
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "639146510406470310873035",
+          "exponent_of_two": -78
+        }
+      },
+      "absolute_mark_recipe_cannot_certify_leading": true,
+      "archived_D_mean": -0.001203973321537369,
+      "archived_D_conditional_interval": [
+        -0.0014417157208531416,
+        -0.0009662309222215967
+      ],
+      "old_mean_minus_leading": {
+        "arb_display_only": "[0.00024510281803325 +/- 2.34e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "393865043052716360683747187958460231528280830233543042909",
+          "exponent_of_two": -200
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "393865043052721677849534990363992756066721142680454555485",
+          "exponent_of_two": -200
+        }
+      },
+      "old_mean_minus_truncated": {
+        "arb_display_only": "[-5.30820182851e-6 +/- 5.43e-18]",
+        "lower_exact_dyadic": {
+          "mantissa": "-8529951464846573963226197780758225511590019921085765459",
+          "exponent_of_two": -200
+        },
+        "upper_exact_dyadic": {
+          "mantissa": "-8529951464840703473661948741819282773403757344254629715",
+          "exponent_of_two": -200
+        }
+      },
+      "truncated_sign_is_not_true_D_certificate": true,
+      "old_event_not_upgraded": true
+    }
+  ],
+  "qualifications": {
+    "strict_constant_intervals": true,
+    "new_finite_n_D_values": false,
+    "finite_n_remainder_bound_obtained": false,
+    "fixed_n_leading_sign_certified": false,
+    "method_budget_lower_is_not_actual_error_lower": true,
+    "polynomial_growing_K_extension": false,
+    "old_MC_readout_is_conditional_and_numeric": true,
+    "comparison_is_posthoc_not_independent_prediction": true,
+    "coefficient_fitted_to_old_D": false
+  },
+  "new_integrals_during_check": 0,
+  "new_D_n_evaluations": 0,
+  "new_MC_draws": 0,
+  "new_NPZ_reads": 0
+}

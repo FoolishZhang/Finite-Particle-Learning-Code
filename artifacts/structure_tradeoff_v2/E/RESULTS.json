@@ -1,0 +1,392 @@
+{
+  "created_utc": "2026-09-30T02:31:48.402418+00:00",
+  "rows": [
+    {
+      "profile": "null",
+      "scales": [
+        4.0,
+        4.0
+      ],
+      "d": 16,
+      "n": 524288,
+      "successes": 261926,
+      "p_hat": 0.4995841979980469,
+      "cp95_bonferroni_lower": 0.49760469879928637,
+      "cp95_bonferroni_upper": 0.5015637064130269,
+      "event_kl_plugin": 3.4578264951161657e-07,
+      "event_kl_simultaneous_lower": 0.0,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.5,
+      "asymptotic_event_kl": 0.0,
+      "tied_T": 143968,
+      "tied_V": 101890,
+      "tied_both": 55096,
+      "moments_descriptive": {
+        "mean_T": 0.0005893707275390625,
+        "mean_V": 0.0005512237548828125,
+        "var_T": 0.5201317174614815,
+        "var_V": 1.0286576093603799,
+        "cov_TV": -0.0001071363985829521
+      },
+      "elapsed_seconds": 0.45615089999046177,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "null",
+      "scales": [
+        4.0,
+        4.0
+      ],
+      "d": 64,
+      "n": 524288,
+      "successes": 262274,
+      "p_hat": 0.5002479553222656,
+      "cp95_bonferroni_lower": 0.4982684483265831,
+      "cp95_bonferroni_upper": 0.5022274568220373,
+      "event_kl_plugin": 1.2296368871972212e-07,
+      "event_kl_simultaneous_lower": 0.0,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.5,
+      "asymptotic_event_kl": 0.0,
+      "tied_T": 71996,
+      "tied_V": 51990,
+      "tied_both": 14053,
+      "moments_descriptive": {
+        "mean_T": -0.001331329345703125,
+        "mean_V": -0.0014896392822265625,
+        "var_T": 0.5232042231218657,
+        "var_V": 1.0058116180262004,
+        "cov_TV": 0.0002404884944553487
+      },
+      "elapsed_seconds": 1.9388802999746986,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "null",
+      "scales": [
+        4.0,
+        4.0
+      ],
+      "d": 128,
+      "n": 524288,
+      "successes": 262090,
+      "p_hat": 0.4998970031738281,
+      "cp95_bonferroni_lower": 0.4979174998662487,
+      "cp95_bonferroni_upper": 0.5018765087643242,
+      "event_kl_plugin": 2.121669255301245e-08,
+      "event_kl_simultaneous_lower": 0.0,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.5,
+      "asymptotic_event_kl": 0.0,
+      "tied_T": 50814,
+      "tied_V": 36537,
+      "tied_both": 7003,
+      "moments_descriptive": {
+        "mean_T": -0.00017162196713636047,
+        "mean_V": 0.0014009612445021176,
+        "var_T": 0.522846609702242,
+        "var_V": 1.0027858061483812,
+        "cov_TV": -0.0012564042900748973
+      },
+      "elapsed_seconds": 8.237678099947516,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "null",
+      "scales": [
+        4.0,
+        4.0
+      ],
+      "d": 512,
+      "n": 524288,
+      "successes": 261915,
+      "p_hat": 0.49956321716308594,
+      "cp95_bonferroni_lower": 0.49758371826762887,
+      "cp95_bonferroni_upper": 0.5015427257398013,
+      "event_kl_plugin": 3.815585417743365e-07,
+      "event_kl_simultaneous_lower": 0.0,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.5,
+      "asymptotic_event_kl": 0.0,
+      "tied_T": 25637,
+      "tied_V": 18437,
+      "tied_both": 1787,
+      "moments_descriptive": {
+        "mean_T": 0.00039618037600240385,
+        "mean_V": -0.000677721324055176,
+        "var_T": 0.5195060292879816,
+        "var_V": 1.0017109390569203,
+        "cov_TV": -0.00021368237253227562
+      },
+      "elapsed_seconds": 33.663407999963965,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "mild",
+      "scales": [
+        4.5,
+        3.5
+      ],
+      "d": 16,
+      "n": 524288,
+      "successes": 260296,
+      "p_hat": 0.4964752197265625,
+      "cp95_bonferroni_lower": 0.4944958034625193,
+      "cp95_bonferroni_upper": 0.49845471411709186,
+      "event_kl_plugin": 2.4848357766338314e-05,
+      "event_kl_simultaneous_lower": 4.775824522668505e-06,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.4957629724126425,
+      "asymptotic_event_kl": 3.5905235282809866e-05,
+      "tied_T": 143729,
+      "tied_V": 101611,
+      "tied_both": 55057,
+      "moments_descriptive": {
+        "mean_T": -0.0006999969482421875,
+        "mean_V": -0.001796722412109375,
+        "var_T": 0.5219426023504639,
+        "var_V": 1.0292392873525387,
+        "cov_TV": -0.008390730661631096
+      },
+      "elapsed_seconds": 1.0658911999780685,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "mild",
+      "scales": [
+        4.5,
+        3.5
+      ],
+      "d": 64,
+      "n": 524288,
+      "successes": 259926,
+      "p_hat": 0.4957695007324219,
+      "cp95_bonferroni_lower": 0.4937901139474535,
+      "cp95_bonferroni_upper": 0.4977489812860848,
+      "event_kl_plugin": 3.5794675194254257e-05,
+      "event_kl_simultaneous_lower": 1.0134204734874204e-05,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.4957629724126425,
+      "asymptotic_event_kl": 3.5905235282809866e-05,
+      "tied_T": 71766,
+      "tied_V": 51798,
+      "tied_both": 14217,
+      "moments_descriptive": {
+        "mean_T": 0.0011982917785644531,
+        "mean_V": 0.0015826225280761719,
+        "var_T": 0.5235708898032954,
+        "var_V": 1.0046889768962046,
+        "cov_TV": -0.00904213291664746
+      },
+      "elapsed_seconds": 4.232459899969399,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "mild",
+      "scales": [
+        4.5,
+        3.5
+      ],
+      "d": 128,
+      "n": 524288,
+      "successes": 259961,
+      "p_hat": 0.4958362579345703,
+      "cp95_bonferroni_lower": 0.4938568681922342,
+      "cp95_bonferroni_upper": 0.49781573996593265,
+      "event_kl_plugin": 3.467389673641498e-05,
+      "event_kl_simultaneous_lower": 9.542014142898195e-06,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.4957629724126425,
+      "asymptotic_event_kl": 3.5905235282809866e-05,
+      "tied_T": 51359,
+      "tied_V": 36826,
+      "tied_both": 7172,
+      "moments_descriptive": {
+        "mean_T": 0.00030109708576182696,
+        "mean_V": -0.0019910171236546337,
+        "var_T": 0.5233395981184685,
+        "var_V": 1.0024698074229264,
+        "cov_TV": -0.010628279580828348
+      },
+      "elapsed_seconds": 8.285027800069656,
+      "primary": true,
+      "primary_pass": true
+    },
+    {
+      "profile": "mild",
+      "scales": [
+        4.5,
+        3.5
+      ],
+      "d": 512,
+      "n": 524288,
+      "successes": 259909,
+      "p_hat": 0.49573707580566406,
+      "cp95_bonferroni_lower": 0.49375769046985873,
+      "cp95_bonferroni_upper": 0.49771655562886014,
+      "event_kl_plugin": 3.6345485706887164e-05,
+      "event_kl_simultaneous_lower": 1.0428272641910177e-05,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.4957629724126425,
+      "asymptotic_event_kl": 3.5905235282809866e-05,
+      "tied_T": 25684,
+      "tied_V": 18537,
+      "tied_both": 1794,
+      "moments_descriptive": {
+        "mean_T": -0.00016133813609970236,
+        "mean_V": -0.00012087716152924407,
+        "var_T": 0.5253466852479676,
+        "var_V": 1.0031046274222888,
+        "cov_TV": -0.010354285072736502
+      },
+      "elapsed_seconds": 33.28532429999905,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "contrast",
+      "scales": [
+        6.0,
+        2.0
+      ],
+      "d": 16,
+      "n": 524288,
+      "successes": 251306,
+      "p_hat": 0.4793281555175781,
+      "cp95_bonferroni_lower": 0.4773505718065834,
+      "cp95_bonferroni_upper": 0.48130619741868896,
+      "event_kl_plugin": 0.0008548939509494154,
+      "event_kl_simultaneous_lower": 0.0006990794291048333,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.47942268077524497,
+      "asymptotic_event_kl": 0.0008470913479010078,
+      "tied_T": 136934,
+      "tied_V": 101946,
+      "tied_both": 52417,
+      "moments_descriptive": {
+        "mean_T": 0.0011835098266601562,
+        "mean_V": 0.00026798248291015625,
+        "var_T": 0.5744009316103984,
+        "var_V": 1.0208610770196174,
+        "cov_TV": -0.04668315178514604
+      },
+      "elapsed_seconds": 1.099052799923811,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "contrast",
+      "scales": [
+        6.0,
+        2.0
+      ],
+      "d": 64,
+      "n": 524288,
+      "successes": 251822,
+      "p_hat": 0.4803123474121094,
+      "cp95_bonferroni_lower": 0.47833459548428653,
+      "cp95_bonferroni_upper": 0.48229053571547414,
+      "event_kl_plugin": 0.0007754077686426102,
+      "event_kl_simultaneous_lower": 0.0006273814639695986,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.47942268077524497,
+      "asymptotic_event_kl": 0.0008470913479010078,
+      "tied_T": 68942,
+      "tied_V": 52239,
+      "tied_both": 13711,
+      "moments_descriptive": {
+        "mean_T": 0.0007114410400390625,
+        "mean_V": 0.00015163421630859375,
+        "var_T": 0.577839106812462,
+        "var_V": 1.0025217303182217,
+        "cov_TV": -0.04755436241066491
+      },
+      "elapsed_seconds": 4.283526399929542,
+      "primary": false,
+      "primary_pass": null
+    },
+    {
+      "profile": "contrast",
+      "scales": [
+        6.0,
+        2.0
+      ],
+      "d": 128,
+      "n": 524288,
+      "successes": 251345,
+      "p_hat": 0.4794025421142578,
+      "cp95_bonferroni_lower": 0.47742494542073083,
+      "cp95_bonferroni_upper": 0.4813805953491249,
+      "event_kl_plugin": 0.0008487506958123996,
+      "event_kl_simultaneous_lower": 0.0006935247994866445,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.47942268077524497,
+      "asymptotic_event_kl": 0.0008470913479010078,
+      "tied_T": 48490,
+      "tied_V": 36709,
+      "tied_both": 6720,
+      "moments_descriptive": {
+        "mean_T": 0.0010206280835398098,
+        "mean_V": 0.0004764279755671461,
+        "var_T": 0.5783350183654647,
+        "var_V": 0.9982243294624595,
+        "cov_TV": -0.04839021909344865
+      },
+      "elapsed_seconds": 8.563756700023077,
+      "primary": true,
+      "primary_pass": true
+    },
+    {
+      "profile": "contrast",
+      "scales": [
+        6.0,
+        2.0
+      ],
+      "d": 512,
+      "n": 524288,
+      "successes": 250750,
+      "p_hat": 0.4782676696777344,
+      "cp95_bonferroni_lower": 0.47629027582609545,
+      "cp95_bonferroni_upper": 0.48024554522512,
+      "event_kl_plugin": 0.0009448860031730441,
+      "event_kl_simultaneous_lower": 0.0007806801418897939,
+      "exact_symmetrized_event_probability": 0.5,
+      "asymptotic_prediction": 0.47942268077524497,
+      "asymptotic_event_kl": 0.0008470913479010078,
+      "tied_T": 24178,
+      "tied_V": 18749,
+      "tied_both": 1679,
+      "moments_descriptive": {
+        "mean_T": -0.0009063258303782652,
+        "mean_V": 0.0011433597064035331,
+        "var_T": 0.5758254360407591,
+        "var_V": 0.9990969638600973,
+        "cov_TV": -0.05110416498791892
+      },
+      "elapsed_seconds": 33.30247349990532,
+      "primary": false,
+      "primary_pass": null
+    }
+  ],
+  "all_observations": 6291456,
+  "primary_pass_all": true,
+  "family_size": 12,
+  "simultaneous_coverage": 0.95,
+  "uncertainty": "iid finite-d event sampling; not 8 training repeats",
+  "fits": 0,
+  "sample_extension": 0,
+  "precision": {
+    "dtype": "float64",
+    "integer_counts": true,
+    "exact_baseline": 0.5,
+    "parameter_smoke_pass": true
+  },
+  "interpretation": "lower bound on full-vector P versus its full symmetrization KL",
+  "no_full_pattern_kl_estimate": true
+}

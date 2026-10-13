@@ -1,0 +1,18 @@
+{
+  "schema": "certified_teacher_risk_manufactured_v1",
+  "passed": true,
+  "tests_run": 14,
+  "failures": [],
+  "errors": [],
+  "precision_bits": 192,
+  "source_sha256": {
+    "script/certified_teacher_risk.py": "54ac1e33257029c8c1962ca3e0221e7a19e4efde0ab7a531bdac1971ed3b6d8f",
+    "script/certified_teacher_risk_test.py": "b1f73bbd6c42e5f0149ec3df8bb040f4891874f806e4d61a9a0d80bcf57cec40"
+  },
+  "manufactured_finite_grids_and_scalar_algebra_only": true,
+  "real_candidate_or_teacher_input_reads": 0,
+  "real_scientific_integrals": 0,
+  "new_kernel_calls": 0,
+  "new_random_draws": 0,
+  "scientific_NPZ_reads": 0
+}

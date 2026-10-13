@@ -1,0 +1,22 @@
+{
+  "d": 6,
+  "epsilon": [
+    9,
+    10
+  ],
+  "trees": 945,
+  "precision_levels": [
+    100,
+    160
+  ],
+  "log_terms": 96,
+  "global_width_gate": [
+    1,
+    100000000
+  ],
+  "new_fits": 0,
+  "new_observations": 0,
+  "level_160_trigger": "all 100-bit certificates valid but global width exceeds 1e-8",
+  "any_exception_stops": true,
+  "no_hidden_refits": true
+}

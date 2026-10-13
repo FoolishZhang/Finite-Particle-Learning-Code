@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tests_run": 4,
+  "sources": {
+    "script/certified_f8_gradient_finalize.py": "01b3dbc8d7a22cbeefa8cb8f30944607421a467349c87fa0b8d0b14166a918ee",
+    "script/certified_f8_gradient_finalize_test.py": "0e70cf502c363b89af8f7f5a64e2ec2382b48417091f5b9bf6d592619e800529"
+  },
+  "real_gradient_evaluations": 0,
+  "new_random_draws": 0
+}

@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-09-30T10:01:57.135562+00:00",
+  "source_sha256": "4aa9f83c641ed80fe22fe1ea697acf5dc8265ff7ad8e7167d76ada18ad0ab846",
+  "numerics_sha256": "069d8ba4910f3b31de02b3b67f3d6daa52fd7d8e9d005484cd718d57e9a1960d",
+  "scope": "deterministic d4 implementation checks; not A/B science",
+  "passed": true,
+  "synthetic_optimizer_checks": 5,
+  "d": 4,
+  "maximum_gradient_finite_difference_error": 3.9734156243032004e-10,
+  "maximum_Hessian_vector_difference": 9.928372013412456e-11,
+  "maximum_DP_vs_enumeration_error": 2.220446049250313e-16,
+  "maximum_closed_spin_box_flip_error": 2.7755575615628914e-17,
+  "fits": [
+    {
+      "family": "product",
+      "gap": 2.2326769274954072e-15,
+      "objective": 2.7601275840476145
+    },
+    {
+      "family": "cardinality",
+      "gap": 7.76564941952001e-15,
+      "objective": 2.759135323937459
+    },
+    {
+      "family": "ising",
+      "gap": 2.8876900870500323e-15,
+      "objective": 2.754162342573437
+    },
+    {
+      "family": "linear_ar",
+      "gap": 6.129456473032056e-10,
+      "objective": 2.7541623425734376
+    },
+    {
+      "family": "count_ar",
+      "gap": 6.500355809180292e-16,
+      "objective": 2.7570617060634164
+    }
+  ],
+  "cardinality_box_flip_closure_not_claimed": true,
+  "count_ar_partial_flip_closure_not_claimed": true,
+  "scientific_observations": 0,
+  "scientific_benchmark_fits": 0
+}

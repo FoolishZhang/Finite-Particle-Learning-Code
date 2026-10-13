@@ -1,0 +1,23 @@
+{
+  "schema": "curvcal-independent-cal-audit-v1",
+  "source_sha256": "83237a18f84050df5a6b225fdf49254b6d5dace5d33426072f52e6ebddcd0856",
+  "created_utc": "2026-10-02T09:09:21.570498+00:00",
+  "inputs": {
+    "script/curvcal_calibrate.py": "01601251a1a9d6c91f218a54de8f3411c9a402e1afb336104daa74780f1df41f",
+    "artifacts/calibration_precision/CAL/PROTOCOL.json": "a3096629d7b4ab5dd08057d84769ca75a1608d42b142b3231d605234ab568014",
+    "docs/08_research_研究工作/校准精度与跨尺度学习_20261002/PLAN.md": "2af9b11c240a2e68e9146c02b1a2b12ebc7a7661530e660ed9474139634a0bc3",
+    "artifacts/finite_calibration/CAL/REFERENCE.json": "3ab4124d02ad49d225effe3abd325a3d6254f7bef48a9606f498740b9075f481",
+    "artifacts/calibration_precision/CAL/BENCHMARK.json": "2817be90456474e4df00bb31456c44dd8eade5c2092f54300761fe61d8c56c3e"
+  },
+  "models_existed_at_freeze": {
+    "LOCAL": true,
+    "FULL": true
+  },
+  "scope": "Both pools full prior RNG; first64 bank per stream all4case/allrho/all4mode direct-probability Price; every saved mode mean and LOCAL G/c/SE/gate; FULL U/V/gprime/b and all stream/pooled SE, independent B-spline reconstruction, antiderivative values and exact stored-cubic curvature",
+  "Price_absolute_tolerance": 5e-13,
+  "arithmetic_tolerance": 2e-12,
+  "scaled_spline_coefficient_tolerance": 2e-11,
+  "new_independent_scientific_samples": 0,
+  "new_model_integrals": 0,
+  "automatic_retry": false
+}

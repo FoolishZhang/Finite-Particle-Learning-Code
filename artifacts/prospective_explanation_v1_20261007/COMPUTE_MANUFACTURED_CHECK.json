@@ -1,0 +1,56 @@
+{
+  "schema": "prospective_explanation_compute_manufactured_check_v1",
+  "created_utc": "2026-10-07T13:02:23.302576+00:00",
+  "command": ".venv/Scripts/python.exe script/prospective_explanation_compute_test.py",
+  "exit_code": 0,
+  "passed": true,
+  "sources": {
+    "script/prospective_explanation_compute.py": "1ea009c72eec32aff1848cdf340afc69133097e372036a062e81f91b101c5ad9",
+    "script/prospective_explanation_compute_test.py": "1f0630a05fdb25534f8a45a253fb49a47ea58fcfd794bcd083070a136457f8f8"
+  },
+  "frozen_dependency_sha256": {
+    "script/prospective_diagnostic_dev.py": "51658967ad6d229f0448e8fd86d00da63fbe3d36085594803d32243b237ac622"
+  },
+  "development_history": [
+    {
+      "stage": "initial_syntax_check",
+      "passed": false,
+      "error": "Unmatched closing parenthesis at scalar_row return; no tests or production code executed.",
+      "correction": "Removed the extra closing parenthesis. Also parenthesized the test multi-context-manager statement before the successful syntax check.",
+      "scientific_inputs_read": false,
+      "scientific_gate_or_formula_changed": false
+    },
+    {
+      "stage": "first_executed_manufactured_suite",
+      "tests_run": 13,
+      "passed": 13,
+      "failed": 0
+    }
+  ],
+  "final_result": {
+    "diagnostics": {
+      "manufactured_reweighting_max_error": 1.734723475976807e-18,
+      "raw_nonunit_identity_residual": -5.551115123125783e-17
+    },
+    "manufactured_m2_m3_only": true,
+    "new_optimizer_updates": 0,
+    "new_quadrature_calls": 0,
+    "new_random_draws": 0,
+    "passed": true,
+    "random_state_unchanged": true,
+    "real_saved_units_restored": false,
+    "seconds": 0.01476689986884594,
+    "tests_run": 13
+  },
+  "stdout": "{\"diagnostics\": {\"manufactured_reweighting_max_error\": 1.734723475976807e-18, \"raw_nonunit_identity_residual\": -5.551115123125783e-17}, \"manufactured_m2_m3_only\": true, \"new_optimizer_updates\": 0, \"new_quadrature_calls\": 0, \"new_random_draws\": 0, \"passed\": true, \"random_state_unchanged\": true, \"real_saved_units_restored\": false, \"seconds\": 0.01476689986884594, \"tests_run\": 13}\n",
+  "stderr": "test_analytic_independent_MLE_interior_and_boundary (__main__.ExplanationComputeTests.test_analytic_independent_MLE_interior_and_boundary) ... ok\ntest_dependence_score_is_not_a_KL_and_gain_identity (__main__.ExplanationComputeTests.test_dependence_score_is_not_a_KL_and_gain_identity) ... ok\ntest_freeze_guard_and_static_config_do_not_read_scientific_arrays (__main__.ExplanationComputeTests.test_freeze_guard_and_static_config_do_not_read_scientific_arrays) ... ok\ntest_grouping_and_leave_largest_remain_descriptive (__main__.ExplanationComputeTests.test_grouping_and_leave_largest_remain_descriptive) ... ok\ntest_new_sign_band_requires_all_eight_not_just_main (__main__.ExplanationComputeTests.test_new_sign_band_requires_all_eight_not_just_main) ... ok\ntest_public_nonfinite_encoding_and_immutable_outputs (__main__.ExplanationComputeTests.test_public_nonfinite_encoding_and_immutable_outputs) ... ok\ntest_radial_direction_floor_and_missing_original_direction (__main__.ExplanationComputeTests.test_radial_direction_floor_and_missing_original_direction) ... ok\ntest_radial_direction_signed_norm_inner_product_equivalence (__main__.ExplanationComputeTests.test_radial_direction_signed_norm_inner_product_equivalence) ... ok\ntest_raw_two_cell_marginals_and_identity_m3 (__main__.ExplanationComputeTests.test_raw_two_cell_marginals_and_identity_m3) ... ok\ntest_reweighting_all_combinations_and_original_direction_bytes (__main__.ExplanationComputeTests.test_reweighting_all_combinations_and_original_direction_bytes) ... ok\ntest_small_negative_raw_risk_is_not_clipped (__main__.ExplanationComputeTests.test_small_negative_raw_risk_is_not_clipped) ... ok\ntest_support_conflicts_preserve_infinity_and_undefined_decomposition (__main__.ExplanationComputeTests.test_support_conflicts_preserve_infinity_and_undefined_decomposition) ... ok\ntest_teacher_distance_is_saved_array_algebra_only (__main__.ExplanationComputeTests.test_teacher_distance_is_saved_array_algebra_only) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.015s\n\nOK\n",
+  "manufactured_scope": "Invented m2/m3 finite arrays, raw mass and support-boundary examples, fixed derivative tensors, and fabricated scalar grouping records only.",
+  "real_saved_units_restored": false,
+  "actual_explanation_estimates_computed": false,
+  "old_PRIOR_or_training_tapes_replayed": false,
+  "new_quadrature_calls": 0,
+  "new_optimizer_updates": 0,
+  "new_random_draws": 0,
+  "old_frozen_files_modified": false,
+  "production_freeze_or_run_executed": false
+}

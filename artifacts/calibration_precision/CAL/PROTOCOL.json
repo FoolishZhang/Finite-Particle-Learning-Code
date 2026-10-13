@@ -1,0 +1,238 @@
+{
+  "schema": "curvcal-calibration-v1",
+  "created_utc": "2026-10-02T08:44:50.269347+00:00",
+  "base_commit": "db12a204a4bc07525c5da51ecd9e519383759bc5",
+  "source_sha256": "01601251a1a9d6c91f218a54de8f3411c9a402e1afb336104daa74780f1df41f",
+  "inputs": {
+    "docs/08_research_研究工作/校准精度与跨尺度学习_20261002/PLAN.md": "2af9b11c240a2e68e9146c02b1a2b12ebc7a7661530e660ed9474139634a0bc3",
+    "artifacts/finite_calibration/CAL/REFERENCE.json": "3ab4124d02ad49d225effe3abd325a3d6254f7bef48a9606f498740b9075f481",
+    "artifacts/calibration_precision/CAL/BENCHMARK.json": "2817be90456474e4df00bb31456c44dd8eade5c2092f54300761fe61d8c56c3e"
+  },
+  "report": "docs/08_research_研究工作/校准精度与跨尺度学习_20261002/CAL_IMPLEMENTATION.md",
+  "a": 1.0,
+  "R": 0.75,
+  "cases": [
+    {
+      "n": 62,
+      "K": 64,
+      "J": 2.3437334650794397,
+      "w": 0.5712363837134444
+    },
+    {
+      "n": 62,
+      "K": 256,
+      "J": 2.826863278939219,
+      "w": 0.6889892476143129
+    },
+    {
+      "n": 254,
+      "K": 64,
+      "J": 2.3437334650794397,
+      "w": 0.28222458790658667
+    },
+    {
+      "n": 254,
+      "K": 256,
+      "J": 2.826863278939219,
+      "w": 0.34040147305736496
+    }
+  ],
+  "local_rho": [
+    -0.12,
+    -0.06,
+    -0.03,
+    0.03,
+    0.06,
+    0.12
+  ],
+  "full_rho": [
+    -0.75,
+    -0.735,
+    -0.72,
+    -0.705,
+    -0.69,
+    -0.6749999999999999,
+    -0.6599999999999999,
+    -0.645,
+    -0.63,
+    -0.615,
+    -0.6,
+    -0.585,
+    -0.57,
+    -0.5549999999999999,
+    -0.54,
+    -0.525,
+    -0.51,
+    -0.495,
+    -0.48,
+    -0.46499999999999997,
+    -0.44999999999999996,
+    -0.435,
+    -0.42,
+    -0.40499999999999997,
+    -0.39,
+    -0.375,
+    -0.36,
+    -0.345,
+    -0.32999999999999996,
+    -0.315,
+    -0.3,
+    -0.285,
+    -0.27,
+    -0.255,
+    -0.24,
+    -0.22499999999999998,
+    -0.21,
+    -0.195,
+    -0.18,
+    -0.16499999999999998,
+    -0.15,
+    -0.135,
+    -0.12,
+    -0.105,
+    -0.09,
+    -0.075,
+    -0.06,
+    -0.045,
+    -0.03,
+    -0.015,
+    0.0,
+    0.015,
+    0.03,
+    0.045,
+    0.06,
+    0.075,
+    0.09,
+    0.105,
+    0.12,
+    0.135,
+    0.15,
+    0.16499999999999998,
+    0.18,
+    0.195,
+    0.21,
+    0.22499999999999998,
+    0.24,
+    0.255,
+    0.27,
+    0.285,
+    0.3,
+    0.315,
+    0.32999999999999996,
+    0.345,
+    0.36,
+    0.375,
+    0.39,
+    0.40499999999999997,
+    0.42,
+    0.435,
+    0.44999999999999996,
+    0.46499999999999997,
+    0.48,
+    0.495,
+    0.51,
+    0.525,
+    0.54,
+    0.5549999999999999,
+    0.57,
+    0.585,
+    0.6,
+    0.615,
+    0.63,
+    0.645,
+    0.6599999999999999,
+    0.6749999999999999,
+    0.69,
+    0.705,
+    0.72,
+    0.735,
+    0.75
+  ],
+  "h_values": [
+    0.03,
+    0.06,
+    0.12
+  ],
+  "h_main": 0.06,
+  "pool_sizes": {
+    "LOCAL": {
+      "streams": 8,
+      "banks_per_stream": 1024
+    },
+    "FULL": {
+      "streams": 16,
+      "banks_per_stream": 2048
+    }
+  },
+  "block": 64,
+  "max_prior_shape_per_block": [
+    64,
+    256,
+    256
+  ],
+  "seeds": {
+    "LOCAL": 202610022000,
+    "FULL": 202610022100
+  },
+  "rng": "numpy Generator(PCG64(seed_base+stream)); LOCAL 16 and FULL 32 standard_normal((64,256,256)) calls per stream",
+  "pool_independence": "LOCAL and FULL use disjoint fixed seed families; four n/K cases share each maximum bank's coordinate and particle prefixes",
+  "projection": "U'=mean_y D_y, V'=mean_y y1y2 D_y; odd-project U', even-project V'; g'=-U'-r V'; b=-V'",
+  "penalty": "FULL odd gprime values -> not-a-knot CubicSpline -> exact stored-polynomial antiderivative minus value at zero; LOCAL c_.06*rho^2",
+  "local_qualification": {
+    "main_stream_SE_max": 0.0002,
+    "c06_minus_c03_absolute_max": 5e-05
+  },
+  "full_qualification": {
+    "gprime_SE_per_node_max": 0.0002,
+    "b_positive_all_nodes": true
+  },
+  "qualification_scope": "Numerical/MC development qualification; not simultaneous confidence bands or strict integral remainder certificates",
+  "h012_scope": "Descriptive only; no h selection or positive clipping",
+  "inputs_allowed": "Known REFERENCE.json r/rp/H/A/d/var/J only; no old fitted calibration or observations. LOCAL consumes only r/rho/model declarations.",
+  "per_pool_accounting": {
+    "LOCAL": {
+      "banks": 8192,
+      "prior_vectors": 2097152,
+      "Gaussian_scalars": 536870912,
+      "bank_case_rho_mode_evaluations": 786432
+    },
+    "FULL": {
+      "banks": 32768,
+      "prior_vectors": 8388608,
+      "Gaussian_scalars": 2147483648,
+      "bank_case_rho_mode_evaluations": 52953088
+    }
+  },
+  "new_observations": 0,
+  "new_data_fits": 0,
+  "new_model_integrals": 0,
+  "check": {
+    "passed": true,
+    "scalar_price_max_abs": 2.7755575615628914e-16,
+    "zero_bank_max_abs": 0.0,
+    "local_coefficient_max_abs": 1.5612511283791264e-16,
+    "four_cases_tested": [
+      [
+        62,
+        64
+      ],
+      [
+        62,
+        256
+      ],
+      [
+        254,
+        64
+      ],
+      [
+        254,
+        256
+      ]
+    ],
+    "symmetry_b_positive_and_curvature": true,
+    "new_random_draws": 0,
+    "new_model_integrals": 0
+  },
+  "automatic_budget_extension": false,
+  "failure_policy": "Preserve all failures and main choices; no retry, extra streams, or h replacement"
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "r02_finite_scale_inputs_v1",
+  "base_commit": "513f15a8c6fc3d2f74db4c770a2f377dd290c922",
+  "feedback_sha256": "86b11895ba9fef8311cafe03a302b760ce5ac073c1774b0760cd40388c2c0611",
+  "parameters": {
+    "rho": "9/20",
+    "K": 100,
+    "step": "1/16",
+    "N": 160,
+    "strip": "3/4",
+    "bits": 192,
+    "hard_seconds": 600
+  },
+  "independent_audit": {
+    "rho": "9/20",
+    "K": 100,
+    "hard_seconds": 120
+  },
+  "n_values": [
+    64,
+    256,
+    1024,
+    4096
+  ],
+  "primary_n_values": [
+    256,
+    1024,
+    4096
+  ],
+  "constant_width_gate_exact": "1e-8",
+  "audit_distance_gate_exact": "1e-9",
+  "new_Dn_evaluation_authorized": false,
+  "new_banks_authorized": false,
+  "comparison_is_posthoc_descriptive": true,
+  "prior_readout_seen_before_design": true
+}

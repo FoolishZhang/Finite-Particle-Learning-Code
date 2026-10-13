@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "time_utc": "2026-09-30T05:27:05.961296+00:00",
+  "cases": 32,
+  "H0_grid_argmins": 32,
+  "independent_weighted_pair_variance_replay": true,
+  "maximum_replay_error": 3.3881317890172014e-21,
+  "no_validation_resampling": true,
+  "no_new_reference_integrations": true,
+  "scope": "implementation self-check plus alternate EB arithmetic; not an independent full-study audit"
+}

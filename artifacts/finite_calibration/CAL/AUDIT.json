@@ -1,0 +1,7034 @@
+{
+  "status": "passed",
+  "code_sha256": "1a58c0f4158f4775695b6baf0f341b693e5765450f9706dfe38e0291c7503e2a",
+  "protocol_sha256": "fe8ad7ec00eecfe6e526f72384cd4d6ff1b9838776e908bc246acd1155fd2817",
+  "input_sha256": {
+    "artifacts/finite_calibration/CAL/PROTOCOL.json": "cb51c667d7e9393abd91cd56feaf6c2ed560e9f232ccd5f989ddf4e31cb3c4c6",
+    "artifacts/finite_calibration/CAL/REFERENCE.json": "3ab4124d02ad49d225effe3abd325a3d6254f7bef48a9606f498740b9075f481",
+    "artifacts/finite_calibration/CAL/TRAIN_EXECUTION.json": "1a47dac79616e6fb9f35be1c3ba8dbf47c3688ad5e45d1dff29ece98be4ffa8d",
+    "artifacts/finite_calibration/CAL/TRAIN.json": "a7c7a85901ae662fdce162e4edcf23630928306e22d28ffd956d09a1763ca9d9",
+    "artifacts/finite_calibration/CAL/MODEL.json": "ea73bb0b2ded95a15bbc27c020a3d8f26aa2041df8bc1276c0689f103255fe3c",
+    "artifacts/finite_calibration/CAL/VALIDATION_PROTOCOL.json": "2b497c3227f2f748abb75d616b5a4ba4ebd171c08a988da7df1c37c9ac414787",
+    "artifacts/finite_calibration/CAL/VALIDATION_STREAMS.json": "eaa61eeece5d10b2a2db29291f2e8b363c41cb05dfe8b1ac1d96dbc54f9be436",
+    "artifacts/finite_calibration/CAL/VALIDATION.json": "e053010d4d3a219e89f95df2a9a4ac3bc573a76a6ef6ed01037d6410d8d74420",
+    "script/fincal_calibrate.py": "135086fb8b40d8aaf218dbff77a675213db9e0a182fea5bec87c9548bcbe47b3"
+  },
+  "elapsed_seconds": 40.64151859993581,
+  "numerical_comparisons": [
+    {
+      "name": "reference saved difference r801",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "reference saved difference rp801",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "reference saved difference H801",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "reference saved difference d",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "reference saved difference var_logsigmoid",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "reference H 64",
+      "count": 801,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "reference H 96",
+      "count": 801,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "case w 62",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "case w 254",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "train0 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1024848528838902e-14,
+      "failures": 0
+    },
+    {
+      "name": "train0 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.7470027081099033e-16,
+      "failures": 0
+    },
+    {
+      "name": "train1 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.906008766956347e-14,
+      "failures": 0
+    },
+    {
+      "name": "train1 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-16,
+      "failures": 0
+    },
+    {
+      "name": "train2 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.709743457922741e-14,
+      "failures": 0
+    },
+    {
+      "name": "train2 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.579669976578771e-16,
+      "failures": 0
+    },
+    {
+      "name": "train3 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.475797344914099e-14,
+      "failures": 0
+    },
+    {
+      "name": "train3 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.440892098500626e-16,
+      "failures": 0
+    },
+    {
+      "name": "train4 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.9040324872321435e-14,
+      "failures": 0
+    },
+    {
+      "name": "train4 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-16,
+      "failures": 0
+    },
+    {
+      "name": "train5 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.7930101847696278e-14,
+      "failures": 0
+    },
+    {
+      "name": "train5 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-16,
+      "failures": 0
+    },
+    {
+      "name": "train6 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5307199952019346e-14,
+      "failures": 0
+    },
+    {
+      "name": "train6 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.440892098500626e-16,
+      "failures": 0
+    },
+    {
+      "name": "train7 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.8074764735208646e-14,
+      "failures": 0
+    },
+    {
+      "name": "train7 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.7470027081099033e-16,
+      "failures": 0
+    },
+    {
+      "name": "train8 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.480549182199866e-14,
+      "failures": 0
+    },
+    {
+      "name": "train8 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.996003610813204e-16,
+      "failures": 0
+    },
+    {
+      "name": "train9 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5931700403370996e-14,
+      "failures": 0
+    },
+    {
+      "name": "train9 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.0245584642661925e-16,
+      "failures": 0
+    },
+    {
+      "name": "train10 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.2593038551121936e-14,
+      "failures": 0
+    },
+    {
+      "name": "train10 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.3021142204224816e-16,
+      "failures": 0
+    },
+    {
+      "name": "train11 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.708944180085382e-14,
+      "failures": 0
+    },
+    {
+      "name": "train11 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.440892098500626e-16,
+      "failures": 0
+    },
+    {
+      "name": "train12 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0650148258027912e-14,
+      "failures": 0
+    },
+    {
+      "name": "train12 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.7470027081099033e-16,
+      "failures": 0
+    },
+    {
+      "name": "train13 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.015054789694659e-14,
+      "failures": 0
+    },
+    {
+      "name": "train13 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.885780586188048e-16,
+      "failures": 0
+    },
+    {
+      "name": "train14 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0289325775024736e-14,
+      "failures": 0
+    },
+    {
+      "name": "train14 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.885780586188048e-16,
+      "failures": 0
+    },
+    {
+      "name": "train15 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3128387266192476e-14,
+      "failures": 0
+    },
+    {
+      "name": "train15 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.440892098500626e-16,
+      "failures": 0
+    },
+    {
+      "name": "validation0 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.887379141862766e-14,
+      "failures": 0
+    },
+    {
+      "name": "validation0 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-16,
+      "failures": 0
+    },
+    {
+      "name": "validation1 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.7236212457305555e-14,
+      "failures": 0
+    },
+    {
+      "name": "validation1 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-16,
+      "failures": 0
+    },
+    {
+      "name": "validation2 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.220446049250313e-14,
+      "failures": 0
+    },
+    {
+      "name": "validation2 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.440892098500626e-16,
+      "failures": 0
+    },
+    {
+      "name": "validation3 independent Price",
+      "count": 51712,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1815882433884326e-14,
+      "failures": 0
+    },
+    {
+      "name": "validation3 mean",
+      "count": 808,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.885780586188048e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream U_prime_unsym0",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.3245294578089215e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream V_prime_unsym0",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream U_prime0",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0643209364124004e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream V_prime0",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5265566588595902e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream g_prime0",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0990154059319366e-16,
+      "failures": 0
+    },
+    {
+      "name": "train pooled U_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.905661822261152e-17,
+      "failures": 0
+    },
+    {
+      "name": "train pooled V_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.551115123125783e-17,
+      "failures": 0
+    },
+    {
+      "name": "train pooled g_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.122502256758253e-17,
+      "failures": 0
+    },
+    {
+      "name": "train SE U_prime_unsym0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.2956215961201778e-17,
+      "failures": 0
+    },
+    {
+      "name": "train SE V_prime_unsym0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0137290312739466e-17,
+      "failures": 0
+    },
+    {
+      "name": "train SE U_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.37257477290143e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE V_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.72782748850831e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE g_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.796938279475835e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE g_values0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6554482896422316e-19,
+      "failures": 0
+    },
+    {
+      "name": "per-stream g 0",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.474514954580286e-17,
+      "failures": 0
+    },
+    {
+      "name": "pooled g 0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "origin shift 0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "spline coefficients 0",
+      "count": 400,
+      "tolerance": 5e-09,
+      "max_absolute_error": 1.5265566588595902e-11,
+      "failures": 0
+    },
+    {
+      "name": "linear aggregation 0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.505213034913027e-19,
+      "failures": 0
+    },
+    {
+      "name": "resolution g 0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.336808689942018e-18,
+      "failures": 0
+    },
+    {
+      "name": "resolution gp 0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "diagnostic piecewise g max 0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.336808689942018e-18,
+      "failures": 0
+    },
+    {
+      "name": "diagnostic piecewise gp max 0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream U_prime_unsym1",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream V_prime_unsym1",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5265566588595902e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream U_prime1",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream V_prime1",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "train per-stream g_prime1",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.244664094013359e-16,
+      "failures": 0
+    },
+    {
+      "name": "train pooled U_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0383000842727483e-17,
+      "failures": 0
+    },
+    {
+      "name": "train pooled V_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-17,
+      "failures": 0
+    },
+    {
+      "name": "train pooled g_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0383000842727483e-17,
+      "failures": 0
+    },
+    {
+      "name": "train SE U_prime_unsym1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.825582188149884e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE V_prime_unsym1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.944667923005412e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE U_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.78881386071062e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE V_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.7462715141731735e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE g_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.49454751730605e-18,
+      "failures": 0
+    },
+    {
+      "name": "train SE g_values1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.811147140404426e-19,
+      "failures": 0
+    },
+    {
+      "name": "per-stream g 1",
+      "count": 1616,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "pooled g 1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.5052130349130266e-18,
+      "failures": 0
+    },
+    {
+      "name": "origin shift 1",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6020852139652106e-18,
+      "failures": 0
+    },
+    {
+      "name": "spline coefficients 1",
+      "count": 400,
+      "tolerance": 5e-09,
+      "max_absolute_error": 1.0362081527028055e-11,
+      "failures": 0
+    },
+    {
+      "name": "linear aggregation 1",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-19,
+      "failures": 0
+    },
+    {
+      "name": "resolution g 1",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "resolution gp 1",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "diagnostic piecewise g max 1",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "diagnostic piecewise gp max 1",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "validation U_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.32920668600201e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation V_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.551115123125783e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation U_prime_SE0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.3054613733651816e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation V_prime_SE0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.74049749507499e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation minus_V_prime0",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.551115123125783e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawmean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.32920668600201e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawvalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.9402207665091273e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawcombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.9402207665091273e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4577098209067607e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.292709409105868e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.292709409105868e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.288372600415926e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0rawper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.752789315940696e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finitemean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.331917191433224e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finitevalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.9402207665091273e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finitecombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.579723544157697e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finiteper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4577098209067607e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.299655079273353e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finiteimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.299655079273353e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finiteper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.292438358562746e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0finiteper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.541911993392265e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticmean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.32920668600201e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticvalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.935477382004503e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticcombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.935477382004503e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4577098209067607e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.305719835175694e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.305719835175694e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.29704621779581e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0asymptoticper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7880258865464747e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticmean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.32920668600201e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticvalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.935477382004503e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticcombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.935477382004503e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4577098209067607e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.29704621779581e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.29704621779581e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.29704621779581e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 0quadraticper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7836890778565326e-16,
+      "failures": 0
+    },
+    {
+      "name": "key V 00.0",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.0quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key V 00.3",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.998878031629687e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.474514954580286e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.57633541236868e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.57633541236868e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1380466841414147e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.431146867680866e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5756577860108765e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.2598839032744733e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.227316859253591e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.227316859253591e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.2262326570811055e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.224782857940255e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5612511283791264e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5898879395247487e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5898879395247487e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3975366003338152e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5614276324970042e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5614276324970042e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.3quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.362842130814279e-16,
+      "failures": 0
+    },
+    {
+      "name": "key V 00.6",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5287250632045613e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.835365185167472e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.835365185167472e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.373684152539134e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.821812658011403e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.3610267347050637e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.37257477290143e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.37257477290143e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.71881345162528e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.821812658011403e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.821812658011403e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0364972768961422e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.835365185167472e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.835365185167472e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.6quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0950441942103595e-16,
+      "failures": 0
+    },
+    {
+      "name": "key V 00.375",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.870248747537495e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.870248747537495e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.245004513516506e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.245004513516506e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.031404096804252e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.239936510889834e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.870248747537495e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6398557858843255e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.036472099430924e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.036472099430924e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.35089072945172e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.2034644114589099e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.81603863891322e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.81603863891322e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.71445146547012e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.207801220148852e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.81603863891322e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.81603863891322e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 00.375quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.2262326570811055e-16,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.927345865710862e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.205632815803881e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.5612511283791264e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.5612511283791264e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.5612511283791264e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.336808689942018e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6887299015883026e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.669305319430122e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.204170427930421e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.672988722618495e-21,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 5.204170427930421e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.8406092124057603e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.9837243786801082e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.0quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw candidates",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw candidate values",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.903127820947816e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.020562075079397e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1657341758564144e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1657341758564144e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1657341758564144e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.106218460946512e-20,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.3306690738754696e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.608224830031759e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.7737547541862853e-16,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.191891195797325e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.191891195797325e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.191891195797325e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.382919873188786e-20,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 8.604228440844963e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0755285551056204e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.949029909160572e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.261161959522861e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.28583859910259e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.632783294297951e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.3quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.418476861114186e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw candidates",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw candidate values",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.214306433183765e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3930649767136635e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.7755575615628914e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.914335439641036e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.5478751053409354e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.83424170114401e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.992007221626409e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1796119636642288e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.122502256758253e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 8.881784197001252e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 8.881784197001252e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 8.881784197001252e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.405780266597627e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.6quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.42861286636753e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw candidates",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw candidate values",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.216449660063518e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.216449660063518e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.216449660063518e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.263460354939431e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.7755575615628914e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.71445146547012e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.76000054544712e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.766218825433608e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.0824674490095276e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.245004513516506e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0755285551056204e-16,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 00.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.214306433183765e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3643008294448221e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 00.375quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation U_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.2475385148298415e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation V_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.551115123125783e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation U_prime_SE1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7816561987831223e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation V_prime_SE1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.3689817468808272e-17,
+      "failures": 0
+    },
+    {
+      "name": "validation minus_V_prime1",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.551115123125783e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawmean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.2475385148298415e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawvalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawcombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.367506770274758e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.696032617270475e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.696032617270475e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.730727086790012e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1rawper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.4819152769371975e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finitemean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.2800645800044066e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finitevalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finitecombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.451652162532847e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finiteper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.367506770274758e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.781142487810587e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finiteimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.781142487810587e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finiteper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.766505758482033e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1finiteper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.845665105806084e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticmean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.2909066017292616e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticvalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticcombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.367506770274758e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.83481049534862e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.83481049534862e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.800116025829084e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1asymptoticper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.050037215319602e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticmean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.2909066017292616e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticvalidation_conditional_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticcombined_train_validation_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.0005295123536335e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticper_validation_stream",
+      "count": 404,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.367506770274758e-17,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.83481049534862e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.83481049534862e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticper_stream_ratio_mean",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.800116025829084e-16,
+      "failures": 0
+    },
+    {
+      "name": "residual 1quadraticper_stream_ratio_SE",
+      "count": 101,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.0467846088021453e-16,
+      "failures": 0
+    },
+    {
+      "name": "key V 10.0",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.0quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "key V 10.3",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.163336342344337e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.076247160309741e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.239936510889834e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.166399856011306e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0554708149146386e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0554708149146386e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0538445116559103e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0137290312739466e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.239936510889834e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0599841277224584e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.239936510889834e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.521652571618187e-19,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3183898417423734e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3183898417423734e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3183898417423734e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.3quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6263032587282567e-18,
+      "failures": 0
+    },
+    {
+      "name": "key V 10.6",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6046192152785466e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.769960046582586e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.769960046582586e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6653345369377348e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.498001805406602e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.214306433183765e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.7706376729403894e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3918445389282663e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5536617131717279e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5536617131717279e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5525775109992423e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.26706674266719e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3010426069826053e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.7706376729403894e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.7706376729403894e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6653345369377348e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6653345369377348e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5265566588595902e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.8930169931596907e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1275702593849246e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.769960046582586e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.769960046582586e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5265566588595902e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5265566588595902e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5265566588595902e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.6quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.8941011953321762e-16,
+      "failures": 0
+    },
+    {
+      "name": "key V 10.375",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.83336069620777e-18,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6479873021779667e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375rawper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.301219111100483e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finitemean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6263032587282567e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finitevalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finitecombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.1478990501190278e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finitedelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0860049798621105e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finiteimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0860049798621105e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finiteper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0887154852933243e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375finiteper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.8257964584655895e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6479873021779667e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1510571102112408e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1510571102112408e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375asymptoticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4246416546459528e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticmean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6479873021779667e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticvalidation_conditional_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticcombined_train_validation_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4196272195982074e-17,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticdelta_over_minus_Vprime_ratio_of_means",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1510571102112408e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticimplied_signed_moment_error_at_same_rho",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1510571102112408e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticper_stream_ratio_mean",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-16,
+      "failures": 0
+    },
+    {
+      "name": "key residual 10.375quadraticper_stream_ratio_SE",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.4278942611634093e-16,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw tied points",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.168404344971009e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5178830414797062e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 5.204170427930421e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 5.204170427930421e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 5.204170427930421e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.806165479208864e-20,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 6.938893903907228e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.803720224035497e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 5.204170427930421e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.0",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 4.336808689942018e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.0quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw candidates",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw candidate values",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6020852139652106e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6479873021779667e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.020562075079397e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.885780586188048e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.885780586188048e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.885780586188048e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.013657807240274e-20,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.1649348980190553e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.703609443745265e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.0531133177191805e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.0531133177191805e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.0531133177191805e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.071532165918825e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.579831542211219e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 4.191091917959966e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 7.806255641895632e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.3",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.071532165918825e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6201619279334558e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.887379141862766e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.7755575615628914e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.3quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.591949208711867e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw candidates",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw candidate values",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.0816681711721685e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.992007221626409e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.992007221626409e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.992007221626409e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 8.673617379884035e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.3609036431213325e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.4416913763379853e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.220446049250313e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.482822974991805e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.469446951953614e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.3430835328575635e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.771561172376096e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.3877787807814457e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.6",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.216449660063518e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.216449660063518e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 7.216449660063518e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.11511685292246e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.6637359812630166e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.8449465006019636e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.6quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.734723475976807e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw candidates",
+      "count": 2,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw candidate values",
+      "count": 2,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6020852139652106e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.5612511283791264e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375raw KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.938893903907228e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.6653345369377348e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.6653345369377348e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.6653345369377348e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.6020852139652106e-18,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 3.4731690417590783e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.885780586188048e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.273559366969494e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375finite KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.095750210681871e-18,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.43689570931383e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.43689570931383e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 9.43689570931383e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.0408340855860843e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 5.371213042532486e-19,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.3877787807814457e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 2.1510571102112408e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375asymptotic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 9.540979117872439e-17,
+      "failures": 0
+    },
+    {
+      "name": "teacher moment 10.375",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 0.0,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic rho",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic tied points",
+      "count": 1,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic candidates",
+      "count": 3,
+      "tolerance": 2e-08,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic candidate values",
+      "count": 3,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.214306433183765e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic derivative",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.6281642510770752e-17,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic per-stream rhos",
+      "count": 4,
+      "tolerance": 2e-08,
+      "max_absolute_error": 1.7763568394002505e-15,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic selected reference interpolation",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 1.249000902703301e-16,
+      "failures": 0
+    },
+    {
+      "name": "optimum 10.375quadratic KL algebra",
+      "count": 1,
+      "tolerance": 1e-11,
+      "max_absolute_error": 6.591949208711867e-17,
+      "failures": 0
+    }
+  ],
+  "exact_checks": [
+    {
+      "name": "protocol source binding",
+      "passed": true
+    },
+    {
+      "name": "reference source binding",
+      "passed": true
+    },
+    {
+      "name": "model source binding",
+      "passed": true
+    },
+    {
+      "name": "train source binding",
+      "passed": true
+    },
+    {
+      "name": "validation-streams source binding",
+      "passed": true
+    },
+    {
+      "name": "validation source binding",
+      "passed": true
+    },
+    {
+      "name": "validation-receipt source binding",
+      "passed": true
+    },
+    {
+      "name": "receipt frozen MODEL",
+      "passed": true
+    },
+    {
+      "name": "validation frozen MODEL",
+      "passed": true
+    },
+    {
+      "name": "stream start MODEL",
+      "passed": true
+    },
+    {
+      "name": "validation execution receipt",
+      "passed": true
+    },
+    {
+      "name": "train execution receipt",
+      "passed": true
+    },
+    {
+      "name": "model training binding",
+      "passed": true
+    },
+    {
+      "name": "model reference binding",
+      "passed": true
+    },
+    {
+      "name": "no teacher-specific penalty",
+      "passed": true
+    },
+    {
+      "name": "producer input docs/08_research_研究工作/有限校准与真实样本训练_20261002/PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "producer input artifacts/regularization_learning/NUMERIC/GROWTH_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "name": "producer input artifacts/regularization_learning/GROWTH/J_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "name": "reference gate r801",
+      "passed": true
+    },
+    {
+      "name": "reference gate rp801",
+      "passed": true
+    },
+    {
+      "name": "reference gate H801",
+      "passed": true
+    },
+    {
+      "name": "reference gate d",
+      "passed": true
+    },
+    {
+      "name": "reference gate var_logsigmoid",
+      "passed": true
+    },
+    {
+      "name": "MODEL reference r801",
+      "passed": true
+    },
+    {
+      "name": "MODEL reference rp801",
+      "passed": true
+    },
+    {
+      "name": "MODEL reference H801",
+      "passed": true
+    },
+    {
+      "name": "MODEL inherited d",
+      "passed": true
+    },
+    {
+      "name": "MODEL inherited A",
+      "passed": true
+    },
+    {
+      "name": "MODEL inherited var_logsigmoid",
+      "passed": true
+    },
+    {
+      "name": "train0 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train0 seed",
+      "passed": true
+    },
+    {
+      "name": "train0 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train0 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train1 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train1 seed",
+      "passed": true
+    },
+    {
+      "name": "train1 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train1 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train2 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train2 seed",
+      "passed": true
+    },
+    {
+      "name": "train2 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train2 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train3 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train3 seed",
+      "passed": true
+    },
+    {
+      "name": "train3 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train3 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train4 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train4 seed",
+      "passed": true
+    },
+    {
+      "name": "train4 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train4 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train5 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train5 seed",
+      "passed": true
+    },
+    {
+      "name": "train5 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train5 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train6 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train6 seed",
+      "passed": true
+    },
+    {
+      "name": "train6 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train6 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train7 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train7 seed",
+      "passed": true
+    },
+    {
+      "name": "train7 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train7 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train8 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train8 seed",
+      "passed": true
+    },
+    {
+      "name": "train8 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train8 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train9 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train9 seed",
+      "passed": true
+    },
+    {
+      "name": "train9 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train9 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train10 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train10 seed",
+      "passed": true
+    },
+    {
+      "name": "train10 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train10 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train11 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train11 seed",
+      "passed": true
+    },
+    {
+      "name": "train11 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train11 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train12 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train12 seed",
+      "passed": true
+    },
+    {
+      "name": "train12 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train12 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train13 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train13 seed",
+      "passed": true
+    },
+    {
+      "name": "train13 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train13 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train14 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train14 seed",
+      "passed": true
+    },
+    {
+      "name": "train14 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train14 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "train15 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "train15 seed",
+      "passed": true
+    },
+    {
+      "name": "train15 full RNG",
+      "passed": true
+    },
+    {
+      "name": "train15 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "validation0 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "validation0 seed",
+      "passed": true
+    },
+    {
+      "name": "validation0 full RNG",
+      "passed": true
+    },
+    {
+      "name": "validation0 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "validation1 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "validation1 seed",
+      "passed": true
+    },
+    {
+      "name": "validation1 full RNG",
+      "passed": true
+    },
+    {
+      "name": "validation1 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "validation2 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "validation2 seed",
+      "passed": true
+    },
+    {
+      "name": "validation2 full RNG",
+      "passed": true
+    },
+    {
+      "name": "validation2 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "validation3 NPZ hash",
+      "passed": true
+    },
+    {
+      "name": "validation3 seed",
+      "passed": true
+    },
+    {
+      "name": "validation3 full RNG",
+      "passed": true
+    },
+    {
+      "name": "validation3 prefix RNG",
+      "passed": true
+    },
+    {
+      "name": "spline knot axis 0",
+      "passed": true
+    },
+    {
+      "name": "node SE gates 0",
+      "passed": true
+    },
+    {
+      "name": "exact rational sup numerator 0",
+      "passed": true
+    },
+    {
+      "name": "exact rational sup denominator 0",
+      "passed": true
+    },
+    {
+      "name": "minimal outward float 0",
+      "passed": true
+    },
+    {
+      "name": "outward float containment 0",
+      "passed": true
+    },
+    {
+      "name": "preceding float not upper 0",
+      "passed": true
+    },
+    {
+      "name": "resolution g gate 0",
+      "passed": true
+    },
+    {
+      "name": "resolution gp gate 0",
+      "passed": true
+    },
+    {
+      "name": "spline knot axis 1",
+      "passed": true
+    },
+    {
+      "name": "node SE gates 1",
+      "passed": true
+    },
+    {
+      "name": "exact rational sup numerator 1",
+      "passed": true
+    },
+    {
+      "name": "exact rational sup denominator 1",
+      "passed": true
+    },
+    {
+      "name": "minimal outward float 1",
+      "passed": true
+    },
+    {
+      "name": "outward float containment 1",
+      "passed": true
+    },
+    {
+      "name": "preceding float not upper 1",
+      "passed": true
+    },
+    {
+      "name": "resolution g gate 1",
+      "passed": true
+    },
+    {
+      "name": "resolution gp gate 1",
+      "passed": true
+    },
+    {
+      "name": "202 node count",
+      "passed": true
+    },
+    {
+      "name": "202 node pass count",
+      "passed": true
+    },
+    {
+      "name": "g resolution pass count",
+      "passed": true
+    },
+    {
+      "name": "gp resolution pass count",
+      "passed": true
+    },
+    {
+      "name": "validation V negative 0",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.0quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.3quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.6quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 00.375quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "validation V negative 1",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.0quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.3quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.6quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375raw flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375raw selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375finite flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375finite selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375asymptotic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375asymptotic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375quadratic flat flag",
+      "passed": true
+    },
+    {
+      "name": "optimum 10.375quadratic selected reference gate",
+      "passed": true
+    },
+    {
+      "name": "pooled selections count",
+      "passed": true
+    },
+    {
+      "name": "per-stream selections count",
+      "passed": true
+    }
+  ],
+  "numerical_failures": 0,
+  "exact_failures": 0,
+  "stream_replays": [
+    {
+      "pool": "train",
+      "stream": 0,
+      "file": "artifacts/finite_calibration/CAL/train_00.npz",
+      "file_sha256": "a6fb1f3100913ce211b2dbfdd44456824b8990a20df021efafd410fbb94a110f",
+      "full_prior_sha256": "3f3e4187b928dd87d1963a081c63ac3e67c1343fefd3809f841beb2ef833de1b",
+      "first64_prior_sha256": "4a22b8a83e0ddb522f5e4ec1a851d783175eec78b205479310b756cceb769fce",
+      "max_D_mode_error": 2.1024848528838902e-14,
+      "smallest_probability_normalizer": 5.323434228210058e-83
+    },
+    {
+      "pool": "train",
+      "stream": 1,
+      "file": "artifacts/finite_calibration/CAL/train_01.npz",
+      "file_sha256": "1b4d686608491e1da87891480705099f6029b2d4327444a8f09493fbfda9df8e",
+      "full_prior_sha256": "9d1fe7fbbd221dc4a3fb0ad0038f430f238761a8c9f8ec3d794a42eb22ee4f91",
+      "first64_prior_sha256": "e038fa5dd06ed45fcf2eb4d2491fd0916e545c68e8943237c77ca70896549078",
+      "max_D_mode_error": 2.906008766956347e-14,
+      "smallest_probability_normalizer": 1.3040371418325798e-82
+    },
+    {
+      "pool": "train",
+      "stream": 2,
+      "file": "artifacts/finite_calibration/CAL/train_02.npz",
+      "file_sha256": "3d741d2db4671dc9280868359f1cc3e585b36b94253e8a3eff66c6100cc455a0",
+      "full_prior_sha256": "902a4547388747441dd5b16831b48b843b1f51154501a849f5fae37802c1220a",
+      "first64_prior_sha256": "f7ad97977ba86e15443bf40c3764b1a7bec75188a0a1b04f4bb0da6bafbc35ae",
+      "max_D_mode_error": 1.709743457922741e-14,
+      "smallest_probability_normalizer": 2.939077268616601e-82
+    },
+    {
+      "pool": "train",
+      "stream": 3,
+      "file": "artifacts/finite_calibration/CAL/train_03.npz",
+      "file_sha256": "aace46a6d946f4ed3b03dcbeadde51685553c1b666a666fd8ffce703798460bb",
+      "full_prior_sha256": "cb25536c89640cbbcd08eb111578025d616d8538e9c73bb571c4b36875658ec6",
+      "first64_prior_sha256": "68569f9b6d969a2f355f6ebf29174b87cd94def74a84d33f98c52bd339ed3102",
+      "max_D_mode_error": 2.475797344914099e-14,
+      "smallest_probability_normalizer": 1.5621682885316535e-82
+    },
+    {
+      "pool": "train",
+      "stream": 4,
+      "file": "artifacts/finite_calibration/CAL/train_04.npz",
+      "file_sha256": "0ededde7114ae767794fb04f30badab0c712ce71ac96bad1dae8cfd997f87112",
+      "full_prior_sha256": "4aa26f01a4653f4aa5165eb2491c64550b1971446b9fd4f3216b6ebf222da53c",
+      "first64_prior_sha256": "09739e65c1a02e523f8933ed9f27b4de0035ff08a8f18155107fab04417ced1e",
+      "max_D_mode_error": 1.9040324872321435e-14,
+      "smallest_probability_normalizer": 7.044361609318497e-83
+    },
+    {
+      "pool": "train",
+      "stream": 5,
+      "file": "artifacts/finite_calibration/CAL/train_05.npz",
+      "file_sha256": "3a38254f73cda12a7c111b4ee9e9923ff65627f46fbfe0bc28a2bd5e6db3c256",
+      "full_prior_sha256": "a4970269830887f5dec45dad60c02ec4645958a38327219bded6158a46a4212a",
+      "first64_prior_sha256": "b076addd6532a7c8c84dba17df164f51a9283cf7acbb8c40b642717256475e51",
+      "max_D_mode_error": 1.7930101847696278e-14,
+      "smallest_probability_normalizer": 3.853011007353079e-83
+    },
+    {
+      "pool": "train",
+      "stream": 6,
+      "file": "artifacts/finite_calibration/CAL/train_06.npz",
+      "file_sha256": "6ae4e1e1456c5c6c367af60b8bf2fe13038579ecabd240df3767051f6b45e1f7",
+      "full_prior_sha256": "06a7a49181bd8ab64bb956d5d56408ac58f934a27ead5efa92f29659cf28ec13",
+      "first64_prior_sha256": "149a76daefe9ba0766df9763e4f3433e020a991fe2cd8ac43e7cc589d36a48b2",
+      "max_D_mode_error": 1.5307199952019346e-14,
+      "smallest_probability_normalizer": 1.866327074612782e-82
+    },
+    {
+      "pool": "train",
+      "stream": 7,
+      "file": "artifacts/finite_calibration/CAL/train_07.npz",
+      "file_sha256": "24c0e434a2a8a7b4e69a58eb613636e7a8337dfdbd242fe6a8e56d1b113ebf29",
+      "full_prior_sha256": "999540dfbb83cfd1d9de36a199999ea7d575061cee02df882c4236c56ccfa557",
+      "first64_prior_sha256": "b8e1015095765ac46e1115dfdc67fdff7129ea1b5ded0cac3b33a35d100a60ac",
+      "max_D_mode_error": 2.8074764735208646e-14,
+      "smallest_probability_normalizer": 2.394042279171718e-82
+    },
+    {
+      "pool": "train",
+      "stream": 8,
+      "file": "artifacts/finite_calibration/CAL/train_08.npz",
+      "file_sha256": "6b1b59c6f55a04bf8fc5819542cec25ff7aaccff43b7358d667c2100bf662799",
+      "full_prior_sha256": "3a77b2817c65c0354e81a495b0c0671afed5f68c47607a871bbdab7ff7dd57ee",
+      "first64_prior_sha256": "ba23946a5fc8afea603d4111d3cbf61a0eb3b0e38fc152954ce4a2e3d413f2dc",
+      "max_D_mode_error": 3.480549182199866e-14,
+      "smallest_probability_normalizer": 1.2995959995847851e-82
+    },
+    {
+      "pool": "train",
+      "stream": 9,
+      "file": "artifacts/finite_calibration/CAL/train_09.npz",
+      "file_sha256": "4390297968ec6f3e097c86dec91dbc4d72dffd6225984c1fd571bd34d3c3990e",
+      "full_prior_sha256": "a55f2930e041725e1f61f992e7adf5259db01aa511ce6a05e82b5a05a7648a52",
+      "first64_prior_sha256": "9118edb1b332f377ee254fd8e40cfd74777e8cf3784560031b3ea36475e2e2c1",
+      "max_D_mode_error": 1.5931700403370996e-14,
+      "smallest_probability_normalizer": 5.222843040601226e-83
+    },
+    {
+      "pool": "train",
+      "stream": 10,
+      "file": "artifacts/finite_calibration/CAL/train_10.npz",
+      "file_sha256": "2e378ec57453f2573abf5d52c0e8e965e019605080eb8024df5fe5b6d8fd83af",
+      "full_prior_sha256": "608c19aa512f0ec9250aaf204147346207f03f8d222b9999d6d2019489f3ffe3",
+      "first64_prior_sha256": "d97bdebdd2e960635a50e03c055b40f3e800fc355974b4071fd99bcae993863a",
+      "max_D_mode_error": 2.2593038551121936e-14,
+      "smallest_probability_normalizer": 1.2365645989338175e-82
+    },
+    {
+      "pool": "train",
+      "stream": 11,
+      "file": "artifacts/finite_calibration/CAL/train_11.npz",
+      "file_sha256": "fa045a005adf1c45372976df2b9c54e679f94c1ad5fc1087a050d7080ed29d88",
+      "full_prior_sha256": "b878127b2f17b94818747dd21bd05fdef46a46f14c80642cc61e4871016ca4d3",
+      "first64_prior_sha256": "523063b526b06c727daaa7ef80d5b43083de0857e1b806f2b4edb3ca38ed5641",
+      "max_D_mode_error": 2.708944180085382e-14,
+      "smallest_probability_normalizer": 2.507582346161156e-83
+    },
+    {
+      "pool": "train",
+      "stream": 12,
+      "file": "artifacts/finite_calibration/CAL/train_12.npz",
+      "file_sha256": "c9842e00e10651f78ea23264f36c0afbeb59be3f70f87c272182e638026176e3",
+      "full_prior_sha256": "1516c3d9315a0c770ec09bcf94cc4acc8bbfa3b41fe261a4d50196a2f391224b",
+      "first64_prior_sha256": "7021e19cbf1f284c03c6c2bd75140f156d9232e4e5e7435215b348ee3582f21f",
+      "max_D_mode_error": 2.0650148258027912e-14,
+      "smallest_probability_normalizer": 3.7726869376902595e-82
+    },
+    {
+      "pool": "train",
+      "stream": 13,
+      "file": "artifacts/finite_calibration/CAL/train_13.npz",
+      "file_sha256": "c55469f92abd1afee4de7b2f2a8e46b1e8f748714f3ca70315748bffd9306fb3",
+      "full_prior_sha256": "b9a1c1b0ff56de4ea2e0ed686d4bdd1c92b821deb2a8404b76131c0f5bba0fa9",
+      "first64_prior_sha256": "4b8084b059a02cbe73a285559066e4aada91f2f020e603c9f9ba6c4aa8826143",
+      "max_D_mode_error": 2.015054789694659e-14,
+      "smallest_probability_normalizer": 9.157026122383122e-83
+    },
+    {
+      "pool": "train",
+      "stream": 14,
+      "file": "artifacts/finite_calibration/CAL/train_14.npz",
+      "file_sha256": "21e6ee03e05832adb149fd2687625fbd3f736f5e2d9dd8fe5efa3ca3b1c0aeda",
+      "full_prior_sha256": "bec743443510ee04dd6b4d9420f9157ac484f704e4d29fc6b9d0254f3096bcbb",
+      "first64_prior_sha256": "2f41f5d44dc78d7cb3b4629893e22d13f37bf5d65435048b66f30e67c0bc31a9",
+      "max_D_mode_error": 2.0289325775024736e-14,
+      "smallest_probability_normalizer": 2.8992963575213045e-82
+    },
+    {
+      "pool": "train",
+      "stream": 15,
+      "file": "artifacts/finite_calibration/CAL/train_15.npz",
+      "file_sha256": "a5ac24477935537e463828bdda44c713052726b24cf0dffb5c847074672ce290",
+      "full_prior_sha256": "c35e0754d9231db445972929e9d5637009c716cce53ee30898398b613eb72080",
+      "first64_prior_sha256": "6fbdfe8e94de93071242bb001a941f089aea2f1226f88f387540965bb62bf643",
+      "max_D_mode_error": 1.3128387266192476e-14,
+      "smallest_probability_normalizer": 1.0301137143192104e-82
+    },
+    {
+      "pool": "validation",
+      "stream": 0,
+      "file": "artifacts/finite_calibration/CAL/validation_00.npz",
+      "file_sha256": "67b781eb128dce4fe19721a78322f9184eef774b69b67f5d4ec35eaef1116cd8",
+      "full_prior_sha256": "2992e3362b83fc43aa5668cfe8d99178f22c4ce8d823c074b6b67d05341b89c4",
+      "first64_prior_sha256": "a237dcde340225a037810c8f67925413fb3fc5f2e01045beb23890fe642801d3",
+      "max_D_mode_error": 1.887379141862766e-14,
+      "smallest_probability_normalizer": 9.380780977770738e-83
+    },
+    {
+      "pool": "validation",
+      "stream": 1,
+      "file": "artifacts/finite_calibration/CAL/validation_01.npz",
+      "file_sha256": "0c593a3da36071dc763fbb193ee7209689dd60f0b1a163c1e2b3bd4fe1ea9139",
+      "full_prior_sha256": "943fb7e618d910757c9c658f047c5276646cc997e02a034437e014e5057d669c",
+      "first64_prior_sha256": "3ac53cd7c538a0789002fda85db7f1971b49aa22d71907e5e6472b9231b6ee10",
+      "max_D_mode_error": 1.7236212457305555e-14,
+      "smallest_probability_normalizer": 4.471671857589374e-83
+    },
+    {
+      "pool": "validation",
+      "stream": 2,
+      "file": "artifacts/finite_calibration/CAL/validation_02.npz",
+      "file_sha256": "e704d76c678e3887ea26ec514f35a6ce3300f9bc1ce7b21babd901df25d83ed6",
+      "full_prior_sha256": "6cf43e10704fdf74f00a2db143f91941756f47fab9efc642f8b374fc5e027d2e",
+      "first64_prior_sha256": "48d6a27730ff8a2c0a0c25272f5cc54b4049d183b159444382176b6247d7c2ee",
+      "max_D_mode_error": 2.220446049250313e-14,
+      "smallest_probability_normalizer": 1.0803166504464822e-82
+    },
+    {
+      "pool": "validation",
+      "stream": 3,
+      "file": "artifacts/finite_calibration/CAL/validation_03.npz",
+      "file_sha256": "be524640d64b14bbe2fc135434b59fc99b62619d58bbe1958e4cf4aa3f84823f",
+      "full_prior_sha256": "47da923378318bf1508ae68f1f542c00a1f8d8c626797be87d95d0a0d8717d4b",
+      "first64_prior_sha256": "e227aa584634420d5e744f0263e428f0c41b17225b4997a9aa8fbcc229ff9634",
+      "max_D_mode_error": 2.1815882433884326e-14,
+      "smallest_probability_normalizer": 1.7287201491655492e-82
+    }
+  ],
+  "rational_g_second_sup": [
+    {
+      "n": 62,
+      "exact_numerator": "328214113455445",
+      "exact_denominator": "18014398509481984",
+      "upper_float": 0.018219543288258422,
+      "maximizer_segment_and_offset": [
+        0,
+        "0"
+      ]
+    },
+    {
+      "n": 254,
+      "exact_numerator": "1272478220300763",
+      "exact_denominator": "72057594037927936",
+      "upper_float": 0.017659182731399367,
+      "maximizer_segment_and_offset": [
+        0,
+        "0"
+      ]
+    }
+  ],
+  "resolution_checks": [
+    {
+      "n": 62,
+      "g1001_max": 2.234370674591979e-12,
+      "gprime1001_max": 1.8785279234934116e-10,
+      "g_piecewise_max": 2.234370674591979e-12,
+      "gprime_piecewise_max": 1.879727241915763e-10,
+      "note": "Diagnostic extremum location/count can differ under tiny coefficient roundoff; no gate is based on those locations"
+    },
+    {
+      "n": 254,
+      "g1001_max": 1.9182606891821052e-12,
+      "gprime1001_max": 6.795964485606376e-11,
+      "g_piecewise_max": 1.9182606891821052e-12,
+      "gprime_piecewise_max": 6.798209044311943e-11,
+      "note": "Diagnostic extremum location/count can differ under tiny coefficient roundoff; no gate is based on those locations"
+    }
+  ],
+  "validation_selections": [
+    {
+      "n": 62,
+      "theta": 0.0,
+      "method": "raw",
+      "independent": {
+        "rho": 0.0,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.0008703227446404995
+          },
+          {
+            "rho": 0.0,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.0008703227446404983
+          }
+        ],
+        "tied_candidates": [
+          0.0
+        ],
+        "selected_derivative": 0.0
+      },
+      "per_validation_stream_rhos": [
+        -9.71445146547012e-17,
+        0.0,
+        -3.191891195797325e-16,
+        -1.2073675392798577e-15
+      ],
+      "selected_reference_interpolation64": 0.0,
+      "selected_reference_interpolation96": 0.0,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.0,
+      "method": "finite",
+      "independent": {
+        "rho": -1.5612511283791264e-17,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.0055998302599870676
+          },
+          {
+            "rho": -1.5612511283791264e-17,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.005599830259987072
+          }
+        ],
+        "tied_candidates": [
+          -1.5612511283791264e-17
+        ],
+        "selected_derivative": -2.6887299015883026e-19
+      },
+      "per_validation_stream_rhos": [
+        0.0,
+        -5.204170427930421e-18,
+        -1.0408340855860843e-17,
+        -3.469446951953614e-18
+      ],
+      "selected_reference_interpolation64": -2.669305319430122e-18,
+      "selected_reference_interpolation96": -2.6909893615873626e-18,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.0,
+      "method": "asymptotic",
+      "independent": {
+        "rho": -1.734723475976807e-18,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.01464806401107916
+          },
+          {
+            "rho": -1.734723475976807e-18,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.014648064011079154
+          }
+        ],
+        "tied_candidates": [
+          -1.734723475976807e-18
+        ],
+        "selected_derivative": -8.672988722618495e-21
+      },
+      "per_validation_stream_rhos": [
+        0.0,
+        -5.204170427930421e-18,
+        0.0,
+        0.0
+      ],
+      "selected_reference_interpolation64": -2.8406092124057603e-19,
+      "selected_reference_interpolation96": -3.057449633978164e-19,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.0,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.0,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.014588207669799137
+          },
+          {
+            "rho": 0.0,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.014588207669799137
+          }
+        ],
+        "tied_candidates": [
+          0.0
+        ],
+        "selected_derivative": 0.0
+      },
+      "per_validation_stream_rhos": [
+        0.0,
+        -2.9837243786801082e-15,
+        0.0,
+        0.0
+      ],
+      "selected_reference_interpolation64": 0.0,
+      "selected_reference_interpolation96": 0.0,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.3,
+      "method": "raw",
+      "independent": {
+        "rho": 0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.005366892481156078
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.003626246991875085
+          }
+        ],
+        "tied_candidates": [
+          0.75
+        ],
+        "selected_derivative": -0.00374762272968542
+      },
+      "per_validation_stream_rhos": [
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "selected_reference_interpolation64": 0.12920615573603847,
+      "selected_reference_interpolation96": 0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.3,
+      "method": "finite",
+      "independent": {
+        "rho": 0.30297004901760394,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.010096399996502648
+          },
+          {
+            "rho": 0.30297004901760394,
+            "potential": -0.0009055822942083003
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.0011032605234715127
+          }
+        ],
+        "tied_candidates": [
+          0.30297004901760394
+        ],
+        "selected_derivative": -1.744579811189168e-19
+      },
+      "per_validation_stream_rhos": [
+        0.29795360992523867,
+        0.3083415058450472,
+        0.30623649269057945,
+        0.29954586178191484
+      ],
+      "selected_reference_interpolation64": 0.051810396727993896,
+      "selected_reference_interpolation96": 0.05181039672799392,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.3,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.11504705908601381,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.019144633747594744
+          },
+          {
+            "rho": 0.11504705908601381,
+            "potential": -0.00034344736100243994
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.010151494274563588
+          }
+        ],
+        "tied_candidates": [
+          0.11504705908601381
+        ],
+        "selected_derivative": 1.4951816899536478e-19
+      },
+      "per_validation_stream_rhos": [
+        0.11392924276051226,
+        0.11515900873544463,
+        0.11676442492572932,
+        0.11433952447924389
+      ],
+      "selected_reference_interpolation64": 0.019650413865561104,
+      "selected_reference_interpolation96": 0.01965041386556112,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.3,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.11506883830851634,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.019084777406314722
+          },
+          {
+            "rho": 0.11506883830851634,
+            "potential": -0.0003434798566693195
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.010091637933283597
+          }
+        ],
+        "tied_candidates": [
+          0.11506883830851634
+        ],
+        "selected_derivative": 9.086948390887908e-18
+      },
+      "per_validation_stream_rhos": [
+        0.11395029820742188,
+        0.11518107891737685,
+        0.11678713579943924,
+        0.11436083582395142
+      ],
+      "selected_reference_interpolation64": 0.01965413532693115,
+      "selected_reference_interpolation96": 0.019654135326931166,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.6,
+      "method": "raw",
+      "independent": {
+        "rho": 0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.00990123030423842
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.008160584814957423
+          }
+        ],
+        "tied_candidates": [
+          0.75
+        ],
+        "selected_derivative": -0.009843742532918656
+      },
+      "per_validation_stream_rhos": [
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "selected_reference_interpolation64": 0.12920615573603847,
+      "selected_reference_interpolation96": 0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.6,
+      "method": "finite",
+      "independent": {
+        "rho": 0.6049513107937204,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.014630737819585
+          },
+          {
+            "rho": 0.6049513107937204,
+            "potential": -0.003646168488752084
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.003431077299610853
+          }
+        ],
+        "tied_candidates": [
+          0.6049513107937204
+        ],
+        "selected_derivative": 9.7462721110183e-19
+      },
+      "per_validation_stream_rhos": [
+        0.5955471827021392,
+        0.6142004158347166,
+        0.6121467311780381,
+        0.5981843851129433
+      ],
+      "selected_reference_interpolation64": 0.10389306056507472,
+      "selected_reference_interpolation96": 0.10389306056507473,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.6,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.23115873420961205,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.023678971570677075
+          },
+          {
+            "rho": 0.23115873420961205,
+            "potential": -0.0013858526235239269
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.005617156451481271
+          }
+        ],
+        "tied_candidates": [
+          0.23115873420961205
+        ],
+        "selected_derivative": 2.48527655812476e-19
+      },
+      "per_validation_stream_rhos": [
+        0.2288989140152163,
+        0.23136448410087443,
+        0.23463516579354016,
+        0.2297448565987746
+      ],
+      "selected_reference_interpolation64": 0.03950687209624657,
+      "selected_reference_interpolation96": 0.039506872096246586,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.6,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.2313361525829748,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.023619115229397063
+          },
+          {
+            "rho": 0.2313361525829748,
+            "potential": -0.0013863836160822596
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.005557300110201183
+          }
+        ],
+        "tied_candidates": [
+          0.2313361525829748
+        ],
+        "selected_derivative": 5.4133081633488943e-17
+      },
+      "per_validation_stream_rhos": [
+        0.2290703899146237,
+        0.23154418332306698,
+        0.23482029916434788,
+        0.22991847926350173
+      ],
+      "selected_reference_interpolation64": 0.03953724386380831,
+      "selected_reference_interpolation96": 0.039537243863808316,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.375,
+      "method": "raw",
+      "independent": {
+        "rho": 0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.006495407723180119
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.004754762233899129
+          }
+        ],
+        "tied_candidates": [
+          0.75
+        ],
+        "selected_derivative": -0.005264837455093058
+      },
+      "per_validation_stream_rhos": [
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "selected_reference_interpolation64": 0.12920615573603847,
+      "selected_reference_interpolation96": 0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.375,
+      "method": "finite",
+      "independent": {
+        "rho": 0.37861141919401736,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.011224915238526685
+          },
+          {
+            "rho": 0.37861141919401736,
+            "potential": -0.0014167205115801253
+          },
+          {
+            "rho": 0.75,
+            "potential": -2.5254718552558328e-05
+          }
+        ],
+        "tied_candidates": [
+          0.37861141919401736
+        ],
+        "selected_derivative": -2.3302676288467535e-19
+      },
+      "per_validation_stream_rhos": [
+        0.37241135972216904,
+        0.38514970616105354,
+        0.38276842165046143,
+        0.3743465157286284
+      ],
+      "selected_reference_interpolation64": 0.0647970079347752,
+      "selected_reference_interpolation96": 0.06479700793477525,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.375,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.1439322052717674,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.020273148989618784
+          },
+          {
+            "rho": 0.1439322052717674,
+            "potential": -0.0005375080524679041
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.009022979032539536
+          }
+        ],
+        "tied_candidates": [
+          0.1439322052717674
+        ],
+        "selected_derivative": 4.0431745651342954e-19
+      },
+      "per_validation_stream_rhos": [
+        0.1425320974670502,
+        0.1440700794266976,
+        0.14608375131901613,
+        0.14304791312398654
+      ],
+      "selected_reference_interpolation64": 0.02458689098706049,
+      "selected_reference_interpolation96": 0.024586890987060506,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 62,
+      "theta": 0.375,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.14397488631412814,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.02021329264833875
+          },
+          {
+            "rho": 0.14397488631412814,
+            "potential": -0.0005375876984586164
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.00896312269125952
+          }
+        ],
+        "tied_candidates": [
+          0.14397488631412814
+        ],
+        "selected_derivative": 1.3833153684798372e-17
+      },
+      "per_validation_stream_rhos": [
+        0.1425733579837909,
+        0.14411332677833344,
+        0.14612826372782295,
+        0.14308967792814742
+      ],
+      "selected_reference_interpolation64": 0.02459418648103507,
+      "selected_reference_interpolation96": 0.02459418648103508,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.0,
+      "method": "raw",
+      "independent": {
+        "rho": -0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": -0.0010021012595861
+          },
+          {
+            "rho": -8.673617379884035e-18,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.001002101259586099
+          }
+        ],
+        "tied_candidates": [
+          -0.75,
+          0.75
+        ],
+        "selected_derivative": 0.002729217382856951
+      },
+      "per_validation_stream_rhos": [
+        -0.75,
+        -0.75,
+        -0.75,
+        -0.75
+      ],
+      "selected_reference_interpolation64": -0.12920615573603847,
+      "selected_reference_interpolation96": -0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.0,
+      "method": "finite",
+      "independent": {
+        "rho": -5.204170427930421e-18,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.0037372414503095462
+          },
+          {
+            "rho": -5.204170427930421e-18,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.003737241450309545
+          }
+        ],
+        "tied_candidates": [
+          -5.204170427930421e-18
+        ],
+        "selected_derivative": -7.806165479208864e-20
+      },
+      "per_validation_stream_rhos": [
+        -5.204170427930421e-18,
+        0.0,
+        -6.938893903907228e-18,
+        -6.938893903907228e-18
+      ],
+      "selected_reference_interpolation64": -8.803720224035497e-19,
+      "selected_reference_interpolation96": -9.0205606456079e-19,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.0,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.0,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.00720809605314607
+          },
+          {
+            "rho": 0.0,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.007208096053146072
+          }
+        ],
+        "tied_candidates": [
+          0.0
+        ],
+        "selected_derivative": 0.0
+      },
+      "per_validation_stream_rhos": [
+        0.0,
+        0.0,
+        -5.204170427930421e-18,
+        0.0
+      ],
+      "selected_reference_interpolation64": 0.0,
+      "selected_reference_interpolation96": 0.0,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.0,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.0,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.00717242747998711
+          },
+          {
+            "rho": 0.0,
+            "potential": 0.0
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.0071724274799871085
+          }
+        ],
+        "tied_candidates": [
+          0.0
+        ],
+        "selected_derivative": 0.0
+      },
+      "per_validation_stream_rhos": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_reference_interpolation64": 0.0,
+      "selected_reference_interpolation96": 0.0,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.3,
+      "method": "raw",
+      "independent": {
+        "rho": 0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.0019991995603681895
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.004003402079540389
+          }
+        ],
+        "tied_candidates": [
+          0.75
+        ],
+        "selected_derivative": -0.006747455564633
+      },
+      "per_validation_stream_rhos": [
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "selected_reference_interpolation64": 0.12920615573603847,
+      "selected_reference_interpolation96": 0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.3,
+      "method": "finite",
+      "independent": {
+        "rho": 0.3022871515237483,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.006738542270263835
+          },
+          {
+            "rho": 0.3022871515237483,
+            "potential": -0.0006040930650713589
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.0007359406303552541
+          }
+        ],
+        "tied_candidates": [
+          0.3022871515237483
+        ],
+        "selected_derivative": -1.7286977414797582e-19
+      },
+      "per_validation_stream_rhos": [
+        0.3023522185268876,
+        0.2954260707963936,
+        0.3073032143474719,
+        0.30425439535979815
+      ],
+      "selected_reference_interpolation64": 0.05169328808234192,
+      "selected_reference_interpolation96": 0.051693288082341936,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.3,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.15618268899606963,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.010209396873100348
+          },
+          {
+            "rho": 0.15618268899606963,
+            "potential": -0.0003118739714993383
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.004206795233191782
+          }
+        ],
+        "tied_candidates": [
+          0.15618268899606963
+        ],
+        "selected_derivative": -2.5242219015743757e-19
+      },
+      "per_validation_stream_rhos": [
+        0.1557750729722208,
+        0.15408042757220883,
+        0.15774051039343012,
+        0.15716827173919945
+      ],
+      "selected_reference_interpolation64": 0.02668104594263125,
+      "selected_reference_interpolation96": 0.026681045942631255,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.3,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.15624866977537408,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.010173728299941395
+          },
+          {
+            "rho": 0.15624866977537408,
+            "potential": -0.000311939798686791
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.004171126660032815
+          }
+        ],
+        "tied_candidates": [
+          0.15624866977537408
+        ],
+        "selected_derivative": -2.2957057998063918e-18
+      },
+      "per_validation_stream_rhos": [
+        0.15584076400161137,
+        0.15414307742300046,
+        0.1578089668262855,
+        0.15723555798195185
+      ],
+      "selected_reference_interpolation64": 0.026692325972056022,
+      "selected_reference_interpolation96": 0.026692325972056025,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.6,
+      "method": "raw",
+      "independent": {
+        "rho": 0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.005025709238590685
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.0070299117577628766
+          }
+        ],
+        "tied_candidates": [
+          0.75
+        ],
+        "selected_derivative": -0.010799444177601696
+      },
+      "per_validation_stream_rhos": [
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "selected_reference_interpolation64": 0.12920615573603847,
+      "selected_reference_interpolation96": 0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.6,
+      "method": "finite",
+      "independent": {
+        "rho": 0.6046537787361353,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.009765051948486335
+          },
+          {
+            "rho": 0.6046537787361353,
+            "potential": -0.0024329959742720123
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.0022905690478672424
+          }
+        ],
+        "tied_candidates": [
+          0.6046537787361353
+        ],
+        "selected_derivative": 2.9050941417776887e-18
+      },
+      "per_validation_stream_rhos": [
+        0.6029470025862537,
+        0.5935626561635375,
+        0.6153089867908512,
+        0.6070535360220969
+      ],
+      "selected_reference_interpolation64": 0.1038413751142899,
+      "selected_reference_interpolation96": 0.10384137511428991,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.6,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.3137441821105096,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.013235906551322865
+          },
+          {
+            "rho": 0.3137441821105096,
+            "potential": -0.0012583005641422975
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.001180285554969275
+          }
+        ],
+        "tied_candidates": [
+          0.3137441821105096
+        ],
+        "selected_derivative": 4.0492527916729117e-19
+      },
+      "per_validation_stream_rhos": [
+        0.31282808131455025,
+        0.30972541789383523,
+        0.31693450033703097,
+        0.3155450637495622
+      ],
+      "selected_reference_interpolation64": 0.053658329435726966,
+      "selected_reference_interpolation96": 0.05365832943572701,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.6,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.31428317058021554,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.01320023797816391
+          },
+          {
+            "rho": 0.31428317058021554,
+            "potential": -0.0012593781440523727
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.001144616981810325
+          }
+        ],
+        "tied_candidates": [
+          0.31428317058021554
+        ],
+        "selected_derivative": -2.0643148111399645e-17
+      },
+      "per_validation_stream_rhos": [
+        0.3133636184978911,
+        0.31023914189701624,
+        0.3174943615169999,
+        0.3160930303982786
+      ],
+      "selected_reference_interpolation64": 0.05375078939776774,
+      "selected_reference_interpolation96": 0.05375078939776778,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.375,
+      "method": "raw",
+      "independent": {
+        "rho": 0.75,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.0027524434595370493
+          },
+          {
+            "rho": 0.75,
+            "potential": -0.004756645978709251
+          }
+        ],
+        "tied_candidates": [
+          0.75
+        ],
+        "selected_derivative": -0.007755922751829611
+      },
+      "per_validation_stream_rhos": [
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "selected_reference_interpolation64": 0.12920615573603847,
+      "selected_reference_interpolation96": 0.12920615573603855,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.375,
+      "method": "finite",
+      "independent": {
+        "rho": 0.3778666461416089,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.007491786169432696
+          },
+          {
+            "rho": 0.3778666461416089,
+            "potential": -0.0009451104372726841
+          },
+          {
+            "rho": 0.75,
+            "potential": -1.7303268813590074e-05
+          }
+        ],
+        "tied_candidates": [
+          0.3778666461416089
+        ],
+        "selected_derivative": 2.222038962071146e-20
+      },
+      "per_validation_stream_rhos": [
+        0.3777620019493035,
+        0.3696345468167928,
+        0.38417678557984436,
+        0.3800982740517949
+      ],
+      "selected_reference_interpolation64": 0.06466898347691555,
+      "selected_reference_interpolation96": 0.06466898347691559,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.375,
+      "method": "asymptotic",
+      "independent": {
+        "rho": 0.19538853603756476,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.010962640772269211
+          },
+          {
+            "rho": 0.19538853603756476,
+            "potential": -0.00048808410145507845
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.0034535513340229083
+          }
+        ],
+        "tied_candidates": [
+          0.19538853603756476
+        ],
+        "selected_derivative": 1.8594437219180272e-19
+      },
+      "per_validation_stream_rhos": [
+        0.1948679016890556,
+        0.19278238440876577,
+        0.19734332873101187,
+        0.19660102894511003
+      ],
+      "selected_reference_interpolation64": 0.0333856840741635,
+      "selected_reference_interpolation96": 0.03338568407416352,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    },
+    {
+      "n": 254,
+      "theta": 0.375,
+      "method": "quadratic",
+      "independent": {
+        "rho": 0.19551790722707957,
+        "flat_entire_interval": false,
+        "candidates": [
+          {
+            "rho": -0.75,
+            "potential": 0.010926972199110256
+          },
+          {
+            "rho": 0.19551790722707957,
+            "potential": -0.00048824549689744506
+          },
+          {
+            "rho": 0.75,
+            "potential": 0.0034178827608639757
+          }
+        ],
+        "tied_candidates": [
+          0.19551790722707957
+        ],
+        "selected_derivative": 1.6356176324323942e-17
+      },
+      "per_validation_stream_rhos": [
+        0.19499665964813168,
+        0.1929053122370255,
+        0.19747757691748163,
+        0.19673288518785242
+      ],
+      "selected_reference_interpolation64": 0.03340781526319656,
+      "selected_reference_interpolation96": 0.033407815263196576,
+      "note": "No selected-point Gaussian integral was repeated; r is a consistency comparison to the fixed reference spline"
+    }
+  ],
+  "ledger": {
+    "replayed_Gaussian_scalars": 2684354560,
+    "independently_rescored_banks": 1280,
+    "independently_rescored_D_modes": 1034240,
+    "saved_D_modes_reaggregated": 33095680,
+    "repeated_spline_constructions": 200,
+    "pooled_validation_selections": 32,
+    "per_stream_validation_selections": 128,
+    "new_scientific_samples": 0,
+    "new_observations": 0,
+    "new_data_training_fits": 0,
+    "new_Gaussian_integrals": 0,
+    "replayed_prior_vectors": 10485760,
+    "replayed_banks": 40960,
+    "first64_replayed_Gaussian_prefix_values": 83886080,
+    "remaining_banks_not_independently_rescored": 39680
+  },
+  "software_error": null,
+  "scope": "Full original RNG replay; independent Price only each first64; all saved-array statistics and model/validation spline arithmetic; no independent Gaussian reference integration or uniform MC certification"
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "derived_intervals_sha256": "746aab2e289d4f4894b8572576726a24a983b0b95f1bb5f4e82ff08fbc99b929",
+  "independent_audit_report_sha256": "f7ebe753cede00cf0095a0ce5052ab16f1c4588a1c3fe749446b3cb4dc57d334",
+  "statistics_sha256": "e155eb66bc509f3aac2e7c7abcfeeb4c6083a8147a7a4d9d26966a3f2098c13d",
+  "checks": {
+    "half_candidate_contrast": {
+      "independently_reconstructed": {
+        "mean": 0.00015167496947109116,
+        "lower": 5.334337304510836e-05,
+        "upper": 0.00025000656589707393
+      },
+      "absolute_differences": {
+        "mean": 8.673617379884035e-19,
+        "lower": 4.399150314859934e-17,
+        "upper": 4.569912157026401e-17
+      }
+    },
+    "half_excess_contrast": {
+      "independently_reconstructed": {
+        "mean": -5.3540191053511044e-05,
+        "lower": -0.00015274427032165388,
+        "upper": 4.566388821463177e-05
+      },
+      "absolute_differences": {
+        "mean": 1.7954387976359953e-16,
+        "lower": 1.7176472917601604e-16,
+        "upper": 1.8735013540549517e-16
+      }
+    }
+  },
+  "new_tests": 0,
+  "new_draws": 0,
+  "new_integrals": 0,
+  "scope": "Arithmetic image of the original joint intervals; no recalibrated test or coverage beyond that development family."
+}

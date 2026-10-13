@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-03T04:11:52.412654+00:00",
+  "inputs": {
+    "script/scbmeval_audit.py": "bcfee5460de996ff1276398e3acae0d6c8561df111b96d2a8814ac4a51c71ca5",
+    "docs/08_research_研究工作/冻结表示的条件与总体目标_20261003/AUDIT_PLAN.md": "964ad66758a372393f62b237bc163c3784a7ed066bf9c42dcc04a547bb629ab4",
+    "docs/08_research_研究工作/冻结表示的条件与总体目标_20261003/EXPERIMENT_DESIGN.md": "3b6a549c3ee1ba449ff6a864d42d1a8fd11f7ae0dc856a17a1e6fe194eccd02a",
+    "artifacts/scbm_frozen_evaluation/EVAL/FREEZE.json": "5d529138fe2542d4c195f1a6241dd5cbda192991e09dc3d4922d3500a5a59298",
+    "artifacts/scbm_frozen_evaluation/MODEL_SELECTION.json": "2c37caea493cb8f57421359672786a6f89415b12a05ae68e8323533b8b5c750f",
+    "script/scbmeval_kernel.py": "9dc59d1436abeb1ce5eaf4c70a098a6f34c4ced1d797492c0c56ff5eee8e64d1",
+    "script/scbmeval_run.py": "66703a4676c461e6710f2611350f039a9ab1f0ebd2fd8d02ab37c9c0d1fad0b9",
+    "script/scbmeval_reference.py": "d1cd1699a58d9df6ca117807b2b30d22dec02038f68cebfa2ad0a85b34d6ce64",
+    "script/scbmeval_summary.py": "31370ab30c510eb61d778896694f800191f0a4ef4fee3ebcd552914310eb45d8",
+    "script/scbminv_reference.py": "79c911d1601ae9740b0e045a5d879394cfd4a82aaa9e48f72070fc46b5098a41",
+    "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/models/losses.py": "6a42d6b5c386434604883db615b2ab127bc7b9ac7ac2395a26fcfeb5b552c7e5",
+    "artifacts/scbm_scale_optimization/TRAIN/RESULTS.json": "dfa29a84a043180b0a8b7d4bb9939526e1866f49bb6533a2f26b86e2bf3e9def",
+    "artifacts/scbm_invariance/REFERENCE/MODEL.json": "2b5d12858dd6d581f36ded2327fd2ce26f0bc69eed314360783479403b9c9975",
+    "artifacts/scbm_scale_optimization/REFERENCE/RESULTS.json": "7b0d22a1dae7f312e2c28618dfebfa9482db1b2fa34085de6d93a5874ba1c8ed"
+  },
+  "tolerances": {
+    "mathematical": 2e-10,
+    "API_score": 5e-05,
+    "API_path": 3e-06,
+    "arithmetic": 2e-11
+  },
+  "first_complete_block_banks": 64,
+  "model_indices": [
+    0,
+    15
+  ],
+  "profiles": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "points": [
+    0,
+    10,
+    14,
+    20,
+    21
+  ],
+  "official_NUM_prefix_banks": 4,
+  "official_API_replays": 2304,
+  "deterministic_check": {
+    "passed": true,
+    "path_FD_error": 3.519785157779509e-11,
+    "Price_Hessian_error": 2.2365610807817404e-08,
+    "selection_axes_passed": true,
+    "new_scientific_draws": 0,
+    "new_model_integrals": 0
+  },
+  "new_model_integrals": 0,
+  "automatic_retry": false
+}

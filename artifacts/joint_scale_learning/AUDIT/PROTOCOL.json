@@ -1,0 +1,277 @@
+{
+  "created_utc": "2026-10-04T07:35:01.107506+00:00",
+  "source_sha256": "fc12ea6c6a1ac681149b66264391b4fc744ace04f4727ec5f7f531f80675a69d",
+  "inputs": {
+    "script/jointscale_audit.py": "fc12ea6c6a1ac681149b66264391b4fc744ace04f4727ec5f7f531f80675a69d",
+    "docs/08_research_研究工作/两组尺度共同学习与恢复边界_20261004/PROTOCOL.md": "d8c72756cff6fd4492ae7bcbddda5ef7c08c39baf75bc952b21c651901ebfd6b",
+    "docs/08_research_研究工作/两组尺度共同学习与恢复边界_20261004/INDEPENDENT_REVIEW_DRAFT.md": "03235a09b16ab9ba4577793d13eb19cc6cd01bfde6674f5484db1ff4bcd0eec6",
+    "artifacts/joint_scale_learning/FREEZE.json": "ba0ef9b9b7c41fa90f7ff29783ba79b32b70a76266520b14c53baa61fdd110c0",
+    "artifacts/joint_scale_learning/TRAIN/RESULTS.json": "914b2d58330d9428e3429f4421c403359e688c2778a81eea69cb031bced12407",
+    "script/jointscale_compute.py": "5755a1b0de378233a277a3ee504c7ceff2537f611025f70595072654f2817dbb",
+    "script/jointscale_kernel.py": "1e1e4e39cafd94b6c4af52998d1dc658849865b84f04a76aa327f1797b552149",
+    "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/models/losses.py": "6a42d6b5c386434604883db615b2ab127bc7b9ac7ac2395a26fcfeb5b552c7e5",
+    "artifacts/active_scale_boundary/REFERENCE/RESULTS.json": "67b70aec263392c90c19811e6354460db85aceb02e0bdce6590994068ec7f970",
+    "artifacts/joint_scale_learning/INDEPENDENT_PREQUALIFICATION.json": "9266631d069628ba0e4379e6f6b94623940bdf1c48b3dbb2ddc2004bae28ede4"
+  },
+  "tolerances": {
+    "api_loss": 6e-05,
+    "api_gradient": 6e-06,
+    "mathematical": 3e-10,
+    "arithmetic": 3e-11,
+    "one_step": 4e-06,
+    "moment_abs": 3e-06,
+    "moment_rel": 3e-05,
+    "repair": 2e-12,
+    "repair_parameter": 3e-07,
+    "maxlogit": 4e-06,
+    "reference_pmf": 2e-07,
+    "reference_KL": 2e-06
+  },
+  "deterministic_check": {
+    "passed": true,
+    "structural_and_independent_formula_checks_passed": true,
+    "source_sha256": "fc12ea6c6a1ac681149b66264391b4fc744ace04f4727ec5f7f531f80675a69d",
+    "maximum_FD_error": 9.157498457451618e-11,
+    "maximum_native_value_error": 1.838727508030047e-07,
+    "Adam_one_step_error": 0.0,
+    "deterministic_repair_vertices": 64,
+    "new_scientific_RNG": 0,
+    "new_model_integrals": 0,
+    "new_scientific_fits": 0,
+    "full_dimension_native64_qualification": {
+      "math64_tau": 16.034485150599153,
+      "native32_tau": 16.034530639648438,
+      "tau_difference": 4.54890492846971e-05,
+      "tau_relative_error": 2.836951037557781e-06,
+      "other_coordinate_max_error": 1.4397593113418816e-06,
+      "loss_difference": 6.744508567635421e-06,
+      "finite_differences": [
+        {
+          "step": 0.001,
+          "finite_difference": 16.034484733836507,
+          "difference": -4.1676264572743094e-07
+        },
+        {
+          "step": 0.0001,
+          "finite_difference": 16.03448514657657,
+          "difference": -4.02258137910394e-09
+        },
+        {
+          "step": 1e-05,
+          "finite_difference": 16.034485150839828,
+          "difference": 2.4067503545666113e-10
+        }
+      ],
+      "original_absolute_gradient_tolerance": 4e-05,
+      "passed": false,
+      "scope": "No implementation error established; original absolute native/math gate retained, no rounding-operation attribution or whole-trajectory equivalence"
+    },
+    "qualification_scope": "passed refers to independent formula/update checks; the explicitly retained full-dimensional 4e-5 native/math gradient gate is separate"
+  },
+  "data_streams": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "bottom_level_steps": [
+    0,
+    31,
+    127,
+    511
+  ],
+  "arms": [
+    "NEAR_FIXED",
+    "NEAR_FREE",
+    "NEAR_ZERO",
+    "UNIT_FIXED",
+    "UNIT_FREE",
+    "UNIT_ZERO"
+  ],
+  "independent_reference": {
+    "order": 44,
+    "root": "symmetric",
+    "models": [
+      {
+        "stream": 0,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 0,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 1,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 1,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 2,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 2,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 3,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 3,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 4,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 4,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 5,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 5,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 6,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 6,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 7,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 7,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 8,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 8,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 9,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 9,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 10,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 10,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 11,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 11,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 12,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 12,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 13,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 13,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 14,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 14,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 15,
+        "arm": "NEAR_FREE",
+        "kind": "TAIL"
+      },
+      {
+        "stream": 15,
+        "arm": "UNIT_ZERO",
+        "kind": "TAIL"
+      }
+    ],
+    "max_pmf_error": 2e-07,
+    "max_KL_error": 2e-06,
+    "mass_tolerance": 2e-12
+  },
+  "scope": "All original RNG bytes and saved updates; bottom-level only 384 training states, not independent full retraining; 32 independent TAIL PMFs",
+  "new_independent_scientific_draws": 0,
+  "automatic_retry": false,
+  "numpy_version": "2.3.5",
+  "torch_version": "2.5.1+cpu"
+}

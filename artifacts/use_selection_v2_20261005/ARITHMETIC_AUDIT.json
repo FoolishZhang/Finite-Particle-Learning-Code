@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_sha256": "a73b7a70d5721d86334b2d9fd5ae68f54ba6687cc9a869f262b87aae9588881d",
+  "result_sha256": "834fc5591b559aa7f4514a604ca4d993a7575cc967015b0564b9456517d8e424",
+  "streams_checked": 96,
+  "fits_bound": 576,
+  "candidates_checked": 384,
+  "selectors_checked": 480,
+  "primary_cells": 15,
+  "max_direct_score_error": 6.821210263296962e-13,
+  "scope": "All data counts, stored training traces/bindings, choices, oracle/test risks and paired statistics; direct MC/JVI scores for rep0 only; no full optimizer replay"
+}

@@ -1,0 +1,49 @@
+% Humanlike h2.2 authoring snapshot, 2026-10-13; not submitted.
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}[AutoFakeBold=2,AutoFakeSlant=0.2]
+\setCJKsansfont{Microsoft YaHei}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{amsmath,amssymb,mathtools,amsthm,graphicx,booktabs,longtable,array,float,caption,needspace,placeins,xurl}
+\usepackage[authoryear,round]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\setcounter{secnumdepth}{3}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newcommand{\real}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Pp}{\mathbb P}
+\newcommand*\pandocbounded[1]{#1}
+\captionsetup{font=small,labelfont=bf}
+\captionsetup[figure]{name=图}
+\captionsetup[table]{name=表}
+\floatplacement{figure}{H}
+\setlength{\emergencystretch}{5em}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\setlength{\parskip}{4pt plus 1pt}
+\raggedbottom
+\title{有限先验粒子似然目标可能偏好提高风险的依赖}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\begingroup\let\thefootnote\relax\footnotetext{中文作者对照稿，未投稿。英文版本为 ICML 2026 格式预演；本中文单栏版本并非正式 ICML 投稿格式。}\endgroup
+\section*{摘要}
+% CANDIDATE_ABSTRACT
+% CANDIDATE_MAIN
+\FloatBarrier
+\label{candidateMainEnd}
+% CANDIDATE_IMPACT
+\renewcommand{\refname}{参考文献}
+\bibliographystyle{icml2026}
+\bibliography{references}
+\clearpage
+\setcounter{secnumdepth}{0}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+% CANDIDATE_APPENDICES
+\end{document}

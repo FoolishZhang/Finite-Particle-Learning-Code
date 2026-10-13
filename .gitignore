@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+runs/
+*.partial
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+# Optional official style dependency downloaded separately.
+docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h2_2_20261013/templates/icml2026/

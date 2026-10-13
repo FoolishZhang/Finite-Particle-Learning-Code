@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-10-06T06:03:36.934797+00:00",
+  "scope": "exact_saved_binary64_Z_S_all_eight_label_anchor_differences",
+  "input_path": "artifacts/failure_probability_v1_20261006/AUDIT_BANKS.npz",
+  "input_sha256": "9ed44d6c166ef7e03621265a8ae1bdb05d3ef030ca5ee546a371ab4ae5511931",
+  "input_bytes": 862193626,
+  "source_sha256": {
+    "script/failure_probability_interval.py": "7feabce83f18bca5b2e46758d54ad24a931b67dc7cfcbdacda3a0dd9acd0d977",
+    "script/numerical_sign_kernel.py": "df54a44977c328427ae1490af58917cb1f3873fce709091260fe84f3bc560f34",
+    "docs/08_research_研究工作/FailureProbability_v1_20261006/SCORE_ARITHMETIC_CONTRACT.md": "f50503c1aef58642ac3320648c88445ac272e5b7052a37f20a0e7eed26c582eb",
+    "artifacts/failure_probability_v1_20261006/SCORE_ARITHMETIC_QUALIFICATION_ATTEMPT_001.json": "9739ae5bee2d868ef6bfa78692b882ff773ac5ae0c5efeaa15ce4ed5b9bd56d2",
+    "artifacts/failure_probability_v1_20261006/RESULTS.json": "f25ee252366d27c74451fdd7b6ad416dba689e41e8aa51323d5a35f70a6704c6",
+    "artifacts/failure_probability_v1_20261006/SCALAR_STATS.json": "f5d0b8617b6c2c74d0d03a1bfed88d8ffd1abf579ee7b65940cdd16882b8faba",
+    "script/nuisance_contrast_compute.py": "3187c6299c0ecd9266c00a3377c2d16a3314a8a76b0accc9384bc9f4774f0578",
+    "script/finite_selection_compute.py": "2250773a392e4c31051d112cbf7842cacbb50f3bb9e0a07821532c1ada6d7bba"
+  },
+  "source_snapshot": "artifacts/failure_probability_v1_20261006/SCORE_ARITHMETIC_FROZEN_SOURCE.py",
+  "qualification_path": "artifacts/failure_probability_v1_20261006/SCORE_ARITHMETIC_QUALIFICATION_ATTEMPT_001.json",
+  "N": 262144,
+  "K": 100,
+  "block": 256,
+  "timeout_seconds": 1200,
+  "eta_d": 1e-09,
+  "log_terms": 20,
+  "label_order": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "Arb_indices": [
+    0,
+    8456,
+    16912,
+    25368,
+    33824,
+    42281,
+    50737,
+    59193,
+    67649,
+    76106,
+    84562,
+    93018,
+    101474,
+    109930,
+    118387,
+    126843,
+    135299,
+    143755,
+    152212,
+    160668,
+    169124,
+    177580,
+    186036,
+    194493,
+    202949,
+    211405,
+    219861,
+    228318,
+    236774,
+    245230,
+    253686,
+    262143
+  ],
+  "Arb_bits": 256,
+  "new_random_draws": 0,
+  "new_statistical_comparisons": 0,
+  "probability_lower_unchanged": 0.70355036287487
+}

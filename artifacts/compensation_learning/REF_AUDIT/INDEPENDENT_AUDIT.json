@@ -1,0 +1,64 @@
+{
+  "utc": "2026-10-01T09:52:18.838208+00:00",
+  "status": "complete",
+  "passed": true,
+  "start_sha256": "4649d337fc0c0448c4aff87f47fa8d088da118f985a31e36262fda37fd9a96ef",
+  "summary": {
+    "saved_arrays": {
+      "rows": 162,
+      "passed": 162
+    },
+    "kernel": {
+      "rows": 130,
+      "passed": 130
+    },
+    "quad": {
+      "rows": 90,
+      "passed": 90
+    },
+    "rebuild": {
+      "rows": 12,
+      "passed": 12
+    },
+    "finite_difference": {
+      "rows": 8,
+      "passed": 8
+    },
+    "anchors": {
+      "rows": 4,
+      "passed": 4
+    }
+  },
+  "counts": {
+    "new_scientific_labels": 0,
+    "new_RNG_calls": 0,
+    "new_fits": 0,
+    "private_node_pairs": 6376320,
+    "expit_scalar_evaluations": 12752640,
+    "kernel_vector_calls": 390,
+    "PMF_integral_executions": 48,
+    "outer_PMF_scalar_terms": 32348160,
+    "GH_rules_constructed": 4,
+    "saved_PMFs_checked": 486,
+    "reconstructed_base_PMFs": 12,
+    "finite_difference_directions": 8,
+    "perturbed_PMFs": 32,
+    "anchor_PMFs": 4,
+    "full_PMF_evaluation_requests": 48,
+    "binomial_tables_computed": 40
+  },
+  "failures": [],
+  "elapsed_seconds": 0.9026774999219924,
+  "files": {
+    "artifacts/compensation_learning/REF_AUDIT/REBUILT_d16.json": "6160f1e8596a5c81bfbf1a320803a30b4a1d5613f679a5285e7d6e43aa70cf79",
+    "artifacts/compensation_learning/REF_AUDIT/DETAIL_d16.json": "0872c78aff55705d02fd9185b135bd1bc81512227ba97236e34c26d6f7df9ad2",
+    "artifacts/compensation_learning/REF_AUDIT/REBUILT_d64.json": "efc16db6018823c57335ddd39bec8993bb1abcace2313515cc93a1719d7db025",
+    "artifacts/compensation_learning/REF_AUDIT/DETAIL_d64.json": "3416b38d892d499ad30bc137f1fce184ab3acba69d48a300af62d34ae9030adc"
+  },
+  "limits": [
+    "finite points and numerical agreement only, no rigorous quadrature remainder",
+    "raw masses for all saved PMFs were not stored; only public raw-mass gates checked",
+    "no complete repeat of producer finite differences or adaptive quad",
+    "no RUN outcomes accessed; zero scientific data, fits, or RNG"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "dimensions": [
+    16,
+    64
+  ],
+  "train_sizes": [
+    64,
+    1024
+  ],
+  "validation_sizes": [
+    128,
+    512
+  ],
+  "budgets": [
+    1,
+    4
+  ],
+  "repetitions": 32,
+  "target": 0,
+  "weak_J": 0.35,
+  "strong_J": 0.8,
+  "seed_base": 4026093000,
+  "dimension_stride": 100000,
+  "repetition_stride": 1000,
+  "seed_offsets": {
+    "matching": 0,
+    "flip": 1,
+    "train": 2,
+    "validation": 3
+  },
+  "candidate_order": [
+    "PRODUCT",
+    "JOINT_MI",
+    "TARGET_MI"
+  ],
+  "deployed_methods": [
+    "PRODUCT",
+    "JOINT_MI",
+    "TARGET_MI",
+    "HOLDOUT_JOINT",
+    "HOLDOUT_QUERY"
+  ],
+  "contrasts": [
+    [
+      "JOINT_MI",
+      "TARGET_MI"
+    ],
+    [
+      "JOINT_MI",
+      "HOLDOUT_QUERY"
+    ],
+    [
+      "HOLDOUT_JOINT",
+      "HOLDOUT_QUERY"
+    ],
+    [
+      "PRODUCT",
+      "TARGET_MI"
+    ]
+  ],
+  "interval_family": 64,
+  "alpha": 0.05,
+  "primary_gain": 0.001,
+  "tie_tolerance": 1e-12,
+  "numeric_gate": 2e-12,
+  "pseudo_total": 1.0,
+  "known_bipartition": true,
+  "empirical_MI_unsmoothed": true,
+  "target_secondary_joint_MI": true,
+  "distinct_train_vectors": 65536,
+  "distinct_validation_vectors": 32768,
+  "scientific_repetitions": 64,
+  "iterative_optimizations": 0
+}

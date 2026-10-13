@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_sha256": "901767765070b164ec04ebe5eb2e1678a062c5004b138f175b1c282d46fe3239",
+  "result_sha256": "a47a8ce94afa2b6005c3e036d49aa9eb18ab6aa7b4b0b47091a536e4f665f6d0",
+  "fixed_models": 64,
+  "primary_MC_cells": 16,
+  "max_coefficient_difference": 2.7755575615628914e-17,
+  "max_direct_score_difference": 1.3322676295501878e-15,
+  "pattern_scores_replayed": 768,
+  "Gaussian_replayed": 409600,
+  "scope": "All saved paired-bank arithmetic, moment coefficient arithmetic and prescribed direct-score replay; no new scientific banks or endpoints"
+}

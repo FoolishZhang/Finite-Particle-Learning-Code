@@ -1,0 +1,11 @@
+{
+  "status": "complete_source_snapshot_not_method_reproduction",
+  "repository": "https://github.com/mvandenhi/SCBM.git",
+  "commit": "58c3e602cb11fb4ea9106226e0f9e58f50d5d10a",
+  "completed_at": "2026-09-06T13:31:52.078701+00:00",
+  "selected_files": 31,
+  "selection": "text source/config/documentation up to 2MB; no weights, data, hidden directories, or binaries",
+  "source_license_files": [
+    "LICENSE.md"
+  ]
+}

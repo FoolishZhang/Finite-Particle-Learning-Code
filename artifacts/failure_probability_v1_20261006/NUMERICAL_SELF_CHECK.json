@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-06T05:41:10.523495+00:00",
+  "source_sha256": "a5a492543861dac3d81cb5407fbcaaea6dbec797839d452ebc5cd6db85082cdb",
+  "freeze_sha256": "c574d78e56826b1452620d80a78a1befa5ec756210a1c47842f42c62727a0d38",
+  "results_sha256": "f25ee252366d27c74451fdd7b6ad416dba689e41e8aa51323d5a35f70a6704c6",
+  "scalar_stats_sha256": "f5d0b8617b6c2c74d0d03a1bfed88d8ffd1abf579ee7b65940cdd16882b8faba",
+  "saved_three_scalar_sequences_bound_to_exact_integer_moments": true,
+  "confidence_recomputed_at_bits": 256,
+  "binary64_outward_endpoints_identical_to_128bit": true,
+  "passed": true,
+  "new_RNG_draws": 0,
+  "proof_peer_review": false
+}

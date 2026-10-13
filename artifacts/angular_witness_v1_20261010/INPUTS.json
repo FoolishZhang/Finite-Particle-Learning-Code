@@ -1,0 +1,61 @@
+{
+  "schema": "angular_inputs_v1",
+  "frozen_utc": "2026-10-10T08:03:21.897969+00:00",
+  "a_exact": [
+    "4236614515730759/9007199254740992",
+    "1274451243427741/2251799813685248",
+    "181129089615167/281474976710656",
+    "775431105319425/1125899906842624",
+    "775431105319425/1125899906842624",
+    "181129089615167/281474976710656",
+    "1274451243427741/2251799813685248",
+    "4236614515730759/9007199254740992"
+  ],
+  "b_exact": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "u_integer": [
+    -8440215,
+    -6758298,
+    -4585241,
+    -1673686,
+    1673686,
+    4585241,
+    6758298,
+    8440215
+  ],
+  "S_integer": 281474961915412,
+  "step_exact": "1/8",
+  "N": 88,
+  "bits": 192,
+  "strip_exact": "1",
+  "hard_seconds": 600,
+  "root_distance_cap_exact": "1.805e-8",
+  "scalar_L_cap_exact": "417",
+  "transfer_cap_exact": "7.52685e-6",
+  "teacher_L1_cap_exact": "4.894e-21",
+  "center_width_gate_exact": "1e-8",
+  "source_paths": {
+    "old_direction": "artifacts/rankone_stationary_v1_20261007/evaluation/P_D.json",
+    "saved_center_matrix": "artifacts/local_witness_feasibility_v1_20261008/D1.json",
+    "center": "artifacts/certified_teacher_v1_20261008/CANDIDATE_RISK_INTEGRALS.json",
+    "teacher_inputs": "artifacts/certified_teacher_v1_20261008/INPUTS.json",
+    "teacher_finite": "artifacts/certified_teacher_v1_20261008/FINITE_GRID_SUM.json",
+    "teacher_certificate": "artifacts/certified_teacher_v1_20261008/TEACHER_CERTIFICATE.json",
+    "Q_certificate": "artifacts/certified_teacher_v1_20261008/TEACHER_RISK_CERTIFICATE.json",
+    "root_certificate": "artifacts/certified_f8_hessian_v1_20261008/HESSIAN_AND_WITNESS_CERTIFICATE.json",
+    "center_identity": "artifacts/local_witness_feasibility_v1_20261008/INPUTS.json",
+    "hessian_inputs": "artifacts/certified_f8_hessian_v1_20261008/INPUTS.json",
+    "gradient_inputs": "artifacts/certified_f8_gradient_v1_20261008/INPUTS.json",
+    "paper_manifest": "artifacts/submission_candidate_v1_8_4_20261010/DELIVERY_MANIFEST.json"
+  },
+  "direction_sha256": "a0baad8388585563edd039e298d7f7e2aac46cd86245741b56ac02736df03444",
+  "selection_freeze_sha256": "577a12fe49ad7200608144104906952ce31ef0b52c6eff59616b953f3c606f7c"
+}

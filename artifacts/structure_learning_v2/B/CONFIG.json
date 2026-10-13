@@ -1,0 +1,83 @@
+{
+  "d": 16,
+  "c": 0.9,
+  "scales_grid": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0
+  ],
+  "r_values": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "teacher": [
+    6.0,
+    2.0
+  ],
+  "witness": [
+    3.0,
+    1.0
+  ],
+  "K": [
+    10,
+    100
+  ],
+  "streams": 16,
+  "banks": 64,
+  "bank_batch": 16,
+  "bank_seed": 20340101,
+  "train_N": [
+    4096,
+    65536
+  ],
+  "objectives": [
+    "J",
+    "P",
+    "T",
+    "G10",
+    "G100"
+  ],
+  "mass_gate": 1e-12,
+  "identity_gate": 1e-10,
+  "anchor_L1_gate": 1e-08,
+  "reference_sensitivity_gate": 1e-07,
+  "finite_family": 32,
+  "finite_SE_gate": 0.001,
+  "population_family": 8,
+  "population_SE_gates": [
+    0.01,
+    0.005
+  ],
+  "alpha": 0.05,
+  "material": 0.001,
+  "T_near_tie_allowance": 1e-07,
+  "oracle_bracket": [
+    0.0,
+    9.0
+  ],
+  "oracle_xtol": 1e-12,
+  "oracle_rtol": 1e-12,
+  "oracle_maxiter": 100,
+  "oracle_residual_gate": 1e-11,
+  "oracle_pair_gap_gate": 1e-10,
+  "new_teacher_observations": 0,
+  "new_neural_models": 0
+}

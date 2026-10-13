@@ -1,0 +1,1278 @@
+{
+  "schema": 1,
+  "passed": true,
+  "source_sha256": "d783a2ad6c64b8952df41f40c3570a355563af888b42b8bc6bdb2d4f5ca35ac9",
+  "protocol_sha256": "bbee33b8607145f0ecf674125d9b49d7602d24d627ea73de65dada70354bc1bd",
+  "producer_sha256": "e1a059d6b7339821e04a780c09a858a981c5821e3658ab23356653b466706d08",
+  "model_sha256": "c7501995a5314a212e65369496a17ef1996bce0fe9a01607d5d4be00b3e03a13",
+  "checks": [
+    {
+      "name": "producer/source_binding",
+      "passed": true
+    },
+    {
+      "name": "producer/input/docs/08_research_研究工作/粒子精度与局部校准_20261002/PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "producer/input/artifacts/finite_calibration/CAL/REFERENCE.json",
+      "passed": true
+    },
+    {
+      "name": "producer/input/artifacts/bank_precision/LOCAL/SELFTEST.json",
+      "passed": true
+    },
+    {
+      "name": "model/source",
+      "passed": true
+    },
+    {
+      "name": "model/protocol",
+      "passed": true
+    },
+    {
+      "name": "model/reference",
+      "passed": true
+    },
+    {
+      "name": "execution/source",
+      "passed": true
+    },
+    {
+      "name": "execution/protocol",
+      "passed": true
+    },
+    {
+      "name": "execution/reference",
+      "passed": true
+    },
+    {
+      "name": "protocol/fixed_design",
+      "passed": true
+    },
+    {
+      "name": "protocol/rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "protocol/h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "protocol/signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "reference/node_match",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-14
+    },
+    {
+      "name": "reference/indices",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "reference/r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "reference/qualification",
+      "passed": true
+    },
+    {
+      "name": "source/no_old_producer_import",
+      "passed": true
+    },
+    {
+      "name": "source/only_known_reference_path",
+      "passed": true
+    },
+    {
+      "name": "stream0/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream0/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream0/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream0/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream0/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream0/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream0/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream0/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream0/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 4.829470157119431e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream0/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream0/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream0/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 2.7755575615628914e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream0/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream0/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 5.204170427930421e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream0/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.3877787807814457e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream1/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream1/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream1/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream1/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream1/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream1/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream1/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream1/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream1/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 3.969047313034935e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream1/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream1/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream1/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 2.0816681711721685e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream1/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream1/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 1.0299920638612292e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream1/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 2.0816681711721685e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream2/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream2/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream2/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream2/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream2/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream2/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream2/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream2/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream2/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 4.413136522884997e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream2/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream2/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream2/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 1.734723475976807e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream2/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 2.3071822230491534e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream2/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 2.168404344971009e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream2/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.5612511283791264e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream3/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream3/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream3/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream3/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream3/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream3/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream3/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream3/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream3/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 3.011479954295737e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream3/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream3/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream3/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 2.0816681711721685e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream3/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 2.0296264668928643e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream3/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 3.903127820947816e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream3/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.9081958235744878e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream4/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream4/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream4/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream4/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream4/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream4/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream4/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream4/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream4/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 6.161737786669619e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream4/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream4/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream4/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 1.734723475976807e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream4/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream4/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 6.071532165918825e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream4/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 8.673617379884035e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream5/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream5/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream5/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream5/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream5/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream5/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream5/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream5/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream5/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 5.134781488891349e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream5/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream5/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream5/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 2.0816681711721685e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream5/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 1.8171228410857054e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream5/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 3.903127820947816e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream5/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 2.2551405187698492e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream6/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream6/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream6/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream6/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream6/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream6/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream6/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream6/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream6/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 4.6629367034256575e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream6/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream6/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream6/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 2.0816681711721685e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream6/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream6/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 3.0357660829594124e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream6/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 2.42861286636753e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream7/metadata",
+      "passed": true
+    },
+    {
+      "name": "stream7/model_copy",
+      "passed": true
+    },
+    {
+      "name": "stream7/array_rho",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream7/array_h",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream7/array_signs",
+      "passed": true,
+      "shape": [
+        4,
+        2
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream7/array_r",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "stream7/D_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "stream7/Price_sign",
+      "passed": true
+    },
+    {
+      "name": "stream7/independent_probability_Price_first64",
+      "passed": true,
+      "shape": [
+        64,
+        6,
+        4
+      ],
+      "max_absolute_error": 4.718447854656915e-15,
+      "tolerance": 5e-13
+    },
+    {
+      "name": "stream7/entire_prior_rng",
+      "passed": true
+    },
+    {
+      "name": "stream7/first_block_rng",
+      "passed": true
+    },
+    {
+      "name": "stream7/all_G",
+      "passed": true,
+      "shape": [
+        1024,
+        6
+      ],
+      "max_absolute_error": 2.0816681711721685e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream7/all_coefficients",
+      "passed": true,
+      "shape": [
+        1024,
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream7/mean_G",
+      "passed": true,
+      "shape": [
+        6
+      ],
+      "max_absolute_error": 4.336808689942018e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream7/mean_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.3877787807814457e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "pooled_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.3877787807814457e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "stream_SE",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.6263032587282567e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "coefficient",
+      "passed": true,
+      "shape": [],
+      "max_absolute_error": 1.3877787807814457e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "coefficient_SE",
+      "passed": true,
+      "shape": [],
+      "max_absolute_error": 7.724940478959219e-19,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "paired_resolution_SE",
+      "passed": true,
+      "shape": [],
+      "max_absolute_error": 2.999555424464291e-19,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "fixed_main_coefficient",
+      "passed": true
+    },
+    {
+      "name": "gate/main_stream_SE/value",
+      "passed": true,
+      "shape": [],
+      "max_absolute_error": 7.724940478959219e-19,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "gate/main_stream_SE/threshold_pass",
+      "passed": true
+    },
+    {
+      "name": "gate/resolution_c06_c03/value",
+      "passed": true,
+      "shape": [],
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "gate/resolution_c06_c03/threshold_pass",
+      "passed": true
+    },
+    {
+      "name": "gates/overall",
+      "passed": true
+    },
+    {
+      "name": "subpool0/definition",
+      "passed": true
+    },
+    {
+      "name": "subpool0/all_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "subpool1/definition",
+      "passed": true
+    },
+    {
+      "name": "subpool1/all_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "subpool2/definition",
+      "passed": true
+    },
+    {
+      "name": "subpool2/all_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.3877787807814457e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "subpool3/definition",
+      "passed": true
+    },
+    {
+      "name": "subpool3/all_c",
+      "passed": true,
+      "shape": [
+        3
+      ],
+      "max_absolute_error": 1.734723475976807e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "production/accounting",
+      "passed": true
+    }
+  ],
+  "stream_results": [
+    {
+      "stream": 0,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 4.829470157119431e-15,
+      "entire_prior_sha256": "118b0ab418f15994e2cd41dd609fb9eadc1da12f4bd2912b8dd8952c3e9c4d9c",
+      "first_prior_sha256": "eb07388a820179a63e24fbf7b85a5e3d7368087ecdfc9fcc7bdcce1c93318584",
+      "rebuilt_mean_c_h": [
+        0.00837080548473274,
+        0.008372434002091842,
+        0.008378929916812982
+      ]
+    },
+    {
+      "stream": 1,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 3.969047313034935e-15,
+      "entire_prior_sha256": "84acf0a31e6ad16fa84b3dc5daadda3dda0fd58aa5b69f755d53186580ff93e1",
+      "first_prior_sha256": "372d65ca413b32ca7829b6c30dcdd3861d4727e1e0476d5ba4c4bd89ba409c36",
+      "rebuilt_mean_c_h": [
+        0.008253351100931042,
+        0.008254363051504458,
+        0.008258384263298295
+      ]
+    },
+    {
+      "stream": 2,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 4.413136522884997e-15,
+      "entire_prior_sha256": "b5aae00c67ae5e21249337218da8751d5608998bab63c22ef1053386848665a9",
+      "first_prior_sha256": "f43d055b4a47916022a70e0c9cd3c72c6d7103b2d8c9916de08b02751fcf6a61",
+      "rebuilt_mean_c_h": [
+        0.008078237185171316,
+        0.00808060199525905,
+        0.008090006254485886
+      ]
+    },
+    {
+      "stream": 3,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 3.011479954295737e-15,
+      "entire_prior_sha256": "e02ac2c2e320bf146fc2f746d3491e9b555e1fe92e8d3a34dfd6f231c50b042e",
+      "first_prior_sha256": "aeea612576a75b04c24f35b46e7f6a6626836c0d131693822c1068170bf09bd7",
+      "rebuilt_mean_c_h": [
+        0.008511878851944545,
+        0.008512398157974,
+        0.008514417985232968
+      ]
+    },
+    {
+      "stream": 4,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 6.161737786669619e-15,
+      "entire_prior_sha256": "9c89e87e3488eb3090cf09522e088d03d4cde244dce70305a91fc5a36e598576",
+      "first_prior_sha256": "8a9cbeea1b3a839051da4992ee9d5669e3c1661d5d26594bc11a4583a593a4a2",
+      "rebuilt_mean_c_h": [
+        0.00874400363177124,
+        0.008744217237281323,
+        0.008745091448827434
+      ]
+    },
+    {
+      "stream": 5,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 5.134781488891349e-15,
+      "entire_prior_sha256": "88dcf27e95b186bbe23fbe6d9ef089b41fa442132f999c4880596e82fee4d870",
+      "first_prior_sha256": "c26ed366b6e021ca88110bccb487fdb1372c467f95a90edf166f1a11e6d04934",
+      "rebuilt_mean_c_h": [
+        0.008374489149070153,
+        0.008375710012723298,
+        0.00838060964152772
+      ]
+    },
+    {
+      "stream": 6,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 4.6629367034256575e-15,
+      "entire_prior_sha256": "f433f006047c6e34fe0036889219c857674c46dd8ba0dae00f009114a87275e9",
+      "first_prior_sha256": "9d94f7ad7312c79be595c762ed900bcf28f62c607f093fb0b6d5375f02f2e8f4",
+      "rebuilt_mean_c_h": [
+        0.007907216986527415,
+        0.00790878944199524,
+        0.007915079087618038
+      ]
+    },
+    {
+      "stream": 7,
+      "replayed_banks": 1024,
+      "independently_scored_banks": 64,
+      "independent_Price_entries": 1536,
+      "max_Price_absolute_error": 4.718447854656915e-15,
+      "entire_prior_sha256": "28f35717428e4ae14a5e587c37358f8b846f81061c44dc6e5a1c73bb55ef1350",
+      "first_prior_sha256": "db568197a85089f491991f186c64e4d9bff7af770653b6b5e5e47e61ffc3a25d",
+      "rebuilt_mean_c_h": [
+        0.008726950145319915,
+        0.008726928713571802,
+        0.008726867669608718
+      ]
+    }
+  ],
+  "producer_imported": false,
+  "producer_imports_static": [
+    "__future__",
+    "argparse",
+    "datetime",
+    "hashlib",
+    "json",
+    "math",
+    "numpy",
+    "os",
+    "pathlib",
+    "scipy",
+    "scipy.special",
+    "subprocess",
+    "time"
+  ],
+  "rebuilt_pooled_c_h": [
+    0.008370866566933546,
+    0.008371930326550127,
+    0.008376173283426505
+  ],
+  "rebuilt_stream_SE_c_h": [
+    0.00010353891164157603,
+    0.00010329922640009942,
+    0.0001023474232232525
+  ],
+  "elapsed_seconds": 8.67790959996637,
+  "audit_accounting": {
+    "replayed_banks": 8192,
+    "replayed_prior_vectors": 2097152,
+    "replayed_Gaussian_scalars": 536870912,
+    "independently_Price_scored_banks": 512,
+    "independent_Price_entries": 12288,
+    "saved_Price_entries_checked": 196608,
+    "new_independent_scientific_samples": 0,
+    "new_integrals": 0
+  },
+  "limitation": "All prior RNG replayed; direct Price only512 banks. Other modes are checked through all saved arithmetic, not a full independent Price recomputation. Known r reference reused, not a strict integral certificate."
+}

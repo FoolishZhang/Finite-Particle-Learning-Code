@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-07T14:59:38.303818+00:00",
+  "command": [
+    "[author-local path omitted]",
+    "script/direction_validation_audit.py",
+    "--check"
+  ],
+  "passed": true,
+  "exit_code": 0,
+  "stdout": "{\n  \"passed\": true,\n  \"failures\": [],\n  \"checks\": 183113,\n  \"GL_PMF_calls_this_check\": 0,\n  \"stored_GL_PMF_calls\": 48,\n  \"numerical_qualification\": {\n    \"GL_all_qualified\": true,\n    \"GL_qualified_units\": 12,\n    \"producer_qualified_units\": 12,\n    \"numerical_qualification_required_for_execution_pass\": false\n  }\n}\n",
+  "stderr": "",
+  "source_sha256": "2d40b16730337e5d19bb156817f35d7850676e9970ca8b8c91a8329154fcef39",
+  "new_PMF_calls": 0
+}

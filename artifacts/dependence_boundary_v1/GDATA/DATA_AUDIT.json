@@ -1,0 +1,58 @@
+{
+  "time_utc": "2026-09-29T10:28:40.039349+00:00",
+  "status": "pass_frozen_metadata_and_rater_contract",
+  "raw_annotation_rows": 211225,
+  "eligible_comments": 56451,
+  "excluded_comments": 1560,
+  "all_text_hashes_and_connected_groups_match": true,
+  "all_role_hash_assignments_match": true,
+  "analyzed_roles": [
+    {
+      "role": "train",
+      "records": 33395,
+      "groups": 22084
+    },
+    {
+      "role": "association_fit",
+      "records": 5577,
+      "groups": 3777
+    }
+  ],
+  "concepts": [
+    "admiration",
+    "amusement",
+    "anger",
+    "annoyance",
+    "approval",
+    "caring",
+    "confusion",
+    "curiosity",
+    "desire",
+    "disappointment",
+    "disapproval",
+    "disgust",
+    "embarrassment",
+    "excitement",
+    "fear",
+    "gratitude",
+    "grief",
+    "joy",
+    "love",
+    "nervousness",
+    "optimism",
+    "pride",
+    "realization",
+    "relief",
+    "remorse",
+    "sadness",
+    "surprise"
+  ],
+  "labels_shape": "N x 3 x 27",
+  "primary_rater": 0,
+  "sensitivity_raters": [
+    1,
+    2
+  ],
+  "other_role_emotion_values_numerically_parsed_or_retained": false,
+  "old_test_predictions_or_outcomes_read": false
+}
