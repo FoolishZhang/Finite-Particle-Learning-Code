@@ -11,7 +11,7 @@
     "python-flint": "0.8.0",
     "matplotlib": "3.11.2"
   },
-  "final_entry_sha256": "51b7b6afcd86465197dd1e615bc79bd3dfd484fe60545f900db7ce80754d43db",
+  "final_entry_sha256": "c22fb263678163faea9da2917d91ce0b3a7aed77486df0e56492745a64250fac",
   "scientific_modules_byte_identical_to_frozen_source": [
     "script/candidate_v18_risk_range_test.py",
     "script/candidate_v18_risk_range.py",
@@ -118,37 +118,37 @@
     "targets": {
       "teacher": {
         "passed": true,
-        "wall_seconds": 0.093,
+        "wall_seconds": 0.204,
         "output": "teacher/result.json"
       },
       "candidate_probability": {
         "passed": true,
-        "wall_seconds": 0.047,
+        "wall_seconds": 0.046,
         "output": "candidate_probability/result.json"
       },
       "gradient": {
         "passed": true,
-        "wall_seconds": 0.0,
+        "wall_seconds": 0.016,
         "output": "gradient/result.json"
       },
       "hessian": {
         "passed": true,
-        "wall_seconds": 3.61,
+        "wall_seconds": 3.531,
         "output": "hessian/result.json"
       },
       "root_kl_saved": {
         "passed": true,
-        "wall_seconds": 0.203,
+        "wall_seconds": 0.344,
         "output": "root_kl_saved/result.json"
       },
       "angular_pair": {
         "passed": true,
-        "wall_seconds": 0.015,
+        "wall_seconds": 0.031,
         "output": "angular_pair/result.json"
       },
       "angular_audit": {
         "passed": true,
-        "wall_seconds": 0.016,
+        "wall_seconds": 0.0,
         "output": "angular_audit/result.json"
       },
       "r02_active": {
@@ -158,7 +158,7 @@
       },
       "r02_noise": {
         "passed": true,
-        "wall_seconds": 0.0,
+        "wall_seconds": 0.016,
         "output": "r02_noise/result.json"
       },
       "r02_weights": {
@@ -168,37 +168,37 @@
       },
       "r03_teacher": {
         "passed": true,
-        "wall_seconds": 0.032,
+        "wall_seconds": 0.047,
         "output": "r03_teacher/result.json"
       },
       "r03_candidate": {
         "passed": true,
-        "wall_seconds": 0.625,
+        "wall_seconds": 0.719,
         "output": "r03_candidate/result.json"
       },
       "r03_risk": {
         "passed": true,
-        "wall_seconds": 0.093,
+        "wall_seconds": 0.078,
         "output": "r03_risk/result.json"
       },
       "figure1_kernels": {
         "passed": true,
-        "wall_seconds": 0.266,
+        "wall_seconds": 0.344,
         "output": "figure1_kernels/result.json"
       },
       "probability_audit": {
         "passed": true,
-        "wall_seconds": 0.016,
+        "wall_seconds": 0.015,
         "output": "probability_audit/result.json"
       },
       "figure2": {
         "passed": true,
-        "wall_seconds": 0.656,
+        "wall_seconds": 0.641,
         "output": "figure2/result.json"
       }
     },
     "target_count": 16,
-    "total_wall_seconds": 5.843,
+    "total_wall_seconds": 6.204,
     "original_modules_loaded": 26,
     "manufactured_rng_and_quadrature_only": true,
     "original_reference_writes": false,
@@ -217,5 +217,29 @@
     "Historical Figure 1 matched-selection driver needs old training counts and governance bindings.",
     "Full regeneration-to-certificate orchestration is source-readable; only finite producer calls and saved composition were validated.",
     "Optional Torch/autograd checks and non-Windows platforms were not tested."
-  ]
+  ],
+  "root_saved_mode_scope_check": {
+    "passed": true,
+    "command": "python -I -B tools/production_replay.py --mode paper --target root_kl_saved --output-root <fresh-directory>",
+    "wall_seconds": 0.281,
+    "paper_scale_executed": false,
+    "scope": "saved root/KL arithmetic only"
+  },
+  "receipt_scope_note": "Historical arrays were not read; manufactured/fresh output arrays may be read. The root_kl_saved target always reports saved arithmetic, including when selected in paper mode.",
+  "export_integrity": {
+    "all_transformed_markdown_math_spans_identical": true,
+    "independently_compared_math_fragments": 17059,
+    "independently_compared_fenced_code_blocks": 28,
+    "current_paper_reader_inputs_byte_identical": 33,
+    "early_projection_error_and_correction": "release/PRE_RELEASE_CORRECTIONS.md"
+  },
+  "download_tools": {
+    "manufactured_tests_passed": 15,
+    "real_asset_downloads_in_these_fixtures": 0
+  },
+  "optional_paper_source_check": {
+    "official_style_retrieval_and_hash_check": true,
+    "public_source_contract_inspect": true,
+    "full_pdf_rebuild_in_public_export": false
+  }
 }

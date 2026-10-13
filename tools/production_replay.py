@@ -285,9 +285,9 @@ class Runner:
                 path=Path(p).resolve();loaded[path.relative_to(self.source).as_posix()]=hashlib.sha256(path.read_bytes()).hexdigest()
         report=dict(passed=True,mode=self.mode,results=results,python=platform.python_version(),platform=platform.platform(),
                     source_inputs=self.inputs,original_loaded_modules=loaded,total_wall_seconds=round(time.monotonic()-tick,3),
-                    paper_scale_executed=self.mode=='paper',new_science_claims=False,
-                    original_scientific_reference_files_rewritten=False,scientific_arrays_read=False,
-                    scope='bounded manufactured production tests' if self.mode=='small' else 'fresh paper-grid production objects; interpretation and analytic qualifications remain separate')
+                    paper_scale_executed=self.mode=='paper' and any(t!='root_kl_saved' for t in targets),new_science_claims=False,
+                    original_scientific_reference_files_rewritten=False,historical_scientific_arrays_read=False,
+                    scope=('bounded manufactured production tests' if self.mode=='small' else ('saved root/KL arithmetic only' if targets==('root_kl_saved',) else 'fresh paper-grid production objects; interpretation and analytic qualifications remain separate')))
         self.save('RUN.json',report);print(json.dumps(report,indent=2))
 
 

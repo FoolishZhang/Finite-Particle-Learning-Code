@@ -3,12 +3,11 @@
   "assets": [
     {
       "asset_id": "asymptotic_bridge_v1_20261008",
-      "status": "pending-upload",
+      "status": "available",
       "filename": "fpl-data-v1-asymptotic_bridge_v1_20261008.zip",
       "bytes": 737277695,
       "sha256": "f7b7183e6950c1107e6a2a271fbd45574651c15567025109cb84b228b1f69ea1",
-      "download_url": null,
-      "intended_download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-asymptotic_bridge_v1_20261008.zip",
+      "download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-asymptotic_bridge_v1_20261008.zip",
       "license_or_access": "CC-BY-4.0",
       "members": [
         {
@@ -10257,16 +10256,21 @@
           "sha256": "836042eb0f952ebd833fc7e932d04311e03d9a71a5a76e321d4306c5aac37f35"
         }
       ],
-      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised."
+      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised.",
+      "verified_public_download": {
+        "http_status": 200,
+        "bytes_received": 737277695,
+        "sha256": "f7b7183e6950c1107e6a2a271fbd45574651c15567025109cb84b228b1f69ea1",
+        "authorization_header_sent": false
+      }
     },
     {
       "asset_id": "failure_probability_v1_20261006",
-      "status": "pending-upload",
+      "status": "available",
       "filename": "fpl-data-v1-failure_probability_v1_20261006.zip",
       "bytes": 877086004,
       "sha256": "d20acf491660d6646e40319e208b4a6e6d80580c1be0c84562d7a2b5f5358dc8",
-      "download_url": null,
-      "intended_download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-failure_probability_v1_20261006.zip",
+      "download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-failure_probability_v1_20261006.zip",
       "license_or_access": "CC-BY-4.0",
       "members": [
         {
@@ -10290,16 +10294,21 @@
           "sha256": "8a75d4ca8e52f6c8e779d91b9ffa9b87aa68d56bded9a99ab10e7e4b9f19b987"
         }
       ],
-      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised."
+      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised.",
+      "verified_public_download": {
+        "http_status": 200,
+        "bytes_received": 877086004,
+        "sha256": "d20acf491660d6646e40319e208b4a6e6d80580c1be0c84562d7a2b5f5358dc8",
+        "authorization_header_sent": false
+      }
     },
     {
       "asset_id": "finite_selection_v1_20261006",
-      "status": "pending-upload",
+      "status": "available",
       "filename": "fpl-data-v1-finite_selection_v1_20261006.zip",
       "bytes": 162920782,
       "sha256": "6198c738e1a7ce092ed51209a8477becbc3943cd6f4daaca687db7a1ed1e688c",
-      "download_url": null,
-      "intended_download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-finite_selection_v1_20261006.zip",
+      "download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-finite_selection_v1_20261006.zip",
       "license_or_access": "CC-BY-4.0",
       "members": [
         {
@@ -10323,16 +10332,21 @@
           "sha256": "43fb030ac2882da9611d3f87b257863f5665f4e14c109195affde68b41d6c6c6"
         }
       ],
-      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised."
+      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised.",
+      "verified_public_download": {
+        "http_status": 200,
+        "bytes_received": 162920782,
+        "sha256": "6198c738e1a7ce092ed51209a8477becbc3943cd6f4daaca687db7a1ed1e688c",
+        "authorization_header_sent": false
+      }
     },
     {
       "asset_id": "local_geometry_v1_20261006",
-      "status": "pending-upload",
+      "status": "available",
       "filename": "fpl-data-v1-local_geometry_v1_20261006.zip",
       "bytes": 808225717,
       "sha256": "553af7616a304740f749af301e2a13e6afa763c91ac557760c253f96c7c52d68",
-      "download_url": null,
-      "intended_download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-local_geometry_v1_20261006.zip",
+      "download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-local_geometry_v1_20261006.zip",
       "license_or_access": "CC-BY-4.0",
       "members": [
         {
@@ -10341,16 +10355,21 @@
           "sha256": "2252a8131740e4a6323f4fbdf1f30d8eba3df2fe0ec90c67ffbeb9f5aafefdea"
         }
       ],
-      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised."
+      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised.",
+      "verified_public_download": {
+        "http_status": 200,
+        "bytes_received": 808225717,
+        "sha256": "553af7616a304740f749af301e2a13e6afa763c91ac557760c253f96c7c52d68",
+        "authorization_header_sent": false
+      }
     },
     {
       "asset_id": "nuisance_contrast_v1_20261006",
-      "status": "pending-upload",
+      "status": "available",
       "filename": "fpl-data-v1-nuisance_contrast_v1_20261006.zip",
       "bytes": 849601764,
       "sha256": "d6179f736354e013f9a414928bdb5b22d5612f296bae70975cd6a65446d4060d",
-      "download_url": null,
-      "intended_download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-nuisance_contrast_v1_20261006.zip",
+      "download_url": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code/releases/download/data-v1.0.0/fpl-data-v1-nuisance_contrast_v1_20261006.zip",
       "license_or_access": "CC-BY-4.0",
       "members": [
         {
@@ -10369,7 +10388,13 @@
           "sha256": "93d5171a40b7b0dda079dc80756a402195c229c912231ead0f539dd7ed472f0f"
         }
       ],
-      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised."
+      "regeneration": "See REPRODUCING.md and original scientific package modules; bitwise replay across environments is not promised.",
+      "verified_public_download": {
+        "http_status": 200,
+        "bytes_received": 849601764,
+        "sha256": "d6179f736354e013f9a414928bdb5b22d5612f296bae70975cd6a65446d4060d",
+        "authorization_header_sent": false
+      }
     }
   ]
 }

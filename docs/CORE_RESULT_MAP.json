@@ -3142,7 +3142,7 @@
     }
   },
   "thin_entry": "tools/production_replay.py",
-  "entry_sha256": "51b7b6afcd86465197dd1e615bc79bd3dfd484fe60545f900db7ce80754d43db",
+  "entry_sha256": "c22fb263678163faea9da2917d91ce0b3a7aed77486df0e56492745a64250fac",
   "saved_entry": "supplementary/h2_2/check.py",
   "closure_method": "explicit result roots, recursive AST imports and verified scientific source freezes",
   "reproduction_instructions": "REPRODUCING.md",

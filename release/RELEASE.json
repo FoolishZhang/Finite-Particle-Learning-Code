@@ -9,7 +9,7 @@
   "author_display_provisional": true,
   "paper_version": "h2.2",
   "paper_submitted": false,
-  "status": "prepared; data download verification pending",
+  "status": "published source and verified public data assets",
   "independent_public_history": true,
   "license": {
     "original_software": "MIT",
@@ -31,5 +31,9 @@
     "status": "original low-cost snapshot preserved byte-for-byte; no expanded anonymous production snapshot generated",
     "manifest_sha256": "8766828fa556f135fc90d801b909c555f8eb9a352211fc24dca01b18cde2a2a2"
   },
-  "evidence_policy": "Saved scientific endpoints remain references; no full production or training replay is claimed."
+  "evidence_policy": "Saved scientific endpoints remain references; no full production or training replay is claimed.",
+  "data_downloads_verified_anonymously": true,
+  "data_archive_count": 5,
+  "data_archive_bytes": 3435111962,
+  "large_data_uncompressed_bytes": 3585595826
 }
