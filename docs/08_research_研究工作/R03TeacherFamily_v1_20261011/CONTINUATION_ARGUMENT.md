@@ -187,7 +187,7 @@ sigma'<=1/4、|sigma''|<=1/(6 sqrt3)，h 和 h' 都为 N(0,rho^2)。对固定 Z�
 取紧区间 I_j、连续且可微的精确预测中心 c_j(lambda)（如 dyadic 系数多项式）、物理 Euclidean 半径 r_j>0，以及固定非奇异8x8预条件矩阵 C_j。定义移动球
 
 \[
- \mathcal B_j(\lambda)=\{[author-local path omitted]
+ \mathcal B_j(\lambda)=\{a:\|a-c_j(\lambda)\|_2\le r_j\}.
 \]
 
 如果严格区间计算同时给出

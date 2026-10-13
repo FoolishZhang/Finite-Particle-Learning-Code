@@ -7,7 +7,7 @@
 固定维数 d。教师潜变量是零均值、对角为1、协方差为 T 的 Gaussian；给定潜变量后，二元自旋 $Y_i\in\{-1,1\}$ 独立，成功概率为 $\sigma(aX_i)$，a 是发射尺度。候选使用相同的 a，基础协方差属于凸紧类
 
 $$
-\mathcal C=\{[author-local path omitted]
+\mathcal C=\{C:\operatorname{diag}C=\mathbf1,\ \nu I\preceq C\preceq\Lambda I\},
 \qquad T\in\mathcal C,\quad 0<\nu<1<\Lambda.
 $$
 

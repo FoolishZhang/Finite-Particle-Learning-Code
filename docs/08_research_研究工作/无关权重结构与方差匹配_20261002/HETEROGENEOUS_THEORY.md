@@ -242,7 +242,7 @@ $$
 
 $$
 q_n(z-\delta)=\varphi(z)(1+o(1)),\qquad
-1-H_n(z-\delta)=1-\Phi(z) (historical reference not distributed)),
+1-H_n(z-\delta)=[1-\Phi(z)](1+o(1)),
 \tag{H.23}
 $$
 

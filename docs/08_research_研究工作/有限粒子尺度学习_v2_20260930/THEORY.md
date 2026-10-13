@@ -173,7 +173,7 @@ J是log估计器的Jensen gap，不是其方差。它随t变化，所以正确�
 
 \[
 \mathcal C_a=
-\{t\in\mathcal [author-local path omitted]
+\{t\in\mathcal T:\ L_a(t)\le\min_{s\in\mathcal T}U_a(s)\}.
 \]
 
 在所有区间同时覆盖其目标的事件上，C_a包含**全部网格总体最优点**。证明：若t*最小化Delta，则L(t*)≤Delta(t*)；每个U(s)≥Delta(s)≥Delta(t*)，故L(t*)≤min_s U(s)。这不要求对全部465个网格pair再建带。

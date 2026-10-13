@@ -522,7 +522,7 @@ A_{2-c}(-z)=A_c(z),\quad G_{\xi,2-c}(-z)=G_{\xi,c}(z),\\
 \mu_c&=-E\sum_{k=1}^8\pi_kG_{\xi,c}(Z_k)=\mu_{2-c},\qquad
 \nabla f=\sum_{r\in\mathcal C}w_r\mu_r,\\
 \mathcal C&=\{\min(c,2-c):c\in\{0,1,2\}^4\},\quad|\mathcal C|=41,\quad
-w_r=\sum_{[author-local path omitted]
+w_r=\sum_{y:\min(c(y),2-c(y))=r}q_*(y).
 \end{aligned}
 \tag{I.23}
 $$

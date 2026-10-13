@@ -12,7 +12,7 @@
 
 \[
 X_i=\mu_i+s_iZ_i,\qquad Z\sim N(0,C),\qquad
-C\in\mathcal E_\delta=\{[author-local path omitted]<\delta<1,
+C\in\mathcal E_\delta=\{C:\operatorname{diag}C=1,\ C\succeq\delta I\},\quad0<\delta<1,
 \tag{J.1}
 \]
 
@@ -206,7 +206,7 @@ M\sim\operatorname{Binomial}(K,2^{-n}).
 在产品基点固定任意 τ，旧带权式仍给
 
 \[
-H_s^F(C;\tau)=D-1-\chi_{n,K}(\tau) (historical reference not distributed).
+H_s^F(C;\tau)=D-[1-\chi_{n,K}(\tau)](\Gamma\circ C).
 \tag{J.19}
 \]
 

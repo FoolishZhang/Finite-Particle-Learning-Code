@@ -55,7 +55,7 @@ R_G(U)=-g e^{-US}.
 
 \[
 R_H(U)=(H+USgg^T)e^{-US},\quad
-\|R_H(U)\|\le(2m+1/4)+mUS (historical reference not distributed)e^{-US}.
+\|R_H(U)\|\le[(2m+1/4)+mUS](1+M^2)e^{-US}.
 \]
 
 用 $s e^{-s/2}\le2/e$，得到 $C_H=2m+1/4+2m/e$ 乘 $E[(1+M^2)e^{-US/2}]$。梯度可保守用 $\sqrt m$ 乘同一加权量。

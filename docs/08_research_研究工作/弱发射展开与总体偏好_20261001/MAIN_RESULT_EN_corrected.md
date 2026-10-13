@@ -7,7 +7,7 @@ An unbiased likelihood estimate can induce a biased population training objectiv
 Fix the dimension d and a centered Gaussian teacher with unit-diagonal covariance T. Conditional on its Gaussian coordinates, the binary spins $Y_i\in\{-1,1\}$ are independent with success probabilities $\sigma(aX_i)$, where a is the emission scale. Candidates use the same a and a covariance C in a compact convex class
 
 $$
-\mathcal C=\{[author-local path omitted]
+\mathcal C=\{C:\operatorname{diag}C=\mathbf1,\ \nu I\preceq C\preceq\Lambda I\},
 \qquad T\in\mathcal C,\quad 0<\nu<1<\Lambda.
 $$
 
