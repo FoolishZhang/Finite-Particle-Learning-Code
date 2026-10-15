@@ -221,5 +221,10 @@
     "model_integrations": 0,
     "fits": 0
   },
-  "publication_validation": "Remote commit/tag and unauthenticated fetch verification are performed separately after maintainer publication."
+  "publication_validation": "Remote commit/tag and unauthenticated fetch verification are performed separately after maintainer publication.",
+  "network_validation": {
+    "record": "release/V1_1_0_NETWORK.json",
+    "supported_check": "release/V1_1_0_NETWORK_CHECK.json",
+    "h3_payload_unchanged_from_anonymously_fetched_candidate": true
+  }
 }

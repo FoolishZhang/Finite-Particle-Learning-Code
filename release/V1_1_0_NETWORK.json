@@ -1,0 +1,35 @@
+{
+  "schema": "h3_public_network_validation_v1",
+  "version": "1.1.0",
+  "verified_at_utc": "2026-10-15T11:38:56.274681+00:00",
+  "repository": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code",
+  "tested_payload_commit": "fa2b6555942558f31b52be18e9af7bdb9d984484",
+  "passed": true,
+  "method": "Fresh HTTPS Git sparse clone with credential helpers and extra headers cleared, global/system config ignored, token/askpass environment entries removed and prompts disabled; all h3 files materialized and hashed.",
+  "credential_values_exposed": false,
+  "materialized_scope": [
+    "root metadata",
+    "h3",
+    "release"
+  ],
+  "h3_manifest_sha256": "6fa3ee75e9a902c46e7cddfc0e4b69ff3d4d9aec5d06b6a73731444e737ee9eb",
+  "h3_manifest_members_verified": 150,
+  "h3_files_including_manifest": 151,
+  "supported_check": {
+    "command": "python -I -B h3/tools/check.py --mode all --output <new external JSON>",
+    "result": "release/V1_1_0_NETWORK_CHECK.json",
+    "result_sha256": "5b181fbfa41c0965730e86efade05ec571f63ded5caedb8a7422af577f5e8dc8",
+    "passed": true,
+    "original_saved_comparisons_recomputed": 8,
+    "imported_modules": 26,
+    "new_scientific_random_samples": 0,
+    "new_model_integrations": 0,
+    "new_fits": 0
+  },
+  "binding": "The fetched candidate commit and this final release have exactly the same h3 manifest and payload bytes. Only root publication metadata and this retrieval record are finalized afterwards.",
+  "limits": [
+    "Sparse checkout does not download or rerun historical h2.2 arrays, full particle banks, model integrations or fits.",
+    "Existing isolated dependency environment used; no new package installation claimed.",
+    "No formal anonymous-review compliance is claimed; these are named public research materials."
+  ]
+}

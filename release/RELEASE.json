@@ -9,7 +9,7 @@
   "author_display_provisional": true,
   "paper_version": "h3.2.1 scientific materials",
   "paper_submitted": false,
-  "status": "versioned_source_candidate",
+  "status": "versioned_source_release",
   "independent_public_history": true,
   "license": {
     "original_software": "MIT",
@@ -58,5 +58,11 @@
     "data_archive_bytes": 3435111962,
     "large_data_uncompressed_bytes": 3585595826
   },
-  "h3_network_access_validation": "not yet performed; publication and unauthenticated retrieval are recorded separately by the maintainer"
+  "h3_network_access_validation": {
+    "passed": true,
+    "record": "release/V1_1_0_NETWORK.json",
+    "verified_payload_commit": "fa2b6555942558f31b52be18e9af7bdb9d984484",
+    "h3_manifest_sha256": "6fa3ee75e9a902c46e7cddfc0e4b69ff3d4d9aec5d06b6a73731444e737ee9eb",
+    "scope": "all h3 material files and supported saved-value/import checks, without repository credentials"
+  }
 }

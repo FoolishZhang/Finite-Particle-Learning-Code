@@ -4,7 +4,7 @@
 
 The [h3 material entry](h3/README.md) supports **Importance Proposals Can Reverse Model Rankings and Induce Local Correlation Shrinkage**. It publishes the fixed-K scientific implementations, proof sources, 96 observed validation datasets, saved fitted outputs and risks, all numerical diagnostics, paired proposal-score differences, and figure sources. This is a named research release, not an anonymous submission or an acceptance claim.
 
-Start with [h3/README.md](h3/README.md) for standalone saved-value checks and exact reproduction levels. The supported commands verify stored arithmetic, import the original kernels, and redraw the three figures; they do not rerun model integration or fitting. No large data download is required for those h3 checks. [v1.1.0 validation](release/V1_1_0_VALIDATION.json) records actual work and limitations.
+Start with [h3/README.md](h3/README.md) for standalone saved-value checks and exact reproduction levels. The supported commands verify stored arithmetic, import the original kernels, and redraw the three figures; they do not rerun model integration or fitting. No large data download is required for those h3 checks. [v1.1.0 validation](release/V1_1_0_VALIDATION.json) records actual work and limitations. [Unauthenticated retrieval](release/V1_1_0_NETWORK.json) verifies the unchanged h3 payload and supported checks from a fresh credential-free clone.
 
 The v1.1.0 update is additive. The v1.0.0 source tag, data-v1.0.0 assets and original h2.2 supplementary files are retained without replacement. h3's public material does not relabel the earlier anonymous package as reproducing h3.
 
