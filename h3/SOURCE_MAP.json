@@ -1,0 +1,1536 @@
+{
+  "schema": "h3_public_projection_v1",
+  "files": [
+    {
+      "target": "h3/code/j1/remainder_finite_reversal.py",
+      "source": "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/source/script/remainder_finite_reversal.py",
+      "source_sha256": "100dc21f7336cbaeb10720e8d25931e7c9f07281e83428c44d5a4492fe2060e1",
+      "public_sha256": "100dc21f7336cbaeb10720e8d25931e7c9f07281e83428c44d5a4492fe2060e1",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/j1/signal_proposal_core.py",
+      "source": "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/source/script/signal_proposal_core.py",
+      "source_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "public_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/j1/selection_finite_core.py",
+      "source": "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/source/script/selection_finite_core.py",
+      "source_sha256": "5200fb35e00ebf76088cb799e2b119b207cb79aeddcb7161bc8a0547ac6372d7",
+      "public_sha256": "5200fb35e00ebf76088cb799e2b119b207cb79aeddcb7161bc8a0547ac6372d7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/j1/competition_core.py",
+      "source": "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/source/script/competition_core.py",
+      "source_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "public_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/gaussian_limit/selection_limit_core.py",
+      "source": "artifacts/selection_limit_v1_20261014/h3_attempt1/source/script/selection_limit_core.py",
+      "source_sha256": "b24e0197812fb19e05071283f33ca783fc9f1beb7df0c4bc5cee1761da423863",
+      "public_sha256": "b24e0197812fb19e05071283f33ca783fc9f1beb7df0c4bc5cee1761da423863",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/gaussian_limit/signal_proposal_core.py",
+      "source": "artifacts/selection_limit_v1_20261014/h3_attempt1/source/script/signal_proposal_core.py",
+      "source_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "public_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/local_shrinkage_risk_algebra_test.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/local_shrinkage_risk_algebra_test.py",
+      "source_sha256": "93c616d777f86a50308172bd35fa457e9764dd69f99e77c72c6446b296ce94fc",
+      "public_sha256": "93c616d777f86a50308172bd35fa457e9764dd69f99e77c72c6446b296ce94fc",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/group_posterior_quadratic.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/group_posterior_quadratic.py",
+      "source_sha256": "d0e11986630c036ad47c78bdcab256cf3e58620aa064c8de0b4e479c176beee6",
+      "public_sha256": "d0e11986630c036ad47c78bdcab256cf3e58620aa064c8de0b4e479c176beee6",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/group_posterior_objective.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/group_posterior_objective.py",
+      "source_sha256": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+      "public_sha256": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/shrinkage_learning_analysis.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/shrinkage_learning_analysis.py",
+      "source_sha256": "63ec74eb8b621b4e9e67e4650ca44df9b4f4f52b778a42f4a9d6ad6c13050566",
+      "public_sha256": "63ec74eb8b621b4e9e67e4650ca44df9b4f4f52b778a42f4a9d6ad6c13050566",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/shrinkage_learning_run.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/shrinkage_learning_run.py",
+      "source_sha256": "4b89d64e55387dd046b05a04682048287c4371413a972b99ff9b01b113088ad1",
+      "public_sha256": "4b89d64e55387dd046b05a04682048287c4371413a972b99ff9b01b113088ad1",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/group_posterior_target.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/group_posterior_target.py",
+      "source_sha256": "13f7087de80a3afb1a3f7f9e6e06584581e42fbfed87e24fadaa32df642f4295",
+      "public_sha256": "13f7087de80a3afb1a3f7f9e6e06584581e42fbfed87e24fadaa32df642f4295",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/group_posterior_common.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/group_posterior_common.py",
+      "source_sha256": "efc52237980ed4670f4e5591ec02d0a3ace5075242ac64957de453b3a5a01a35",
+      "public_sha256": "efc52237980ed4670f4e5591ec02d0a3ace5075242ac64957de453b3a5a01a35",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/group_posterior_marginal.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/group_posterior_marginal.py",
+      "source_sha256": "54aad35ecb9dbd1776c6b7d66241476bc1c8d604a10b899831d34ce799897a52",
+      "public_sha256": "54aad35ecb9dbd1776c6b7d66241476bc1c8d604a10b899831d34ce799897a52",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/active_reference_likelihood.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/active_reference_likelihood.py",
+      "source_sha256": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+      "public_sha256": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/informative_projection.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/informative_projection.py",
+      "source_sha256": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+      "public_sha256": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/signal_proposal_core.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/signal_proposal_core.py",
+      "source_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "public_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/active_reference_run.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/active_reference_run.py",
+      "source_sha256": "0e8d2442dc50238454faad0151f73d808509c0d233352d6bf816d6016ee2b9e7",
+      "public_sha256": "0e8d2442dc50238454faad0151f73d808509c0d233352d6bf816d6016ee2b9e7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/selection_finite_core.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/selection_finite_core.py",
+      "source_sha256": "5200fb35e00ebf76088cb799e2b119b207cb79aeddcb7161bc8a0547ac6372d7",
+      "public_sha256": "5200fb35e00ebf76088cb799e2b119b207cb79aeddcb7161bc8a0547ac6372d7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/competition_core.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/competition_core.py",
+      "source_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "public_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/active_reference_sgd.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/active_reference_sgd.py",
+      "source_sha256": "66cfdbb2fdb4cf480ec39dfc8e2041ff94a03b3c8eafef8474d42d677b5c9317",
+      "public_sha256": "66cfdbb2fdb4cf480ec39dfc8e2041ff94a03b3c8eafef8474d42d677b5c9317",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/teacher_endpoint_training.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/teacher_endpoint_training.py",
+      "source_sha256": "0915fd46f38a96542759af839b6262a997e37913e34072a750cbb0dfcdf400f7",
+      "public_sha256": "0915fd46f38a96542759af839b6262a997e37913e34072a750cbb0dfcdf400f7",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/teacher_endpoint_core.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/teacher_endpoint_core.py",
+      "source_sha256": "b005d95c34ad81c8a99ad6338f6b32221e65876d76d69b29fe6fc8bc677487b1",
+      "public_sha256": "b005d95c34ad81c8a99ad6338f6b32221e65876d76d69b29fe6fc8bc677487b1",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/active_reference_optimize.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/active_reference_optimize.py",
+      "source_sha256": "60e16b526c4cc802266708862a1bfee219be73b600fbf89f80ee81634e9c0849",
+      "public_sha256": "60e16b526c4cc802266708862a1bfee219be73b600fbf89f80ee81634e9c0849",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/active_reference_finite.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/active_reference_finite.py",
+      "source_sha256": "318eb3b9f20ffe40d42333e0643cfe20b266050a08fa6378d6f1942c8bbd83bd",
+      "public_sha256": "318eb3b9f20ffe40d42333e0643cfe20b266050a08fa6378d6f1942c8bbd83bd",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/local_risk/shrinkage_learning_common.py",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/SEALED_SOURCE/script/shrinkage_learning_common.py",
+      "source_sha256": "0fa4afcfa873427dca9fdd4d6c22defd12697583a8578a39c2a805b2a8fe4c06",
+      "public_sha256": "0fa4afcfa873427dca9fdd4d6c22defd12697583a8578a39c2a805b2a8fe4c06",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/CODE_STATUS.json",
+      "sources": [],
+      "public_sha256": "b6553df5638d2360ed009abdf979bf04d2fc64f5cf64c49110d6e3956058463e",
+      "transform": "public execution-scope description; not an original production receipt"
+    },
+    {
+      "target": "h3/data/local_risk/PRIMARY_CASE_VALUES.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/analysis_v1/PRIMARY_CASE_VALUES.csv",
+      "source_sha256": "8f4c41c591d3d3230e68fa8711bc2c92382f2b3d59e2a57bbcf0b37bda6f13f1",
+      "public_sha256": "8f4c41c591d3d3230e68fa8711bc2c92382f2b3d59e2a57bbcf0b37bda6f13f1",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/data/local_risk/CASE_METHOD_RISKS.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/analysis_v1/CASE_METHOD_RISKS.csv",
+      "source_sha256": "a2e42e02e7100c32debe1a2585f660be3044bb9d0140faf4e0689ef6591a3fef",
+      "public_sha256": "a2e42e02e7100c32debe1a2585f660be3044bb9d0140faf4e0689ef6591a3fef",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/data/local_risk/FIT_DIAGNOSTICS.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/analysis_v1/FIT_DIAGNOSTICS.csv",
+      "source_sha256": "f380a305e8cb1add54d998de68875e43c7569fc926811a704a82ec591b145705",
+      "public_sha256": "f380a305e8cb1add54d998de68875e43c7569fc926811a704a82ec591b145705",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/data/local_risk/RISK_PRECISION.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/analysis_v1/RISK_PRECISION.csv",
+      "source_sha256": "8d05638785977244824375385de4bcd32ed6515ab2e1fae3c7fc412f12893c04",
+      "public_sha256": "8d05638785977244824375385de4bcd32ed6515ab2e1fae3c7fc412f12893c04",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/data/local_risk/PLOT_POINTS.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/analysis_v1/PLOT_POINTS.csv",
+      "source_sha256": "1fb29349b66dc60bb04ba426b7882649297f438350ba7c4f18d04e9c851c3288",
+      "public_sha256": "1fb29349b66dc60bb04ba426b7882649297f438350ba7c4f18d04e9c851c3288",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/data/local_risk/SUMMARY.json",
+      "sources": [
+        "artifacts/local_shrinkage_v1_20261015/analysis_v1/SUMMARY.json"
+      ],
+      "public_sha256": "6cd3898ff69eae7f89e3373fb1d97be4b3e3c4f653182260f22d03efb49b6222",
+      "transform": "explicit field projection; all selected numerical leaves unchanged"
+    },
+    {
+      "target": "h3/data/local_risk/SCIENTIFIC_CONFIG.json",
+      "sources": [
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/CONTRACT.json"
+      ],
+      "public_sha256": "96cbd2219aec87d782fba3aa6c493795275d20850d3b0a14dc0830541279ff40",
+      "transform": "scientific fields only; omitted runtime, internal source-map/feedback identity and management schema; not accepted by original runner freeze"
+    },
+    {
+      "target": "h3/data/observations/case_00000.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00000/VISIBLE_DATA.npz",
+      "source_sha256": "7912ccbb616b9a0d7fc93db406688b92cc3716337046c3383ed9d7ba66839149",
+      "public_sha256": "3d657950d40bbb318a06addcfea2f6642ca12517783f733603a640bcaeb3d4a6",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00001.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00001/VISIBLE_DATA.npz",
+      "source_sha256": "bbf83bb7e6a5a1b0a759980626262ba3bfeec8f428efbe6f0017d674b241e016",
+      "public_sha256": "fbf2ec59e30016f1f810dbbf0ba3fbef70bcfbeddce5d8d99f07535815b01919",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00002.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00002/VISIBLE_DATA.npz",
+      "source_sha256": "0885fc04fa93ad60a2d1f91a2989194a9442b9eabcb2fba2015dbbaba942e2d5",
+      "public_sha256": "8c355252fa157fc65d73050fb24de0be39d072c1b632cdefb5ec737377e94a64",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00003.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00003/VISIBLE_DATA.npz",
+      "source_sha256": "671116c8feea21dd0e752cf834fcfa605acbe0e0b370abf74d133962f0c6422e",
+      "public_sha256": "ed91aa0a18f25b0448410915037694f023a57425c7c0d48c97d48f58ea563578",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00004.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00004/VISIBLE_DATA.npz",
+      "source_sha256": "68d48af24645dd76010ed8c5bdd57f2db4d6e15a8b369b90c63f446ac5785ea5",
+      "public_sha256": "d9840d6e31abbd920ca2fdb6b35535dd8164a4bcea3ebfc036a3a4ddf28e6a71",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00005.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00005/VISIBLE_DATA.npz",
+      "source_sha256": "20dbe984f18285a390c3f6b1656c8cea78a40d0f0278c44eddd522283467babb",
+      "public_sha256": "4a5d98a0f0c80375de0729d1269d9c8e2b254e937f9acf7c6df4bdcc8e4e4845",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00006.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00006/VISIBLE_DATA.npz",
+      "source_sha256": "3bae07d43edecb751d8f3b8765d5a31eeadd0097ba5851c8a0beeaf31bfd0491",
+      "public_sha256": "ba970a8362659cb5a1e8f721ab8105621f898896324b9a8269cde6f55a33f74f",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00007.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00007/VISIBLE_DATA.npz",
+      "source_sha256": "6beb4303c4e4acf4ffa2e25562a28c51fc5f63e66cfddb01e39733d978ea3d8e",
+      "public_sha256": "6f253d13abfdf4df3d5ab60d509a8064b766501c1bdfefe379088cc6adffbf7d",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00008.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00008/VISIBLE_DATA.npz",
+      "source_sha256": "3c2c9f103dec64543471eaf88caf7bc3b8979f06b60b1cb77b4a0643ed6f5436",
+      "public_sha256": "068f580b56efd3728f403a5a9f0ee5e9a43bff887922e550e2f3f24f1cdd0a22",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00009.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00009/VISIBLE_DATA.npz",
+      "source_sha256": "97e2ec8b1d780e419164c03bfdccecc3ab1e9fce0bfd1cd1fb08ae1a4263dfc1",
+      "public_sha256": "a840d8957c362a77f7e01a71b241b539be2e673b9344be4280de57145a8eecce",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00010.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00010/VISIBLE_DATA.npz",
+      "source_sha256": "650f1ade7634cd3bff0a637f4dc863794e2b09c10db44d1709b94e7333b5cff2",
+      "public_sha256": "6c59c610c1c642b515997605895aee4521a70658789eba6650067ca4ffa1c1b5",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00011.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00011/VISIBLE_DATA.npz",
+      "source_sha256": "6e09052c70a5216a232b53433ec66fe0fa81be3bb324440e0a988974e34a4466",
+      "public_sha256": "5736328a1b06cc71e25053797c004713294fe2d3930e58ce3abb33877d570522",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00012.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00012/VISIBLE_DATA.npz",
+      "source_sha256": "41bff71bed655032ec400fc6596edaae96a506afdbb83132f9f545c090dd5114",
+      "public_sha256": "16a0c946b9ce24f31e53543347ff2a490536a7290a9fbcf0ecfc1cbcc2db1f17",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00013.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00013/VISIBLE_DATA.npz",
+      "source_sha256": "38c7d84722cc61259403ddccfb664db2af15ae2f8fa6ba7bf7ded55df221047e",
+      "public_sha256": "b0bf085021e4176622b16022b040479cbea5a7cd3ab52b0cb19c11a85f0834af",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00014.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00014/VISIBLE_DATA.npz",
+      "source_sha256": "20e58aea7d7971abc9c74b7babd46325c65a385842d71eb84393eb1b3217d906",
+      "public_sha256": "e1631095e9490778993a05168f5d0cc3af628333369996d3e316e575c18b0056",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00015.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00015/VISIBLE_DATA.npz",
+      "source_sha256": "5210135e4acb9abe5c37c2901365cd53e366d627e75be51756b4ca840d202da2",
+      "public_sha256": "d75d38069007eba0bda9a30d37c8dafed9621b8b96f631d1e80c1ea217856698",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00016.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00016/VISIBLE_DATA.npz",
+      "source_sha256": "28cc72ab4c4eb4148714b633d5ea04addfa8fb9d6475b45d09b8143f3a2006cc",
+      "public_sha256": "688bece8b7bc2eb4a5e78556643a409e229be849d9400e98aabd704ea4d779dd",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00017.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00017/VISIBLE_DATA.npz",
+      "source_sha256": "d8fa0f8a7f4b0bfbcc9166b8d5e4bdd9c6da7dc22ca31ca3df47af84a9db8174",
+      "public_sha256": "754c4849f7df7808c974935fc60cf786593b019bc5dcae22ca6359477295ed96",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00018.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00018/VISIBLE_DATA.npz",
+      "source_sha256": "0871b5c13ba1743773ed6094fdff22275596fd6d224afa76c238ca4d6c313566",
+      "public_sha256": "714652b7ffdf9f72f63efe25dbed52da82b760700dd7b9013e31edfc7c86674e",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00019.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00019/VISIBLE_DATA.npz",
+      "source_sha256": "d11b21fed6eb095c4a5124b398c33a4c7b334251a27f8d782f4396ac39c83ccf",
+      "public_sha256": "7a53e49fb8c2b99737b4534d7ad656a0d6a47f4c913ae37011104bfeea4a5eb9",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00020.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00020/VISIBLE_DATA.npz",
+      "source_sha256": "56f8fdffea5779e96a34a29a6b6ac96ad39b8d98e361f1c68216c5f3e94e38e8",
+      "public_sha256": "d6419a5b313e80dbfe0ce74971e32a82b90289efde7f63bd36a193c1ea702d28",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00021.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00021/VISIBLE_DATA.npz",
+      "source_sha256": "e226579d2e74e81cf238dfa05bc58f7e8efe81d6bdae42f5a2bc932abdf6d94a",
+      "public_sha256": "9259dcdf99ca5637a6f0ea94632e7e082b153d36ecc1cf98fd38a8e35866f034",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00022.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00022/VISIBLE_DATA.npz",
+      "source_sha256": "7c2e95a72069a4bd46124ff66f4005b302c41fe161218e966564d4a990809bfd",
+      "public_sha256": "bee424a9a0f41d4ac84938f01bd6883c1d5ffbdc16914fa73068a1134f39d1c3",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_00023.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00023/VISIBLE_DATA.npz",
+      "source_sha256": "01dc6715798df4cc8d943fc2f42e3640fa1dbf2d1dd8623e2831fcdb7bc5f137",
+      "public_sha256": "af6626225d9d18e0aaa3243376d5f5821745673f2939cea60d3c4b7e66778dbd",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01000.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01000/VISIBLE_DATA.npz",
+      "source_sha256": "dffdfac38433889520aa9a13e0bfcb04f9400ad68ac5545ef4f654a550e8f03c",
+      "public_sha256": "325dd3db6b93e83dbd77c7668c79caba53d474df06f849bfb9a509eb997aeb63",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01001.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01001/VISIBLE_DATA.npz",
+      "source_sha256": "c6adc2a1d1bceeccccf4fc83d392d8e210391dc1876bad6e9b3d5d64a9438fc1",
+      "public_sha256": "ea26cc8e2d4d097d74f01e655483798c6a1797cafc0235a273af41016edc96a5",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01002.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01002/VISIBLE_DATA.npz",
+      "source_sha256": "5d1564164226f091024df7985f2d18d51ab9a1b22ef63066fdbdc0eb1db01783",
+      "public_sha256": "1567d8e523e333c3646c5ce870131929a7ce2876ee6c2188f79ffebd4f34c989",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01003.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01003/VISIBLE_DATA.npz",
+      "source_sha256": "ba8d2cb5a23aaf964e9312bcc4885c33c5ae466622e9cfa49894adc64f2c7139",
+      "public_sha256": "abb822f4b2e4bdc61cd8a65ec8522f03805561df0710ef9de1cfa3c70b3a3116",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01004.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01004/VISIBLE_DATA.npz",
+      "source_sha256": "71e1bb70debf4c5ecf6a7b65f5ed1d63cbfed4481cf781c6c7d9cd552fffec30",
+      "public_sha256": "ea5b7abec0d7b4df17a2474fcbbb4720dae8b703923915d057f59a760bc32c18",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01005.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01005/VISIBLE_DATA.npz",
+      "source_sha256": "6d40bce62e6f8360a3df92c0fba1b1d1aa79afdec464e3bab037470d2a0c1cf3",
+      "public_sha256": "51286ff77731d263dc171bfae7a3f588c23fb36a9016b822d08f3662ac83d09f",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01006.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01006/VISIBLE_DATA.npz",
+      "source_sha256": "db5d26c01df1da058bca1a68d88edc165cc7616a4590f5a99db15d4f77746dbd",
+      "public_sha256": "9cf506679a4817a646c5648560a3805212ef23cc42afc678d90f86c770d32bcd",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01007.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01007/VISIBLE_DATA.npz",
+      "source_sha256": "5c9fdc6e48859e988f3d8cce49f112dffad54f6098e810dab5334a96143824bb",
+      "public_sha256": "38c2edd0e0fd51f7782a5bc36153926f865a1f3782243e363118ecdfa3aa39dd",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01008.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01008/VISIBLE_DATA.npz",
+      "source_sha256": "3a53c387c8ef34ae20d9f8bcfcc77d21439b696f6d1fbb103059c68c1c4125e8",
+      "public_sha256": "6f055b75bfba61806bca1ce10c604c65f8a3fc39ed1283e1ee9cf3dc85f63080",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01009.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01009/VISIBLE_DATA.npz",
+      "source_sha256": "2078c3d0a50d6ad8a7f3895f694860989cb5801bc92d5df1d9b29bbb7cc851d9",
+      "public_sha256": "720b4b10981fd8d49267dd520ca1415125b6a5369d423a0961aa5313f13874a4",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01010.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01010/VISIBLE_DATA.npz",
+      "source_sha256": "e22c3f349fee2901bb89a69b7f86ed33ccfa0fa48908349bc658d9c4dbd0c0ae",
+      "public_sha256": "f1ff80ef04a65e42e1bfbe6f1f5b183183cc461ae1ae8ba2bdcea2cf3e84383c",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01011.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01011/VISIBLE_DATA.npz",
+      "source_sha256": "2645e73105058c34123edcde3cd8e9ebfaa67cd2e24eaa91dba018a0f8335fce",
+      "public_sha256": "b28242b1dbdcda270714008590f1becc05882294fac43764f0b2f7e9b723f807",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01012.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01012/VISIBLE_DATA.npz",
+      "source_sha256": "526ea7ee89353f93cf1ce5bf3612f4b8a7ab4efb7380d5b1506cb6570d272809",
+      "public_sha256": "caff38a7f654e5cfcda784fe304b1372cbccd0144cabaab182325bf65137996b",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01013.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01013/VISIBLE_DATA.npz",
+      "source_sha256": "0b8b55257ca60fcfbde0b317d2e89d39f5dec62722d24face881a347df65b703",
+      "public_sha256": "c89712da984201dd8c8d0869ac50b7c9e6981c648aad8f38ea35b0504cbc4c39",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01014.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01014/VISIBLE_DATA.npz",
+      "source_sha256": "7f433e9df80e3a7040923a11db7e9683be41fb2c07a7a995fd2bf80e27745b91",
+      "public_sha256": "4ac2d42e934fb967e6f93f350ce1fe2c24d023e336a792719c5c8c17cb7dea42",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01015.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01015/VISIBLE_DATA.npz",
+      "source_sha256": "4adb66c3390f6c75b69a51b0c6a9365415cd2b5769584aaf2e06d709adac36de",
+      "public_sha256": "8bf8ed548b62aa83d7b945e44dc4eebbe2b8a22983c3cf000f671a2b530a8997",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01016.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01016/VISIBLE_DATA.npz",
+      "source_sha256": "56dd042e4bdb4ba40459ae165acd6e7a4e726c9ea7a67c2761529b41be0185aa",
+      "public_sha256": "070f43976a10726a4f788da22ba92ca908c04002b9b180fabce30e9950d1f808",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01017.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01017/VISIBLE_DATA.npz",
+      "source_sha256": "6f0c5c11926de8fbfc5fe615674de23e98f069bf2d25c3ba762220fefdd49699",
+      "public_sha256": "e1989dece1a6ca6ea624da21f38d11df3ff09ae75d2fb34a2a2ed96e3da8e1e1",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01018.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01018/VISIBLE_DATA.npz",
+      "source_sha256": "e8016909e4567b9b62acacd9f9197962e2af6b32c72b5f499f54777b73276795",
+      "public_sha256": "d96e252cfc3ec64dbe952c01846480973956f97e17cbb2776ede83bf068ba562",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01019.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01019/VISIBLE_DATA.npz",
+      "source_sha256": "39eb50ab915c46f60425aea40de2baa1625ef2f522e59e43632ddac12b5680e3",
+      "public_sha256": "80f79b95522725a92807d817f1a681a55fbacce7562c7df88e7811ed9e9c3678",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01020.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01020/VISIBLE_DATA.npz",
+      "source_sha256": "6f39bbf99035b242a7c3620accd181ef813edfc4d7abdc90daa6d8700df436e6",
+      "public_sha256": "0e746488e35f7e135e308457fc0e9e89c529daefe8fd83a7d7d3706db71d9517",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01021.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01021/VISIBLE_DATA.npz",
+      "source_sha256": "d7663f146ce4a369d1c364c34090fb7efe69f050f37ca2de8cbbbdb37d287467",
+      "public_sha256": "a8107fc08949df2837b3c386b08acfe3c9330d0dc515c4df74bacdfde2afbf2b",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01022.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01022/VISIBLE_DATA.npz",
+      "source_sha256": "73020445e72292c3b019f4aa4a21374b044baf76a7f4ecea892893271b7cf86f",
+      "public_sha256": "99cc0923fafb52743dd914ac1c98770a89b6d679036560bb3d1db26d7dfa5c6c",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_01023.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01023/VISIBLE_DATA.npz",
+      "source_sha256": "a7e88d43bf61659197ba4855eb510d67d82bf540630da59cba541e2d2533624f",
+      "public_sha256": "e78ce9d7f81b162e42dc1f311e25670b984470791ad54a7817d406e24bdc3d8f",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02000.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02000/VISIBLE_DATA.npz",
+      "source_sha256": "d8d95d243b237a7522f00ca2a0097ba0ef97eba7abcaf16c9e517ed576897bfd",
+      "public_sha256": "a0b53a01e9a1d7c1c5af94b7921d8b7647f12fc459c07c4499adc030e3573b85",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02001.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02001/VISIBLE_DATA.npz",
+      "source_sha256": "d193d8ec581495a92efdbd3f2ff79d84c6577dd7143134430c38e3b8ae78602b",
+      "public_sha256": "e64d232e06e30c0623e477937a0225d401522bc132de025c65631ef28ab76970",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02002.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02002/VISIBLE_DATA.npz",
+      "source_sha256": "714b0c2dda215b3053a1886cb3b3bf689311f4f3baac6682703b3d94d65ca645",
+      "public_sha256": "1a0a17b676f9505b623c6937612623cde4c6f8f6e96e00d882890024e03bf58c",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02003.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02003/VISIBLE_DATA.npz",
+      "source_sha256": "7fb51f341160b7a96b2696a1072814a6e2a1099ff100c250c5fdae0ea5f32b06",
+      "public_sha256": "b087e115c7b396375e928dc130463e3a0199d0ebebc791cf7c5869bc9dd0b53c",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02004.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02004/VISIBLE_DATA.npz",
+      "source_sha256": "8792f7d70f04251468290e378f9d1d334c661bb2f5d3b1872bc932061a60ac28",
+      "public_sha256": "32db205bee99e5324cd802f4e90c94bcabdc9b0de4752bad5117f7212c36f6fc",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02005.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02005/VISIBLE_DATA.npz",
+      "source_sha256": "5d31beb20ccd37834634fe7c4e3ba63c4a5b7b053754895c6bf8a084c75e9bb0",
+      "public_sha256": "43faa4b051a20e900817708f1380dbc84af5635e35d861d6df209a36a0a5aaf1",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02006.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02006/VISIBLE_DATA.npz",
+      "source_sha256": "054a7fb697819ea509772134354f732407dc22b86a6bd3038c96a4a1781e2e76",
+      "public_sha256": "fe2c5a10a8a3e776e142bed933ecbb5fdf3aae56eb1c1058d3b5ada9f1bd2571",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02007.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02007/VISIBLE_DATA.npz",
+      "source_sha256": "5b9063d632062483ced7a717fdffad0f92c4513f9223d2a15cbf612b181887ab",
+      "public_sha256": "a29df00c4bda0fc6f640a1f657c796d6a4fe6fed41900318bde984f6d1a1f8f2",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02008.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02008/VISIBLE_DATA.npz",
+      "source_sha256": "137a758e92212882459b8855cb55e5195d3d31bfbbc22d9542418fcd460622fa",
+      "public_sha256": "91c02a5213364475c39a7c7d25700881712603b20c887fe270350e4b97da780f",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02009.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02009/VISIBLE_DATA.npz",
+      "source_sha256": "ae47d732e60415047bbeb89bcc884e00f31aba4f6c8c60f0e161172461fdf60a",
+      "public_sha256": "865fa16bb96ea658c07b3a8fda6547847a5bd5d53c844447e08722c590e658ec",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02010.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02010/VISIBLE_DATA.npz",
+      "source_sha256": "ac7f459778f16878102d31e9d42c312e94464d4a2c5179217d2d5a661d278781",
+      "public_sha256": "063e134ea3f450f7b7afb062267badd0c39decb563b48818724e905f7a8a4b9a",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02011.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02011/VISIBLE_DATA.npz",
+      "source_sha256": "91123c5fedd1ced73ae9f680755914cbb475650ef0fe52f192daaf8024fddd07",
+      "public_sha256": "38c96344e6471e6c2e3922b1f0bdba41d4a138e0c59f28a6928bd99f4852057c",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02012.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02012/VISIBLE_DATA.npz",
+      "source_sha256": "b7258a550fe15ef4618ae1de6ad66ec460dd73a313cb61200bb8004850c6d3e1",
+      "public_sha256": "c70aa5d20064a033e9d2dfe9038b832c9399c316c6c81dbaf043b688e5cb15de",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02013.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02013/VISIBLE_DATA.npz",
+      "source_sha256": "2050c1f15ac8f4d594486d19a987d166afda0f9bf0e685c9728a63a774ee1f03",
+      "public_sha256": "dbd944a9d1a2a171dacd0543541086e62be68cd5c9fff791c4bfcb9b83d33294",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02014.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02014/VISIBLE_DATA.npz",
+      "source_sha256": "ef0910ee48966c03045a1f7e4e1bf2df4a8d094417ef02260ed7dfc0b805c3c1",
+      "public_sha256": "d18eaa311f276e17ae767925412e1ab5bebdccbe646859e17e9322ad7a9a1e84",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02015.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02015/VISIBLE_DATA.npz",
+      "source_sha256": "bc22b33c8862d6c0074dab29373651b08adbe0b3e6207501bb3923dfa780cd91",
+      "public_sha256": "1929b4ca476b341ebba20591a8fd7855efe96d3f2627d5897463ac06bac8e752",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02016.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02016/VISIBLE_DATA.npz",
+      "source_sha256": "a12ade326fa173b4292adaf7811ac361edffd2627d639a239f2fb96f2a8db610",
+      "public_sha256": "aeec875dc917665f0c9772ebd50da8cfc6c58e113325cc45804f7dbf8d532e77",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02017.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02017/VISIBLE_DATA.npz",
+      "source_sha256": "67b1c5dea14ec0c36d252f1d4d80bc152be9732347f8e4b10fcc3462dd86e791",
+      "public_sha256": "832226410d94bb7f8e034709d438b7533bf4ed6222cce8defa3f855618cf34b7",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02018.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02018/VISIBLE_DATA.npz",
+      "source_sha256": "ded4d8b774b2b39cc5cd342279d7701c96ffa55d85504756c154ec96b9f71498",
+      "public_sha256": "3cd779ea2a70519c7de94b235f8bf87848ac33aaa71ac6d20decd0e930cd0042",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02019.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02019/VISIBLE_DATA.npz",
+      "source_sha256": "a51a60fa946d25d36c7187d515c6e22929012d487c4bd8b18ea10aae203d48e0",
+      "public_sha256": "505d068728325cc9d8cea7131551c1f85e99df24179a028325c2856a0be01b05",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02020.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02020/VISIBLE_DATA.npz",
+      "source_sha256": "fa407b646020d22d2312cc2fce737f90be2cd40ef4f017b0052a1f174935b75d",
+      "public_sha256": "2e5c8d51a7a10239bbf4f39ceb43dfd7be7396cd5efd4f3908b9f2dbf1c6df16",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02021.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02021/VISIBLE_DATA.npz",
+      "source_sha256": "42a54b760e084a95666ba7f5d928ac2b8b976ab1c29e1562c779b8a2b823c3f8",
+      "public_sha256": "53f1f532c8fd4c15d5b8e46b20f5761e37f45432141eb9ad39ef79c1ac194c23",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02022.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02022/VISIBLE_DATA.npz",
+      "source_sha256": "a432c516ebe8234ad82e4b62b9b2f92c8c32f04fabfe5352f91a1b207beea32b",
+      "public_sha256": "54bd34aeac29a66fde8741ac9bc20682ac90c5b6cb8b2944245363544b05bec8",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_02023.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02023/VISIBLE_DATA.npz",
+      "source_sha256": "fdc3a87a0e6fdb11f9f9bf37b777842f037e1cfebac7e0038d3da6e8211270c6",
+      "public_sha256": "953a13247c02198a106bfc26aa874d9558d5a8a840aa9bec0b63886d7cff6a52",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03000.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03000/VISIBLE_DATA.npz",
+      "source_sha256": "2cb368ed0dd158340fb71c2e4dcbd8770610e326b7d0e61f701f14c9d923794d",
+      "public_sha256": "c5e3a1de0f6d8117304767e974e18e0393bbe5fd08e8d83278d59ad02e87e0fc",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03001.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03001/VISIBLE_DATA.npz",
+      "source_sha256": "7ac1b1b3a7763d7cf8a4c26844bfee9c78623be0bd76c24899ab84d8bf93be2d",
+      "public_sha256": "949abe915132a3011548fd189f979a33a4746de7e9f70a6b0c2c110bd015bef8",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03002.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03002/VISIBLE_DATA.npz",
+      "source_sha256": "e49896933937e37d266a6cf4004a8b8539cb0d0d2bf8d33eacb5d05782b79faf",
+      "public_sha256": "04fa8f30417b01608715e2f9cbab5337c07e9af689301d8a3cec3ce92f6cc009",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03003.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03003/VISIBLE_DATA.npz",
+      "source_sha256": "25eeedfbb2c4360805a132741c58cdd9c9cb03a7800641f449e13ea3571de52d",
+      "public_sha256": "446df69275ec330b6a4920fba7030f729bcf2a03565c8c4e29e49a2d93afd886",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03004.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03004/VISIBLE_DATA.npz",
+      "source_sha256": "70d5fa0be9cba2b14a4292b5f69f1720045c1306affef0528cfec53c631b7f11",
+      "public_sha256": "2921fb898d66353ee40d8330fa1c0a2068db9ac8b922ff7da79c743186ffd5ed",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03005.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03005/VISIBLE_DATA.npz",
+      "source_sha256": "6db73eeff1f5a2499a469d98d64b48dda2bb211a056cc11430e2c2008180dc46",
+      "public_sha256": "d6ee1b758fa7dbae40287144ae908bf4bd05113a6354816d86ca67dc59723825",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03006.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03006/VISIBLE_DATA.npz",
+      "source_sha256": "43833ffd80b01c9f21119deb35b9560c3a0a6f84d4296d8cbdf76dc22688452e",
+      "public_sha256": "961dde3df87eb3c49da1d3f3c97c833ddd95a8218d37aa8747f413ee508317c3",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03007.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03007/VISIBLE_DATA.npz",
+      "source_sha256": "f9d12a8726e0da706b11ea2ef1b629e662b09d2c227ad9b03698fd52c999b462",
+      "public_sha256": "dd74402b8c0eccffcc3071938ebce734af4e0ec65e2fbcdd557d59c3208103cb",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03008.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03008/VISIBLE_DATA.npz",
+      "source_sha256": "937fb737c8084be9f074d3b2bae4e13eff1cc9d865c9a96080051c9e65fee060",
+      "public_sha256": "354e4aad0dfdd2bed29284ec4684843317a6a901cbec759b22f72f5ff05118c4",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03009.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03009/VISIBLE_DATA.npz",
+      "source_sha256": "52935053231e5f8e3ebf96bef5488f6eb1f8edb1fdb596a6dc3e9aad5d007496",
+      "public_sha256": "6d497f7557fe0a8e2e1e926b4817d5e15d626dd5ea2fb194e4f8bbebdb83956e",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03010.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03010/VISIBLE_DATA.npz",
+      "source_sha256": "f0e110275bf935395f694922e80fe2c48723cbd5b25b1036cae9a1a2c906f023",
+      "public_sha256": "5a3adea4cf624c1db252fda042b53b5353aca2d6bc065c538591e13d99dc0414",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03011.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03011/VISIBLE_DATA.npz",
+      "source_sha256": "1c2169c8f9e95514b0f909711b5387e00583028a301dbb307a139cd557b33a79",
+      "public_sha256": "9a85a5f1b51bc35a2a160872825f82f1537286e8acc30e017eca71e4866b08b6",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03012.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03012/VISIBLE_DATA.npz",
+      "source_sha256": "964ec1a709da70138932130e5e3b67b40294e0026470b1cc046da30a70b2c24e",
+      "public_sha256": "286083665d8798ef45fcbccc345b958178b1343987dbbb2cb09950c2cbe9c785",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03013.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03013/VISIBLE_DATA.npz",
+      "source_sha256": "c11d0921ff5b1fb13a8b7ace496da21358409d953427dc3d514163f77cd18286",
+      "public_sha256": "0879884119d5b9f40e22799089aac866c62839d991030a510ab021d06a812925",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03014.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03014/VISIBLE_DATA.npz",
+      "source_sha256": "bf802b1063a83e8dcc1d4139c2c2a1f4a05462bf82ffae9a58761980a50ce1d0",
+      "public_sha256": "59255c009f8ddd4297ec1662cb5da32a90d2f74da8abb88ea45618333023aa11",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03015.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03015/VISIBLE_DATA.npz",
+      "source_sha256": "764fe33819ba10ac01b85b13718f016f1fb72d7cc32eb835970b7961440904e3",
+      "public_sha256": "c9af8e264a26dfc60bfde037cf6251d9e5919bb059f8072770e55f7b38d5f52f",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03016.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03016/VISIBLE_DATA.npz",
+      "source_sha256": "fd354e88d672c3974d48a2424832e399098f4116e41227ca9b7810cceb81ace7",
+      "public_sha256": "5d2d8a37bb30abf0325b8625191d47474ef3f6fe4c95bebfa3b9256b8cc7820b",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03017.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03017/VISIBLE_DATA.npz",
+      "source_sha256": "87785f5065384db41f2e2183406fc2fc43994349e677606068bd1aa026816b0c",
+      "public_sha256": "65064cf76230652f33a2714f4d209bd26f7e1409dba77d8f88583b2c38bc0f5f",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03018.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03018/VISIBLE_DATA.npz",
+      "source_sha256": "c516b84842000d8f0e63352de1724d78b1184cf137a669c72d449211406ed7e8",
+      "public_sha256": "73f6fcf11d91e99fc5a6d75eefa3bb84384645d7bbb3e5dc89585d9a8415b829",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03019.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03019/VISIBLE_DATA.npz",
+      "source_sha256": "ecbeea85d50e8a42803ad74e4e319e558fdb25af447d087de6b1e24517daf60b",
+      "public_sha256": "eac2aad6c913b5950b510cb7b3512eb9cf901d32675bce8f665fbe5223f4c2b8",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03020.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03020/VISIBLE_DATA.npz",
+      "source_sha256": "df6b1c6e8ae6dfd096c17008c837c7dd0a7539ca7bbc3481ea2eedeee2a839d6",
+      "public_sha256": "1443e5faf54fa895f48b8709bc57dcca2389c415d533630ef2415c13710f3201",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03021.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03021/VISIBLE_DATA.npz",
+      "source_sha256": "f39891e22f7f73193905cd08312af7a6fff7eb850ce8690c511ab7779f832ae0",
+      "public_sha256": "37b35673ffde15dfa476c1b29f9f044d21484321de3e7a0ef4aeed6a5eae45e8",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03022.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03022/VISIBLE_DATA.npz",
+      "source_sha256": "3e270c7ae3d91a47ddafbe24d1441420c1c0f6871b944d74ee155e0de368b6fb",
+      "public_sha256": "4966484b69d13313c7e23f350ae71ffa0f2beb9a5fac4fb31871823900f05735",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/observations/case_03023.csv",
+      "source": "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03023/VISIBLE_DATA.npz",
+      "source_sha256": "308786a9ea3968d80923249f2a647048c211e4970cedfa9c254ac5c609030c3f",
+      "public_sha256": "ed60f66c8a79203e75d0f43692fce9b8e1f48a40ff8c679e0d421b4187d9c8a6",
+      "transform": "lossless selected arrays counts and observed_labels to six integer CSV columns; exact roundtrip verified"
+    },
+    {
+      "target": "h3/data/OBSERVATION_INDEX.json",
+      "sources": [],
+      "public_sha256": "73645cc209dbf1384491a6adc616a6c10ffb12884caadc6e9c7a6f76ecd6cb12",
+      "transform": "index of the 96 lossless observation exports"
+    },
+    {
+      "target": "h3/data/local_risk/FIT_OUTPUTS.json",
+      "sources": [
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00000/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00001/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00002/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00003/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00004/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00005/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00006/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00007/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00008/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00009/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00010/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00011/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00012/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00013/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00014/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00015/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00016/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00017/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00018/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00019/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00020/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00021/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00022/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_00023/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01000/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01001/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01002/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01003/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01004/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01005/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01006/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01007/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01008/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01009/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01010/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01011/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01012/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01013/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01014/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01015/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01016/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01017/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01018/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01019/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01020/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01021/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01022/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_01023/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02000/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02001/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02002/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02003/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02004/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02005/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02006/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02007/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02008/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02009/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02010/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02011/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02012/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02013/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02014/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02015/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02016/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02017/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02018/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02019/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02020/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02021/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02022/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_02023/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03000/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03001/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03002/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03003/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03004/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03005/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03006/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03007/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03008/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03009/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03010/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03011/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03012/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03013/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03014/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03015/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03016/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03017/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03018/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03019/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03020/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03021/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03022/FIT_COMPLETE.json",
+        "artifacts/local_shrinkage_v1_20261015/validation_attempt1/case_03023/FIT_COMPLETE.json"
+      ],
+      "public_sha256": "6338c2f6e71c462baf235711906bf50e8ee0b56e611dc7b9b6ed748033989a10",
+      "transform": "saved six outputs per case; selected scientific fields, no budget/stream metadata"
+    },
+    {
+      "target": "h3/data/j1/BANK_DIFFERENCES.csv",
+      "sources": [
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0000/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0000/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0000/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0001/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0001/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0001/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0002/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0002/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0002/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0003/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0003/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0003/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0004/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0004/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0004/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0005/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0005/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0005/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0006/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0006/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0006/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0007/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0007/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0007/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0008/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0008/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0008/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0009/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0009/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0009/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0010/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0010/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0010/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0011/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0011/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0011/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0012/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0012/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0012/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0013/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0013/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0013/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0014/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0014/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0014/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0015/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0015/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0015/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0016/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0016/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0016/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0017/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0017/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0017/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0018/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0018/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0018/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0019/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0019/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0019/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0020/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0020/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0020/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0021/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0021/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0021/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0022/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0022/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0022/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0023/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0023/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0023/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0024/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0024/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0024/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0025/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0025/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0025/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0026/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0026/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0026/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0027/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0027/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0027/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0028/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0028/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0028/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0029/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0029/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0029/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0030/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0030/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0030/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0031/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0031/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0031/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0032/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0032/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0032/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0033/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0033/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0033/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0034/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0034/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0034/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0035/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0035/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0035/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0036/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0036/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0036/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0037/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0037/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0037/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0038/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0038/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0038/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0039/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0039/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0039/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0040/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0040/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0040/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0041/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0041/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0041/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0042/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0042/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0042/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0043/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0043/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0043/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0044/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0044/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0044/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0045/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0045/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0045/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0046/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0046/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0046/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0047/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0047/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0047/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0048/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0048/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0048/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0049/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0049/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0049/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0050/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0050/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0050/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0051/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0051/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0051/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0052/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0052/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0052/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0053/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0053/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0053/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0054/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0054/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0054/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0055/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0055/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0055/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0056/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0056/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0056/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0057/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0057/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0057/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0058/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0058/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0058/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0059/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0059/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0059/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0060/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0060/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0060/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0061/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0061/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0061/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0062/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0062/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0062/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0063/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0063/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M32/block0063/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0000/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0000/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0000/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0001/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0001/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0001/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0002/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0002/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0002/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0003/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0003/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0003/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0004/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0004/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0004/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0005/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0005/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0005/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0006/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0006/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0006/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0007/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0007/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0007/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0008/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0008/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0008/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0009/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0009/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0009/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0010/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0010/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0010/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0011/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0011/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0011/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0012/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0012/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0012/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0013/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0013/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0013/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0014/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0014/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0014/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0015/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0015/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0015/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0016/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0016/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0016/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0017/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0017/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0017/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0018/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0018/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0018/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0019/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0019/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0019/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0020/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0020/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0020/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0021/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0021/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0021/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0022/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0022/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0022/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0023/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0023/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0023/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0024/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0024/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0024/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0025/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0025/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0025/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0026/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0026/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0026/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0027/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0027/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0027/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0028/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0028/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0028/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0029/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0029/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0029/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0030/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0030/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0030/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0031/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0031/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0031/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0032/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0032/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0032/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0033/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0033/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0033/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0034/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0034/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0034/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0035/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0035/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0035/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0036/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0036/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0036/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0037/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0037/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0037/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0038/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0038/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0038/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0039/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0039/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0039/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0040/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0040/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0040/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0041/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0041/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0041/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0042/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0042/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0042/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0043/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0043/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0043/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0044/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0044/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0044/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0045/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0045/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0045/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0046/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0046/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0046/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0047/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0047/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0047/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0048/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0048/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0048/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0049/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0049/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0049/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0050/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0050/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0050/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0051/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0051/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0051/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0052/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0052/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0052/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0053/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0053/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0053/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0054/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0054/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0054/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0055/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0055/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0055/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0056/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0056/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0056/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0057/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0057/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0057/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0058/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0058/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0058/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0059/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0059/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0059/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0060/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0060/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0060/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0061/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0061/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0061/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0062/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0062/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0062/PAIRED_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0063/beta1_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0063/critical_SCORES.npz",
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/M128/block0063/PAIRED_SCORES.npz"
+      ],
+      "public_sha256": "27c60cb6edf5e02d0597631999f9cd3212d918d98ee02e8f8a80addf39aa093d",
+      "transform": "ordered concatenation of saved score fields; repr(float64) CSV with exact roundtrip; no new model evaluations"
+    },
+    {
+      "target": "h3/data/j1/SUMMARY.json",
+      "sources": [
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/RESULTS.json"
+      ],
+      "public_sha256": "2e881817293d47ab1a56c989642afee5020d6caaf1046038ec02d0159bc6cd13",
+      "transform": "explicit scientific-summary projection, numerical leaves retained"
+    },
+    {
+      "target": "h3/data/j1/OLD_RISK_SCALE.json",
+      "sources": [
+        "artifacts/gaussian_remainder_v1_20261014/j1_attempt1/OLD_RISK_BINDING.json"
+      ],
+      "public_sha256": "76a393fb17fd3f39288a11c16e19cb5d156daa257be1e2a83cc0a17d09f8d72d",
+      "transform": "retain scientific risk values/qualification; omit unavailable source path navigation"
+    },
+    {
+      "target": "h3/data/j1/DESIGN_LINEAGE.json",
+      "source": "artifacts/humanlike_h3_2_20261015/figure_revision/render_002/DESIGN_LINEAGE.json",
+      "source_sha256": "32ebbbd27778cc6d00174418555d8c64016805bd6aa99fef600ebecaebf73e4e",
+      "public_sha256": "32ebbbd27778cc6d00174418555d8c64016805bd6aa99fef600ebecaebf73e4e",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/code/figures/h32_figures_source.py",
+      "source": "artifacts/humanlike_h3_2_20261015/figure_revision/render_002/h32_figures_source.py",
+      "source_sha256": "b7fec5f40a535a8181df04a8d81ed76eeb36e4e6c60663bd2a1e38baf788a445",
+      "public_sha256": "b7fec5f40a535a8181df04a8d81ed76eeb36e4e6c60663bd2a1e38baf788a445",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/figures/proposal_reversal.png",
+      "source": "artifacts/humanlike_h3_2_20261015/figure_revision/render_002/proposal_reversal.png",
+      "source_sha256": "e982f17419603e5aca8da6b57e6c43aa96e52cf885c1605e7cec677f5cecb6f5",
+      "public_sha256": "e982f17419603e5aca8da6b57e6c43aa96e52cf885c1605e7cec677f5cecb6f5",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/figures/local_risk.png",
+      "source": "artifacts/humanlike_h3_2_20261015/figure_revision/render_002/local_risk.png",
+      "source_sha256": "083f4f952218aed95e4b34226c4f24a72d7b75ec906b1cbc77f22f92458c4093",
+      "public_sha256": "083f4f952218aed95e4b34226c4f24a72d7b75ec906b1cbc77f22f92458c4093",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/figures/local_risk_n256.png",
+      "source": "artifacts/humanlike_h3_2_20261015/figure_revision/render_002/local_risk_n256.png",
+      "source_sha256": "34007b392480957c03d1c3e80389f078ff97dfa5baa835dcb36c275c3160c566",
+      "public_sha256": "34007b392480957c03d1c3e80389f078ff97dfa5baa835dcb36c275c3160c566",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/theory/APPENDIX_PROPOSAL_EN.md",
+      "source": "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h3_2_20261015/APPENDIX_PROPOSAL_EN.md",
+      "source_sha256": "85990539457992e9667a39480264fc456157444a8754bb5d2afb4731dd7a93dd",
+      "public_sha256": "85990539457992e9667a39480264fc456157444a8754bb5d2afb4731dd7a93dd",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/theory/APPENDIX_GROUP_EN.md",
+      "source": "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h3_2_20261015/APPENDIX_GROUP_EN.md",
+      "source_sha256": "b42034bea1d1f17b183793ebef463528a36728a9d5c2493520b5e2db9970d5cb",
+      "public_sha256": "b42034bea1d1f17b183793ebef463528a36728a9d5c2493520b5e2db9970d5cb",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/theory/APPENDIX_RISK_EN.md",
+      "source": "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h3_2_20261015/APPENDIX_RISK_EN.md",
+      "source_sha256": "aee69b8fab408a37794f74fa71660121149fb3d73e3b07af0079c68971ada7d5",
+      "public_sha256": "aee69b8fab408a37794f74fa71660121149fb3d73e3b07af0079c68971ada7d5",
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "target": "h3/README.md",
+      "source": "release/h3_v1_1_0/public/h3/README.md",
+      "source_sha256": "79d73fe8f23bfdcc8f4784237854540c1cc792a9c77a627525aa10b16b1ef5d2",
+      "public_sha256": "79d73fe8f23bfdcc8f4784237854540c1cc792a9c77a627525aa10b16b1ef5d2",
+      "transform": "new public interface/document authored for v1.1.0; separate from original modules"
+    },
+    {
+      "target": "h3/requirements.txt",
+      "source": "release/h3_v1_1_0/public/h3/requirements.txt",
+      "source_sha256": "abc8de0ed82453c91d9156ad5bbab992fb3bae44a279c4f1771b2ec20e58d568",
+      "public_sha256": "abc8de0ed82453c91d9156ad5bbab992fb3bae44a279c4f1771b2ec20e58d568",
+      "transform": "new public interface/document authored for v1.1.0; separate from original modules"
+    },
+    {
+      "target": "h3/theory/README.md",
+      "source": "release/h3_v1_1_0/public/h3/theory/README.md",
+      "source_sha256": "5af13a99a7eda21a41d1d222cd893d7c52cd79eed0f29425451185e4830a2fdb",
+      "public_sha256": "5af13a99a7eda21a41d1d222cd893d7c52cd79eed0f29425451185e4830a2fdb",
+      "transform": "new public interface/document authored for v1.1.0; separate from original modules"
+    },
+    {
+      "target": "h3/tools/check.py",
+      "source": "release/h3_v1_1_0/public/h3/tools/check.py",
+      "source_sha256": "d40267ebf645962c94f00cddc6d775a6bd649ba1fb97287fd6bd3afe37f5d33d",
+      "public_sha256": "d40267ebf645962c94f00cddc6d775a6bd649ba1fb97287fd6bd3afe37f5d33d",
+      "transform": "new public interface/document authored for v1.1.0; separate from original modules"
+    },
+    {
+      "target": "h3/tools/plot.py",
+      "source": "release/h3_v1_1_0/public/h3/tools/plot.py",
+      "source_sha256": "5e4b4fa951468b95310ec6a5dfca4dfd195ee84ac910b57b0de92e3f5eed40bb",
+      "public_sha256": "5e4b4fa951468b95310ec6a5dfca4dfd195ee84ac910b57b0de92e3f5eed40bb",
+      "transform": "new public interface/document authored for v1.1.0; separate from original modules"
+    },
+    {
+      "target": "h3/theory/ALL_PROOFS.md",
+      "sources": [
+        "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h3_2_20261015/APPENDIX_PROPOSAL_EN.md",
+        "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h3_2_20261015/APPENDIX_GROUP_EN.md",
+        "docs/07_papers_论文工作/ParticleJointSupervision/humanlike_h3_2_20261015/APPENDIX_RISK_EN.md"
+      ],
+      "public_sha256": "caa3934073c74fa0b875858a2e96ce13edbea7091d6db4632111b5e0598e5b88",
+      "transform": "concatenate A/B/C in order; replace Pandoc heading attributes by explicit HTML anchors for GitHub navigation; scientific prose and displayed math unchanged"
+    }
+  ],
+  "source_reference_commit": "6666d497c6b9bb7009d4a8c713e1df25ae5803b9",
+  "scope": "Selected original scientific sources and lossless saved-value projections; historical private workflow documents and large particle banks are not published.",
+  "reference_commit_role": "scientific source reference; newly authored public interfaces are separately identified by hashes and need not exist at that commit"
+}

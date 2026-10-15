@@ -1,0 +1,225 @@
+{
+  "schema": "public_h3_validation_v1",
+  "version": "1.1.0",
+  "date": "2026-10-15",
+  "tested_platform": "Windows",
+  "python": "3.11.15",
+  "environment_scope": "existing dedicated isolated Python3.11 environment, -I -B; no new dependency environment claimed",
+  "commands": [
+    {
+      "command": "python -I -B h3/tools/check.py --mode all --output <new external JSON>",
+      "passed": true
+    },
+    {
+      "command": "python -I -B h3/tools/plot.py --output-dir <new external directory>",
+      "figures": 3,
+      "archived_png_bytes_identical": true
+    },
+    {
+      "command": "python -I -B h3/code/local_risk/local_shrinkage_risk_algebra_test.py --output-dir <new external directory>",
+      "passed": true,
+      "exact_Fraction_checks": 92
+    }
+  ],
+  "lossless_export": {
+    "observed_datasets": 96,
+    "observation_rows": 153600,
+    "fitted_outputs": 576,
+    "J1_paired_replicates": 32768,
+    "J1_individual_proposal_differences": 65536,
+    "source_arrays_roundtrip_exact": true,
+    "original_sources_hashed_against_saved_manifests_before_read": true
+  },
+  "saved_arithmetic": {
+    "j1_comparisons": [
+      {
+        "M": 32,
+        "proposal": "beta1",
+        "n": 16384,
+        "mean": 0.005779742318074147,
+        "SE": 7.483406255790636e-05,
+        "interval": [
+          0.0055928288703507465,
+          0.005966655765797547
+        ]
+      },
+      {
+        "M": 32,
+        "proposal": "critical",
+        "n": 16384,
+        "mean": -0.003097068582726297,
+        "SE": 0.00011177019783127371,
+        "interval": [
+          -0.0033762376177256235,
+          -0.0028178995477269706
+        ]
+      },
+      {
+        "M": 128,
+        "proposal": "beta1",
+        "n": 16384,
+        "mean": 0.005904553240657623,
+        "SE": 7.669733253729341e-05,
+        "interval": [
+          0.005712985893306399,
+          0.006096120588008847
+        ]
+      },
+      {
+        "M": 128,
+        "proposal": "critical",
+        "n": 16384,
+        "mean": -0.003556909245138532,
+        "SE": 0.00010156799114534204,
+        "interval": [
+          -0.0038105961726473203,
+          -0.0033032223176297434
+        ]
+      }
+    ],
+    "local_comparisons": [
+      {
+        "comparison": "weak_group_minus_I",
+        "n": 24,
+        "mean": 0.16967279431983634,
+        "SE": 0.03416201435133869,
+        "interval": [
+          0.07710328643960782,
+          0.26224230220006484
+        ]
+      },
+      {
+        "comparison": "mid_group_minus_integrated",
+        "n": 24,
+        "mean": -1.1732746974543935,
+        "SE": 0.18614222147051646,
+        "interval": [
+          -1.6776680760194074,
+          -0.6688813188893795
+        ]
+      },
+      {
+        "comparison": "mid_group_minus_I",
+        "n": 24,
+        "mean": -0.2936787411651793,
+        "SE": 0.08184306657719347,
+        "interval": [
+          -0.5154505699145777,
+          -0.07190691241578079
+        ]
+      },
+      {
+        "comparison": "strong_group_minus_integrated",
+        "n": 24,
+        "mean": 1.4578119681436577,
+        "SE": 0.18111036481233558,
+        "interval": [
+          0.9670535143164294,
+          1.948570421970886
+        ]
+      }
+    ],
+    "group_diagnostic_pass_counts": {
+      "weak_N2048": 48,
+      "mid_N2048": 44,
+      "strong_N2048": 12,
+      "mid_N256": 6
+    },
+    "risk_records": 864,
+    "observations": 153600,
+    "observation_cases": 96,
+    "fit_outputs": 576,
+    "scope": "Recomputed stored-value arithmetic, not risk integrals, sampling coverage, exact stationarity or fits."
+  },
+  "import_checks": {
+    "sets": [
+      {
+        "namespace": "j1",
+        "modules": [
+          "competition_core",
+          "remainder_finite_reversal",
+          "selection_finite_core",
+          "signal_proposal_core"
+        ],
+        "imported": 4
+      },
+      {
+        "namespace": "gaussian_limit",
+        "modules": [
+          "selection_limit_core",
+          "signal_proposal_core"
+        ],
+        "imported": 2
+      },
+      {
+        "namespace": "local_risk",
+        "modules": [
+          "active_reference_finite",
+          "active_reference_likelihood",
+          "active_reference_optimize",
+          "active_reference_run",
+          "active_reference_sgd",
+          "competition_core",
+          "group_posterior_common",
+          "group_posterior_marginal",
+          "group_posterior_objective",
+          "group_posterior_quadratic",
+          "group_posterior_target",
+          "informative_projection",
+          "local_shrinkage_risk_algebra_test",
+          "selection_finite_core",
+          "shrinkage_learning_analysis",
+          "shrinkage_learning_common",
+          "shrinkage_learning_run",
+          "signal_proposal_core",
+          "teacher_endpoint_core",
+          "teacher_endpoint_training"
+        ],
+        "imported": 20
+      }
+    ],
+    "scope": "Import-only; no original run/freeze/fit or model-integration function called."
+  },
+  "figure_render": {
+    "schema": "h3_public_plot_v1",
+    "original_figure_source_sha256": "b7fec5f40a535a8181df04a8d81ed76eeb36e4e6c60663bd2a1e38baf788a445",
+    "figures": {
+      "proposal_reversal.png": {
+        "sha256": "e982f17419603e5aca8da6b57e6c43aa96e52cf885c1605e7cec677f5cecb6f5",
+        "matches_archived_png_bytes": true
+      },
+      "local_risk.png": {
+        "sha256": "083f4f952218aed95e4b34226c4f24a72d7b75ec906b1cbc77f22f92458c4093",
+        "matches_archived_png_bytes": true
+      },
+      "local_risk_n256.png": {
+        "sha256": "34007b392480957c03d1c3e80389f078ff97dfa5baa835dcb36c275c3160c566",
+        "matches_archived_png_bytes": true
+      }
+    },
+    "permitted_arithmetic": "Saved means/SE/CI endpoints and existing local-risk formula on a display grid.",
+    "new_random_samples": 0,
+    "new_integrations": 0,
+    "new_fits": 0,
+    "new_sample_statistics_or_intervals": 0,
+    "pixel_identity_is_platform_dependent": true
+  },
+  "identity_check_initial_stage": {
+    "files_checked": 149
+  },
+  "identity_stage_scope": "149 files checked before the combined-proof reading page and release metadata were added; final file inventories identify the complete candidate.",
+  "not_executed": [
+    "new scientific random sampling",
+    "new model integration or risk evaluation",
+    "new model fitting",
+    "full original particle-bank/PMF/optimization replay",
+    "new statistical hypotheses or passer-subset analyses"
+  ],
+  "scientific_execution_counts": {
+    "new_observations": 0,
+    "new_particle_banks": 0,
+    "model_integrations": 0,
+    "fits": 0
+  },
+  "publication_validation": "Remote commit/tag and unauthenticated fetch verification are performed separately after maintainer publication."
+}

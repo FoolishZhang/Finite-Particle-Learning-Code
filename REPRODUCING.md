@@ -1,4 +1,13 @@
-# Core production and verification levels
+# Reproduction entrypoints
+
+For the current proposal/conditional-posterior/local-risk evidence, use [h3/README.md](h3/README.md):
+
+    python -I -B h3/tools/check.py --mode all --output ../h3-check-001.json
+    python -I -B h3/tools/plot.py --output-dir ../h3-figures-001
+
+These consume the compact data committed in h3. They do not require the historical large data assets or execute scientific fits. Full scientific replay is explicitly outside the supported h3 commands.
+
+# Historical h2.2 production and verification levels
 
 The original scientific modules are provided under `script/` with their original
 paths and bytes. `tools/production_replay.py` is a thin caller of their functions;

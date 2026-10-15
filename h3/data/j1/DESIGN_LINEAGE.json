@@ -1,0 +1,40 @@
+{
+  "gamma": 7.241913488981693,
+  "design_t": 16.0,
+  "v1": 0.30507970494299236,
+  "formula": "gamma=sqrt(t/v1); arithmetic correspondence only, no new parameter selection",
+  "H1_pre_data_grid": {
+    "t": [
+      0,
+      1,
+      4,
+      16,
+      64
+    ],
+    "eta_multiplier": [
+      0,
+      1,
+      4
+    ],
+    "teachers": [
+      "independent",
+      "interior"
+    ],
+    "candidates": [
+      "equal",
+      "asymmetric"
+    ]
+  },
+  "choice_timing": "H1 was development. After viewing H1 results, PLAN_H2_H3 recorded a selection rule and froze H2/H3 before their first random draws. Do not call this rule preregistered before H1.",
+  "recorded_selection": "For independent teacher, equal(.45) candidate and natural coupled noise eta0, choose the smallest t in {1,4,16,64} with development controlled mean+3SE<0; selected t=16.",
+  "J1_timing": "Later GaussianRemainder J1 fixed the earlier gamma before new paired two-proposal observations at M32/M128. Both proposal results in Figure 1 use those new J1 observations.",
+  "not_claimed": [
+    "constant supplied quantitatively by the existence theorem",
+    "selection before any development outcomes",
+    "newly selected from plotted J1 results",
+    "finite-M beta changes only a variance",
+    "risk reference newly sampled for J1"
+  ],
+  "caption_suggestion_en": "The tempering level was chosen in a separate development study and fixed before this paired comparison.",
+  "caption_suggestion_zh": "温度水平由另一开发研究选定，并在本次配对比较前固定。"
+}

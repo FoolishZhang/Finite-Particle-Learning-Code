@@ -1,15 +1,15 @@
 {
   "schema": "finite_particle_learning_public_release_v1",
-  "version": "1.0.0",
-  "source_tag": "v1.0.0",
+  "version": "1.1.0",
+  "source_tag": "v1.1.0",
   "data_tag": "data-v1.0.0",
-  "date": "2026-10-13",
+  "date": "2026-10-15",
   "repository": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code",
   "author_display": "ZHANG",
   "author_display_provisional": true,
-  "paper_version": "h2.2",
+  "paper_version": "h3.2.1 scientific materials",
   "paper_submitted": false,
-  "status": "published source and verified public data assets",
+  "status": "versioned_source_candidate",
   "independent_public_history": true,
   "license": {
     "original_software": "MIT",
@@ -17,23 +17,46 @@
     "third_party": "see THIRD_PARTY_NOTICES.md"
   },
   "verification_levels": {
-    "saved_arithmetic": "passed in clean export and new isolated environment",
-    "small_production": "16 targets passed through original functions",
-    "paper_scale_production": "not run for this release",
-    "historical_training": "source-only with stated dependencies"
-  },
-  "paper_sha256": {
-    "en": "fe8556e9b03037975b808d76ea7eda3fc6d48b3e7e5818d0fb4d693dbb974c24",
-    "zh": "23455ed4c3b7ec7d0c7dbcd5f42a6a45c102432d762c2f941ad53c8d5c706135"
+    "h3_lossless_saved_export": "passed",
+    "h3_saved_value_arithmetic": "passed for original J1/local-risk comparisons and declared outputs",
+    "h3_imports": "26 modules imported in3 isolated source namespaces",
+    "h3_figure_redraw": "three PNG byte matches on tested environment",
+    "h3_exact_rational_checks": "92 passed",
+    "h3_full_production_or_fitting": "not run, not a supported replay command"
   },
   "anonymous_snapshot": {
     "path": "supplementary/h2_2",
     "status": "original low-cost snapshot preserved byte-for-byte; no expanded anonymous production snapshot generated",
     "manifest_sha256": "8766828fa556f135fc90d801b909c555f8eb9a352211fc24dca01b18cde2a2a2"
   },
-  "evidence_policy": "Saved scientific endpoints remain references; no full production or training replay is claimed.",
-  "data_downloads_verified_anonymously": true,
-  "data_archive_count": 5,
-  "data_archive_bytes": 3435111962,
-  "large_data_uncompressed_bytes": 3585595826
+  "evidence_policy": "Original sources/saved outputs are references. New data are lossless projections of already-saved values; no new experiments. Full production/optimization replay is not claimed.",
+  "paper_pdf_added_in_this_update": false,
+  "new_material_entry": "h3/README.md",
+  "new_material_manifest": "h3/MANIFEST.json",
+  "validation": "release/V1_1_0_VALIDATION.json",
+  "historical_v1_0_0_verification": {
+    "saved_arithmetic": "passed in clean export and new isolated environment",
+    "small_production": "16 targets passed through original functions",
+    "paper_scale_production": "not run for this release",
+    "historical_training": "source-only with stated dependencies"
+  },
+  "historical_paper": {
+    "version": "h2.2",
+    "sha256": {
+      "en": "fe8556e9b03037975b808d76ea7eda3fc6d48b3e7e5818d0fb4d693dbb974c24",
+      "zh": "23455ed4c3b7ec7d0c7dbcd5f42a6a45c102432d762c2f941ad53c8d5c706135"
+    }
+  },
+  "large_data_assets_scope": "unchanged historical data-v1.0.0 assets; h3 compact observations and scores are committed files",
+  "historical_data_assets": {
+    "tag": "data-v1.0.0",
+    "scientific_scope": "historical h2.2 evidence only",
+    "verification_date": "2026-10-13",
+    "verification_scope": "downloads were tested without credentials for the first release; not repeated for v1.1.0 and not evidence that new h3 paths are already publicly accessible",
+    "data_downloads_verified_anonymously": true,
+    "data_archive_count": 5,
+    "data_archive_bytes": 3435111962,
+    "large_data_uncompressed_bytes": 3585595826
+  },
+  "h3_network_access_validation": "not yet performed; publication and unauthenticated retrieval are recorded separately by the maintainer"
 }

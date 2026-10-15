@@ -1,0 +1,45 @@
+{
+  "import_sets": {
+    "j1": [
+      "competition_core",
+      "remainder_finite_reversal",
+      "selection_finite_core",
+      "signal_proposal_core"
+    ],
+    "gaussian_limit": [
+      "selection_limit_core",
+      "signal_proposal_core"
+    ],
+    "local_risk": [
+      "active_reference_finite",
+      "active_reference_likelihood",
+      "active_reference_optimize",
+      "active_reference_run",
+      "active_reference_sgd",
+      "competition_core",
+      "group_posterior_common",
+      "group_posterior_marginal",
+      "group_posterior_objective",
+      "group_posterior_quadratic",
+      "group_posterior_target",
+      "informative_projection",
+      "local_shrinkage_risk_algebra_test",
+      "selection_finite_core",
+      "shrinkage_learning_analysis",
+      "shrinkage_learning_common",
+      "shrinkage_learning_run",
+      "signal_proposal_core",
+      "teacher_endpoint_core",
+      "teacher_endpoint_training"
+    ]
+  },
+  "original_modules_unchanged": true,
+  "supported": [
+    "isolated import of all modules",
+    "saved statistics and identity checks",
+    "figure rendering"
+  ],
+  "historical_runner_status": "source-readable, not supported as public top-level production commands; private one-run identity and feedback locks remain intact",
+  "full_production": "not rerun; original particle banks, private provenance, all PMF laws and management snapshots are not bundled",
+  "do_not_disable_assertions": true
+}

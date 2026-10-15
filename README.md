@@ -1,5 +1,16 @@
 # Finite Particle Learning
 
+## Current h3 code and evidence (v1.1.0)
+
+The [h3 material entry](h3/README.md) supports **Importance Proposals Can Reverse Model Rankings and Induce Local Correlation Shrinkage**. It publishes the fixed-K scientific implementations, proof sources, 96 observed validation datasets, saved fitted outputs and risks, all numerical diagnostics, paired proposal-score differences, and figure sources. This is a named research release, not an anonymous submission or an acceptance claim.
+
+Start with [h3/README.md](h3/README.md) for standalone saved-value checks and exact reproduction levels. The supported commands verify stored arithmetic, import the original kernels, and redraw the three figures; they do not rerun model integration or fitting. No large data download is required for those h3 checks. [v1.1.0 validation](release/V1_1_0_VALIDATION.json) records actual work and limitations.
+
+The v1.1.0 update is additive. The v1.0.0 source tag, data-v1.0.0 assets and original h2.2 supplementary files are retained without replacement. h3's public material does not relabel the earlier anonymous package as reproducing h3.
+
+## Archived h2.2 line
+
+
 This repository accompanies **Finite Prior-Particle Likelihood Objectives Can Reward Risk-Increasing Dependence**, manuscript h2.2. It studies the expected negative logarithm of a likelihood average over independent prior particles, and compares its dependence preferences with the KL risk of the integrated model.
 
 At fixed particle count, improving the precision of an objective estimate does not change the population objective being estimated. The paper establishes two results in controlled Gaussian--logistic models: a uniform, shrinking-scale dependence preference with fixed active marginals and an independent unit-scale appended block; and a computer-assisted local conflict in an eight-item, two-factor model with eight particles, correct observation marginals, and positive joint risk. The latter minimum is strict modulo common latent rotations. These are objective-selection and local-geometry results, with the conditions and numerical qualifications stated in the paper.

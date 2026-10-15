@@ -1,0 +1,44 @@
+{
+  "32": {
+    "statistics": {
+      "banks": 2048,
+      "mean": 0.012582782751848584,
+      "variance": 0.003374645929680456,
+      "se": 0.0012836574047820487,
+      "second_moment": 0.003531324575127822
+    },
+    "banks": 2048,
+    "numerical_diagnostic": {
+      "mean_difference": -1.7748318627505615e-08,
+      "absolute_mean_difference": 1.7748318627505615e-08,
+      "maximum_absolute_bank_difference": 4.5835732195159684e-07,
+      "mean_gate": 2e-07,
+      "max_gate": 2e-05,
+      "passed": true,
+      "qualification": "ordinary_order_diagnostic_not_error_certificate"
+    },
+    "observation": "complete_joint_Y_counts; all_private_U_information_retained_as_sufficient_counts",
+    "role": "old_risk_scale_only_not_new_validation"
+  },
+  "128": {
+    "statistics": {
+      "banks": 2048,
+      "mean": 0.010619432830027623,
+      "variance": 0.0031902701360299927,
+      "se": 0.0012480981891896145,
+      "second_moment": 0.0033014847405716027
+    },
+    "banks": 2048,
+    "numerical_diagnostic": {
+      "mean_difference": -1.2710752845823319e-08,
+      "absolute_mean_difference": 1.2710752845823319e-08,
+      "maximum_absolute_bank_difference": 3.3631962728652987e-07,
+      "mean_gate": 2e-07,
+      "max_gate": 2e-05,
+      "passed": true,
+      "qualification": "ordinary_order_diagnostic_not_error_certificate"
+    },
+    "observation": "complete_joint_Y_counts; all_private_U_information_retained_as_sufficient_counts",
+    "role": "old_risk_scale_only_not_new_validation"
+  }
+}

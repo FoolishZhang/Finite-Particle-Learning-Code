@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this versioned source release. ZHANG is the author's provisional public display name."
 type: software
-title: "Finite Prior-Particle Likelihood Objectives Can Reward Risk-Increasing Dependence: Code and Evidence"
+title: "Finite Particle Learning: Proposal Structure, Code and Evidence"
 authors:
   - family-names: "ZHANG"
-version: "1.0.0"
-date-released: "2026-10-13"
+version: "1.1.0"
+date-released: "2026-10-15"
 repository-code: "https://github.com/FoolishZhang/Finite-Particle-Learning-Code"
 url: "https://github.com/FoolishZhang/Finite-Particle-Learning-Code"
 license: MIT
@@ -13,3 +13,6 @@ keywords:
   - finite-particle objectives
   - interval arithmetic
   - computer-assisted proofs
+  - importance proposals
+  - local shrinkage
+  - saved risk evidence

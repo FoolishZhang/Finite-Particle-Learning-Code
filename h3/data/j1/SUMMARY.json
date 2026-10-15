@@ -1,0 +1,199 @@
+{
+  "primary": [
+    {
+      "M": 32,
+      "arm": "beta1",
+      "expected_sign": "positive",
+      "statistics": {
+        "banks": 16384,
+        "mean": 0.005779742318074147,
+        "variance": 9.17526432795958e-05,
+        "se": 7.483406255790636e-05,
+        "second_moment": 0.00012515246440601398
+      },
+      "interval": [
+        0.0055928288703507465,
+        0.005966655765797547
+      ],
+      "normal_critical": 2.497705474412374,
+      "sign_supported": true,
+      "numerical_qualification_passed": true,
+      "qualified_sign_supported": true
+    },
+    {
+      "M": 32,
+      "arm": "critical",
+      "expected_sign": "negative",
+      "statistics": {
+        "banks": 16384,
+        "mean": -0.003097068582726297,
+        "variance": 0.00020467838358719792,
+        "se": 0.0001117701978312737,
+        "second_moment": 0.000214257724816185
+      },
+      "interval": [
+        -0.0033762376177256235,
+        -0.0028178995477269706
+      ],
+      "normal_critical": 2.497705474412374,
+      "sign_supported": true,
+      "numerical_qualification_passed": true,
+      "qualified_sign_supported": true
+    },
+    {
+      "M": 128,
+      "arm": "beta1",
+      "expected_sign": "positive",
+      "statistics": {
+        "banks": 16384,
+        "mean": 0.005904553240657624,
+        "variance": 9.637856572761973e-05,
+        "se": 7.66973325372934e-05,
+        "second_moment": 0.00013123643221856185
+      },
+      "interval": [
+        0.0057129858933064,
+        0.006096120588008848
+      ],
+      "normal_critical": 2.497705474412374,
+      "sign_supported": true,
+      "numerical_qualification_passed": true,
+      "qualified_sign_supported": true
+    },
+    {
+      "M": 128,
+      "arm": "critical",
+      "expected_sign": "negative",
+      "statistics": {
+        "banks": 16384,
+        "mean": -0.0035569092451385323,
+        "variance": 0.00016901827502571975,
+        "se": 0.00010156799114534204,
+        "second_moment": 0.0001816595623470464
+      },
+      "interval": [
+        -0.0038105961726473208,
+        -0.003303222317629744
+      ],
+      "normal_critical": 2.497705474412374,
+      "sign_supported": true,
+      "numerical_qualification_passed": true,
+      "qualified_sign_supported": true
+    }
+  ],
+  "contexts": [
+    {
+      "M": 32,
+      "parameters": {
+        "beta1": {
+          "M": 32,
+          "epsilon": [
+            0.17677669529663687,
+            0.17677669529663687,
+            0.17677669529663687
+          ],
+          "tau": 3.0,
+          "beta": 1.0,
+          "nuisance_log_constant": -66.54212933375474
+        },
+        "critical": {
+          "M": 32,
+          "epsilon": [
+            0.17677669529663687,
+            0.17677669529663687,
+            0.17677669529663687
+          ],
+          "tau": 3.0,
+          "beta": 0.26087529960900846,
+          "nuisance_log_constant": -27.53610992771856
+        }
+      },
+      "paired_shift_descriptive": {
+        "banks": 16384,
+        "mean": -0.008876810900800444,
+        "variance": 0.00027404615175621356,
+        "se": 0.00012933077627599591,
+        "second_moment": 0.00035282719707509095
+      },
+      "h_check": {
+        "h": {
+          "mean_difference": 8.089895217842461e-13,
+          "absolute_mean_difference": 8.089895217842461e-13,
+          "maximum_absolute_bank_difference": 1.3915113505902355e-10,
+          "mean_gate": 2e-07,
+          "max_gate": 2e-05,
+          "passed": true,
+          "qualification": "ordinary_order_diagnostic_not_error_certificate"
+        },
+        "complement": {
+          "mean_difference": -8.090674397803754e-13,
+          "absolute_mean_difference": 8.090674397803754e-13,
+          "maximum_absolute_bank_difference": 1.3915113505902355e-10,
+          "mean_gate": 2e-07,
+          "max_gate": 2e-05,
+          "passed": true,
+          "qualification": "ordinary_order_diagnostic_not_error_certificate"
+        }
+      }
+    },
+    {
+      "M": 128,
+      "parameters": {
+        "beta1": {
+          "M": 128,
+          "epsilon": [
+            0.08838834764831843,
+            0.08838834764831843,
+            0.08838834764831843
+          ],
+          "tau": 3.0,
+          "beta": 1.0,
+          "nuisance_log_constant": -266.168517335019
+        },
+        "critical": {
+          "M": 128,
+          "epsilon": [
+            0.08838834764831843,
+            0.08838834764831843,
+            0.08838834764831843
+          ],
+          "tau": 3.0,
+          "beta": 0.6304376498045042,
+          "nuisance_log_constant": -204.97807421875694
+        }
+      },
+      "paired_shift_descriptive": {
+        "banks": 16384,
+        "mean": -0.009461462485796155,
+        "variance": 0.0002348788887115047,
+        "se": 0.0001197324921328085,
+        "second_moment": 0.0003243838252119603
+      },
+      "h_check": {
+        "h": {
+          "mean_difference": -7.341677179389938e-13,
+          "absolute_mean_difference": 7.341677179389938e-13,
+          "maximum_absolute_bank_difference": 1.3913997731762606e-10,
+          "mean_gate": 2e-07,
+          "max_gate": 2e-05,
+          "passed": true,
+          "qualification": "ordinary_order_diagnostic_not_error_certificate"
+        },
+        "complement": {
+          "mean_difference": 7.340932693898165e-13,
+          "absolute_mean_difference": 7.340932693898165e-13,
+          "maximum_absolute_bank_difference": 1.391400328287773e-10,
+          "mean_gate": 2e-07,
+          "max_gate": 2e-05,
+          "passed": true,
+          "qualification": "ordinary_order_diagnostic_not_error_certificate"
+        }
+      }
+    }
+  ],
+  "family_size": 4,
+  "family_alpha": 0.05,
+  "qualification": "normal Bonferroni approximations; ordinary GL/GH diagnostics; fixed two-M panel",
+  "zero_optimization_updates": true,
+  "old_risk_role": "existing same-model risk scale only; no new risk evaluation"
+}
