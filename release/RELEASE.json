@@ -1,53 +1,37 @@
 {
   "schema": "finite_particle_learning_public_release_v1",
-  "version": "1.1.0",
-  "source_tag": "v1.1.0",
+  "version": "1.2.0",
+  "source_tag": "v1.2.0",
   "data_tag": "data-v1.0.0",
-  "date": "2026-10-15",
+  "date": "2026-10-17",
   "repository": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code",
   "author_display": "ZHANG",
   "author_display_provisional": true,
-  "paper_version": "h3.2.1 scientific materials",
+  "paper_version": "h3.3 D.5/D.6 scientific evidence; not paper PDF publication",
   "paper_submitted": false,
-  "status": "versioned_source_release",
-  "independent_public_history": true,
+  "status": "prepared_candidate_local_checks_passed_not_published",
   "license": {
     "original_software": "MIT",
     "original_documents_figures_synthetic_data": "CC-BY-4.0",
     "third_party": "see THIRD_PARTY_NOTICES.md"
   },
+  "new_material_entry": "h3/extensions/h33/README.md",
+  "new_material_manifest": "h3/extensions/h33/MANIFEST.json",
+  "validation": "release/V1_2_0_VALIDATION.json",
+  "previous_release": {
+    "version": "1.1.0",
+    "commit": "8f76d66d6c90fa2b4a943d7d286aed630f291b9d",
+    "scientific_payload_preserved": true,
+    "validation": "release/V1_1_0_VALIDATION.json",
+    "network_record": "release/V1_1_0_NETWORK.json"
+  },
   "verification_levels": {
-    "h3_lossless_saved_export": "passed",
-    "h3_saved_value_arithmetic": "passed for original J1/local-risk comparisons and declared outputs",
-    "h3_imports": "26 modules imported in3 isolated source namespaces",
-    "h3_figure_redraw": "three PNG byte matches on tested environment",
-    "h3_exact_rational_checks": "92 passed",
-    "h3_full_production_or_fitting": "not run, not a supported replay command"
+    "extension_local_validation": "passed: 15716 checks, 38 isolated original-module imports, two archived PNG byte matches",
+    "new_public_retrieval": "not yet performed",
+    "full_production_or_training": "not run or supported",
+    "per_B_independent_verifier": "not supported without omitted derived arrays"
   },
-  "anonymous_snapshot": {
-    "path": "supplementary/h2_2",
-    "status": "original low-cost snapshot preserved byte-for-byte; no expanded anonymous production snapshot generated",
-    "manifest_sha256": "8766828fa556f135fc90d801b909c555f8eb9a352211fc24dca01b18cde2a2a2"
-  },
-  "evidence_policy": "Original sources/saved outputs are references. New data are lossless projections of already-saved values; no new experiments. Full production/optimization replay is not claimed.",
-  "paper_pdf_added_in_this_update": false,
-  "new_material_entry": "h3/README.md",
-  "new_material_manifest": "h3/MANIFEST.json",
-  "validation": "release/V1_1_0_VALIDATION.json",
-  "historical_v1_0_0_verification": {
-    "saved_arithmetic": "passed in clean export and new isolated environment",
-    "small_production": "16 targets passed through original functions",
-    "paper_scale_production": "not run for this release",
-    "historical_training": "source-only with stated dependencies"
-  },
-  "historical_paper": {
-    "version": "h2.2",
-    "sha256": {
-      "en": "fe8556e9b03037975b808d76ea7eda3fc6d48b3e7e5818d0fb4d693dbb974c24",
-      "zh": "23455ed4c3b7ec7d0c7dbcd5f42a6a45c102432d762c2f941ad53c8d5c706135"
-    }
-  },
-  "large_data_assets_scope": "unchanged historical data-v1.0.0 assets; h3 compact observations and scores are committed files",
+  "new_large_assets": false,
   "historical_data_assets": {
     "tag": "data-v1.0.0",
     "scientific_scope": "historical h2.2 evidence only",
@@ -58,11 +42,5 @@
     "data_archive_bytes": 3435111962,
     "large_data_uncompressed_bytes": 3585595826
   },
-  "h3_network_access_validation": {
-    "passed": true,
-    "record": "release/V1_1_0_NETWORK.json",
-    "verified_payload_commit": "fa2b6555942558f31b52be18e9af7bdb9d984484",
-    "h3_manifest_sha256": "6fa3ee75e9a902c46e7cddfc0e4b69ff3d4d9aec5d06b6a73731444e737ee9eb",
-    "scope": "all h3 material files and supported saved-value/import checks, without repository credentials"
-  }
+  "paper_pdf_added_in_this_update": false
 }

@@ -1,0 +1,62 @@
+{
+  "schema": "learned_local_analysis_policy_v1",
+  "frozen": true,
+  "utc": "2026-10-16T07:32:47.948055+00:00",
+  "before_any_training_or_numerical_phase": true,
+  "training_repeats": [
+    0,
+    1,
+    2
+  ],
+  "training_N": [
+    16384,
+    65536
+  ],
+  "proposal_kinds": [
+    "raw",
+    "sym"
+  ],
+  "K": 8,
+  "alpha": 0.3201223434446316,
+  "v": [
+    0.7071067811865476,
+    0.7071067811865476,
+    0.0
+  ],
+  "sym_t": [
+    0.1,
+    0.2
+  ],
+  "raw_t": [
+    -0.2,
+    -0.1,
+    0.1,
+    0.2
+  ],
+  "coefficient_R": 16,
+  "coefficient_B": 256,
+  "validation_R": 16,
+  "validation_B": 512,
+  "primary_family": {
+    "size": 24,
+    "alpha": 0.05,
+    "df": 15,
+    "quantities": "12 sym candidate differences D and12 sym residuals (D-P)/t^2",
+    "critical": "t.ppf(1-.05/(2*24),15)",
+    "SE": "sampleSD of16 complete randomization values / sqrt16",
+    "prediction": "(alpha-1)*t*g.v+t^2*((alpha^2-1)/2*v.H.v-(alpha-1)*v.B.v)",
+    "residual_pairing": "independent coefficient and validation streams, paired by randomization index; preserve coefficient component covariance",
+    "negative_contrast_support": "upper simultaneous interval <0",
+    "positive_contrast_support": "lower simultaneous interval >0",
+    "prediction_precision_gate": "whole residual/t^2 simultaneous interval contained in[-.01,.01]",
+    "meaning_of_gate": "fixed numerical prediction tolerance, not strict Taylor-bound theorem or risk equivalence"
+  },
+  "raw_control": "all24 raw contrasts and signed odd/even decomposition descriptive means/SE only; no selected p-values",
+  "coefficient_reporting": "full g,H,B and raw offdiagonals; sym h=tr(H)/3,b=tr(B)/3; ratio b/h reported only with positive estimated h and delta-method numerical SE; not certified global/local optimum",
+  "uncertainty_scope": "conditional on all frozen trained proposals; R measures numerical randomization, not number of proposal-training repeats",
+  "symmetry_scope": "antithetic local-state coupling plus exact state enumeration imposes g/offdiag cancellation; zeros are implementation checks, not new empirical discoveries",
+  "missing_or_failure_rule": "all expected slots retained; no diagnostic/risk/pass-based inclusion; missing primary cells remain unresolved, no replacement seeds or increased budgets",
+  "no_selection_by_target": true,
+  "paper_modified": false,
+  "plan_sha256": "f5466245ea402c8f322beee3997334f2489d902fdfddd3c05d2664eccd6b3391"
+}

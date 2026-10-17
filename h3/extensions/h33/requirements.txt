@@ -1,0 +1,5 @@
+# Recorded scientific and redraw environment: Python 3.11.15
+numpy==2.3.5
+scipy==1.17.1
+matplotlib==3.11.2
+psutil==7.1.3

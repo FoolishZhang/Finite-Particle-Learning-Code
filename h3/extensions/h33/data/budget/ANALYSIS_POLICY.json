@@ -1,0 +1,93 @@
+{
+  "policy": {
+    "case_ids": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "settings": [
+      "P0",
+      "H"
+    ],
+    "methods": [
+      "integrated",
+      "group8",
+      "ridge"
+    ],
+    "initializations": [
+      0,
+      1
+    ],
+    "N": 2048,
+    "unit": "original_dataset_case; two_start_risks_averaged_before_comparison",
+    "risk_orders": [
+      [
+        28,
+        192
+      ],
+      [
+        36,
+        256
+      ]
+    ],
+    "kl_tolerance": 4.8828125e-08,
+    "pmf_tolerance": 1e-08,
+    "mapping_tolerance": 0.0003,
+    "maximum_gradient_SE_tolerance": 0.0001,
+    "primary_quantities": [
+      "D_H",
+      "G"
+    ],
+    "secondary_descriptive": [
+      "D_P0",
+      "P0_H_ridge_risks"
+    ],
+    "D_H": "2048*(mean_two_H_GROUP_KL-mean_two_H_integrated_ML_KL)",
+    "D_P0": "2048*(mean_two_P0_GROUP_KL-mean_two_P0_integrated_ML_KL)",
+    "G": "D_H-D_P0 within the identical dataset case",
+    "family_alpha": 0.05,
+    "family_size": 2,
+    "tails": 2,
+    "df": 23,
+    "critical_value": "scipy.stats.t.ppf(1-.05/(2*2),23)",
+    "interval": "mean +/- critical_value * sample_SD(ddof=1)/sqrt(24)",
+    "missing_or_unqualified_rule": "retain_all_expected_rows; D_H_requires_its_96_H_GROUP_ML_slots; G_requires_192_P0_H_GROUP_ML_slots; ridge_96_slots_separately_descriptive",
+    "family_size_if_one_quantity_unresolved": 2,
+    "diagnostic_filtering": false,
+    "zero_in_interval_means_equivalence": false,
+    "inferential_scope": "retrospective_exploratory_paired_numerical_sensitivity; not_original_family4_confirmation",
+    "risk_precision_scope": "ordinary_GH_order_difference_not_integral_error_certificate",
+    "accepted_update_count": "count armijo_accepted events in each explicitly bound ACCEPTED_TRACE.jsonl"
+  },
+  "frozen_before_new_risk": true,
+  "utc": "2026-10-16T03:50:02.085415+00:00",
+  "source_at_policy_freeze": {
+    "script/budget_sensitivity_analyze.py": "6a0d34437153f1105c4ab00624652e799b0bfa401ab356732a78b5fdaf61024e"
+  },
+  "template_sha256": "2699341030edc75bee24941e3d238a740d811c8be651d11431ae80ec7c6d5723",
+  "H_master_sha256": "5c1352c5fd502f467cda39a72da1b47aa8334e1d7f86fa943af6c8b6d38b740e",
+  "new_risks_computed_at_freeze": 0,
+  "display_plan": "Show all24 paired D_P0/D_H values and all24 G values; no point selection or diagnostic-based exclusion.",
+  "implementation_repairs_if_needed": "Preserve this policy. Any later implementation repair receives a separately recorded source identity before analysis."
+}

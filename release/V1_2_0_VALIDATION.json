@@ -1,0 +1,202 @@
+{
+  "schema": "h33_public_validation_v1",
+  "status": "local_candidate_checks_passed",
+  "published": false,
+  "network_retrieval": "not yet performed for v1.2.0; previous release records have their own scope",
+  "extension_manifest_sha256": "39e5e3d7e8728238cb853597ae8c462514c242a3514bd8afe175d0b9aff20a77",
+  "saved_check": {
+    "schema": "h33_public_saved_check_v1",
+    "passed": true,
+    "mode": "all",
+    "new_model_calls": 0,
+    "new_training": 0,
+    "scientific_RNG": 0,
+    "identity": {
+      "files": 154,
+      "manifest_sha256": "39e5e3d7e8728238cb853597ae8c462514c242a3514bd8afe175d0b9aff20a77"
+    },
+    "budget": {
+      "datasets": 24,
+      "risk_rows": 288,
+      "new_diagnostic_rows": 96,
+      "family": 2,
+      "df": 23,
+      "diagnostic_passes": [
+        12,
+        36,
+        48
+      ]
+    },
+    "training": {
+      "training_pools": 3,
+      "nested_sizes": [
+        16384,
+        65536
+      ],
+      "raw_sym_pairs": 6,
+      "training_replayed": false
+    },
+    "previous": {
+      "family": 24,
+      "df": 15,
+      "primary_cells": 12,
+      "precision_passes": 1,
+      "raw_descriptive_cells": 24,
+      "new_raw_significance_tests": false
+    },
+    "precision": {
+      "family": 36,
+      "df": 15,
+      "cells": 12,
+      "D_negative": 12,
+      "W_ind_precision": 12,
+      "W_same_precision": 12,
+      "nonzero_same_remainders": 12,
+      "source_R_statistic_JSONs": 54,
+      "scope": "conditional on six fixed proposals; R-level arithmetic, not per-bank identity or model evaluation"
+    },
+    "imports": [
+      {
+        "namespace": "budget",
+        "modules": [
+          "active_reference_finite",
+          "active_reference_likelihood",
+          "active_reference_optimize",
+          "active_reference_run",
+          "active_reference_sgd",
+          "budget_sensitivity_analysis_verify",
+          "budget_sensitivity_analyze",
+          "budget_sensitivity_core",
+          "budget_sensitivity_plot",
+          "budget_sensitivity_run",
+          "budget_sensitivity_saved",
+          "competition_core",
+          "group_posterior_marginal",
+          "group_posterior_objective",
+          "group_posterior_quadratic",
+          "informative_projection",
+          "selection_finite_core",
+          "signal_proposal_core",
+          "teacher_endpoint_core",
+          "teacher_endpoint_training"
+        ],
+        "count": 20
+      },
+      {
+        "namespace": "learned",
+        "modules": [
+          "active_reference_likelihood",
+          "competition_core",
+          "group_posterior_objective",
+          "informative_projection",
+          "learned_local_analyze",
+          "learned_local_objective",
+          "learned_local_plot",
+          "learned_local_proposal",
+          "learned_local_run",
+          "learned_local_verify",
+          "learned_precision_analyze",
+          "learned_precision_core",
+          "learned_precision_describe",
+          "learned_precision_launch",
+          "learned_precision_plot",
+          "learned_precision_run",
+          "learned_precision_verify",
+          "signal_proposal_core"
+        ],
+        "count": 18
+      }
+    ],
+    "checks": 15716
+  },
+  "export_audit": {
+    "schema": "h33_independent_export_audit_v1",
+    "passed": true,
+    "mapped_files": 159,
+    "byte_copies": 53,
+    "selected_numeric_leaves_exactly_compared": 150439,
+    "old_manifest_files_preserved": 4129,
+    "explicit_root_metadata_edits": [
+      "CITATION.cff",
+      "README.md",
+      "README_ZH.md",
+      "REPRODUCING.md",
+      "release/FILE_MANIFEST.json",
+      "release/RELEASE.json"
+    ],
+    "extension_files": 155,
+    "extension_bytes": 9059869,
+    "local_reader_links_checked": 14,
+    "private_metadata_findings": [],
+    "raw_arrays_exported": 0,
+    "new_scientific_calls": 0,
+    "new_training": 0,
+    "public_checkout_changed": false,
+    "publication_executed": false
+  },
+  "manufactured_checker_tests": {
+    "schema": "h33_public_checker_manufactured_tests_v1",
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "scientific_kernels_imported": false,
+    "scientific_RNG": 0
+  },
+  "redraw": {
+    "scope": "Original plot functions on saved aggregates; font and library versions may change bytes.",
+    "new_model_calls": 0,
+    "scientific_RNG": 0,
+    "PNG_comparisons": [
+      {
+        "figure": "budget/paired_budget.png",
+        "archived_sha256": "8261eb8acda4ae323216fe080d8281a64456e7cdbafbac27d1c647e625680eef",
+        "redrawn_sha256": "8261eb8acda4ae323216fe080d8281a64456e7cdbafbac27d1c647e625680eef",
+        "byte_equal": true
+      },
+      {
+        "figure": "precision/precision_and_remainder.png",
+        "archived_sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+        "redrawn_sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+        "byte_equal": true
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "psutil": "7.1.3"
+  },
+  "scope": "File identities, selected-value equality, R-level saved arithmetic, isolated imports, and original plotters. No scientific RNG, likelihood evaluation, quadrature, training, optimizer replay, or per-B independent verification.",
+  "large_assets_downloaded": false,
+  "original_v1_1_scientific_payload_preserved": true,
+  "preparation_repairs": [
+    "Adapted importer to manifest list entries with package-relative paths before any export write.",
+    "Used the existing recorded environment after default shell Python lacked NumPy.",
+    "Corrected public checker to respect canonical reflected component ordering; no original density or scientific result changed.",
+    "Removed nine duplicated internal producer contracts and their nine management-record bindings from the previous-study projection; all statistics, replicate arrays and scientific flow fields unchanged."
+  ],
+  "projection_correction": {
+    "revision": "002",
+    "embedded_contracts_removed": 9,
+    "management_record_bindings_removed": 9,
+    "omitted_numeric_leaves_are_only_duplicated_management_contract_settings": 300,
+    "all_scientific_fields_exactly_unchanged": [
+      "primary_cells",
+      "raw_cells",
+      "coefficient_cells",
+      "raw_odd_even",
+      "density_diagnostics",
+      "policy",
+      "all_expected_cells_retained",
+      "stream_provenance",
+      "nonfinite_archive_encoding"
+    ],
+    "all_other_fields_equal_after_only_declared_omissions": true,
+    "scientific_calls": 0,
+    "plot_data_unchanged": true,
+    "plots_not_rerun": true
+  }
+}

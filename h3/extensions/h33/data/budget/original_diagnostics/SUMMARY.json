@@ -1,0 +1,140 @@
+{
+  "schema": "budget_sensitivity_saved_diagnostics_v1",
+  "status": "completed",
+  "all_fit_rows": 576,
+  "all_fit_status_counts": {
+    "mapping_tolerance": 576
+  },
+  "all_fit_own_mapping_maximum": 9.997702886399562e-08,
+  "group_rows": 192,
+  "cells": {
+    "mid_N2048": {
+      "outputs": 48,
+      "datasets": 24,
+      "categories": {
+        "pass": 44,
+        "SE": 4
+      },
+      "mapping_failed": 0,
+      "SE_failed": 4,
+      "fit_status_failed": 0,
+      "numeric_own_mapping_failed": 0,
+      "metrics": {
+        "fit_mapping": {
+          "minimum": 4.3584247322314695e-11,
+          "median": 8.015933247035312e-09,
+          "maximum": 5.319695636080146e-08
+        },
+        "independent_mapping": {
+          "minimum": 3.784818420232358e-06,
+          "median": 6.448488777974909e-05,
+          "maximum": 0.0002797430590217448
+        },
+        "max_gradient_SE": {
+          "minimum": 4.310712967723867e-06,
+          "median": 3.572176736073223e-05,
+          "maximum": 0.00015817875305480667
+        }
+      }
+    },
+    "mid_N256": {
+      "outputs": 48,
+      "datasets": 24,
+      "categories": {
+        "SE": 14,
+        "mapping+SE": 28,
+        "pass": 6
+      },
+      "mapping_failed": 28,
+      "SE_failed": 42,
+      "fit_status_failed": 0,
+      "numeric_own_mapping_failed": 0,
+      "metrics": {
+        "fit_mapping": {
+          "minimum": 3.3343806882246696e-10,
+          "median": 1.9626853928547683e-08,
+          "maximum": 9.997702886399562e-08
+        },
+        "independent_mapping": {
+          "minimum": 7.848291161693943e-05,
+          "median": 0.000321499561161287,
+          "maximum": 0.0010527806931049516
+        },
+        "max_gradient_SE": {
+          "minimum": 3.337990524908122e-05,
+          "median": 0.000230689096981748,
+          "maximum": 0.001369296208274737
+        }
+      }
+    },
+    "strong_N2048": {
+      "outputs": 48,
+      "datasets": 24,
+      "categories": {
+        "SE": 20,
+        "pass": 12,
+        "mapping+SE": 14,
+        "mapping": 2
+      },
+      "mapping_failed": 16,
+      "SE_failed": 34,
+      "fit_status_failed": 0,
+      "numeric_own_mapping_failed": 0,
+      "metrics": {
+        "fit_mapping": {
+          "minimum": 1.695818346858502e-10,
+          "median": 1.3303942655862322e-08,
+          "maximum": 9.821657317304888e-08
+        },
+        "independent_mapping": {
+          "minimum": 5.3211304144755445e-05,
+          "median": 0.00020972745128111647,
+          "maximum": 0.0004873142889255111
+        },
+        "max_gradient_SE": {
+          "minimum": 2.72900430326466e-05,
+          "median": 0.0001287874195495687,
+          "maximum": 0.0005148452810202785
+        }
+      }
+    },
+    "weak_N2048": {
+      "outputs": 48,
+      "datasets": 24,
+      "categories": {
+        "pass": 48
+      },
+      "mapping_failed": 0,
+      "SE_failed": 0,
+      "fit_status_failed": 0,
+      "numeric_own_mapping_failed": 0,
+      "metrics": {
+        "fit_mapping": {
+          "minimum": 5.457479364257001e-10,
+          "median": 5.701464200064121e-09,
+          "maximum": 9.17199902000787e-08
+        },
+        "independent_mapping": {
+          "minimum": 1.132526687784574e-06,
+          "median": 3.461214680690328e-05,
+          "maximum": 0.00016822772911770367
+        },
+        "max_gradient_SE": {
+          "minimum": 2.834329980283252e-06,
+          "median": 2.297349241325867e-05,
+          "maximum": 9.23181836806115e-05
+        }
+      }
+    }
+  },
+  "seconds": 0.0031810000000405125,
+  "scope": "New descriptive decomposition of saved diagnostics only; output counts are not independent dataset counts.",
+  "new_observations": 0,
+  "new_particles": 0,
+  "new_model_integrations": 0,
+  "new_fits": 0,
+  "source": {
+    "path": "artifacts/local_shrinkage_v1_20261015/validation_qualification_v1/FIT_DIAGNOSTICS.csv",
+    "sha256": "f380a305e8cb1add54d998de68875e43c7569fc926811a704a82ec591b145705"
+  }
+}

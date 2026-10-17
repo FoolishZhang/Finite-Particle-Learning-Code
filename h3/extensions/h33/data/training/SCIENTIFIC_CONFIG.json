@@ -1,0 +1,25 @@
+{
+  "schema": "learned_local_execution_v1",
+  "phase": "training",
+  "model": {
+    "M": 8,
+    "tau": 3.0,
+    "epsilon": 0.4949747468305832,
+    "K": 8,
+    "spectral_floor": 0.15
+  },
+  "training": {
+    "highN": 65536,
+    "lowN": 16384,
+    "validationN": 32768,
+    "epochs": 80,
+    "checkpoints": [
+      0,
+      5,
+      20,
+      80
+    ],
+    "defense": 0.05,
+    "seed_family": 202610165201
+  }
+}

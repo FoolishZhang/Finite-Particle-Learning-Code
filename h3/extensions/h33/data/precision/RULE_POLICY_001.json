@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-16T09:51:14.437347+00:00",
+  "frozen_before_development": true,
+  "purpose": "Clarify aggregation of the PLAN ordinary GH28/GH36 diagnostic; no outcome has been computed",
+  "case": {
+    "rep": 0,
+    "N": 16384,
+    "kind": "sym",
+    "R": 16,
+    "B": 512
+  },
+  "t": [
+    0.1,
+    0.2
+  ],
+  "primary_control": "q2",
+  "metrics": [
+    "max_r abs(mean_B(D36-D28)/t^2)",
+    "max_r abs(mean_B(Wsame36-Wsame28))"
+  ],
+  "tolerance": 0.0001,
+  "all_four_metrics_required": true,
+  "full_banks_and_replicate_means_retained": true,
+  "scope": "ordinary numerical rule sensitivity only, not strict error bound; failure does not delete any output",
+  "frozen": true
+}

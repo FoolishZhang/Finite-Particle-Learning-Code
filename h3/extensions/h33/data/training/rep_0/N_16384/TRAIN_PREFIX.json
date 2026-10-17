@@ -1,0 +1,16 @@
+{
+  "N": 16384,
+  "source": "artifacts/learned_local_proposal_v1_20261016/training_001/rep_0/TRAIN/PHYSICAL_DATA.npz",
+  "source_sha256": "2500ff04352aecce4b797cb028875e44685648250d18342a8f40c2d5d34491ba",
+  "array_prefix_sha256": {
+    "x": "3a39ec70228589620c6a76652cf52eef3ab28dee64e2ad8ae751f1a30f689f07",
+    "counts": "af5dc0c4e4117887c57c5d6ce9515fcdf99581e51ea64f6a0bba6c6270e6c164",
+    "labels": "a8fc04111c8ee159698918e3ceec13588b15236365a33678d189c4bdbc9bcb73",
+    "state": "6644322fb93e94dfd0cf84e20ca85829562167b0aef2ab8c5d24710bd4b6c05d",
+    "private_z": "2ac128e88c15e7b5d31228ce53302f2fa9ad26a1bca18353f44aff18dcc301c6",
+    "label_u": "ec68024609986d4a4e3c38b2b0a823b2f8865bff1720fa746f06af9b179559f1",
+    "item_u": "961578a7d084a6586d665b0368ee701c9499d54e7bd1727720e473e8ca73ea8e"
+  },
+  "low_is_same_high_prefix": true,
+  "validation_shared_with_other_scale_in_same_repeat": true
+}

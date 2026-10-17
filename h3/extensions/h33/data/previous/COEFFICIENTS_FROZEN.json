@@ -1,0 +1,246 @@
+{
+  "schema": "learned_local_global_coefficient_freeze_v1",
+  "all_coefficients_complete": true,
+  "created_utc": "2026-10-16T07:49:35.126704+00:00",
+  "outputs": [
+    {
+      "rep": 0,
+      "N": 16384,
+      "kind": "raw",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N16384_raw/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "2bddfec97470d7dd55035d12ebd947122c45d8216321faacb7b05de1f84bc75f",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N16384_raw/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "43edcc3010309fdaad334af2e3cba72c329b0f4924db1b430d6fbd8bf5d4ea2c",
+      "score_seconds": 39.134298700002546,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 0,
+      "N": 16384,
+      "kind": "sym",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "4517f26a4506cb26409768493b2aae61ee862dbbee9228e5ddc22104d0efb739",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N16384_sym/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "7596b4ed3b1abe28f6740a045d49b6805cd40aa738b9bba38c92683e259ed56b",
+      "score_seconds": 39.68321040000228,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 0,
+      "N": 65536,
+      "kind": "raw",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N65536_raw/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "10d010bb54fb443e43d90060ccc1d2510036a65c5c3c0fd86b3d64d431626c87",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N65536_raw/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "110e8f10772599a5535a0dea7fb167d310c0f844f373ec5e71196cf0e73a4900",
+      "score_seconds": 39.113458799998625,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 0,
+      "N": 65536,
+      "kind": "sym",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "8105caa433507409899c158529443384b92a074999b7b87d097260c9a2d56845",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/rep_0_N65536_sym/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "414fd8d5da0899a9d2a6c89b722a6185c662212b8d26ea89aa581c84e842e190",
+      "score_seconds": 39.21852290000243,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 1,
+      "N": 16384,
+      "kind": "raw",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N16384_raw/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "db4d3706317eb6b421f2b7092da3fd5c7b40e45c96764aeff68dabc1dd81a121",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N16384_raw/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "7e48a79aa865ba355c1e4e94e4044dc7ff78e6019b84f36782123836a61c5f5c",
+      "score_seconds": 39.40583360000164,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 1,
+      "N": 16384,
+      "kind": "sym",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "df10f122ae7c4fdc855cf0c78de45c7cb9a9efbdae1513948ffafd29971dd0f0",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N16384_sym/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "178f6846c227f10a98c696b70a8ffd8f985ae698d5b6ef9db6512a51ff4e21a2",
+      "score_seconds": 39.779270299997734,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 1,
+      "N": 65536,
+      "kind": "raw",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N65536_raw/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "fe3d34f96d8c07af2a8dcbfdc08cca2bf9a19257c7033627bd178897535358cc",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N65536_raw/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "4a188a9459080f2a759ec853ea927279d63915282b861b8f070895db31c77798",
+      "score_seconds": 39.30694570000196,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 1,
+      "N": 65536,
+      "kind": "sym",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "291c63a6ba16e00af6b48ae0fc5352b45b38ff6d92bf9932bcf2e1b0357700f5",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/rep_1_N65536_sym/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "b05bb394a67a77a95151f714256d72319762ee3c0e3790435ba8ca03fff14fdd",
+      "score_seconds": 39.11218209999788,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 2,
+      "N": 16384,
+      "kind": "raw",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N16384_raw/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "d7bd96dc559b03e7fc7ba9aba048b6027909b0d6eb68f015c10b3e01754ea6c9",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N16384_raw/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "476ef4f952a2fbc25a5c87fcb6e841cb51a52143b4107bae134b3cddcf215d6f",
+      "score_seconds": 39.55789189999996,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 2,
+      "N": 16384,
+      "kind": "sym",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "6ceed992d5b9338c3a252df72d5fd60948757d9db834ffc90c7f1b6a1a7b4425",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N16384_sym/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "c25237ebe07c69098b5fe36e3713f3672274194c85bcaf8aabea09e7c23edd82",
+      "score_seconds": 39.955403100000694,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 2,
+      "N": 65536,
+      "kind": "raw",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N65536_raw/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "b532e07e225f205cdb2996cdda61433d9b418a9c224650dd0c5f34c3826baa23",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N65536_raw/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "aac52918c99d4bf561d3a98dc2f3488e5d1751af4ae9fd591a896a23aa988a70",
+      "score_seconds": 39.43475770000077,
+      "role": "independent_coefficient_evaluation"
+    },
+    {
+      "rep": 2,
+      "N": 65536,
+      "kind": "sym",
+      "statistics": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "statistics_sha256": "c17dc0fafb9ea0d60a19f16dbc2570daf5f826eb084aaf1bbf3ccc28fbfae3bf",
+      "banks": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/rep_2_N65536_sym/COEFFICIENT_BANKS.npz",
+      "banks_sha256": "f3e156d221dcbcb1628923357954fa92340e941a289c1e614cc4741430d7cbca",
+      "score_seconds": 39.253538000000844,
+      "role": "independent_coefficient_evaluation"
+    }
+  ],
+  "proposal_freeze": "artifacts/learned_local_proposal_v1_20261016/training_001/FROZEN_PROPOSALS.json",
+  "proposal_freeze_sha256": "01eba0d3877252cf5f17e82fd8ae76a1bda3a2740db996d7dd9971522a3bacdf",
+  "all_six_training_pairs_retained": true,
+  "source_sha256": {
+    "script/active_reference_likelihood.py": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+    "script/competition_core.py": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+    "script/group_posterior_objective.py": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+    "script/informative_projection.py": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+    "script/learned_local_objective.py": "f5191292de130cec7fa966878770ba2067477bbf9ad5d0a73aa2a1e403c2d671",
+    "script/learned_local_proposal.py": "b93ab8948368a41d1b0fd98b6e46ca7ef24bcf2968d31f1294928c05d4dbecc5",
+    "script/learned_local_run.py": "b2fb824af478fd1b105504c963fffe83f1d6f624a7df7fbd0c1df6e7c0696d95",
+    "script/signal_proposal_core.py": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+    "tests/test_learned_local_objective.py": "1c5e79785386bdb7187547fbfd46449fd9314e244186f3b9c005c3b7cb65e681",
+    "tests/test_learned_local_proposal.py": "121d0d003d48fc8d045e7b1507a192a60943968b5c057aca19fb2b6f0de4cc7f"
+  },
+  "coefficient_phase_lineage": [
+    {
+      "rep": 0,
+      "records": {
+        "CONTRACT.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/CONTRACT.json",
+          "sha256": "9bb618ec915bfeb04760736cd7a2dbd02368d536d0186fd9e27c4b2db1fefbaa"
+        },
+        "MANIFEST.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/MANIFEST.json",
+          "sha256": "730363618b547c766e8097c52ecdf2680b3c3152a131a07c6c3955490ad31476"
+        },
+        "FREEZE.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/FREEZE.json",
+          "sha256": "807f43be38502fc903ab83659b708638257acfd62b6d08731ce0eb668db4b2bb"
+        },
+        "SUMMARY.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/SUMMARY.json",
+          "sha256": "2adf2b97e7df06075b60aab64b3043403d588a10096940326afd93df9a8bb7a4"
+        },
+        "FROZEN_COEFFICIENT_OUTPUTS.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep0_001/FROZEN_COEFFICIENT_OUTPUTS.json",
+          "sha256": "6e7a72840b2e5b6b27110a54cc161a6aa5a30ed4a24a5f323b575c1d0578c0a9"
+        }
+      }
+    },
+    {
+      "rep": 1,
+      "records": {
+        "CONTRACT.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/CONTRACT.json",
+          "sha256": "45a36c3cf80e8cf33bb75649d1a13ab57af2ee290068a0f1c52b44f785f6ebbd"
+        },
+        "MANIFEST.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/MANIFEST.json",
+          "sha256": "a92ea08c8abe05f75c0e3bedf8fb4ecee4a62154fea4597c337cc552c6f60782"
+        },
+        "FREEZE.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/FREEZE.json",
+          "sha256": "2b383c88f41fec6bb1b38e8406f5361e3c3563eeccc948b16a1a1c9c78346fb0"
+        },
+        "SUMMARY.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/SUMMARY.json",
+          "sha256": "6228a72d1c150017646e8e12ce7686d034568a46f2ae7933e355e1536829057d"
+        },
+        "FROZEN_COEFFICIENT_OUTPUTS.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep1_001/FROZEN_COEFFICIENT_OUTPUTS.json",
+          "sha256": "cbdb0f0ea806d29d1b289d4006f02abb4cf6685f78147742583371dc7fa3f5c9"
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "records": {
+        "CONTRACT.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/CONTRACT.json",
+          "sha256": "bfb74a7b6bf4326d5d4d0fb93beead1be02e399b233c4dc1e6b6d1f051a94d16"
+        },
+        "MANIFEST.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/MANIFEST.json",
+          "sha256": "aa59e38788c16abd953f0c252ac5a74433030f587a4df436e9879a1c625a5bfd"
+        },
+        "FREEZE.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/FREEZE.json",
+          "sha256": "1d25b74a7aedd5d436062a2d4c3aa34d9ef50aa1da1f04d35bcbb4eff4046256"
+        },
+        "SUMMARY.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/SUMMARY.json",
+          "sha256": "be38271508e4522fe92cc8eaeb64692af11094d49f080edbad2663ce6ef9c7d2"
+        },
+        "FROZEN_COEFFICIENT_OUTPUTS.json": {
+          "path": "artifacts/learned_local_proposal_v1_20261016/coefficients_rep2_001/FROZEN_COEFFICIENT_OUTPUTS.json",
+          "sha256": "74f043fec4103401a3fec241b73a09cc5538911816b70b7efd97b547ac315450"
+        }
+      }
+    }
+  ],
+  "coefficient_master": {
+    "path": "artifacts/learned_local_proposal_v1_20261016/COEFFICIENT_MASTER_001.json",
+    "sha256": "ec609a15f768a860f9e5cf0d4cb3ae530401215f0ff8091772a8aaaa7a5bb9dc"
+  },
+  "coefficient_batch_launch": {
+    "path": "artifacts/learned_local_proposal_v1_20261016/COEFFICIENT_BATCH_LAUNCH_001.json",
+    "sha256": "fcb34279b827e0c1078097601b0eb237eee4f90a38e083886098a0ff209b130a",
+    "finished_utc": "2026-10-16T07:47:22.817400+00:00"
+  },
+  "analysis_policy": {
+    "path": "artifacts/learned_local_proposal_v1_20261016/ANALYSIS_POLICY_001.json",
+    "sha256": "3c8f9800e3146dbc41c5fd897a8b9954776a11149399fcdff42ced9f5c7d8dad"
+  },
+  "before_validation_randomization": true,
+  "selection_on_coefficient_values": false
+}

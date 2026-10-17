@@ -1,0 +1,37 @@
+{
+  "schema": "learned_precision_execution_v1",
+  "phase": "validation",
+  "training_N": [
+    16384,
+    65536
+  ],
+  "proposal_kind": "sym",
+  "K": 8,
+  "alpha": 0.3201223434446316,
+  "direction": [
+    0.7071067811865475,
+    0.7071067811865475,
+    0.0
+  ],
+  "t_values": [
+    0.1,
+    0.2
+  ],
+  "pattern_chunk": 8,
+  "teacher_policy": "same_saved_GH36_Cholesky_p0_dp0_and_pt",
+  "rule_check": {
+    "rep": 0,
+    "N": 16384,
+    "low_order": 28,
+    "high_order": 36,
+    "max_replicate_normalized_D_difference": 0.0001,
+    "max_replicate_W_same_difference": 0.0001
+  },
+  "randomization": {
+    "family": 202610166401,
+    "role": 70,
+    "R": 16,
+    "B": 512,
+    "bits": 52
+  }
+}

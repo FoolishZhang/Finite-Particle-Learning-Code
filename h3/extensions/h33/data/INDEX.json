@@ -1,0 +1,406 @@
+{
+  "schema": "h33_public_saved_index_v1",
+  "training": [
+    {
+      "rep": 0,
+      "N": 16384,
+      "SELECTION.json": "h3/extensions/h33/data/training/rep_0/N_16384/SELECTION.json",
+      "TRAIN_PREFIX.json": "h3/extensions/h33/data/training/rep_0/N_16384/TRAIN_PREFIX.json",
+      "PROPOSAL_raw.json": "h3/extensions/h33/data/training/rep_0/N_16384/PROPOSAL_raw.json",
+      "PROPOSAL_sym.json": "h3/extensions/h33/data/training/rep_0/N_16384/PROPOSAL_sym.json"
+    },
+    {
+      "rep": 0,
+      "N": 65536,
+      "SELECTION.json": "h3/extensions/h33/data/training/rep_0/N_65536/SELECTION.json",
+      "TRAIN_PREFIX.json": "h3/extensions/h33/data/training/rep_0/N_65536/TRAIN_PREFIX.json",
+      "PROPOSAL_raw.json": "h3/extensions/h33/data/training/rep_0/N_65536/PROPOSAL_raw.json",
+      "PROPOSAL_sym.json": "h3/extensions/h33/data/training/rep_0/N_65536/PROPOSAL_sym.json"
+    },
+    {
+      "rep": 1,
+      "N": 16384,
+      "SELECTION.json": "h3/extensions/h33/data/training/rep_1/N_16384/SELECTION.json",
+      "TRAIN_PREFIX.json": "h3/extensions/h33/data/training/rep_1/N_16384/TRAIN_PREFIX.json",
+      "PROPOSAL_raw.json": "h3/extensions/h33/data/training/rep_1/N_16384/PROPOSAL_raw.json",
+      "PROPOSAL_sym.json": "h3/extensions/h33/data/training/rep_1/N_16384/PROPOSAL_sym.json"
+    },
+    {
+      "rep": 1,
+      "N": 65536,
+      "SELECTION.json": "h3/extensions/h33/data/training/rep_1/N_65536/SELECTION.json",
+      "TRAIN_PREFIX.json": "h3/extensions/h33/data/training/rep_1/N_65536/TRAIN_PREFIX.json",
+      "PROPOSAL_raw.json": "h3/extensions/h33/data/training/rep_1/N_65536/PROPOSAL_raw.json",
+      "PROPOSAL_sym.json": "h3/extensions/h33/data/training/rep_1/N_65536/PROPOSAL_sym.json"
+    },
+    {
+      "rep": 2,
+      "N": 16384,
+      "SELECTION.json": "h3/extensions/h33/data/training/rep_2/N_16384/SELECTION.json",
+      "TRAIN_PREFIX.json": "h3/extensions/h33/data/training/rep_2/N_16384/TRAIN_PREFIX.json",
+      "PROPOSAL_raw.json": "h3/extensions/h33/data/training/rep_2/N_16384/PROPOSAL_raw.json",
+      "PROPOSAL_sym.json": "h3/extensions/h33/data/training/rep_2/N_16384/PROPOSAL_sym.json"
+    },
+    {
+      "rep": 2,
+      "N": 65536,
+      "SELECTION.json": "h3/extensions/h33/data/training/rep_2/N_65536/SELECTION.json",
+      "TRAIN_PREFIX.json": "h3/extensions/h33/data/training/rep_2/N_65536/TRAIN_PREFIX.json",
+      "PROPOSAL_raw.json": "h3/extensions/h33/data/training/rep_2/N_65536/PROPOSAL_raw.json",
+      "PROPOSAL_sym.json": "h3/extensions/h33/data/training/rep_2/N_65536/PROPOSAL_sym.json"
+    }
+  ],
+  "precision_statistics": [
+    {
+      "phase": "coefficients",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/coefficients_rep0/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "coefficients",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/coefficients_rep0/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "coefficients",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/coefficients_rep1/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "coefficients",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/coefficients_rep1/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "coefficients",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/coefficients_rep2/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "coefficients",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/coefficients_rep2/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/GH28/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/GH28/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/GH28/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/GH28/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/GH28/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/REMAINDER_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/INDEPENDENT_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/INDEPENDENT_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/INDEPENDENT_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/INDEPENDENT_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/REMAINDER_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N16384_sym/RULE_ORDER_COMPARISON.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/RULE_ORDER_COMPARISON.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/INDEPENDENT_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/INDEPENDENT_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/INDEPENDENT_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/INDEPENDENT_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 0,
+      "relative": "rep_0_N65536_sym/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/REMAINDER_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/INDEPENDENT_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/INDEPENDENT_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/INDEPENDENT_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/INDEPENDENT_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N16384_sym/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/REMAINDER_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/INDEPENDENT_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/INDEPENDENT_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/INDEPENDENT_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/INDEPENDENT_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 1,
+      "relative": "rep_1_N65536_sym/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/REMAINDER_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/INDEPENDENT_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/INDEPENDENT_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/INDEPENDENT_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/INDEPENDENT_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N16384_sym/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/REMAINDER_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/CONTRAST_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/CONTRAST_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/CONTRAST_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/CONTRAST_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/INDEPENDENT_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/INDEPENDENT_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/INDEPENDENT_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/INDEPENDENT_t0p2.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/REMAINDER_t0p1.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/REMAINDER_t0p1.json"
+    },
+    {
+      "phase": "validation",
+      "rep": 2,
+      "relative": "rep_2_N65536_sym/REMAINDER_t0p2.json",
+      "path": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/REMAINDER_t0p2.json"
+    }
+  ],
+  "original_public_observations": [
+    "h3/data/observations/case_02000.csv",
+    "h3/data/observations/case_02001.csv",
+    "h3/data/observations/case_02002.csv",
+    "h3/data/observations/case_02003.csv",
+    "h3/data/observations/case_02004.csv",
+    "h3/data/observations/case_02005.csv",
+    "h3/data/observations/case_02006.csv",
+    "h3/data/observations/case_02007.csv",
+    "h3/data/observations/case_02008.csv",
+    "h3/data/observations/case_02009.csv",
+    "h3/data/observations/case_02010.csv",
+    "h3/data/observations/case_02011.csv",
+    "h3/data/observations/case_02012.csv",
+    "h3/data/observations/case_02013.csv",
+    "h3/data/observations/case_02014.csv",
+    "h3/data/observations/case_02015.csv",
+    "h3/data/observations/case_02016.csv",
+    "h3/data/observations/case_02017.csv",
+    "h3/data/observations/case_02018.csv",
+    "h3/data/observations/case_02019.csv",
+    "h3/data/observations/case_02020.csv",
+    "h3/data/observations/case_02021.csv",
+    "h3/data/observations/case_02022.csv",
+    "h3/data/observations/case_02023.csv"
+  ],
+  "scope": "R-level saved evidence only; no raw particles, per-bank arrays, model integration or fitting replay"
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "learned_precision_policy_v1",
+  "frozen_before_scientific_development": true,
+  "plan": "docs/08_research_研究工作/LearnedPrecision_v1_20261016/PLAN.md",
+  "plan_sha256": "c8c75b289a67654e0825cfdc05ecc3db3dc1ad3a061955a8f19871da76ec8b0d",
+  "development_selection": {
+    "measure": "variance_across_R_of_final_quadratic_prediction_coefficient_Q_q2_over_Q_base_on_recomputed_old_coefficient_banks_same_GH36_teacher",
+    "all_six_sym_required": true,
+    "median_ratio_max": 0.5,
+    "maximum_ratio_max": 1.0,
+    "fixed_control_coefficient": 1.0,
+    "no_per_proposal_selection": true
+  },
+  "primary_family": {
+    "D": 12,
+    "independent_normalized_residual": 12,
+    "same_bank_normalized_remainder": 12,
+    "family_size": 36,
+    "alpha": 0.05,
+    "R": 16,
+    "df": 15,
+    "interval": "approximate Bonferroni two-sided t; critical from scipy.stats.t.ppf(1-.05/(2*36),15)",
+    "residual_tolerance": [
+      -0.01,
+      0.01
+    ],
+    "SE": "sample sd across16 paired replicate quantities / sqrt16; preserve actual covariance",
+    "conditional_on_frozen_proposals": true,
+    "old_family24_not_reinterpreted": true
+  },
+  "teacher_numerics": {
+    "primary_outer": 36,
+    "diagnostic_outer": 28,
+    "private_inner": 256,
+    "origin": "same finite GH Cholesky law0 p0 and pmf_gradient; no high-order product-score substitution",
+    "one_rule_check_case": {
+      "rep": 0,
+      "N": 16384,
+      "kind": "sym",
+      "R": 16,
+      "B": 512
+    },
+    "normalized_rule_difference_tolerance": 0.0001,
+    "ordinary_diagnostic_only": true
+  },
+  "new_fits": 0,
+  "new_training": 0,
+  "maximum_fresh_cycles": 1,
+  "all_outputs_retained": true,
+  "stop_even_if_not_all_primary_gates_pass": true
+}

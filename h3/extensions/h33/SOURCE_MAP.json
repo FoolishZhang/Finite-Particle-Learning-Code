@@ -1,0 +1,1350 @@
+{
+  "schema": "h33_public_source_map_v1",
+  "files": [
+    {
+      "target": "h3/extensions/h33/code/budget/active_reference_finite.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/active_reference_finite.py",
+      "source_sha256": "318eb3b9f20ffe40d42333e0643cfe20b266050a08fa6378d6f1942c8bbd83bd",
+      "public_sha256": "318eb3b9f20ffe40d42333e0643cfe20b266050a08fa6378d6f1942c8bbd83bd",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/active_reference_likelihood.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/active_reference_likelihood.py",
+      "source_sha256": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+      "public_sha256": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/active_reference_optimize.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/active_reference_optimize.py",
+      "source_sha256": "60e16b526c4cc802266708862a1bfee219be73b600fbf89f80ee81634e9c0849",
+      "public_sha256": "60e16b526c4cc802266708862a1bfee219be73b600fbf89f80ee81634e9c0849",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/active_reference_run.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/active_reference_run.py",
+      "source_sha256": "0e8d2442dc50238454faad0151f73d808509c0d233352d6bf816d6016ee2b9e7",
+      "public_sha256": "0e8d2442dc50238454faad0151f73d808509c0d233352d6bf816d6016ee2b9e7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/active_reference_sgd.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/active_reference_sgd.py",
+      "source_sha256": "66cfdbb2fdb4cf480ec39dfc8e2041ff94a03b3c8eafef8474d42d677b5c9317",
+      "public_sha256": "66cfdbb2fdb4cf480ec39dfc8e2041ff94a03b3c8eafef8474d42d677b5c9317",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/budget_sensitivity_core.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/budget_sensitivity_core.py",
+      "source_sha256": "d9c44bcd52a584f3b5d578c3148343366f7f029a58c8c2b72c2e5db4d92b02af",
+      "public_sha256": "d9c44bcd52a584f3b5d578c3148343366f7f029a58c8c2b72c2e5db4d92b02af",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/budget_sensitivity_run.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/budget_sensitivity_run.py",
+      "source_sha256": "4b2a8c6422a53ae31f61ddb10009801b681fc0e633d51a11cb9090f088b8caa7",
+      "public_sha256": "4b2a8c6422a53ae31f61ddb10009801b681fc0e633d51a11cb9090f088b8caa7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/competition_core.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/competition_core.py",
+      "source_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "public_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/group_posterior_marginal.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/group_posterior_marginal.py",
+      "source_sha256": "54aad35ecb9dbd1776c6b7d66241476bc1c8d604a10b899831d34ce799897a52",
+      "public_sha256": "54aad35ecb9dbd1776c6b7d66241476bc1c8d604a10b899831d34ce799897a52",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/group_posterior_objective.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/group_posterior_objective.py",
+      "source_sha256": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+      "public_sha256": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/group_posterior_quadratic.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/group_posterior_quadratic.py",
+      "source_sha256": "d0e11986630c036ad47c78bdcab256cf3e58620aa064c8de0b4e479c176beee6",
+      "public_sha256": "d0e11986630c036ad47c78bdcab256cf3e58620aa064c8de0b4e479c176beee6",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/informative_projection.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/informative_projection.py",
+      "source_sha256": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+      "public_sha256": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/selection_finite_core.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/selection_finite_core.py",
+      "source_sha256": "5200fb35e00ebf76088cb799e2b119b207cb79aeddcb7161bc8a0547ac6372d7",
+      "public_sha256": "5200fb35e00ebf76088cb799e2b119b207cb79aeddcb7161bc8a0547ac6372d7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/signal_proposal_core.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/signal_proposal_core.py",
+      "source_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "public_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/teacher_endpoint_core.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/teacher_endpoint_core.py",
+      "source_sha256": "b005d95c34ad81c8a99ad6338f6b32221e65876d76d69b29fe6fc8bc677487b1",
+      "public_sha256": "b005d95c34ad81c8a99ad6338f6b32221e65876d76d69b29fe6fc8bc677487b1",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/teacher_endpoint_training.py",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/SEALED_SOURCE/script/teacher_endpoint_training.py",
+      "source_sha256": "0915fd46f38a96542759af839b6262a997e37913e34072a750cbb0dfcdf400f7",
+      "public_sha256": "0915fd46f38a96542759af839b6262a997e37913e34072a750cbb0dfcdf400f7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/active_reference_likelihood.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/active_reference_likelihood.py",
+      "source_sha256": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+      "public_sha256": "849c6e3651acb12943e0d2173ef54611aa4d11d19c0146171da7eb3cd97dfe5f",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/competition_core.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/competition_core.py",
+      "source_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "public_sha256": "fe7e0cdac91eb37e73b119280984daf410726ded70e13f375ad0796424683ab9",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/group_posterior_objective.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/group_posterior_objective.py",
+      "source_sha256": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+      "public_sha256": "47d3f65bfbe18e0e979667bf81ffc12c3e86be573fbe20497103574c402d5246",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/informative_projection.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/informative_projection.py",
+      "source_sha256": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+      "public_sha256": "cf90385b728b6dcbe0aa33961e752afffec99b04495e1947b1fbfe1f56b73879",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_local_objective.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/learned_local_objective.py",
+      "source_sha256": "f5191292de130cec7fa966878770ba2067477bbf9ad5d0a73aa2a1e403c2d671",
+      "public_sha256": "f5191292de130cec7fa966878770ba2067477bbf9ad5d0a73aa2a1e403c2d671",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_local_proposal.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/learned_local_proposal.py",
+      "source_sha256": "b93ab8948368a41d1b0fd98b6e46ca7ef24bcf2968d31f1294928c05d4dbecc5",
+      "public_sha256": "b93ab8948368a41d1b0fd98b6e46ca7ef24bcf2968d31f1294928c05d4dbecc5",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_local_run.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/learned_local_run.py",
+      "source_sha256": "b2fb824af478fd1b105504c963fffe83f1d6f624a7df7fbd0c1df6e7c0696d95",
+      "public_sha256": "b2fb824af478fd1b105504c963fffe83f1d6f624a7df7fbd0c1df6e7c0696d95",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_core.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/learned_precision_core.py",
+      "source_sha256": "be14d982308ac370503602e9ac610b6ae5b6b077e19613394072a621caab275a",
+      "public_sha256": "be14d982308ac370503602e9ac610b6ae5b6b077e19613394072a621caab275a",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_launch.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/learned_precision_launch.py",
+      "source_sha256": "a297b55b54099cd8cc7614f9ff1bd71c2011db46647bb670c66d0b9a49c9a71a",
+      "public_sha256": "a297b55b54099cd8cc7614f9ff1bd71c2011db46647bb670c66d0b9a49c9a71a",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_run.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/learned_precision_run.py",
+      "source_sha256": "f9432c2bc970dc08fad1b6f696a2fd571aa2241a5ef6cc101218ab6540ecde69",
+      "public_sha256": "f9432c2bc970dc08fad1b6f696a2fd571aa2241a5ef6cc101218ab6540ecde69",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/signal_proposal_core.py",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/SEALED_SOURCE/script/signal_proposal_core.py",
+      "source_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "public_sha256": "f9bf659dc435cb5dd543b70a35220845bf43cd72b7392b86531a5e4aa55d9af7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/budget_sensitivity_analyze.py",
+      "source_id": "script/budget_sensitivity_analyze.py",
+      "source_sha256": "d394a7015faee2b83de2b2d6cebd308e9019af50d6882bca217d8f48e7e5f8da",
+      "public_sha256": "d394a7015faee2b83de2b2d6cebd308e9019af50d6882bca217d8f48e7e5f8da",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/budget_sensitivity_analysis_verify.py",
+      "source_id": "script/budget_sensitivity_analysis_verify.py",
+      "source_sha256": "0157a32b7362c371988e6392a048cbb63b7a83989c83d4c9299a9fcbfdcc675e",
+      "public_sha256": "0157a32b7362c371988e6392a048cbb63b7a83989c83d4c9299a9fcbfdcc675e",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/budget_sensitivity_saved.py",
+      "source_id": "script/budget_sensitivity_saved.py",
+      "source_sha256": "d4d88907601f6e3ebc7cf408abf28e46eec7bcaaa2e92efddc758b599f09bc31",
+      "public_sha256": "d4d88907601f6e3ebc7cf408abf28e46eec7bcaaa2e92efddc758b599f09bc31",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/budget/budget_sensitivity_plot.py",
+      "source_id": "script/budget_sensitivity_plot.py",
+      "source_sha256": "176817c0fd95f4aa68bdc6e4e0e976778a50eb13622a008c37444497d33fce80",
+      "public_sha256": "176817c0fd95f4aa68bdc6e4e0e976778a50eb13622a008c37444497d33fce80",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_analyze.py",
+      "source_id": "research-record/learned_precision_v1_20261016/closing_sources/script/learned_precision_analyze.py",
+      "source_sha256": "fc29afb6666a983f17f1497d478fe8e211da2e37d88755be58750cabbe41b656",
+      "public_sha256": "fc29afb6666a983f17f1497d478fe8e211da2e37d88755be58750cabbe41b656",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_verify.py",
+      "source_id": "research-record/learned_precision_v1_20261016/closing_sources/script/learned_precision_verify.py",
+      "source_sha256": "025deb9df010aeba593919ba2eb955e6010db6dc5861f8874297294e45e4b6e3",
+      "public_sha256": "025deb9df010aeba593919ba2eb955e6010db6dc5861f8874297294e45e4b6e3",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_describe.py",
+      "source_id": "research-record/learned_precision_v1_20261016/closing_sources/script/learned_precision_describe.py",
+      "source_sha256": "d94276acc7ab6bea01b40491ff19915805f82d0d72baf2b8e9f9cdc8aa595236",
+      "public_sha256": "d94276acc7ab6bea01b40491ff19915805f82d0d72baf2b8e9f9cdc8aa595236",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_precision_plot.py",
+      "source_id": "research-record/learned_precision_v1_20261016/closing_sources/script/learned_precision_plot.py",
+      "source_sha256": "42ffc0f3db6c2811a03e7b7002e3aee4f9cf65418783cd6b754739eafe300e7c",
+      "public_sha256": "42ffc0f3db6c2811a03e7b7002e3aee4f9cf65418783cd6b754739eafe300e7c",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_local_analyze.py",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/closing_sources/script/learned_local_analyze.py",
+      "source_sha256": "99827d9b74a4883d45e17fa8a3a60fd83f4d04b4a798864a84f42624cf0b3f71",
+      "public_sha256": "99827d9b74a4883d45e17fa8a3a60fd83f4d04b4a798864a84f42624cf0b3f71",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_local_verify.py",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/closing_sources/script/learned_local_verify.py",
+      "source_sha256": "4e1857b629d76b5f9309fd20c23ed70c12e9e537d9d28c0c8075baec4cdb0eb2",
+      "public_sha256": "4e1857b629d76b5f9309fd20c23ed70c12e9e537d9d28c0c8075baec4cdb0eb2",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/code/learned/learned_local_plot.py",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/closing_sources/script/learned_local_plot.py",
+      "source_sha256": "22893ed1e1b167f4ad9043414ad4dc1e51a289d8c9404e28d08d2a140f5eea87",
+      "public_sha256": "22893ed1e1b167f4ad9043414ad4dc1e51a289d8c9404e28d08d2a140f5eea87",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/SUMMARY.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/analysis_001/SUMMARY.json",
+      "source_sha256": "00ebb47da1c2a33540240735aa7ceb6a08bda673a575e259b35a3349395b26bb",
+      "public_sha256": "00ebb47da1c2a33540240735aa7ceb6a08bda673a575e259b35a3349395b26bb",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 222
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/RISK_ANALYSIS.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/analysis_001/RISK_ANALYSIS.json",
+      "source_sha256": "22824dde67dc022236b198bd8d97c515ae2b8be9035f033502461ee9ba8273d9",
+      "public_sha256": "498c1e56bb6c4523fa156d6178b5bfac112d7f3f293444923543c5c37a69fbdd",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 11226
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/DIAGNOSTICS.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/analysis_001/DIAGNOSTICS.json",
+      "source_sha256": "7d5106e31ba30cdf0501205d00e41a278273da8991bbe2832e9a47ce24428914",
+      "public_sha256": "7d5106e31ba30cdf0501205d00e41a278273da8991bbe2832e9a47ce24428914",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 18046
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/PAIRED_CASES.csv",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/analysis_001/PAIRED_CASES.csv",
+      "source_sha256": "1751e0748016a2215dc4e9abeb40190d8826e6ef8630042cdb8d2e4d701a7dcb",
+      "public_sha256": "1751e0748016a2215dc4e9abeb40190d8826e6ef8630042cdb8d2e4d701a7dcb",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/original_diagnostics/GROUP_COMPONENTS.csv",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/saved_diagnostics_001/GROUP_COMPONENTS.csv",
+      "source_sha256": "117d8801d82f3268ca12c1d4e0760c680b352d7715c33a7315bd41782273bcf8",
+      "public_sha256": "117d8801d82f3268ca12c1d4e0760c680b352d7715c33a7315bd41782273bcf8",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/original_diagnostics/SUMMARY.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/saved_diagnostics_001/SUMMARY.json",
+      "source_sha256": "d85921ee4a71a3fb8190010516fe02c712cf7f8fada2a9b4197c1a75afb424dc",
+      "public_sha256": "d85921ee4a71a3fb8190010516fe02c712cf7f8fada2a9b4197c1a75afb424dc",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 79
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/FIXED_DIAGNOSTICS.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/fixed_diagnostics_001/SUMMARY.json",
+      "source_sha256": "35b3f6fc6014573ee5f66962199311d76ec78ff26d3160d38538687511586993",
+      "public_sha256": "35b3f6fc6014573ee5f66962199311d76ec78ff26d3160d38538687511586993",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 748
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/ANALYSIS_POLICY.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/ANALYSIS_POLICY_001.json",
+      "source_sha256": "98f3a5b13d2b848cbcff7062e9b18628fa373391e935275d2f451a55f06323c7",
+      "public_sha256": "1a69e04ef6c59926209d70b701a4336ff731562a6ddcd419b0760d65bdefaec6",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 41
+    },
+    {
+      "target": "h3/extensions/h33/data/budget/SCIENTIFIC_CONFIG.json",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/h_fit_shard0_001/CONTRACT.json",
+      "source_sha256": "d9669b884a626695f4b8be222884273ded90ef52bc474d0781bdfb6552ac0e7f",
+      "public_sha256": "073d9d3c202a06823427a03cb248344f512490265993e23b3e0cdca88b62291b",
+      "transform": "selected top-level fields then nonnumeric metadata cleanup",
+      "numeric_leaves_preserved": 60
+    },
+    {
+      "target": "h3/extensions/h33/data/training/FROZEN_PROPOSALS.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/FROZEN_PROPOSALS.json",
+      "source_sha256": "01eba0d3877252cf5f17e82fd8ae76a1bda3a2740db996d7dd9971522a3bacdf",
+      "public_sha256": "01eba0d3877252cf5f17e82fd8ae76a1bda3a2740db996d7dd9971522a3bacdf",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 672
+    },
+    {
+      "target": "h3/extensions/h33/data/training/SCIENTIFIC_CONFIG.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/TRAINING_CONTRACT_001.json",
+      "source_sha256": "2751db0c101b823b47fc6b50d8c94326f86203fd066baaf1dede3261a64b49b8",
+      "public_sha256": "7b882afd6f68f25c056ff12bb272538e52186d6433c5f3672187d115f1292ff3",
+      "transform": "selected top-level fields then nonnumeric metadata cleanup",
+      "numeric_leaves_preserved": 15
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_16384/SELECTION.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_16384/SELECTION.json",
+      "source_sha256": "704ad8a948fc653802da0238b92bef553d4471970fe6de4641f81ec199494e3f",
+      "public_sha256": "704ad8a948fc653802da0238b92bef553d4471970fe6de4641f81ec199494e3f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 127
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_16384/TRAIN_PREFIX.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_16384/TRAIN_PREFIX.json",
+      "source_sha256": "194144294a4922b9469fc4f5700ae0d5926c9821751c8984d634b3006e87c5ac",
+      "public_sha256": "194144294a4922b9469fc4f5700ae0d5926c9821751c8984d634b3006e87c5ac",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_16384/PROPOSAL_raw.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_16384/PROPOSAL_raw.json",
+      "source_sha256": "38221722a4ae28fec67a573be081edbe6c186d4cda7a32cadd4941836d45a214",
+      "public_sha256": "38221722a4ae28fec67a573be081edbe6c186d4cda7a32cadd4941836d45a214",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 221
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_16384/PROPOSAL_sym.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_16384/PROPOSAL_sym.json",
+      "source_sha256": "ba735c17898b6009e103dda68eeb5d4378b5be557e96472611b96b5a6f1c5bb7",
+      "public_sha256": "ba735c17898b6009e103dda68eeb5d4378b5be557e96472611b96b5a6f1c5bb7",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 329
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_65536/SELECTION.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_65536/SELECTION.json",
+      "source_sha256": "9ead59d3be1b12087dd075ce6a405c1ba314ae359325b995b0d82988dfb20a31",
+      "public_sha256": "9ead59d3be1b12087dd075ce6a405c1ba314ae359325b995b0d82988dfb20a31",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 127
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_65536/TRAIN_PREFIX.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_65536/TRAIN_PREFIX.json",
+      "source_sha256": "76cbf359835bfff9a94f1c05ced4f7e6387ac32e9000f7945749de41b1507630",
+      "public_sha256": "76cbf359835bfff9a94f1c05ced4f7e6387ac32e9000f7945749de41b1507630",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_65536/PROPOSAL_raw.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_65536/PROPOSAL_raw.json",
+      "source_sha256": "3c62804f506c6ad08e41c4a502b9df300a383dd8247f851ffce40cd1a4d7a471",
+      "public_sha256": "3c62804f506c6ad08e41c4a502b9df300a383dd8247f851ffce40cd1a4d7a471",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 221
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_0/N_65536/PROPOSAL_sym.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_0/N_65536/PROPOSAL_sym.json",
+      "source_sha256": "a7351face5c837c53c648fd16491f2b09aeda85085f91093dcd99e08eaa209e4",
+      "public_sha256": "a7351face5c837c53c648fd16491f2b09aeda85085f91093dcd99e08eaa209e4",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 329
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_16384/SELECTION.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_16384/SELECTION.json",
+      "source_sha256": "e22964e5c6b3e4ff7bd1f462676241db41424567c6ef6e85525d7144ce4d785b",
+      "public_sha256": "e22964e5c6b3e4ff7bd1f462676241db41424567c6ef6e85525d7144ce4d785b",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 127
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_16384/TRAIN_PREFIX.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_16384/TRAIN_PREFIX.json",
+      "source_sha256": "e7304054aa1191e631488b8cae5a6d8c43c0086f5351c9fe144a7cb65b2800e6",
+      "public_sha256": "e7304054aa1191e631488b8cae5a6d8c43c0086f5351c9fe144a7cb65b2800e6",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_16384/PROPOSAL_raw.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_16384/PROPOSAL_raw.json",
+      "source_sha256": "219cc4ada3c57319791221b66968f30fa6b9b9043c5be07d10863651bd1f990f",
+      "public_sha256": "219cc4ada3c57319791221b66968f30fa6b9b9043c5be07d10863651bd1f990f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 221
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_16384/PROPOSAL_sym.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_16384/PROPOSAL_sym.json",
+      "source_sha256": "2c31280070510bb4783df1e667c93de12c6b688511f79aebb82b3dc0d26f2cc8",
+      "public_sha256": "2c31280070510bb4783df1e667c93de12c6b688511f79aebb82b3dc0d26f2cc8",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 329
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_65536/SELECTION.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_65536/SELECTION.json",
+      "source_sha256": "9f7149062810e7f07024d8fe134c4fa3ce97b0539eb353bc46b75d4cf7693fd1",
+      "public_sha256": "9f7149062810e7f07024d8fe134c4fa3ce97b0539eb353bc46b75d4cf7693fd1",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 127
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_65536/TRAIN_PREFIX.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_65536/TRAIN_PREFIX.json",
+      "source_sha256": "76186483e9db52a8f7d304dc37dac3ea0b4592e1ccb275452e9ee654261b97bc",
+      "public_sha256": "76186483e9db52a8f7d304dc37dac3ea0b4592e1ccb275452e9ee654261b97bc",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_65536/PROPOSAL_raw.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_65536/PROPOSAL_raw.json",
+      "source_sha256": "edd5c746dcbce11065beda3b30a83bd1712815ed64e29b59e92c0016f3fda755",
+      "public_sha256": "edd5c746dcbce11065beda3b30a83bd1712815ed64e29b59e92c0016f3fda755",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 221
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_1/N_65536/PROPOSAL_sym.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_1/N_65536/PROPOSAL_sym.json",
+      "source_sha256": "a50199fe422a93bf4b88ced3027cbe335210a45dfe930e9476475b9025eb17cf",
+      "public_sha256": "a50199fe422a93bf4b88ced3027cbe335210a45dfe930e9476475b9025eb17cf",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 329
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_16384/SELECTION.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_16384/SELECTION.json",
+      "source_sha256": "8f30cbf3bb15f3738172f682835a250147fc2d31000cbf76b8aaa136be8590e0",
+      "public_sha256": "8f30cbf3bb15f3738172f682835a250147fc2d31000cbf76b8aaa136be8590e0",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 127
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_16384/TRAIN_PREFIX.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_16384/TRAIN_PREFIX.json",
+      "source_sha256": "d1f543aae9c6b35f53c1895719336081db8af1fe7a2cc864c6403c7cbdbdf676",
+      "public_sha256": "d1f543aae9c6b35f53c1895719336081db8af1fe7a2cc864c6403c7cbdbdf676",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_16384/PROPOSAL_raw.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_16384/PROPOSAL_raw.json",
+      "source_sha256": "a9b4e21f380bbe3bb1e7d57dbcf1960f0476369b4b32949d3af6ae49a18e901f",
+      "public_sha256": "a9b4e21f380bbe3bb1e7d57dbcf1960f0476369b4b32949d3af6ae49a18e901f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 221
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_16384/PROPOSAL_sym.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_16384/PROPOSAL_sym.json",
+      "source_sha256": "6b7bc93fb5f6903aafb693e36c75122757022e36faf0ed9354875c85c85ac85e",
+      "public_sha256": "6b7bc93fb5f6903aafb693e36c75122757022e36faf0ed9354875c85c85ac85e",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 329
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_65536/SELECTION.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_65536/SELECTION.json",
+      "source_sha256": "2a383263ab5752946b6c60836feddd27f3fe6e7d9f743f0140a0f81fc1cf9fd1",
+      "public_sha256": "2a383263ab5752946b6c60836feddd27f3fe6e7d9f743f0140a0f81fc1cf9fd1",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 127
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_65536/TRAIN_PREFIX.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_65536/TRAIN_PREFIX.json",
+      "source_sha256": "2b691af8f97916271581fcce5f8a8c5f6d9a6c41bd3186726569ee1c964dd784",
+      "public_sha256": "2b691af8f97916271581fcce5f8a8c5f6d9a6c41bd3186726569ee1c964dd784",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_65536/PROPOSAL_raw.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_65536/PROPOSAL_raw.json",
+      "source_sha256": "dfff661a6a7d051e016cddc64478dfbd496853fe0fe0cebd9a16bd23187e6314",
+      "public_sha256": "dfff661a6a7d051e016cddc64478dfbd496853fe0fe0cebd9a16bd23187e6314",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 221
+    },
+    {
+      "target": "h3/extensions/h33/data/training/rep_2/N_65536/PROPOSAL_sym.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/training_001/rep_2/N_65536/PROPOSAL_sym.json",
+      "source_sha256": "5495452bd0ec420d65be6df5675dfe7e0e03bfba91c7ea0815d2296c9123e01e",
+      "public_sha256": "5495452bd0ec420d65be6df5675dfe7e0e03bfba91c7ea0815d2296c9123e01e",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 329
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/ANALYSIS.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/analysis_001/ANALYSIS.json",
+      "source_sha256": "2cbbbb4634e293649fec74706a3dc44bb05b87dead5a60bb297701f683ed1a17",
+      "public_sha256": "5fd8340ed43e34ccacff7a8c283258ec39da67533250dbef71ac240d052aeec3",
+      "transform": "selected top-level scientific fields; omit18 explicit nested management contract/record objects; nonnumeric metadata cleanup",
+      "numeric_leaves_preserved": 59402,
+      "omitted_nested_management_paths": [
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          0,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          0,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          1,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          1,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          2,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          2,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          3,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          3,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          4,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          4,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          5,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          5,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          6,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          6,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          7,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          7,
+          "record"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          8,
+          "contract"
+        ],
+        [
+          "summary",
+          "costs",
+          "producer_provenance",
+          8,
+          "record"
+        ]
+      ]
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/PRIMARY_CELLS.csv",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/analysis_001/PRIMARY_CELLS.csv",
+      "source_sha256": "949b8e8e29a39c36a077ce2cf1e3015cd1bb906783bdc257a47e68252a6be3ee",
+      "public_sha256": "949b8e8e29a39c36a077ce2cf1e3015cd1bb906783bdc257a47e68252a6be3ee",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/RAW_CELLS.csv",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/analysis_001/RAW_CELLS.csv",
+      "source_sha256": "e193ba49bbbcae4b031e545ab4a5f78657afd7cb6dee93ffe8e240992a66d641",
+      "public_sha256": "e193ba49bbbcae4b031e545ab4a5f78657afd7cb6dee93ffe8e240992a66d641",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/COEFFICIENT_CELLS.csv",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/analysis_001/COEFFICIENT_CELLS.csv",
+      "source_sha256": "f26720b9cd2e3c16c0d4681c47dca61b248756117cb73e8e154650d37a957664",
+      "public_sha256": "f26720b9cd2e3c16c0d4681c47dca61b248756117cb73e8e154650d37a957664",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/ANALYSIS_POLICY.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/ANALYSIS_POLICY_001.json",
+      "source_sha256": "3c8f9800e3146dbc41c5fd897a8b9954776a11149399fcdff42ced9f5c7d8dad",
+      "public_sha256": "ceac7597e06015c084fdecb24d122f3052620090f125b830e96160579f604722",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 23
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/FROZEN_PREDICTIONS.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/FROZEN_PREDICTIONS_001.json",
+      "source_sha256": "13ea9bc89b8697ac2830e818227c69ee8204a10140969c1d71b702cafe071cd3",
+      "public_sha256": "13ea9bc89b8697ac2830e818227c69ee8204a10140969c1d71b702cafe071cd3",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 3282
+    },
+    {
+      "target": "h3/extensions/h33/data/previous/COEFFICIENTS_FROZEN.json",
+      "source_id": "research-record/learned_local_proposal_v1_20261016/COEFFICIENTS_FROZEN_001.json",
+      "source_sha256": "42f41fdf0f1870efe8c494ec6b06d7c5650f715164b25a939bbca9817b594a14",
+      "public_sha256": "42f41fdf0f1870efe8c494ec6b06d7c5650f715164b25a939bbca9817b594a14",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 39
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/ANALYSIS_001.json",
+      "source_id": "research-record/learned_precision_v1_20261016/ANALYSIS_001.json",
+      "source_sha256": "cb255b310d57dea90919dd7de8ed874a1e71aa8d10fb6adfb18db95b61269203",
+      "public_sha256": "cb255b310d57dea90919dd7de8ed874a1e71aa8d10fb6adfb18db95b61269203",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1685
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/ANALYSIS_POLICY_001.json",
+      "source_id": "research-record/learned_precision_v1_20261016/ANALYSIS_POLICY_001.json",
+      "source_sha256": "49789aca42a5c6624f8d981fa4c63be5ec75adeb02f2f7633ce6ee9c430bd2bf",
+      "public_sha256": "544e1ca31549b0da2f0bd2ab28a9d1f4fed152fbfdd16de60c8684bf569df9fe",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 23
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/RULE_POLICY_001.json",
+      "source_id": "research-record/learned_precision_v1_20261016/RULE_POLICY_001.json",
+      "source_sha256": "1dc3e565cb8c56e99fa9ffd5754146ac17d8e5ff57f861dddf9ce3d327a71243",
+      "public_sha256": "c3e12b76f3db7f7c48b5e36190fdbec30b98ddbf7f1044f0254b0563cef9e3b8",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 7
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/DEVELOPMENT_DECISION_001.json",
+      "source_id": "research-record/learned_precision_v1_20261016/DEVELOPMENT_DECISION_001.json",
+      "source_sha256": "1ea0cfff6a7703a9f8252623623fc37400c75d1d8ad29fac18950b737e779bdd",
+      "public_sha256": "1ea0cfff6a7703a9f8252623623fc37400c75d1d8ad29fac18950b737e779bdd",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1845
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/COEFFICIENTS_AND_PREDICTIONS_FROZEN_001.json",
+      "source_id": "research-record/learned_precision_v1_20261016/COEFFICIENTS_AND_PREDICTIONS_FROZEN_001.json",
+      "source_sha256": "fa8c9d173be531bc7b8359262ac4942d2279340aa66786a1c79557c4581f6e7b",
+      "public_sha256": "fa8c9d173be531bc7b8359262ac4942d2279340aa66786a1c79557c4581f6e7b",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 942
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/DESCRIPTIVE_SUMMARY_001.json",
+      "source_id": "research-record/learned_precision_v1_20261016/DESCRIPTIVE_SUMMARY_001.json",
+      "source_sha256": "32d93651a4b0760e838d3989efcdd171924e86983dbe80c2403de9e2d6b92fcf",
+      "public_sha256": "f287c64c6fbd4d170b2bd391535ef2abbe25d83dbf73f4900ba7ef2b5d1adab3",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 2293
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/PRIMARY_CELLS.csv",
+      "source_id": "research-record/learned_precision_v1_20261016/PRIMARY_CELLS.csv",
+      "source_sha256": "31ddd87fed3557c17d6ac6f2b9211aeaf95b1e5a52cfe48d04e3247712cd37d9",
+      "public_sha256": "31ddd87fed3557c17d6ac6f2b9211aeaf95b1e5a52cfe48d04e3247712cd37d9",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/coefficients_rep0/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "c5259b9b7ffcfc7b1efdcc14cdb427ab9a16e381bf9d716d33720207f9a72ed0",
+      "public_sha256": "c5259b9b7ffcfc7b1efdcc14cdb427ab9a16e381bf9d716d33720207f9a72ed0",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/coefficients_rep0/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "18301381e5a212349abe9f48e7cfd26fc257e783898a69a4db7c3e93235bbe86",
+      "public_sha256": "18301381e5a212349abe9f48e7cfd26fc257e783898a69a4db7c3e93235bbe86",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/coefficients_rep1/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep1_001/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "06859bc926517126a41217e6b0769e6baf0df5c0f1ad1357507a705e54c7fe9c",
+      "public_sha256": "06859bc926517126a41217e6b0769e6baf0df5c0f1ad1357507a705e54c7fe9c",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/coefficients_rep1/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep1_001/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "8266fe4570adb8d517d8fc3ac8619dc966950f5e9d9198af4b6447181d7d75ab",
+      "public_sha256": "8266fe4570adb8d517d8fc3ac8619dc966950f5e9d9198af4b6447181d7d75ab",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/coefficients_rep2/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep2_001/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "035d66f60e06272cd3f1b7ce53c170111c7d6a31d3b58d8a56f54819dbbb6383",
+      "public_sha256": "035d66f60e06272cd3f1b7ce53c170111c7d6a31d3b58d8a56f54819dbbb6383",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/coefficients_rep2/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep2_001/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "295d258e356b4636c47322e18fc114f1d73e6da9153c1c7ae5db5dacc8d3ec56",
+      "public_sha256": "295d258e356b4636c47322e18fc114f1d73e6da9153c1c7ae5db5dacc8d3ec56",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "a827c0087ee3fbb952f7836b0a25aabd58c6bd3963eb2057dddbbb793f43db12",
+      "public_sha256": "a827c0087ee3fbb952f7836b0a25aabd58c6bd3963eb2057dddbbb793f43db12",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/CONTRAST_t0p1.json",
+      "source_sha256": "4589fafbbbeb5b83e4b92c4a6eacd0655aaf6e9004c1ffd3239863b3b08bcd1e",
+      "public_sha256": "4589fafbbbeb5b83e4b92c4a6eacd0655aaf6e9004c1ffd3239863b3b08bcd1e",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/CONTRAST_t0p2.json",
+      "source_sha256": "1eb532239129ed7f1e11b34f1f53add70e9bb5c009f411152c6f20c511a6d8ab",
+      "public_sha256": "1eb532239129ed7f1e11b34f1f53add70e9bb5c009f411152c6f20c511a6d8ab",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/GH28/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "8a343f7f7dbacc89297d7e08378563bd06d4634b93aee69310d1aec03f85bea7",
+      "public_sha256": "8a343f7f7dbacc89297d7e08378563bd06d4634b93aee69310d1aec03f85bea7",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/GH28/CONTRAST_t0p1.json",
+      "source_sha256": "9d5403df27b116554f815dd644d46f4b37d1ab49cb6fc8a50b95708d6dda1bbe",
+      "public_sha256": "9d5403df27b116554f815dd644d46f4b37d1ab49cb6fc8a50b95708d6dda1bbe",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/GH28/CONTRAST_t0p2.json",
+      "source_sha256": "7f55b20d5928d97b4c0b177b5951395d5a140a474615d092d93461f44795a0a8",
+      "public_sha256": "7f55b20d5928d97b4c0b177b5951395d5a140a474615d092d93461f44795a0a8",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/GH28/REMAINDER_t0p1.json",
+      "source_sha256": "619ecaac545cb248b2926008cada9e3afa880e6958eecbe2ff6d06789830aa0b",
+      "public_sha256": "619ecaac545cb248b2926008cada9e3afa880e6958eecbe2ff6d06789830aa0b",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/GH28/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/GH28/REMAINDER_t0p2.json",
+      "source_sha256": "5b3952931cc3985b9298f2d2208541f0949b53028311a147b65c372e5b06f6a4",
+      "public_sha256": "5b3952931cc3985b9298f2d2208541f0949b53028311a147b65c372e5b06f6a4",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/INDEPENDENT_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/INDEPENDENT_t0p1.json",
+      "source_sha256": "25852fffb78bea987978bc50be977835ec1e797267348b71b52505fa98190072",
+      "public_sha256": "25852fffb78bea987978bc50be977835ec1e797267348b71b52505fa98190072",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/INDEPENDENT_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/INDEPENDENT_t0p2.json",
+      "source_sha256": "04d5668aea1a22e4d2fda2e02355168b13713f3f2c7801074760c0b219d3b6ee",
+      "public_sha256": "04d5668aea1a22e4d2fda2e02355168b13713f3f2c7801074760c0b219d3b6ee",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/REMAINDER_t0p1.json",
+      "source_sha256": "76f7bc3d1f3fe7117e79bd92d3822cae3b6d23eded3ae03593c3ba574df5ca85",
+      "public_sha256": "76f7bc3d1f3fe7117e79bd92d3822cae3b6d23eded3ae03593c3ba574df5ca85",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/REMAINDER_t0p2.json",
+      "source_sha256": "26f8346915c2545b159c313896dabea2a1655e9030d538757f4a1598c8cae61f",
+      "public_sha256": "26f8346915c2545b159c313896dabea2a1655e9030d538757f4a1598c8cae61f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N16384_sym/RULE_ORDER_COMPARISON.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N16384_sym/RULE_ORDER_COMPARISON.json",
+      "source_sha256": "fa09a540daedc107ffe1398cc8d17a00d29f1e8d53b68512824e8df3e60851a9",
+      "public_sha256": "fa09a540daedc107ffe1398cc8d17a00d29f1e8d53b68512824e8df3e60851a9",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 88
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "9c579a7446cecae18f4ad084aa0857e6913ec9b17a944111fab9bdadeaee2d2f",
+      "public_sha256": "9c579a7446cecae18f4ad084aa0857e6913ec9b17a944111fab9bdadeaee2d2f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/CONTRAST_t0p1.json",
+      "source_sha256": "378375304d4bd3107204be886a53eb1a32e1202922a6552740bca32e03cc6dce",
+      "public_sha256": "378375304d4bd3107204be886a53eb1a32e1202922a6552740bca32e03cc6dce",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/CONTRAST_t0p2.json",
+      "source_sha256": "e02d6063e3d8142bdec26b3865b44c5efeaf87edb5c9eca8e4ab2df3c4151041",
+      "public_sha256": "e02d6063e3d8142bdec26b3865b44c5efeaf87edb5c9eca8e4ab2df3c4151041",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/INDEPENDENT_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/INDEPENDENT_t0p1.json",
+      "source_sha256": "b767cca5da86cefbd2a49ad5330f36cb186456b4d0aba5d007a9f1b0d1e7b1b9",
+      "public_sha256": "b767cca5da86cefbd2a49ad5330f36cb186456b4d0aba5d007a9f1b0d1e7b1b9",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/INDEPENDENT_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/INDEPENDENT_t0p2.json",
+      "source_sha256": "4a1664c2ac70dafc09bfc9976e700493ec1bf19243fe1d39cc5048b680d546e0",
+      "public_sha256": "4a1664c2ac70dafc09bfc9976e700493ec1bf19243fe1d39cc5048b680d546e0",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/REMAINDER_t0p1.json",
+      "source_sha256": "f8355543d87b2f347e45d899cc009fbbdf51a652b787e630ee2bf1009a6f4cab",
+      "public_sha256": "f8355543d87b2f347e45d899cc009fbbdf51a652b787e630ee2bf1009a6f4cab",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep0/rep_0_N65536_sym/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/rep_0_N65536_sym/REMAINDER_t0p2.json",
+      "source_sha256": "234c872cfa58c0d73edc273114f75a141a99a3ae741b87a95004082c58c56862",
+      "public_sha256": "234c872cfa58c0d73edc273114f75a141a99a3ae741b87a95004082c58c56862",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "85e0d24b3e09507b7b6ddb08c271dca3d9cc6c477c6fe95f6cd8aa3bf8b0e949",
+      "public_sha256": "85e0d24b3e09507b7b6ddb08c271dca3d9cc6c477c6fe95f6cd8aa3bf8b0e949",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/CONTRAST_t0p1.json",
+      "source_sha256": "9ad28759e9cf90978d55b8372566471b5f7347976e083777a3fea34f9d8c49dd",
+      "public_sha256": "9ad28759e9cf90978d55b8372566471b5f7347976e083777a3fea34f9d8c49dd",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/CONTRAST_t0p2.json",
+      "source_sha256": "87d9bad6a6464ddc2843ba9ae063095e65c95977fda47715a8e0742e130d310d",
+      "public_sha256": "87d9bad6a6464ddc2843ba9ae063095e65c95977fda47715a8e0742e130d310d",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/INDEPENDENT_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/INDEPENDENT_t0p1.json",
+      "source_sha256": "0c61f42b298f50ee7ef24465d38a924ecaaf1210ebc97c06e91c7289df50838f",
+      "public_sha256": "0c61f42b298f50ee7ef24465d38a924ecaaf1210ebc97c06e91c7289df50838f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/INDEPENDENT_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/INDEPENDENT_t0p2.json",
+      "source_sha256": "2f0b867175f38d01b56a1f675a4105bad8d708946f2cdcb409ca1b18a5624ba5",
+      "public_sha256": "2f0b867175f38d01b56a1f675a4105bad8d708946f2cdcb409ca1b18a5624ba5",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/REMAINDER_t0p1.json",
+      "source_sha256": "a896407ba2d677e3b9bc6c7450fade99889170602069d78d90aa052783d4a16e",
+      "public_sha256": "a896407ba2d677e3b9bc6c7450fade99889170602069d78d90aa052783d4a16e",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N16384_sym/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N16384_sym/REMAINDER_t0p2.json",
+      "source_sha256": "8b285ffb51f091ff3a5b21e8ab66438895921f1cfdf4e23ed8ecc4d9938595a8",
+      "public_sha256": "8b285ffb51f091ff3a5b21e8ab66438895921f1cfdf4e23ed8ecc4d9938595a8",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "2646baef0243a39e95b8dd252e44684dd50723f4feeae5d06afa514d2793442c",
+      "public_sha256": "2646baef0243a39e95b8dd252e44684dd50723f4feeae5d06afa514d2793442c",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/CONTRAST_t0p1.json",
+      "source_sha256": "534a701f3d404ccc65d7c7dcdfe469a4279ea936cb9dbe6bd968ce9ff932c2cf",
+      "public_sha256": "534a701f3d404ccc65d7c7dcdfe469a4279ea936cb9dbe6bd968ce9ff932c2cf",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/CONTRAST_t0p2.json",
+      "source_sha256": "6fa3614a04e6da6828982d4f6e2cce7da85bec96638c2a5f4e4a10234938ec6f",
+      "public_sha256": "6fa3614a04e6da6828982d4f6e2cce7da85bec96638c2a5f4e4a10234938ec6f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/INDEPENDENT_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/INDEPENDENT_t0p1.json",
+      "source_sha256": "8d6812d08799e190a773c8ef5d53c55cb815e88a1d68777da82e121e3685faf1",
+      "public_sha256": "8d6812d08799e190a773c8ef5d53c55cb815e88a1d68777da82e121e3685faf1",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/INDEPENDENT_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/INDEPENDENT_t0p2.json",
+      "source_sha256": "2fb21e84acff779326edc976703bcae042e76616c707d8680abff176b62ea991",
+      "public_sha256": "2fb21e84acff779326edc976703bcae042e76616c707d8680abff176b62ea991",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/REMAINDER_t0p1.json",
+      "source_sha256": "fb78cc446d4da8ad1bfff240fe5f2d96058763a276210a17e6e5c16e76cad703",
+      "public_sha256": "fb78cc446d4da8ad1bfff240fe5f2d96058763a276210a17e6e5c16e76cad703",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep1/rep_1_N65536_sym/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep1_001/rep_1_N65536_sym/REMAINDER_t0p2.json",
+      "source_sha256": "aa491a81747fdd1a6439e41c523d3e0fb03d79199c6931cf9436a5e4d09d3dd1",
+      "public_sha256": "aa491a81747fdd1a6439e41c523d3e0fb03d79199c6931cf9436a5e4d09d3dd1",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "9e89ebc00492ea4a4553f515a7f6be1a5dd65b2d731e94acd64411031e403ad8",
+      "public_sha256": "9e89ebc00492ea4a4553f515a7f6be1a5dd65b2d731e94acd64411031e403ad8",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/CONTRAST_t0p1.json",
+      "source_sha256": "225494bb4fe7d302bd9a6ad2c8ee6eb851d77ad68aa9b1e8ba1de659d6ed255f",
+      "public_sha256": "225494bb4fe7d302bd9a6ad2c8ee6eb851d77ad68aa9b1e8ba1de659d6ed255f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/CONTRAST_t0p2.json",
+      "source_sha256": "749a99abf1fc7e2285973bf67f1b6f90ab9c503a99c752f241c5b3aa8eb020bb",
+      "public_sha256": "749a99abf1fc7e2285973bf67f1b6f90ab9c503a99c752f241c5b3aa8eb020bb",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/INDEPENDENT_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/INDEPENDENT_t0p1.json",
+      "source_sha256": "edb1f42a1a380119484293a8d41c0aeca8c10700113d0466fffb8cc088d63e0d",
+      "public_sha256": "edb1f42a1a380119484293a8d41c0aeca8c10700113d0466fffb8cc088d63e0d",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/INDEPENDENT_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/INDEPENDENT_t0p2.json",
+      "source_sha256": "ad2d7d0209c9a116253b00b60ad7b581129f65e78682b1e0387cec0fb34db3b3",
+      "public_sha256": "ad2d7d0209c9a116253b00b60ad7b581129f65e78682b1e0387cec0fb34db3b3",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/REMAINDER_t0p1.json",
+      "source_sha256": "c772c8f943a39fab91eaa8d847c958e1008673019b9468ca07c8791ae115c54a",
+      "public_sha256": "c772c8f943a39fab91eaa8d847c958e1008673019b9468ca07c8791ae115c54a",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N16384_sym/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N16384_sym/REMAINDER_t0p2.json",
+      "source_sha256": "04c67a842e4f0b41e51b7618662f84aaedf33ed67863a2fd7d2157cda15496c7",
+      "public_sha256": "04c67a842e4f0b41e51b7618662f84aaedf33ed67863a2fd7d2157cda15496c7",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/COEFFICIENT_STATISTICS.json",
+      "source_sha256": "933af13657f2570413aab8823a90af01120a680371888555c5d23872d857469b",
+      "public_sha256": "933af13657f2570413aab8823a90af01120a680371888555c5d23872d857469b",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1653
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/CONTRAST_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/CONTRAST_t0p1.json",
+      "source_sha256": "9dfd58a70a421ba3cbac6f4b3eb5c6b0c5a7132938d14a613c926643402915db",
+      "public_sha256": "9dfd58a70a421ba3cbac6f4b3eb5c6b0c5a7132938d14a613c926643402915db",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/CONTRAST_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/CONTRAST_t0p2.json",
+      "source_sha256": "462e9b234d347c81bb5ba3ffca7e817edb91b0b98195b731855d9f0460fc7eff",
+      "public_sha256": "462e9b234d347c81bb5ba3ffca7e817edb91b0b98195b731855d9f0460fc7eff",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 323
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/INDEPENDENT_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/INDEPENDENT_t0p1.json",
+      "source_sha256": "06ae47a2e978457a2826d5a5747af4a5a2220ccb9e2ed3fcd523a09995f14a64",
+      "public_sha256": "06ae47a2e978457a2826d5a5747af4a5a2220ccb9e2ed3fcd523a09995f14a64",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/INDEPENDENT_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/INDEPENDENT_t0p2.json",
+      "source_sha256": "19952b07594242743b6ef0b616910f9d136d443883a1e26ae54a9b11b2d27c7f",
+      "public_sha256": "19952b07594242743b6ef0b616910f9d136d443883a1e26ae54a9b11b2d27c7f",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 150
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/REMAINDER_t0p1.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/REMAINDER_t0p1.json",
+      "source_sha256": "c4f0c118478918c4b14bdea016df64e54b6350dac5f66ae4ba513c38932b45b2",
+      "public_sha256": "c4f0c118478918c4b14bdea016df64e54b6350dac5f66ae4ba513c38932b45b2",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/validation_rep2/rep_2_N65536_sym/REMAINDER_t0p2.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep2_001/rep_2_N65536_sym/REMAINDER_t0p2.json",
+      "source_sha256": "5c01a575764aecdc41aae5eb3cd25a1f066f587ca7caae274c31b86ed0957a17",
+      "public_sha256": "5c01a575764aecdc41aae5eb3cd25a1f066f587ca7caae274c31b86ed0957a17",
+      "transform": "nonnumeric metadata cleanup; every numerical leaf preserved",
+      "numeric_leaves_preserved": 1270
+    },
+    {
+      "target": "h3/extensions/h33/figures/budget/paired_budget.png",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/figures_001/paired_budget.png",
+      "source_sha256": "8261eb8acda4ae323216fe080d8281a64456e7cdbafbac27d1c647e625680eef",
+      "public_sha256": "8261eb8acda4ae323216fe080d8281a64456e7cdbafbac27d1c647e625680eef",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/figures/budget/paired_budget.svg",
+      "source_id": "research-record/budget_sensitivity_v1_20261016/figures_001/paired_budget.svg",
+      "source_sha256": "15f3d1dbe6999dc5101efcd71537df3b1ac42863cef150ceec4c6db83c93a23a",
+      "public_sha256": "15f3d1dbe6999dc5101efcd71537df3b1ac42863cef150ceec4c6db83c93a23a",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/figures/precision/precision_and_remainder.png",
+      "source_id": "research-record/learned_precision_v1_20261016/figures_002/precision_and_remainder.png",
+      "source_sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+      "public_sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/figures/precision/precision_and_remainder.svg",
+      "source_id": "research-record/learned_precision_v1_20261016/figures_002/precision_and_remainder.svg",
+      "source_sha256": "df866143aba0261976a45feb2ef615e7cd5aa5b8d0b57675cb1db89ef85fcc56",
+      "public_sha256": "df866143aba0261976a45feb2ef615e7cd5aa5b8d0b57675cb1db89ef85fcc56",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/README.md",
+      "source_id": "public-interface/README.md",
+      "source_sha256": "e22831b75ada6dd3d05462f01b6182a2c7ff85502d09b0835bead07d8808a9fd",
+      "public_sha256": "e22831b75ada6dd3d05462f01b6182a2c7ff85502d09b0835bead07d8808a9fd",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/README_ZH.md",
+      "source_id": "public-interface/README_ZH.md",
+      "source_sha256": "3892d93e4d0703cd7d36181daecbd5ba201c49b7f4d562f6dbefb431268cd0f0",
+      "public_sha256": "3892d93e4d0703cd7d36181daecbd5ba201c49b7f4d562f6dbefb431268cd0f0",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/requirements.txt",
+      "source_id": "public-interface/requirements.txt",
+      "source_sha256": "3f989a068ae9aa23e2eabc6f06189dcdad7ad98abccdb85971eba71d0a209a36",
+      "public_sha256": "3f989a068ae9aa23e2eabc6f06189dcdad7ad98abccdb85971eba71d0a209a36",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/tools/check.py",
+      "source_id": "public-interface/check.py",
+      "source_sha256": "acd2086ef6ae767271023f7631c515a5e81f194780fe731a1c78c2d15df0a36f",
+      "public_sha256": "acd2086ef6ae767271023f7631c515a5e81f194780fe731a1c78c2d15df0a36f",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/tools/plot.py",
+      "source_id": "public-interface/plot.py",
+      "source_sha256": "21aa3bd1b4dc8d6e535c65b4d1bc9810136c536442107d1bc714ae2404143ed1",
+      "public_sha256": "21aa3bd1b4dc8d6e535c65b4d1bc9810136c536442107d1bc714ae2404143ed1",
+      "transform": "byte-for-byte copy",
+      "numeric_leaves_preserved": 0
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/COEFFICIENTS_CONFIG.json",
+      "source_id": "research-record/learned_precision_v1_20261016/coefficients_rep0_001/CONTRACT.json",
+      "source_sha256": "697076931bcfd9a78bbd702690def6eaf478d596e34d5577cd55fd4aa1531df3",
+      "public_sha256": "1de91c74111543b5e9d71a689f2341cba4ec4a48bd66ee0f2b20702ac97b1099",
+      "transform": "explicit scientific configuration field projection",
+      "numeric_leaves_preserved": 21
+    },
+    {
+      "target": "h3/extensions/h33/data/precision/VALIDATION_CONFIG.json",
+      "source_id": "research-record/learned_precision_v1_20261016/validation_rep0_001/CONTRACT.json",
+      "source_sha256": "a3201b7eae61f39a58f729650b3e61178a4e95347b41d1e81bf8e7dea2f518cb",
+      "public_sha256": "f58aa8213921a8797d519a3e21409ea7ee212fb0b13c0d5fe1ab12dc7482bde7",
+      "transform": "explicit scientific configuration field projection",
+      "numeric_leaves_preserved": 21
+    }
+  ],
+  "scope": "Selected frozen source identities and lossless numerical projections; historical source identifiers are not public download paths."
+}

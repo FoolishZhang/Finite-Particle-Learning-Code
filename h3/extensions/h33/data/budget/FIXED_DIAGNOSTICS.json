@@ -1,0 +1,1591 @@
+{
+  "schema": "local_shrinkage_budget_sensitivity_v1",
+  "phase": "fixed_diagnostics",
+  "status": "completed",
+  "case_ids": [
+    2000,
+    2001
+  ],
+  "results": [
+    {
+      "case_id": 2000,
+      "pattern_count": 1091,
+      "FIT_BANKS": [
+        {
+          "point": {
+            "case_id": 2000,
+            "cell_id": "strong_N2048",
+            "replicate": 0,
+            "N": 2048,
+            "point_id": "P0_group8_init0",
+            "method": "group8",
+            "initialization_index": 0,
+            "coordinates": [
+              0.08224623158765851,
+              0.07791371871252463,
+              -0.02057586743948985
+            ],
+            "C": [
+              [
+                1.0,
+                0.08224623158765851,
+                0.07791371871252463
+              ],
+              [
+                0.08224623158765851,
+                1.0,
+                -0.02057586743948985
+              ],
+              [
+                0.07791371871252463,
+                -0.02057586743948985,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 7.085942079626539e-09,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.4311875686338915,
+            "gradient": [
+              2.661961754634747e-09,
+              3.7542482427468525e-09,
+              7.0859420889100204e-09
+            ],
+            "gradient_scramble_SE": [
+              0.00016671585165147767,
+              4.856033634684624e-05,
+              6.342370624063048e-05
+            ],
+            "projected_mapping": {
+              "mapping": [
+                2.6619617482515068e-09,
+                3.754248245613212e-09,
+                7.08594209003488e-09
+              ],
+              "norm_inf": 7.08594209003488e-09,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 0.00016671585165147767,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": false,
+            "composite_diagnostic_pass": false,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.4311875686338915,
+              "gradient": [
+                2.661961754634747e-09,
+                3.7542482427468525e-09,
+                7.0859420889100204e-09
+              ],
+              "gradient_scramble_SE": [
+                0.00016671585165147767,
+                4.856033634684624e-05,
+                6.342370624063048e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  2.6619617482515068e-09,
+                  3.754248245613212e-09,
+                  7.08594209003488e-09
+                ],
+                "norm_inf": 7.08594209003488e-09,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00016671585165147767,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.43118756863389,
+              "gradient": [
+                2.661961977140138e-09,
+                3.754248292186472e-09,
+                7.085942159721975e-09
+              ],
+              "gradient_scramble_SE": [
+                0.00016671585165147767,
+                4.856033634684624e-05,
+                6.342370624063048e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  2.6619619702961117e-09,
+                  3.7542482872465754e-09,
+                  7.085942159423819e-09
+                ],
+                "norm_inf": 7.085942159423819e-09,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00016671585165147767,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7497108894484796e-15,
+              "gradient_shift": [
+                2.2251789335178706e-16,
+                4.944216077560772e-17,
+                7.08163177236399e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.4311875686338915,
+              "gradient": [
+                2.661962077022263e-09,
+                3.754248366942211e-09,
+                7.08594214714523e-09
+              ],
+              "gradient_scramble_SE": [
+                0.00016671585165147767,
+                4.856033634684624e-05,
+                6.342370624063048e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  2.661962081318414e-09,
+                  3.754248370513302e-09,
+                  7.085942145546031e-09
+                ],
+                "norm_inf": 7.085942145546031e-09,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00016671585165147767,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 3.553501325879006e-17,
+              "gradient_shift": [
+                3.2237688898153875e-16,
+                1.2419853499036623e-16,
+                5.824096098511307e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ],
+          "full_recompute_verification": {
+            "case_id": 2000,
+            "point_id": "P0_group8_init0",
+            "bank": "FIT_BANKS",
+            "outer_order": 384,
+            "absolute_errors": {
+              "value": 0.0,
+              "gradient_max": 4.3808544031992414e-16,
+              "replicate_value_max": 8.881784197001252e-16,
+              "replicate_gradient_max": 4.3869530404194723e-16,
+              "gradient_SE_max": 3.1848438816761693e-18
+            },
+            "absolute_tolerance": 1e-11,
+            "passed": true,
+            "same_original_particles": true,
+            "full_recomputation_uses_separate_prepared_object": true,
+            "scope": "identity_of_two_finite_numerical_computations_not_true_moment_accuracy"
+          }
+        },
+        {
+          "point": {
+            "case_id": 2000,
+            "cell_id": "strong_N2048",
+            "replicate": 0,
+            "N": 2048,
+            "point_id": "P0_group8_init1",
+            "method": "group8",
+            "initialization_index": 1,
+            "coordinates": [
+              0.08224630285550606,
+              0.07791374688154003,
+              -0.02057598541962565
+            ],
+            "C": [
+              [
+                1.0,
+                0.08224630285550606,
+                0.07791374688154003
+              ],
+              [
+                0.08224630285550606,
+                1.0,
+                -0.02057598541962565
+              ],
+              [
+                0.07791374688154003,
+                -0.02057598541962565,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 1.5977340533934736e-08,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.4311875686338915,
+            "gradient": [
+              1.5977340538691673e-08,
+              9.101749556262564e-09,
+              -1.4047199078389512e-08
+            ],
+            "gradient_scramble_SE": [
+              0.00016671617988900928,
+              4.8560564908799984e-05,
+              6.34238177382754e-05
+            ],
+            "projected_mapping": {
+              "mapping": [
+                1.5977340533934736e-08,
+                9.101749562367978e-09,
+                -1.4047199077549255e-08
+              ],
+              "norm_inf": 1.5977340533934736e-08,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 0.00016671617988900928,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": false,
+            "composite_diagnostic_pass": false,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.4311875686338915,
+              "gradient": [
+                1.5977340538691673e-08,
+                9.101749556262564e-09,
+                -1.4047199078389512e-08
+              ],
+              "gradient_scramble_SE": [
+                0.00016671617988900928,
+                4.8560564908799984e-05,
+                6.34238177382754e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  1.5977340533934736e-08,
+                  9.101749562367978e-09,
+                  -1.4047199077549255e-08
+                ],
+                "norm_inf": 1.5977340533934736e-08,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00016671617988900928,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.43118756863389,
+              "gradient": [
+                1.5977340761197064e-08,
+                9.101749605702183e-09,
+                -1.4047199007577557e-08
+              ],
+              "gradient_scramble_SE": [
+                0.00016671617988900928,
+                4.8560564908799984e-05,
+                6.34238177382754e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  1.597734075597934e-08,
+                  9.101749604001341e-09,
+                  -1.4047199008160316e-08
+                ],
+                "norm_inf": 1.597734075597934e-08,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00016671617988900928,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7497108804831322e-15,
+              "gradient_shift": [
+                2.225177469794966e-16,
+                4.944192898989341e-17,
+                7.081652289326855e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.4311875686338915,
+              "gradient": [
+                1.597734086107919e-08,
+                9.101749680457923e-09,
+                -1.4047199020154303e-08
+              ],
+              "gradient_scramble_SE": [
+                0.00016671617988900928,
+                4.8560564908799984e-05,
+                6.34238177382754e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  1.5977340867001644e-08,
+                  9.101749687268068e-09,
+                  -1.4047199018568657e-08
+                ],
+                "norm_inf": 1.5977340867001644e-08,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00016671617988900928,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 3.5535032879889504e-17,
+              "gradient_shift": [
+                3.2237679000712116e-16,
+                1.241983068952221e-16,
+                5.824110702459192e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        }
+      ],
+      "EVALUATION_BANKS": [
+        {
+          "point": {
+            "case_id": 2000,
+            "cell_id": "strong_N2048",
+            "replicate": 0,
+            "N": 2048,
+            "point_id": "P0_group8_init0",
+            "method": "group8",
+            "initialization_index": 0,
+            "coordinates": [
+              0.08224623158765851,
+              0.07791371871252463,
+              -0.02057586743948985
+            ],
+            "C": [
+              [
+                1.0,
+                0.08224623158765851,
+                0.07791371871252463
+              ],
+              [
+                0.08224623158765851,
+                1.0,
+                -0.02057586743948985
+              ],
+              [
+                0.07791371871252463,
+                -0.02057586743948985,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 7.085942079626539e-09,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.431198764732289,
+            "gradient": [
+              0.00015704212849014504,
+              0.0002798741011249664,
+              3.905422107545881e-06
+            ],
+            "gradient_scramble_SE": [
+              8.549887449731079e-05,
+              0.00010279822936063145,
+              0.00015238853868459145
+            ],
+            "projected_mapping": {
+              "mapping": [
+                0.0001570421284901452,
+                0.0002798741011249689,
+                3.9054221075453255e-06
+              ],
+              "norm_inf": 0.0002798741011249689,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 0.00015238853868459145,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": false,
+            "composite_diagnostic_pass": false,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.431198764732289,
+              "gradient": [
+                0.00015704212849014504,
+                0.0002798741011249664,
+                3.905422107545881e-06
+              ],
+              "gradient_scramble_SE": [
+                8.549887449731079e-05,
+                0.00010279822936063145,
+                0.00015238853868459145
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  0.0001570421284901452,
+                  0.0002798741011249689,
+                  3.9054221075453255e-06
+                ],
+                "norm_inf": 0.0002798741011249689,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00015238853868459145,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.431198764732288,
+              "gradient": [
+                0.00015704212849036758,
+                0.00027987410112501586,
+                3.905422107616686e-06
+              ],
+              "gradient_scramble_SE": [
+                8.549887449731079e-05,
+                0.00010279822936063145,
+                0.00015238853868459145
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  0.00015704212849036725,
+                  0.00027987410112501054,
+                  3.905422107618184e-06
+                ],
+                "norm_inf": 0.00027987410112501054,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00015238853868459145,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7497108894484796e-15,
+              "gradient_shift": [
+                2.2251789335178706e-16,
+                4.944216077560772e-17,
+                7.08163177236399e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.431198764732289,
+              "gradient": [
+                0.00015704212849046743,
+                0.00027987410112509067,
+                3.9054221076041096e-06
+              ],
+              "gradient_scramble_SE": [
+                8.549887449731079e-05,
+                0.00010279822936063145,
+                0.00015238853868459145
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  0.0001570421284904644,
+                  0.0002798741011250938,
+                  3.905422107604306e-06
+                ],
+                "norm_inf": 0.0002798741011250938,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00015238853868459145,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 3.553501325879006e-17,
+              "gradient_shift": [
+                3.2237688898153875e-16,
+                1.2419853499036623e-16,
+                5.824096098511307e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        },
+        {
+          "point": {
+            "case_id": 2000,
+            "cell_id": "strong_N2048",
+            "replicate": 0,
+            "N": 2048,
+            "point_id": "P0_group8_init1",
+            "method": "group8",
+            "initialization_index": 1,
+            "coordinates": [
+              0.08224630285550606,
+              0.07791374688154003,
+              -0.02057598541962565
+            ],
+            "C": [
+              [
+                1.0,
+                0.08224630285550606,
+                0.07791374688154003
+              ],
+              [
+                0.08224630285550606,
+                1.0,
+                -0.02057598541962565
+              ],
+              [
+                0.07791374688154003,
+                -0.02057598541962565,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 1.5977340533934736e-08,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.431198764750906,
+            "gradient": [
+              0.00015705559695489743,
+              0.00027987979952311386,
+              3.884142799522016e-06
+            ],
+            "gradient_scramble_SE": [
+              8.549907053288323e-05,
+              0.00010279838334787588,
+              0.00015238888611236384
+            ],
+            "projected_mapping": {
+              "mapping": [
+                0.00015705559695489146,
+                0.00027987979952311115,
+                3.884142799521345e-06
+              ],
+              "norm_inf": 0.00027987979952311115,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 0.00015238888611236384,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": false,
+            "composite_diagnostic_pass": false,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.431198764750906,
+              "gradient": [
+                0.00015705559695489743,
+                0.00027987979952311386,
+                3.884142799522016e-06
+              ],
+              "gradient_scramble_SE": [
+                8.549907053288323e-05,
+                0.00010279838334787588,
+                0.00015238888611236384
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  0.00015705559695489146,
+                  0.00027987979952311115,
+                  3.884142799521345e-06
+                ],
+                "norm_inf": 0.00027987979952311115,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00015238888611236384,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.431198764750904,
+              "gradient": [
+                0.00015705559695511993,
+                0.0002798797995231633,
+                3.884142799592821e-06
+              ],
+              "gradient_scramble_SE": [
+                8.549907053288323e-05,
+                0.00010279838334787588,
+                0.00015238888611236384
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  0.0001570555969551135,
+                  0.00027987979952316666,
+                  3.8841427995942035e-06
+                ],
+                "norm_inf": 0.00027987979952316666,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00015238888611236384,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7497108804831322e-15,
+              "gradient_shift": [
+                2.225177469794966e-16,
+                4.944192898989341e-17,
+                7.081652289326855e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.431198764750906,
+              "gradient": [
+                0.0001570555969552198,
+                0.0002798797995232381,
+                3.884142799580244e-06
+              ],
+              "gradient_scramble_SE": [
+                8.549907053288323e-05,
+                0.00010279838334787588,
+                0.00015238888611236384
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  0.00015705559695522453,
+                  0.00027987979952323605,
+                  3.884142799580326e-06
+                ],
+                "norm_inf": 0.00027987979952323605,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00015238888611236384,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 3.5535032879889504e-17,
+              "gradient_shift": [
+                3.2237679000712116e-16,
+                1.241983068952221e-16,
+                5.824110702459192e-17
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": 2001,
+      "pattern_count": 1127,
+      "FIT_BANKS": [
+        {
+          "point": {
+            "case_id": 2001,
+            "cell_id": "strong_N2048",
+            "replicate": 1,
+            "N": 2048,
+            "point_id": "P0_group8_init0",
+            "method": "group8",
+            "initialization_index": 0,
+            "coordinates": [
+              0.06871070784459343,
+              0.09021531804215696,
+              0.013098163320065324
+            ],
+            "C": [
+              [
+                1.0,
+                0.06871070784459343,
+                0.09021531804215696
+              ],
+              [
+                0.06871070784459343,
+                1.0,
+                0.013098163320065324
+              ],
+              [
+                0.09021531804215696,
+                0.013098163320065324,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 5.502813933688788e-10,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.480615621525568,
+            "gradient": [
+              -2.824354261716491e-10,
+              9.050145569818057e-12,
+              5.502813950002643e-10
+            ],
+            "gradient_scramble_SE": [
+              4.9314183758296254e-05,
+              1.3900104573129796e-05,
+              2.1605638464052444e-05
+            ],
+            "projected_mapping": {
+              "mapping": [
+                -2.8243542227190943e-10,
+                9.050149518685657e-12,
+                5.502813951036023e-10
+              ],
+              "norm_inf": 5.502813951036023e-10,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 4.9314183758296254e-05,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": true,
+            "composite_diagnostic_pass": true,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.480615621525568,
+              "gradient": [
+                -2.824354261716491e-10,
+                9.050145569818057e-12,
+                5.502813950002643e-10
+              ],
+              "gradient_scramble_SE": [
+                4.9314183758296254e-05,
+                1.3900104573129796e-05,
+                2.1605638464052444e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -2.8243542227190943e-10,
+                  9.050149518685657e-12,
+                  5.502813951036023e-10
+                ],
+                "norm_inf": 5.502813951036023e-10,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 4.9314183758296254e-05,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": true,
+              "composite_diagnostic_pass": true,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.480615621525566,
+              "gradient": [
+                -2.824351539488124e-10,
+                9.05037456856348e-12,
+                5.502815231461848e-10
+              ],
+              "gradient_scramble_SE": [
+                4.9314183758296254e-05,
+                1.3900104573129796e-05,
+                2.1605638464052444e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -2.824351585939411e-10,
+                  9.050371563290582e-12,
+                  5.502815234731395e-10
+                ],
+                "norm_inf": 5.502815234731395e-10,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 4.9314183758296254e-05,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": true,
+              "composite_diagnostic_pass": true,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7413581256801863e-15,
+              "gradient_shift": [
+                2.7222441861128227e-16,
+                2.2899910397134395e-16,
+                1.281444867908278e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.480615621525569,
+              "gradient": [
+                -2.82435051694995e-10,
+                9.050521864204875e-12,
+                5.502815411270002e-10
+              ],
+              "gradient_scramble_SE": [
+                4.9314183758296254e-05,
+                1.3900104573129796e-05,
+                2.1605638464052444e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -2.824350475716386e-10,
+                  9.050524218956468e-12,
+                  5.502815408203743e-10
+                ],
+                "norm_inf": 5.502815408203743e-10,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 4.9314183758296254e-05,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": true,
+              "composite_diagnostic_pass": true,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 9.3642530617616e-16,
+              "gradient_shift": [
+                3.7447434090222195e-16,
+                3.7629470496318296e-16,
+                1.4612802407830096e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        },
+        {
+          "point": {
+            "case_id": 2001,
+            "cell_id": "strong_N2048",
+            "replicate": 1,
+            "N": 2048,
+            "point_id": "P0_group8_init1",
+            "method": "group8",
+            "initialization_index": 1,
+            "coordinates": [
+              0.06871084447725896,
+              0.09021536526025796,
+              0.013098135766499203
+            ],
+            "C": [
+              [
+                1.0,
+                0.06871084447725896,
+                0.09021536526025796
+              ],
+              [
+                0.06871084447725896,
+                1.0,
+                0.013098135766499203
+              ],
+              [
+                0.09021536526025796,
+                0.013098135766499203,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 2.444083213593018e-08,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.480615621525569,
+            "gradient": [
+              2.444083213077683e-08,
+              8.522652624210354e-09,
+              -4.27934117702949e-09
+            ],
+            "gradient_scramble_SE": [
+              4.9314321013239315e-05,
+              1.3900068105310763e-05,
+              2.160570880390399e-05
+            ],
+            "projected_mapping": {
+              "mapping": [
+                2.444083213593018e-08,
+                8.522652625297944e-09,
+                -4.2793411765551514e-09
+              ],
+              "norm_inf": 2.444083213593018e-08,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 4.9314321013239315e-05,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": true,
+            "composite_diagnostic_pass": true,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.480615621525569,
+              "gradient": [
+                2.444083213077683e-08,
+                8.522652624210354e-09,
+                -4.27934117702949e-09
+              ],
+              "gradient_scramble_SE": [
+                4.9314321013239315e-05,
+                1.3900068105310763e-05,
+                2.160570880390399e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  2.444083213593018e-08,
+                  8.522652625297944e-09,
+                  -4.2793411765551514e-09
+                ],
+                "norm_inf": 2.444083213593018e-08,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 4.9314321013239315e-05,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": true,
+              "composite_diagnostic_pass": true,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.480615621525567,
+              "gradient": [
+                2.4440832402999668e-08,
+                8.522652853209099e-09,
+                -4.279341048883569e-09
+              ],
+              "gradient_scramble_SE": [
+                4.9314321013239315e-05,
+                1.3900068105310763e-05,
+                2.160570880390399e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  2.4440832399608148e-08,
+                  8.522652847342549e-09,
+                  -4.279341048185614e-09
+                ],
+                "norm_inf": 2.4440832399608148e-08,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 4.9314321013239315e-05,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": true,
+              "composite_diagnostic_pass": true,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7413580814461387e-15,
+              "gradient_shift": [
+                2.722245183226985e-16,
+                2.289990836030472e-16,
+                1.2814467465025124e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.480615621525571,
+              "gradient": [
+                2.4440832505253485e-08,
+                8.52265300050474e-09,
+                -4.279341030902754e-09
+              ],
+              "gradient_scramble_SE": [
+                4.9314321013239315e-05,
+                1.3900068105310763e-05,
+                2.160570880390399e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  2.444083251063045e-08,
+                  8.522652999998215e-09,
+                  -4.2793410308383795e-09
+                ],
+                "norm_inf": 2.444083251063045e-08,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 4.9314321013239315e-05,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": true,
+              "composite_diagnostic_pass": true,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 9.364253710588296e-16,
+              "gradient_shift": [
+                3.74474571772298e-16,
+                3.7629474034611122e-16,
+                1.4612821636693802e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        }
+      ],
+      "EVALUATION_BANKS": [
+        {
+          "point": {
+            "case_id": 2001,
+            "cell_id": "strong_N2048",
+            "replicate": 1,
+            "N": 2048,
+            "point_id": "P0_group8_init0",
+            "method": "group8",
+            "initialization_index": 0,
+            "coordinates": [
+              0.06871070784459343,
+              0.09021531804215696,
+              0.013098163320065324
+            ],
+            "C": [
+              [
+                1.0,
+                0.06871070784459343,
+                0.09021531804215696
+              ],
+              [
+                0.06871070784459343,
+                1.0,
+                0.013098163320065324
+              ],
+              [
+                0.09021531804215696,
+                0.013098163320065324,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 5.502813933688788e-10,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.480613646234922,
+            "gradient": [
+              -5.8534250192287405e-05,
+              -1.9287221956240585e-05,
+              -8.049595238640973e-05
+            ],
+            "gradient_scramble_SE": [
+              4.833358039680781e-05,
+              0.00014443120458539034,
+              8.502546820479552e-05
+            ],
+            "projected_mapping": {
+              "mapping": [
+                -5.853425019228253e-05,
+                -1.9287221956237888e-05,
+                -8.049595238640919e-05
+              ],
+              "norm_inf": 8.049595238640919e-05,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 0.00014443120458539034,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": false,
+            "composite_diagnostic_pass": false,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.480613646234922,
+              "gradient": [
+                -5.8534250192287405e-05,
+                -1.9287221956240585e-05,
+                -8.049595238640973e-05
+              ],
+              "gradient_scramble_SE": [
+                4.833358039680781e-05,
+                0.00014443120458539034,
+                8.502546820479552e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -5.853425019228253e-05,
+                  -1.9287221956237888e-05,
+                  -8.049595238640919e-05
+                ],
+                "norm_inf": 8.049595238640919e-05,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00014443120458539034,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.4806136462349215,
+              "gradient": [
+                -5.853425019201518e-05,
+                -1.928722195601158e-05,
+                -8.049595238628158e-05
+              ],
+              "gradient_scramble_SE": [
+                4.833358039680782e-05,
+                0.00014443120458539034,
+                8.502546820479552e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -5.8534250192018855e-05,
+                  -1.9287221956015843e-05,
+                  -8.049595238628082e-05
+                ],
+                "norm_inf": 8.049595238628082e-05,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00014443120458539034,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7413581256801863e-15,
+              "gradient_shift": [
+                2.7222441861128227e-16,
+                2.2899910397134395e-16,
+                1.281444867908278e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.480613646234923,
+              "gradient": [
+                -5.853425019191293e-05,
+                -1.9287221955864292e-05,
+                -8.049595238626362e-05
+              ],
+              "gradient_scramble_SE": [
+                4.833358039680781e-05,
+                0.00014443120458539034,
+                8.502546820479552e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -5.853425019190783e-05,
+                  -1.9287221955863187e-05,
+                  -8.049595238626348e-05
+                ],
+                "norm_inf": 8.049595238626348e-05,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.00014443120458539034,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 9.3642530617616e-16,
+              "gradient_shift": [
+                3.7447434090222195e-16,
+                3.7629470496318296e-16,
+                1.4612802407830096e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        },
+        {
+          "point": {
+            "case_id": 2001,
+            "cell_id": "strong_N2048",
+            "replicate": 1,
+            "N": 2048,
+            "point_id": "P0_group8_init1",
+            "method": "group8",
+            "initialization_index": 1,
+            "coordinates": [
+              0.06871084447725896,
+              0.09021536526025796,
+              0.013098135766499203
+            ],
+            "C": [
+              [
+                1.0,
+                0.06871084447725896,
+                0.09021536526025796
+              ],
+              [
+                0.06871084447725896,
+                1.0,
+                0.013098135766499203
+              ],
+              [
+                0.09021536526025796,
+                0.013098135766499203,
+                1.0
+              ]
+            ],
+            "is_fit_output": true,
+            "fit_status": "mapping_tolerance",
+            "fit_mapping_norm_inf": 2.444083213593018e-08,
+            "output_rule": "last_accepted_per_start_no_risk_selection",
+            "unit": "dataset_case_not_random_teacher",
+            "teacher_information_used_for_empirical_fit": false,
+            "selected_scalar": "uniform_logratio_plus_centered_origin_hessian_fixed_group_bank",
+            "setting": "P0"
+          },
+          "evaluable": true,
+          "base": {
+            "value": 7.4806136462282335,
+            "gradient": [
+              -5.8509815931239916e-05,
+              -1.9278629505999337e-05,
+              -8.05010322146175e-05
+            ],
+            "gradient_scramble_SE": [
+              4.833361666672155e-05,
+              0.0001444313762613803,
+              8.502568838317954e-05
+            ],
+            "projected_mapping": {
+              "mapping": [
+                -5.8509815931237497e-05,
+                -1.9278629506000455e-05,
+                -8.050103221461831e-05
+              ],
+              "norm_inf": 8.050103221461831e-05,
+              "projection_residual": 0.0
+            },
+            "maximum_gradient_SE": 0.0001444313762613803,
+            "fit_status_pass": true,
+            "mapping_pass": true,
+            "gradient_SE_pass": false,
+            "composite_diagnostic_pass": false,
+            "diagnostic_never_inclusion_rule": true,
+            "global_optimum_certified": false
+          },
+          "moment_levels": [
+            {
+              "outer_order": 192,
+              "same_inner_order": 256,
+              "value": 7.4806136462282335,
+              "gradient": [
+                -5.8509815931239916e-05,
+                -1.9278629505999337e-05,
+                -8.05010322146175e-05
+              ],
+              "gradient_scramble_SE": [
+                4.833361666672155e-05,
+                0.0001444313762613803,
+                8.502568838317954e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -5.8509815931237497e-05,
+                  -1.9278629506000455e-05,
+                  -8.050103221461831e-05
+                ],
+                "norm_inf": 8.050103221461831e-05,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.0001444313762613803,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 0.0,
+              "gradient_shift": [
+                -0.0,
+                -0.0,
+                -0.0
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 256,
+              "same_inner_order": 256,
+              "value": 7.480613646228232,
+              "gradient": [
+                -5.850981593096769e-05,
+                -1.9278629505770347e-05,
+                -8.050103221448934e-05
+              ],
+              "gradient_scramble_SE": [
+                4.833361666672155e-05,
+                0.0001444313762613803,
+                8.502568838317954e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -5.850981593097382e-05,
+                  -1.9278629505764533e-05,
+                  -8.050103221448994e-05
+                ],
+                "norm_inf": 8.050103221448994e-05,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.0001444313762613803,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": -1.7413580814461387e-15,
+              "gradient_shift": [
+                2.722245183226985e-16,
+                2.289990836030472e-16,
+                1.2814467465025124e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            },
+            {
+              "outer_order": 384,
+              "same_inner_order": 256,
+              "value": 7.480613646228234,
+              "gradient": [
+                -5.850981593086544e-05,
+                -1.9278629505623045e-05,
+                -8.050103221447136e-05
+              ],
+              "gradient_scramble_SE": [
+                4.833361666672155e-05,
+                0.0001444313762613803,
+                8.502568838317954e-05
+              ],
+              "projected_mapping": {
+                "mapping": [
+                  -5.8509815930862796e-05,
+                  -1.9278629505625755e-05,
+                  -8.050103221447086e-05
+                ],
+                "norm_inf": 8.050103221447086e-05,
+                "projection_residual": 0.0
+              },
+              "maximum_gradient_SE": 0.0001444313762613803,
+              "fit_status_pass": true,
+              "mapping_pass": true,
+              "gradient_SE_pass": false,
+              "composite_diagnostic_pass": false,
+              "diagnostic_never_inclusion_rule": true,
+              "global_optimum_certified": false,
+              "value_shift": 9.364253710588296e-16,
+              "gradient_shift": [
+                3.74474571772298e-16,
+                3.7629474034611122e-16,
+                1.4612821636693802e-16
+              ],
+              "evaluation_method": "analytic_difference_of_same_controlled_scalar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "counts": {
+      "group_objective_calls": 9,
+      "particle_pattern_terms": 117956608,
+      "control_construction_particle_pattern_terms": 63447040,
+      "ml_objective_calls": 0,
+      "pmf_law_calls": 0,
+      "marginal_private_node_terms": 3786240,
+      "optimizer_objective_attempts": 0,
+      "qmc_uniform_scalars": 0,
+      "qmc_trial_nets": 0,
+      "rejection_candidate_coordinates": 0,
+      "rejection_private_node_terms": 0,
+      "posterior_sample_coordinates": 0,
+      "uniform_scalars": 0,
+      "binomial_scalars": 0,
+      "index_scalars": 0,
+      "pmf_cache_hits": 0,
+      "qmc_scrambles": 0,
+      "optimizer_updates": 0
+    },
+    "caps": {
+      "seconds": 1800,
+      "group_objective_calls": 64,
+      "particle_pattern_terms": 1500000000,
+      "control_construction_particle_pattern_terms": 500000000,
+      "ml_objective_calls": 1,
+      "pmf_law_calls": 1,
+      "marginal_private_node_terms": 30000000,
+      "optimizer_objective_attempts": 1,
+      "qmc_uniform_scalars": 1,
+      "qmc_trial_nets": 1,
+      "rejection_candidate_coordinates": 1,
+      "rejection_private_node_terms": 1,
+      "posterior_sample_coordinates": 1
+    },
+    "seconds": 16.66865820000021,
+    "QMC_uncertainty_unit": "independent_scramble_not_internal_bank_or_particle",
+    "finite_terms_are_work_not_samples": true,
+    "actual_PMF_cache_misses_separate_from_objective_calls": true,
+    "maximum_observed_rss_bytes": 123621376,
+    "last_observed_output_bytes": 2741061,
+    "resource_monitor_scope": "RSS at checks; output size at checks separated by at least two seconds, not an OS quota",
+    "new_observations": 0,
+    "new_teacher_draws": 0,
+    "uncertainty_unit": "complete_independent_randomization_not_B_K_or_pattern"
+  },
+  "new_observations": 0,
+  "new_teacher_draws": 0,
+  "new_scientific_claim": "retrospective_numerical_sensitivity_not_independent_confirmation"
+}

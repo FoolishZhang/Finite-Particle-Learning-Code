@@ -1,0 +1,443 @@
+{
+  "schema": "local_shrinkage_budget_analysis_v1",
+  "status": "complete_saved_analysis",
+  "policy": {
+    "case_ids": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "settings": [
+      "P0",
+      "H"
+    ],
+    "methods": [
+      "integrated",
+      "group8",
+      "ridge"
+    ],
+    "initializations": [
+      0,
+      1
+    ],
+    "N": 2048,
+    "unit": "original_dataset_case; two_start_risks_averaged_before_comparison",
+    "risk_orders": [
+      [
+        28,
+        192
+      ],
+      [
+        36,
+        256
+      ]
+    ],
+    "kl_tolerance": 4.8828125e-08,
+    "pmf_tolerance": 1e-08,
+    "mapping_tolerance": 0.0003,
+    "maximum_gradient_SE_tolerance": 0.0001,
+    "primary_quantities": [
+      "D_H",
+      "G"
+    ],
+    "secondary_descriptive": [
+      "D_P0",
+      "P0_H_ridge_risks"
+    ],
+    "D_H": "2048*(mean_two_H_GROUP_KL-mean_two_H_integrated_ML_KL)",
+    "D_P0": "2048*(mean_two_P0_GROUP_KL-mean_two_P0_integrated_ML_KL)",
+    "G": "D_H-D_P0 within the identical dataset case",
+    "family_alpha": 0.05,
+    "family_size": 2,
+    "tails": 2,
+    "df": 23,
+    "critical_value": "scipy.stats.t.ppf(1-.05/(2*2),23)",
+    "interval": "mean +/- critical_value * sample_SD(ddof=1)/sqrt(24)",
+    "missing_or_unqualified_rule": "retain_all_expected_rows; D_H_requires_its_96_H_GROUP_ML_slots; G_requires_192_P0_H_GROUP_ML_slots; ridge_96_slots_separately_descriptive",
+    "family_size_if_one_quantity_unresolved": 2,
+    "diagnostic_filtering": false,
+    "zero_in_interval_means_equivalence": false,
+    "inferential_scope": "retrospective_exploratory_paired_numerical_sensitivity; not_original_family4_confirmation",
+    "risk_precision_scope": "ordinary_GH_order_difference_not_integral_error_certificate",
+    "accepted_update_count": "count armijo_accepted events in each explicitly bound ACCEPTED_TRACE.jsonl"
+  },
+  "analysis_runtime": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1"
+  },
+  "risk_complete": true,
+  "all_288_risks_qualified": true,
+  "primary": {
+    "D_H": {
+      "status": "complete_qualified_exploratory_interval",
+      "required_risk_slots": 96,
+      "qualified_required_risk_slots": 96,
+      "case_values": [
+        {
+          "case_id": 2000,
+          "value": 2.266293861146265
+        },
+        {
+          "case_id": 2001,
+          "value": 2.312950055778497
+        },
+        {
+          "case_id": 2002,
+          "value": 1.5388476372780042
+        },
+        {
+          "case_id": 2003,
+          "value": 1.3707510465862456
+        },
+        {
+          "case_id": 2004,
+          "value": 0.5738176210810635
+        },
+        {
+          "case_id": 2005,
+          "value": 2.873949141929417
+        },
+        {
+          "case_id": 2006,
+          "value": 0.7400671208045122
+        },
+        {
+          "case_id": 2007,
+          "value": 1.1955299966444122
+        },
+        {
+          "case_id": 2008,
+          "value": 0.35266606310256043
+        },
+        {
+          "case_id": 2009,
+          "value": 2.7895530296062203
+        },
+        {
+          "case_id": 2010,
+          "value": 1.1323025976017553
+        },
+        {
+          "case_id": 2011,
+          "value": 1.6538103493485985
+        },
+        {
+          "case_id": 2012,
+          "value": 1.6180737128613933
+        },
+        {
+          "case_id": 2013,
+          "value": 0.5390323995374602
+        },
+        {
+          "case_id": 2014,
+          "value": 0.9297619763645104
+        },
+        {
+          "case_id": 2015,
+          "value": 1.2501146049105007
+        },
+        {
+          "case_id": 2016,
+          "value": 2.2611087140563377
+        },
+        {
+          "case_id": 2017,
+          "value": 1.3059532962887086
+        },
+        {
+          "case_id": 2018,
+          "value": 1.7192196137704379
+        },
+        {
+          "case_id": 2019,
+          "value": 2.484024235470925
+        },
+        {
+          "case_id": 2020,
+          "value": 2.9848969755382404
+        },
+        {
+          "case_id": 2021,
+          "value": 0.06300917193240396
+        },
+        {
+          "case_id": 2022,
+          "value": 1.3107558587953405
+        },
+        {
+          "case_id": 2023,
+          "value": -0.3263310221495548
+        }
+      ],
+      "finite_case_count": 24,
+      "complete_vector_description": {
+        "n": 24,
+        "mean": 1.4558399190951772,
+        "sample_SD": 0.8937685913619626,
+        "SE": 0.18243974974690813,
+        "df": 23
+      },
+      "simultaneous_interval": {
+        "n": 24,
+        "mean": 1.4558399190951772,
+        "sample_SD": 0.8937685913619626,
+        "SE": 0.18243974974690813,
+        "df": 23,
+        "critical_value": 2.397875064657111,
+        "family_alpha": 0.05,
+        "family_size": 2,
+        "lower": 1.0183721923747826,
+        "upper": 1.8933076458155718,
+        "method": "approximate_Bonferroni_simultaneous_two_sided_Student_t",
+        "equivalence_conclusion": false
+      },
+      "diagnostic_failures_not_filtered": true,
+      "no_equivalence_test": true
+    },
+    "G": {
+      "status": "complete_qualified_exploratory_interval",
+      "required_risk_slots": 192,
+      "qualified_required_risk_slots": 192,
+      "case_values": [
+        {
+          "case_id": 2000,
+          "value": -0.000976293856614241
+        },
+        {
+          "case_id": 2001,
+          "value": -0.0033097158889097145
+        },
+        {
+          "case_id": 2002,
+          "value": -0.020008860555982944
+        },
+        {
+          "case_id": 2003,
+          "value": -0.01427403189828369
+        },
+        {
+          "case_id": 2004,
+          "value": -0.014592270070168833
+        },
+        {
+          "case_id": 2005,
+          "value": 0.004163830016723047
+        },
+        {
+          "case_id": 2006,
+          "value": 0.021112445803680435
+        },
+        {
+          "case_id": 2007,
+          "value": 0.04297378289398224
+        },
+        {
+          "case_id": 2008,
+          "value": -0.01740726418316707
+        },
+        {
+          "case_id": 2009,
+          "value": 0.013432914408129548
+        },
+        {
+          "case_id": 2010,
+          "value": -0.044696642751410165
+        },
+        {
+          "case_id": 2011,
+          "value": 0.008827490972829644
+        },
+        {
+          "case_id": 2012,
+          "value": -0.029501498164239193
+        },
+        {
+          "case_id": 2013,
+          "value": -0.0041716381841869765
+        },
+        {
+          "case_id": 2014,
+          "value": -0.011156060157064829
+        },
+        {
+          "case_id": 2015,
+          "value": -0.0420875028079144
+        },
+        {
+          "case_id": 2016,
+          "value": 0.039440598550007255
+        },
+        {
+          "case_id": 2017,
+          "value": -0.020899036806474314
+        },
+        {
+          "case_id": 2018,
+          "value": -0.009539703768438601
+        },
+        {
+          "case_id": 2019,
+          "value": 0.027332311889753935
+        },
+        {
+          "case_id": 2020,
+          "value": -0.005007605831705675
+        },
+        {
+          "case_id": 2021,
+          "value": -0.020610285691363472
+        },
+        {
+          "case_id": 2022,
+          "value": 0.060994546559964835
+        },
+        {
+          "case_id": 2023,
+          "value": -0.007368686115039935
+        }
+      ],
+      "finite_case_count": 24,
+      "complete_vector_description": {
+        "n": 24,
+        "mean": -0.00197204898482888,
+        "sample_SD": 0.0259120910688596,
+        "SE": 0.005289283440602933,
+        "df": 23
+      },
+      "simultaneous_interval": {
+        "n": 24,
+        "mean": -0.00197204898482888,
+        "sample_SD": 0.0259120910688596,
+        "SE": 0.005289283440602933,
+        "df": 23,
+        "critical_value": 2.397875064657111,
+        "family_alpha": 0.05,
+        "family_size": 2,
+        "lower": -0.014655089856954427,
+        "upper": 0.010710991887296666,
+        "method": "approximate_Bonferroni_simultaneous_two_sided_Student_t",
+        "equivalence_conclusion": false
+      },
+      "diagnostic_failures_not_filtered": true,
+      "no_equivalence_test": true
+    }
+  },
+  "diagnostics": {
+    "P0": {
+      "expected_outputs": 48,
+      "observed_rows": 48,
+      "unique_expected_outputs": 48,
+      "unique_observed_outputs": 48,
+      "identity_complete": true,
+      "complete_and_consistent": true,
+      "complete_count_summary_usable": true,
+      "issues": [],
+      "composite_pass": 36,
+      "own_status_pass": 48,
+      "own_status_counts": {
+        "mapping_tolerance": 48
+      },
+      "numeric_failure_counts": {
+        "neither_numeric_gate_fails": 36,
+        "mapping_only": 12,
+        "SE_only": 0,
+        "both": 0,
+        "missing_numeric_diagnostic": 0
+      },
+      "observed_counts_uncertified_if_incomplete": null,
+      "nested_full_minus_prefix_gradient_max": 0.0001045445238153302,
+      "nested_prefix_rows": 48,
+      "moment_changes": {
+        "192": {
+          "row_count": 48,
+          "maximum_absolute_gradient_shift": 0.0,
+          "maximum_absolute_value_shift": 0.0
+        },
+        "256": {
+          "row_count": 48,
+          "maximum_absolute_gradient_shift": 4.193655841512006e-16,
+          "maximum_absolute_value_shift": 2.646635394450377e-15
+        },
+        "384": {
+          "row_count": 48,
+          "maximum_absolute_gradient_shift": 4.685316346904097e-16,
+          "maximum_absolute_value_shift": 1.8342409151466585e-15
+        }
+      },
+      "diagnostic_is_not_global_optimum_certificate": true
+    },
+    "H": {
+      "expected_outputs": 48,
+      "observed_rows": 48,
+      "unique_expected_outputs": 48,
+      "unique_observed_outputs": 48,
+      "identity_complete": true,
+      "complete_and_consistent": true,
+      "complete_count_summary_usable": true,
+      "issues": [],
+      "composite_pass": 48,
+      "own_status_pass": 48,
+      "own_status_counts": {
+        "mapping_tolerance": 48
+      },
+      "numeric_failure_counts": {
+        "neither_numeric_gate_fails": 48,
+        "mapping_only": 0,
+        "SE_only": 0,
+        "both": 0,
+        "missing_numeric_diagnostic": 0
+      },
+      "observed_counts_uncertified_if_incomplete": null,
+      "nested_full_minus_prefix_gradient_max": 0.00010579237520280247,
+      "nested_prefix_rows": 48,
+      "moment_changes": {
+        "192": {
+          "row_count": 48,
+          "maximum_absolute_gradient_shift": 0.0,
+          "maximum_absolute_value_shift": 0.0
+        },
+        "256": {
+          "row_count": 48,
+          "maximum_absolute_gradient_shift": 4.229412524574096e-16,
+          "maximum_absolute_value_shift": 2.646733771425531e-15
+        },
+        "384": {
+          "row_count": 48,
+          "maximum_absolute_gradient_shift": 4.722256706208097e-16,
+          "maximum_absolute_value_shift": 1.833598062344187e-15
+        }
+      },
+      "diagnostic_is_not_global_optimum_certificate": true
+    }
+  },
+  "diagnostic_issues": [],
+  "actual_accepted_updates": 713,
+  "new_observations": 0,
+  "new_model_integrations": 0,
+  "new_fits": 0,
+  "saved_risk_statistics_recomputed": true,
+  "no_equivalence_claim": true
+}

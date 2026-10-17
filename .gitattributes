@@ -11,3 +11,7 @@ docs/08_research_研究工作/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eo
 # h3 retains frozen source bytes and proof formatting.
 h3/code/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 h3/theory/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+
+# Verbatim archived SVG output: path-coordinate line endings are preserved data.
+h3/extensions/h33/figures/budget/paired_budget.svg whitespace=-blank-at-eol,cr-at-eol
+h3/extensions/h33/figures/precision/precision_and_remainder.svg whitespace=-blank-at-eol,cr-at-eol

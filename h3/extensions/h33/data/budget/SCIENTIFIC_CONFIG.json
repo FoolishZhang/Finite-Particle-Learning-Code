@@ -1,0 +1,106 @@
+{
+  "model": {
+    "M": 8,
+    "tau": 3.0,
+    "a": 1.4,
+    "epsilon": [
+      0.4949747468305832,
+      0.4949747468305832,
+      0.4949747468305832
+    ],
+    "K": 8,
+    "spectral_floor": 0.15,
+    "generation_inner_order": 192
+  },
+  "marginal": {
+    "inner_order": 256,
+    "diagnostic_inner_order": 192,
+    "normalizer_orders": [
+      128,
+      192
+    ],
+    "grid_size": 4097,
+    "tail_x": 8.0,
+    "chunk_size": 4096
+  },
+  "sampling": {
+    "maximum_trials": 8,
+    "bits": 52,
+    "dimension_per_trial": "6K; each particle and group has independent proposal/accept coordinates",
+    "uncertainty_unit": "independent_replicate_including_all_trial_nets"
+  },
+  "ridge": {
+    "J": 0.05558506019423109,
+    "lambda": 0.11805186747572112
+  },
+  "initial_coordinates": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.2,
+      -0.15,
+      0.1
+    ]
+  ],
+  "seed_family": 202610159201,
+  "qualification": {
+    "moment_tol": 1e-09,
+    "cdf_tol": 1e-09,
+    "coefficient_tol": 1e-10,
+    "k1_diag_tol": 1e-09,
+    "nll_order_tol": 1e-06,
+    "gradient_order_tol": 1e-06,
+    "pmf_tol": 1e-08,
+    "kl_tol": 1e-07,
+    "finite_gradient_SE_tol": 0.0001,
+    "mapping_tol": 0.0003,
+    "scaled_risk_tol": 0.0001
+  },
+  "evaluation_seed_family": 202610169201,
+  "risk_orders": [
+    [
+      28,
+      192
+    ],
+    [
+      36,
+      256
+    ]
+  ],
+  "moment_orders": [
+    192,
+    256,
+    384
+  ],
+  "group": {
+    "fit": {
+      "R": 4,
+      "B": 2048
+    },
+    "eval": {
+      "R": 4,
+      "B": 512
+    }
+  },
+  "setting": "H",
+  "solver_policy": "original",
+  "solver": {
+    "initial_step": 32.0,
+    "mapping_tolerance": 1e-07,
+    "max_iterations": 100,
+    "max_evaluations": 240,
+    "max_backtracks": 16,
+    "armijo": 0.0001,
+    "step_bounds": [
+      0.25,
+      256.0
+    ]
+  },
+  "fit_gh": [
+    28,
+    192
+  ]
+}
