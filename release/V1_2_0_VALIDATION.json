@@ -1,8 +1,8 @@
 {
   "schema": "h33_public_validation_v1",
-  "status": "local_candidate_checks_passed",
-  "published": false,
-  "network_retrieval": "not yet performed for v1.2.0; previous release records have their own scope",
+  "status": "local_and_public_retrieval_checks_passed",
+  "published": true,
+  "network_retrieval": "passed; see release/V1_2_0_NETWORK.json",
   "extension_manifest_sha256": "39e5e3d7e8728238cb853597ae8c462514c242a3514bd8afe175d0b9aff20a77",
   "saved_check": {
     "schema": "h33_public_saved_check_v1",
@@ -198,5 +198,7 @@
     "scientific_calls": 0,
     "plot_data_unchanged": true,
     "plots_not_rerun": true
-  }
+  },
+  "network_record": "release/V1_2_0_NETWORK.json",
+  "archived_svg_byte_policy": "Two verbatim original SVGs retain generator coordinate-line whitespace; file-specific .gitattributes rules preserve their bytes. No scientific file was normalized."
 }

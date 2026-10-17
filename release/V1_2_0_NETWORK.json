@@ -1,0 +1,44 @@
+{
+  "schema": "public_v1_2_network_v1",
+  "status": "passed",
+  "date": "2026-10-17",
+  "retrieved_candidate_commit": "79b38e875b9af52a3d911883b2900a067ad4c195",
+  "repository": "https://github.com/FoolishZhang/Finite-Particle-Learning-Code",
+  "method": "Fresh HTTPS sparse clone with helpers/headers/cookies cleared, global/system Git config ignored, token and askpass environment entries removed, and interactive prompts disabled.",
+  "materialized_scope": "Root metadata, h3, release and tools; old h2 paths outside this sparse checkout and historical large assets were not downloaded.",
+  "materialized_global_entries_checked": 331,
+  "extension_manifest_sha256": "39e5e3d7e8728238cb853597ae8c462514c242a3514bd8afe175d0b9aff20a77",
+  "extension_files": 155,
+  "extension_identity_members": 154,
+  "saved_check": {
+    "passed": true,
+    "checks": 15716,
+    "isolated_original_imports": 38,
+    "scope": "24 dataset budget arithmetic, six frozen density pairs, previous family24 and new54 R-level JSONs/family36; not per-B model replay"
+  },
+  "redraw": {
+    "scope": "Original plot functions on saved aggregates; font and library versions may change bytes.",
+    "new_model_calls": 0,
+    "scientific_RNG": 0,
+    "PNG_comparisons": [
+      {
+        "figure": "budget/paired_budget.png",
+        "archived_sha256": "8261eb8acda4ae323216fe080d8281a64456e7cdbafbac27d1c647e625680eef",
+        "redrawn_sha256": "8261eb8acda4ae323216fe080d8281a64456e7cdbafbac27d1c647e625680eef",
+        "byte_equal": true
+      },
+      {
+        "figure": "precision/precision_and_remainder.png",
+        "archived_sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+        "redrawn_sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+        "byte_equal": true
+      }
+    ]
+  },
+  "new_scientific_computation": false,
+  "scientific_RNG": 0,
+  "training_replayed": false,
+  "paper_PDF_publication": false,
+  "anonymous_submission_compliance_claimed": false,
+  "payload_must_remain_unchanged_in_final_release": true
+}

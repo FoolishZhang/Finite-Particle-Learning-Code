@@ -27,16 +27,16 @@
       "bytes": 511
     },
     "README.md": {
-      "sha256": "98bba9a574554000e02615f4816cce8d9555336253a530d753b3bae045701e81",
-      "bytes": 7269
+      "sha256": "cf0519620f56d963bac9573f8a3473a8ebe90f5847073554bfe772946dff9e7b",
+      "bytes": 7336
     },
     "README_ZH.md": {
-      "sha256": "0e948b6ebaa13063f6d460ded6c8cfb5be6856261b077961fd61a7cf100cca1b",
-      "bytes": 2433
+      "sha256": "8d2aac094be408f133e7f74f24ecb9caaf351a9f71a44c4181e896b0b9ca21c5",
+      "bytes": 2497
     },
     "REPRODUCING.md": {
-      "sha256": "096b2213f4df77fdabab64da52ea713092f39f4fda8fffd3bf95cd4439410b01",
-      "bytes": 10651
+      "sha256": "0c7db84ce9e8cd983202a8bd9d73cb50d4b05303ab8467e86768d1e5ab2e931a",
+      "bytes": 10717
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "2e010a33091332adcb910a7de7cea55d2d3dcf1ba74894da6c3369249378eb58",
@@ -14807,8 +14807,8 @@
       "bytes": 881
     },
     "release/RELEASE.json": {
-      "sha256": "f30ca4f1286be7eba75d08d6fee81c39b93a814a83079e69f34111b52747d315",
-      "bytes": 1999
+      "sha256": "2e9a12fe05dfa5e309255d5e7c209c472524d115284028eeea03d8e79c4b5fd6",
+      "bytes": 2189
     },
     "release/SOURCE_STATUS.json": {
       "sha256": "9c1026c6932d88c6155d013b5c1131083cbb2bb8e04fb296dd0933ddf6190424",
@@ -14834,9 +14834,13 @@
       "sha256": "5f05d1a509a880b1667fefc0ef54f175f4a29cb4d61d186e80e2f367c168f8b8",
       "bytes": 391
     },
+    "release/V1_2_0_NETWORK.json": {
+      "sha256": "6b1b9a30df0d23b8acbc2a74b834f525e9b42ad9c60025a035516c4bf22694c3",
+      "bytes": 2105
+    },
     "release/V1_2_0_VALIDATION.json": {
-      "sha256": "43037797ce88b46a24ef3795371ad2ce63909756ae1fdd513c008cff93d7e4e6",
-      "bytes": 6635
+      "sha256": "d8e1f36d222dadee1a1904d0878bc1d7ed8b03ec66fb1aed94ab31da3bb4bdb1",
+      "bytes": 7061
     },
     "reproducibility_snapshots/cbm_public_sources/SCBM/58c3e602cb11fb4ea9106226e0f9e58f50d5d10a/LICENSE.md": {
       "sha256": "a8c2249c74d665ef84a02c7e6f0cf5b2038f0aee36d0d3e396f91e9d8d3776bd",

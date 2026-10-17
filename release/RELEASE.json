@@ -9,7 +9,7 @@
   "author_display_provisional": true,
   "paper_version": "h3.3 D.5/D.6 scientific evidence; not paper PDF publication",
   "paper_submitted": false,
-  "status": "prepared_candidate_local_checks_passed_not_published",
+  "status": "published_scientific_payload_and_public_retrieval_verified",
   "license": {
     "original_software": "MIT",
     "original_documents_figures_synthetic_data": "CC-BY-4.0",
@@ -27,7 +27,7 @@
   },
   "verification_levels": {
     "extension_local_validation": "passed: 15716 checks, 38 isolated original-module imports, two archived PNG byte matches",
-    "new_public_retrieval": "not yet performed",
+    "new_public_retrieval": "passed: fresh credential-disabled checkout, 15716 saved/import checks and two archived PNG byte matches",
     "full_production_or_training": "not run or supported",
     "per_B_independent_verifier": "not supported without omitted derived arrays"
   },
@@ -42,5 +42,6 @@
     "data_archive_bytes": 3435111962,
     "large_data_uncompressed_bytes": 3585595826
   },
-  "paper_pdf_added_in_this_update": false
+  "paper_pdf_added_in_this_update": false,
+  "network_record": "release/V1_2_0_NETWORK.json"
 }

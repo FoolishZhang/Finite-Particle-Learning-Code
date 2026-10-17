@@ -1,6 +1,6 @@
 ## v1.2.0: compact h3.3 evidence
 
-New D.5 budget and D.6 learned-proposal material is in [h3/extensions/h33](h3/extensions/h33/README.md). It adds saved-value checks, frozen densities and deterministic plots. The original v1.1.0 h3 scientific payload remains unchanged. Full sampling, integration, fitting and training replay are not claimed. This candidate has not yet undergone new public retrieval validation.
+New D.5 budget and D.6 learned-proposal material is in [h3/extensions/h33](h3/extensions/h33/README.md). It adds saved-value checks, frozen densities and deterministic plots. The original v1.1.0 h3 scientific payload remains unchanged. Full sampling, integration, fitting and training replay are not claimed. Fresh credential-disabled retrieval and the supported checks have passed; see the [v1.2.0 network record](release/V1_2_0_NETWORK.json).
 
 # Reproduction entrypoints
 

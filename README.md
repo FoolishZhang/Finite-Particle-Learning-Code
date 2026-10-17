@@ -1,10 +1,10 @@
 ## v1.2.0: compact h3.3 evidence
 
-New D.5 budget and D.6 learned-proposal material is in [h3/extensions/h33](h3/extensions/h33/README.md). It adds saved-value checks, frozen densities and deterministic plots. The original v1.1.0 h3 scientific payload remains unchanged. Full sampling, integration, fitting and training replay are not claimed. This candidate has not yet undergone new public retrieval validation.
+New D.5 budget and D.6 learned-proposal material is in [h3/extensions/h33](h3/extensions/h33/README.md). It adds saved-value checks, frozen densities and deterministic plots. The original v1.1.0 h3 scientific payload remains unchanged. Full sampling, integration, fitting and training replay are not claimed. Fresh credential-disabled retrieval and the supported checks have passed; see the [v1.2.0 network record](release/V1_2_0_NETWORK.json).
 
 # Finite Particle Learning
 
-## Current h3 code and evidence (v1.1.0)
+## Original h3 code and evidence (v1.1.0)
 
 The [h3 material entry](h3/README.md) supports **Importance Proposals Can Reverse Model Rankings and Induce Local Correlation Shrinkage**. It publishes the fixed-K scientific implementations, proof sources, 96 observed validation datasets, saved fitted outputs and risks, all numerical diagnostics, paired proposal-score differences, and figure sources. This is a named research release, not an anonymous submission or an acceptance claim.
 
