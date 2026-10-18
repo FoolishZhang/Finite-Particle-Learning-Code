@@ -1,0 +1,87 @@
+{
+  "schema": "h34_public_files_v1",
+  "version": "1.3.0",
+  "notes_complete": true,
+  "files": {
+    "h3/extensions/h34/data/adaptation.json": {
+      "sha256": "1bd3dfa612cab701c624fed310e368ddb05063bcb63cb4ae8effd707a65fb387",
+      "bytes": 10945
+    },
+    "h3/extensions/h34/data/risk.json": {
+      "sha256": "f0ecfe77a136000ba6112a152e163b232868f3f7d0c02212ab24e16853513c01",
+      "bytes": 2282081
+    },
+    "h3/extensions/h34/data/moments/main.json": {
+      "sha256": "69f23bd36f0cbba23ca1158466b165f91a2eedf07dbc016cb2cd7b84ab2545a0",
+      "bytes": 4706
+    },
+    "h3/extensions/h34/data/moments/high.json": {
+      "sha256": "4d4bcece731c44c4c45b699a7f6cab6363499a011dcc2de1c2c0720e0c8eb985",
+      "bytes": 4697
+    },
+    "h3/extensions/h34/data/learnable_channel.json": {
+      "sha256": "0a803945a38228603521f8ab119878798da72e4ee400e0eef768037ceb1aca2d",
+      "bytes": 80736
+    },
+    "h3/extensions/h34/data/execution.json": {
+      "sha256": "54ef64bcd928aa2d766cf6b21efaee5070fa12c715916a7a0aeb13c09f675914",
+      "bytes": 13600
+    },
+    "h3/extensions/h34/notes/APPENDIX_ADAPT_EN.md": {
+      "sha256": "b04685ddcb4999814b13c9dfcb706a1b783530473e922468f93a0fb1625c0c9a",
+      "bytes": 14857
+    },
+    "h3/extensions/h34/notes/APPENDIX_CHANNEL_EN.md": {
+      "sha256": "4e0b65b209a0dd07f0c7771b1f33ddf08aae9cb1c4343ecad611a97c4c433b3a",
+      "bytes": 13114
+    },
+    "h3/extensions/h34/notes/APPENDIX_MODEL_EN.md": {
+      "sha256": "dc9bbb141dcb6a64ea7e3c27b58978eed8188bd86df203785d804573fc04a1e2",
+      "bytes": 12673
+    },
+    "h3/extensions/h34/notes/APPENDIX_RISK_EN.md": {
+      "sha256": "9ebccdd5d3618863b263b06deb46dd26b5ef98d2d4f3add3322ce9d1ee858777",
+      "bytes": 19106
+    },
+    "h3/extensions/h34/notes/references.bib": {
+      "sha256": "645c8fdf6ad62a88d0d902f0181a0cc377107e08024c8a55f2f92e6a0ae9b967",
+      "bytes": 18165
+    },
+    "h3/extensions/h34/README.md": {
+      "sha256": "16ecbd76cb784309397eb7bde2b4ae37199e1b27a0ca30ce610c431968213a10",
+      "bytes": 5065
+    },
+    "h3/extensions/h34/README_ZH.md": {
+      "sha256": "43a5069037efbaed078f5be399f8f061c3725ad40015aa08f8ba1418e0d85a08",
+      "bytes": 3957
+    },
+    "h3/extensions/h34/requirements.txt": {
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a",
+      "bytes": 32
+    },
+    "h3/extensions/h34/tools/check.py": {
+      "sha256": "cf66cf5c23715c081d5a8ab739400d74e28962c6930b3a3141df2a3a9b508aa4",
+      "bytes": 7574
+    },
+    "h3/extensions/h34/tools/drawing.py": {
+      "sha256": "105cb06986810153aa97d007d664fcb4c05da758bbcbc651ffdf3461ae181091",
+      "bytes": 2665
+    },
+    "h3/extensions/h34/tools/plot.py": {
+      "sha256": "bfcb363437b2da00db5515046be4d1ff5a3c28fc17e4ca0fc2a6fe28d8581226",
+      "bytes": 1121
+    },
+    "h3/extensions/h34/tools/risk_factorized.py": {
+      "sha256": "91b7dd4f0e88d374a4f6fb412b702f89f8221881288a8b43d76435e1fa4a25f9",
+      "bytes": 12581
+    },
+    "h3/extensions/h34/figures/adaptation_response.png": {
+      "sha256": "3f19f6830fb076371a6af05fc8e8b4840cdf3be77243a7f97dc24775e9e44f20",
+      "bytes": 65947
+    },
+    "h3/extensions/h34/SOURCE_MAP.json": {
+      "sha256": "eafc79dc5403b1ddd6da449340fb9d61f7f4b722d3f854e48350116be29475e3",
+      "bytes": 2580
+    }
+  }
+}

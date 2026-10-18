@@ -1,0 +1,409 @@
+{
+  "schema": "h34_adaptation_figure_data_v1",
+  "K": 8,
+  "teacher_direction": "(1,1,0)/sqrt(2)",
+  "homogeneous_slopes": "alpha_i=e for all three groups",
+  "heterogeneous_slopes": "alpha=(e,0,2e), e=1.4/sqrt(8)",
+  "panels": [
+    {
+      "mode": "homogeneous",
+      "edge": 0,
+      "title": "(a) Homogeneous: either active edge",
+      "theory": [
+        {
+          "family": "F",
+          "response": 0.32012234344463136
+        },
+        {
+          "family": "L",
+          "response": 0.32012234344463136
+        },
+        {
+          "family": "A",
+          "response": 0.4322591433308026
+        }
+      ],
+      "points": [
+        {
+          "family": "F",
+          "t": 0.025,
+          "response": 0.32010407226780807,
+          "theta": [
+            0.005658694004649894,
+            0.005658694004649894,
+            -5.5540328562709144e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.05,
+          "response": 0.32004929367143015,
+          "theta": [
+            0.011315451293451654,
+            0.011315451293451654,
+            -2.2198856043618343e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.1,
+          "response": 0.3198307168161445,
+          "theta": [
+            0.02261544686924502,
+            0.02261544686924502,
+            -8.851952576324545e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.2,
+          "response": 0.31896488204617757,
+          "theta": [
+            0.045108446211043894,
+            0.045108446211043894,
+            -0.00034969579842994924
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.025,
+          "response": 0.32011038009256754,
+          "theta": [
+            0.005658805512291444,
+            0.005658805512291444,
+            -5.553324740052905e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.05,
+          "response": 0.320074499812644,
+          "theta": [
+            0.011316342465120649,
+            0.011316342465120649,
+            -2.2187047498800438e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.1,
+          "response": 0.31993113665183043,
+          "theta": [
+            0.022622547623922934,
+            0.022622547623922934,
+            -8.833122692394047e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.2,
+          "response": 0.31936017472138994,
+          "theta": [
+            0.0451643490372831,
+            0.0451643490372831,
+            -0.00034672329781098785
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.025,
+          "response": 0.4322277569610679,
+          "theta": [
+            0.007640779449105553,
+            0.007640779449105553,
+            1.4150250333749395e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.05,
+          "response": 0.4321336422243337,
+          "theta": [
+            0.01527823143978339,
+            0.01527823143978339,
+            5.661237466774881e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.1,
+          "response": 0.4317579588997624,
+          "theta": [
+            0.030529898056928472,
+            0.030529898056928472,
+            0.0002266268255553461
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.2,
+          "response": 0.43026658762477255,
+          "theta": [
+            0.06084888436549451,
+            0.06084888436549451,
+            0.0009093003307448515
+          ],
+          "ordinary_numerical_qualification": true
+        }
+      ]
+    },
+    {
+      "mode": "heterogeneous",
+      "edge": 0,
+      "title": "(b) Heterogeneous: edge 12",
+      "theory": [
+        {
+          "family": "F",
+          "response": 0.25127406064514823
+        },
+        {
+          "family": "L",
+          "response": 0.25127406064514823
+        },
+        {
+          "family": "A",
+          "response": 0.33697881106677924
+        }
+      ],
+      "points": [
+        {
+          "family": "F",
+          "t": 0.0125,
+          "response": 0.2512691000425979,
+          "theta": [
+            0.002220926056784525,
+            0.0038776949750138003,
+            -1.664013587607226e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.025,
+          "response": 0.25125422081249604,
+          "theta": [
+            0.004441589083456454,
+            0.007755073467655755,
+            -6.654692021929476e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.05,
+          "response": 0.2511947457784304,
+          "theta": [
+            0.00888107540691795,
+            0.01550761666097858,
+            -2.659698100172551e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.0125,
+          "response": 0.25127054854846886,
+          "theta": [
+            0.0022209388598885744,
+            0.0038777138532183706,
+            -1.663962976973235e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.025,
+          "response": 0.2512600135539259,
+          "theta": [
+            0.004441691485625121,
+            0.0077552244517114285,
+            -6.653825662654103e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.05,
+          "response": 0.2512178893483724,
+          "theta": [
+            0.008881893655680293,
+            0.015508823078139874,
+            -2.658313455734224e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.0125,
+          "response": 0.3369710806298045,
+          "theta": [
+            0.0029784317022136706,
+            0.0052987056828828994,
+            3.3695929204153134e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.025,
+          "response": 0.3369478917969747,
+          "theta": [
+            0.005956453479903797,
+            0.010596841824227685,
+            1.3479316978513954e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.05,
+          "response": 0.336855188162417,
+          "theta": [
+            0.011909629391375775,
+            0.021189128517954507,
+            5.3932099538119254e-05
+          ],
+          "ordinary_numerical_qualification": true
+        }
+      ]
+    },
+    {
+      "mode": "heterogeneous",
+      "edge": 1,
+      "title": "(c) Heterogeneous: edge 13",
+      "theory": [
+        {
+          "family": "F",
+          "response": 0.4387170745539065
+        },
+        {
+          "family": "L",
+          "response": 0.4387170745539065
+        },
+        {
+          "family": "A",
+          "response": 0.5994908549536984
+        }
+      ],
+      "points": [
+        {
+          "family": "F",
+          "t": 0.0125,
+          "response": 0.4387111059528413,
+          "theta": [
+            0.002220926056784525,
+            0.0038776949750138003,
+            -1.664013587607226e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.025,
+          "response": 0.4386932030063406,
+          "theta": [
+            0.004441589083456454,
+            0.007755073467655755,
+            -6.654692021929476e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "F",
+          "t": 0.05,
+          "response": 0.4386216360407776,
+          "theta": [
+            0.00888107540691795,
+            0.01550761666097858,
+            -2.659698100172551e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.0125,
+          "response": 0.43871324177787624,
+          "theta": [
+            0.0022209388598885744,
+            0.0038777138532183706,
+            -1.663962976973235e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.025,
+          "response": 0.4387017439543101,
+          "theta": [
+            0.004441691485625121,
+            0.0077552244517114285,
+            -6.653825662654103e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "L",
+          "t": 0.05,
+          "response": 0.43865575867100526,
+          "theta": [
+            0.008881893655680293,
+            0.015508823078139874,
+            -2.658313455734224e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.0125,
+          "response": 0.5994801151805111,
+          "theta": [
+            0.0029784317022136706,
+            0.0052987056828828994,
+            3.3695929204153134e-06
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.025,
+          "response": 0.5994478970458097,
+          "theta": [
+            0.005956453479903797,
+            0.010596841824227685,
+            1.3479316978513954e-05
+          ],
+          "ordinary_numerical_qualification": true
+        },
+        {
+          "family": "A",
+          "t": 0.05,
+          "response": 0.5993190584991557,
+          "theta": [
+            0.011909629391375775,
+            0.021189128517954507,
+            5.3932099538119254e-05
+          ],
+          "ordinary_numerical_qualification": true
+        }
+      ]
+    }
+  ],
+  "statistical_unit": "deterministic finite-GH numerical branch locations; not finite-N risk samples",
+  "theory_role": "saved leading coefficients shown as horizontal lines; no fitting or interpolation of coefficients",
+  "limitations": [
+    "ordinary rule/stationarity qualification, no continuous error certificate",
+    "unknown theoretical radius does not certify these finite amplitudes globally",
+    "F has no free tilt; L reads own group; A reads other groups but all outputs remain factorized"
+  ]
+}

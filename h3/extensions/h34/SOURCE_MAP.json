@@ -1,0 +1,58 @@
+{
+  "schema": "h34_public_source_map_v1",
+  "projections": [
+    {
+      "target": "h3/extensions/h34/data/adaptation.json",
+      "projection_id": "projection-1",
+      "numeric_leaves_preserved": 163,
+      "transform": "explicit saved-field projection; selected numerical leaves unchanged"
+    },
+    {
+      "target": "h3/extensions/h34/data/risk.json",
+      "projection_id": "projection-2",
+      "numeric_leaves_preserved": 106419,
+      "transform": "explicit saved-field projection; selected numerical leaves unchanged"
+    },
+    {
+      "target": "h3/extensions/h34/data/moments/main.json",
+      "projection_id": "projection-3",
+      "numeric_leaves_preserved": 166,
+      "transform": "explicit saved-field projection; selected numerical leaves unchanged"
+    },
+    {
+      "target": "h3/extensions/h34/data/moments/high.json",
+      "projection_id": "projection-4",
+      "numeric_leaves_preserved": 166,
+      "transform": "explicit saved-field projection; selected numerical leaves unchanged"
+    },
+    {
+      "target": "h3/extensions/h34/data/learnable_channel.json",
+      "projection_id": "projection-5",
+      "numeric_leaves_preserved": 1818,
+      "transform": "explicit saved-field projection; selected numerical leaves unchanged"
+    },
+    {
+      "target": "h3/extensions/h34/data/execution.json",
+      "projection_id": "projection-6",
+      "numeric_leaves_preserved": 178,
+      "transform": "explicit saved-field projection; selected numerical leaves unchanged"
+    }
+  ],
+  "numeric_code_source_sha256": "ea3f7cc154186b2c045582477f99b21b9c85733e8ed8423f41e21f227a2f8294",
+  "data_source_sha256": [
+    "43a145dabb952859409402d684bfc5d9fd11865f5b734a672be42c1ad81fdc6f",
+    "4d4bcece731c44c4c45b699a7f6cab6363499a011dcc2de1c2c0720e0c8eb985",
+    "69f23bd36f0cbba23ca1158466b165f91a2eedf07dbc016cb2cd7b84ab2545a0",
+    "89643a71a04f94ab92f9b890dd73d5311c113053a89ac1e9e5b38d6c13a072c6",
+    "c327dd7881f3c5da7310f8e4246853015b793e96cfc1cf97097f7b61fb39919c",
+    "ca343496d828b2e6e1a031ed756e4d14a7c85f32b490988707f011c4cf98e011"
+  ],
+  "note_source_sha256": [
+    "1882dd8cac4f9d7a9481091573df1e5bc994d1f65eec5b62717530b4e610ec2d",
+    "2d4006f76c3e86772363a822029db72b5f04238a634ffab4fab9a603a6e1c947",
+    "645c8fdf6ad62a88d0d902f0181a0cc377107e08024c8a55f2f92e6a0ae9b967",
+    "97eff2926f96a8cae7db1ad6193f1d0c90ba3ef9eba850306e0b0ad2adcd0198",
+    "e90a11868b534208af09c7a9fe69aa99996adf8baf3c2a0e20d57de93a137081"
+  ],
+  "scope": "Selected historical object identities, not public download paths or independent model-integration replay."
+}

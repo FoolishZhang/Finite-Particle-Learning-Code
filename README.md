@@ -1,3 +1,7 @@
+## v1.3.0: compact h3.4 evidence
+
+The additive [h3.4 extension](h3/extensions/h34/README.md) contains saved adaptation points, unknown-channel stationary comparisons, full-coordinate local-risk arithmetic and compact execution diagnostics. Its checker verifies saved identities and algebra; its plotter redraws the adaptation figure. Model integration, optimization and training replay are not claimed. Earlier h3 and h33 scientific payloads retain their original bytes. Final English technical notes A–D and references are included. The extension manifest records the exact file inventory.
+
 ## v1.2.0: compact h3.3 evidence
 
 New D.5 budget and D.6 learned-proposal material is in [h3/extensions/h33](h3/extensions/h33/README.md). It adds saved-value checks, frozen densities and deterministic plots. The original v1.1.0 h3 scientific payload remains unchanged. Full sampling, integration, fitting and training replay are not claimed. Fresh credential-disabled retrieval and the supported checks have passed; see the [v1.2.0 network record](release/V1_2_0_NETWORK.json).

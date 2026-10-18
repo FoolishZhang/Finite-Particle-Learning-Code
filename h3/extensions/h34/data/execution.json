@@ -1,0 +1,456 @@
+{
+  "schema": "h34_public_execution_evidence_v1",
+  "selected_old_endpoints": [
+    {
+      "family": "F",
+      "r": 0,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 0.0,
+        "profiled_generation_difference": 0.00012722350596176173,
+        "total_difference": 0.00012722350596176173,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "reason": "F_has_no_proposal"
+      },
+      "raw_value24": -0.00022813786277566878,
+      "profile_value24": -0.00022813786277566878,
+      "reference_value24": -0.0003553613687374305,
+      "failure": null
+    },
+    {
+      "family": "F",
+      "r": 1,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 0.0,
+        "profiled_generation_difference": 2.021257146284512e-05,
+        "total_difference": 2.021257146284512e-05,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "reason": "F_has_no_proposal"
+      },
+      "raw_value24": -0.0003351487972745854,
+      "profile_value24": -0.0003351487972745854,
+      "reference_value24": -0.0003553613687374305,
+      "failure": null
+    },
+    {
+      "family": "F",
+      "r": 2,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 0.0,
+        "profiled_generation_difference": 7.22680782812535e-05,
+        "total_difference": 7.22680782812535e-05,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "reason": "F_has_no_proposal"
+      },
+      "raw_value24": -0.000283093290456177,
+      "profile_value24": -0.000283093290456177,
+      "reference_value24": -0.0003553613687374305,
+      "failure": null
+    },
+    {
+      "family": "L",
+      "r": 0,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 8.996834906194859e-05,
+        "profiled_generation_difference": 0.00012066274870314766,
+        "total_difference": 0.00021063109776509625,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "free_dimension": 54,
+        "scaled_gradient_infinity": 3.0815784066933076e-11,
+        "minimum_scaled_curvature": 0.9718528058326646,
+        "newton_decrement": 9.078461599994476e-11,
+        "maximum_physical_newton_correction": 1.0481494601316837e-09,
+        "scaled_hessian_sensitivity_operator_norm": 0.0,
+        "predicted_local_improvement": 4.120923251128713e-21,
+        "qualification": "ordinary_numerical_stationarity_and_resolved_positive_curvature_not_global_or_continuous_certificate"
+      },
+      "raw_value24": -0.00014506574327238702,
+      "profile_value24": -0.0002350340923343356,
+      "reference_value24": -0.00035569684103748327,
+      "failure": null
+    },
+    {
+      "family": "L",
+      "r": 1,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 8.563940370501016e-05,
+        "profiled_generation_difference": 1.9023678053027148e-05,
+        "total_difference": 0.00010466308175803731,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "free_dimension": 54,
+        "scaled_gradient_infinity": 1.2311798617994595e-12,
+        "minimum_scaled_curvature": 0.9700740345226334,
+        "newton_decrement": 3.2080404074496245e-12,
+        "maximum_physical_newton_correction": 4.1995805510908925e-11,
+        "scaled_hessian_sensitivity_operator_norm": 0.0,
+        "predicted_local_improvement": 5.145761627914776e-24,
+        "qualification": "ordinary_numerical_stationarity_and_resolved_positive_curvature_not_global_or_continuous_certificate"
+      },
+      "raw_value24": -0.00025103375927944596,
+      "profile_value24": -0.0003366731629844561,
+      "reference_value24": -0.00035569684103748327,
+      "failure": null
+    },
+    {
+      "family": "L",
+      "r": 2,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 5.5722145555016193e-05,
+        "profiled_generation_difference": 7.285579500289954e-05,
+        "total_difference": 0.00012857794055791573,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "free_dimension": 54,
+        "scaled_gradient_infinity": 1.2549984436582428e-11,
+        "minimum_scaled_curvature": 0.9797105369275402,
+        "newton_decrement": 3.0526988969189994e-11,
+        "maximum_physical_newton_correction": 4.2060047797595774e-10,
+        "scaled_hessian_sensitivity_operator_norm": 0.0,
+        "predicted_local_improvement": 4.659485277625238e-22,
+        "qualification": "ordinary_numerical_stationarity_and_resolved_positive_curvature_not_global_or_continuous_certificate"
+      },
+      "raw_value24": -0.00022711890047956754,
+      "profile_value24": -0.00028284104603458374,
+      "reference_value24": -0.00035569684103748327,
+      "failure": null
+    },
+    {
+      "family": "A",
+      "r": 0,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 0.00020395861441018895,
+        "profiled_generation_difference": 0.00017420785009175866,
+        "total_difference": 0.00037816646450194763,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "free_dimension": 60,
+        "scaled_gradient_infinity": 6.147612000028966e-11,
+        "minimum_scaled_curvature": 0.9244852035084653,
+        "newton_decrement": 2.2971710565605022e-10,
+        "maximum_physical_newton_correction": 1.8716538847974397e-09,
+        "scaled_hessian_sensitivity_operator_norm": 0.0,
+        "predicted_local_improvement": 2.638497431549647e-20,
+        "qualification": "ordinary_numerical_stationarity_and_resolved_positive_curvature_not_global_or_continuous_certificate"
+      },
+      "raw_value24": -0.00010141245964517926,
+      "profile_value24": -0.0003053710740553682,
+      "reference_value24": -0.00047957892414712686,
+      "failure": null
+    },
+    {
+      "family": "A",
+      "r": 1,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 0.0001930980931436189,
+        "profiled_generation_difference": 6.132395717184012e-05,
+        "total_difference": 0.000254422050315459,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "free_dimension": 60,
+        "scaled_gradient_infinity": 9.073161314751837e-12,
+        "minimum_scaled_curvature": 0.9220749276505137,
+        "newton_decrement": 2.826286061014964e-11,
+        "maximum_physical_newton_correction": 3.1522342717101144e-10,
+        "scaled_hessian_sensitivity_operator_norm": 0.0,
+        "predicted_local_improvement": 3.9939464493437405e-22,
+        "qualification": "ordinary_numerical_stationarity_and_resolved_positive_curvature_not_global_or_continuous_certificate"
+      },
+      "raw_value24": -0.00022515687383166784,
+      "profile_value24": -0.00041825496697528675,
+      "reference_value24": -0.00047957892414712686,
+      "failure": null
+    },
+    {
+      "family": "A",
+      "r": 2,
+      "status": "completed",
+      "qualified": true,
+      "decomposition24": {
+        "complete": true,
+        "proposal_difference": 7.362159170334811e-05,
+        "profiled_generation_difference": 0.00015712958444837527,
+        "total_difference": 0.00023075117615172338,
+        "identity_residual": 0.0,
+        "profile_qualified": true,
+        "global_regret": false
+      },
+      "profile_qualification": {
+        "passed": true,
+        "free_dimension": 60,
+        "scaled_gradient_infinity": 6.305028896747293e-11,
+        "minimum_scaled_curvature": 0.9307756446924246,
+        "newton_decrement": 1.812078920245656e-10,
+        "maximum_physical_newton_correction": 2.1735020966185045e-09,
+        "scaled_hessian_sensitivity_operator_norm": 0.0,
+        "predicted_local_improvement": 1.6418150065993313e-20,
+        "qualification": "ordinary_numerical_stationarity_and_resolved_positive_curvature_not_global_or_continuous_certificate"
+      },
+      "raw_value24": -0.0002488277479954035,
+      "profile_value24": -0.0003224493396987516,
+      "reference_value24": -0.00047957892414712686,
+      "failure": null
+    }
+  ],
+  "high_order_coverage": "only prelisted r0 raw F/L/A and profile L/A; r1/r2 not checked at order32",
+  "A_minus_L": [
+    {
+      "label": "A-L p0g0",
+      "output": "step_0500",
+      "mean": [
+        0.004781023140712032,
+        0.00918876432997015
+      ],
+      "SD": [
+        0.011283650009974455,
+        0.009219360129071912
+      ]
+    },
+    {
+      "label": "A-L p0g1",
+      "output": "step_0500",
+      "mean": [
+        0.013637181682773648,
+        0.017013290698937783
+      ],
+      "SD": [
+        0.008736536688982513,
+        0.016175004820554083
+      ]
+    },
+    {
+      "label": "A-L p1g0",
+      "output": "step_0500",
+      "mean": [
+        0.01811173167647008,
+        0.02999715099692273
+      ],
+      "SD": [
+        0.014471401997511167,
+        0.018318152275164038
+      ]
+    },
+    {
+      "label": "A-L p1g1",
+      "output": "step_0500",
+      "mean": [
+        0.036184010268051736,
+        0.04997385577152348
+      ],
+      "SD": [
+        0.016586395792354665,
+        0.020967445823619542
+      ]
+    },
+    {
+      "label": "A-L p0g0",
+      "output": "step_1500",
+      "mean": [
+        0.03988314083696617,
+        0.05101924896881945
+      ],
+      "SD": [
+        0.012500194668681911,
+        0.017201395026418237
+      ]
+    },
+    {
+      "label": "A-L p0g1",
+      "output": "step_1500",
+      "mean": [
+        0.050910454023794974,
+        0.07150705105563739
+      ],
+      "SD": [
+        0.02375461009978173,
+        0.038128127630922486
+      ]
+    },
+    {
+      "label": "A-L p1g0",
+      "output": "step_1500",
+      "mean": [
+        0.06348637565282943,
+        0.08916287922260183
+      ],
+      "SD": [
+        0.016722271254618875,
+        0.02977282528531192
+      ]
+    },
+    {
+      "label": "A-L p1g1",
+      "output": "step_1500",
+      "mean": [
+        0.08402036482270606,
+        0.10618907776890833
+      ],
+      "SD": [
+        0.029921832151167768,
+        0.01814840959338555
+      ]
+    },
+    {
+      "label": "A-L p0g0",
+      "output": "mean_1001_1500",
+      "mean": [
+        0.03304077736648317,
+        0.038504118214432344
+      ],
+      "SD": [
+        0.002494813808964935,
+        0.017195884057038167
+      ]
+    },
+    {
+      "label": "A-L p0g1",
+      "output": "mean_1001_1500",
+      "mean": [
+        0.04319946958056244,
+        0.05253249822365079
+      ],
+      "SD": [
+        0.015729796697001877,
+        0.034944276269749004
+      ]
+    },
+    {
+      "label": "A-L p1g0",
+      "output": "mean_1001_1500",
+      "mean": [
+        0.055778730909926875,
+        0.08305838886279748
+      ],
+      "SD": [
+        0.012033814321728882,
+        0.026503193889233532
+      ]
+    },
+    {
+      "label": "A-L p1g1",
+      "output": "mean_1001_1500",
+      "mean": [
+        0.08114489301647633,
+        0.10517950774094534
+      ],
+      "SD": [
+        0.020673178906437398,
+        0.013074811242702841
+      ]
+    }
+  ],
+  "joint_A_noise": [
+    {
+      "arm": "p0_g0",
+      "metrics": {
+        "particle_trace": {
+          "mean": 0.7907861131121628,
+          "SD": 0.03627705047458271
+        },
+        "B1_newton": {
+          "mean": 0.7255137377550867,
+          "SD": 0.018777027582054448
+        }
+      }
+    },
+    {
+      "arm": "p0_g1",
+      "metrics": {
+        "particle_trace": {
+          "mean": 0.4462795803079352,
+          "SD": 0.021265991048054735
+        },
+        "B1_newton": {
+          "mean": 0.5612234884675532,
+          "SD": 0.04810161713559494
+        }
+      }
+    },
+    {
+      "arm": "p1_g0",
+      "metrics": {
+        "particle_trace": {
+          "mean": 0.377109941332258,
+          "SD": 0.017318078393700857
+        },
+        "B1_newton": {
+          "mean": 0.9589620987545285,
+          "SD": 0.028356062507445837
+        }
+      }
+    },
+    {
+      "arm": "p1_g1",
+      "metrics": {
+        "particle_trace": {
+          "mean": 0.032603408528030425,
+          "SD": 0.002338350004059933
+        },
+        "B1_newton": {
+          "mean": 0.31807254456985984,
+          "SD": 0.018188773975769477
+        }
+      }
+    }
+  ],
+  "statistical_units": "Old selected-panel diagnostic, not fresh training repetitions. Matched-control increments: four complete numerical repetitions, sample SD. Fixed-point noise: three complete repetitions, sample SD. Not finite-N risk datasets."
+}
