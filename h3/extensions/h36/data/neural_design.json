@@ -1,0 +1,86 @@
+{
+  "d": 8,
+  "K": 4,
+  "width": 64,
+  "tau": [
+    0.25,
+    1.0,
+    4.0,
+    0.25,
+    1.0,
+    4.0,
+    0.25,
+    1.0
+  ],
+  "prefit_steps": 8000,
+  "steps": 20000,
+  "batch": 1024,
+  "lr": 0.001,
+  "prefit_lr": 0.001,
+  "lr_schedule": "cosine",
+  "prefit_schedule": "cosine",
+  "final_lr_ratio": 0.01,
+  "gradient_estimator": "dreg",
+  "prefit_objective": "analytic_elbo",
+  "amplitude": 0.1,
+  "blocks": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "teacher_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "teacher_graph_divisor": 3,
+  "family_size": 4,
+  "alpha": 0.05,
+  "margin": 0.05
+}

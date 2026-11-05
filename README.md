@@ -1,3 +1,7 @@
+## v1.4.0: input access, joint outputs and saved h3.6 evidence
+
+The additive [h3.6 extension](h3/extensions/h36/README.md) supplies general structural proofs, 96 saved d8/K4 neural endpoint matrices and R12 paired confirmation statistics, separate old equal-update/reference summaries, and the previously unpublished compact R64 finite-sample risk results from the three-group Gaussian--logistic model. Public tools verify file hashes, reaggregate saved statistics and redraw the neural structure figure. Training, original integration and optimization are outside these checks. Earlier scientific files retain their original bytes.
+
 ## v1.3.0: compact h3.4 evidence
 
 The additive [h3.4 extension](h3/extensions/h34/README.md) contains saved adaptation points, unknown-channel stationary comparisons, full-coordinate local-risk arithmetic and compact execution diagnostics. Its checker verifies saved identities and algebra; its plotter redraws the adaptation figure. Model integration, optimization and training replay are not claimed. Earlier h3 and h33 scientific payloads retain their original bytes. Final English technical notes A–D and references are included. The extension manifest records the exact file inventory.

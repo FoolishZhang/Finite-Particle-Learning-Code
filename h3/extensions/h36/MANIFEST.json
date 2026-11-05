@@ -1,0 +1,146 @@
+{
+  "schema": "h36_public_manifest_v1",
+  "version": "1.4.0",
+  "files": {
+    "h3/extensions/h36/data/neural_records.json": {
+      "sha256": "27af59fecab1c21b8f09b5417a90f2949829d3209fe5010ac3687c48a4a683e5",
+      "bytes": 280306
+    },
+    "h3/extensions/h36/data/fresh_statistics.json": {
+      "sha256": "231c8c095a206cda5d053ac112739dcaa6a4d997ea6b0a83d6d771bbe5edabfa",
+      "bytes": 12041
+    },
+    "h3/extensions/h36/data/old_equal_updates_statistics.json": {
+      "sha256": "d8df3aa5e78b25ae4a56f830629692398bc1337224642b7b8e87fa1bcd49bf1f",
+      "bytes": 12055
+    },
+    "h3/extensions/h36/data/neural_design.json": {
+      "sha256": "530bc537d91014e33e84951624a094e0e5751a33020d4487f272e67ce8b50089",
+      "bytes": 917
+    },
+    "h3/extensions/h36/data/fresh_jnt_summary.json": {
+      "sha256": "99e7190409158248a410ee97fe6bb1949f7332b6a69e6fa74dd67d8aab2e1de1",
+      "bytes": 1772
+    },
+    "h3/extensions/h36/data/fresh_mle_summary.json": {
+      "sha256": "3baf04c7b8f6a0e46e9d9eb4f97e71d74634931fab6eae464ed1f3f3ef6ff037",
+      "bytes": 415
+    },
+    "h3/extensions/h36/data/fresh_description_summary.json": {
+      "sha256": "7f196d29b5c4598a97d1e81108856e3182e912dae92a199ab7d43f94371b9a90",
+      "bytes": 5289
+    },
+    "h3/extensions/h36/data/old_mle_summary.json": {
+      "sha256": "6fa311db53495478925797971ae959c5ae37655a2ce128dc115a926cef097c22",
+      "bytes": 460
+    },
+    "h3/extensions/h36/data/old_jnt_summary.json": {
+      "sha256": "657e7549f3d03c488698722b7b5d88a490e343b7f12d3c3ef80e4d94d44f931c",
+      "bytes": 1538
+    },
+    "h3/extensions/h36/data/r64.json": {
+      "sha256": "751f4101ec309a89b7180a6e3d42c47e9143bf4f210d5b76d86c28ef16f2596d",
+      "bytes": 324314
+    },
+    "h3/extensions/h36/data/r64_source_identity.json": {
+      "sha256": "59d51a9ee1a421de7085fa86eb95945cccd754688eaee22cfaf75c57cfe954aa",
+      "bytes": 517
+    },
+    "h3/extensions/h36/README_ZH.md": {
+      "sha256": "1013cff39b050fa07ac38d076325620cd6c073664e96f0a7da9204f2444c13ce",
+      "bytes": 3904
+    },
+    "h3/extensions/h36/requirements.txt": {
+      "sha256": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+      "bytes": 40
+    },
+    "h3/extensions/h36/README.md": {
+      "sha256": "7fa2bf0f9e0979997778f6b4e1c60247540d36a2675b9f231bb595b8073fbeac",
+      "bytes": 5474
+    },
+    "h3/extensions/h36/notes/APPENDIX_CHANNEL_EN.md": {
+      "sha256": "3ad51420d13eaf2e4dcf6f721cf63fa20345752aced20db57e04623da8400692",
+      "bytes": 12985
+    },
+    "h3/extensions/h36/notes/APPENDIX_EVIDENCE_EN.md": {
+      "sha256": "2c73133021633cdfad370878ff7f584b68926c0879274e57d9002ffbd17962b5",
+      "bytes": 49818
+    },
+    "h3/extensions/h36/notes/APPENDIX_PROPOSAL_EN.md": {
+      "sha256": "c9b908996a8f1dab02cbc54a33707ed38e3c147529137b63fac8d9c12040ee5d",
+      "bytes": 21256
+    },
+    "h3/extensions/h36/notes/APPENDIX_STRUCTURE_EN.md": {
+      "sha256": "42f39d60b9de3a113141ca58cbeebb8f5ff6a6f09123de5b2f1d4ecc48111793",
+      "bytes": 20282
+    },
+    "h3/extensions/h36/notes/APPENDIX_MODEL_EN.md": {
+      "sha256": "c0b7f055c96b56f66614f15e01ae619696725d1698b17c6458af0f56ead75fad",
+      "bytes": 12619
+    },
+    "h3/extensions/h36/notes/APPENDIX_NEURAL_EN.md": {
+      "sha256": "ec30d28e0829624d04a5dc62508537954f99e28bf1733abea85543ec8e2bd2f7",
+      "bytes": 13549
+    },
+    "h3/extensions/h36/notes/APPENDIX_RISK_EN.md": {
+      "sha256": "c2300730df7b204ba42487197836c1aec13cc111141e4914aa64caca96f8e7e1",
+      "bytes": 18858
+    },
+    "h3/extensions/h36/notes/references.bib": {
+      "sha256": "645c8fdf6ad62a88d0d902f0181a0cc377107e08024c8a55f2f92e6a0ae9b967",
+      "bytes": 18165
+    },
+    "h3/extensions/h36/notes/APPENDIX_ADAPT_EN.md": {
+      "sha256": "4fb929ab19a697862f858acc4e727ca363acd904073122e3ee59d3a7dd699903",
+      "bytes": 15102
+    },
+    "h3/extensions/h36/notes/figures/proposal_reversal.png": {
+      "sha256": "e982f17419603e5aca8da6b57e6c43aa96e52cf885c1605e7cec677f5cecb6f5",
+      "bytes": 145405
+    },
+    "h3/extensions/h36/notes/figures/adaptation_response.png": {
+      "sha256": "92c39ce9c9ff1dd3ca4a613441533b947a9ccb505aa0df4238c93c5c2053ad94",
+      "bytes": 148247
+    },
+    "h3/extensions/h36/notes/figures/learned_prediction.png": {
+      "sha256": "d0d34c94402cb822960c0e98c5763ce0485b34fac2dae74b65757220c63bcde7",
+      "bytes": 162798
+    },
+    "h3/extensions/h36/notes/figures/local_risk_f_group.png": {
+      "sha256": "083f4f952218aed95e4b34226c4f24a72d7b75ec906b1cbc77f22f92458c4093",
+      "bytes": 230488
+    },
+    "h3/extensions/h36/notes/figures/local_risk_n256.png": {
+      "sha256": "34007b392480957c03d1c3e80389f078ff97dfa5baa835dcb36c275c3160c566",
+      "bytes": 187404
+    },
+    "h3/extensions/h36/notes/figures/neural_structure.png": {
+      "sha256": "6fa082c9a1f9714d928347978cff7acfe85eada6f3db94692697002d60f1a25f",
+      "bytes": 197549
+    },
+    "h3/extensions/h36/notes/figures/local_risk.png": {
+      "sha256": "78628bc8a308f64be0539792bb631d9a1da83ff99e0b8f59093e6c5aeb6cf37e",
+      "bytes": 441983
+    },
+    "h3/extensions/h36/tools/check.py": {
+      "sha256": "47a26ece7586dcb724398ab88e96e6b654279aa2c4d6753b25f763e6e6015aa9",
+      "bytes": 2787
+    },
+    "h3/extensions/h36/tools/drawing.py": {
+      "sha256": "52839d8bb5fb8ff21f430c6243eca141e8009784606b447413130308e92fa071",
+      "bytes": 4891
+    },
+    "h3/extensions/h36/tools/plot.py": {
+      "sha256": "17986d23febf9c498d65dc4446a16ab257c9c839cd7ace90a5fd7096135a7a04",
+      "bytes": 1994
+    },
+    "h3/extensions/h36/tools/saved.py": {
+      "sha256": "2d33a93ff66b0fafedf206587b60d675d4120e7bd0d983733672dbd110a65d87",
+      "bytes": 11346
+    },
+    "h3/extensions/h36/SOURCE_MAP.json": {
+      "sha256": "001978e3e1ff70473634859d23247c3ae5c286b977fd76ce1a75218817229afb",
+      "bytes": 2463
+    }
+  }
+}

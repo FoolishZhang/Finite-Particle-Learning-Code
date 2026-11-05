@@ -1,0 +1,46 @@
+{
+  "available": 24,
+  "unique_endpoints": 24,
+  "actual_diagnostic_calls": 24,
+  "numeric_retries": 0,
+  "ranges": {
+    "observed_nll_exact": {
+      "min": 14.32017438774531,
+      "max": 14.353195821123611
+    },
+    "objective_gap_from_same_TRAIN_reference": {
+      "min": 3.233834904747823e-06,
+      "max": 5.510199695635265e-06
+    },
+    "empirical_gradient_inf": {
+      "min": 0.0004831437743549995,
+      "max": 0.0011280119886772823
+    },
+    "C_difference_inf": {
+      "min": 0.0023287178619926865,
+      "max": 0.007900756624793802
+    },
+    "TRAIN_analytic_KL_q_pC_mean": {
+      "min": 5.73049980770529e-06,
+      "max": 7.415319896612332e-06
+    },
+    "TRAIN_analytic_KL_min": {
+      "min": 2.4335124400096233e-08,
+      "max": 8.151463664393135e-08
+    },
+    "TRAIN_analytic_KL_max": {
+      "min": 0.0023612275162663812,
+      "max": 0.005428374599355591
+    }
+  },
+  "empirical_observation_NLL_Hessian": {
+    "min_eigenvalue_across24": 0.039418588266198734,
+    "max_eigenvalue_across24": 0.6557098922482235,
+    "full28x28_matrices_saved": true,
+    "scope": "exact empirical TRAIN observation NLL Hessian, not finiteK-joint NN objective curvature or a global optimality certificate"
+  },
+  "endpoint_exact_posterior_guard_allowed_count": 24,
+  "reference_exact_posterior_guard_allowed_count": 24,
+  "guard_meaning": "Exact candidate Gaussian posterior is representable by JNT affine mean/constant covariance within guards; descriptive only. Not a claim actual NN q equals it, is stationary, or has better population/holdout risk.",
+  "sandwich_meaning": "per endpoint [0,analytic average TRAIN KL] bounds particle-expected F_K minus exact empirical observation NLL; no actual finiteK integral was computed and no parameter bound asserted"
+}

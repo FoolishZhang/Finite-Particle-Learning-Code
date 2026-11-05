@@ -1,0 +1,7 @@
+{
+  "formal_result_sha256": "6cd2d57ab8571e3686052ffb8938c4e7bf12c50ae4ce8bc5bff3ca84fc0590d0",
+  "formal_result_bytes": 746853247,
+  "formal_result_integrity_accepted": true,
+  "provisional_math_exactly_matches": true,
+  "description": "Compact numerical members were extracted before completion of full metadata verification; subsequent full verification accepted their exact mathematical identity with the formal result. This release exports those accepted numbers, not the provisional pending-status metadata."
+}

@@ -1,0 +1,3 @@
+# v1.4.0: h3.6 compact structural evidence
+
+Adds h3/extensions/h36 with general input/output residual theory, English technical appendices, 96 saved neural matrices, R12 paired statistics, separate prior-cohort/reference summaries, and compact old R64 risk records. Supported checks cover file identity and saved arithmetic; the plotter redraws the neural structure figure. No new training, integration or optimization is part of this source update. Existing scientific files and published tags are preserved. Root README, Chinese README, citation metadata and file manifest are the only updated pre-existing paths.

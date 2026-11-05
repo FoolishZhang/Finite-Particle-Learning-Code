@@ -1,0 +1,42 @@
+{
+  "schema": "h36_public_source_map_v1",
+  "inputs_sha256": [
+    "02b45c6736a47559674e17b4dd80f6b4d9ce4b43af4f9093913b08e70c3e7b21",
+    "11156a4746faaa64e400f404521d3b24575360b45e155b09cd6cabaeeea2eade",
+    "120727b0a2ff63f324527afdbdca444ee938ef4e5f9d4e8fefd6af5d7882f06a",
+    "1354d25775119672a0e86bdea8c72221c5c27ab307e955c6fe276a712e0b0e9d",
+    "22784f724031b43b21b29bfdb06243cfba3859046badec97ab8465ff289071ad",
+    "228ea97cf465c5901774c148077211ccccb800c6c140083ceb60d5882239e04b",
+    "54835199292c262ca8284fa5371aec710113deeeb7b109ede55028627ede47b7",
+    "5d652a18a4bb60f981f31bee76e17734d6a76e22ecd55997a3cf7f0181489de9",
+    "742c3e319a9fc58c549ff90e293f91db2775d775aca055a873de67e15a66649b",
+    "b577c799efe555eab9431f2f910c95f451ff9b511229a5340ed556d2b7a605e5",
+    "e934381ed6f3ea7c9b5ad43cee20b1593fd0ddf14662cc285d346dfdb25ddb07"
+  ],
+  "note_source_sha256": [
+    "7aa2127dc7f50e11d29b19dc2796ef518c7d5ae8bcc00a4b7fff897e8f4ea5b4",
+    "67c4f00a047caa02f7e33a273b80ebd8a8cacceb2564d1ba0be7809d842d5503",
+    "531a1b81adf1f16f89c787108ef664893ecff9b9f172f01716aed36651137a23",
+    "ca57bfdc8e4598879776fd1198961c37ffbed04a0dbc43e852f7de2e304d7941",
+    "62f00c8a858116f6cd0084911ad35d8879ec26b6bde34433056c967e12a2af28",
+    "1573638dfd7a2a73c482ce053e0894c1603f28805de1d3448ff4fbdcc18bab0a",
+    "12877c97fb6ff8f7d25de8957271021bcab5c11f5648816bc4b9b52548af75c6",
+    "b79545cbc1e0d5220b14ee530e96d79e4b139f5fe6b970c81039eee02465bad8",
+    "645c8fdf6ad62a88d0d902f0181a0cc377107e08024c8a55f2f92e6a0ae9b967"
+  ],
+  "projection_numeric_leaf_counts": {
+    "h3/extensions/h36/data/neural_records.json": 7008,
+    "h3/extensions/h36/data/fresh_statistics.json": 245,
+    "h3/extensions/h36/data/old_equal_updates_statistics.json": 245,
+    "h3/extensions/h36/data/neural_design.json": 48,
+    "h3/extensions/h36/data/fresh_jnt_summary.json": 22,
+    "h3/extensions/h36/data/fresh_mle_summary.json": 7,
+    "h3/extensions/h36/data/fresh_description_summary.json": 87,
+    "h3/extensions/h36/data/old_mle_summary.json": 6,
+    "h3/extensions/h36/data/old_jnt_summary.json": 24,
+    "h3/extensions/h36/data/r64.json": 4771,
+    "h3/extensions/h36/data/r64_source_identity.json": 1
+  },
+  "drawing_source_sha256": "cde54d0ee9c5ddd07a6a2e7d836778688ff9a9b1dfa0e44b1867dd0c9c6f5473",
+  "scope": "Selected unchanged saved numbers and reversible technical-source projection. Full source paths and pointers are retained by the research repository."
+}

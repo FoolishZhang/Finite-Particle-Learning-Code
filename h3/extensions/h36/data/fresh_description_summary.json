@@ -1,0 +1,195 @@
+{
+  "endpoints": 96,
+  "pairs": 48,
+  "MLE_pairs": 12,
+  "all_identities_passed": true,
+  "ranges_by_structure": {
+    "L": {
+      "C_minus_MLE_Frobenius": {
+        "min": 0.06759942314682646,
+        "max": 0.11770049855039452
+      },
+      "C_minus_MLE_max_abs": {
+        "min": 0.027030962606688975,
+        "max": 0.057417159363600076
+      },
+      "D_minus_MLE_Frobenius": {
+        "min": 0.6566320927031165,
+        "max": 0.6742311388336907
+      },
+      "D_minus_MLE_max_abs": {
+        "min": 0.23050250038477288,
+        "max": 0.24170344533518484
+      },
+      "E_minus_MLE_Frobenius": {
+        "min": 0.045635813456322054,
+        "max": 0.08663800409349134
+      },
+      "E_minus_MLE_max_abs": {
+        "min": 0.014798542082895156,
+        "max": 0.04080271096918896
+      },
+      "rho_minus_MLE": {
+        "all": {
+          "min": -0.34661122788427784,
+          "max": -0.3403772744023341
+        },
+        "within": {
+          "min": -0.3621981467228906,
+          "max": -0.3545297494613368
+        },
+        "cross": {
+          "min": -0.33759887151864687,
+          "max": -0.33001214770533366
+        }
+      }
+    },
+    "A": {
+      "C_minus_MLE_Frobenius": {
+        "min": 0.04388751349829715,
+        "max": 0.08039706156472111
+      },
+      "C_minus_MLE_max_abs": {
+        "min": 0.01659920191821741,
+        "max": 0.041932335196581114
+      },
+      "D_minus_MLE_Frobenius": {
+        "min": 0.3588392644211095,
+        "max": 0.37037942936016344
+      },
+      "D_minus_MLE_max_abs": {
+        "min": 0.16402664145876705,
+        "max": 0.17075930570712677
+      },
+      "E_minus_MLE_Frobenius": {
+        "min": 0.028966698598488716,
+        "max": 0.06289499419839353
+      },
+      "E_minus_MLE_max_abs": {
+        "min": 0.011045919912571147,
+        "max": 0.03832189475701214
+      },
+      "rho_minus_MLE": {
+        "all": {
+          "min": -0.11435456354741529,
+          "max": -0.1102796595066284
+        },
+        "within": {
+          "min": -0.12420058093803132,
+          "max": -0.12065567403379056
+        },
+        "cross": {
+          "min": -0.10728522464765368,
+          "max": -0.10258277337491968
+        }
+      }
+    },
+    "B": {
+      "C_minus_MLE_Frobenius": {
+        "min": 0.03264417738587007,
+        "max": 0.06867736706458243
+      },
+      "C_minus_MLE_max_abs": {
+        "min": 0.01322369712645678,
+        "max": 0.03876612184364817
+      },
+      "D_minus_MLE_Frobenius": {
+        "min": 0.25261177530085954,
+        "max": 0.26401063049883344
+      },
+      "D_minus_MLE_max_abs": {
+        "min": 0.16250201064913466,
+        "max": 0.17101856061622042
+      },
+      "E_minus_MLE_Frobenius": {
+        "min": 0.02803158187133592,
+        "max": 0.05942496305049613
+      },
+      "E_minus_MLE_max_abs": {
+        "min": 0.011073717058165863,
+        "max": 0.03831638848203149
+      },
+      "rho_minus_MLE": {
+        "all": {
+          "min": -0.06257680903622392,
+          "max": -0.05886417151851467
+        },
+        "within": {
+          "min": -0.0016484735543318802,
+          "max": 0.0007797710214035585
+        },
+        "cross": {
+          "min": -0.10688734468485007,
+          "max": -0.10216730788311283
+        }
+      }
+    },
+    "JNT": {
+      "C_minus_MLE_Frobenius": {
+        "min": 0.008480151409643536,
+        "max": 0.013866923427982384
+      },
+      "C_minus_MLE_max_abs": {
+        "min": 0.002328717861992685,
+        "max": 0.007900756624793816
+      },
+      "D_minus_MLE_Frobenius": {
+        "min": 0.002598341337919395,
+        "max": 0.004447280333620281
+      },
+      "D_minus_MLE_max_abs": {
+        "min": 0.000815622328152691,
+        "max": 0.002018172961357756
+      },
+      "E_minus_MLE_Frobenius": {
+        "min": 0.008484114438818347,
+        "max": 0.013816746779588503
+      },
+      "E_minus_MLE_max_abs": {
+        "min": 0.002334068272441408,
+        "max": 0.00788080073235655
+      },
+      "rho_minus_MLE": {
+        "all": {
+          "min": -0.0008255240033454555,
+          "max": 0.0007444222049489294
+        },
+        "within": {
+          "min": -0.0011223490766697779,
+          "max": 0.001527972924685038
+        },
+        "cross": {
+          "min": -0.001048616235744398,
+          "max": 0.0013248441431307995
+        }
+      }
+    }
+  },
+  "MLE_description": {
+    "rho": {
+      "all": {
+        "min": 0.9935068863171219,
+        "max": 1.002854734708275
+      },
+      "within": {
+        "min": 0.992025805787708,
+        "max": 1.006698116862469
+      },
+      "cross": {
+        "min": 0.9900026031194051,
+        "max": 1.0063537338107258
+      }
+    },
+    "E_Frobenius": {
+      "min": 0.07743238355719931,
+      "max": 0.13457954365026722
+    },
+    "E_max_abs": {
+      "min": 0.021863473099513808,
+      "max": 0.049458235642501444
+    }
+  },
+  "D_identity_max_error": 9.71445146547012e-17,
+  "E_identity_max_error": 1.6653345369377348e-16,
+  "scope": "Descriptions of frozen saved matrices relative to locally qualified same-TRAIN MLE; restricted-q finite-K target shifts can contribute to L/A/B differences. D/E and MLE give competing explanations, not causal error decomposition. Same-TRAIN JNT proximity is distinct from population/holdout risk. No four-method statistical contrast computed here."
+}

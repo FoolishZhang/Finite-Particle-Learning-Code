@@ -1,0 +1,10 @@
+{
+  "cases": 24,
+  "passed_declared_checks": 24,
+  "max_correlation_gradient_inf": 1.821199441254251e-14,
+  "min_C_eigenvalue": 0.8570504441142115,
+  "max_cross_start_C_inf_difference": 5.620330589817257e-14,
+  "max_cross_start_objective_difference": 1.7763568394002505e-15,
+  "data_role": "24 signed empirical TRAIN datasets from original R12; zero new independent replicates; fixed mean zero/uncentered second moments",
+  "global_optimum_certified": false
+}

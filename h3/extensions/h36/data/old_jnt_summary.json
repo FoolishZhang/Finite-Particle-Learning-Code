@@ -1,0 +1,50 @@
+{
+  "available": 48,
+  "unique_endpoints": 48,
+  "total_actual_diagnostic_calls": 72,
+  "original48_calls_including_lost24": 48,
+  "new_calls": 24,
+  "reused24": 24,
+  "ranges": {
+    "start0_reassessed": {
+      "objective_gap_from_same_TRAIN_reference": {
+        "min": 2.6415984670791204e-06,
+        "max": 7.1923028279741175e-06
+      },
+      "empirical_gradient_inf": {
+        "min": 0.0004684973393804545,
+        "max": 0.0009470128653662436
+      },
+      "C_difference_inf": {
+        "min": 0.002753633927283453,
+        "max": 0.008031920393413442
+      },
+      "TRAIN_analytic_KL_q_pC_mean": {
+        "min": 5.519364992665602e-06,
+        "max": 6.511870658234169e-06
+      }
+    },
+    "start1_original": {
+      "objective_gap_from_same_TRAIN_reference": {
+        "min": 2.2635483833965964e-06,
+        "max": 7.332018750361158e-06
+      },
+      "empirical_gradient_inf": {
+        "min": 0.00048752050619590634,
+        "max": 0.000890396141014332
+      },
+      "C_difference_inf": {
+        "min": 0.002315428838519866,
+        "max": 0.012100166894189558
+      },
+      "TRAIN_analytic_KL_q_pC_mean": {
+        "min": 5.392318465193177e-06,
+        "max": 7.46292615406876e-06
+      }
+    }
+  },
+  "endpoint_posterior_guard_pass_count": 48,
+  "reference_posterior_guard_pass_count": 48,
+  "guard_role": "descriptive only, not a scientific GO condition",
+  "scope": "exact empirical TRAIN NLL/gradient/Hessian, C difference and analytic KL; no actual F_K integration or parameter/global-optimality certificate"
+}

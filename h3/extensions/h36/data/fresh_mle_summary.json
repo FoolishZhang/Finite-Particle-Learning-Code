@@ -1,0 +1,10 @@
+{
+  "cases": 24,
+  "qualified": 24,
+  "max_correlation_gradient_inf": 1.7435275364305683e-14,
+  "min_C_eigenvalue": 0.888050891744105,
+  "min_local_correlation_H_eigenvalue": 0.03942004508021413,
+  "max_start_C_difference_inf": 4.4125835797770296e-14,
+  "max_start_objective_difference": 3.552713678800501e-15,
+  "qualification_scope": "unchanged local numerical checks/two starts, no global optimum certificate"
+}
